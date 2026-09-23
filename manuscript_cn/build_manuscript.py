@@ -253,7 +253,16 @@ def main() -> None:
     ast_path = BUILD / "paper_ast.json"
     ast_path.write_text(json.dumps(ast, ensure_ascii=False))
     template = BUILD / "template.tex"
-    template.write_text(TEMPLATE_SOURCE.read_text().replace("中文完整初稿", "中文逐章修订累计稿"))
+    template_text = TEMPLATE_SOURCE.read_text().replace("中文完整初稿", "中文逐章修订累计稿")
+    # The legacy \hbar macro takes its overbar from the text Roman family,
+    # whose Chinese font lacks U+00AF. Use the existing AMS mathematical
+    # glyph instead; this preserves \hbar in all manuscript source files.
+    template_text = template_text.replace(
+        r"\usepackage{amsmath,amssymb,mathtools,mathrsfs}",
+        r"\usepackage{amsmath,amssymb,mathtools,mathrsfs}" + "\n"
+        + r'\DeclareMathSymbol{\rsmhbar}{\mathord}{AMSb}{"7E}' + "\n"
+        + r"\AtBeginDocument{\renewcommand{\hbar}{\rsmhbar}}")
+    template.write_text(template_text)
     run(["pandoc", str(ast_path), "--from=json", "--to=latex", "--standalone",
          "--template", str(template), "--output", "paper.tex"], log="pandoc.log")
     tex_path = BUILD / "paper.tex"

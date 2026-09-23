@@ -51,3 +51,47 @@
 <a id="r13"></a>
 
 **[13]** Bell, J. S. On the Einstein Podolsky Rosen paradox. *Physics Physique Fizika* **1**, 195 (1964). [DOI: 10.1103/PhysicsPhysiqueFizika.1.195](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195).
+
+<a id="r14"></a>
+
+**[14]** Riess, A. G., et al. The Perfect Host: JWST Cepheid Observations in a Background-Free SN Ia Host Confirm No Bias in Hubble-Constant Measurements. 作者预印本（2025）。[arXiv:2509.01667](https://arxiv.org/abs/2509.01667).
+
+<a id="r15"></a>
+
+**[15]** Freedman, W. L., et al. Status Report on the Chicago-Carnegie Hubble Program (CCHP): Measurement of the Hubble Constant Using the Hubble and James Webb Space Telescopes. *The Astrophysical Journal* **985**, 203 (2025). [DOI: 10.3847/1538-4357/adce78](https://doi.org/10.3847/1538-4357/adce78)；[作者预印本v3](https://arxiv.org/abs/2408.06153v3)。另见该文勘误，*The Astrophysical Journal* **993**, 252 (2025)，[DOI: 10.3847/1538-4357/ae146d](https://doi.org/10.3847/1538-4357/ae146d)。
+
+<a id="r16"></a>
+
+**[16]** H0DN Collaboration. The Local Distance Network: a community consensus report on the measurement of the Hubble constant at 1% precision. *Astronomy & Astrophysics* **708**, A166 (2026). [DOI: 10.1051/0004-6361/202557993](https://doi.org/10.1051/0004-6361/202557993)；[作者预印本](https://arxiv.org/abs/2510.23823)。
+
+<a id="r17"></a>
+
+**[17]** DESI Collaboration. DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints. *Physical Review D* **112**, 083515 (2025). [DOI: 10.1103/tr6y-kpc6](https://doi.org/10.1103/tr6y-kpc6)；[作者预印本](https://arxiv.org/abs/2503.14738)。
+
+<a id="r18"></a>
+
+**[18]** DESI Collaboration. DESI DR2 Results IV: Alcock-Paczyński Measurements from the Lyman Alpha Forest and Cosmological Constraints. 作者预印本（2026），2026-07-29首稿，2026-08-04修订。[arXiv:2607.27410v3](https://arxiv.org/abs/2607.27410v3).
+
+<a id="r19"></a>
+
+**[19]** Wang, L. An Inverse-Squared-Logarithm Hubble Normalization: Conditional Distance Fits and Scalar-Field Reconstructions. 探索性工作稿及计算记录（2026）。本文使用2026-09-19的校准拟合与标量恢复报告；[原文快照及来源](../reports/chapter01_sources/README.md)，[项目主页](https://github.com/maris205/riemann_hubble)。
+
+<a id="r20"></a>
+
+**[20]** Weinberg, S. The cosmological constant problem. *Reviews of Modern Physics* **61**, 1–23 (1989). [DOI: 10.1103/RevModPhys.61.1](https://doi.org/10.1103/RevModPhys.61.1)；[出版商全文](https://harvest.aps.org/v2/journals/articles/10.1103/RevModPhys.61.1/fulltext)。
+
+<a id="r21"></a>
+
+**[21]** Padilla, A. Lectures on the Cosmological Constant Problem. 作者讲义（2015）。[arXiv:1502.05296](https://arxiv.org/abs/1502.05296)。
+
+<a id="r22"></a>
+
+**[22]** Wang, L. An Inverse-Squared-Logarithm Fine-Structure History: Conditional Tests with Atomic Clocks and Quasar Spectra. 工作稿与计算资料（2026），版本`3827e38`。[固定版本研究报告](https://github.com/maris205/riemann_fine_structure_constant/blob/3827e38f1d7e633cbd1956a8c34fa363b83b54aa/reports/research_report_zh.md)。
+
+<a id="r23"></a>
+
+**[23]** Wang, L. Finite-Resource Estimates of Riemann Zeros: Laboratory Diagnostics and a Conditional Cosmic-Time Hypothesis；Instrument and Gas-Model Sensitivity of Fe II Relative-Frequency Tests in Archival Quasar Spectra. 两份关联工作稿与计算资料（2026），版本`5b2b6b7`。[项目与稿件](https://github.com/maris205/riemann_clock/blob/5b2b6b77bd544a812fb9140a9586189448f0a40f/readme_cn.md)；[光谱诊断报告](https://github.com/maris205/riemann_clock/blob/5b2b6b77bd544a812fb9140a9586189448f0a40f/experiments/highz_feasibility_2026-09-20/reports/publication_followup_results_cn.md)；[前瞻检验设计](https://github.com/maris205/riemann_clock/blob/5b2b6b77bd544a812fb9140a9586189448f0a40f/experiments/prediction_test_2026-09-21/readme.md)。
+
+<a id="r24"></a>
+
+**[24]** Wang, L. Logarithmic lattice cooling and CMB identifiability. 工作稿与计算资料（2026），版本`f42db51`。[固定版本结果与范围](https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/readme_cn.md)。

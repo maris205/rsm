@@ -1,0 +1,12 @@
+{
+  "copied_on": "2026-09-23",
+  "source_project": "riemann_hubble",
+  "source_relative_path": "papers/calibrated_models_2026-09-19/results.md",
+  "source_head": "ef4e20b6603d1ed51bbdc4b0a219748ca3e1dcce",
+  "source_git_status": "untracked at copy time; not included in source_head",
+  "destination": "hubble_calibrated_results_20260919.txt",
+  "bytes": 11100,
+  "sha256": "6d19bf819a28097e416d0249bd55ce85217edcf8d0697167b93ff977aab17744",
+  "byte_identical": true,
+  "scientific_recomputation": false
+}
