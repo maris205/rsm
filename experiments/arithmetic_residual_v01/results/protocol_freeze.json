@@ -1,0 +1,12 @@
+{
+  "protocol": "protocol.md",
+  "sha256": "952804fa8aaf7ffa2092449010dc8a8c5d045ed319df1a7812a993ee565e9d56",
+  "frozen_utc": "2026-09-22T15:17:46.350526+00:00",
+  "scope": "Local design frozen before main dynamical outcomes; not public preregistration.",
+  "primary_metric": "T=(Hclock(20)-Hclock(0))/Htotal(0)",
+  "blocks": 8,
+  "surrogates_per_family_per_block": 99,
+  "epsilon": 0.02,
+  "N": 64,
+  "dt": 0.00125
+}

@@ -1,0 +1,277 @@
+{
+  "scope": "Independent q=dchi/dN formulation and Radau integration; fixed primary Lambda values; same initial conditions, no radiation/EM source or observation fit.",
+  "primary_summary_sha256": "943ac09595158ed9713ff1e72dc109ce852b0bd3988fd46985a712c96cbb1bf1",
+  "independent_code_sha256": "e11dfa011e2be15fdfa57350fff7351d61a4d8268a2aea82761a64b5da2a7121",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "method": "Radau",
+  "rtol": 3e-12,
+  "atol": [
+    2e-14,
+    2e-14,
+    2e-16
+  ],
+  "cases": [
+    {
+      "epsilon": 1e-06,
+      "omega_lambda_from_primary": 0.684999650530483,
+      "initial_tau": 3.756239723536052e-05,
+      "initial_q": 1.4999999983690495,
+      "initial_E_including_Lambda": 17748.24602419002,
+      "results": {
+        "E0": 0.9999999999999999,
+        "chi0": 140.14092963966277,
+        "w_chi0": -0.29600722078314573,
+        "omega_chi0": 3.494695170762542e-07,
+        "age0_Gyr": 13.79623170854079,
+        "T_chi_z4p2_year": -37183895483.3387,
+        "T_log_same_history_z4p2_year": -31850737299.980618,
+        "T_chi_over_same_history_log_z4p2": 1.1674422206659978
+      },
+      "errors": {
+        "E0": 1.1102230246251565e-16,
+        "chi0": 7.389644451905042e-13,
+        "w_chi0": 6.716849298982197e-14,
+        "omega_chi0": 1.4586110097525307e-12,
+        "age0_Gyr": 1.554312234475219e-14,
+        "T_chi_z4p2_year": 7.540634783254063e-13,
+        "T_log_same_history_z4p2_year": 1.1235457009206584e-13,
+        "T_chi_over_same_history_log_z4p2": 6.414868636284154e-13
+      },
+      "nfev": 13446,
+      "njev": 2
+    },
+    {
+      "epsilon": 0.0001,
+      "omega_lambda_from_primary": 0.6849650515603705,
+      "initial_tau": 3.75610027044308e-05,
+      "initial_q": 1.4999999983692534,
+      "initial_E_including_Lambda": 17748.904965010457,
+      "results": {
+        "E0": 1.0000000000000175,
+        "chi0": 140.14091543575964,
+        "w_chi0": -0.29598885794464364,
+        "omega_chi0": 3.494843966463847e-05,
+        "age0_Gyr": 13.795941088159001,
+        "T_chi_z4p2_year": -37183017342.82815,
+        "T_log_same_history_z4p2_year": -31850295163.327766,
+        "T_chi_over_same_history_log_z4p2": 1.1674308558885962
+      },
+      "errors": {
+        "E0": 1.7541523789077473e-14,
+        "chi0": 7.105427357601002e-13,
+        "w_chi0": 4.873879078104437e-14,
+        "omega_chi0": 1.4456214003644163e-12,
+        "age0_Gyr": 1.4654943925052066e-14,
+        "T_chi_z4p2_year": 1.2223555501122974e-13,
+        "T_log_same_history_z4p2_year": 1.0191847366058937e-13,
+        "T_chi_over_same_history_log_z4p2": 2.2426505097428162e-13
+      },
+      "nfev": 13446,
+      "njev": 2
+    },
+    {
+      "epsilon": 0.01,
+      "omega_lambda_from_primary": 0.6814901743030797,
+      "initial_tau": 3.742128717302583e-05,
+      "initial_q": 1.4999999983895738,
+      "initial_E_including_Lambda": 17815.171998224614,
+      "results": {
+        "E0": 0.9999999999999973,
+        "chi0": 140.13948866934777,
+        "w_chi0": -0.2941445349672832,
+        "omega_chi0": 0.003509825696915028,
+        "age0_Gyr": 13.766786736419295,
+        "T_chi_z4p2_year": -37094903247.687256,
+        "T_log_same_history_z4p2_year": -31805892708.83832,
+        "T_chi_over_same_history_log_z4p2": 1.1662902716570884
+      },
+      "errors": {
+        "E0": 2.6645352591003757e-15,
+        "chi0": 7.673861546209082e-13,
+        "w_chi0": 1.4510614931850796e-13,
+        "omega_chi0": 1.475486399726833e-12,
+        "age0_Gyr": 2.042810365310288e-14,
+        "T_chi_z4p2_year": 3.2083224965617774e-12,
+        "T_log_same_history_z4p2_year": 2.8044233602031454e-13,
+        "T_chi_over_same_history_log_z4p2": 2.9276581159365378e-12
+      },
+      "nfev": 13439,
+      "njev": 2
+    }
+  ],
+  "checks": [
+    {
+      "name": "epsilon_1e-06_E0",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1e-06_chi0",
+      "error": 7.389644451905042e-13,
+      "limit": 1e-08,
+      "metric": "absolute",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1e-06_w_chi0",
+      "error": 6.716849298982197e-14,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1e-06_omega_chi0",
+      "error": 1.4586110097525307e-12,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1e-06_age0_Gyr",
+      "error": 1.554312234475219e-14,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1e-06_T_chi_z4p2_year",
+      "error": 7.540634783254063e-13,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1e-06_T_log_same_history_z4p2_year",
+      "error": 1.1235457009206584e-13,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1e-06_T_chi_over_same_history_log_z4p2",
+      "error": 6.414868636284154e-13,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.0001_E0",
+      "error": 1.7541523789077473e-14,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.0001_chi0",
+      "error": 7.105427357601002e-13,
+      "limit": 1e-08,
+      "metric": "absolute",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.0001_w_chi0",
+      "error": 4.873879078104437e-14,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.0001_omega_chi0",
+      "error": 1.4456214003644163e-12,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.0001_age0_Gyr",
+      "error": 1.4654943925052066e-14,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.0001_T_chi_z4p2_year",
+      "error": 1.2223555501122974e-13,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.0001_T_log_same_history_z4p2_year",
+      "error": 1.0191847366058937e-13,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.0001_T_chi_over_same_history_log_z4p2",
+      "error": 2.2426505097428162e-13,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.01_E0",
+      "error": 2.6645352591003757e-15,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.01_chi0",
+      "error": 7.673861546209082e-13,
+      "limit": 1e-08,
+      "metric": "absolute",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.01_w_chi0",
+      "error": 1.4510614931850796e-13,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.01_omega_chi0",
+      "error": 1.475486399726833e-12,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.01_age0_Gyr",
+      "error": 2.042810365310288e-14,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.01_T_chi_z4p2_year",
+      "error": 3.2083224965617774e-12,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.01_T_log_same_history_z4p2_year",
+      "error": 2.8044233602031454e-13,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_0.01_T_chi_over_same_history_log_z4p2",
+      "error": 2.9276581159365378e-12,
+      "limit": 1e-08,
+      "metric": "relative",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true
+}

@@ -1,0 +1,1006 @@
+{
+  "status": "PASS",
+  "method": "Independent rational transfer, covariance GLS normal equations, full-observation noise",
+  "reviewed_main_script_sha256": "7f8f56274a8ab42f5dd8fd9b057998cf1cf6639e83f158394f2d253cadd7bfe4",
+  "check_script_sha256": "19caaeaca1f40ee2b3bdb8007a11e045311a6cef71cb7bbf4e2fc245da2bb797",
+  "checks": [
+    {
+      "name": "king_only_GLS_sigma",
+      "passed": true,
+      "max_relative_error": 2.220446049250313e-16
+    },
+    {
+      "name": "king_only_score_covariance",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s2_d0.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s1_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s1_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s1_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s1_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s1_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s1_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s2_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s2_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s2_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s2_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s2_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s2_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s3_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s3_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s3_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s3_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s3_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_power_s3_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_shape_1_to_2",
+      "passed": true,
+      "relative_error": 2.5091040356528538e-14
+    },
+    {
+      "name": "king_only_shape_1_to_3",
+      "passed": true,
+      "relative_error": 1.3766765505351941e-14
+    },
+    {
+      "name": "king_only_shape_2_to_1",
+      "passed": true,
+      "relative_error": 2.4424906541753444e-14
+    },
+    {
+      "name": "king_only_shape_2_to_3",
+      "passed": true,
+      "relative_error": 3.552713678800501e-14
+    },
+    {
+      "name": "king_only_shape_3_to_1",
+      "passed": true,
+      "relative_error": 1.3100631690576847e-14
+    },
+    {
+      "name": "king_only_shape_3_to_2",
+      "passed": true,
+      "relative_error": 4.6629367034256575e-15
+    },
+    {
+      "name": "king_only_full_observation_null",
+      "passed": true,
+      "false_positive": 0.0488125,
+      "mc_se": 0.0017230060940112777
+    },
+    {
+      "name": "king_only_full_observation_scan",
+      "passed": true,
+      "false_positive": 0.0491875,
+      "calibration_and_evaluation_mc_se": 0.0021335611857486846
+    },
+    {
+      "name": "king_only_offsets_GLS_sigma",
+      "passed": true,
+      "max_relative_error": 4.6629367034256575e-15
+    },
+    {
+      "name": "king_only_offsets_score_covariance",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s2_d0.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s1_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s1_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s1_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s1_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s1_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s1_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s2_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s2_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s2_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s2_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s2_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s2_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s3_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s3_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s3_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s3_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s3_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_power_s3_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_shape_1_to_2",
+      "passed": true,
+      "relative_error": 1.7541523789077473e-14
+    },
+    {
+      "name": "king_only_offsets_shape_1_to_3",
+      "passed": true,
+      "relative_error": 2.964295475749168e-14
+    },
+    {
+      "name": "king_only_offsets_shape_2_to_1",
+      "passed": true,
+      "relative_error": 3.863576125695545e-14
+    },
+    {
+      "name": "king_only_offsets_shape_2_to_3",
+      "passed": true,
+      "relative_error": 6.217248937900877e-14
+    },
+    {
+      "name": "king_only_offsets_shape_3_to_1",
+      "passed": true,
+      "relative_error": 1.8096635301390052e-14
+    },
+    {
+      "name": "king_only_offsets_shape_3_to_2",
+      "passed": true,
+      "relative_error": 6.294964549624638e-14
+    },
+    {
+      "name": "king_only_offsets_full_observation_null",
+      "passed": true,
+      "false_positive": 0.0525625,
+      "mc_se": 0.0017230060940112777
+    },
+    {
+      "name": "king_only_offsets_full_observation_scan",
+      "passed": true,
+      "false_positive": 0.0536875,
+      "calibration_and_evaluation_mc_se": 0.0021335611857486846
+    },
+    {
+      "name": "king_clock_GLS_sigma",
+      "passed": true,
+      "max_relative_error": 0.0
+    },
+    {
+      "name": "king_clock_score_covariance",
+      "passed": true
+    },
+    {
+      "name": "king_clock_clock_information_fraction",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s2_d0.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s1_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s1_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s1_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s1_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s1_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s1_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s2_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s2_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s2_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s2_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s2_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s2_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s3_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s3_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s3_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s3_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s3_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_power_s3_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_shape_1_to_2",
+      "passed": true,
+      "relative_error": 1.6431300764452317e-14
+    },
+    {
+      "name": "king_clock_shape_1_to_3",
+      "passed": true,
+      "relative_error": 5.329070518200751e-15
+    },
+    {
+      "name": "king_clock_shape_2_to_1",
+      "passed": true,
+      "relative_error": 4.1300296516055823e-14
+    },
+    {
+      "name": "king_clock_shape_2_to_3",
+      "passed": true,
+      "relative_error": 6.994405055138486e-15
+    },
+    {
+      "name": "king_clock_shape_3_to_1",
+      "passed": true,
+      "relative_error": 1.4432899320127035e-15
+    },
+    {
+      "name": "king_clock_shape_3_to_2",
+      "passed": true,
+      "relative_error": 9.769962616701378e-15
+    },
+    {
+      "name": "king_clock_full_observation_null",
+      "passed": true,
+      "false_positive": 0.05075,
+      "mc_se": 0.0017230060940112777
+    },
+    {
+      "name": "king_clock_full_observation_scan",
+      "passed": true,
+      "false_positive": 0.0500625,
+      "calibration_and_evaluation_mc_se": 0.0021335611857486846
+    },
+    {
+      "name": "king_clock_offsets_GLS_sigma",
+      "passed": true,
+      "max_relative_error": 2.220446049250313e-16
+    },
+    {
+      "name": "king_clock_offsets_score_covariance",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_clock_information_fraction",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s2_d0.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s1_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s1_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s1_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s1_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s1_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s1_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s2_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s2_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s2_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s2_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s2_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s2_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s3_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s3_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s3_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s3_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s3_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_power_s3_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_shape_1_to_2",
+      "passed": true,
+      "relative_error": 1.1102230246251565e-15
+    },
+    {
+      "name": "king_clock_offsets_shape_1_to_3",
+      "passed": true,
+      "relative_error": 1.3322676295501878e-15
+    },
+    {
+      "name": "king_clock_offsets_shape_2_to_1",
+      "passed": true,
+      "relative_error": 3.774758283725532e-15
+    },
+    {
+      "name": "king_clock_offsets_shape_2_to_3",
+      "passed": true,
+      "relative_error": 1.0880185641326534e-14
+    },
+    {
+      "name": "king_clock_offsets_shape_3_to_1",
+      "passed": true,
+      "relative_error": 8.881784197001252e-16
+    },
+    {
+      "name": "king_clock_offsets_shape_3_to_2",
+      "passed": true,
+      "relative_error": 1.021405182655144e-14
+    },
+    {
+      "name": "king_clock_offsets_full_observation_null",
+      "passed": true,
+      "false_positive": 0.049,
+      "mc_se": 0.0017230060940112777
+    },
+    {
+      "name": "king_clock_offsets_full_observation_scan",
+      "passed": true,
+      "false_positive": 0.0474375,
+      "calibration_and_evaluation_mc_se": 0.0021335611857486846
+    },
+    {
+      "name": "espresso_clock_GLS_sigma",
+      "passed": true,
+      "max_relative_error": 2.220446049250313e-16
+    },
+    {
+      "name": "espresso_clock_score_covariance",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_clock_information_fraction",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s2_d0.0",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s1_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s1_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s1_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s1_d2.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s1_d5.0",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s1_d12.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s2_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s2_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s2_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s2_d2.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s2_d5.0",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s2_d12.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s3_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s3_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s3_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s3_d2.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s3_d5.0",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_power_s3_d12.5",
+      "passed": true
+    },
+    {
+      "name": "espresso_clock_shape_1_to_2",
+      "passed": true,
+      "relative_error": 1.3422596367718143e-13
+    },
+    {
+      "name": "espresso_clock_shape_1_to_3",
+      "passed": true,
+      "relative_error": 8.548717289613705e-14
+    },
+    {
+      "name": "espresso_clock_shape_2_to_1",
+      "passed": true,
+      "relative_error": 1.1246559239452836e-13
+    },
+    {
+      "name": "espresso_clock_shape_2_to_3",
+      "passed": true,
+      "relative_error": 1.6708856520608606e-13
+    },
+    {
+      "name": "espresso_clock_shape_3_to_1",
+      "passed": true,
+      "relative_error": 2.453592884421596e-14
+    },
+    {
+      "name": "espresso_clock_shape_3_to_2",
+      "passed": true,
+      "relative_error": 7.116529587847253e-14
+    },
+    {
+      "name": "espresso_clock_full_observation_null",
+      "passed": true,
+      "false_positive": 0.0531875,
+      "mc_se": 0.0017230060940112777
+    },
+    {
+      "name": "espresso_clock_full_observation_scan",
+      "passed": true,
+      "false_positive": 0.053125,
+      "calibration_and_evaluation_mc_se": 0.0021335611857486846
+    },
+    {
+      "name": "king_only_offsets_rho025_GLS_sigma",
+      "passed": true,
+      "max_relative_error": 4.218847493575595e-15
+    },
+    {
+      "name": "king_only_offsets_rho025_score_covariance",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s2_d0.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s1_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s1_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s1_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s1_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s1_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s1_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s2_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s2_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s2_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s2_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s2_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s2_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s3_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s3_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s3_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s3_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s3_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_power_s3_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_only_offsets_rho025_shape_1_to_2",
+      "passed": true,
+      "relative_error": 6.439293542825908e-15
+    },
+    {
+      "name": "king_only_offsets_rho025_shape_1_to_3",
+      "passed": true,
+      "relative_error": 5.861977570020827e-14
+    },
+    {
+      "name": "king_only_offsets_rho025_shape_2_to_1",
+      "passed": true,
+      "relative_error": 3.042011087472929e-14
+    },
+    {
+      "name": "king_only_offsets_rho025_shape_2_to_3",
+      "passed": true,
+      "relative_error": 1.5787371410169726e-13
+    },
+    {
+      "name": "king_only_offsets_rho025_shape_3_to_1",
+      "passed": true,
+      "relative_error": 5.284661597215745e-14
+    },
+    {
+      "name": "king_only_offsets_rho025_shape_3_to_2",
+      "passed": true,
+      "relative_error": 1.630917623174355e-13
+    },
+    {
+      "name": "king_only_offsets_rho025_full_observation_null",
+      "passed": true,
+      "false_positive": 0.0485625,
+      "mc_se": 0.0017230060940112777
+    },
+    {
+      "name": "king_only_offsets_rho025_full_observation_scan",
+      "passed": true,
+      "false_positive": 0.0471875,
+      "calibration_and_evaluation_mc_se": 0.0021335611857486846
+    },
+    {
+      "name": "king_clock_offsets_rho025_GLS_sigma",
+      "passed": true,
+      "max_relative_error": 2.220446049250313e-16
+    },
+    {
+      "name": "king_clock_offsets_rho025_score_covariance",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_clock_information_fraction",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s2_d0.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s1_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s1_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s1_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s1_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s1_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s1_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s2_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s2_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s2_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s2_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s2_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s2_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s3_d-12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s3_d-5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s3_d-2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s3_d2.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s3_d5.0",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_power_s3_d12.5",
+      "passed": true
+    },
+    {
+      "name": "king_clock_offsets_rho025_shape_1_to_2",
+      "passed": true,
+      "relative_error": 6.661338147750939e-15
+    },
+    {
+      "name": "king_clock_offsets_rho025_shape_1_to_3",
+      "passed": true,
+      "relative_error": 5.329070518200751e-15
+    },
+    {
+      "name": "king_clock_offsets_rho025_shape_2_to_1",
+      "passed": true,
+      "relative_error": 2.886579864025407e-15
+    },
+    {
+      "name": "king_clock_offsets_rho025_shape_2_to_3",
+      "passed": true,
+      "relative_error": 8.992806499463768e-15
+    },
+    {
+      "name": "king_clock_offsets_rho025_shape_3_to_1",
+      "passed": true,
+      "relative_error": 5.773159728050814e-15
+    },
+    {
+      "name": "king_clock_offsets_rho025_shape_3_to_2",
+      "passed": true,
+      "relative_error": 9.547918011776346e-15
+    },
+    {
+      "name": "king_clock_offsets_rho025_full_observation_null",
+      "passed": true,
+      "false_positive": 0.0525625,
+      "mc_se": 0.0017230060940112777
+    },
+    {
+      "name": "king_clock_offsets_rho025_full_observation_scan",
+      "passed": true,
+      "false_positive": 0.0525625,
+      "calibration_and_evaluation_mc_se": 0.0021335611857486846
+    }
+  ],
+  "design_details": [
+    {
+      "design": "king_only",
+      "independent_sigma_d": [
+        511.56333668607607,
+        509.1243172698376,
+        506.6914187960037
+      ],
+      "independent_full_observation_null": 0.0488125,
+      "independent_full_observation_scan": 0.0491875,
+      "stored_scan_false_positive": 0.0521,
+      "stored_scan_conditional_mc_se": 0.0015713941262458632,
+      "combined_scan_mc_se_at_nominal": 0.0019895560643855537
+    },
+    {
+      "design": "king_only_offsets",
+      "independent_sigma_d": [
+        1858.4001915881163,
+        1842.6268883617543,
+        1826.9750146554286
+      ],
+      "independent_full_observation_null": 0.0525625,
+      "independent_full_observation_scan": 0.0536875,
+      "stored_scan_false_positive": 0.04995,
+      "stored_scan_conditional_mc_se": 0.001540373290796747,
+      "combined_scan_mc_se_at_nominal": 0.0019895560643855537
+    },
+    {
+      "design": "king_clock",
+      "independent_sigma_d": [
+        2.499970147312925,
+        2.499969860607433,
+        2.499969570486951
+      ],
+      "independent_full_observation_null": 0.05075,
+      "independent_full_observation_scan": 0.0500625,
+      "stored_scan_false_positive": 0.05015,
+      "stored_scan_conditional_mc_se": 0.0015432915716092018,
+      "combined_scan_mc_se_at_nominal": 0.0019895560643855537
+    },
+    {
+      "design": "king_clock_offsets",
+      "independent_sigma_d": [
+        2.499997737904386,
+        2.499997699010578,
+        2.4999976594161493
+      ],
+      "independent_full_observation_null": 0.049,
+      "independent_full_observation_scan": 0.0474375,
+      "stored_scan_false_positive": 0.0463,
+      "stored_scan_conditional_mc_se": 0.0014858719662205085,
+      "combined_scan_mc_se_at_nominal": 0.0019895560643855537
+    },
+    {
+      "design": "espresso_clock",
+      "independent_sigma_d": [
+        2.4999924828542506,
+        2.4999924309437733,
+        2.499992378614873
+      ],
+      "independent_full_observation_null": 0.0531875,
+      "independent_full_observation_scan": 0.053125,
+      "stored_scan_false_positive": 0.05105,
+      "stored_scan_conditional_mc_se": 0.0015563402182684864,
+      "combined_scan_mc_se_at_nominal": 0.0019895560643855537
+    },
+    {
+      "design": "king_only_offsets_rho025",
+      "independent_sigma_d": [
+        1914.7375410770646,
+        1898.58662193745,
+        1882.5587551247584
+      ],
+      "independent_full_observation_null": 0.0485625,
+      "independent_full_observation_scan": 0.0471875,
+      "stored_scan_false_positive": 0.05045,
+      "stored_scan_conditional_mc_se": 0.0015476562522084806,
+      "combined_scan_mc_se_at_nominal": 0.0019895560643855537
+    },
+    {
+      "design": "king_clock_offsets_rho025",
+      "independent_sigma_d": [
+        2.499997869061233,
+        2.499997832652083,
+        2.4999977955899784
+      ],
+      "independent_full_observation_null": 0.0525625,
+      "independent_full_observation_scan": 0.0525625,
+      "stored_scan_false_positive": 0.0525,
+      "stored_scan_conditional_mc_se": 0.001577081957286938,
+      "combined_scan_mc_se_at_nominal": 0.0019895560643855537
+    }
+  ]
+}

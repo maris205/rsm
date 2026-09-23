@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/maris205/riemann_logistic/e3419dda3d5515afd91a5dd6e8d8b8398f359dde/python/riemann_10k_true.npy",
+      "path": "data/raw/riemann_10k_true.npy",
+      "sha256": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "bytes": 80128,
+      "expected_sha256": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545"
+    },
+    {
+      "url": "https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1",
+      "path": "data/raw/odlyzko_zeros1.txt",
+      "sha256": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632",
+      "bytes": 1800000,
+      "expected_sha256": null
+    },
+    {
+      "path": "riemann_clock/data/processed/mathematical_reference_zeros.csv",
+      "sha256": "24a20835b4c4028c6235d646d31279ad9d0bb49d98780062f1497fb240f5186c",
+      "rows": 83,
+      "method": "mpmath.zetazero (existing project data)"
+    }
+  ],
+  "warning": "numerical Riemann zero ordinates; mathematical reference, not physical observations",
+  "cross_checks": {
+    "official": {
+      "compared_count": 10000,
+      "official_table_count": 100000,
+      "max_abs_difference": 2.9122020350769162e-09,
+      "threshold": 3e-09
+    },
+    "local": {
+      "compared_count": 83,
+      "max_abs_difference": 0.0
+    }
+  }
+}

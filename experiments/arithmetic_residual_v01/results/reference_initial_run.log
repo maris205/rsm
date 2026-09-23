@@ -1,0 +1,62 @@
+reference N=64 case=0 family=baseline block=-1
+reference N=64 case=1 family=real block=0
+reference N=64 case=2 family=iaaft block=0
+reference N=64 case=101 family=exact_spectrum block=0
+reference N=64 case=200 family=real block=1
+reference N=64 case=399 family=real block=2
+reference N=64 case=598 family=real block=3
+reference N=64 case=797 family=real block=4
+reference N=64 case=996 family=real block=5
+reference N=64 case=1195 family=real block=6
+reference N=64 case=1394 family=real block=7
+reference N=128 case=0 family=baseline block=-1
+reference N=128 case=1 family=real block=0
+reference N=128 case=2 family=iaaft block=0
+reference N=128 case=101 family=exact_spectrum block=0
+reference N=128 case=200 family=real block=1
+reference N=128 case=399 family=real block=2
+reference N=128 case=598 family=real block=3
+reference N=128 case=797 family=real block=4
+reference N=128 case=996 family=real block=5
+reference N=128 case=1195 family=real block=6
+reference N=128 case=1394 family=real block=7
+reference tight N=64 case=1
+{
+  "checks": {
+    "all_derivative_checks_passed": true,
+    "positive_sampled_branch_all_selected": true,
+    "initial_mass_is_one_all_selected": true,
+    "energy_and_work_relative_errors_below_1e_8": false,
+    "tight_primary_change_below_1e_9": false
+  },
+  "tight_check": {
+    "caseid": 1,
+    "diagnostics": {
+      "N": 64,
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_step": 0.005,
+      "nfev": 53333,
+      "elapsed_seconds": 5.533313915133476,
+      "primary_T": 0.04493942029668767,
+      "initial_total_energy": 1.3218983914666937,
+      "final_R": 3.080450002064737,
+      "min_sampled_R": 1.0,
+      "min_sampled_Rdot": 0.1,
+      "min_sampled_mass_squared": 0.7047900794054456,
+      "max_sampled_total_energy_relative_error": 3.428383622142459e-11,
+      "max_sampled_field_work_relative_error": 3.4285227256390973e-11,
+      "max_sampled_clock_work_relative_error": 2.2204067576601714e-15
+    },
+    "absolute_primary_T_change": 1.3477063978695192e-09,
+    "max_field_RMS_change": 5.595312210116866e-11,
+    "max_clock_change": 1.5590084778693836e-09
+  },
+  "regression": {
+    "source": "experiments/log_clock_coupling_v01/results/reference_full_N64_I100.npz",
+    "source_sha256": "5a9c7165817f21ffa787df31816a0d3073ddcc4d371205a9fdc3fd200d6b381e",
+    "max_field_RMS_difference": 1.038850431325961e-12,
+    "max_clock_difference": 1.2878587085651816e-14,
+    "max_clock_speed_difference": 2.373101715136272e-15
+  }
+}

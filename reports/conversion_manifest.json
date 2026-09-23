@@ -1,0 +1,546 @@
+{
+  "source": "ori_paper/merged_document_v2_with_latex.docx",
+  "source_sha256": "9aaf391de785d561f18878936b9ac725533c2730b9068dba0bbeef03383a3bb1",
+  "pandoc_version": "pandoc 2.9.2.1",
+  "markdown_format": "markdown+tex_math_dollars-simple_tables-multiline_tables-grid_tables",
+  "chapter_file_count": 13,
+  "source_top_level_blocks": 624,
+  "source_docx_inventory": {
+    "omath_nodes": 335,
+    "tables": 5,
+    "body_image_references": 9,
+    "embedded_media_entries": 10,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0
+  },
+  "source_ast_counts": {
+    "Header": 134,
+    "Math": 335,
+    "InlineMath": 315,
+    "DisplayMath": 20,
+    "Table": 5,
+    "Image": 9,
+    "Link": 64,
+    "Note": 0
+  },
+  "markdown_roundtrip_counts": {
+    "Header": 134,
+    "Math": 335,
+    "InlineMath": 315,
+    "DisplayMath": 20,
+    "Table": 5,
+    "Image": 9,
+    "Link": 64,
+    "Note": 0
+  },
+  "checks": {
+    "source_unchanged": true,
+    "all_blocks_partitioned_once": true,
+    "source_omath_to_pandoc_math": true,
+    "equations_preserved": true,
+    "prose_words_preserved": true,
+    "equation_order_preserved": true,
+    "prose_word_order_preserved": true,
+    "table_count_preserved": true,
+    "image_count_preserved": true,
+    "image_targets_preserved": true,
+    "header_count_preserved": true,
+    "embedded_images_byte_identical": true
+  },
+  "status": "PASS",
+  "chapters": [
+    {
+      "file": "chapters/00_front_matter.md",
+      "title": "Front matter: title, abstract and original preliminary material",
+      "source_block_start_inclusive": 0,
+      "source_block_stop_exclusive": 82,
+      "source_counts": {
+        "Header": 2,
+        "Math": 14,
+        "InlineMath": 14,
+        "DisplayMath": 0,
+        "Table": 1,
+        "Image": 2,
+        "Link": 63,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 2,
+        "Math": 14,
+        "InlineMath": 14,
+        "DisplayMath": 0,
+        "Table": 1,
+        "Image": 2,
+        "Link": 63,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 1034,
+      "sha256": "a30828cb6df1766ae3fc4d69adda2309ec3f0b7479199aad3bea72164e115697"
+    },
+    {
+      "file": "chapters/01_chapter_00_introduction.md",
+      "title": "Chapter 0: Introduction",
+      "source_block_start_inclusive": 82,
+      "source_block_stop_exclusive": 144,
+      "source_counts": {
+        "Header": 23,
+        "Math": 39,
+        "InlineMath": 37,
+        "DisplayMath": 2,
+        "Table": 1,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 23,
+        "Math": 39,
+        "InlineMath": 37,
+        "DisplayMath": 2,
+        "Table": 1,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 945,
+      "sha256": "e6c176c3179ae85876d3d0a9f8a26c3d97a58dfd8a74a2384a468d6828c7e5c4"
+    },
+    {
+      "file": "chapters/02_chapter_01_system_anomaly.md",
+      "title": "Chapter 1: System Anomaly (The Bug) — Two New Dark Clouds Over the Physics Sky",
+      "source_block_start_inclusive": 144,
+      "source_block_stop_exclusive": 185,
+      "source_counts": {
+        "Header": 6,
+        "Math": 14,
+        "InlineMath": 14,
+        "DisplayMath": 0,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 6,
+        "Math": 14,
+        "InlineMath": 14,
+        "DisplayMath": 0,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 1038,
+      "sha256": "1b35d9d989bf7be4d7c591d5c3287e62480b53be710d36b464448b220aa74de9"
+    },
+    {
+      "file": "chapters/03_chapter_02_source_code.md",
+      "title": "Chapter 2: The Source Code — Discrete Iteration of 0 and 1",
+      "source_block_start_inclusive": 185,
+      "source_block_stop_exclusive": 235,
+      "source_counts": {
+        "Header": 6,
+        "Math": 34,
+        "InlineMath": 31,
+        "DisplayMath": 3,
+        "Table": 0,
+        "Image": 3,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 6,
+        "Math": 34,
+        "InlineMath": 31,
+        "DisplayMath": 3,
+        "Table": 0,
+        "Image": 3,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 1068,
+      "sha256": "367ef0ec44aeb9f5e99c3e1d9394ed6e2108217ef85f9ac5a26de6bee0366b83"
+    },
+    {
+      "file": "chapters/04_chapter_03_cosmic_lockstep.md",
+      "title": "Chapter 3: Formalism — The Cosmic Lockstep Architecture",
+      "source_block_start_inclusive": 235,
+      "source_block_stop_exclusive": 281,
+      "source_counts": {
+        "Header": 5,
+        "Math": 23,
+        "InlineMath": 21,
+        "DisplayMath": 2,
+        "Table": 1,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 5,
+        "Math": 23,
+        "InlineMath": 21,
+        "DisplayMath": 2,
+        "Table": 1,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 839,
+      "sha256": "34e296fb189e78a0107ea74ca3f53d7cd9332a182bae817101587ebaa922d41a"
+    },
+    {
+      "file": "chapters/05_chapter_04_mathematical_framework.md",
+      "title": "Chapter 4: Mathematical Framework — Symplectic Evolution and Discrete Manifold Mapping",
+      "source_block_start_inclusive": 281,
+      "source_block_stop_exclusive": 331,
+      "source_counts": {
+        "Header": 16,
+        "Math": 42,
+        "InlineMath": 36,
+        "DisplayMath": 6,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 16,
+        "Math": 42,
+        "InlineMath": 36,
+        "DisplayMath": 6,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 883,
+      "sha256": "ad028c64f5c7b378ac5d019a750382f3b294254869fb19022607a090cc992513"
+    },
+    {
+      "file": "chapters/06_chapter_05_observational_evidence.md",
+      "title": "Chapter 5: Observational Evidence — Fingerprints of System Aging",
+      "source_block_start_inclusive": 331,
+      "source_block_stop_exclusive": 412,
+      "source_counts": {
+        "Header": 19,
+        "Math": 86,
+        "InlineMath": 82,
+        "DisplayMath": 4,
+        "Table": 0,
+        "Image": 4,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 19,
+        "Math": 86,
+        "InlineMath": 82,
+        "DisplayMath": 4,
+        "Table": 0,
+        "Image": 4,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 1368,
+      "sha256": "5caebab3f952c7cbb7ae8c657f1d1237939e5df76b08d265b2f3e03367b23ddf"
+    },
+    {
+      "file": "chapters/07_chapter_06_predictions_interpretations.md",
+      "title": "Chapter 6: Predictions & Interpretations",
+      "source_block_start_inclusive": 412,
+      "source_block_stop_exclusive": 462,
+      "source_counts": {
+        "Header": 19,
+        "Math": 21,
+        "InlineMath": 20,
+        "DisplayMath": 1,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 19,
+        "Math": 21,
+        "InlineMath": 20,
+        "DisplayMath": 1,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 976,
+      "sha256": "21f453477e9e188c4e0cf858fcb19a238a561ac8853cf4ff78b1cab67de2dee2"
+    },
+    {
+      "file": "chapters/08_chapter_07_engine_design.md",
+      "title": "Chapter 7: Riemann Engine Design v1.0",
+      "source_block_start_inclusive": 462,
+      "source_block_stop_exclusive": 519,
+      "source_counts": {
+        "Header": 16,
+        "Math": 22,
+        "InlineMath": 21,
+        "DisplayMath": 1,
+        "Table": 1,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 16,
+        "Math": 22,
+        "InlineMath": 21,
+        "DisplayMath": 1,
+        "Table": 1,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 1071,
+      "sha256": "e09dc5e310db8861a9954f9e4bc7b3bbfd27cae2206513c7ccbb1b2233f6e7e7"
+    },
+    {
+      "file": "chapters/09_chapter_08_simulation_case_studies.md",
+      "title": "Chapter 8: Simulation Case Studies & System Verification Guide",
+      "source_block_start_inclusive": 519,
+      "source_block_stop_exclusive": 574,
+      "source_counts": {
+        "Header": 13,
+        "Math": 31,
+        "InlineMath": 31,
+        "DisplayMath": 0,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 13,
+        "Math": 31,
+        "InlineMath": 31,
+        "DisplayMath": 0,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 725,
+      "sha256": "e8affb87837bf2025de9c0e56c5703247803a25772acbba8aead3cd7c70ac1ac"
+    },
+    {
+      "file": "chapters/10_chapter_09_conclusion.md",
+      "title": "Chapter 9: Conclusion — From Geometry to Computation, Obtaining Universe Root Access",
+      "source_block_start_inclusive": 574,
+      "source_block_stop_exclusive": 618,
+      "source_counts": {
+        "Header": 7,
+        "Math": 9,
+        "InlineMath": 8,
+        "DisplayMath": 1,
+        "Table": 1,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 7,
+        "Math": 9,
+        "InlineMath": 8,
+        "DisplayMath": 1,
+        "Table": 1,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 824,
+      "sha256": "8f656e7a61f0c26337bc7fa98757a4bb4cb0601d149d63ff0da991b6beb1b79c"
+    },
+    {
+      "file": "chapters/11_references.md",
+      "title": "References",
+      "source_block_start_inclusive": 618,
+      "source_block_stop_exclusive": 620,
+      "source_counts": {
+        "Header": 1,
+        "Math": 0,
+        "InlineMath": 0,
+        "DisplayMath": 0,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 1,
+        "Math": 0,
+        "InlineMath": 0,
+        "DisplayMath": 0,
+        "Table": 0,
+        "Image": 0,
+        "Link": 0,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 486,
+      "sha256": "a23811d8249630942b4985fe76c71e838a3b22b73a6a2a6add9476dabaf0a4cd"
+    },
+    {
+      "file": "chapters/12_acknowledgments.md",
+      "title": "Acknowledgments",
+      "source_block_start_inclusive": 620,
+      "source_block_stop_exclusive": 624,
+      "source_counts": {
+        "Header": 1,
+        "Math": 0,
+        "InlineMath": 0,
+        "DisplayMath": 0,
+        "Table": 0,
+        "Image": 0,
+        "Link": 1,
+        "Note": 0
+      },
+      "markdown_counts": {
+        "Header": 1,
+        "Math": 0,
+        "InlineMath": 0,
+        "DisplayMath": 0,
+        "Table": 0,
+        "Image": 0,
+        "Link": 1,
+        "Note": 0
+      },
+      "math_exact_multiset_preserved": true,
+      "prose_word_multiset_preserved": true,
+      "image_targets_preserved": true,
+      "equation_order_preserved": true,
+      "prose_word_order_preserved": true,
+      "word_count": 56,
+      "sha256": "0d0a6067182be4c43b7ff6058324975b9d43f0187d9e83bdfebb44605ced39f0"
+    }
+  ],
+  "assets": [
+    {
+      "file": "chapters/assets/media/image1.png",
+      "docx_member": "word/media/image1.png",
+      "bytes": 162262,
+      "sha256": "efc29b9c5193165cb2a0a48645c194fe041cab55dd25d773a1901bf0d9033eb1"
+    },
+    {
+      "file": "chapters/assets/media/image2.png",
+      "docx_member": "word/media/image2.png",
+      "bytes": 114636,
+      "sha256": "4457cd5aa24a4ce3e7569e2915206f16501e45b309d91b1ab9b57992c7304b86"
+    },
+    {
+      "file": "chapters/assets/media/image3.png",
+      "docx_member": "word/media/image3.png",
+      "bytes": 186770,
+      "sha256": "ef46c66d0863dff5eaf33c2197f2211a12eb5eb39107900837d4639f1fc77f98"
+    },
+    {
+      "file": "chapters/assets/media/image4.png",
+      "docx_member": "word/media/image4.png",
+      "bytes": 296568,
+      "sha256": "0a46dcafe37fb72b37f636927094b577abddab23640c563347d2b566e4437a0f"
+    },
+    {
+      "file": "chapters/assets/media/image5.png",
+      "docx_member": "word/media/image5.png",
+      "bytes": 94616,
+      "sha256": "59ffbecab29cd4b05b577272913edb958e4d03a10ee6d9e58b3fb0845e6bd224"
+    },
+    {
+      "file": "chapters/assets/media/image6.png",
+      "docx_member": "word/media/image6.png",
+      "bytes": 116848,
+      "sha256": "ace0664b1e928fee65d9631b8182c953541acc89460a2f1da8298928d6275554"
+    },
+    {
+      "file": "chapters/assets/media/image7.png",
+      "docx_member": "word/media/image7.png",
+      "bytes": 113169,
+      "sha256": "e986fbad323edac36698ccac1ea206fd95da4ba0d0558160e75b5610a9c1f96f"
+    },
+    {
+      "file": "chapters/assets/media/image8.png",
+      "docx_member": "word/media/image8.png",
+      "bytes": 134477,
+      "sha256": "6aff1432453464c0f0eed272c990bf223a42289154bdc0c3e6cd2a3b7fc2a0dd"
+    },
+    {
+      "file": "chapters/assets/media/image9.png",
+      "docx_member": "word/media/image9.png",
+      "bytes": 149306,
+      "sha256": "b0668c8d537756026854dd642ec038ee7225bfa9b109e2f4532b0416ff326c84"
+    }
+  ],
+  "notes": [
+    "No scientific claims, citations or numerical values were revised or independently verified.",
+    "Original preliminary material and repeated comparison appendices remain in their source positions.",
+    "Word page layout, image sizing and typography are not preserved; heading levels are promoted by one.",
+    "Original Word TOC labels/page numbers are preserved in the front matter; use the new chapter index for working links.",
+    "Only body-referenced media are displayed; package-only media are not inserted as new content."
+  ],
+  "conversion_script_sha256": "e0212627ebe72dda6ae4b55ccbc7fc964a24deed98dc22a2833a45544bdb5bf2"
+}

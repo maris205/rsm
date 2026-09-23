@@ -1,0 +1,103 @@
+{
+  "parameters": {
+    "N": 64,
+    "L": 6.283185307179586,
+    "a": 0.09817477042468103,
+    "I": 100.0,
+    "b": 2.0,
+    "epsilon": 0.02,
+    "Rstar": 0.1353352832366127,
+    "R_initial": 1.0,
+    "Rdot_initial": 0.1,
+    "field_amplitude": 0.5,
+    "dt": 0.00125,
+    "final_time": 20.0,
+    "output_step": 0.1
+  },
+  "cases": 1,
+  "selected_cases": 1,
+  "runtime_seconds": 2.3705579712986946,
+  "checks": [
+    {
+      "name": "finite_trajectories",
+      "passed": true
+    },
+    {
+      "name": "R_greater_than_Rstar",
+      "passed": true
+    },
+    {
+      "name": "positive_mass_squared",
+      "passed": true
+    },
+    {
+      "name": "identical_initial_total_energy",
+      "passed": true
+    },
+    {
+      "name": "initial_window_zero_mass_one",
+      "passed": true
+    },
+    {
+      "name": "energy_accuracy",
+      "passed": true,
+      "value": 4.962679232529544e-07,
+      "threshold": 0.0001
+    },
+    {
+      "name": "field_work_accuracy",
+      "passed": true,
+      "value": 4.963248862516222e-07,
+      "threshold": 0.0001
+    },
+    {
+      "name": "clock_work_accuracy",
+      "passed": true,
+      "value": 5.696308265483984e-11,
+      "threshold": 0.0001
+    }
+  ],
+  "all_checks_passed": true,
+  "ranges": {
+    "min_R": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "min_Rdot": {
+      "min": 0.1,
+      "max": 0.1
+    },
+    "min_mass_squared": {
+      "min": 0.7047783378119241,
+      "max": 0.7047783378119241
+    },
+    "max_mass_squared": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "max_abs_mass_derivative": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "max_abs_q": {
+      "min": 0.5178803033268756,
+      "max": 0.5178803033268756
+    },
+    "sampled_max_relative_energy_deviation": {
+      "min": 4.962679232529544e-07,
+      "max": 4.962679232529544e-07
+    },
+    "sampled_max_relative_field_work_residual": {
+      "min": 4.963248862516222e-07,
+      "max": 4.963248862516222e-07
+    },
+    "sampled_max_relative_clock_work_residual": {
+      "min": 5.696308265483984e-11,
+      "max": 5.696308265483984e-11
+    },
+    "primary_T": {
+      "min": 0.04513942199602207,
+      "max": 0.04513942199602207
+    }
+  }
+}

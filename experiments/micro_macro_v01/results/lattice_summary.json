@@ -1,0 +1,1021 @@
+{
+  "scope": "Dimensionless periodic phi4 lattice benchmark; no cosmological calibration or observations.",
+  "code_sha256": "6e964987b34e622f5666ac920e4c1e33e66dee6372dda3a3b3bf342a18771c95",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4"
+  },
+  "runtime_wall_seconds": 11.31516745686531,
+  "Hamiltonian": "H=sum_j a[velocity_j^2/2+speed^2((q_j+1-q_j)/a)^2/2+omega0^2 q_j^2/2+g q_j^4/4]",
+  "canonical_momentum": "p_j=a*velocity_j",
+  "spatial_policy": "dt=.02/ceil(.02/(.5*a^2)); time error is asymptotically subleading for smooth fixed modes.",
+  "cases": [
+    {
+      "parameters": {
+        "name": "spatial_N64",
+        "n": 64,
+        "spacing": 0.09817477042468103,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 1.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.004,
+        "actual_dt": 0.004,
+        "steps_per_output": 5,
+        "internal_steps": 5000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.17211239412426949,
+      "initial_energy": 0.8218983914666935,
+      "final_energy": 0.8218932500672081,
+      "maximum_saved_relative_energy_deviation": 8.386980489105689e-06,
+      "signed_saved_relative_energy_min": -8.386980489105689e-06,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.27871665291260506,
+        "3": 0.0038744451896647533,
+        "5": -2.954744300622184e-05
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.500007595161096,
+        "3": 0.004712675010987546,
+        "5": 5.031197169994429e-05
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 1.1102230246251565e-16
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.8218914982209202
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.08165895597657521,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        }
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "spatial_N128",
+        "n": 128,
+        "spacing": 0.04908738521234052,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 1.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.0011764705882352942,
+        "actual_dt": 0.0011764705882352942,
+        "steps_per_output": 17,
+        "internal_steps": 17000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.4915213845670223,
+      "initial_energy": 0.8221348556005856,
+      "final_energy": 0.822134408522728,
+      "maximum_saved_relative_energy_deviation": 7.257123080250949e-07,
+      "signed_saved_relative_energy_min": -7.257123080250949e-07,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.2770223679712578,
+        "3": 0.003605380225432468,
+        "5": -1.7339600675444996e-05
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.5000168552825274,
+        "3": 0.004681972787349546,
+        "5": 4.885997576478815e-05
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.822134258967202
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.0479589829478532,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        }
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "spatial_N256",
+        "n": 256,
+        "spacing": 0.02454369260617026,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 1.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.00029850746268656717,
+        "actual_dt": 0.00029850746268656717,
+        "steps_per_output": 67,
+        "internal_steps": 67000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 1.6011195927858353,
+      "initial_energy": 0.8221939894427253,
+      "final_energy": 0.822193960622556,
+      "maximum_saved_relative_energy_deviation": 4.672477194045399e-08,
+      "signed_saved_relative_energy_min": -4.672477194045399e-08,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.2765954076812963,
+        "3": 0.003534231114428849,
+        "5": -1.4037241609625466e-05
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.5000181726310973,
+        "3": 0.004673797132824951,
+        "5": 4.8352239067242416e-05
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.8221939510258987
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.02432778149885854,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        }
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "spatial_N512",
+        "n": 512,
+        "spacing": 0.01227184630308513,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 1.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 7.518796992481203e-05,
+        "actual_dt": 7.518796992481203e-05,
+        "steps_per_output": 266,
+        "internal_steps": 266000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 6.179384741932154,
+      "initial_energy": 0.8222087740164905,
+      "final_energy": 0.8222087721874427,
+      "maximum_saved_relative_energy_deviation": 2.9644391386085545e-09,
+      "signed_saved_relative_energy_min": -2.9644391386085545e-09,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.27648835392421134,
+        "3": 0.0035162234521623585,
+        "5": -1.322455023721181e-05
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.5000184392494261,
+        "3": 0.004671713755544601,
+        "5": 4.822727516413144e-05
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 0.0
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.8222087715791027
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.012254137636874135,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        }
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "time_N128_dt0p01",
+        "n": 128,
+        "spacing": 0.04908738521234052,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 1.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.01,
+        "actual_dt": 0.01,
+        "steps_per_output": 2,
+        "internal_steps": 2000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.08104558661580086,
+      "initial_energy": 0.8221348556005856,
+      "final_energy": 0.8221025449529774,
+      "maximum_saved_relative_energy_deviation": 5.243281103628483e-05,
+      "signed_saved_relative_energy_min": -5.243281103628483e-05,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.2769156651757909,
+        "3": 0.0036005145944870602,
+        "5": -1.7144312587748695e-05
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.5000173255931284,
+        "3": 0.004681866084941455,
+        "5": 4.885022997442509e-05
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.8220917487590556
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.4076513550567522,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        }
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "time_N128_dt0p005",
+        "n": 128,
+        "spacing": 0.04908738521234052,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 1.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.005,
+        "actual_dt": 0.005,
+        "steps_per_output": 4,
+        "internal_steps": 4000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.12884178012609482,
+      "initial_energy": 0.8221348556005856,
+      "final_energy": 0.8221267797016205,
+      "maximum_saved_relative_energy_deviation": 1.3108184377386145e-05,
+      "signed_saved_relative_energy_min": -1.3108184377386145e-05,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.2769968175263859,
+        "3": 0.003604215833820091,
+        "5": -1.72928584188138e-05
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.5000169701734603,
+        "3": 0.004681947366186653,
+        "5": 4.885772001541174e-05
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.8221240789053154
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.2038256775283761,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        }
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "time_N128_dt0p0025",
+        "n": 128,
+        "spacing": 0.04908738521234052,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 1.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.0025,
+        "actual_dt": 0.0025,
+        "steps_per_output": 8,
+        "internal_steps": 8000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.19618771597743034,
+      "initial_energy": 0.8221348556005856,
+      "final_energy": 0.8221328367360415,
+      "maximum_saved_relative_energy_deviation": 3.277044944072216e-06,
+      "signed_saved_relative_energy_min": -3.277044944072216e-06,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.2770171035629808,
+        "3": 0.0036051403507769936,
+        "5": -1.7329970990091272e-05
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.5000168790717207,
+        "3": 0.00468196755623305,
+        "5": 4.885951500197253e-05
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.8221321614277137
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.10191283876418805,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        }
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "time_N128_dt0p00125",
+        "n": 128,
+        "spacing": 0.04908738521234052,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 1.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.00125,
+        "actual_dt": 0.00125,
+        "steps_per_output": 16,
+        "internal_steps": 16000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.33059315383434296,
+      "initial_energy": 0.8221348556005856,
+      "final_energy": 0.822134350891339,
+      "maximum_saved_relative_energy_deviation": 8.192611627988455e-07,
+      "signed_saved_relative_energy_min": -8.192611627988455e-07,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.2770221749439309,
+        "3": 0.003605371430406106,
+        "5": -1.7339247598671734e-05
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.5000168561558677,
+        "3": 0.004681972595604,
+        "5": 4.885995890688739e-05
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.8221341820574278
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.050956419382094026,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        }
+      ],
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "linear_N64_k1",
+        "n": 64,
+        "spacing": 0.09817477042468103,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 0.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 1,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.0025,
+        "actual_dt": 0.0025,
+        "steps_per_output": 8,
+        "internal_steps": 8000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.16311772167682648,
+      "initial_energy": 0.7850828525574383,
+      "final_energy": 0.7850828525126415,
+      "maximum_saved_relative_energy_deviation": 3.1237445407006348e-06,
+      "signed_saved_relative_energy_min": -3.1237445407006348e-06,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -0.499995433392108,
+        "3": 3.7770536351217656e-17,
+        "5": -2.639596948028762e-17
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 0.5,
+        "3": 3.3389487842727616e-16,
+        "5": 1.8814737955023144e-16
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 0.0
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 0.7850804001591636
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.050990904103024565,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        },
+        {
+          "name": "linear_discrete_time_field",
+          "passed": true,
+          "max_abs_error": 3.1086244689504383e-15
+        },
+        {
+          "name": "linear_discrete_time_velocity",
+          "passed": true,
+          "max_abs_error": 3.270300696911477e-14
+        },
+        {
+          "name": "linear_energy_oscillation_formula",
+          "passed": true,
+          "max_abs_relative_energy_error": 1.0627698566398065e-15
+        }
+      ],
+      "linear_analytic": {
+        "discrete_space_frequency": 1.4139296543814446,
+        "continuum_frequency": 1.4142135623730951,
+        "verlet_phase_per_step": 0.0035348259762713148,
+        "verlet_frequency": 1.4139303905085259,
+        "max_abs_q_error": 3.1086244689504383e-15,
+        "max_abs_velocity_error": 3.270300696911477e-14,
+        "max_abs_relative_energy_formula_error": 1.0627698566398065e-15,
+        "linear_expected_max_possible_relative_energy_deviation": 3.123745418030049e-06,
+        "comparison": "Exact discrete-space and discrete-time KDK trajectory; not continuum PDE."
+      },
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "linear_N64_k8",
+        "n": 64,
+        "spacing": 0.09817477042468103,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 0.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 8,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.0025,
+        "actual_dt": 0.0025,
+        "steps_per_output": 8,
+        "internal_steps": 8000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5,
+          8
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.15571381151676178,
+      "initial_energy": 24.259785710694345,
+      "final_energy": 24.25975235410108,
+      "maximum_saved_relative_energy_deviation": 9.65264821998213e-05,
+      "signed_saved_relative_energy_min": -9.65264821998213e-05,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": -1.3324027524541953e-16,
+        "3": 3.3369698167275897e-16,
+        "5": -6.770174813620663e-17,
+        "8": 0.4964260987976439
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 8.793800949506375e-16,
+        "3": 6.029088468496192e-16,
+        "5": 7.288912259721209e-16,
+        "8": 0.49999999999999994
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 0.0
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 24.25744399892077
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.050990904103024565,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        },
+        {
+          "name": "linear_discrete_time_field",
+          "passed": true,
+          "max_abs_error": 1.1546319456101628e-14
+        },
+        {
+          "name": "linear_discrete_time_velocity",
+          "passed": true,
+          "max_abs_error": 9.692247004977617e-14
+        },
+        {
+          "name": "linear_energy_oscillation_formula",
+          "passed": true,
+          "max_abs_relative_energy_error": 1.5429145591369653e-15
+        }
+      ],
+      "linear_analytic": {
+        "discrete_space_frequency": 7.85983695933409,
+        "continuum_frequency": 8.06225774829855,
+        "verlet_phase_per_step": 0.019649908530191492,
+        "verlet_frequency": 7.859963412076596,
+        "max_abs_q_error": 1.1546319456101628e-14,
+        "max_abs_velocity_error": 9.692247004977617e-14,
+        "max_abs_relative_energy_formula_error": 1.5429145591369653e-15,
+        "linear_expected_max_possible_relative_energy_deviation": 9.652662035517838e-05,
+        "comparison": "Exact discrete-space and discrete-time KDK trajectory; not continuum PDE."
+      },
+      "all_checks_passed": true
+    },
+    {
+      "parameters": {
+        "name": "linear_N64_k24",
+        "n": 64,
+        "spacing": 0.09817477042468103,
+        "L": 6.283185307179586,
+        "speed": 1.0,
+        "omega0": 1.0,
+        "g": 0.0,
+        "initial_amplitude": 0.5,
+        "initial_mode": 24,
+        "canonical_momentum": "p_j=a*velocity_j",
+        "requested_dt": 0.0025,
+        "actual_dt": 0.0025,
+        "steps_per_output": 8,
+        "internal_steps": 8000,
+        "output_step": 0.02,
+        "final_time": 20.0,
+        "output_count": 1001,
+        "selected_cosine_modes": [
+          1,
+          3,
+          5,
+          24
+        ],
+        "method": "Störmer–Verlet kick-drift-kick; reuse force after last kick",
+        "saved_velocity_convention": "integer-step velocity after both kicks"
+      },
+      "wall_seconds": 0.15371279790997505,
+      "initial_energy": 139.50027417880383,
+      "final_energy": 139.50027352363875,
+      "maximum_saved_relative_energy_deviation": 0.0005530624979317444,
+      "signed_saved_relative_energy_min": -0.0005530624979317444,
+      "signed_saved_relative_energy_max": 0.0,
+      "energy_sampling": "Output times only; does not assert exact energy conservation.",
+      "max_abs_q_over_internal_steps": 0.5,
+      "final_cosine_q": {
+        "1": 2.7186285070170156e-15,
+        "3": 9.891044363584806e-16,
+        "5": 5.929231011169229e-16,
+        "24": 0.49999788465321526
+      },
+      "maximum_absolute_cosine_q": {
+        "1": 5.629864690981989e-15,
+        "3": 2.4961701488116833e-15,
+        "5": 1.9997786577308177e-15,
+        "24": 0.4999999999999997
+      },
+      "checks": [
+        {
+          "name": "initial_field",
+          "passed": true
+        },
+        {
+          "name": "initial_velocity",
+          "passed": true
+        },
+        {
+          "name": "initial_energy_analytic",
+          "passed": true,
+          "relative_error": 6.661338147750939e-16
+        },
+        {
+          "name": "positive_saved_energy",
+          "passed": true,
+          "minimum": 139.42312180870434
+        },
+        {
+          "name": "finite_saved_fields",
+          "passed": true
+        },
+        {
+          "name": "strict_local_curvature_step_bound",
+          "passed": true,
+          "dt_times_frequency_bound": 0.050990904103024565,
+          "interpretation": "Conservative instantaneous curvature scale; not a nonlinear stability theorem."
+        },
+        {
+          "name": "same_final_time",
+          "passed": true
+        },
+        {
+          "name": "linear_discrete_time_field",
+          "passed": true,
+          "max_abs_error": 3.065256382051018e-14
+        },
+        {
+          "name": "linear_discrete_time_velocity",
+          "passed": true,
+          "max_abs_error": 3.956834859764058e-13
+        },
+        {
+          "name": "linear_energy_oscillation_formula",
+          "passed": true,
+          "max_abs_relative_energy_error": 2.1279636039372996e-15
+        }
+      ],
+      "linear_analytic": {
+        "discrete_space_frequency": 18.847666464889,
+        "continuum_frequency": 24.020824298928627,
+        "verlet_phase_per_step": 0.04712352619792385,
+        "verlet_frequency": 18.84941047916954,
+        "max_abs_q_error": 3.065256382051018e-14,
+        "max_abs_velocity_error": 3.956834859764058e-13,
+        "max_abs_relative_energy_formula_error": 2.1279636039372996e-15,
+        "linear_expected_max_possible_relative_energy_deviation": 0.0005550539549557834,
+        "comparison": "Exact discrete-space and discrete-time KDK trajectory; not continuum PDE."
+      },
+      "all_checks_passed": true
+    }
+  ],
+  "checks_count": 86,
+  "all_checks_passed": true,
+  "failed_checks": [],
+  "files": {
+    "modes_csv": "lattice_modes.csv",
+    "trajectory_npz": [
+      "lattice_spatial_N64.npz",
+      "lattice_spatial_N128.npz",
+      "lattice_spatial_N256.npz",
+      "lattice_spatial_N512.npz",
+      "lattice_time_N128_dt0p01.npz",
+      "lattice_time_N128_dt0p005.npz",
+      "lattice_time_N128_dt0p0025.npz",
+      "lattice_time_N128_dt0p00125.npz",
+      "lattice_linear_N64_k1.npz",
+      "lattice_linear_N64_k8.npz",
+      "lattice_linear_N64_k24.npz"
+    ],
+    "per_case_json": [
+      "lattice_spatial_N64.json",
+      "lattice_spatial_N128.json",
+      "lattice_spatial_N256.json",
+      "lattice_spatial_N512.json",
+      "lattice_time_N128_dt0p01.json",
+      "lattice_time_N128_dt0p005.json",
+      "lattice_time_N128_dt0p0025.json",
+      "lattice_time_N128_dt0p00125.json",
+      "lattice_linear_N64_k1.json",
+      "lattice_linear_N64_k8.json",
+      "lattice_linear_N64_k24.json"
+    ]
+  }
+}

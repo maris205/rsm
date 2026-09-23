@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-22",
+  "scope": "Artifact integrity and math syntax; completed numerical checks read without rerunning solvers. Integrity PASS does not turn the retained precision diagnostic into PASS.",
+  "integrity_checks": {
+    "code_hashes_match": true,
+    "reference_artifact_hashes_match": true,
+    "comparison_input_hashes_match": true,
+    "precision_input_and_output_hashes_match": true,
+    "original_word_chapters_assets_unchanged": true,
+    "markdown_relative_links_resolve": true,
+    "math_syntax_compiles": true
+  },
+  "integrity_pass": true,
+  "numerical_status": {
+    "lattice_summary.json": {
+      "all_checks_passed": true,
+      "passed": 86,
+      "total": 86
+    },
+    "reference_summary.json": {
+      "all_checks_passed": true,
+      "passed": 22,
+      "total": 22
+    },
+    "comparison_summary.json": {
+      "all_checks_passed": true,
+      "passed": 20,
+      "total": 20
+    },
+    "reference_precision_audit.json": {
+      "all_checks_passed": false,
+      "passed": 4,
+      "total": 5
+    }
+  },
+  "code_hash_checks": {
+    "run_lattice.py": true,
+    "run_reference.py": true,
+    "compare_and_plot.py": true,
+    "check_finest_reference.py": true
+  },
+  "archived_files_checked": 23,
+  "markdown": [
+    {
+      "file": "README.md",
+      "math": 0,
+      "links": 31
+    },
+    {
+      "file": "WORK_PLAN.md",
+      "math": 5,
+      "links": 10
+    },
+    {
+      "file": "RESEARCH_DIRECTION.md",
+      "math": 29,
+      "links": 15
+    },
+    {
+      "file": "draft_v03/micro_macro_bridge_v03.md",
+      "math": 19,
+      "links": 6
+    },
+    {
+      "file": "experiments/micro_macro_v01/README.md",
+      "math": 1,
+      "links": 16
+    },
+    {
+      "file": "experiments/micro_macro_v01/figures/captions.md",
+      "math": 9,
+      "links": 5
+    },
+    {
+      "file": "experiments/micro_macro_v01/protocol.md",
+      "math": 39,
+      "links": 1
+    },
+    {
+      "file": "experiments/micro_macro_v01/reports/derivation_and_limits.md",
+      "math": 86,
+      "links": 1
+    },
+    {
+      "file": "experiments/micro_macro_v01/reports/results_cn.md",
+      "math": 53,
+      "links": 8
+    }
+  ],
+  "math_expressions": 241,
+  "missing_links": []
+}

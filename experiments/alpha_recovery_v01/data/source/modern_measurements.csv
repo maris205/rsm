@@ -1,0 +1,2 @@
+measurement_id,target,absorber_z,delta_alpha_ppm,sigma_stat_ppm,sigma_sys_ppm,sigma_total_ppm,publication_year,doi,table,source_url,role,overlap_note
+Murphy2022_ESPRESSO_HE0515,HE0515-4414,1.150793,1.31,1.29,0.43,1.3597793938724032,2022,10.1051/0004-6361/202142257,3,https://arxiv.org/html/2112.05819,separate_optical_validation,Do not combine with Webb2025 same ESPRESSO photons; one total absorber row not three subregions

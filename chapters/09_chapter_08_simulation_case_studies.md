@@ -1,0 +1,112 @@
+<!-- Faithful format conversion; scientific claims are unreviewed source text. Source: ../ori_paper/merged_document_v2_with_latex.docx; Pandoc blocks [519, 574). -->
+
+# **Chapter 8: Simulation Case Studies & System Verification Guide**
+
+This chapter provides a standardized simulation testing workflow for researchers to verify the efficacy of the **Project Riemann (v1.0)** engine in both "backtesting" historical observational data and "forecasting" future experimental results.
+
+## 8.1 Experiment A: Backtesting the Logarithmic Evolution of the Fine-Structure Constant ($\alpha$)
+
+**Objective:** To verify the natural drift of cosmic constants as the system "ages."
+
+### **1. Environment & Parameter Setup**
+
+**Infrastructure:** Load the standard **PlanckGrid** ($\mathbb{Z}^{3}$ discrete lattice).
+
+**Core Kernel:** Activate the **Non-Autonomous Kernel**.
+
+**Governing Equation:** $x_{n + 1} = 1 - \mu_{n}x_{n}^{2}$
+
+**Driving Parameters:** $\mu_{n} = \mu_{c} - k/ln(n)$, where $\mu_{c} \approx 1.401$ (Feigenbaum point) and $k \approx 12.73$.
+
+**Initial Conditions:**
+
+Tick\_Start = $1$ (The Big Bang event).
+
+Tick\_End = $10^{60}$ (Current moment, approx. 13.8 billion years).
+
+**Metric:** Output variable Alpha\_Drift = $\Delta\alpha/\alpha$.
+
+### **2. Execution Guide**
+
+**Warm-up Phase:** Run the first $10^{10}$ Ticks to allow the system to pass through the early chaotic oscillation phase and enter the logarithmic plateau.
+
+**Data Sampling:** \* Sample system parameters every $10^{6}$ Ticks within the time windows corresponding to redshifts $z \in \lbrack 0.2,4.2\rbrack$ (the era of quasar light emission).
+
+Map the simulated drift values to the observational coordinate system.
+
+**Verification:** Import the quasar absorption spectra dataset provided by J.K. Webb (Dataset: Webb\_2011\_VLT) and perform a least-squares comparison.
+
+### **3. Expected Results & Engineering Conclusions**
+
+**Evolutionary Characteristics:** The engine output curve exhibits a strict logarithmic decay profile ($\propto 1/lnt$) rather than a linear drift.
+
+**Goodness of Fit:** With **Zero Fine-tuning**, the simulation curve passes precisely through the center of the error bars of the observational data across a 10-billion-year span. Regression analysis yields a coefficient of determination $R^{2} \approx 0.974$.
+
+**Conclusion:** This proves that the drift of physical constants is not a random fluctuation but a necessary outcome of a computational system governed by the **Logarithmic Relaxation Law**.
+
+## 8.2 Experiment B: Dynamical Unification of the Hubble Tension
+
+**Objective:** To verify the clock frequency differences of the gravitational system at different "Uptime" stages.
+
+### **1. Environment & Parameter Setup**
+
+**Infrastructure:** Enable the **GlobalClockSystem**.
+
+**Metric Definition:** Define the Hubble parameter $H(t)$ as the **Status Update Rate** of the system on the discrete grid.
+
+**Relaxation Model:** $H(t) = H_{\infty} + \beta/ln(t/t_{P})$.
+
+**Input Anchors:**
+
+**Anchor 1 (Early):** CMB era ($z \approx 1100$), system in "High-Frequency Iteration" mode.
+
+**Anchor 2 (Late):** Current era ($z \approx 0$), system in "Low-Frequency Steady" mode.
+
+### **2. Execution Guide**
+
+**Data Loading:** Input the early Hubble value measured by the Planck satellite ($67.4\text{km/s/Mpc}$) as the initial boundary condition.
+
+**Evolutionary Extrapolation:** Without introducing dark energy parameters ($w$), extrapolate the theoretical refresh rate of the system at $z = 0$ based solely on **RSM Computational Aging** logic.
+
+**Conflict Detection:** Compare the extrapolated value with the actual measurement from the SH0ES project (Cepheid variables) ($73.0\text{
+\ \ \ \ km/s/Mpc}$).
+
+### **3. Expected Results & Engineering Conclusions**
+
+**Unified Curve:** Simulation shows that the Planck and SH0ES data points, despite their numerical difference, fall perfectly onto the same $1/lnt$ system relaxation curve.
+
+**Tension Resolution:** The existing $5\sigma$ statistical discrepancy vanishes.
+
+**Conclusion:** The Hubble Tension is an observational bias, not a physical crisis. Measuring a CPU that is undergoing frequency downscaling will naturally yield a higher clock rate in the early stages than in the later stages. This confirms that cosmic expansion is essentially the **Dynamical Relaxation** of the system\'s computational frequency.
+
+## 8.3 Experiment C: Prediction of Precision Limits at the Laboratory Scale
+
+**Objective:** To verify the ability of atomic clocks to "listen" to the cosmic "computational floor."
+
+### **1. Environment & Parameter Setup**
+
+**Infrastructure:** Construct a "locally flat spacetime" simulation container to mimic the Earth\'s laboratory environment.
+
+**Noise Injection:**
+
+**Model A (Traditional Physics):** Inject white noise, assuming constants are absolutely static.
+
+**Model B (RSM):** Inject non-linear noise generated by symplectic truncation errors (**Computational Floor**).
+
+**Detection Thresholds:** Set virtual instrument sensitivities at $10^{- 18}$ (current level) and $10^{- 20}$ (next-generation level).
+
+### **2. Execution Guide**
+
+**Simulated Observation:** Run the simulation for 10 years (mimicking a laboratory observation cycle).
+
+**Signal Extraction:** Calculate the relative rate of change of the fine-structure constant $|\dot{\alpha}/\alpha|$.
+
+**Comparative Analysis:** Observe whether the systemic drift signal can be isolated from the background noise at different sensitivity levels.
+
+### **3. Expected Results & Engineering Conclusions**
+
+**Current Results (**$10^{- 18}$**):** Output is a **Null Result**. The drift signal is masked by the second-order stability of the symplectic algorithm, consistent with current atomic clock experiments.
+
+**Future Results (**$10^{- 20}$**):** The Signal-to-Noise Ratio (SNR) breaks the threshold, capturing the long-term non-linear downward trend of $\alpha$ for the first time.
+
+**Conclusion:** This provides **Strong Falsifiability** for the RSM model. If a drift is not observed at $10^{- 20}$ precision in the future, the model is falsified; if observed, it provides direct confirmation of the "computational nature" of the universe.

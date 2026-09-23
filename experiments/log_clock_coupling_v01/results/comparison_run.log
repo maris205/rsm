@@ -1,0 +1,85 @@
+{
+  "feedback": [
+    {
+      "I": 10,
+      "initial_clock_energy": 0.05,
+      "final_R": 3.743344555689088,
+      "final_R_fractional_departure": 0.24778151856302943,
+      "final_mass_squared": 0.6814509295151241,
+      "max_mass_difference_from_external": 0.026902084211038346,
+      "mass_difference_over_external_drift": 0.09222612473568739,
+      "field_rms_vs_external": 0.07409605363141072,
+      "field_rms_vs_frozen": 0.708313811558969,
+      "field_energy_change": -0.0644661547822849,
+      "clock_energy_gain": 0.06446615478193934,
+      "independent_work": -0.06446615478193914,
+      "max_abs_energy_residual": 2.5626167854397863e-12,
+      "max_abs_field_work_residual": 2.5576008325089994e-12,
+      "verlet_field_rms_vs_same_grid": 2.1170009538377065e-06,
+      "verlet_max_R_error": 1.558444706617479e-08,
+      "verlet_max_relative_energy_residual": 7.5327777719961e-07
+    },
+    {
+      "I": 100,
+      "initial_clock_energy": 0.5,
+      "final_R": 3.0807252165731764,
+      "final_R_fractional_departure": 0.02690840552439222,
+      "final_mass_squared": 0.7047783710066218,
+      "max_mass_difference_from_external": 0.0035246256969961864,
+      "mass_difference_over_external_drift": 0.01208317417445304,
+      "field_rms_vs_external": 0.00863395037956603,
+      "field_rms_vs_frozen": 0.6516334879269626,
+      "field_energy_change": -0.0596711767334821,
+      "clock_energy_gain": 0.05967117673312461,
+      "independent_work": -0.05967117673312419,
+      "max_abs_energy_residual": 2.5295321393059567e-12,
+      "max_abs_field_work_residual": 2.5300525563487497e-12,
+      "verlet_field_rms_vs_same_grid": 2.1302865778348324e-06,
+      "verlet_max_R_error": 1.6205934372237607e-09,
+      "verlet_max_relative_energy_residual": 4.972685328058986e-07
+    },
+    {
+      "I": 1000,
+      "initial_clock_energy": 5.0,
+      "final_R": 3.0081499167158174,
+      "final_R_fractional_departure": 0.002716638905272406,
+      "final_mass_squared": 0.7079387204384675,
+      "max_mass_difference_from_external": 0.00036427626515045386,
+      "mass_difference_over_external_drift": 0.0012488173036879877,
+      "field_rms_vs_external": 0.0008786509901120847,
+      "field_rms_vs_frozen": 0.6448587531336091,
+      "field_energy_change": -0.05902379262806312,
+      "clock_energy_gain": 0.05902379262773039,
+      "independent_work": -0.05902379262773284,
+      "max_abs_energy_residual": 2.716937785862683e-12,
+      "max_abs_field_work_residual": 2.717012812653019e-12,
+      "verlet_field_rms_vs_same_grid": 2.1315213872995833e-06,
+      "verlet_max_R_error": 1.6292656113137127e-10,
+      "verlet_max_relative_energy_residual": 1.129321687605993e-07
+    }
+  ],
+  "controls": {
+    "external_final_mass_squared": 0.708302996703618,
+    "external_field_rms_vs_frozen": 0.6440903972343603,
+    "external_drift_scale": 0.29169700329638204,
+    "external_max_abs_field_work_residual": 2.5222046673434306e-12,
+    "frozen_max_abs_energy_residual": 2.777444940704754e-12
+  },
+  "spatial_orders": [
+    2.0000867880784594,
+    2.0000248675760397
+  ],
+  "time_orders": [
+    2.00001774727087,
+    2.000004364939144,
+    2.0000008031654484
+  ],
+  "precision": {
+    "max_continuum_cutoff_rms": 4.959178321663372e-13,
+    "max_continuum_tolerance_rms": 5.349886220086324e-13,
+    "continuum_uncertainty_over_smallest_spatial_difference": 4.244933782203522e-09,
+    "finest_time_error_over_N128_spatial_error": 0.0024579067137706105
+  },
+  "all_checks_passed": true
+}
+29 comparison checks; figures in /root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/figures

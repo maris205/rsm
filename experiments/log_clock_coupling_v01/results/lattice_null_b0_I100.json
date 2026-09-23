@@ -1,0 +1,140 @@
+{
+  "parameters": {
+    "name": "null_b0_I100",
+    "roles": [
+      "null_control"
+    ],
+    "N": 128,
+    "L": 6.283185307179586,
+    "spacing": 0.04908738521234052,
+    "speed": 1.0,
+    "m0": 1.0,
+    "g": 1.0,
+    "initial_field_amplitude": 0.5,
+    "initial_field_velocity": 0.0,
+    "b": 0.0,
+    "I": 100.0,
+    "R_initial": 1.0,
+    "Rstar": 0.1353352832366127,
+    "chi_initial": 2.0,
+    "Td": 10.0,
+    "Rdot_initial": 0.1,
+    "dt": 0.00125,
+    "output_dt": 0.02,
+    "final_elapsed_time": 20.0,
+    "output_count": 1001,
+    "steps_per_output": 16,
+    "internal_steps": 16000,
+    "canonical_variables": "p_j=a*velocity_j; P=I*Rdot",
+    "method": "Simultaneous separable-Hamiltonian kick-drift-kick Störmer-Verlet",
+    "field_power_definition": "-b*Rdot*Q2/(R*chi**3); Q2=a*sum(q**2)",
+    "units": "Dimensionless benchmark; elapsed time is not calibrated cosmic time."
+  },
+  "wall_seconds": 0.44800588861107826,
+  "initial_total_energy": 1.3221348556005856,
+  "final_total_energy": 1.322134350891339,
+  "max_sampled_relative_total_energy_deviation": 5.094360494561911e-07,
+  "energy_sampling_note": "Energy deviation measured at saved output times; exact conservation is not claimed.",
+  "initial_field_energy": 0.8221348556005856,
+  "final_field_energy": 0.822134350891339,
+  "initial_clock_energy": 0.5,
+  "final_clock_energy": 0.5,
+  "clock_energy_gain": 0.0,
+  "field_energy_change": -5.047092466181624e-07,
+  "final_R": 3.000000000000668,
+  "final_Rdot": 0.1,
+  "final_chi": 3.098612288668332,
+  "final_M2": 1.0,
+  "external_linear_clock_R_final": 3.0,
+  "fractional_R_departure_from_external_final": 2.227107387398064e-13,
+  "min_R_over_steps": 1.0,
+  "min_chi_over_steps": 2.0,
+  "min_M2_over_steps": 1.0,
+  "max_M2_over_steps": 1.0,
+  "max_abs_q_over_steps": 0.5,
+  "field_linear_curvature_step_scale": 0.050956419382094026,
+  "curvature_note": "Field block diagnostic only; not a proof of nonlinear coupled stability.",
+  "integrated_field_power_final": 0.0,
+  "max_abs_field_work_residual": 6.735431578031026e-07,
+  "work_note": "Trapezoidal integration at internal steps; independent continuous-time reference is separate.",
+  "final_cosine_q": {
+    "1": -0.2770221749439309,
+    "3": 0.003605371430406106,
+    "5": -1.7339247598671734e-05
+  },
+  "max_absolute_cosine_q": {
+    "1": 0.5000168561558677,
+    "3": 0.004681972595604,
+    "5": 4.885995890688739e-05
+  },
+  "checks": [
+    {
+      "name": "initial_field_and_velocity",
+      "passed": true
+    },
+    {
+      "name": "initial_clock",
+      "passed": true
+    },
+    {
+      "name": "initial_total_energy",
+      "passed": true,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "name": "positive_clock_and_mass_domain",
+      "passed": true,
+      "min_R": 1.0,
+      "min_chi": 2.0,
+      "min_M2": 1.0
+    },
+    {
+      "name": "finite_fields_and_clock",
+      "passed": true
+    },
+    {
+      "name": "positive_total_energy",
+      "passed": true
+    },
+    {
+      "name": "positive_clock_direction",
+      "passed": true
+    },
+    {
+      "name": "nonnegative_clock_acceleration_branch",
+      "passed": true,
+      "minimum_output_velocity_increment": 0.0
+    },
+    {
+      "name": "nonpositive_field_exchange_power",
+      "passed": true,
+      "maximum_power": -0.0
+    },
+    {
+      "name": "time_alignment",
+      "passed": true
+    },
+    {
+      "name": "uncoupled_clock_linear",
+      "passed": true,
+      "max_abs_R_error": 6.679101716144942e-13
+    },
+    {
+      "name": "uncoupled_clock_velocity_constant",
+      "passed": true
+    },
+    {
+      "name": "uncoupled_exchange_zero",
+      "passed": true
+    },
+    {
+      "name": "b0_matches_previous_autonomous_phi4",
+      "passed": true,
+      "max_abs_q_error": 0.0,
+      "max_abs_velocity_error": 0.0,
+      "source": "micro_macro_v01/results/lattice_time_N128_dt0p00125.npz",
+      "source_sha256": "2d87258c3c155f5b43b5ee9e5060199a311e0fc7a64c6227229568ff1e120e2b"
+    }
+  ],
+  "all_checks_passed": true
+}

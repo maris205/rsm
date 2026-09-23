@@ -1,0 +1,195 @@
+{
+  "scope": "Deterministic small-matrix verification of the v0.1 model equations; not a data fit or a stability proof for the logarithmic schedule.",
+  "seed": 271828,
+  "numpy_version": "2.4.4",
+  "script_sha256": "ab28adcaf6ef96052e5ef5a35d8703e0b73fac0f65da6e7144725c966507b519",
+  "check_count": 28,
+  "passed_count": 28,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "symmetric_k_symplectic",
+      "residual": 1.1218260482359979e-16,
+      "tolerance": 2e-13,
+      "passed": true
+    },
+    {
+      "name": "frozen_modified_energy",
+      "residual": 8.881784197001252e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "frozen_modified_metric_positive",
+      "passed": true,
+      "minimum_metric_eigenvalue": 0.832867004390783
+    },
+    {
+      "name": "frozen_phase_k_0.25",
+      "residual": 0.0,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "frozen_unit_modulus_k_0.25",
+      "residual": 0.0,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "frozen_phase_k_1",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "frozen_unit_modulus_k_1",
+      "residual": 0.0,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "frozen_phase_k_3",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "frozen_unit_modulus_k_3",
+      "residual": 0.0,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "frozen_phase_k_3.9",
+      "residual": 8.881784197001252e-16,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "frozen_unit_modulus_k_3.9",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 3e-14,
+      "passed": true
+    },
+    {
+      "name": "zero_mode_linear_drift",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "upper_endpoint_jordan_drift",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "outside_stable_interval_k_-1",
+      "passed": true,
+      "spectral_radius": 2.618033988749895
+    },
+    {
+      "name": "outside_stable_interval_k_4.1",
+      "passed": true,
+      "spectral_radius": 1.3701562118716417
+    },
+    {
+      "name": "alternating_product",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "alternating_spectral_radius",
+      "residual": 0.0,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "integer_symplectic_k_1",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "integer_frozen_invariant_k_1",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "integer_symplectic_k_3",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "integer_frozen_invariant_k_3",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "discrete_energy_bookkeeping",
+      "residual": 1.0755285551056204e-16,
+      "tolerance": 3e-13,
+      "passed": true
+    },
+    {
+      "name": "symplectic_step_need_not_preserve_H",
+      "passed": true,
+      "frozen_energy_increment": -0.5818151767426825
+    },
+    {
+      "name": "continuous_external_work_directional_derivative",
+      "residual": 2.681271801807661e-10,
+      "tolerance": 3e-08,
+      "passed": true
+    },
+    {
+      "name": "local_dependence_at_1_steps",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "local_dependence_at_2_steps",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "local_dependence_at_3_steps",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "name": "local_test_has_nonzero_neighbour_transfer",
+      "passed": true,
+      "transfer": 0.012000000000000002
+    }
+  ],
+  "illustrative_values": {
+    "alternating_spectral_radius": 2.618033988749895,
+    "zero_mode_state_after_20_steps": [
+      20.0,
+      1.0
+    ],
+    "upper_endpoint_state_after_20_steps": [
+      -20.0,
+      -39.0
+    ],
+    "frozen_energy_increment": -0.5818151767426825,
+    "parameter_switch_work": -0.015986360833975973,
+    "total_energy_increment": -0.5978015375766583,
+    "continuous_work_rate": -0.019593887669597236
+  },
+  "limits": [
+    "Frozen-system stability is distinct from stability of a time-dependent schedule.",
+    "Only fixed symmetric state-independent K is used in the symplectic checks.",
+    "Local dependence is a graph statement, not a proof of relativistic symmetry.",
+    "The atomic response is an assumed interface, not a microscopic derivation."
+  ]
+}

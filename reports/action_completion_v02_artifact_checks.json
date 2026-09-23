@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-22",
+  "scope": "Artifact integrity and Markdown/LaTeX checks; numerical outcomes read from completed runs, not rerun here.",
+  "checks": {
+    "original_source_chapters_assets_unchanged": true,
+    "main_29_checks_passed": true,
+    "independent_24_checks_passed": true,
+    "main_code_hash_matches": true,
+    "independent_code_hash_matches": true,
+    "independent_input_hash_matches": true,
+    "background_grid_2523_rows": true,
+    "new_markdown_local_links_resolve": true,
+    "math_tex_compiles": true
+  },
+  "archive_files_verified": 23,
+  "markdown": [
+    {
+      "file": "README.md",
+      "math": 0,
+      "links": 25
+    },
+    {
+      "file": "WORK_PLAN.md",
+      "math": 4,
+      "links": 6
+    },
+    {
+      "file": "draft_v02/action_framework_v02.md",
+      "math": 100,
+      "links": 14
+    },
+    {
+      "file": "experiments/action_completion_v02/README.md",
+      "math": 14,
+      "links": 16
+    },
+    {
+      "file": "experiments/action_completion_v02/figures/captions.md",
+      "math": 2,
+      "links": 1
+    },
+    {
+      "file": "experiments/action_completion_v02/protocol.md",
+      "math": 24,
+      "links": 0
+    },
+    {
+      "file": "experiments/action_completion_v02/reports/independent_background_review.md",
+      "math": 54,
+      "links": 3
+    },
+    {
+      "file": "experiments/action_completion_v02/reports/numerical_results_cn.md",
+      "math": 100,
+      "links": 5
+    },
+    {
+      "file": "reports/action_completion_v02_derivation.md",
+      "math": 122,
+      "links": 7
+    },
+    {
+      "file": "reports/action_completion_v02_independent_review.md",
+      "math": 119,
+      "links": 0
+    },
+    {
+      "file": "reports/action_completion_v02_sources.md",
+      "math": 59,
+      "links": 12
+    }
+  ],
+  "math_expression_count": 598,
+  "missing_links": [],
+  "all_checks_passed": true,
+  "math_tex_engine": "LuaLaTeX + fontspec; CJK font applied only to the Chinese text label in one formula"
+}

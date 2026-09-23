@@ -1,0 +1,422 @@
+{
+  "scope": "Independent mathematical reference solutions; autonomous phi^4 example only; no observations, no variable constants.",
+  "parameters": {
+    "L": 6.283185307179586,
+    "v": 1.0,
+    "omega0": 1.0,
+    "g": 1.0,
+    "A": 0.5,
+    "T": 20.0,
+    "sample_dt": 0.02,
+    "samples": 1001
+  },
+  "Fourier_normalization": "phi=sum qhat[k]*exp(i*k*x); fft(norm=forward); continuum k is sorted -K..K, lattice k is FFT order",
+  "corrected_equation": "phi_tt=phi_xx-phi-phi^3+a^2 phi_xxxx/12, projected to |k|<=24; not an uncut PDE",
+  "recommended_continuum_reference": "results/reference_continuum_K24_tight.npz",
+  "original_lattice_reference": "results/reference_lattice_N128.npz (also N64, N256, N512)",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "code_sha256": "9c9e9f19fd390eb3078c5603fb4c292ba610d480755262095388e841b84a2965",
+  "runs": [
+    {
+      "name": "reference_continuum_K16",
+      "equation": "continuum",
+      "K": 16,
+      "M": 65,
+      "spacing": 0.0,
+      "max_abs_ka": 0.0,
+      "omega_squared_min": 1.0,
+      "all_retained_modes_linearly_stable": true,
+      "rtol": 1e-11,
+      "atol": 1e-13,
+      "method": "DOP853",
+      "nfev": 3293,
+      "elapsed_seconds": 0.230881217867136,
+      "hermitian_error": 4.441298085618047e-16,
+      "max_relative_energy_drift": 6.3504757008558954e-12,
+      "all_finite": true,
+      "initial_energy": 0.8222137023067037,
+      "artifact": {
+        "path": "results/reference_continuum_K16.npz",
+        "sha256": "c47e7443175d8ab5c6c96cc3948f4a61636d7424703c1f9879f9e8615476e079"
+      },
+      "mode3_initial_t_squared_coefficient": -0.015625
+    },
+    {
+      "name": "reference_continuum_K24",
+      "equation": "continuum",
+      "K": 24,
+      "M": 97,
+      "spacing": 0.0,
+      "max_abs_ka": 0.0,
+      "omega_squared_min": 1.0,
+      "all_retained_modes_linearly_stable": true,
+      "rtol": 1e-11,
+      "atol": 1e-13,
+      "method": "DOP853",
+      "nfev": 3254,
+      "elapsed_seconds": 0.28907473757863045,
+      "hermitian_error": 2.7825835836506784e-30,
+      "max_relative_energy_drift": 5.15998355155034e-12,
+      "all_finite": true,
+      "initial_energy": 0.8222137023067037,
+      "artifact": {
+        "path": "results/reference_continuum_K24.npz",
+        "sha256": "d38be4681464a471ad5c3e4db54579bf1623ac6b770e5cbed5424ab07d277d41"
+      },
+      "mode3_initial_t_squared_coefficient": -0.015625
+    },
+    {
+      "name": "reference_continuum_K24_tight",
+      "equation": "continuum",
+      "K": 24,
+      "M": 97,
+      "spacing": 0.0,
+      "max_abs_ka": 0.0,
+      "omega_squared_min": 1.0,
+      "all_retained_modes_linearly_stable": true,
+      "rtol": 2e-13,
+      "atol": 2e-15,
+      "method": "DOP853",
+      "nfev": 5081,
+      "elapsed_seconds": 0.3865658603608608,
+      "hermitian_error": 5.704604495274993e-31,
+      "max_relative_energy_drift": 1.4299672557172016e-13,
+      "all_finite": true,
+      "initial_energy": 0.8222137023067037,
+      "artifact": {
+        "path": "results/reference_continuum_K24_tight.npz",
+        "sha256": "904197563ff49027cfd90d266d74e345e7c9d83757a3111c9f2d1dd7aca2da96"
+      },
+      "mode3_initial_t_squared_coefficient": -0.015625
+    },
+    {
+      "name": "reference_corrected_N64",
+      "equation": "cutoff_long_wave_correction",
+      "K": 24,
+      "M": 97,
+      "spacing": 0.09817477042468103,
+      "max_abs_ka": 2.356194490192345,
+      "omega_squared_min": 1.0,
+      "all_retained_modes_linearly_stable": true,
+      "rtol": 2e-13,
+      "atol": 2e-15,
+      "method": "DOP853",
+      "nfev": 5069,
+      "elapsed_seconds": 0.39536476880311966,
+      "hermitian_error": 3.697785493223493e-31,
+      "max_relative_energy_drift": 2.0028423364237824e-13,
+      "all_finite": true,
+      "initial_energy": 0.8218982901497183,
+      "artifact": {
+        "path": "results/reference_corrected_N64.npz",
+        "sha256": "2d793723ad0a4286e11ec2dbace28114d0ae9a598ecb8d4295159106529fe139"
+      },
+      "max_quadratic_energy_fraction_above_abs_ka_0p5": 1.723782173518744e-11,
+      "validity_note": "Finite retained band only; positivity of omega^2 is not proof of short-wave accuracy. No untruncated +fourth-derivative PDE is solved.",
+      "mode3_initial_t_squared_coefficient": -0.015625
+    },
+    {
+      "name": "reference_corrected_N128",
+      "equation": "cutoff_long_wave_correction",
+      "K": 24,
+      "M": 97,
+      "spacing": 0.04908738521234052,
+      "max_abs_ka": 1.1780972450961724,
+      "omega_squared_min": 1.0,
+      "all_retained_modes_linearly_stable": true,
+      "rtol": 2e-13,
+      "atol": 2e-15,
+      "method": "DOP853",
+      "nfev": 5081,
+      "elapsed_seconds": 0.37548647075891495,
+      "hermitian_error": 4.629935586306915e-31,
+      "max_relative_energy_drift": 1.9517720772910252e-13,
+      "all_finite": true,
+      "initial_energy": 0.8221348492674573,
+      "artifact": {
+        "path": "results/reference_corrected_N128.npz",
+        "sha256": "3786c5a92af796422b2522fdff5e86fabc0fd73be6b1f8f6d849d9ad721f5fb1"
+      },
+      "max_quadratic_energy_fraction_above_abs_ka_0p5": 1.8764091137032755e-19,
+      "validity_note": "Finite retained band only; positivity of omega^2 is not proof of short-wave accuracy. No untruncated +fourth-derivative PDE is solved.",
+      "mode3_initial_t_squared_coefficient": -0.015625
+    },
+    {
+      "name": "reference_corrected_N256",
+      "equation": "cutoff_long_wave_correction",
+      "K": 24,
+      "M": 97,
+      "spacing": 0.02454369260617026,
+      "max_abs_ka": 0.5890486225480862,
+      "omega_squared_min": 1.0,
+      "all_retained_modes_linearly_stable": true,
+      "rtol": 2e-13,
+      "atol": 2e-15,
+      "method": "DOP853",
+      "nfev": 5081,
+      "elapsed_seconds": 0.3580932840704918,
+      "hermitian_error": 5.053640174072107e-31,
+      "max_relative_energy_drift": 1.3600232051658168e-13,
+      "all_finite": true,
+      "initial_energy": 0.8221939890468921,
+      "artifact": {
+        "path": "results/reference_corrected_N256.npz",
+        "sha256": "0b2c602b1ede418c85addab28d0c9172438b33bcfcc57ccab5c0f5a58ffa784f"
+      },
+      "max_quadratic_energy_fraction_above_abs_ka_0p5": 1.7488125440025493e-33,
+      "validity_note": "Finite retained band only; positivity of omega^2 is not proof of short-wave accuracy. No untruncated +fourth-derivative PDE is solved.",
+      "mode3_initial_t_squared_coefficient": -0.015625
+    },
+    {
+      "name": "reference_corrected_N512",
+      "equation": "cutoff_long_wave_correction",
+      "K": 24,
+      "M": 97,
+      "spacing": 0.01227184630308513,
+      "max_abs_ka": 0.2945243112740431,
+      "omega_squared_min": 1.0,
+      "all_retained_modes_linearly_stable": true,
+      "rtol": 2e-13,
+      "atol": 2e-15,
+      "method": "DOP853",
+      "nfev": 5081,
+      "elapsed_seconds": 0.3760621100664139,
+      "hermitian_error": 3.3280069439011436e-31,
+      "max_relative_energy_drift": 1.396660564978447e-13,
+      "all_finite": true,
+      "initial_energy": 0.8222087739917507,
+      "artifact": {
+        "path": "results/reference_corrected_N512.npz",
+        "sha256": "aea07825eed860b9dac6d0619f6e6c00d92cb3a1b1a4e3c9dc7e1317bd102d7c"
+      },
+      "max_quadratic_energy_fraction_above_abs_ka_0p5": 0.0,
+      "validity_note": "Finite retained band only; positivity of omega^2 is not proof of short-wave accuracy. No untruncated +fourth-derivative PDE is solved.",
+      "mode3_initial_t_squared_coefficient": -0.015625
+    },
+    {
+      "name": "reference_lattice_N64",
+      "N": 64,
+      "spacing": 0.09817477042468103,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3197,
+      "elapsed_seconds": 0.19197402521967888,
+      "max_relative_energy_drift": 6.459499601874086e-12,
+      "initial_energy": 0.8218983914666935,
+      "initial_energy_analytic": 0.8218983914666936,
+      "initial_energy_relative_error": 1.1102230246251565e-16,
+      "all_finite": true,
+      "artifact": {
+        "path": "results/reference_lattice_N64.npz",
+        "sha256": "9bc1a6473917b787e509d7d838f899a0179dd03eb58c4c75260ab5ac5a014a70"
+      }
+    },
+    {
+      "name": "reference_lattice_N128",
+      "N": 128,
+      "spacing": 0.04908738521234052,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3200,
+      "elapsed_seconds": 0.23688755929470062,
+      "max_relative_energy_drift": 3.378297641631889e-12,
+      "initial_energy": 0.8221348556005856,
+      "initial_energy_analytic": 0.8221348556005857,
+      "initial_energy_relative_error": 1.1102230246251565e-16,
+      "all_finite": true,
+      "artifact": {
+        "path": "results/reference_lattice_N128.npz",
+        "sha256": "27d0ad67e2722d5a41155b8685e5a96b4c8ae13afd1863f4f6a60cd4931a7dab"
+      }
+    },
+    {
+      "name": "reference_lattice_N256",
+      "N": 256,
+      "spacing": 0.02454369260617026,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 5978,
+      "elapsed_seconds": 0.45964645594358444,
+      "max_relative_energy_drift": 2.550515354471372e-12,
+      "initial_energy": 0.8221939894427253,
+      "initial_energy_analytic": 0.8221939894427254,
+      "initial_energy_relative_error": 1.1102230246251565e-16,
+      "all_finite": true,
+      "artifact": {
+        "path": "results/reference_lattice_N256.npz",
+        "sha256": "9e520bd9b8174920fde7c7e6346b539b3f832756584e7c654bd327baf08c9d48"
+      }
+    },
+    {
+      "name": "reference_lattice_N512",
+      "N": 512,
+      "spacing": 0.01227184630308513,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 11264,
+      "elapsed_seconds": 1.1647023260593414,
+      "max_relative_energy_drift": 1.1657341758564144e-14,
+      "initial_energy": 0.8222087740164905,
+      "initial_energy_analytic": 0.8222087740164905,
+      "initial_energy_relative_error": 0.0,
+      "all_finite": true,
+      "artifact": {
+        "path": "results/reference_lattice_N512.npz",
+        "sha256": "467b654b096a32820dd4a846882ba1dd3e91925e0d05324a1aa97bd1d3325bcd"
+      }
+    }
+  ],
+  "convergence": {
+    "spatial_K16_to_K24": {
+      "max_field_rms_difference": 1.474367245916502e-12,
+      "max_velocity_rms_difference": 4.880403311052169e-12,
+      "max_cos_mode_amplitude_difference": 1.7478807030207877e-12
+    },
+    "time_tolerance_K24": {
+      "max_field_rms_difference": 1.4011068352496926e-12,
+      "max_velocity_rms_difference": 4.170234453917865e-12,
+      "max_cos_mode_amplitude_difference": 1.6984227609387337e-12
+    }
+  },
+  "checks": [
+    {
+      "name": "cubic_projection_dealiasing",
+      "passed": true,
+      "max_abs_difference": 2.6645352591003757e-15
+    },
+    {
+      "name": "reference_continuum_K16_finite_energy_symmetry",
+      "passed": true,
+      "energy_drift": 6.3504757008558954e-12,
+      "hermitian_error": 4.441298085618047e-16
+    },
+    {
+      "name": "reference_continuum_K16_mode3_initial_acceleration",
+      "passed": true,
+      "value": -0.015625
+    },
+    {
+      "name": "reference_continuum_K24_finite_energy_symmetry",
+      "passed": true,
+      "energy_drift": 5.15998355155034e-12,
+      "hermitian_error": 2.7825835836506784e-30
+    },
+    {
+      "name": "reference_continuum_K24_mode3_initial_acceleration",
+      "passed": true,
+      "value": -0.015625
+    },
+    {
+      "name": "reference_continuum_K24_tight_finite_energy_symmetry",
+      "passed": true,
+      "energy_drift": 1.4299672557172016e-13,
+      "hermitian_error": 5.704604495274993e-31
+    },
+    {
+      "name": "reference_continuum_K24_tight_mode3_initial_acceleration",
+      "passed": true,
+      "value": -0.015625
+    },
+    {
+      "name": "reference_corrected_N64_finite_energy_symmetry",
+      "passed": true,
+      "energy_drift": 2.0028423364237824e-13,
+      "hermitian_error": 3.697785493223493e-31
+    },
+    {
+      "name": "reference_corrected_N64_mode3_initial_acceleration",
+      "passed": true,
+      "value": -0.015625
+    },
+    {
+      "name": "reference_corrected_N128_finite_energy_symmetry",
+      "passed": true,
+      "energy_drift": 1.9517720772910252e-13,
+      "hermitian_error": 4.629935586306915e-31
+    },
+    {
+      "name": "reference_corrected_N128_mode3_initial_acceleration",
+      "passed": true,
+      "value": -0.015625
+    },
+    {
+      "name": "reference_corrected_N256_finite_energy_symmetry",
+      "passed": true,
+      "energy_drift": 1.3600232051658168e-13,
+      "hermitian_error": 5.053640174072107e-31
+    },
+    {
+      "name": "reference_corrected_N256_mode3_initial_acceleration",
+      "passed": true,
+      "value": -0.015625
+    },
+    {
+      "name": "reference_corrected_N512_finite_energy_symmetry",
+      "passed": true,
+      "energy_drift": 1.396660564978447e-13,
+      "hermitian_error": 3.3280069439011436e-31
+    },
+    {
+      "name": "reference_corrected_N512_mode3_initial_acceleration",
+      "passed": true,
+      "value": -0.015625
+    },
+    {
+      "name": "reference_lattice_N64_finite_energy_initial",
+      "passed": true,
+      "energy_drift": 6.459499601874086e-12,
+      "initial_energy_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "reference_lattice_N128_finite_energy_initial",
+      "passed": true,
+      "energy_drift": 3.378297641631889e-12,
+      "initial_energy_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "reference_lattice_N256_finite_energy_initial",
+      "passed": true,
+      "energy_drift": 2.550515354471372e-12,
+      "initial_energy_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "reference_lattice_N512_finite_energy_initial",
+      "passed": true,
+      "energy_drift": 1.1657341758564144e-14,
+      "initial_energy_error": 0.0
+    },
+    {
+      "name": "continuum_initial_energy_67pi_over_256",
+      "passed": true,
+      "relative_error": 0.0
+    },
+    {
+      "name": "Galerkin_K16_to_K24",
+      "passed": true,
+      "max_field_rms_difference": 1.474367245916502e-12,
+      "max_velocity_rms_difference": 4.880403311052169e-12,
+      "max_cos_mode_amplitude_difference": 1.7478807030207877e-12
+    },
+    {
+      "name": "DOP853_tolerance_refinement",
+      "passed": true,
+      "max_field_rms_difference": 1.4011068352496926e-12,
+      "max_velocity_rms_difference": 4.170234453917865e-12,
+      "max_cos_mode_amplitude_difference": 1.6984227609387337e-12
+    }
+  ],
+  "all_checks_passed": true
+}

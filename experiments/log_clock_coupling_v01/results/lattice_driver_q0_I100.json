@@ -1,0 +1,136 @@
+{
+  "parameters": {
+    "name": "driver_q0_I100",
+    "roles": [
+      "null_control"
+    ],
+    "N": 128,
+    "L": 6.283185307179586,
+    "spacing": 0.04908738521234052,
+    "speed": 1.0,
+    "m0": 1.0,
+    "g": 1.0,
+    "initial_field_amplitude": 0.0,
+    "initial_field_velocity": 0.0,
+    "b": 2.0,
+    "I": 100.0,
+    "R_initial": 1.0,
+    "Rstar": 0.1353352832366127,
+    "chi_initial": 2.0,
+    "Td": 10.0,
+    "Rdot_initial": 0.1,
+    "dt": 0.01,
+    "output_dt": 0.02,
+    "final_elapsed_time": 20.0,
+    "output_count": 1001,
+    "steps_per_output": 2,
+    "internal_steps": 2000,
+    "canonical_variables": "p_j=a*velocity_j; P=I*Rdot",
+    "method": "Simultaneous separable-Hamiltonian kick-drift-kick Störmer-Verlet",
+    "field_power_definition": "-b*Rdot*Q2/(R*chi**3); Q2=a*sum(q**2)",
+    "units": "Dimensionless benchmark; elapsed time is not calibrated cosmic time."
+  },
+  "wall_seconds": 0.09154367074370384,
+  "initial_total_energy": 0.5,
+  "final_total_energy": 0.5,
+  "max_sampled_relative_total_energy_deviation": 0.0,
+  "energy_sampling_note": "Energy deviation measured at saved output times; exact conservation is not claimed.",
+  "initial_field_energy": 0.0,
+  "final_field_energy": 0.0,
+  "initial_clock_energy": 0.5,
+  "final_clock_energy": 0.5,
+  "clock_energy_gain": 0.0,
+  "field_energy_change": 0.0,
+  "final_R": 2.9999999999997797,
+  "final_Rdot": 0.1,
+  "final_chi": 3.0986122886680363,
+  "final_M2": 0.7083029967036278,
+  "external_linear_clock_R_final": 3.0,
+  "fractional_R_departure_from_external_final": -7.338574192772285e-14,
+  "min_R_over_steps": 1.0,
+  "min_chi_over_steps": 2.0,
+  "min_M2_over_steps": 0.7083029967036278,
+  "max_M2_over_steps": 1.0,
+  "max_abs_q_over_steps": 0.0,
+  "field_linear_curvature_step_scale": 0.40755935430266627,
+  "curvature_note": "Field block diagnostic only; not a proof of nonlinear coupled stability.",
+  "integrated_field_power_final": 0.0,
+  "max_abs_field_work_residual": 0.0,
+  "work_note": "Trapezoidal integration at internal steps; independent continuous-time reference is separate.",
+  "final_cosine_q": {
+    "1": 0.0,
+    "3": 0.0,
+    "5": 0.0
+  },
+  "max_absolute_cosine_q": {
+    "1": 0.0,
+    "3": 0.0,
+    "5": 0.0
+  },
+  "checks": [
+    {
+      "name": "initial_field_and_velocity",
+      "passed": true
+    },
+    {
+      "name": "initial_clock",
+      "passed": true
+    },
+    {
+      "name": "initial_total_energy",
+      "passed": true,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "name": "positive_clock_and_mass_domain",
+      "passed": true,
+      "min_R": 1.0,
+      "min_chi": 2.0,
+      "min_M2": 0.7083029967036278
+    },
+    {
+      "name": "finite_fields_and_clock",
+      "passed": true
+    },
+    {
+      "name": "positive_total_energy",
+      "passed": true
+    },
+    {
+      "name": "positive_clock_direction",
+      "passed": true
+    },
+    {
+      "name": "nonnegative_clock_acceleration_branch",
+      "passed": true,
+      "minimum_output_velocity_increment": 0.0
+    },
+    {
+      "name": "nonpositive_field_exchange_power",
+      "passed": true,
+      "maximum_power": -0.0
+    },
+    {
+      "name": "time_alignment",
+      "passed": true
+    },
+    {
+      "name": "uncoupled_clock_linear",
+      "passed": true,
+      "max_abs_R_error": 2.2026824808563106e-13
+    },
+    {
+      "name": "uncoupled_clock_velocity_constant",
+      "passed": true
+    },
+    {
+      "name": "uncoupled_exchange_zero",
+      "passed": true
+    },
+    {
+      "name": "zero_field_exact",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true
+}

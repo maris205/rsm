@@ -1,0 +1,333 @@
+{
+  "scope": "Deterministic fixed-coefficient phi4 benchmark, finite interval [0,20]; no observations or fitted phases.",
+  "metric": "Equal-weight global relative RMS over all shared times and sites; denominator is the reference array (second argument). Spatial comparisons use the respective continuum/corrected field; time comparisons use the same-lattice ODE reference.",
+  "tail_metric": "Quadratic spectral norm fraction with weight (1+k^2)|qhat|^2+|velocity_hat|^2; excludes quartic interaction energy.",
+  "code_sha256": "a644f0b595eec9d58cfbc1ccf9de0ea4ca1314f492c06b85fb8e41b96eb45d7e",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "matplotlib": "3.10.5"
+  },
+  "spatial": [
+    {
+      "N": 64,
+      "spacing": 0.09817477042468103,
+      "dt": 0.004,
+      "q_error_continuum": 0.0031369562178411316,
+      "q_error_corrected": 1.7674910360784335e-06,
+      "velocity_error_continuum": 0.003477070522770919,
+      "velocity_error_corrected": 3.3966595637083063e-06,
+      "q_error_verlet_to_lattice_reference": 2.3343538207925384e-05,
+      "q_error_verlet_to_continuum": 0.0031137559586659038,
+      "max_spatial_rms_continuum": 0.0017939294433091805,
+      "max_spatial_rms_corrected": 1.0151422320524757e-06,
+      "q_error_final_continuum": 0.00835640406505512,
+      "q_error_final_corrected": 4.406152461510441e-06,
+      "energy_relative_max": 8.386980489105689e-06,
+      "cosine3_max": 0.004712675010987546,
+      "cosine3_relative_error": 0.06575127830272981,
+      "omega1_from_crossings": 1.462432437855448,
+      "raw_tail_norm_fraction_ka_gt_half": 1.778963202784696e-11,
+      "corrected_tail_norm_fraction_ka_gt_half": 1.7922532290547632e-11,
+      "raw_tail_norm_fraction_ka_gt_one": 4.36020560267624e-19,
+      "corrected_tail_norm_fraction_ka_gt_one": 4.4863242205650465e-19,
+      "correction_improvement_factor": 1774.807426916946,
+      "order_continuum_from_previous": null,
+      "order_corrected_from_previous": null
+    },
+    {
+      "N": 128,
+      "spacing": 0.04908738521234052,
+      "dt": 0.0011764705882352942,
+      "q_error_continuum": 0.0007843372881925916,
+      "q_error_corrected": 1.0975349672334005e-07,
+      "velocity_error_continuum": 0.0008691643538304043,
+      "velocity_error_corrected": 2.101918730523404e-07,
+      "q_error_verlet_to_lattice_reference": 2.0204436176346143e-06,
+      "q_error_verlet_to_continuum": 0.0007823291248344328,
+      "max_spatial_rms_continuum": 0.00044830596057916024,
+      "max_spatial_rms_corrected": 6.269328976900838e-08,
+      "q_error_final_continuum": 0.0020946846330432865,
+      "q_error_final_corrected": 2.9559627832783947e-07,
+      "energy_relative_max": 7.257123080250949e-07,
+      "cosine3_max": 0.004681972787349546,
+      "cosine3_relative_error": 0.01642830401308339,
+      "omega1_from_crossings": 1.4626392038626752,
+      "raw_tail_norm_fraction_ka_gt_half": 1.9231172775308194e-19,
+      "corrected_tail_norm_fraction_ka_gt_half": 1.9225133960553658e-19,
+      "raw_tail_norm_fraction_ka_gt_one": 1.719602924312634e-24,
+      "corrected_tail_norm_fraction_ka_gt_one": 3.146446888886397e-33,
+      "correction_improvement_factor": 7146.353525024368,
+      "order_continuum_from_previous": 1.999819299431234,
+      "order_corrected_from_previous": 4.009364088784935
+    },
+    {
+      "N": 256,
+      "spacing": 0.02454369260617026,
+      "dt": 0.00029850746268656717,
+      "q_error_continuum": 0.00019608975604778152,
+      "q_error_corrected": 6.84921110919817e-09,
+      "velocity_error_continuum": 0.00021727987007393143,
+      "velocity_error_corrected": 1.3115192526661059e-08,
+      "q_error_verlet_to_lattice_reference": 1.3009330758607313e-07,
+      "q_error_verlet_to_continuum": 0.0001959604511318031,
+      "max_spatial_rms_continuum": 0.00011206283688693918,
+      "max_spatial_rms_corrected": 3.9052369815693525e-09,
+      "q_error_final_continuum": 0.0005240082050219855,
+      "q_error_final_corrected": 1.8737278001182663e-08,
+      "energy_relative_max": 4.672477194045399e-08,
+      "cosine3_max": 0.004673797132824951,
+      "cosine3_relative_error": 0.00410672446511332,
+      "omega1_from_crossings": 1.4626912072153242,
+      "raw_tail_norm_fraction_ka_gt_half": 1.0753576044047847e-16,
+      "corrected_tail_norm_fraction_ka_gt_half": 1.7708611621615422e-33,
+      "raw_tail_norm_fraction_ka_gt_one": 1.0753576043579223e-16,
+      "corrected_tail_norm_fraction_ka_gt_one": 0.0,
+      "correction_improvement_factor": 28629.538923751694,
+      "order_continuum_from_previous": 1.9999600197730447,
+      "order_corrected_from_previous": 4.002185265920156
+    },
+    {
+      "N": 512,
+      "spacing": 0.01227184630308513,
+      "dt": 7.518796992481203e-05,
+      "q_error_continuum": 4.902276746767377e-05,
+      "q_error_corrected": 4.2794759518673576e-10,
+      "velocity_error_continuum": 5.431919315364189e-05,
+      "velocity_error_corrected": 8.355403158865533e-10,
+      "q_error_verlet_to_lattice_reference": 8.253835062936986e-09,
+      "q_error_verlet_to_continuum": 4.9014563616593496e-05,
+      "max_spatial_rms_continuum": 2.801481716836232e-05,
+      "max_spatial_rms_corrected": 2.438925120623045e-10,
+      "q_error_final_continuum": 0.00013102291021620697,
+      "q_error_final_corrected": 1.1750321478806806e-09,
+      "energy_relative_max": 2.9644391386085545e-09,
+      "cosine3_max": 0.004671713755544601,
+      "cosine3_relative_error": 0.001026655110764344,
+      "omega1_from_crossings": 1.4627042396046903,
+      "raw_tail_norm_fraction_ka_gt_half": 2.695109103856618e-18,
+      "corrected_tail_norm_fraction_ka_gt_half": 0.0,
+      "raw_tail_norm_fraction_ka_gt_one": 2.695109097780722e-18,
+      "corrected_tail_norm_fraction_ka_gt_one": 0.0,
+      "correction_improvement_factor": 114553.20235245764,
+      "order_continuum_from_previous": 1.9999903338170724,
+      "order_corrected_from_previous": 4.000431782627867
+    }
+  ],
+  "temporal": [
+    {
+      "dt": 0.01,
+      "N": 128,
+      "q_error": 0.00014598090138593443,
+      "velocity_error": 0.00015789305280587305,
+      "energy_relative_max": 5.243281103628483e-05,
+      "order_from_previous": null
+    },
+    {
+      "dt": 0.005,
+      "N": 128,
+      "q_error": 3.649448496506569e-05,
+      "velocity_error": 3.9473088984973415e-05,
+      "energy_relative_max": 1.3108184377386145e-05,
+      "order_from_previous": 2.0000292683611285
+    },
+    {
+      "dt": 0.0025,
+      "N": 128,
+      "q_error": 9.123575425498983e-06,
+      "velocity_error": 9.868261838706005e-06,
+      "energy_relative_max": 3.277044944072216e-06,
+      "order_from_previous": 2.0000072447490633
+    },
+    {
+      "dt": 0.00125,
+      "N": 128,
+      "q_error": 2.2808914528831076e-06,
+      "velocity_error": 2.46706529852566e-06,
+      "energy_relative_max": 8.192611627988455e-07,
+      "order_from_previous": 2.000001520240534
+    }
+  ],
+  "reference_quality": [
+    {
+      "file": "reference_continuum_K16.npz",
+      "relative_rms": 1.2029218601896799e-12
+    },
+    {
+      "file": "reference_continuum_K24.npz",
+      "relative_rms": 1.4271475329555943e-12
+    }
+  ],
+  "continuum_modes": {
+    "cosine3_max": 0.004671015792601266,
+    "cosine3_max_relative_to_initial_A": 0.009342031585202531,
+    "effective_frequency": {
+      "omega": 1.4627085866430227,
+      "descending_zero_times": [
+        1.0738089142278755,
+        5.369444052863046,
+        9.665093358020677,
+        13.960658285266916,
+        18.256138640204966
+      ],
+      "period_min": 4.29548035493805,
+      "period_max": 4.295649305157631,
+      "definition": "Mean descending-zero period over the finite window; not a fitted or asymptotic frequency."
+    }
+  },
+  "dispersion_selected": [
+    {
+      "k": 1,
+      "ka": 0.09817477042468103,
+      "omega_lattice": 1.4139296543814446,
+      "omega_continuum": 1.4142135623730951,
+      "omega_corrected": 1.4139295631457995,
+      "relative_continuum_error": 0.00020079357609548154,
+      "relative_corrected_error": -6.452629719433389e-08
+    },
+    {
+      "k": 8,
+      "ka": 0.7853981633974483,
+      "omega_lattice": 7.85983695933409,
+      "omega_continuum": 8.06225774829855,
+      "omega_corrected": 7.855579664563497,
+      "relative_continuum_error": 0.025753815252372414,
+      "relative_corrected_error": -0.0005416517915854957
+    },
+    {
+      "k": 24,
+      "ka": 2.356194490192345,
+      "omega_lattice": 18.847666464889,
+      "omega_continuum": 24.020824298928627,
+      "omega_corrected": 17.621597009652312,
+      "relative_continuum_error": 0.2744720596407315,
+      "relative_corrected_error": -0.06505152547774073
+    },
+    {
+      "k": 32,
+      "ka": 3.141592653589793,
+      "omega_lattice": 20.396361641209825,
+      "omega_continuum": 32.01562118716424,
+      "omega_corrected": 13.52012417745148,
+      "relative_continuum_error": 0.5696731481009969,
+      "relative_corrected_error": -0.3371305914612365
+    }
+  ],
+  "checks": [
+    {
+      "name": "N64_times_align",
+      "passed": true
+    },
+    {
+      "name": "N64_correction_improves",
+      "passed": true
+    },
+    {
+      "name": "N128_times_align",
+      "passed": true
+    },
+    {
+      "name": "N128_correction_improves",
+      "passed": true
+    },
+    {
+      "name": "N128_spatial_order",
+      "passed": true,
+      "order": 1.999819299431234
+    },
+    {
+      "name": "N128_corrected_order",
+      "passed": true,
+      "order": 4.009364088784935
+    },
+    {
+      "name": "N256_times_align",
+      "passed": true
+    },
+    {
+      "name": "N256_correction_improves",
+      "passed": true
+    },
+    {
+      "name": "N256_spatial_order",
+      "passed": true,
+      "order": 1.9999600197730447
+    },
+    {
+      "name": "N256_corrected_order",
+      "passed": true,
+      "order": 4.002185265920156
+    },
+    {
+      "name": "N512_times_align",
+      "passed": true
+    },
+    {
+      "name": "N512_correction_improves",
+      "passed": true
+    },
+    {
+      "name": "N512_spatial_order",
+      "passed": true,
+      "order": 1.9999903338170724
+    },
+    {
+      "name": "N512_corrected_order",
+      "passed": true,
+      "order": 4.000431782627867
+    },
+    {
+      "name": "dt0.005_time_order",
+      "passed": true,
+      "order": 2.0000292683611285
+    },
+    {
+      "name": "dt0.0025_time_order",
+      "passed": true,
+      "order": 2.0000072447490633
+    },
+    {
+      "name": "dt0.00125_time_order",
+      "passed": true,
+      "order": 2.000001520240534
+    },
+    {
+      "name": "nonlinearity_generates_third_spatial_mode",
+      "passed": true
+    },
+    {
+      "name": "linear_control_has_no_third_mode",
+      "passed": true,
+      "maximum": 3.3389487842727616e-16
+    },
+    {
+      "name": "continuum_reference_below_smallest_corrected_error",
+      "passed": true,
+      "note": "Only checks the continuum portion; finest lattice tolerance has a separate audit."
+    }
+  ],
+  "all_checks_passed": true,
+  "input_sha256": {
+    "reference_continuum_K24_tight.npz": "904197563ff49027cfd90d266d74e345e7c9d83757a3111c9f2d1dd7aca2da96",
+    "lattice_spatial_N64.npz": "9052c362d28e199ff9accab1335d83559cd9fa7d7f11eb2a65410f480f6f10bc",
+    "reference_lattice_N64.npz": "9bc1a6473917b787e509d7d838f899a0179dd03eb58c4c75260ab5ac5a014a70",
+    "reference_corrected_N64.npz": "2d793723ad0a4286e11ec2dbace28114d0ae9a598ecb8d4295159106529fe139",
+    "lattice_spatial_N128.npz": "3e24374559b1c83adf67cd25cadd3efb480b42facde167d749a06215bff87e6a",
+    "reference_lattice_N128.npz": "27d0ad67e2722d5a41155b8685e5a96b4c8ae13afd1863f4f6a60cd4931a7dab",
+    "reference_corrected_N128.npz": "3786c5a92af796422b2522fdff5e86fabc0fd73be6b1f8f6d849d9ad721f5fb1",
+    "lattice_spatial_N256.npz": "7c848f1acf9ea9ed4b53e4790003fee44ba0edfbf718a51abda3423b644aeba4",
+    "reference_lattice_N256.npz": "9e520bd9b8174920fde7c7e6346b539b3f832756584e7c654bd327baf08c9d48",
+    "reference_corrected_N256.npz": "0b2c602b1ede418c85addab28d0c9172438b33bcfcc57ccab5c0f5a58ffa784f",
+    "lattice_spatial_N512.npz": "ebc7f5d0b1ae6a25e6d2831ac6b8fced6016c5f76d5095dc50248f611c614267",
+    "reference_lattice_N512.npz": "467b654b096a32820dd4a846882ba1dd3e91925e0d05324a1aa97bd1d3325bcd",
+    "reference_corrected_N512.npz": "aea07825eed860b9dac6d0619f6e6c00d92cb3a1b1a4e3c9dc7e1317bd102d7c",
+    "lattice_time_N128_dt0p01.npz": "d27e4c78749603595e1117e08a78d7179c22f8ce3809dda2aa5908103e1fd5f3",
+    "lattice_time_N128_dt0p005.npz": "85dd1e71eafb3f1958e13a622d0201837dbb7aaeb1f60dbb44ca5c16a9a07ca5",
+    "lattice_time_N128_dt0p0025.npz": "d72dfd88048831036027f86eaaebdf31963c6a1ae2838e68ea88488d4ab98c36",
+    "lattice_time_N128_dt0p00125.npz": "2d87258c3c155f5b43b5ee9e5060199a311e0fc7a64c6227229568ff1e120e2b",
+    "lattice_linear_N64_k1.npz": "93ab00cf446905f06ce681bcd36d398deee458e2769018a119a5cd7b695c2a72",
+    "reference_continuum_K16.npz": "c47e7443175d8ab5c6c96cc3948f4a61636d7424703c1f9879f9e8615476e079",
+    "reference_continuum_K24.npz": "d38be4681464a471ad5c3e4db54579bf1623ac6b770e5cbed5424ab07d277d41"
+  }
+}

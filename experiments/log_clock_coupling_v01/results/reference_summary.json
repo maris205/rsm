@@ -1,0 +1,567 @@
+{
+  "scope": "Autonomous mechanical R-clock + phi^4 toy model. Inverse-log mass response assumed, not derived; distinct from canonical exponential-potential chi completion. No observed data.",
+  "parameters": {
+    "L": 6.283185307179586,
+    "v": 1.0,
+    "m0": 1.0,
+    "g": 1.0,
+    "A": 0.5,
+    "R_initial": 1.0,
+    "Rdot_initial": 0.1,
+    "Rstar": 0.1353352832366127,
+    "chi_initial": 2.0,
+    "Td": 10.0,
+    "b": 2.0,
+    "t_end": 20.0,
+    "output_dt": 0.02
+  },
+  "formulas": {
+    "mass_squared": "1+b*(log(R/Rstar)**(-2)-0.25)",
+    "R_acceleration": "b*integral(q**2)/(I*R*chi**3)",
+    "field_power": "-b*Rdot*integral(q**2)/(R*chi**3)",
+    "free_clock": "R=1+t/Td; chi=2+log(1+t/Td)"
+  },
+  "Fourier_normalization": "phi=sum qhat[k]*exp(i*k*x); fft norm=forward. Continuum k sorted -K..K; lattice k in FFT order. Stored velocity is qdot, not canonical a*qdot.",
+  "energy_normalization": "energy=total_energy for full coupling; energy=field_energy for external/frozen controls. work integrates field power independently.",
+  "reference_recommendation": "results/reference_continuum_I100_K24_tight.npz",
+  "code_sha256": "6f7dabbbc17d575caba75773271ced80b26affc5c6f3a37256808d0a96e7685f",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "runs": [
+    {
+      "name": "reference_full_N128_I10",
+      "mode": "full",
+      "N": 128,
+      "I": 10.0,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3230,
+      "elapsed_seconds": 0.33222514390945435,
+      "all_finite": true,
+      "mass_squared_min": 0.6814509295151241,
+      "initial_field_energy": 0.8221348556005856,
+      "final_field_energy": 0.7576687008183007,
+      "final_work": -0.06446615478193914,
+      "max_relative_field_work_residual": 2.5576008325089994e-12,
+      "max_relative_total_energy_drift": 2.5626167854397863e-12,
+      "max_relative_clock_work_residual": 5.002075142979123e-15,
+      "artifact": {
+        "path": "results/reference_full_N128_I10.npz",
+        "sha256": "01ab8c65eed52f1f5d06c528b451f6c1b817ad2dfc19057faa300e03e7c41bcd"
+      },
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.743344555689088,
+      "Rdot_final": 0.15130509230157413,
+      "max_R_departure_from_free": 0.7433445556890881
+    },
+    {
+      "name": "reference_full_N128_I100",
+      "mode": "full",
+      "N": 128,
+      "I": 100.0,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3215,
+      "elapsed_seconds": 0.29690787196159363,
+      "all_finite": true,
+      "mass_squared_min": 0.7047783710066218,
+      "initial_field_energy": 0.8221348556005856,
+      "final_field_energy": 0.7624636788671035,
+      "final_work": -0.05967117673312419,
+      "max_relative_field_work_residual": 2.5300525563487497e-12,
+      "max_relative_total_energy_drift": 1.913217950945636e-12,
+      "max_relative_clock_work_residual": 1.519617764955683e-15,
+      "artifact": {
+        "path": "results/reference_full_N128_I100.npz",
+        "sha256": "bdd1345366d45234f9037f8f2fbeb08224d9ed5d1b5e3e6f237751b19ee8f3cb"
+      },
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.0807252165731764,
+      "Rdot_final": 0.10579897700196582,
+      "max_R_departure_from_free": 0.08072521657317644
+    },
+    {
+      "name": "reference_full_N128_I1000",
+      "mode": "full",
+      "N": 128,
+      "I": 1000.0,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3227,
+      "elapsed_seconds": 0.2718324773013592,
+      "all_finite": true,
+      "mass_squared_min": 0.7079387204384675,
+      "initial_field_energy": 0.8221348556005856,
+      "final_field_energy": 0.7631110629725225,
+      "final_work": -0.05902379262773284,
+      "max_relative_field_work_residual": 2.717012812653019e-12,
+      "max_relative_total_energy_drift": 4.666566222266618e-13,
+      "max_relative_clock_work_residual": 8.944234242136418e-16,
+      "artifact": {
+        "path": "results/reference_full_N128_I1000.npz",
+        "sha256": "563ab2285b43eb486d5a18409faa60f08f6186bebb56a71e138a5a8d187b1dc0"
+      },
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.0081499167158174,
+      "Rdot_final": 0.10058850622837313,
+      "max_R_departure_from_free": 0.00814991671581744
+    },
+    {
+      "name": "reference_full_N64_I100",
+      "mode": "full",
+      "N": 64,
+      "I": 100.0,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3251,
+      "elapsed_seconds": 0.27202877402305603,
+      "all_finite": true,
+      "mass_squared_min": 0.7047783377429764,
+      "initial_field_energy": 0.8218983914666935,
+      "final_field_energy": 0.7622286620846863,
+      "final_work": -0.059669729381627214,
+      "max_relative_field_work_residual": 2.4858691494156204e-12,
+      "max_relative_total_energy_drift": 1.8803013329738413e-12,
+      "max_relative_clock_work_residual": 8.118505867571457e-16,
+      "artifact": {
+        "path": "results/reference_full_N64_I100.npz",
+        "sha256": "5a9c7165817f21ffa787df31816a0d3073ddcc4d371205a9fdc3fd200d6b381e"
+      },
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.080725998528228,
+      "Rdot_final": 0.10579884019984603,
+      "max_R_departure_from_free": 0.08072599852822782
+    },
+    {
+      "name": "reference_full_N256_I100",
+      "mode": "full",
+      "N": 256,
+      "I": 100.0,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 5597,
+      "elapsed_seconds": 0.5488438047468662,
+      "all_finite": true,
+      "mass_squared_min": 0.7047783793179727,
+      "initial_field_energy": 0.8221939894427253,
+      "final_field_energy": 0.762522447387912,
+      "final_work": -0.059671542054852304,
+      "max_relative_field_work_residual": 1.8642431348636634e-12,
+      "max_relative_total_energy_drift": 1.4101626254868516e-12,
+      "max_relative_clock_work_residual": 1.6167622796103842e-15,
+      "artifact": {
+        "path": "results/reference_full_N256_I100.npz",
+        "sha256": "764781f790b63c0d6d6e65c1cc7f4806d3e81d85de1efe60b6a9c8149ecb8899"
+      },
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.080725021191676,
+      "Rdot_final": 0.10579901153175796,
+      "max_R_departure_from_free": 0.08072502119167613
+    },
+    {
+      "name": "reference_external_N128",
+      "mode": "external",
+      "N": 128,
+      "I": null,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3215,
+      "elapsed_seconds": 0.2648592106997967,
+      "all_finite": true,
+      "mass_squared_min": 0.708302996703618,
+      "initial_field_energy": 0.8221348556005856,
+      "final_field_energy": 0.7631856494386198,
+      "final_work": -0.058949206161644174,
+      "max_relative_field_work_residual": 2.5222046673434306e-12,
+      "artifact": {
+        "path": "results/reference_external_N128.npz",
+        "sha256": "a9c41f63c1803794001fa301262d7771e2b272616d0257e05c45706e3547bbbc"
+      },
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.0,
+      "Rdot_final": 0.1,
+      "max_R_departure_from_free": 0.0
+    },
+    {
+      "name": "reference_frozen_N128",
+      "mode": "frozen",
+      "N": 128,
+      "I": null,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3200,
+      "elapsed_seconds": 0.2154204659163952,
+      "all_finite": true,
+      "mass_squared_min": 1.0,
+      "initial_field_energy": 0.8221348556005856,
+      "final_field_energy": 0.8221348556000566,
+      "final_work": 0.0,
+      "max_relative_field_work_residual": 2.777444940704754e-12,
+      "artifact": {
+        "path": "results/reference_frozen_N128.npz",
+        "sha256": "04b9900c351806aee62bd4408a90d240927cf6859172e5ee2394cbbd772d1098"
+      }
+    },
+    {
+      "name": "reference_null_b0_N32",
+      "mode": "full",
+      "N": 32,
+      "I": 100.0,
+      "b": 0.0,
+      "amplitude": 0.5,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3164,
+      "elapsed_seconds": 0.23470621928572655,
+      "all_finite": true,
+      "mass_squared_min": 1.0,
+      "initial_field_energy": 0.8209536739136545,
+      "final_field_energy": 0.8209536739130068,
+      "final_work": 0.0,
+      "max_relative_field_work_residual": 4.1274761386489445e-12,
+      "max_relative_total_energy_drift": 3.1245343404951773e-12,
+      "max_relative_clock_work_residual": 0.0,
+      "artifact": {
+        "path": "results/reference_null_b0_N32.npz",
+        "sha256": "3397d3b926267bfb4d81c8698060959b533784449005f3dc5d04b06e7df69372"
+      },
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.000000000000002,
+      "Rdot_final": 0.1,
+      "max_R_departure_from_free": 3.1086244689504383e-15
+    },
+    {
+      "name": "reference_null_q0_N16",
+      "mode": "full",
+      "N": 16,
+      "I": 100.0,
+      "b": 2.0,
+      "amplitude": 0.0,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 77,
+      "elapsed_seconds": 0.006827887147665024,
+      "all_finite": true,
+      "mass_squared_min": 0.7083029967036178,
+      "initial_field_energy": 0.0,
+      "final_field_energy": 0.0,
+      "final_work": 0.0,
+      "max_relative_field_work_residual": 0.0,
+      "max_relative_total_energy_drift": 0.0,
+      "max_relative_clock_work_residual": 0.0,
+      "artifact": {
+        "path": "results/reference_null_q0_N16.npz",
+        "sha256": "367c9771292800ec9de73e2ec2fa7bb368a24d45355bbd261e75c3539ea63bb2"
+      },
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.000000000000001,
+      "Rdot_final": 0.1,
+      "max_R_departure_from_free": 1.3322676295501878e-15
+    },
+    {
+      "name": "reference_continuum_I100_K16",
+      "mode": "full_continuum",
+      "I": 100.0,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "K": 16,
+      "M": 65,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3866,
+      "elapsed_seconds": 0.3010968454182148,
+      "all_finite": true,
+      "mass_squared_min": 0.7047783820880407,
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.0807249560735053,
+      "Rdot_final": 0.1057990230707531,
+      "hermitian_error": 9.159396728813106e-16,
+      "real_clock_imaginary_error": 0.0,
+      "initial_field_energy": 0.8222137023067037,
+      "final_field_energy": 0.7625420381704175,
+      "final_work": -0.05967166413628565,
+      "max_relative_field_work_residual": 8.008940732828762e-13,
+      "max_relative_total_energy_drift": 6.057378535461629e-13,
+      "max_relative_clock_work_residual": 1.908195823574488e-15,
+      "artifact": {
+        "path": "results/reference_continuum_I100_K16.npz",
+        "sha256": "3972672ffdcfae6f57b4264c502924a159bc9487328373abf4c0a30b640b782c"
+      }
+    },
+    {
+      "name": "reference_continuum_I100_K24",
+      "mode": "full_continuum",
+      "I": 100.0,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "K": 24,
+      "M": 97,
+      "method": "DOP853",
+      "rtol": 2e-12,
+      "atol": 2e-14,
+      "nfev": 3776,
+      "elapsed_seconds": 0.36759039014577866,
+      "all_finite": true,
+      "mass_squared_min": 0.7047783820880406,
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.080724956073509,
+      "Rdot_final": 0.10579902307075298,
+      "hermitian_error": 0.0,
+      "real_clock_imaginary_error": 0.0,
+      "initial_field_energy": 0.8222137023067037,
+      "final_field_energy": 0.7625420381704163,
+      "final_work": -0.0596716641362856,
+      "max_relative_field_work_residual": 1.5863768632051745e-12,
+      "max_relative_total_energy_drift": 1.1993844607781248e-12,
+      "max_relative_clock_work_residual": 7.355227538141662e-16,
+      "artifact": {
+        "path": "results/reference_continuum_I100_K24.npz",
+        "sha256": "0e819b5c8f58b8072625372ba4edc761721129a4ad17e4c7611199a2cf08baf2"
+      }
+    },
+    {
+      "name": "reference_continuum_I100_K24_tight",
+      "mode": "full_continuum",
+      "I": 100.0,
+      "b": 2.0,
+      "amplitude": 0.5,
+      "K": 24,
+      "M": 97,
+      "method": "DOP853",
+      "rtol": 2e-13,
+      "atol": 2e-15,
+      "nfev": 5021,
+      "elapsed_seconds": 0.48033131286501884,
+      "all_finite": true,
+      "mass_squared_min": 0.7047783820880407,
+      "R_min": 1.0,
+      "chi_min": 2.0,
+      "R_final": 3.080724956073506,
+      "Rdot_final": 0.10579902307075291,
+      "hermitian_error": 0.0,
+      "real_clock_imaginary_error": 0.0,
+      "initial_field_energy": 0.8222137023067037,
+      "final_field_energy": 0.7625420381704192,
+      "final_work": -0.059671664136285635,
+      "max_relative_field_work_residual": 1.2694012507807884e-13,
+      "max_relative_total_energy_drift": 9.60582346072651e-14,
+      "max_relative_clock_work_residual": 6.591949208711867e-16,
+      "artifact": {
+        "path": "results/reference_continuum_I100_K24_tight.npz",
+        "sha256": "1e37535c4ba845c1aa407b823c9ac3ae514336d8951326c67c1bd43351398e09"
+      }
+    }
+  ],
+  "convergence": {
+    "spatial_K16_to_K24": {
+      "max_field_rms_difference": 4.959317318100473e-13,
+      "max_velocity_rms_difference": 8.014820190802331e-13,
+      "max_R_difference": 4.884981308350689e-15,
+      "max_Rdot_difference": 6.38378239159465e-16
+    },
+    "tolerance_K24": {
+      "max_field_rms_difference": 5.350089201193676e-13,
+      "max_velocity_rms_difference": 8.58668290601046e-13,
+      "max_R_difference": 4.884981308350689e-15,
+      "max_Rdot_difference": 5.967448757360216e-16
+    }
+  },
+  "checks": [
+    {
+      "name": "reference_full_N128_I10_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 2.5576008325089994e-12
+    },
+    {
+      "name": "reference_full_N128_I10_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 2.5626167854397863e-12,
+      "clock_work_residual": 5.002075142979123e-15
+    },
+    {
+      "name": "reference_full_N128_I100_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 2.5300525563487497e-12
+    },
+    {
+      "name": "reference_full_N128_I100_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 1.913217950945636e-12,
+      "clock_work_residual": 1.519617764955683e-15
+    },
+    {
+      "name": "reference_full_N128_I1000_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 2.717012812653019e-12
+    },
+    {
+      "name": "reference_full_N128_I1000_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 4.666566222266618e-13,
+      "clock_work_residual": 8.944234242136418e-16
+    },
+    {
+      "name": "reference_full_N64_I100_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 2.4858691494156204e-12
+    },
+    {
+      "name": "reference_full_N64_I100_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 1.8803013329738413e-12,
+      "clock_work_residual": 8.118505867571457e-16
+    },
+    {
+      "name": "reference_full_N256_I100_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 1.8642431348636634e-12
+    },
+    {
+      "name": "reference_full_N256_I100_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 1.4101626254868516e-12,
+      "clock_work_residual": 1.6167622796103842e-15
+    },
+    {
+      "name": "reference_external_N128_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 2.5222046673434306e-12
+    },
+    {
+      "name": "reference_frozen_N128_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 2.777444940704754e-12
+    },
+    {
+      "name": "reference_null_b0_N32_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 4.1274761386489445e-12
+    },
+    {
+      "name": "reference_null_b0_N32_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 3.1245343404951773e-12,
+      "clock_work_residual": 0.0
+    },
+    {
+      "name": "reference_null_q0_N16_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 0.0
+    },
+    {
+      "name": "reference_null_q0_N16_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 0.0,
+      "clock_work_residual": 0.0
+    },
+    {
+      "name": "reference_continuum_I100_K16_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 8.008940732828762e-13
+    },
+    {
+      "name": "reference_continuum_I100_K16_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 6.057378535461629e-13,
+      "clock_work_residual": 1.908195823574488e-15
+    },
+    {
+      "name": "reference_continuum_I100_K24_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 1.5863768632051745e-12
+    },
+    {
+      "name": "reference_continuum_I100_K24_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 1.1993844607781248e-12,
+      "clock_work_residual": 7.355227538141662e-16
+    },
+    {
+      "name": "reference_continuum_I100_K24_tight_physical_domain_and_work",
+      "passed": true,
+      "max_field_work_residual": 1.2694012507807884e-13
+    },
+    {
+      "name": "reference_continuum_I100_K24_tight_clock_total_energy",
+      "passed": true,
+      "total_energy_drift": 9.60582346072651e-14,
+      "clock_work_residual": 6.591949208711867e-16
+    },
+    {
+      "name": "reference_null_b0_N32_free_clock_analytic",
+      "passed": true,
+      "max_R_error": 3.1086244689504383e-15,
+      "work": 0.0
+    },
+    {
+      "name": "reference_null_q0_N16_free_clock_analytic",
+      "passed": true,
+      "max_R_error": 1.3322676295501878e-15,
+      "work": 0.0
+    },
+    {
+      "name": "spatial_K16_to_K24",
+      "passed": true,
+      "max_field_rms_difference": 4.959317318100473e-13,
+      "max_velocity_rms_difference": 8.014820190802331e-13,
+      "max_R_difference": 4.884981308350689e-15,
+      "max_Rdot_difference": 6.38378239159465e-16
+    },
+    {
+      "name": "tolerance_K24",
+      "passed": true,
+      "max_field_rms_difference": 5.350089201193676e-13,
+      "max_velocity_rms_difference": 8.58668290601046e-13,
+      "max_R_difference": 4.884981308350689e-15,
+      "max_Rdot_difference": 5.967448757360216e-16
+    },
+    {
+      "name": "continuum_initial_energy_analytic",
+      "passed": true,
+      "absolute_error": 0.0
+    }
+  ],
+  "all_checks_passed": true
+}

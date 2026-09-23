@@ -1,0 +1,196 @@
+{
+  "experiment": "arithmetic_residual_v01",
+  "script": "code/prepare_inputs.py",
+  "data_kind": "numerical Riemann zero ordinates; mathematical reference, not physical observations",
+  "case_count": 1593,
+  "eta_shape": [
+    1593,
+    128
+  ],
+  "spline_coefficients_shape": [
+    1593,
+    4,
+    127
+  ],
+  "case_order": "baseline; for each block 0..7: real, iaaft 1..99, exact_spectrum 1..99",
+  "family_counts": {
+    "baseline": 1,
+    "exact_spectrum": 792,
+    "iaaft": 792,
+    "real": 8
+  },
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/maris205/riemann_logistic/e3419dda3d5515afd91a5dd6e8d8b8398f359dde/python/riemann_10k_true.npy",
+      "path": "data/raw/riemann_10k_true.npy",
+      "sha256": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "bytes": 80128,
+      "expected_sha256": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545"
+    },
+    {
+      "url": "https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1",
+      "path": "data/raw/odlyzko_zeros1.txt",
+      "sha256": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632",
+      "bytes": 1800000,
+      "expected_sha256": null
+    },
+    {
+      "path": "riemann_clock/data/processed/mathematical_reference_zeros.csv",
+      "sha256": "24a20835b4c4028c6235d646d31279ad9d0bb49d98780062f1497fb240f5186c",
+      "rows": 83,
+      "method": "mpmath.zetazero (existing project data)"
+    }
+  ],
+  "official_crosscheck": {
+    "compared_count": 10000,
+    "official_table_count": 100000,
+    "max_abs_difference": 2.9122020350769162e-09,
+    "threshold": 3e-09
+  },
+  "local_crosscheck": {
+    "compared_count": 83,
+    "max_abs_difference": 0.0
+  },
+  "normalization": {
+    "training_gap_start_1based": 1001,
+    "training_gap_end_1based": 2024,
+    "count": 1024,
+    "mu_raw_r": 0.0005883196867164653,
+    "sigma_raw_r_ddof0": 0.38902049768357216,
+    "eta_formula": "tanh((r-mu)/(3*sigma))",
+    "unfolding": "gamma/(2*pi)*log(gamma/(2*pi))-gamma/(2*pi)+7/8"
+  },
+  "surrogates": {
+    "per_block_per_family": 99,
+    "seed_formula": "20260922 + 1000*block_0based + j_1based",
+    "max_iterations": 2000,
+    "selection": "smallest non-DC relative FFT-amplitude L2 among exact-rank iterations, including initialization",
+    "early_stop": "unchanged rank permutation",
+    "sort_kind": "mergesort",
+    "primary_quality_amplitude_threshold": 0.05,
+    "primary_quality_sorted_max_threshold": 1e-14,
+    "primary_quality_pass_count": 788,
+    "primary_quality_total": 792,
+    "failed_cases_retained": [
+      "block04_iaaft_072",
+      "block04_iaaft_098",
+      "block05_iaaft_068",
+      "block08_iaaft_085"
+    ],
+    "companion_definition": "one Fourier amplitude projection of corresponding best exact-rank sequence; same Fourier phases, exact spectrum, approximate value distribution",
+    "interpretation": "conditional structure controls, not independent zero predictions; no output-aware surrogate selection"
+  },
+  "interpolation": {
+    "type": "natural cubic spline",
+    "nodes": 128,
+    "range": [
+      1.0,
+      3.0
+    ],
+    "linear_in_node_values": true,
+    "coefficient_convention": "SciPy CubicSpline.c; descending local powers 3,2,1,0",
+    "epsilon": 0.02,
+    "window": "sin(pi*(R-1)/2)^4 inside [1,3], zero outside",
+    "dense_diagnostic_nodes": 4097,
+    "max_dense_abs_windowed_eta_all_cases": 0.8700805364441409,
+    "max_dense_abs_delta_mass_squared_all_cases": 0.017401610728882817,
+    "diagnostics_only_no_selection": true
+  },
+  "blocks": [
+    {
+      "block": 0,
+      "gap_start_1based": 4097,
+      "gap_end_1based": 4224,
+      "primary_count": 99,
+      "primary_quality_pass_count": 99,
+      "amplitude_error_min": 0.0182814137091729,
+      "amplitude_error_max": 0.04265713433606003
+    },
+    {
+      "block": 1,
+      "gap_start_1based": 4225,
+      "gap_end_1based": 4352,
+      "primary_count": 99,
+      "primary_quality_pass_count": 99,
+      "amplitude_error_min": 0.015297667005493518,
+      "amplitude_error_max": 0.046658832638067554
+    },
+    {
+      "block": 2,
+      "gap_start_1based": 4353,
+      "gap_end_1based": 4480,
+      "primary_count": 99,
+      "primary_quality_pass_count": 99,
+      "amplitude_error_min": 0.01903385473871394,
+      "amplitude_error_max": 0.0459097260739436
+    },
+    {
+      "block": 3,
+      "gap_start_1based": 4481,
+      "gap_end_1based": 4608,
+      "primary_count": 99,
+      "primary_quality_pass_count": 97,
+      "amplitude_error_min": 0.01997485961724092,
+      "amplitude_error_max": 0.06538997381382981
+    },
+    {
+      "block": 4,
+      "gap_start_1based": 4609,
+      "gap_end_1based": 4736,
+      "primary_count": 99,
+      "primary_quality_pass_count": 98,
+      "amplitude_error_min": 0.017944899584281707,
+      "amplitude_error_max": 0.05978073473689756
+    },
+    {
+      "block": 5,
+      "gap_start_1based": 4737,
+      "gap_end_1based": 4864,
+      "primary_count": 99,
+      "primary_quality_pass_count": 99,
+      "amplitude_error_min": 0.017104830572342786,
+      "amplitude_error_max": 0.04197877009600875
+    },
+    {
+      "block": 6,
+      "gap_start_1based": 4865,
+      "gap_end_1based": 4992,
+      "primary_count": 99,
+      "primary_quality_pass_count": 99,
+      "amplitude_error_min": 0.017998990386897173,
+      "amplitude_error_max": 0.04649365126205153
+    },
+    {
+      "block": 7,
+      "gap_start_1based": 4993,
+      "gap_end_1based": 5120,
+      "primary_count": 99,
+      "primary_quality_pass_count": 98,
+      "amplitude_error_min": 0.017262979569041468,
+      "amplitude_error_max": 0.05314128181139608
+    }
+  ],
+  "checks": {
+    "cache_expected_sha256": true,
+    "zero_count_10000_float64_increasing": true,
+    "official_10000_agreement_le_3e_9": true,
+    "local_reference_agreement_le_3e_9": true,
+    "local_reference_has_83_rows": true,
+    "normalization_training_disjoint_from_evaluation": true,
+    "all_primary_sorted_max_difference_le_1e_14": true,
+    "all_companion_amplitude_errors_le_1e_12": true,
+    "canonical_case_count_1593": true,
+    "all_cases_finite": true
+  },
+  "versions": {
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "elapsed_seconds": 15.251728657633066,
+  "artifact_sha256": {
+    "code/prepare_inputs.py": "32c932cff382383b7c270c96334714fd53352b3db3b77d611ce445405ac481e5",
+    "data/inputs.npz": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+    "data/full_zero_gaps.npz": "7a2f35fc316e2f297ee050140abc6f9e27fddf5352bc6ae44134e22426f7f3d7",
+    "results/input_quality.csv": "1d7f89e2798fc71eeba3c2eeef063b2e87c309aaecc60839bdb46ae80c0f7ed8"
+  }
+}

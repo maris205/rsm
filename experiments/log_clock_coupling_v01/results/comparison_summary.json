@@ -1,0 +1,304 @@
+{
+  "scope": "Deterministic dimensionless trajectories, no fit or observations.",
+  "normalization": "Field RMS=sqrt(mean(|q-qref|^2)/mean(|qref|^2)) over all saved time/space samples. No phase or amplitude alignment. Feedback uses external denominator; frozen comparison uses frozen denominator. Separate R and coefficient differences.",
+  "comparison_checks_note": "Numerical consistency diagnostics; not preregistered statistical tests or physical confirmation.",
+  "feedback": [
+    {
+      "I": 10,
+      "initial_clock_energy": 0.05,
+      "final_R": 3.743344555689088,
+      "final_R_fractional_departure": 0.24778151856302943,
+      "final_mass_squared": 0.6814509295151241,
+      "max_mass_difference_from_external": 0.026902084211038346,
+      "mass_difference_over_external_drift": 0.09222612473568739,
+      "field_rms_vs_external": 0.07409605363141072,
+      "field_rms_vs_frozen": 0.708313811558969,
+      "field_energy_change": -0.0644661547822849,
+      "clock_energy_gain": 0.06446615478193934,
+      "independent_work": -0.06446615478193914,
+      "max_abs_energy_residual": 2.5626167854397863e-12,
+      "max_abs_field_work_residual": 2.5576008325089994e-12,
+      "verlet_field_rms_vs_same_grid": 2.1170009538377065e-06,
+      "verlet_max_R_error": 1.558444706617479e-08,
+      "verlet_max_relative_energy_residual": 7.5327777719961e-07
+    },
+    {
+      "I": 100,
+      "initial_clock_energy": 0.5,
+      "final_R": 3.0807252165731764,
+      "final_R_fractional_departure": 0.02690840552439222,
+      "final_mass_squared": 0.7047783710066218,
+      "max_mass_difference_from_external": 0.0035246256969961864,
+      "mass_difference_over_external_drift": 0.01208317417445304,
+      "field_rms_vs_external": 0.00863395037956603,
+      "field_rms_vs_frozen": 0.6516334879269626,
+      "field_energy_change": -0.0596711767334821,
+      "clock_energy_gain": 0.05967117673312461,
+      "independent_work": -0.05967117673312419,
+      "max_abs_energy_residual": 2.5295321393059567e-12,
+      "max_abs_field_work_residual": 2.5300525563487497e-12,
+      "verlet_field_rms_vs_same_grid": 2.1302865778348324e-06,
+      "verlet_max_R_error": 1.6205934372237607e-09,
+      "verlet_max_relative_energy_residual": 4.972685328058986e-07
+    },
+    {
+      "I": 1000,
+      "initial_clock_energy": 5.0,
+      "final_R": 3.0081499167158174,
+      "final_R_fractional_departure": 0.002716638905272406,
+      "final_mass_squared": 0.7079387204384675,
+      "max_mass_difference_from_external": 0.00036427626515045386,
+      "mass_difference_over_external_drift": 0.0012488173036879877,
+      "field_rms_vs_external": 0.0008786509901120847,
+      "field_rms_vs_frozen": 0.6448587531336091,
+      "field_energy_change": -0.05902379262806312,
+      "clock_energy_gain": 0.05902379262773039,
+      "independent_work": -0.05902379262773284,
+      "max_abs_energy_residual": 2.716937785862683e-12,
+      "max_abs_field_work_residual": 2.717012812653019e-12,
+      "verlet_field_rms_vs_same_grid": 2.1315213872995833e-06,
+      "verlet_max_R_error": 1.6292656113137127e-10,
+      "verlet_max_relative_energy_residual": 1.129321687605993e-07
+    }
+  ],
+  "controls": {
+    "external_final_mass_squared": 0.708302996703618,
+    "external_field_rms_vs_frozen": 0.6440903972343603,
+    "external_drift_scale": 0.29169700329638204,
+    "external_max_abs_field_work_residual": 2.5222046673434306e-12,
+    "frozen_max_abs_energy_residual": 2.777444940704754e-12
+  },
+  "spatial": [
+    {
+      "N": 64,
+      "spacing": 0.09817477042468103,
+      "field_relative_rms": 0.0034670392024492387,
+      "max_field_rms": 0.002015191657274033,
+      "max_R_error": 1.0616120564854725e-06,
+      "max_mass_squared_error": 4.8588494117041137e-08
+    },
+    {
+      "N": 128,
+      "spacing": 0.04908738521234052,
+      "field_relative_rms": 0.0008667076605876614,
+      "max_field_rms": 0.0005040597147802979,
+      "max_R_error": 2.653714719080824e-07,
+      "max_mass_squared_error": 1.2147436501130926e-08
+    },
+    {
+      "N": 256,
+      "spacing": 0.02454369260617026,
+      "field_relative_rms": 0.00021667318034290423,
+      "max_field_rms": 0.00012602990987786922,
+      "max_R_error": 6.634124138926722e-08,
+      "max_mass_squared_error": 3.036877638251667e-09
+    }
+  ],
+  "spatial_orders": [
+    2.0000867880784594,
+    2.0000248675760397
+  ],
+  "time": [
+    {
+      "dt": 0.01,
+      "field_relative_rms": 0.00013634050655973747,
+      "max_R_error": 1.0373044467826276e-07,
+      "max_abs_total_energy_residual": 4.207722147819837e-05,
+      "max_abs_field_work_residual": 4.2082040619699154e-05
+    },
+    {
+      "dt": 0.005,
+      "field_relative_rms": 3.408470734532443e-05,
+      "max_R_error": 2.5930337876900467e-08,
+      "max_abs_total_energy_residual": 1.0519299002531568e-05,
+      "max_abs_field_work_residual": 1.0520503790516222e-05
+    },
+    {
+      "dt": 0.0025,
+      "field_relative_rms": 8.521151055163915e-06,
+      "max_R_error": 6.482450576328347e-09,
+      "max_abs_total_energy_residual": 2.6298243547273614e-06,
+      "max_abs_field_work_residual": 2.6301255500130877e-06
+    },
+    {
+      "dt": 0.00125,
+      "field_relative_rms": 2.1302865778348324e-06,
+      "max_R_error": 1.6205934372237607e-09,
+      "max_abs_total_energy_residual": 6.574560598160417e-07,
+      "max_abs_field_work_residual": 6.57531362874969e-07
+    }
+  ],
+  "time_orders": [
+    2.00001774727087,
+    2.000004364939144,
+    2.0000008031654484
+  ],
+  "energy_orders": [
+    2.000000873220026,
+    2.0000002171897533,
+    2.000000063341942
+  ],
+  "precision": {
+    "max_continuum_cutoff_rms": 4.959178321663372e-13,
+    "max_continuum_tolerance_rms": 5.349886220086324e-13,
+    "continuum_uncertainty_over_smallest_spatial_difference": 4.244933782203522e-09,
+    "finest_time_error_over_N128_spatial_error": 0.0024579067137706105
+  },
+  "input_sha256": {
+    "reference_external_N128.npz": "a9c41f63c1803794001fa301262d7771e2b272616d0257e05c45706e3547bbbc",
+    "reference_frozen_N128.npz": "04b9900c351806aee62bd4408a90d240927cf6859172e5ee2394cbbd772d1098",
+    "reference_full_N128_I10.npz": "01ab8c65eed52f1f5d06c528b451f6c1b817ad2dfc19057faa300e03e7c41bcd",
+    "reference_full_N128_I100.npz": "bdd1345366d45234f9037f8f2fbeb08224d9ed5d1b5e3e6f237751b19ee8f3cb",
+    "reference_full_N128_I1000.npz": "563ab2285b43eb486d5a18409faa60f08f6186bebb56a71e138a5a8d187b1dc0",
+    "lattice_main_I10.npz": "c1882f6cc169bc9628dba3c866813e63f9fe6a7a3103f10e0f7b422141501305",
+    "lattice_main_I100.npz": "bc8d299937a22faa722ea93ca2d93ee658cb0842070b5cfb7335c430ca9b9565",
+    "lattice_main_I1000.npz": "93114b10d92945c07d4157cda8ae0ae0d9454f18ddf84867b0e51833365e9021",
+    "reference_continuum_I100_K24_tight.npz": "1e37535c4ba845c1aa407b823c9ac3ae514336d8951326c67c1bd43351398e09",
+    "reference_full_N64_I100.npz": "5a9c7165817f21ffa787df31816a0d3073ddcc4d371205a9fdc3fd200d6b381e",
+    "reference_full_N256_I100.npz": "764781f790b63c0d6d6e65c1cc7f4806d3e81d85de1efe60b6a9c8149ecb8899",
+    "lattice_time_I100_dt0p01.npz": "be6cb24eab857c958d0ae21fce806e0bbabfd933b380f40a8ac95e126345dc80",
+    "lattice_time_I100_dt0p005.npz": "74472b9cf754529a44dbe239c4a1989c2aa20e7ce9f40f3d844d2aa67c050620",
+    "lattice_time_I100_dt0p0025.npz": "ebe4c1665a4422b1ba4a34368742418fb42f04e96a61bc2af2d9669a18009d70",
+    "reference_continuum_I100_K16.npz": "3972672ffdcfae6f57b4264c502924a159bc9487328373abf4c0a30b640b782c",
+    "reference_continuum_I100_K24.npz": "0e819b5c8f58b8072625372ba4edc761721129a4ad17e4c7611199a2cf08baf2"
+  },
+  "code_sha256": "716b33e67b5007f37d7ebfb27056051d2af5278ee6808f358cd7d46879458120",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "matplotlib": "3.10.5"
+  },
+  "checks": [
+    {
+      "name": "I10_same_times_initial_field",
+      "passed": true
+    },
+    {
+      "name": "I10_feedback_direction",
+      "passed": true
+    },
+    {
+      "name": "I10_energy_work_consistent",
+      "passed": true
+    },
+    {
+      "name": "I10_independent_main_accuracy",
+      "passed": true
+    },
+    {
+      "name": "I100_same_times_initial_field",
+      "passed": true
+    },
+    {
+      "name": "I100_feedback_direction",
+      "passed": true
+    },
+    {
+      "name": "I100_energy_work_consistent",
+      "passed": true
+    },
+    {
+      "name": "I100_independent_main_accuracy",
+      "passed": true
+    },
+    {
+      "name": "I1000_same_times_initial_field",
+      "passed": true
+    },
+    {
+      "name": "I1000_feedback_direction",
+      "passed": true
+    },
+    {
+      "name": "I1000_energy_work_consistent",
+      "passed": true
+    },
+    {
+      "name": "I1000_independent_main_accuracy",
+      "passed": true
+    },
+    {
+      "name": "feedback_decreases_with_I_final_R_fractional_departure",
+      "passed": true
+    },
+    {
+      "name": "feedback_decreases_with_I_max_mass_difference_from_external",
+      "passed": true
+    },
+    {
+      "name": "feedback_decreases_with_I_field_rms_vs_external",
+      "passed": true
+    },
+    {
+      "name": "external_and_frozen_same_initial_field",
+      "passed": true
+    },
+    {
+      "name": "external_work_balance",
+      "passed": true
+    },
+    {
+      "name": "spatial_N64_time_and_initial_alignment",
+      "passed": true
+    },
+    {
+      "name": "spatial_N128_time_and_initial_alignment",
+      "passed": true
+    },
+    {
+      "name": "spatial_N256_time_and_initial_alignment",
+      "passed": true
+    },
+    {
+      "name": "spatial_second_order",
+      "passed": true,
+      "orders": [
+        2.0000867880784594,
+        2.0000248675760397
+      ]
+    },
+    {
+      "name": "dt0.01_alignment",
+      "passed": true
+    },
+    {
+      "name": "dt0.005_alignment",
+      "passed": true
+    },
+    {
+      "name": "dt0.0025_alignment",
+      "passed": true
+    },
+    {
+      "name": "dt0.00125_alignment",
+      "passed": true
+    },
+    {
+      "name": "time_second_order",
+      "passed": true,
+      "orders": [
+        2.00001774727087,
+        2.000004364939144,
+        2.0000008031654484
+      ]
+    },
+    {
+      "name": "energy_second_order",
+      "passed": true,
+      "orders": [
+        2.000000873220026,
+        2.0000002171897533,
+        2.000000063341942
+      ]
+    },
+    {
+      "name": "reference_separation",
+      "passed": true
+    },
+    {
+      "name": "main_time_error_below_one_percent_spatial",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true
+}

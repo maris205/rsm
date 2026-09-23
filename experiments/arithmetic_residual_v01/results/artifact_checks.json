@@ -1,0 +1,4106 @@
+{
+  "status": "PASS_ARTIFACT_SCOPE_WITH_KNOWN_LIMITATIONS",
+  "audit_time_utc": "2026-09-22T15:41:44.862165+00:00",
+  "scope": "All Markdown in arithmetic_residual_v01, draft_v05, root README/RESEARCH_DIRECTION/WORK_PLAN; local links, individually compiled Pandoc math, original source preservation, recorded input/code/output provenance. No numerical experiments rerun.",
+  "exclusions": "No web-link verification, physical truth claim, or project-wide numerical pass claim.",
+  "audit_script": "build/arithmetic_v01_math_check/audit.py",
+  "audit_script_sha256": "02ecdea255aab3ad50c900b8afb8ff854f04ef7efa78744a405a067142794ac4",
+  "tools": {
+    "pandoc": "pandoc 2.9.2.1",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian)",
+    "math_wrapper": "Whitespace-trimmed Pandoc Math body, amsmath/amssymb/bm, isolated display, no shell escape."
+  },
+  "markdown_files": [
+    {
+      "file": "experiments/arithmetic_residual_v01/README.md",
+      "sha256": "2b3a56fdcbf4e0642fe6e0c742ea26b919d7b2dda09fd0e15b181374988589c1",
+      "math_count": 3,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "sha256": "ee56021db2915136352f5f029e954eb55d8ff70b922945764f09ab05bf0fc72e",
+      "math_count": 8,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "sha256": "952804fa8aaf7ffa2092449010dc8a8c5d045ed319df1a7812a993ee565e9d56",
+      "math_count": 52,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "sha256": "1213a7a40e588862eff5cfa22807cdf054cf897e0e58d2bf7d07aca84162eefd",
+      "math_count": 3,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "sha256": "2b17112818fabaa8b7048babb3c916401ca8d03383865b76675ec0a54dbaed1d",
+      "math_count": 0,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "sha256": "7d7be5bac72987bcef2297643e0987dc603d7d3960cff87496abc43ebb8642d0",
+      "math_count": 34,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "sha256": "d0f98367c4b67c106e5c1c564d3b4accb6d9b5f2e8d598a8a1e2961d1340b4e9",
+      "math_count": 12,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "sha256": "45595486a8339f6e1f42f3538751a00661ba3c0e444d8a7411a90e3a9bf36df8",
+      "math_count": 31,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "README.md",
+      "sha256": "43f24f02f63b893aaf4475da310190db505002886189b1a350f2dc3f2f29295f",
+      "math_count": 1,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "RESEARCH_DIRECTION.md",
+      "sha256": "5c1622d14134275e9a80491fcf372f4713413a8beb051904103406d037216309",
+      "math_count": 33,
+      "pandoc_warnings": ""
+    },
+    {
+      "file": "WORK_PLAN.md",
+      "sha256": "1ca83d79ba5cb6cf65ebaef6695a3b982d85ba078bbf2ea8a9bb595c34349da1",
+      "math_count": 4,
+      "pandoc_warnings": ""
+    }
+  ],
+  "markdown_file_count": 11,
+  "local_link_count": 126,
+  "local_links_passed": 126,
+  "local_links": [
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "../../draft_v05/arithmetic_response_v05.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v05/arithmetic_response_v05.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "reports/results_cn.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "protocol.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/protocol.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/protocol_freeze.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/protocol_freeze.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "reports/source_inventory.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "reports/methodology_review.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "reports/implementation_notes.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "figures/arithmetic_primary_comparison.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "figures/arithmetic_response_and_controls.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "figures/captions.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/captions.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/input_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/input_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/input_quality.csv",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/input_quality.csv",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "data/inputs.npz",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/inputs.npz",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/lattice_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/lattice_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/reference_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/comparison_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/comparison_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/comparison_blocks.csv",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/comparison_blocks.csv",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/lattice_cases.csv",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/lattice_cases.csv",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/README.md",
+      "target": "results/artifact_checks.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/artifact_checks.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "target": "arithmetic_primary_comparison.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "target": "arithmetic_primary_comparison.pdf",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.pdf",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "target": "arithmetic_response_and_controls.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "target": "arithmetic_response_and_controls.pdf",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.pdf",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/protocol.md",
+      "target": "reports/source_inventory.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "target": "../protocol.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/protocol.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "target": "../results/input_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/input_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "target": "../protocol.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/protocol.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "target": "../results/input_quality.csv",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/input_quality.csv",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "target": "../results/input_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/input_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "target": "../results/lattice_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/lattice_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "target": "../results/comparison_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/comparison_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "source_inventory.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "../protocol.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/protocol.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "../figures/arithmetic_primary_comparison.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "methodology_review.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "../figures/arithmetic_response_and_controls.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "implementation_notes.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "../results/reference_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "../results/comparison_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/comparison_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "target": "../README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "target": "../../../../riemann_clock/data/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_clock/data/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "target": "../../../../riemann_clock/data/processed/mathematical_reference_zeros.csv",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_clock/data/processed/mathematical_reference_zeros.csv",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "target": "../../../../riemann_clock/code/analyze_zero_precision.py",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_clock/code/analyze_zero_precision.py",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "target": "../../../../riemann_clock/code/validate_analysis.py",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_clock/code/validate_analysis.py",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "target": "../../../../riemann_hubble/docs/mca-31-00193.pdf",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_hubble/docs/mca-31-00193.pdf",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "target": "../../log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "draft_v05/arithmetic_response_v05.md",
+      "target": "../experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "draft_v05/arithmetic_response_v05.md",
+      "target": "../experiments/arithmetic_residual_v01/protocol.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/protocol.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "draft_v05/arithmetic_response_v05.md",
+      "target": "../experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "draft_v05/arithmetic_response_v05.md",
+      "target": "../experiments/arithmetic_residual_v01/results/comparison_summary.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/comparison_summary.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "draft_v05/arithmetic_response_v05.md",
+      "target": "../experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "draft_v05/arithmetic_response_v05.md",
+      "target": "../experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "RESEARCH_DIRECTION.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/RESEARCH_DIRECTION.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "draft_v05/arithmetic_response_v05.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v05/arithmetic_response_v05.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/arithmetic_residual_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "draft_v04/log_clock_bridge_v04.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v04/log_clock_bridge_v04.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/log_clock_coupling_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/log_clock_coupling_v01/reports/results_cn.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/reports/results_cn.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/log_clock_coupling_v01/figures/log_clock_response.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/figures/log_clock_response.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "draft_v03/micro_macro_bridge_v03.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v03/micro_macro_bridge_v03.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/micro_macro_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/micro_macro_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/micro_macro_v01/reports/results_cn.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/micro_macro_v01/reports/results_cn.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/micro_macro_v01/figures/micro_macro_evolution.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/micro_macro_v01/figures/micro_macro_evolution.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/micro_macro_v01/figures/micro_macro_convergence.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/micro_macro_v01/figures/micro_macro_convergence.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "draft_v02/action_framework_v02.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v02/action_framework_v02.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/action_completion_v02/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/action_completion_v02/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/action_completion_v02/figures/background_completion.png",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/action_completion_v02/figures/background_completion.png",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/action_completion_v02/reports/numerical_results_cn.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/action_completion_v02/reports/numerical_results_cn.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/action_completion_v02/reports/independent_background_review.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/action_completion_v02/reports/independent_background_review.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/action_completion_v02_derivation.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/action_completion_v02_derivation.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/action_completion_v02_independent_review.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/action_completion_v02_independent_review.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/action_completion_v02_sources.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/action_completion_v02_sources.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "draft_v01/minimal_framework_v01.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v01/minimal_framework_v01.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "draft_v01/variables_and_claims_v01.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v01/variables_and_claims_v01.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/minimal_dynamics_v01_review.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/minimal_dynamics_v01_review.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/alpha_interface_v01_review.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/alpha_interface_v01_review.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/sources_v01_audit.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/sources_v01_audit.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/alpha_recovery_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/alpha_recovery_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/alpha_recovery_v01/reports/recovery_results_cn.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/alpha_recovery_v01/reports/recovery_results_cn.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/alpha_recovery_v01/figures/captions.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/alpha_recovery_v01/figures/captions.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "chapters/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/chapters/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/first_reading_cn.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/first_reading_cn.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "WORK_PLAN.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/WORK_PLAN.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/prior_projects_evidence.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/prior_projects_evidence.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/foundations_first_pass.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/foundations_first_pass.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/conversion_notes_cn.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/conversion_notes_cn.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/conversion_manifest.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/conversion_manifest.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "ori_paper/merged_document_v2_with_latex.docx",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/ori_paper/merged_document_v2_with_latex.docx",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "target": "reports/minimal_dynamics_v01_checks.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/minimal_dynamics_v01_checks.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "draft_v05/arithmetic_response_v05.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v05/arithmetic_response_v05.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "experiments/arithmetic_residual_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "draft_v04/log_clock_bridge_v04.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v04/log_clock_bridge_v04.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "experiments/log_clock_coupling_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "draft_v03/micro_macro_bridge_v03.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v03/micro_macro_bridge_v03.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "experiments/micro_macro_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/micro_macro_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "chapters/03_chapter_02_source_code.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/chapters/03_chapter_02_source_code.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "chapters/04_chapter_03_cosmic_lockstep.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/chapters/04_chapter_03_cosmic_lockstep.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "chapters/05_chapter_04_mathematical_framework.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/chapters/05_chapter_04_mathematical_framework.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "chapters/07_chapter_06_predictions_interpretations.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/chapters/07_chapter_06_predictions_interpretations.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "chapters/08_chapter_07_engine_design.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/chapters/08_chapter_07_engine_design.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "chapters/09_chapter_08_simulation_case_studies.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/chapters/09_chapter_08_simulation_case_studies.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "draft_v01/minimal_framework_v01.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v01/minimal_framework_v01.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "draft_v02/action_framework_v02.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v02/action_framework_v02.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "experiments/micro_macro_v01/protocol.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/micro_macro_v01/protocol.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "RESEARCH_DIRECTION.md",
+      "target": "WORK_PLAN.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/WORK_PLAN.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "draft_v01/minimal_framework_v01.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v01/minimal_framework_v01.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "draft_v01/variables_and_claims_v01.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v01/variables_and_claims_v01.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "reports/minimal_dynamics_v01_checks.json",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/reports/minimal_dynamics_v01_checks.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "experiments/alpha_recovery_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/alpha_recovery_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "draft_v02/action_framework_v02.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v02/action_framework_v02.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "experiments/action_completion_v02/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/action_completion_v02/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "experiments/micro_macro_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/micro_macro_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "draft_v03/micro_macro_bridge_v03.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v03/micro_macro_bridge_v03.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "draft_v04/log_clock_bridge_v04.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v04/log_clock_bridge_v04.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "experiments/log_clock_coupling_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "experiments/arithmetic_residual_v01/README.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/README.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "RESEARCH_DIRECTION.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/RESEARCH_DIRECTION.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "draft_v05/arithmetic_response_v05.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/draft_v05/arithmetic_response_v05.md",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "source": "WORK_PLAN.md",
+      "target": "RESEARCH_DIRECTION.md",
+      "resolved_target": "/root/autodl-tmp/dsc_world/riemann_model/RESEARCH_DIRECTION.md",
+      "exists": true,
+      "passed": true
+    }
+  ],
+  "math_object_count": 181,
+  "math_passed_count": 181,
+  "math_checks": [
+    {
+      "index": 1,
+      "file": "experiments/arithmetic_residual_v01/README.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "p",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4262fb380cd51b33623a11a852fa40024e29a2907b700484e3e13828875a3390",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0001/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0001/console.txt"
+    },
+    {
+      "index": 2,
+      "file": "experiments/arithmetic_residual_v01/README.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "\\dot q",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "1388f3e64e52b542dc7969a15b4214ae6e4f8f090c76d00ce2190e4bd0daf2bb",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0002/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0002/console.txt"
+    },
+    {
+      "index": 3,
+      "file": "experiments/arithmetic_residual_v01/README.md",
+      "file_math_index": 3,
+      "kind": "InlineMath",
+      "tex": "a\\dot q",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "eae9b13303b080eadb41388f0be3b8ec620628e1b181afa13cc5275ce1f18279",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0003/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0003/console.txt"
+    },
+    {
+      "index": 4,
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "189172e447bab455dd703680911294aee471cfc07798bbd503d862f078ffc315",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0004/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0004/console.txt"
+    },
+    {
+      "index": 5,
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "\\tau",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "eb3114757893ee8904fc0bb7c79be4c51647303f8a8ccee78485db5828131429",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0005/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0005/console.txt"
+    },
+    {
+      "index": 6,
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "file_math_index": 3,
+      "kind": "InlineMath",
+      "tex": "T=[H_{\\rm clock}(20)-H_{\\rm clock}(0)]/H(0)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "6f0e2ef9077d7bee65cb7c360443631918bf5172db3036a37d9df5b8d9b65b1a",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0006/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0006/console.txt"
+    },
+    {
+      "index": 7,
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "file_math_index": 4,
+      "kind": "InlineMath",
+      "tex": "T_0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "12068885b636eb10f89ade250ad0678da77c026e56997d87e4c9380d92632c41",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0007/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0007/console.txt"
+    },
+    {
+      "index": 8,
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "file_math_index": 5,
+      "kind": "InlineMath",
+      "tex": "p",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4262fb380cd51b33623a11a852fa40024e29a2907b700484e3e13828875a3390",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0008/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0008/console.txt"
+    },
+    {
+      "index": 9,
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "file_math_index": 6,
+      "kind": "InlineMath",
+      "tex": "\\sin^4",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "a7c2bef57a8b5f654aef55bc869de55dde6fe492da890b82629709ffd83360ab",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0009/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0009/console.txt"
+    },
+    {
+      "index": 10,
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "file_math_index": 7,
+      "kind": "InlineMath",
+      "tex": "\\delta M^2(R)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "75481f1e7841a000168167ae893057e032de9068624ffc81901541e6d8bfcc04",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0010/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0010/console.txt"
+    },
+    {
+      "index": 11,
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "file_math_index": 8,
+      "kind": "InlineMath",
+      "tex": "C_1-C_{1,0}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "3c2cfaf7f3c34e43b29792fd0bae418509405ed2e432d5688c0feced7d36265e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0011/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0011/console.txt"
+    },
+    {
+      "index": 12,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 1,
+      "kind": "DisplayMath",
+      "tex": "\nT_b=\\frac{H_{\\rm clock}(20)-H_{\\rm clock}(0)}{H(0)}.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "5bfa607a9fe9fb637f32c5e6d5cff5748dabbdd5dad5f4fc96056027311e35c1",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0012/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0012/console.txt"
+    },
+    {
+      "index": 13,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "D_b=T_b-T_0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "2a6b3410b254752f7f5db7dfa435446b6dd35e658e92a709516369c41d4908b6",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0013/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0013/console.txt"
+    },
+    {
+      "index": 14,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 3,
+      "kind": "InlineMath",
+      "tex": "\\gamma_j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "3ebed4ad01dff2ff96073106679293cc0738dd1d982b105d6e84d8e50a8a1d9f",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0014/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0014/console.txt"
+    },
+    {
+      "index": 15,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 4,
+      "kind": "InlineMath",
+      "tex": "j=1,\\ldots,10000",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "16e6ded3da2eda156acab2a9921b9fbb20f356d227a6fced158a5b1468fc5c5b",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0015/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0015/console.txt"
+    },
+    {
+      "index": 16,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 5,
+      "kind": "InlineMath",
+      "tex": "3\\times10^{-9}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "3e88e5679e715ef7734aaa91d4cee1ea6c3605cd645b37493334c94701590cef",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0016/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0016/console.txt"
+    },
+    {
+      "index": 17,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 6,
+      "kind": "InlineMath",
+      "tex": "n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "0eec87f39c61b646eedc6687b1fb5e6d36384e36466220227eaee3f417d81897",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0017/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0017/console.txt"
+    },
+    {
+      "index": 18,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 7,
+      "kind": "InlineMath",
+      "tex": "j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4cad03ea3e42393fe53290d50ce1fc5b5c25409425cb9fa720be6d8edc128ece",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0018/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0018/console.txt"
+    },
+    {
+      "index": 19,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 8,
+      "kind": "InlineMath",
+      "tex": "R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "189172e447bab455dd703680911294aee471cfc07798bbd503d862f078ffc315",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0019/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0019/console.txt"
+    },
+    {
+      "index": 20,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 9,
+      "kind": "InlineMath",
+      "tex": "\\tau",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "eb3114757893ee8904fc0bb7c79be4c51647303f8a8ccee78485db5828131429",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0020/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0020/console.txt"
+    },
+    {
+      "index": 21,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 10,
+      "kind": "DisplayMath",
+      "tex": "\n\\overline N(y)=\\frac{y}{2\\pi}\\ln\\frac{y}{2\\pi}-\\frac{y}{2\\pi}+\\frac78,\n\\quad d_j=\\overline N(\\gamma_{j+1})-\\overline N(\\gamma_j),\n\\quad r_j=d_j-1.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "6014fe7233bab386eb69f34e3a3e6507a2fec10cc81b68b2fb79189a756d91dc",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0021/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0021/console.txt"
+    },
+    {
+      "index": 22,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 11,
+      "kind": "InlineMath",
+      "tex": "j=1001,\\ldots,2024",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "038dca85ef4c3f372613e83b1b9ff37afdb71188f9ede75649c52fc2039bb554",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0022/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0022/console.txt"
+    },
+    {
+      "index": 23,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 12,
+      "kind": "InlineMath",
+      "tex": "\\mu=\\operatorname{mean}(r_j)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "b9d75ea7b36dc0ba010f1f8d605169256e4681c8dc7e10916d4e18c7963c6211",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0023/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0023/console.txt"
+    },
+    {
+      "index": 24,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 13,
+      "kind": "InlineMath",
+      "tex": "\\sigma=\\operatorname{std}(r_j)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e2a4451b21c99aba76c67701072fe8111b2c16462449e363b6f7ca6f89989099",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0024/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0024/console.txt"
+    },
+    {
+      "index": 25,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 14,
+      "kind": "DisplayMath",
+      "tex": "\n\\eta_j=\\tanh\\frac{r_j-\\mu}{3\\sigma}.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "0fab528f6d434c0942b043d04cc79660df609df70bfc64577c411108b5bcd4d7",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0025/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0025/console.txt"
+    },
+    {
+      "index": 26,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 15,
+      "kind": "InlineMath",
+      "tex": "j_b=4097+128b",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "61e65343d283b69866cf11844bba8f02d15a494d0e0be391270dbe2c8389affd",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0026/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0026/console.txt"
+    },
+    {
+      "index": 27,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 16,
+      "kind": "InlineMath",
+      "tex": "b=0,\\ldots,7",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "1e8966c30e6224360316ebdacfe50d28325e2cb6eda281da4b0098899ba2727b",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0027/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0027/console.txt"
+    },
+    {
+      "index": 28,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 17,
+      "kind": "InlineMath",
+      "tex": "j=5120",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "de68e08f561154910aa91598032f624b81c8d7f670231fd3198987c90f778ace",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0028/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0028/console.txt"
+    },
+    {
+      "index": 29,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 18,
+      "kind": "InlineMath",
+      "tex": "\\gamma_{5121}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "ff22cfc81d57f8b13e288faa16825f38260670cc457d573e75a5c483eeef9b1c",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0029/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0029/console.txt"
+    },
+    {
+      "index": 30,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 19,
+      "kind": "InlineMath",
+      "tex": "k=1,\\ldots,99",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "d27affc83bdd7db2e68cfce60e24403599ebeef775023d63c19be2eabccd0e9e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0030/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0030/console.txt"
+    },
+    {
+      "index": 31,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 20,
+      "kind": "InlineMath",
+      "tex": "10^{-14}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9deefc6c6ebed12b4f1dae95fa324dc718c533cead113677ed6fd2e1f20216cb",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0031/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0031/console.txt"
+    },
+    {
+      "index": 32,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 21,
+      "kind": "InlineMath",
+      "tex": "L=2\\pi,N=64,a=L/N",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "94abb90be25445194bbc47e17e20bc320888f8db7b75f4c334c66c9a72386205",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0032/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0032/console.txt"
+    },
+    {
+      "index": 33,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 22,
+      "kind": "InlineMath",
+      "tex": "I=100,v=m_0=g=1,b=2",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9945c62fe6cf1cff3bf9ccb02548e8a342ec9cccc3cf13d3707df90b821f8914",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0033/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0033/console.txt"
+    },
+    {
+      "index": 34,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 23,
+      "kind": "InlineMath",
+      "tex": "q_j=0.5\\cos x_j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "a5c7fafd0f2880ebb62860891f4b658cee2c168fc43859fa6ad47bdb8e4ced48",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0034/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0034/console.txt"
+    },
+    {
+      "index": 35,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 24,
+      "kind": "InlineMath",
+      "tex": "\\dot q_j=0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "bb2c43e994150ee2ae3175725ee7f6e4961f0f7c3bf50ced83323d36c7f0c677",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0035/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0035/console.txt"
+    },
+    {
+      "index": 36,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 25,
+      "kind": "InlineMath",
+      "tex": "R=1,\\dot R=0.1",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e5957992c1450448d35cd4ac1a93705aa90855443f93809b64d4f92bc3a73208",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0036/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0036/console.txt"
+    },
+    {
+      "index": 37,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 26,
+      "kind": "InlineMath",
+      "tex": "R_*=e^{-2}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "24fdbdcec6223bc17bec4a585bf4a2a78ab0bf7aa2f2e3d956a3c84bcc40ec2e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0037/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0037/console.txt"
+    },
+    {
+      "index": 38,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 27,
+      "kind": "InlineMath",
+      "tex": "R\\in[1,3]",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "eb98900a89fd92488f26904f2780f1b31a0d3a1619fe8ae75adb54bbe674563b",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0038/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0038/console.txt"
+    },
+    {
+      "index": 39,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 28,
+      "kind": "InlineMath",
+      "tex": "S_b(R)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "cc85277cc947dfcc54327b2393630269642348c3645cdf7d02ce1f03f7f73add",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0039/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0039/console.txt"
+    },
+    {
+      "index": 40,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 29,
+      "kind": "InlineMath",
+      "tex": "s=(R-1)/2",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "d22c1c792052d1a19faee2986cede2ea14e5f5d70129772bd2f81ea3c1c92e7d",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0040/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0040/console.txt"
+    },
+    {
+      "index": 41,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 30,
+      "kind": "DisplayMath",
+      "tex": "\nw(R)=\\begin{cases}\\sin^4(\\pi s),&1<R<3,\\\\0,&\\text{otherwise},\\end{cases}\n\\quad\nM_b^2(R)=1+2\\left[\\ln^{-2}(R/R_*)-\\frac14\\right]\n+\\epsilon w(R)S_b(R),\\qquad\\epsilon=0.02.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e91d0083710439d159aa8d32d590df5d5357c9d9ef6faecb41b0762195bd8e28",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0041/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0041/console.txt"
+    },
+    {
+      "index": 42,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 31,
+      "kind": "InlineMath",
+      "tex": "S=0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "20f9707cca6091d864b0650e046e0463e70b31ca0635a111163531190bf5d713",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0042/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0042/console.txt"
+    },
+    {
+      "index": 43,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 32,
+      "kind": "InlineMath",
+      "tex": "\\epsilon",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9d12df3226c74f845d9292e15b9392898ea8229dec779d22790343a527eba2bc",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0043/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0043/console.txt"
+    },
+    {
+      "index": 44,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 33,
+      "kind": "DisplayMath",
+      "tex": "\nH=\\frac{P_R^2}{2I}+\\sum_j\\left[\n\\frac{p_j^2}{2a}+\\frac{(q_{j+1}-q_j)^2}{2a}\n+\\frac a2M_b^2(R)q_j^2+\\frac a4q_j^4\\right],\n\\quad p_j=a\\dot q_j,\\quad P_R=I\\dot R.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9644edc1f98f1ff878da35fa123a1dd0697943d8467037d2154ff237e74c8548",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0044/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0044/console.txt"
+    },
+    {
+      "index": 45,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 34,
+      "kind": "DisplayMath",
+      "tex": "\n\\ddot q_j=\\Delta_a q_j-M_b^2q_j-q_j^3,\n\\qquad I\\ddot R=-\\frac{Q_2}{2}\\frac{dM_b^2}{dR},\n\\quad Q_2=a\\sum_jq_j^2,\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "bafb5d0180a73eeafbc86b5b08506fcc35fde5d85383120885f963800786e064",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0045/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0045/console.txt"
+    },
+    {
+      "index": 46,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 35,
+      "kind": "DisplayMath",
+      "tex": "\n\\dot H_{\\rm field}=\\frac{Q_2}{2}\\frac{dM_b^2}{dR}\\dot R\n=-\\dot H_{\\rm clock}.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "01f24b24a270dc1a78029b00601bc03589698aac0a7ecf0442b4fa2a3917a057",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0046/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0046/console.txt"
+    },
+    {
+      "index": 47,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 36,
+      "kind": "InlineMath",
+      "tex": "\\epsilon",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9d12df3226c74f845d9292e15b9392898ea8229dec779d22790343a527eba2bc",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0047/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0047/console.txt"
+    },
+    {
+      "index": 48,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 37,
+      "kind": "InlineMath",
+      "tex": "R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "189172e447bab455dd703680911294aee471cfc07798bbd503d862f078ffc315",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0048/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0048/console.txt"
+    },
+    {
+      "index": 49,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 38,
+      "kind": "InlineMath",
+      "tex": "\\dot R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "036d7b65ff0081d4c936d6c278d49835705d1b6ee9f557c907368d94e6f8279a",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0049/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0049/console.txt"
+    },
+    {
+      "index": 50,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 39,
+      "kind": "InlineMath",
+      "tex": "\\tau=20",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "bad265d1cc58b505e9a37bb4835b6f0cadee944f9c768bcdfb52252e54cd5a52",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0050/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0050/console.txt"
+    },
+    {
+      "index": 51,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 40,
+      "kind": "InlineMath",
+      "tex": "10^{-4}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "b3de53d4991b1f02da6a6a356a5d9e611ef4f2245b2bdd5089b1feac2e7334a5",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0051/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0051/console.txt"
+    },
+    {
+      "index": 52,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 41,
+      "kind": "InlineMath",
+      "tex": "10^{-6}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "c0c9bd97ceee83d394fe1d41f6ed62812ef50d6333bc60ef3878875cd5ec7f40",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0052/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0052/console.txt"
+    },
+    {
+      "index": 53,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 42,
+      "kind": "InlineMath",
+      "tex": "D",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9cb57c24037d7fb7ed7d90d610fe25c98b4022b9f69fb367aae6d972fc564c10",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0053/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0053/console.txt"
+    },
+    {
+      "index": 54,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 43,
+      "kind": "InlineMath",
+      "tex": "N=64,128",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "d06dc036e2e797874d256b8090dad7c9a7bbf7b3463e605eb1c5b57edb58cbd8",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0054/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0054/console.txt"
+    },
+    {
+      "index": 55,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 44,
+      "kind": "InlineMath",
+      "tex": "T_0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "12068885b636eb10f89ade250ad0678da77c026e56997d87e4c9380d92632c41",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0055/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0055/console.txt"
+    },
+    {
+      "index": 56,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 45,
+      "kind": "InlineMath",
+      "tex": "H(0)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "ea7c60c9fa3e0e677bde0eb17ead7d45d1e84c129b2eb0c1bff68062e1ee0cd6",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0056/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0056/console.txt"
+    },
+    {
+      "index": 57,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 46,
+      "kind": "InlineMath",
+      "tex": "T_b",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "b28ed92e292b5a80d927c9fb2564ef5272b828bb086e3353879cf5bc7f1190da",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0057/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0057/console.txt"
+    },
+    {
+      "index": 58,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 47,
+      "kind": "InlineMath",
+      "tex": "T_0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "12068885b636eb10f89ade250ad0678da77c026e56997d87e4c9380d92632c41",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0058/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0058/console.txt"
+    },
+    {
+      "index": 59,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 48,
+      "kind": "DisplayMath",
+      "tex": "\n\\rho_b=\\min\\left\\{1,\n2\\min\\left[\\frac{1+\\#(T_{b,k}\\le T_b)}{100},\n\\frac{1+\\#(T_{b,k}\\ge T_b)}{100}\\right]\\right\\}.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "7def7b658b60ef2249f57669176bbc1214c527b6e9a34afb68248c59ab181faf",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0059/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0059/console.txt"
+    },
+    {
+      "index": 60,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 49,
+      "kind": "InlineMath",
+      "tex": "p",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4262fb380cd51b33623a11a852fa40024e29a2907b700484e3e13828875a3390",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0060/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0060/console.txt"
+    },
+    {
+      "index": 61,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 50,
+      "kind": "InlineMath",
+      "tex": "T_b",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "b28ed92e292b5a80d927c9fb2564ef5272b828bb086e3353879cf5bc7f1190da",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0061/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0061/console.txt"
+    },
+    {
+      "index": 62,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 51,
+      "kind": "InlineMath",
+      "tex": "k",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "f4e95a91eda2a84ce48ee24649b70712fea8a951d42d846fd18f14b46451b26a",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0062/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0062/console.txt"
+    },
+    {
+      "index": 63,
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "file_math_index": 52,
+      "kind": "InlineMath",
+      "tex": "\\sigma",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e7ef4455270506347aecf0d6bf48c593cded1b0004072519befee68329e76543",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0063/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0063/console.txt"
+    },
+    {
+      "index": 64,
+      "file": "experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "R\\in[1,3]",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "eb98900a89fd92488f26904f2780f1b31a0d3a1619fe8ae75adb54bbe674563b",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0064/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0064/console.txt"
+    },
+    {
+      "index": 65,
+      "file": "experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "1.0575\\times10^{-8}>10^{-8}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "6146539d04af2a97fc63f7a7518716483f7de2aa2797dfd3440fd2664513e24e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0065/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0065/console.txt"
+    },
+    {
+      "index": 66,
+      "file": "experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "file_math_index": 3,
+      "kind": "InlineMath",
+      "tex": "1.3477\\times10^{-9}>10^{-9}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "a2e1144640fb31ff44b4f65a741b7e510ccf81027360f31c696fe0af69cbc00e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0066/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0066/console.txt"
+    },
+    {
+      "index": 67,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "p",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4262fb380cd51b33623a11a852fa40024e29a2907b700484e3e13828875a3390",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0067/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0067/console.txt"
+    },
+    {
+      "index": 68,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "2.9123\\times10^{-9}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "433aa456de0313fcc7fd64f344cba200718769c576895e48f9d93e8e4d7f4cf2",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0068/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0068/console.txt"
+    },
+    {
+      "index": 69,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 3,
+      "kind": "InlineMath",
+      "tex": "\\overline N(\\gamma)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "f88083c896e07742be318cd3d8e60e3887cb0606baf15c4910bb3b423f725af2",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0069/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0069/console.txt"
+    },
+    {
+      "index": 70,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 4,
+      "kind": "InlineMath",
+      "tex": "d_j=\\overline N(\\gamma_{j+1})-\\overline N(\\gamma_j)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9a1fdc02b1bbc1ba2525c1011886981dcf9eff5b3803ce24f2337b5a9cd1a84e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0070/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0070/console.txt"
+    },
+    {
+      "index": 71,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 5,
+      "kind": "InlineMath",
+      "tex": "r_j=d_j-1",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "6250ce9c66984f4822ee8b2a01c13b2b513a1ffc9d750d2743d904d276a8fd9b",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0071/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0071/console.txt"
+    },
+    {
+      "index": 72,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 6,
+      "kind": "InlineMath",
+      "tex": "\\eta=\\tanh[(r-\\mu)/(3\\sigma)]",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "5457411501c9bbf0085e3c80b0d87f9cc31aef278100ab4ce7ca04ad16ca9ece",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0072/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0072/console.txt"
+    },
+    {
+      "index": 73,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 7,
+      "kind": "DisplayMath",
+      "tex": "\nM_b^2(R)=1+2\\left[\\ln^{-2}(R/R_*)-\\frac14\\right]\n+0.02\\,w(R)S_b(R),\\qquad R_*=e^{-2}.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "f0e67b06bf24fdff7416e9444f7a2f1f4c54a7f9c86f253e5982005f69adc594",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0073/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0073/console.txt"
+    },
+    {
+      "index": 74,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 8,
+      "kind": "InlineMath",
+      "tex": "S_b",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "74d2ee0c847a83401dfe0b85d703102227568285fb0619db8c18728342ebf343",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0074/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0074/console.txt"
+    },
+    {
+      "index": 75,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 9,
+      "kind": "InlineMath",
+      "tex": "w=\\sin^4[\\pi(R-1)/2]",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4bb04e675fcad2199fcf7607d10ce7459d5b5bd242bae3d182da7e8b66ab2152",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0075/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0075/console.txt"
+    },
+    {
+      "index": 76,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 10,
+      "kind": "InlineMath",
+      "tex": "1<R<3",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "da888ea41f93f90bc2b871269dd8e6a0c161e2e699d67f01fbeeb8c2d2b37a83",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0076/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0076/console.txt"
+    },
+    {
+      "index": 77,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 11,
+      "kind": "InlineMath",
+      "tex": "M^2=1",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "47f949fe1a685b783126b2743298c827cd77d5bacbee12c193d07a1efb2586c1",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0077/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0077/console.txt"
+    },
+    {
+      "index": 78,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 12,
+      "kind": "InlineMath",
+      "tex": "I\\ddot R=-Q_2(dM^2/dR)/2",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "1cfce782f12b0daa5dfbe30159272c10536c39de584c32179bde5d4721f78f0e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0078/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0078/console.txt"
+    },
+    {
+      "index": 79,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 13,
+      "kind": "InlineMath",
+      "tex": "N=64,L=2\\pi,I=100",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e70665ae55c0bc8f521c14d27fe699c2999c9379cbf13caae604056b75b269a6",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0079/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0079/console.txt"
+    },
+    {
+      "index": 80,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 14,
+      "kind": "InlineMath",
+      "tex": "0.5\\cos x",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "c85e8baf917416a7161b27c9b5a459b51ac91527c8cdd7c4d1d73d6fad4518ea",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0080/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0080/console.txt"
+    },
+    {
+      "index": 81,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 15,
+      "kind": "InlineMath",
+      "tex": "R=1,\\dot R=0.1",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e5957992c1450448d35cd4ac1a93705aa90855443f93809b64d4f92bc3a73208",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0081/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0081/console.txt"
+    },
+    {
+      "index": 82,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 16,
+      "kind": "DisplayMath",
+      "tex": "\nT=\\frac{H_{\\rm clock}(20)-H_{\\rm clock}(0)}{H(0)},\\qquad D=T-T_0,\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "c9bd25c5fe167fec23b214bf7aea12626ad42fb181bfcefe7d55e5785abe0b0c",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0082/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0082/console.txt"
+    },
+    {
+      "index": 83,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 17,
+      "kind": "InlineMath",
+      "tex": "T_0=0.0451394219960",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "badbc13c89d26fe0c90cff7752388583ee2b8f1d2f5212b64f170d8b771ef390",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0083/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0083/console.txt"
+    },
+    {
+      "index": 84,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 18,
+      "kind": "InlineMath",
+      "tex": "10^4D",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "8e2f8dc617121eb6f02a0bd74f9bed15864f97f090171e9d55001f67a4cc2a17",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0084/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0084/console.txt"
+    },
+    {
+      "index": 85,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 19,
+      "kind": "InlineMath",
+      "tex": "10^4D",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "8e2f8dc617121eb6f02a0bd74f9bed15864f97f090171e9d55001f67a4cc2a17",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0085/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0085/console.txt"
+    },
+    {
+      "index": 86,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 20,
+      "kind": "InlineMath",
+      "tex": "\\overline T=0.0450417909944",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "12c8af855e296fdd9d70aa94530d842621ac289ebbb486ff4afd73d534cbbd72",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0086/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0086/console.txt"
+    },
+    {
+      "index": 87,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 21,
+      "kind": "InlineMath",
+      "tex": "\\overline D=-9.76310\\times10^{-5}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "6b9dad476ed1f6708d2705ad71307ccf4269be0cd3c7048bb8974999b4a5f97b",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0087/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0087/console.txt"
+    },
+    {
+      "index": 88,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 22,
+      "kind": "InlineMath",
+      "tex": "[0.04494599,0.04542417]",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "13f10e54134111282e1180c9577051c37d42076f2fc9fe05efe8e0f7aebed99d",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0088/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0088/console.txt"
+    },
+    {
+      "index": 89,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 23,
+      "kind": "InlineMath",
+      "tex": "R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "189172e447bab455dd703680911294aee471cfc07798bbd503d862f078ffc315",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0089/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0089/console.txt"
+    },
+    {
+      "index": 90,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 24,
+      "kind": "InlineMath",
+      "tex": "4.963\\times10^{-7}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "a1664e3956865ace9c0d9a0f9187017de6237f342e7ec79e127724b299b0e901",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0090/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0090/console.txt"
+    },
+    {
+      "index": 91,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 25,
+      "kind": "InlineMath",
+      "tex": "1.2433\\times10^{-9}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "43609e254efd1782d126c1da876193b440ca144f3766c04caf7e5d0559343985",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0091/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0091/console.txt"
+    },
+    {
+      "index": 92,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 26,
+      "kind": "InlineMath",
+      "tex": "D",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9cb57c24037d7fb7ed7d90d610fe25c98b4022b9f69fb367aae6d972fc564c10",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0092/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0092/console.txt"
+    },
+    {
+      "index": 93,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 27,
+      "kind": "InlineMath",
+      "tex": "1.2130\\times10^{-9}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "433f78775c01a351ceedbd6f1c9856ee6ad9be80b759ee7bf1a95c3aaee5deea",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0093/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0093/console.txt"
+    },
+    {
+      "index": 94,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 28,
+      "kind": "InlineMath",
+      "tex": "3.9731\\times10^{-6}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4968253fe96d67b17746989cc49897f7ba0a75d5ca35667a39d5f11047d12636",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0094/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0094/console.txt"
+    },
+    {
+      "index": 95,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 29,
+      "kind": "InlineMath",
+      "tex": "N=64,128",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "d06dc036e2e797874d256b8090dad7c9a7bbf7b3463e605eb1c5b57edb58cbd8",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0095/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0095/console.txt"
+    },
+    {
+      "index": 96,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 30,
+      "kind": "InlineMath",
+      "tex": "1.61\\times10^{-10}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "526d58601fa3cde5183124d5cd08370525146b2b62bf390a0225306e18a6aa3d",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0096/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0096/console.txt"
+    },
+    {
+      "index": 97,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 31,
+      "kind": "InlineMath",
+      "tex": "T",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "142067f3576847204f343011e1cd5faa9b7b5d2be4b0010a0464bf27e005ca0c",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0097/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0097/console.txt"
+    },
+    {
+      "index": 98,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 32,
+      "kind": "InlineMath",
+      "tex": "1.17\\times10^{-9}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "efe15f9a3740620755d136dd885ca89fa51bb100b72b891467d58546e78710d7",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0098/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0098/console.txt"
+    },
+    {
+      "index": 99,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 33,
+      "kind": "InlineMath",
+      "tex": "D",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9cb57c24037d7fb7ed7d90d610fe25c98b4022b9f69fb367aae6d972fc564c10",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0099/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0099/console.txt"
+    },
+    {
+      "index": 100,
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "file_math_index": 34,
+      "kind": "InlineMath",
+      "tex": "9.26\\times10^{-7}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "76df6a0b8c0b2ab5c03bd2344d366bc5fcf0bb1def78d5f3cba1c154426f2bbf",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0100/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0100/console.txt"
+    },
+    {
+      "index": 101,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "3\\times10^{-9}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "3e88e5679e715ef7734aaa91d4cee1ea6c3605cd645b37493334c94701590cef",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0101/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0101/console.txt"
+    },
+    {
+      "index": 102,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "0eec87f39c61b646eedc6687b1fb5e6d36384e36466220227eaee3f417d81897",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0102/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0102/console.txt"
+    },
+    {
+      "index": 103,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 3,
+      "kind": "InlineMath",
+      "tex": "j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4cad03ea3e42393fe53290d50ce1fc5b5c25409425cb9fa720be6d8edc128ece",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0103/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0103/console.txt"
+    },
+    {
+      "index": 104,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 4,
+      "kind": "InlineMath",
+      "tex": "n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "0eec87f39c61b646eedc6687b1fb5e6d36384e36466220227eaee3f417d81897",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0104/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0104/console.txt"
+    },
+    {
+      "index": 105,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 5,
+      "kind": "InlineMath",
+      "tex": "j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4cad03ea3e42393fe53290d50ce1fc5b5c25409425cb9fa720be6d8edc128ece",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0105/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0105/console.txt"
+    },
+    {
+      "index": 106,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 6,
+      "kind": "InlineMath",
+      "tex": "R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "189172e447bab455dd703680911294aee471cfc07798bbd503d862f078ffc315",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0106/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0106/console.txt"
+    },
+    {
+      "index": 107,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 7,
+      "kind": "InlineMath",
+      "tex": "\\tau",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "eb3114757893ee8904fc0bb7c79be4c51647303f8a8ccee78485db5828131429",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0107/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0107/console.txt"
+    },
+    {
+      "index": 108,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 8,
+      "kind": "InlineMath",
+      "tex": "k_1/\\ln^2 n+k_2/\\ln^3 n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e91ceb8730170e630cd4a0c3d073048c73610914aecd52b61b42ccb8ce1c18bc",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0108/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0108/console.txt"
+    },
+    {
+      "index": 109,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 9,
+      "kind": "InlineMath",
+      "tex": "\\gamma_j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "3ebed4ad01dff2ff96073106679293cc0738dd1d982b105d6e84d8e50a8a1d9f",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0109/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0109/console.txt"
+    },
+    {
+      "index": 110,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 10,
+      "kind": "DisplayMath",
+      "tex": "\n\\overline N(\\gamma)=\\frac{\\gamma}{2\\pi}\\ln\\frac{\\gamma}{2\\pi}\n-\\frac{\\gamma}{2\\pi}+\\frac78,\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "afab9ec059cd4ec29d8d15f0f7c43344086fb7c37f4751ed80ffb9c9ded0050f",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0110/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0110/console.txt"
+    },
+    {
+      "index": 111,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 11,
+      "kind": "DisplayMath",
+      "tex": "\ns_j=\\overline N(\\gamma_{j+1})-\\overline N(\\gamma_j),\\qquad\nr_j=s_j-1.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "8702941e9db224a1f5a74ffa542f57a950d70d0cd6e1d40e8042408f5db520f2",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0111/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0111/console.txt"
+    },
+    {
+      "index": 112,
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "file_math_index": 12,
+      "kind": "InlineMath",
+      "tex": "10^{10}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "125014773c02e7969033f609caa6a588b23fe4a645e00e245b9a12fa5379e1dd",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0112/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0112/console.txt"
+    },
+    {
+      "index": 113,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "\\gamma_j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "3ebed4ad01dff2ff96073106679293cc0738dd1d982b105d6e84d8e50a8a1d9f",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0113/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0113/console.txt"
+    },
+    {
+      "index": 114,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "2.9123\\times10^{-9}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "433aa456de0313fcc7fd64f344cba200718769c576895e48f9d93e8e4d7f4cf2",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0114/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0114/console.txt"
+    },
+    {
+      "index": 115,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 3,
+      "kind": "DisplayMath",
+      "tex": "\n\\overline N(y)=\\frac{y}{2\\pi}\\ln\\frac{y}{2\\pi}-\\frac{y}{2\\pi}+\\frac78,\n\\qquad r_j=\\overline N(\\gamma_{j+1})-\\overline N(\\gamma_j)-1.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "d2f6e038a7a326cb6edce832a01951feb39ce44ca6acccae36d1d4e2645f3fa3",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0115/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0115/console.txt"
+    },
+    {
+      "index": 116,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 4,
+      "kind": "InlineMath",
+      "tex": "j=1001,\\ldots,2024",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "038dca85ef4c3f372613e83b1b9ff37afdb71188f9ede75649c52fc2039bb554",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0116/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0116/console.txt"
+    },
+    {
+      "index": 117,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 5,
+      "kind": "InlineMath",
+      "tex": "\\mu",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "018a6fa8c8d3b8ec1292c608934fd9b6acf0c52e3e5672f417f0f3b4f81d649c",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0117/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0117/console.txt"
+    },
+    {
+      "index": 118,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 6,
+      "kind": "InlineMath",
+      "tex": "\\sigma",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e7ef4455270506347aecf0d6bf48c593cded1b0004072519befee68329e76543",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0118/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0118/console.txt"
+    },
+    {
+      "index": 119,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 7,
+      "kind": "InlineMath",
+      "tex": "\\eta_j=\\tanh[(r_j-\\mu)/(3\\sigma)]",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "5baf284b2742db0e9ecb0f10812b7f353bf6ad538fe426e2b61c60dfde0aa3c7",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0119/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0119/console.txt"
+    },
+    {
+      "index": 120,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 8,
+      "kind": "InlineMath",
+      "tex": "j=4097,\\ldots,5120",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "2d82975d475c291a462eb7e8bced82295627703cff469c12f797aaeeb271116a",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0120/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0120/console.txt"
+    },
+    {
+      "index": 121,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 9,
+      "kind": "InlineMath",
+      "tex": "j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4cad03ea3e42393fe53290d50ce1fc5b5c25409425cb9fa720be6d8edc128ece",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0121/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0121/console.txt"
+    },
+    {
+      "index": 122,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 10,
+      "kind": "InlineMath",
+      "tex": "n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "0eec87f39c61b646eedc6687b1fb5e6d36384e36466220227eaee3f417d81897",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0122/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0122/console.txt"
+    },
+    {
+      "index": 123,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 11,
+      "kind": "InlineMath",
+      "tex": "R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "189172e447bab455dd703680911294aee471cfc07798bbd503d862f078ffc315",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0123/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0123/console.txt"
+    },
+    {
+      "index": 124,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 12,
+      "kind": "InlineMath",
+      "tex": "\\tau",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "eb3114757893ee8904fc0bb7c79be4c51647303f8a8ccee78485db5828131429",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0124/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0124/console.txt"
+    },
+    {
+      "index": 125,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 13,
+      "kind": "InlineMath",
+      "tex": "R\\in[1,3]",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "eb98900a89fd92488f26904f2780f1b31a0d3a1619fe8ae75adb54bbe674563b",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0125/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0125/console.txt"
+    },
+    {
+      "index": 126,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 14,
+      "kind": "InlineMath",
+      "tex": "S(R)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "c454d74dcdec87c42f1bae484f5bff6852dd6215558499e8c22db01ccb5f6312",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0126/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0126/console.txt"
+    },
+    {
+      "index": 127,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 15,
+      "kind": "DisplayMath",
+      "tex": "\nM^2(R)=1+2\\left[\\ln^{-2}(R/e^{-2})-\\frac14\\right]\n+0.02\\,w(R)S(R),\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "8332e06a1f1299e5cafafadea5ca81b2433d32709c04d0e7435edb845300de33",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0127/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0127/console.txt"
+    },
+    {
+      "index": 128,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 16,
+      "kind": "InlineMath",
+      "tex": "w(R)=\\sin^4[\\pi(R-1)/2]",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "f87d9aa9cdb21fa28fe3e59fe63cb77159815ae264b00463c1ac03df2c0955da",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0128/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0128/console.txt"
+    },
+    {
+      "index": 129,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 17,
+      "kind": "DisplayMath",
+      "tex": "\nH=\\frac{P_R^2}{2I}+\\sum_j\\left[\n\\frac{p_j^2}{2a}+\\frac{(q_{j+1}-q_j)^2}{2a}\n+\\frac a2M^2(R)q_j^2+\\frac a4q_j^4\\right].\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "83c30d8efdf5f368b5953bc98885ef5805448207f242f2c27b6acadd46c90257",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0129/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0129/console.txt"
+    },
+    {
+      "index": 130,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 18,
+      "kind": "InlineMath",
+      "tex": "L=2\\pi,N=64,a=L/N,I=100",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "43fc0603397c136a6485bc7af44ae22878aa21fa356380a019a560463b2efa26",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0130/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0130/console.txt"
+    },
+    {
+      "index": 131,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 19,
+      "kind": "InlineMath",
+      "tex": "q_j(0)=0.5\\cos x_j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4483afd10dbbf750ee6f72c438cb7acee2e97268d009d7b753723d9fa14f3b31",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0131/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0131/console.txt"
+    },
+    {
+      "index": 132,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 20,
+      "kind": "InlineMath",
+      "tex": "\\dot q_j(0)=0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "09173b4eb9881fc4611530ed807c9d5561bb50e81c6ebaa001d83d3be2a6c11d",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0132/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0132/console.txt"
+    },
+    {
+      "index": 133,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 21,
+      "kind": "InlineMath",
+      "tex": "R(0)=1,\\dot R(0)=0.1",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "7474f9f6f2fe656d79ae2796128389a9f3f3c957740a4917ce93116cf6bfdb23",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0133/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0133/console.txt"
+    },
+    {
+      "index": 134,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 22,
+      "kind": "InlineMath",
+      "tex": "p_j=a\\dot q_j,P_R=I\\dot R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "a24796d92d55520359a99368c67a0e7b088ae6706a27376ffc6c06b3ac3075cb",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0134/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0134/console.txt"
+    },
+    {
+      "index": 135,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 23,
+      "kind": "DisplayMath",
+      "tex": "\nI\\ddot R=-\\frac{Q_2}{2}\\frac{dM^2}{dR},\\qquad\nQ_2=a\\sum_jq_j^2,\\qquad\n\\dot H_{\\rm field}=-\\dot H_{\\rm clock}\n=\\frac{Q_2\\dot R}{2}\\frac{dM^2}{dR}.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "3a281c7d3a5bc3fd054b9cb1c484e94b738b8efa468d228bcc95e9cc410492cb",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0135/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0135/console.txt"
+    },
+    {
+      "index": 136,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 24,
+      "kind": "InlineMath",
+      "tex": "S=0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "20f9707cca6091d864b0650e046e0463e70b31ca0635a111163531190bf5d713",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0136/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0136/console.txt"
+    },
+    {
+      "index": 137,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 25,
+      "kind": "InlineMath",
+      "tex": "T=[H_{\\rm clock}(20)-H_{\\rm clock}(0)]/H(0)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "6f0e2ef9077d7bee65cb7c360443631918bf5172db3036a37d9df5b8d9b65b1a",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0137/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0137/console.txt"
+    },
+    {
+      "index": 138,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 26,
+      "kind": "InlineMath",
+      "tex": "T_0=0.045139422",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "254f04e9ad71484a8d037998e6b94ff78908579847e9725925615405f22d3cc6",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0138/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0138/console.txt"
+    },
+    {
+      "index": 139,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 27,
+      "kind": "InlineMath",
+      "tex": "0.045041791",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "60f1a62c518030ec96f214f0e04bd4b769ae83d53d9447e30200fb41503542ca",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0139/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0139/console.txt"
+    },
+    {
+      "index": 140,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 28,
+      "kind": "InlineMath",
+      "tex": "p",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4262fb380cd51b33623a11a852fa40024e29a2907b700484e3e13828875a3390",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0140/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0140/console.txt"
+    },
+    {
+      "index": 141,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 29,
+      "kind": "InlineMath",
+      "tex": "D=T-T_0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "338f64fa9e495ca75bad193af6860b2b77713a7f3b342dbe469cc8675d7d346f",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0141/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0141/console.txt"
+    },
+    {
+      "index": 142,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 30,
+      "kind": "InlineMath",
+      "tex": "3.98\\times10^{-6}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "483924165c4eb889a750afb90d5928884cffaf9fb639921eac0f1f21f5091a48",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0142/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0142/console.txt"
+    },
+    {
+      "index": 143,
+      "file": "draft_v05/arithmetic_response_v05.md",
+      "file_math_index": 31,
+      "kind": "InlineMath",
+      "tex": "N=64",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4d4c0f9be9612032b7eadd4b83575967e656b181ab0ede322402104bcde1153f",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0143/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0143/console.txt"
+    },
+    {
+      "index": 144,
+      "file": "README.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "p",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4262fb380cd51b33623a11a852fa40024e29a2907b700484e3e13828875a3390",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0144/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0144/console.txt"
+    },
+    {
+      "index": 145,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "1/\\ln^2(t/t_*)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "dfaced23ce7aca5aad983c08816c59cf5ef1e3a2ea84073730b1ad65e378941c",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0145/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0145/console.txt"
+    },
+    {
+      "index": 146,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "\\langle\\phi^3\\rangle\\ne\\langle\\phi\\rangle^3",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "4e05249be51bcbc4ad793c5c6d23129d361e5d898f4950f91568827fb4f40c73",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0146/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0146/console.txt"
+    },
+    {
+      "index": 147,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 3,
+      "kind": "InlineMath",
+      "tex": "L",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "741d53eb92999233dd514984c7b46f1319373f7103b7047bbe43385cb4ab0385",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0147/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0147/console.txt"
+    },
+    {
+      "index": 148,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 4,
+      "kind": "InlineMath",
+      "tex": "a=L/N",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "ebe199d0447be76e860dac19f126a4dd61d87652644e522ba9b3d80c59eb6d1d",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0148/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0148/console.txt"
+    },
+    {
+      "index": 149,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 5,
+      "kind": "InlineMath",
+      "tex": "q_j=\\phi(ja)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "df85ab7f876211dfb43f521934110e3ad92c691aa18a9c7432dff270e3433928",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0149/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0149/console.txt"
+    },
+    {
+      "index": 150,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 6,
+      "kind": "InlineMath",
+      "tex": "p_j=a\\pi_j",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "57960ec5b59d5f6b82d11ac14327b6d0cdf0c90f9853d7438b1d26f787c75d6e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0150/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0150/console.txt"
+    },
+    {
+      "index": 151,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 7,
+      "kind": "InlineMath",
+      "tex": "\\{q_j,p_k\\}=\\delta_{jk}",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "c4eeb4886c2e23ba03cdecec5a6a96883928b1af9f97313bfb25b6c1b0a6f3fa",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0151/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0151/console.txt"
+    },
+    {
+      "index": 152,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 8,
+      "kind": "DisplayMath",
+      "tex": "\nH_a=\\sum_j\\left[\n\\frac{p_j^2}{2a}+\\frac{v^2}{2a}(q_{j+1}-q_j)^2\n+a\\left(\\frac{\\omega_0^2q_j^2}{2}+\\frac{gq_j^4}{4}\\right)\n\\right],\\qquad v>0,\\quad\\omega_0^2\\ge0,\\quad g>0.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "fb1bd74945a9512012e6e1555a509b25afc7ac7afd68913675e57c4b13de332f",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0152/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0152/console.txt"
+    },
+    {
+      "index": 153,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 9,
+      "kind": "InlineMath",
+      "tex": "v",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "b5bed51264fc2766fda066d71b113ce8fcde25da73642556daca40288261b3c1",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0153/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0153/console.txt"
+    },
+    {
+      "index": 154,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 10,
+      "kind": "InlineMath",
+      "tex": "\\omega_0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "5d0a91d5b8e0fb3ec6979f3e1b3044d6e3cf77ae436063a6f9109fab5e9264d0",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0154/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0154/console.txt"
+    },
+    {
+      "index": 155,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 11,
+      "kind": "InlineMath",
+      "tex": "g\\phi^2",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9b34d33269bbad1aaa164a67836ddfe9c9fd7d1a65f1236da9716f0450352faf",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0155/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0155/console.txt"
+    },
+    {
+      "index": 156,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 12,
+      "kind": "DisplayMath",
+      "tex": "\n\\dot q_j=\\frac{p_j}{a},\\qquad\n\\ddot q_j=v^2\\frac{q_{j+1}-2q_j+q_{j-1}}{a^2}\n-\\omega_0^2q_j-gq_j^3.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "76a497ffe0b6e7e24bfc234669770518c0a6cc9cc1723ba458d49a647c11a700",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0156/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0156/console.txt"
+    },
+    {
+      "index": 157,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 13,
+      "kind": "DisplayMath",
+      "tex": "\n\\phi_{tt}=v^2\\phi_{xx}-\\omega_0^2\\phi-g\\phi^3\n+\\frac{v^2a^2}{12}\\phi_{xxxx}+O(a^4).\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "8b3a671efae3dd6689bf2041ea814763a283d5c354c22dce2c4c57d0f2b9cf13",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0157/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0157/console.txt"
+    },
+    {
+      "index": 158,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 14,
+      "kind": "InlineMath",
+      "tex": "L",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "741d53eb92999233dd514984c7b46f1319373f7103b7047bbe43385cb4ab0385",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0158/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0158/console.txt"
+    },
+    {
+      "index": 159,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 15,
+      "kind": "InlineMath",
+      "tex": "a\\to0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "f3bd7048653c6de7f1fc7d4abc7d42285424681e9a8de40ee8aa241556977724",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0159/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0159/console.txt"
+    },
+    {
+      "index": 160,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 16,
+      "kind": "InlineMath",
+      "tex": "a",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "facd10e872ec0a239d257e3692accf1138a7d8a2156b0cfff731c24a9b26aa1e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0160/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0160/console.txt"
+    },
+    {
+      "index": 161,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 17,
+      "kind": "InlineMath",
+      "tex": "ka\\ll1",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "fc5f87d23675e741f7cc37afb28c3ab29eb37f2a1502dac78308ae18d434d987",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0161/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0161/console.txt"
+    },
+    {
+      "index": 162,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 18,
+      "kind": "InlineMath",
+      "tex": "a^2",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "9825f88c84f59ff3751e6b164a00d1066c36a89574338d49d783bd1b9668bea9",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0162/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0162/console.txt"
+    },
+    {
+      "index": 163,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 19,
+      "kind": "InlineMath",
+      "tex": "N",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "063e99b2aa1a587a9b12b8dec1f174997b8ac4a4a528cdf683ebbf9dea04033a",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0163/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0163/console.txt"
+    },
+    {
+      "index": 164,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 20,
+      "kind": "InlineMath",
+      "tex": "a",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "facd10e872ec0a239d257e3692accf1138a7d8a2156b0cfff731c24a9b26aa1e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0164/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0164/console.txt"
+    },
+    {
+      "index": 165,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 21,
+      "kind": "DisplayMath",
+      "tex": "\n\\sum_j dq_j\\wedge dp_j\n=a\\sum_j dq_j\\wedge d\\pi_j\n\\longrightarrow\\int_0^L\\delta\\phi(x)\\wedge\\delta\\pi(x)\\,dx.\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "677e59c3a73c2cf36b1a1a068bd52ee61ec23af8097bf86e47ff7d0cce655ac6",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0165/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0165/console.txt"
+    },
+    {
+      "index": 166,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 22,
+      "kind": "InlineMath",
+      "tex": "k=2\\pi n/L",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "d545f614a03ebb3ecb72f1c850e21bd24c29a22d5f97b3a1d6f33d419767d4b6",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0166/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0166/console.txt"
+    },
+    {
+      "index": 167,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 23,
+      "kind": "DisplayMath",
+      "tex": "\n\\Omega_a^2(k)=\\omega_0^2+\\frac{4v^2}{a^2}\\sin^2\\frac{ka}{2}\n=\\omega_0^2+v^2k^2-\\frac{v^2a^2k^4}{12}+O(a^4k^6).\n",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "7c1752aabb9a33e57bb098a5d7e1916bb22ce6f8ff2006318dbcb8da894360d7",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0167/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0167/console.txt"
+    },
+    {
+      "index": 168,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 24,
+      "kind": "InlineMath",
+      "tex": "H_a",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "1aa34263e6b5ed39e8480dd140e2bd79f9b8a0e76659b3d6d774b46c3f4f623e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0168/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0168/console.txt"
+    },
+    {
+      "index": 169,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 25,
+      "kind": "InlineMath",
+      "tex": "a",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "facd10e872ec0a239d257e3692accf1138a7d8a2156b0cfff731c24a9b26aa1e",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0169/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0169/console.txt"
+    },
+    {
+      "index": 170,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 26,
+      "kind": "InlineMath",
+      "tex": "q_j(0)=A\\cos(2\\pi ja/L)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "8388ab67e8f304a730862e9c533b966d0fd6e518c06218478ca028fbd65b62d3",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0170/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0170/console.txt"
+    },
+    {
+      "index": 171,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 27,
+      "kind": "InlineMath",
+      "tex": "p_j(0)=0",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "e96b0ebdddac4f78e2b60cff55baab3c730d59988d03c5bf7c7ab04fea567270",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0171/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0171/console.txt"
+    },
+    {
+      "index": 172,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 28,
+      "kind": "InlineMath",
+      "tex": "N=64,128,256,512",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "c81e0d6a3520d515ef98eadd772d7f512157f7aab23f77f20141e906d20ae347",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0172/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0172/console.txt"
+    },
+    {
+      "index": 173,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 29,
+      "kind": "InlineMath",
+      "tex": "\\Delta t\\propto a^2",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "0f240a9e616f052e53359e5a04df0948994a0bfcee210b316803c9a81be39a71",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0173/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0173/console.txt"
+    },
+    {
+      "index": 174,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 30,
+      "kind": "InlineMath",
+      "tex": "\\Delta t",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "0ee7e8530d6bee78d432d6d15774ffc88c72d757cc032babafbea088fad64867",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0174/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0174/console.txt"
+    },
+    {
+      "index": 175,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 31,
+      "kind": "InlineMath",
+      "tex": "R",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "189172e447bab455dd703680911294aee471cfc07798bbd503d862f078ffc315",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0175/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0175/console.txt"
+    },
+    {
+      "index": 176,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 32,
+      "kind": "InlineMath",
+      "tex": "\\chi=\\ln(R/R_*)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "31b00388c34947cfd7f4ce64df7c49a3951270bf6e03252b0a95fa907cd04d64",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0176/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0176/console.txt"
+    },
+    {
+      "index": 177,
+      "file": "RESEARCH_DIRECTION.md",
+      "file_math_index": 33,
+      "kind": "InlineMath",
+      "tex": "\\chi",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "b07c3595d8af9eb092c2da86861914d27cd1b51e821b970a1a92dbc46e6bf7b8",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0177/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0177/console.txt"
+    },
+    {
+      "index": 178,
+      "file": "WORK_PLAN.md",
+      "file_math_index": 1,
+      "kind": "InlineMath",
+      "tex": "t_*",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "f842812b9e08492095de971876b90b96982b7a873084f93590d2ffd98e8497a8",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0178/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0178/console.txt"
+    },
+    {
+      "index": 179,
+      "file": "WORK_PLAN.md",
+      "file_math_index": 2,
+      "kind": "InlineMath",
+      "tex": "t_*",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "f842812b9e08492095de971876b90b96982b7a873084f93590d2ffd98e8497a8",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0179/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0179/console.txt"
+    },
+    {
+      "index": 180,
+      "file": "WORK_PLAN.md",
+      "file_math_index": 3,
+      "kind": "InlineMath",
+      "tex": "m_A(\\chi)",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "55f17a88daa2e94440427c91f04b558fb1b0b2ced330db03d0872acd89ccb12b",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0180/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0180/console.txt"
+    },
+    {
+      "index": 181,
+      "file": "WORK_PLAN.md",
+      "file_math_index": 4,
+      "kind": "InlineMath",
+      "tex": "Q_A",
+      "passed": true,
+      "returncode": 0,
+      "tex_document_sha256": "3d93072f889261244d37d045c1be4449117016ce368123e9b8379e24ab913bae",
+      "errors": [],
+      "compiler_log": "build/arithmetic_v01_math_check/formulas/0181/formula.log",
+      "compiler_console": "build/arithmetic_v01_math_check/formulas/0181/console.txt"
+    }
+  ],
+  "original_manifest_sha256": "9d301dbabfca38f5bd8d7e0701e234cc5792822ad948f884db7627cb193cfb13",
+  "original_preservation_count": 23,
+  "original_preservation_passed": 23,
+  "original_preservation": [
+    {
+      "file": "ori_paper/merged_document_v2_with_latex.docx",
+      "expected": "9aaf391de785d561f18878936b9ac725533c2730b9068dba0bbeef03383a3bb1",
+      "kind": "original_docx",
+      "actual": "9aaf391de785d561f18878936b9ac725533c2730b9068dba0bbeef03383a3bb1",
+      "passed": true
+    },
+    {
+      "file": "chapters/00_front_matter.md",
+      "expected": "a30828cb6df1766ae3fc4d69adda2309ec3f0b7479199aad3bea72164e115697",
+      "kind": "chapter",
+      "actual": "a30828cb6df1766ae3fc4d69adda2309ec3f0b7479199aad3bea72164e115697",
+      "passed": true
+    },
+    {
+      "file": "chapters/01_chapter_00_introduction.md",
+      "expected": "e6c176c3179ae85876d3d0a9f8a26c3d97a58dfd8a74a2384a468d6828c7e5c4",
+      "kind": "chapter",
+      "actual": "e6c176c3179ae85876d3d0a9f8a26c3d97a58dfd8a74a2384a468d6828c7e5c4",
+      "passed": true
+    },
+    {
+      "file": "chapters/02_chapter_01_system_anomaly.md",
+      "expected": "1b35d9d989bf7be4d7c591d5c3287e62480b53be710d36b464448b220aa74de9",
+      "kind": "chapter",
+      "actual": "1b35d9d989bf7be4d7c591d5c3287e62480b53be710d36b464448b220aa74de9",
+      "passed": true
+    },
+    {
+      "file": "chapters/03_chapter_02_source_code.md",
+      "expected": "367ef0ec44aeb9f5e99c3e1d9394ed6e2108217ef85f9ac5a26de6bee0366b83",
+      "kind": "chapter",
+      "actual": "367ef0ec44aeb9f5e99c3e1d9394ed6e2108217ef85f9ac5a26de6bee0366b83",
+      "passed": true
+    },
+    {
+      "file": "chapters/04_chapter_03_cosmic_lockstep.md",
+      "expected": "34e296fb189e78a0107ea74ca3f53d7cd9332a182bae817101587ebaa922d41a",
+      "kind": "chapter",
+      "actual": "34e296fb189e78a0107ea74ca3f53d7cd9332a182bae817101587ebaa922d41a",
+      "passed": true
+    },
+    {
+      "file": "chapters/05_chapter_04_mathematical_framework.md",
+      "expected": "ad028c64f5c7b378ac5d019a750382f3b294254869fb19022607a090cc992513",
+      "kind": "chapter",
+      "actual": "ad028c64f5c7b378ac5d019a750382f3b294254869fb19022607a090cc992513",
+      "passed": true
+    },
+    {
+      "file": "chapters/06_chapter_05_observational_evidence.md",
+      "expected": "5caebab3f952c7cbb7ae8c657f1d1237939e5df76b08d265b2f3e03367b23ddf",
+      "kind": "chapter",
+      "actual": "5caebab3f952c7cbb7ae8c657f1d1237939e5df76b08d265b2f3e03367b23ddf",
+      "passed": true
+    },
+    {
+      "file": "chapters/07_chapter_06_predictions_interpretations.md",
+      "expected": "21f453477e9e188c4e0cf858fcb19a238a561ac8853cf4ff78b1cab67de2dee2",
+      "kind": "chapter",
+      "actual": "21f453477e9e188c4e0cf858fcb19a238a561ac8853cf4ff78b1cab67de2dee2",
+      "passed": true
+    },
+    {
+      "file": "chapters/08_chapter_07_engine_design.md",
+      "expected": "e09dc5e310db8861a9954f9e4bc7b3bbfd27cae2206513c7ccbb1b2233f6e7e7",
+      "kind": "chapter",
+      "actual": "e09dc5e310db8861a9954f9e4bc7b3bbfd27cae2206513c7ccbb1b2233f6e7e7",
+      "passed": true
+    },
+    {
+      "file": "chapters/09_chapter_08_simulation_case_studies.md",
+      "expected": "e8affb87837bf2025de9c0e56c5703247803a25772acbba8aead3cd7c70ac1ac",
+      "kind": "chapter",
+      "actual": "e8affb87837bf2025de9c0e56c5703247803a25772acbba8aead3cd7c70ac1ac",
+      "passed": true
+    },
+    {
+      "file": "chapters/10_chapter_09_conclusion.md",
+      "expected": "8f656e7a61f0c26337bc7fa98757a4bb4cb0601d149d63ff0da991b6beb1b79c",
+      "kind": "chapter",
+      "actual": "8f656e7a61f0c26337bc7fa98757a4bb4cb0601d149d63ff0da991b6beb1b79c",
+      "passed": true
+    },
+    {
+      "file": "chapters/11_references.md",
+      "expected": "a23811d8249630942b4985fe76c71e838a3b22b73a6a2a6add9476dabaf0a4cd",
+      "kind": "chapter",
+      "actual": "a23811d8249630942b4985fe76c71e838a3b22b73a6a2a6add9476dabaf0a4cd",
+      "passed": true
+    },
+    {
+      "file": "chapters/12_acknowledgments.md",
+      "expected": "0d0a6067182be4c43b7ff6058324975b9d43f0187d9e83bdfebb44605ced39f0",
+      "kind": "chapter",
+      "actual": "0d0a6067182be4c43b7ff6058324975b9d43f0187d9e83bdfebb44605ced39f0",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image1.png",
+      "expected": "efc29b9c5193165cb2a0a48645c194fe041cab55dd25d773a1901bf0d9033eb1",
+      "kind": "asset",
+      "actual": "efc29b9c5193165cb2a0a48645c194fe041cab55dd25d773a1901bf0d9033eb1",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image2.png",
+      "expected": "4457cd5aa24a4ce3e7569e2915206f16501e45b309d91b1ab9b57992c7304b86",
+      "kind": "asset",
+      "actual": "4457cd5aa24a4ce3e7569e2915206f16501e45b309d91b1ab9b57992c7304b86",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image3.png",
+      "expected": "ef46c66d0863dff5eaf33c2197f2211a12eb5eb39107900837d4639f1fc77f98",
+      "kind": "asset",
+      "actual": "ef46c66d0863dff5eaf33c2197f2211a12eb5eb39107900837d4639f1fc77f98",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image4.png",
+      "expected": "0a46dcafe37fb72b37f636927094b577abddab23640c563347d2b566e4437a0f",
+      "kind": "asset",
+      "actual": "0a46dcafe37fb72b37f636927094b577abddab23640c563347d2b566e4437a0f",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image5.png",
+      "expected": "59ffbecab29cd4b05b577272913edb958e4d03a10ee6d9e58b3fb0845e6bd224",
+      "kind": "asset",
+      "actual": "59ffbecab29cd4b05b577272913edb958e4d03a10ee6d9e58b3fb0845e6bd224",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image6.png",
+      "expected": "ace0664b1e928fee65d9631b8182c953541acc89460a2f1da8298928d6275554",
+      "kind": "asset",
+      "actual": "ace0664b1e928fee65d9631b8182c953541acc89460a2f1da8298928d6275554",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image7.png",
+      "expected": "e986fbad323edac36698ccac1ea206fd95da4ba0d0558160e75b5610a9c1f96f",
+      "kind": "asset",
+      "actual": "e986fbad323edac36698ccac1ea206fd95da4ba0d0558160e75b5610a9c1f96f",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image8.png",
+      "expected": "6aff1432453464c0f0eed272c990bf223a42289154bdc0c3e6cd2a3b7fc2a0dd",
+      "kind": "asset",
+      "actual": "6aff1432453464c0f0eed272c990bf223a42289154bdc0c3e6cd2a3b7fc2a0dd",
+      "passed": true
+    },
+    {
+      "file": "chapters/assets/media/image9.png",
+      "expected": "b0668c8d537756026854dd642ec038ee7225bfa9b109e2f4532b0416ff326c84",
+      "kind": "asset",
+      "actual": "b0668c8d537756026854dd642ec038ee7225bfa9b109e2f4532b0416ff326c84",
+      "passed": true
+    }
+  ],
+  "stage_summaries": [
+    {
+      "stage": "input",
+      "code": "code/prepare_inputs.py",
+      "recorded_code_sha256": "32c932cff382383b7c270c96334714fd53352b3db3b77d611ce445405ac481e5",
+      "actual_code_sha256": "32c932cff382383b7c270c96334714fd53352b3db3b77d611ce445405ac481e5",
+      "code_hash_matches": true,
+      "checks_count": 10,
+      "passed_count": 10,
+      "failed_checks": [],
+      "recorded_all": null,
+      "recorded_status_consistent": true
+    },
+    {
+      "stage": "main",
+      "code": "code/run_lattice.py",
+      "recorded_code_sha256": "975a8fa46a615f71e05ebacda998f8da77cf872a80e5f241064717027d664647",
+      "actual_code_sha256": "975a8fa46a615f71e05ebacda998f8da77cf872a80e5f241064717027d664647",
+      "code_hash_matches": true,
+      "checks_count": 17,
+      "passed_count": 17,
+      "failed_checks": [],
+      "recorded_all": true,
+      "recorded_status_consistent": true
+    },
+    {
+      "stage": "reference",
+      "code": "code/run_reference.py",
+      "recorded_code_sha256": "4c2f1eb23cd09671625e26bf8251457d02845a070e08eb1130aa40bbdd49e567",
+      "actual_code_sha256": "4c2f1eb23cd09671625e26bf8251457d02845a070e08eb1130aa40bbdd49e567",
+      "code_hash_matches": true,
+      "checks_count": 5,
+      "passed_count": 5,
+      "failed_checks": [],
+      "recorded_all": null,
+      "recorded_status_consistent": true
+    },
+    {
+      "stage": "comparison",
+      "code": "code/analyze_and_plot.py",
+      "recorded_code_sha256": "1dfaa80d5a31084bc61b069a4257764eefdb585f6acabc86c8e85fdc46155cb8",
+      "actual_code_sha256": "1dfaa80d5a31084bc61b069a4257764eefdb585f6acabc86c8e85fdc46155cb8",
+      "code_hash_matches": true,
+      "checks_count": 24,
+      "passed_count": 24,
+      "failed_checks": [],
+      "recorded_all": true,
+      "recorded_status_consistent": true
+    }
+  ],
+  "artifact_hash_checks": [
+    {
+      "stage": "frozen_protocol",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/protocol.md",
+      "expected": "952804fa8aaf7ffa2092449010dc8a8c5d045ed319df1a7812a993ee565e9d56",
+      "actual": "952804fa8aaf7ffa2092449010dc8a8c5d045ed319df1a7812a993ee565e9d56",
+      "passed": true
+    },
+    {
+      "stage": "input_artifact",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/code/prepare_inputs.py",
+      "expected": "32c932cff382383b7c270c96334714fd53352b3db3b77d611ce445405ac481e5",
+      "actual": "32c932cff382383b7c270c96334714fd53352b3db3b77d611ce445405ac481e5",
+      "passed": true
+    },
+    {
+      "stage": "input_artifact",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/inputs.npz",
+      "expected": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+      "actual": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+      "passed": true
+    },
+    {
+      "stage": "input_artifact",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/full_zero_gaps.npz",
+      "expected": "7a2f35fc316e2f297ee050140abc6f9e27fddf5352bc6ae44134e22426f7f3d7",
+      "actual": "7a2f35fc316e2f297ee050140abc6f9e27fddf5352bc6ae44134e22426f7f3d7",
+      "passed": true
+    },
+    {
+      "stage": "input_artifact",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/input_quality.csv",
+      "expected": "1d7f89e2798fc71eeba3c2eeef063b2e87c309aaecc60839bdb46ae80c0f7ed8",
+      "actual": "1d7f89e2798fc71eeba3c2eeef063b2e87c309aaecc60839bdb46ae80c0f7ed8",
+      "passed": true
+    },
+    {
+      "stage": "input_code",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/code/prepare_inputs.py",
+      "expected": "32c932cff382383b7c270c96334714fd53352b3db3b77d611ce445405ac481e5",
+      "actual": "32c932cff382383b7c270c96334714fd53352b3db3b77d611ce445405ac481e5",
+      "passed": true
+    },
+    {
+      "stage": "main_code",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/code/run_lattice.py",
+      "expected": "975a8fa46a615f71e05ebacda998f8da77cf872a80e5f241064717027d664647",
+      "actual": "975a8fa46a615f71e05ebacda998f8da77cf872a80e5f241064717027d664647",
+      "passed": true
+    },
+    {
+      "stage": "reference_code",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/code/run_reference.py",
+      "expected": "4c2f1eb23cd09671625e26bf8251457d02845a070e08eb1130aa40bbdd49e567",
+      "actual": "4c2f1eb23cd09671625e26bf8251457d02845a070e08eb1130aa40bbdd49e567",
+      "passed": true
+    },
+    {
+      "stage": "main_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/inputs.npz",
+      "expected": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+      "actual": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+      "passed": true
+    },
+    {
+      "stage": "reference_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/inputs.npz",
+      "expected": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+      "actual": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+      "passed": true
+    },
+    {
+      "stage": "reference_output",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_N128_selected.npz",
+      "expected": "de4eeaef693db8a89319c2df56d886718ff1f8713e6cf9ffab1e1d7ca38fb183",
+      "actual": "de4eeaef693db8a89319c2df56d886718ff1f8713e6cf9ffab1e1d7ca38fb183",
+      "passed": true
+    },
+    {
+      "stage": "reference_output",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_N64_real0_tight.npz",
+      "expected": "4a8725e4756e338999d1e49ad7cd6a1dc547d9e6bbb2650fd7d3a3edff73620e",
+      "actual": "4a8725e4756e338999d1e49ad7cd6a1dc547d9e6bbb2650fd7d3a3edff73620e",
+      "passed": true
+    },
+    {
+      "stage": "reference_output",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_N64_selected.npz",
+      "expected": "b21f7a12f6eadb8ce36551da1ff9c8505913c9f383eb5ff41b55a8e0fb83463c",
+      "actual": "b21f7a12f6eadb8ce36551da1ff9c8505913c9f383eb5ff41b55a8e0fb83463c",
+      "passed": true
+    },
+    {
+      "stage": "reference_output",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_initial_N128_selected.npz",
+      "expected": "c8431ef881b422d108165c03198fbc41f8d9328bc1d71e2ba7d705ade1632315",
+      "actual": "c8431ef881b422d108165c03198fbc41f8d9328bc1d71e2ba7d705ade1632315",
+      "passed": true
+    },
+    {
+      "stage": "reference_output",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_initial_N64_real0_tight.npz",
+      "expected": "21abc3c0f678d693973ffed42096a3038852ef639cfbc920222dd56a8b970575",
+      "actual": "21abc3c0f678d693973ffed42096a3038852ef639cfbc920222dd56a8b970575",
+      "passed": true
+    },
+    {
+      "stage": "reference_output",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_initial_N64_selected.npz",
+      "expected": "21bf118d6441164f6c83ce1c46f2cb5c9cf79b7a7adb77e611908b99a189f3cc",
+      "actual": "21bf118d6441164f6c83ce1c46f2cb5c9cf79b7a7adb77e611908b99a189f3cc",
+      "passed": true
+    },
+    {
+      "stage": "preserved_initial_reference",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_initial_summary.json",
+      "expected": "da36c3a7fd1516a3e71418244b85813739ad62e126f0f2e2371527729c217ead",
+      "actual": "da36c3a7fd1516a3e71418244b85813739ad62e126f0f2e2371527729c217ead",
+      "passed": true
+    },
+    {
+      "stage": "prior_baseline",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/log_clock_coupling_v01/results/reference_full_N64_I100.npz",
+      "expected": "5a9c7165817f21ffa787df31816a0d3073ddcc4d371205a9fdc3fd200d6b381e",
+      "actual": "5a9c7165817f21ffa787df31816a0d3073ddcc4d371205a9fdc3fd200d6b381e",
+      "passed": true
+    },
+    {
+      "stage": "input_source",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/raw/riemann_10k_true.npy",
+      "expected": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "actual": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "passed": true
+    },
+    {
+      "stage": "input_source_expected",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/raw/riemann_10k_true.npy",
+      "expected": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "actual": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "passed": true
+    },
+    {
+      "stage": "input_source",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/raw/odlyzko_zeros1.txt",
+      "expected": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632",
+      "actual": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632",
+      "passed": true
+    },
+    {
+      "stage": "input_source",
+      "file": "/root/autodl-tmp/dsc_world/riemann_clock/data/processed/mathematical_reference_zeros.csv",
+      "expected": "24a20835b4c4028c6235d646d31279ad9d0bb49d98780062f1497fb240f5186c",
+      "actual": "24a20835b4c4028c6235d646d31279ad9d0bb49d98780062f1497fb240f5186c",
+      "passed": true
+    },
+    {
+      "stage": "source_metadata",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/raw/riemann_10k_true.npy",
+      "expected": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "actual": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "passed": true
+    },
+    {
+      "stage": "source_metadata_expected",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/raw/riemann_10k_true.npy",
+      "expected": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "actual": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545",
+      "passed": true
+    },
+    {
+      "stage": "source_metadata",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/raw/odlyzko_zeros1.txt",
+      "expected": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632",
+      "actual": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632",
+      "passed": true
+    },
+    {
+      "stage": "source_metadata",
+      "file": "/root/autodl-tmp/dsc_world/riemann_clock/data/processed/mathematical_reference_zeros.csv",
+      "expected": "24a20835b4c4028c6235d646d31279ad9d0bb49d98780062f1497fb240f5186c",
+      "actual": "24a20835b4c4028c6235d646d31279ad9d0bb49d98780062f1497fb240f5186c",
+      "passed": true
+    },
+    {
+      "stage": "comparison_code",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/code/analyze_and_plot.py",
+      "expected": "1dfaa80d5a31084bc61b069a4257764eefdb585f6acabc86c8e85fdc46155cb8",
+      "actual": "1dfaa80d5a31084bc61b069a4257764eefdb585f6acabc86c8e85fdc46155cb8",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/data/inputs.npz",
+      "expected": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+      "actual": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/lattice_main.npz",
+      "expected": "6f2669ee13b76762ec47c4ca5b9e4c0f2099a9a53483d55bee8cc334a261442d",
+      "actual": "6f2669ee13b76762ec47c4ca5b9e4c0f2099a9a53483d55bee8cc334a261442d",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/lattice_refined_selected.npz",
+      "expected": "9bb21e8bafebf13da42bd637415843fca7da3e7a12aeffd4e9e3c629b77fa052",
+      "actual": "9bb21e8bafebf13da42bd637415843fca7da3e7a12aeffd4e9e3c629b77fa052",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_N64_selected.npz",
+      "expected": "b21f7a12f6eadb8ce36551da1ff9c8505913c9f383eb5ff41b55a8e0fb83463c",
+      "actual": "b21f7a12f6eadb8ce36551da1ff9c8505913c9f383eb5ff41b55a8e0fb83463c",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_N128_selected.npz",
+      "expected": "de4eeaef693db8a89319c2df56d886718ff1f8713e6cf9ffab1e1d7ca38fb183",
+      "actual": "de4eeaef693db8a89319c2df56d886718ff1f8713e6cf9ffab1e1d7ca38fb183",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/input_summary.json",
+      "expected": "483280dbb3606125683263210663c742940cd8fe4f85cc76973c08de12276ab4",
+      "actual": "483280dbb3606125683263210663c742940cd8fe4f85cc76973c08de12276ab4",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/reference_summary.json",
+      "expected": "1a87e5047e981b08d61cba06b1c1ce116b47a0ad53e2020499aba9316848497b",
+      "actual": "1a87e5047e981b08d61cba06b1c1ce116b47a0ad53e2020499aba9316848497b",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/protocol_freeze.json",
+      "expected": "7dbad88f352286ee69b6ec4602030237ac18e2a226bceaf9e30b642450db5f21",
+      "actual": "7dbad88f352286ee69b6ec4602030237ac18e2a226bceaf9e30b642450db5f21",
+      "passed": true
+    },
+    {
+      "stage": "comparison_input",
+      "file": "/root/autodl-tmp/dsc_world/riemann_model/experiments/arithmetic_residual_v01/results/input_quality.csv",
+      "expected": "1d7f89e2798fc71eeba3c2eeef063b2e87c309aaecc60839bdb46ae80c0f7ed8",
+      "actual": "1d7f89e2798fc71eeba3c2eeef063b2e87c309aaecc60839bdb46ae80c0f7ed8",
+      "passed": true
+    }
+  ],
+  "preserved_known_limitations": {
+    "input_matching": {
+      "passed": 788,
+      "total": 792,
+      "failed_cases_retained": [
+        "block04_iaaft_072",
+        "block04_iaaft_098",
+        "block05_iaaft_068",
+        "block08_iaaft_085"
+      ],
+      "all_matching_passed": false
+    },
+    "initial_reference": {
+      "file": "results/reference_initial_summary.json",
+      "sha256": "da36c3a7fd1516a3e71418244b85813739ad62e126f0f2e2371527729c217ead",
+      "failed_checks": {
+        "energy_and_work_relative_errors_below_1e_8": false,
+        "tight_primary_change_below_1e_9": false
+      },
+      "final_reference_checks": {
+        "all_derivative_checks_passed": true,
+        "positive_sampled_branch_all_selected": true,
+        "initial_mass_is_one_all_selected": true,
+        "energy_and_work_relative_errors_below_1e_8": true,
+        "tight_primary_change_below_1e_9": true
+      }
+    },
+    "prior_stage_notice": {
+      "file": "experiments/micro_macro_v01/results/reference_precision_audit.json",
+      "sha256": "e72478afae67e365316b5eb6f62ea9ffb99c3ec8a0e592a179e119dde1c64a47",
+      "audited_again": false,
+      "recorded_all_checks_passed": false,
+      "failed_checks": [
+        {
+          "name": "field_reference_change_under_1percent_of_correction_error",
+          "passed": false,
+          "value": 0.010919098715488185,
+          "limit": 0.01
+        }
+      ]
+    },
+    "inferential_scope": "Artifact checks do not establish physical validity, observational support, unique arithmetic origin, or the correctness of every scientific claim."
+  },
+  "limitation_preservation_checks": {
+    "four_input_quality_failures_retained": true,
+    "two_initial_reference_failures_retained": true,
+    "comparison_preserves_quality_failures": true
+  },
+  "failures": {
+    "math": [],
+    "links": [],
+    "original_preservation": [],
+    "hashes": [],
+    "stage_status": [],
+    "changed_during_audit": [],
+    "limitation_preservation": []
+  },
+  "current_artifact_scope_passed": true,
+  "project_wide_all_checks_passed_claim": false,
+  "experiment_file_inventory": [
+    {
+      "file": "experiments/arithmetic_residual_v01/README.md",
+      "bytes": 4683,
+      "sha256": "2b3a56fdcbf4e0642fe6e0c742ea26b919d7b2dda09fd0e15b181374988589c1"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/code/__pycache__/run_lattice.cpython-312.pyc",
+      "bytes": 28955,
+      "sha256": "d055c4528e7de92b4ab06ebcefc4813936f8033d12ced11b451cf4d715d6f82d"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/code/__pycache__/run_reference.cpython-312.pyc",
+      "bytes": 20679,
+      "sha256": "02ee30cff918c88a4ca1eb9ba86710bc62f181bba4538d4ae2a6d41c963b89ef"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/code/analyze_and_plot.py",
+      "bytes": 15755,
+      "sha256": "1dfaa80d5a31084bc61b069a4257764eefdb585f6acabc86c8e85fdc46155cb8"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/code/prepare_inputs.py",
+      "bytes": 20429,
+      "sha256": "32c932cff382383b7c270c96334714fd53352b3db3b77d611ce445405ac481e5"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/code/run_lattice.py",
+      "bytes": 19281,
+      "sha256": "975a8fa46a615f71e05ebacda998f8da77cf872a80e5f241064717027d664647"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/code/run_reference.py",
+      "bytes": 13224,
+      "sha256": "4c2f1eb23cd09671625e26bf8251457d02845a070e08eb1130aa40bbdd49e567"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/data/full_zero_gaps.npz",
+      "bytes": 429097,
+      "sha256": "7a2f35fc316e2f297ee050140abc6f9e27fddf5352bc6ae44134e22426f7f3d7"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/data/inputs.npz",
+      "bytes": 6693486,
+      "sha256": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/data/raw/odlyzko_zeros1.txt",
+      "bytes": 1800000,
+      "sha256": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/data/raw/riemann_10k_true.npy",
+      "bytes": 80128,
+      "sha256": "6bb18ef724b76280ee91e56c9ad0669a8026c996bd969c710b3a708f28e57545"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/data/source_metadata.json",
+      "bytes": 1324,
+      "sha256": "c9a9fd0ffb5d243a0f64498fd391f78fc1da0e1ac32235bc4c8686991876a71a"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.pdf",
+      "bytes": 35153,
+      "sha256": "5fa2b7233c5a13f472d8fa5de8149501196104e88d3f7abc1038b3b441c602b2"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "bytes": 152966,
+      "sha256": "0696f14cdd9fe39449fba80fef3e1505833c0b3f60a7212729ab2f4f4c1ad9ed"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.pdf",
+      "bytes": 61985,
+      "sha256": "5a6817c890be3ff76b216a1208fba8807e62dbefe072418fdce412d47a274dba"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "bytes": 444075,
+      "sha256": "07ead26f928f0c7e7a78545961c4be38fa009e4f7cac02a70dd912489f2c6403"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/figures/captions.md",
+      "bytes": 2074,
+      "sha256": "ee56021db2915136352f5f029e954eb55d8ff70b922945764f09ab05bf0fc72e"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/protocol.md",
+      "bytes": 8717,
+      "sha256": "952804fa8aaf7ffa2092449010dc8a8c5d045ed319df1a7812a993ee565e9d56"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/reports/implementation_notes.md",
+      "bytes": 2249,
+      "sha256": "1213a7a40e588862eff5cfa22807cdf054cf897e0e58d2bf7d07aca84162eefd"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/reports/methodology_review.md",
+      "bytes": 2155,
+      "sha256": "2b17112818fabaa8b7048babb3c916401ca8d03383865b76675ec0a54dbaed1d"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "bytes": 8289,
+      "sha256": "7d7be5bac72987bcef2297643e0987dc603d7d3960cff87496abc43ebb8642d0"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "bytes": 7912,
+      "sha256": "d0f98367c4b67c106e5c1c564d3b4accb6d9b5f2e8d598a8a1e2961d1340b4e9"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/comparison_blocks.csv",
+      "bytes": 3852,
+      "sha256": "b1234f062c46209efb0acbf452c3ec65036b66b5d0b24994abbed26c8dc8e7e8"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/comparison_distributions.npz",
+      "bytes": 12361,
+      "sha256": "ed86a7fb5ca8d8ddf3493c9b4642547f3cb9583ae686addae8c1229db0c701ec"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/comparison_run.log",
+      "bytes": 3737,
+      "sha256": "508e24abc4d62c770b3db9a1333dc257986f206d25b63256317f91dc18a6d5a0"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/comparison_spatial.csv",
+      "bytes": 1135,
+      "sha256": "ddc03129303050656ea2d86dc640402db9f9dfc2dd5c9940ef9cfac908722a6a"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/comparison_summary.json",
+      "bytes": 23020,
+      "sha256": "278a9ae61df1d4fba46b4db4f240c5adc34e139213a5bd976b15904942d2f610"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/input_quality.csv",
+      "bytes": 818958,
+      "sha256": "1d7f89e2798fc71eeba3c2eeef063b2e87c309aaecc60839bdb46ae80c0f7ed8"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/input_summary.json",
+      "bytes": 6613,
+      "sha256": "483280dbb3606125683263210663c742940cd8fe4f85cc76973c08de12276ab4"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_cases.csv",
+      "bytes": 412952,
+      "sha256": "5e209d9311be3488ce5b23c22f5a6d62b62042b3c9db6b577f12680a2bfdbfb6"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_main.json",
+      "bytes": 2192,
+      "sha256": "7cde83509ac3fe3e6dca84f0d383d3895d08a40bda6bd3ee4f88323583b18d14"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_main.npz",
+      "bytes": 30447561,
+      "sha256": "6f2669ee13b76762ec47c4ca5b9e4c0f2099a9a53483d55bee8cc334a261442d"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_refined_selected.json",
+      "bytes": 2196,
+      "sha256": "9abc80cb7c459806809a6e1af4f8f99c54e45788204e19534be5e902e1874f8d"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_refined_selected.npz",
+      "bytes": 3364458,
+      "sha256": "9bb21e8bafebf13da42bd637415843fca7da3e7a12aeffd4e9e3c629b77fa052"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_refinement.csv",
+      "bytes": 4429,
+      "sha256": "e522954b985d7340e2137c1b90db4c5ba4f3e3251ebb1e595e5e80f760a53e95"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_run.log",
+      "bytes": 2461,
+      "sha256": "79ef06c45c7d5963c94dc1c05112ae1879af79e0b67737f27a0752c75d8c2fed"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_smoke_zero.json",
+      "bytes": 2170,
+      "sha256": "d7e54280b00bdaac87d3c62101cc7401e98d0268bbb056901758d1f1eee1b898"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_smoke_zero.npz",
+      "bytes": 142487,
+      "sha256": "db88d43e67a5de00f431f518a4d7a9b0a5f9ce0a49e7f4d1c5a83b7367e4036a"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/lattice_summary.json",
+      "bytes": 12837,
+      "sha256": "1bf67902a9dfe4e347bb7beef3a7a86324120e20fc799d02e4dfe043c23f44d5"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/protocol_freeze.json",
+      "bytes": 419,
+      "sha256": "7dbad88f352286ee69b6ec4602030237ac18e2a226bceaf9e30b642450db5f21"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_N128_selected.npz",
+      "bytes": 2806801,
+      "sha256": "de4eeaef693db8a89319c2df56d886718ff1f8713e6cf9ffab1e1d7ca38fb183"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_N64_real0_tight.npz",
+      "bytes": 172650,
+      "sha256": "4a8725e4756e338999d1e49ad7cd6a1dc547d9e6bbb2650fd7d3a3edff73620e"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_N64_selected.npz",
+      "bytes": 1416504,
+      "sha256": "b21f7a12f6eadb8ce36551da1ff9c8505913c9f383eb5ff41b55a8e0fb83463c"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_initial_N128_selected.npz",
+      "bytes": 2830956,
+      "sha256": "c8431ef881b422d108165c03198fbc41f8d9328bc1d71e2ba7d705ade1632315"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_initial_N64_real0_tight.npz",
+      "bytes": 172777,
+      "sha256": "21abc3c0f678d693973ffed42096a3038852ef639cfbc920222dd56a8b970575"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_initial_N64_selected.npz",
+      "bytes": 1425024,
+      "sha256": "21bf118d6441164f6c83ce1c46f2cb5c9cf79b7a7adb77e611908b99a189f3cc"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_initial_run.log",
+      "bytes": 2479,
+      "sha256": "9fd904620a1e6c1171ddec46161e1d2de130d6154232ebc15965f8a31226ff38"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_initial_summary.json",
+      "bytes": 21267,
+      "sha256": "da36c3a7fd1516a3e71418244b85813739ad62e126f0f2e2371527729c217ead"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_run.log",
+      "bytes": 2475,
+      "sha256": "279902d7fae9bb8db50faf5725048a85e4feb60f4d479e3ee781a2bbdf9dc33b"
+    },
+    {
+      "file": "experiments/arithmetic_residual_v01/results/reference_summary.json",
+      "bytes": 21954,
+      "sha256": "1a87e5047e981b08d61cba06b1c1ce116b47a0ad53e2020499aba9316848497b"
+    }
+  ]
+}

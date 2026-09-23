@@ -1,0 +1,526 @@
+{
+  "scope": "Dimensionless arithmetic-residual response sensitivity experiment; no observations or physical inference.",
+  "input_path": "data/inputs.npz",
+  "input_sha256": "a38534ba0be75e8a1f63f9f6dd9ecb8e6e0a23a727e8d44875d54f327c996772",
+  "code_sha256": "975a8fa46a615f71e05ebacda998f8da77cf872a80e5f241064717027d664647",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4"
+  },
+  "runtime_seconds": 50.57585418596864,
+  "main": {
+    "parameters": {
+      "N": 64,
+      "L": 6.283185307179586,
+      "a": 0.09817477042468103,
+      "I": 100.0,
+      "b": 2.0,
+      "epsilon": 0.02,
+      "Rstar": 0.1353352832366127,
+      "R_initial": 1.0,
+      "Rdot_initial": 0.1,
+      "field_amplitude": 0.5,
+      "dt": 0.00125,
+      "final_time": 20.0,
+      "output_step": 0.1
+    },
+    "cases": 1593,
+    "selected_cases": 25,
+    "runtime_seconds": 43.165301222354174,
+    "checks": [
+      {
+        "name": "finite_trajectories",
+        "passed": true
+      },
+      {
+        "name": "R_greater_than_Rstar",
+        "passed": true
+      },
+      {
+        "name": "positive_mass_squared",
+        "passed": true
+      },
+      {
+        "name": "identical_initial_total_energy",
+        "passed": true
+      },
+      {
+        "name": "initial_window_zero_mass_one",
+        "passed": true
+      },
+      {
+        "name": "energy_accuracy",
+        "passed": true,
+        "value": 4.962707855304883e-07,
+        "threshold": 0.0001
+      },
+      {
+        "name": "field_work_accuracy",
+        "passed": true,
+        "value": 4.963277489412174e-07,
+        "threshold": 0.0001
+      },
+      {
+        "name": "clock_work_accuracy",
+        "passed": true,
+        "value": 1.1633814487799123e-09,
+        "threshold": 0.0001
+      }
+    ],
+    "all_checks_passed": true,
+    "ranges": {
+      "min_R": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "min_Rdot": {
+        "min": 0.1,
+        "max": 0.1
+      },
+      "min_mass_squared": {
+        "min": 0.7047204864831127,
+        "max": 0.7048406303835404
+      },
+      "max_mass_squared": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "max_abs_mass_derivative": {
+        "min": 0.5,
+        "max": 2.5992261709672295
+      },
+      "max_abs_q": {
+        "min": 0.517449286660987,
+        "max": 0.5183218922981088
+      },
+      "sampled_max_relative_energy_deviation": {
+        "min": 4.962654199359306e-07,
+        "max": 4.962707855304883e-07
+      },
+      "sampled_max_relative_field_work_residual": {
+        "min": 4.963223803454361e-07,
+        "max": 4.963277489412174e-07
+      },
+      "sampled_max_relative_clock_work_residual": {
+        "min": 5.6962023631049395e-11,
+        "max": 1.1633814487799123e-09
+      },
+      "primary_T": {
+        "min": 0.044072864588091634,
+        "max": 0.04617978923436115
+      }
+    }
+  },
+  "refined_selected": {
+    "parameters": {
+      "N": 64,
+      "L": 6.283185307179586,
+      "a": 0.09817477042468103,
+      "I": 100.0,
+      "b": 2.0,
+      "epsilon": 0.02,
+      "Rstar": 0.1353352832366127,
+      "R_initial": 1.0,
+      "Rdot_initial": 0.1,
+      "field_amplitude": 0.5,
+      "dt": 0.000625,
+      "final_time": 20.0,
+      "output_step": 0.1
+    },
+    "cases": 25,
+    "selected_cases": 25,
+    "runtime_seconds": 4.577184055000544,
+    "checks": [
+      {
+        "name": "finite_trajectories",
+        "passed": true
+      },
+      {
+        "name": "R_greater_than_Rstar",
+        "passed": true
+      },
+      {
+        "name": "positive_mass_squared",
+        "passed": true
+      },
+      {
+        "name": "identical_initial_total_energy",
+        "passed": true
+      },
+      {
+        "name": "initial_window_zero_mass_one",
+        "passed": true
+      },
+      {
+        "name": "energy_accuracy",
+        "passed": true,
+        "value": 1.2406751434076306e-07,
+        "threshold": 0.0001
+      },
+      {
+        "name": "field_work_accuracy",
+        "passed": true,
+        "value": 1.2408175632103666e-07,
+        "threshold": 0.0001
+      },
+      {
+        "name": "clock_work_accuracy",
+        "passed": true,
+        "value": 2.3501399278135887e-10,
+        "threshold": 0.0001
+      }
+    ],
+    "all_checks_passed": true,
+    "ranges": {
+      "min_R": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "min_Rdot": {
+        "min": 0.1,
+        "max": 0.1
+      },
+      "min_mass_squared": {
+        "min": 0.7047489668945703,
+        "max": 0.7048017620045888
+      },
+      "max_mass_squared": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "max_abs_mass_derivative": {
+        "min": 0.5,
+        "max": 2.3416271047316757
+      },
+      "max_abs_q": {
+        "min": 0.5176653020974235,
+        "max": 0.5180635290452184
+      },
+      "sampled_max_relative_energy_deviation": {
+        "min": 1.2406666892745156e-07,
+        "max": 1.2406751434076306e-07
+      },
+      "sampled_max_relative_field_work_residual": {
+        "min": 1.2408091216753042e-07,
+        "max": 1.2408175632103666e-07
+      },
+      "sampled_max_relative_clock_work_residual": {
+        "min": 1.4239977708164264e-11,
+        "max": 2.3501399278135887e-10
+      },
+      "primary_T": {
+        "min": 0.04469597433355919,
+        "max": 0.04566221333499841
+      }
+    }
+  },
+  "refinement": {
+    "case_indices": [
+      0,
+      1,
+      2,
+      101,
+      200,
+      201,
+      300,
+      399,
+      400,
+      499,
+      598,
+      599,
+      698,
+      797,
+      798,
+      897,
+      996,
+      997,
+      1096,
+      1195,
+      1196,
+      1295,
+      1394,
+      1395,
+      1494
+    ],
+    "primary_T_fine_minus_main": [
+      3.027143813394417e-11,
+      -1.1096012719757908e-09,
+      -3.0744992662867787e-10,
+      -1.8757374820044248e-10,
+      -1.5001207220866064e-10,
+      1.0194036725863498e-09,
+      9.238161138847012e-10,
+      -1.0083828910767423e-09,
+      3.191695657767113e-10,
+      7.305250362965587e-10,
+      -1.6428566146364787e-10,
+      1.2432656917860108e-09,
+      9.409288903583501e-10,
+      5.124953239565855e-10,
+      -2.445576727239107e-10,
+      5.329423846678338e-10,
+      9.151482349700757e-10,
+      2.649788721775792e-10,
+      5.135484398843815e-10,
+      -4.678635395771735e-10,
+      3.453305072453894e-10,
+      3.717667632074928e-10,
+      4.983935694702346e-10,
+      -1.1056524584773797e-09,
+      -9.524401475835553e-10
+    ],
+    "primary_contrast_main": [
+      0.0,
+      -0.00020000074390178618,
+      0.00028074550118225433,
+      0.0002878825559928938,
+      -0.00032272455726475163,
+      -0.0002831229100363694,
+      -0.000179387171835875,
+      -0.0002730882021988873,
+      -0.0002408762980421475,
+      -0.00017381800379597662,
+      0.0002707860436837392,
+      0.0005227900957106499,
+      0.00045298999139911644,
+      -4.292633680569313e-05,
+      -0.00022554749242790356,
+      -0.000178577421381311,
+      -0.0004434485776111177,
+      0.00031425243280826243,
+      0.0002935359886856795,
+      2.842539279630102e-05,
+      -6.180318276910457e-05,
+      -5.8354195040119516e-05,
+      0.00020192896860105752,
+      -0.00017190353040182765,
+      -0.0001644826270698896
+    ],
+    "primary_contrast_fine": [
+      0.0,
+      -0.0002000018837744963,
+      0.00028074516346088957,
+      0.00028788233814770747,
+      -0.000322724737548262,
+      -0.00028312192090413496,
+      -0.00017938627829119924,
+      -0.0002730892408532165,
+      -0.00024087600914401985,
+      -0.00017381730354237845,
+      0.0002707858491266396,
+      0.0005227913087049035,
+      0.00045299090205656867,
+      -4.292585458180731e-05,
+      -0.00022554776725701442,
+      -0.00017857691871036446,
+      -0.0004434476927343209,
+      0.00031425266751569647,
+      0.00029353647196268123,
+      2.8424894661323308e-05,
+      -6.180286771003546e-05,
+      -5.835385354479444e-05,
+      0.00020192943672318886,
+      -0.00017190466632572426,
+      -0.0001644836097814753
+    ],
+    "primary_contrast_fine_minus_main": [
+      0.0,
+      -1.139872710109735e-09,
+      -3.3772136476262204e-10,
+      -2.1784518633438665e-10,
+      -1.8028351034260481e-10,
+      9.891322344524056e-10,
+      8.93544675750757e-10,
+      -1.0386543292106865e-09,
+      2.888981276427671e-10,
+      7.002535981626146e-10,
+      -1.9455709959759204e-10,
+      1.2129942536520666e-09,
+      9.10657452224406e-10,
+      4.822238858226413e-10,
+      -2.748291108578549e-10,
+      5.026709465338897e-10,
+      8.848767968361315e-10,
+      2.3470743404363503e-10,
+      4.832770017504373e-10,
+      -4.981349777111177e-10,
+      3.150590691114452e-10,
+      3.4149532507354863e-10,
+      4.681221313362904e-10,
+      -1.1359238966113239e-09,
+      -9.827115857174995e-10
+    ],
+    "q_global_relative_rms_difference": [
+      1.592678330887839e-06,
+      1.5927902695102475e-06,
+      1.593158225988432e-06,
+      1.5931517167036002e-06,
+      1.5925668397964023e-06,
+      1.593040620240214e-06,
+      1.5930592477791485e-06,
+      1.592230741679169e-06,
+      1.5930264274146168e-06,
+      1.5930679816101592e-06,
+      1.5928026093954207e-06,
+      1.5938185934100814e-06,
+      1.593701703673547e-06,
+      1.5931523337994522e-06,
+      1.592250408044175e-06,
+      1.5924590565026883e-06,
+      1.5926784125702944e-06,
+      1.5929337231969803e-06,
+      1.5929635765072307e-06,
+      1.5926233986635984e-06,
+      1.592785439177185e-06,
+      1.592763131415682e-06,
+      1.5932121251889647e-06,
+      1.5928306478603374e-06,
+      1.5928628237009144e-06
+    ],
+    "max_absolute_primary_difference": 1.2432656917860108e-09,
+    "max_q_global_relative_rms_difference": 1.5938185934100814e-06
+  },
+  "baseline_previous_v04_reference": {
+    "path": "log_clock_coupling_v01/results/reference_full_N64_I100.npz",
+    "sha256": "5a9c7165817f21ffa787df31816a0d3073ddcc4d371205a9fdc3fd200d6b381e",
+    "primary_T_reference": 0.04513942203638068,
+    "primary_T_main_minus_reference": -4.035861228546267e-11,
+    "q_global_relative_rms": 2.1235716192026598e-06,
+    "R_max_absolute_difference": 1.6208101527581675e-09,
+    "note": "Prior v0.4 independent DOP853 N64, same zero-residual model; no fit or input retuning."
+  },
+  "primary": "T=(Hclock(final)-Hclock(initial))/Htotal(initial)",
+  "secondary": "RMS(C1_case-C1_baseline)/RMS(C1_baseline), over 201 output times",
+  "checks": [
+    {
+      "run": "main",
+      "name": "finite_trajectories",
+      "passed": true
+    },
+    {
+      "run": "main",
+      "name": "R_greater_than_Rstar",
+      "passed": true
+    },
+    {
+      "run": "main",
+      "name": "positive_mass_squared",
+      "passed": true
+    },
+    {
+      "run": "main",
+      "name": "identical_initial_total_energy",
+      "passed": true
+    },
+    {
+      "run": "main",
+      "name": "initial_window_zero_mass_one",
+      "passed": true
+    },
+    {
+      "run": "main",
+      "name": "energy_accuracy",
+      "passed": true,
+      "value": 4.962707855304883e-07,
+      "threshold": 0.0001
+    },
+    {
+      "run": "main",
+      "name": "field_work_accuracy",
+      "passed": true,
+      "value": 4.963277489412174e-07,
+      "threshold": 0.0001
+    },
+    {
+      "run": "main",
+      "name": "clock_work_accuracy",
+      "passed": true,
+      "value": 1.1633814487799123e-09,
+      "threshold": 0.0001
+    },
+    {
+      "run": "refined",
+      "name": "finite_trajectories",
+      "passed": true
+    },
+    {
+      "run": "refined",
+      "name": "R_greater_than_Rstar",
+      "passed": true
+    },
+    {
+      "run": "refined",
+      "name": "positive_mass_squared",
+      "passed": true
+    },
+    {
+      "run": "refined",
+      "name": "identical_initial_total_energy",
+      "passed": true
+    },
+    {
+      "run": "refined",
+      "name": "initial_window_zero_mass_one",
+      "passed": true
+    },
+    {
+      "run": "refined",
+      "name": "energy_accuracy",
+      "passed": true,
+      "value": 1.2406751434076306e-07,
+      "threshold": 0.0001
+    },
+    {
+      "run": "refined",
+      "name": "field_work_accuracy",
+      "passed": true,
+      "value": 1.2408175632103666e-07,
+      "threshold": 0.0001
+    },
+    {
+      "run": "refined",
+      "name": "clock_work_accuracy",
+      "passed": true,
+      "value": 2.3501399278135887e-10,
+      "threshold": 0.0001
+    },
+    {
+      "name": "primary_refinement_accuracy",
+      "run": "comparison",
+      "value": 1.2432656917860108e-09,
+      "threshold": 1e-06,
+      "passed": true
+    }
+  ],
+  "checks_count": 17,
+  "all_checks_passed": true,
+  "failed_checks": [],
+  "data_layout": "Scalar histories (case,time), selected_q and selected_velocity (selected_case,time,grid)",
+  "selected_case_indices": [
+    0,
+    1,
+    2,
+    101,
+    200,
+    201,
+    300,
+    399,
+    400,
+    499,
+    598,
+    599,
+    698,
+    797,
+    798,
+    897,
+    996,
+    997,
+    1096,
+    1195,
+    1196,
+    1295,
+    1394,
+    1395,
+    1494
+  ]
+}

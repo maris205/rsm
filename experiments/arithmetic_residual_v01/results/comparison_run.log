@@ -1,0 +1,105 @@
+{
+  "aggregate": {
+    "iaaft": {
+      "real_T": 0.04504179099443443,
+      "real_D": -9.763100158764054e-05,
+      "surrogates": 99,
+      "null_q025": 0.044945993881146035,
+      "null_q25": 0.04506512925034172,
+      "null_median": 0.045148432676459814,
+      "null_q75": 0.04521937285394867,
+      "null_q975": 0.045424174718146894,
+      "null_IQR": 0.0001542436036069475,
+      "empirical_two_sided_rank": 0.4,
+      "inside_central_95": true,
+      "real_minus_null_median": -0.00010664168202538515
+    },
+    "exact_spectrum": {
+      "real_T": 0.04504179099443443,
+      "real_D": -9.763100158764054e-05,
+      "surrogates": 99,
+      "null_q025": 0.04497378556470435,
+      "null_q25": 0.04506929849278894,
+      "null_median": 0.04515362732544837,
+      "null_q75": 0.04521561625742722,
+      "null_q975": 0.045394382307215146,
+      "null_IQR": 0.00014631776463827628,
+      "empirical_two_sided_rank": 0.36,
+      "inside_central_95": true,
+      "real_minus_null_median": -0.00011183633101394252
+    }
+  },
+  "quality_sensitivity": {
+    "note": "Additional input-quality diagnostic; excludes across-block surrogate columns containing any node-quality failure, does not replace frozen primary.",
+    "retained_columns": 95,
+    "excluded_surrogate_numbers": [
+      68,
+      72,
+      85,
+      98
+    ],
+    "results": {
+      "iaaft": {
+        "real_T": 0.04504179099443443,
+        "real_D": -9.763100158764054e-05,
+        "surrogates": 95,
+        "null_q025": 0.04494507180131393,
+        "null_q25": 0.045068201888870105,
+        "null_median": 0.045149219056499684,
+        "null_q75": 0.045222857256514815,
+        "null_q975": 0.04542480642442208,
+        "null_IQR": 0.00015465536764470988,
+        "empirical_two_sided_rank": 0.4166666666666667,
+        "inside_central_95": true,
+        "real_minus_null_median": -0.0001074280620652554
+      },
+      "exact_spectrum": {
+        "real_T": 0.04504179099443443,
+        "real_D": -9.763100158764054e-05,
+        "surrogates": 95,
+        "null_q025": 0.04497281192193688,
+        "null_q25": 0.04507097449236542,
+        "null_median": 0.04515373372836239,
+        "null_q75": 0.04521891615653949,
+        "null_q975": 0.045394446919168885,
+        "null_IQR": 0.00014794166417406857,
+        "empirical_two_sided_rank": 0.375,
+        "inside_central_95": true,
+        "real_minus_null_median": -0.00011194273392796383
+      }
+    }
+  },
+  "numerical_precision": {
+    "max_time_contrast_change": 1.2129942536520666e-09,
+    "max_time_contrast_change_over_IQR": 3.9730695636194224e-06,
+    "max_selected_spatial_contrast_change": 9.255513782613356e-07,
+    "max_selected_spatial_change_over_IQR": 0.002606372862775474,
+    "max_main_vs_independent_T_error": 1.1715432998715691e-09,
+    "note": "Selected resolution diagnostics; two spatial resolutions do not establish an order. Original reference accuracy failures are retained in reference_initial_*."
+  },
+  "secondary": {
+    "real_C1_relative_rms_vs_baseline": [
+      0.00015946094226920377,
+      0.0002541810168534755,
+      0.00028461228683066903,
+      0.0004786288642654534,
+      0.00010388824639271094,
+      0.00029340702078039057,
+      0.00032008697080605346,
+      0.00026440486665351917
+    ],
+    "real_clock_gain_fractional_change_vs_baseline": [
+      -0.00443073338243922,
+      -0.007149505753378762,
+      -0.00604988256657237,
+      0.005998881503347614,
+      -0.0009509722302043662,
+      -0.009823975540719081,
+      0.0006297243415922787,
+      0.004473450471272154
+    ],
+    "meaning": "Descriptive only; no endpoint replacement or second significance claim."
+  },
+  "numerical_comparison_checks_passed": true
+}
+24 numerical comparisons; input matching limitations retained.

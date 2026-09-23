@@ -1,0 +1,3 @@
+epsilon,w_initial_factor,omega_lambda,chi0_change,max_relative_Tchi_change,present_w_relative_change,note
+0.0001,0.9,0.6849650415619484,-0.0002916793409042384,0.0007380365378839571,-0.00013073487426151775,Finite-interval sensitivity only; not an attractor proof.
+0.0001,1.1,0.6849650586906737,0.00026488898859611254,0.0006759020689646178,0.0001976744223168847,Finite-interval sensitivity only; not an attractor proof.
