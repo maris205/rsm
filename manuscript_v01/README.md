@@ -2,6 +2,8 @@
 
 英文工作题名：*Riemann-Inspired Inverse-Log-Square Dynamics: An Internal-Clock Framework and Micro–Macro Connections*
 
+**当前写作入口已转至[按原文逐章修订的中文稿](../manuscript_cn/README.md)。** 用户确认保留原文第0—9章构建；本目录七章稿作为已完成技术材料保存，供相应原章节吸收，并继续可独立阅读。
+
 2026-09-23开始逐章撰写，已形成中文Markdown正文与单栏PDF；英文版本待中文整稿审阅后推进。本文定位为假设性动力学框架及其条件检验。原始章节和v0.1—v0.5阶段短稿作为来源保留。本目录是连贯新稿，版本号不表示新增计算。
 
 **当前已完成中文完整初稿：[单栏PDF](paper.pdf)（22页）与[Markdown连续阅读版](paper.md)。** 包含摘要、七章正文、三个附录、三张已有结果图及八篇参考文献。也可按下表逐章阅读。本版完成论述与证据的整合，未新增数值实验；后续集中改进关键物理与识别问题。
