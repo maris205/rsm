@@ -135,3 +135,7 @@
 <a id="r34"></a>
 
 **[34]** Beckman, D., Gottesman, D., Nielsen, M. A., and Preskill, J. Causal and localizable quantum operations. *Physical Review A* **64**, 052309 (2001). [DOI: 10.1103/PhysRevA.64.052309](https://doi.org/10.1103/PhysRevA.64.052309)；[作者提供的期刊全文](https://www.preskill.caltech.edu/pubs/preskill-2001-causal.pdf)。
+
+<a id="r35"></a>
+
+**[35]** Chorin, A. J., Hald, O. H., and Kupferman, R. Optimal prediction with memory. *Physica D: Nonlinear Phenomena* **166**(3–4), 239–257 (2002). [DOI: 10.1016/S0167-2789(02)00446-3](https://doi.org/10.1016/S0167-2789(02)00446-3)；[作者提供的期刊全文](https://math.berkeley.edu/~chorin/CHK02.pdf)。

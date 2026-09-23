@@ -4,7 +4,7 @@
 
 ## 当前写作任务：按原文逐章细化中文稿
 
-2026-09-23，用户进一步明确保持原文总体构建及章节设计，一章一章对应。[中文逐章稿](manuscript_cn/README.md)保留原第0—9章顺序，现已写出[摘要](manuscript_cn/abstract.md)、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)、[第2章算术来源](manuscript_cn/chapters/02_source_code.md)及[第3章同步架构](manuscript_cn/chapters/03_cosmic_lockstep.md)，完成对应说明、两张前置图、三张第2章重绘图及一张第3章架构图。[累计稿PDF](manuscript_cn/paper.pdf)共30页，含34条参考文献。各章保留原小节顺序，分别展开整体框架、物理问题、算术来路与同步架构。第3章落实完整场—时钟状态、同一配置上的耦合力与分阶段更新，并将局部算法依赖、全局时钟反馈、量子关联及物理时间假设分别说明。下一步写第4章“数学框架”，展开共同Hamilton量、辛结构、反作用、能量收支及条件连续与晚时描述；当前没有把第4—9章计划计为完成。
+2026-09-23，用户进一步明确保持原文总体构建及章节设计，一章一章对应。[中文逐章稿](manuscript_cn/README.md)保留原第0—9章顺序，现已写出[摘要](manuscript_cn/abstract.md)、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)、[第2章算术来源](manuscript_cn/chapters/02_source_code.md)、[第3章同步架构](manuscript_cn/chapters/03_cosmic_lockstep.md)及[第4章数学框架](manuscript_cn/chapters/04_mathematical_framework.md)，完成各章对应说明和七幅矢量图。[累计稿PDF](manuscript_cn/paper.pdf)共38页，含35条参考文献。第4章保留4.1—4.4及全部11个三级小节，给出KDK辛性、共同能流、纯包络有限格点晚时主项及长波连续场，并区分空间修正、积分误差、统计闭合与物理读数。下一步写第5章“观测证据与约束”，按原结构融入常数、光谱、膨胀史及CMB结果；当前没有把第5—9章计划计为完成。
 
 以下七章稿作为已完成技术材料纳入原章相应位置。逐章中文写作是当前任务；新的数值突破仍按已有研究计划另行推进，本轮没有重跑科学计算。
 

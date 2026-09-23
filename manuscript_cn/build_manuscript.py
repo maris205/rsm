@@ -313,12 +313,14 @@ def main() -> None:
         + r'\DeclareMathSymbol{\rsmhbar}{\mathord}{AMSb}{"7E}' + "\n"
         + r"\AtBeginDocument{\renewcommand{\hbar}{\rsmhbar}}")
     template.write_text(template_text)
-    run(["pandoc", str(ast_path), "--from=json", "--to=latex", "--standalone",
+    # Keep Unicode punctuation: this XeTeX installation has no tex-text.tec
+    # mapping, so TeX-style --- and `` would otherwise remain literal glyphs.
+    run(["pandoc", str(ast_path), "--from=json", "--to=latex-smart", "--standalone",
          "--template", str(template), "--output", "paper.tex"], log="pandoc.log")
     tex_path = BUILD / "paper.tex"
     tex = tex_path.read_text()
-    # Preserve Latin diacritics absent from the Chinese body font.
-    tex = re.sub(r"[\u00c0-\u024f]", lambda match: r"{\latinfont " + match.group(0) + "}", tex)
+    # Preserve Latin diacritics and the en dash absent from the Chinese font.
+    tex = re.sub(r"[\u00c0-\u024f\u2013]", lambda match: r"{\latinfont " + match.group(0) + "}", tex)
     tex = tex.replace(r"\(", r"\allowbreak{}\(").replace(r"\)", r"\)\allowbreak{}")
     tex_path.write_text(tex)
     command = compiler()
