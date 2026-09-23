@@ -26,4 +26,8 @@
 
 <a id="r7"></a>
 
-**[7]** Copeland, E. J., Liddle, A. R., and Wands, D. Exponential potentials and cosmological scaling solutions. *Physical Review D* **57**, 4686–4690 (1998). [DOI: 10.1103/PhysRevD.57.4686](https://doi.org/10.1103/PhysRevD.57.4686). [作者预印本](https://arxiv.org/abs/gr-qc/9711068).
+**[7]** Schreiber, T., and Schmitz, A. Improved surrogate data for nonlinearity tests. *Physical Review Letters* **77**, 635–638 (1996). [DOI: 10.1103/PhysRevLett.77.635](https://doi.org/10.1103/PhysRevLett.77.635). [作者存档](https://arxiv.org/abs/chao-dyn/9909041).
+
+<a id="r8"></a>
+
+**[8]** Copeland, E. J., Liddle, A. R., and Wands, D. Exponential potentials and cosmological scaling solutions. *Physical Review D* **57**, 4686–4690 (1998). [DOI: 10.1103/PhysRevD.57.4686](https://doi.org/10.1103/PhysRevD.57.4686). [作者预印本](https://arxiv.org/abs/gr-qc/9711068).

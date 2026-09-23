@@ -2,9 +2,9 @@
 
 英文工作题名：*Riemann-Inspired Inverse-Log-Square Dynamics: An Internal-Clock Framework and Micro–Macro Connections*
 
-2026-09-23开始逐章撰写。本文定位为假设性动力学框架及其条件检验；先写中文Markdown正文，再根据完整稿确定英文与排版版本。原始章节和v0.1—v0.5阶段短稿作为来源保留。本目录是连贯新稿，版本号不表示新增计算。
+2026-09-23开始逐章撰写，已形成中文Markdown正文与单栏PDF；英文版本待中文整稿审阅后推进。本文定位为假设性动力学框架及其条件检验。原始章节和v0.1—v0.5阶段短稿作为来源保留。本目录是连贯新稿，版本号不表示新增计算。
 
-**当前已完成中文完整初稿：[连续阅读版](paper.md)。** 包含摘要、七章正文、三个附录、三张已有结果图及七篇参考文献。也可按下表逐章阅读。本版完成论述与证据的整合，未新增数值实验；后续集中改进关键物理与识别问题。
+**当前已完成中文完整初稿：[单栏PDF](paper.pdf)（22页）与[Markdown连续阅读版](paper.md)。** 包含摘要、七章正文、三个附录、三张已有结果图及八篇参考文献。也可按下表逐章阅读。本版完成论述与证据的整合，未新增数值实验；后续集中改进关键物理与识别问题。
 
 ## 贯穿全文的问题
 
@@ -41,3 +41,11 @@ python manuscript_v01/assemble.py
 ```
 
 `paper.md`由源文件生成；应修改各章、`abstract.md`或`references.md`，再重新合并。
+
+生成单栏PDF：
+
+```bash
+python manuscript_v01/render_pdf.py
+```
+
+排版需Python 3、Pandoc、XeTeX及模板使用的LaTeX宏包、AR PL SungtiL GB／DejaVu Sans Mono／Tinos字体，以及用于成品检查的PyMuPDF。本环境没有`xelatex`命令，脚本使用已有`xetex`在`build/manuscript_typeset/`生成局部格式；不安装系统软件。所有中间文件和构建报告也写入该目录。成品包含可点击目录、文献锚点与仓库资料链接；[排版模板](typeset/paper.tex)和[脚本](render_pdf.py)均随仓库保存。

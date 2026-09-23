@@ -18,7 +18,7 @@ cd rsm
 
 当前新稿：
 
-- **[完整论文初稿：连续阅读版](manuscript_v01/paper.md)**：已整合摘要、七章、三个附录及三张结果图；也可按[章节目录](manuscript_v01/README.md)阅读。[参考文献](manuscript_v01/references.md)包含两篇已发表前作。以下v0.1—v0.5作为分阶段来源保留。
+- **[完整论文初稿：单栏 PDF](manuscript_v01/paper.pdf)**（22页）与[Markdown连续阅读版](manuscript_v01/paper.md)：已整合摘要、七章、三个附录及三张结果图；也可按[章节目录](manuscript_v01/README.md)阅读。[参考文献](manuscript_v01/references.md)包含两篇已发表前作。以下v0.1—v0.5作为分阶段来源保留。
 - **[研究主线备忘：从微观非线性动力学到宏观理论](RESEARCH_DIRECTION.md)**：记录用户的长期方向，对照原第4、7章等已有设想，明确辛结构、长波极限与统计粗粒化的不同作用。
 - **[假设性框架与算术输入检验 v0.5](draft_v05/arithmetic_response_v05.md)**：最近一轮计算的阶段短稿，开篇说明假设、条件结果和物理对应的区别。实际使用前作零点缓存，计算1593例；八个真实残差块的主指标均落入所构造替代集合的中心范围，未检出特殊宏观响应。节点及实际驱动匹配的局限明确保留。[实验入口](experiments/arithmetic_residual_v01/README.md)、[完整结果](experiments/arithmetic_residual_v01/reports/results_cn.md)、[主比较图](experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png)和[响应热力图](experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png)。
 - **[逆对数驱动与反馈 v0.4](draft_v04/log_clock_bridge_v04.md)**：把核心平方对数响应实际接入同一Hamilton体系，计算反作用、能流与连续场，并给出有条件的晚时尾律。[实验入口](experiments/log_clock_coupling_v01/README.md)、[数值报告](experiments/log_clock_coupling_v01/reports/results_cn.md)、[响应图](experiments/log_clock_coupling_v01/figures/log_clock_response.png)和[场演化图](experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png)。**真实黎曼物理来源仍待推导**，见该阶段的[算术桥接状态](experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md)。
@@ -67,7 +67,7 @@ v0.5随后实际加入零点间距残差：1024个评价间距、八个固定块
 riemann_model/
 ├── ori_paper/       原始Word，保持原样
 ├── chapters/        按章Markdown及原图assets/
-├── manuscript_v01/  完整初稿、逐章正文、附录、参考文献及合并脚本
+├── manuscript_v01/  完整初稿（Markdown/PDF）、逐章正文及合并与排版脚本
 ├── draft_v01/       最小公设短稿、变量与主张表
 ├── draft_v02/       驱动场作用量、条件结论与数值结果
 ├── draft_v03/       非线性微观格点到连续场的条件桥接
