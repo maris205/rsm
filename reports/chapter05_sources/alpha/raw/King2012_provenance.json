@@ -1,0 +1,46 @@
+{
+  "retrieved_utc": "2026-09-20T04:49:29.212847+00:00",
+  "source_catalog": "J/MNRAS/422/3370",
+  "source_paper": "King et al. 2012, MNRAS 422, 3370; DOI 10.1111/j.1365-2966.2012.20852.x",
+  "files": [
+    {
+      "path": "data/raw/King2012_ReadMe.txt",
+      "url": "https://cdsarc.cds.unistra.fr/ftp/J/MNRAS/422/3370/ReadMe",
+      "sha256": "be4c4042379487977a96c3eff95825ac4d8b9ada392414174a74c8500d1599b7",
+      "bytes": 5772
+    },
+    {
+      "path": "data/raw/King2012_tablea1.dat",
+      "url": "https://cdsarc.cds.unistra.fr/ftp/J/MNRAS/422/3370/tablea1.dat",
+      "sha256": "8bdec23fffb60800bba6afdcce4e077b639f4f743dc623207e80e38000d95964",
+      "bytes": 16815,
+      "engine_local_sha256": "8bdec23fffb60800bba6afdcce4e077b639f4f743dc623207e80e38000d95964",
+      "engine_local_bytes_identical": true,
+      "engine_local_tokens_identical": true
+    }
+  ],
+  "uncertainty_convention": {
+    "units": "1e-5 in fractional delta_alpha/alpha",
+    "weighted_mean_sigma_rand_by_flag": {
+      "1_Keck_LC": 0.0,
+      "2_Keck_HC": 1.743,
+      "3_VLT": 0.905
+    },
+    "combined_dipole_sigma_rand_by_flag": {
+      "1_Keck_LC": 0.0,
+      "2_Keck_HC": 1.63,
+      "3_VLT": 0.905
+    },
+    "limitation": "Published excess-scatter estimates depend on the fitted source-paper model. Reusing the weighted-mean budget for a new temporal model is a conditional fixed-budget analysis, not refitting the original spectral likelihood."
+  },
+  "selection": {
+    "catalog_rows": 295,
+    "author_flag_Out_equals_1": [
+      "127: Keck J194454+770552 z=2.8433",
+      "145: VLT J000448-415728 z=1.5419"
+    ],
+    "retained_author_selection": 293,
+    "retained_Keck": 140,
+    "retained_VLT": 153
+  }
+}

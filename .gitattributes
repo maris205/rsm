@@ -1,0 +1,5 @@
+# Frozen evidence must retain its original bytes under any checkout policy.
+reports/chapter05_sources/alpha/** -text
+reports/chapter05_sources/hubble/** -text
+# The archived CSV uses the original CRLF record terminators.
+reports/chapter05_sources/hubble/comparison.csv whitespace=cr-at-eol

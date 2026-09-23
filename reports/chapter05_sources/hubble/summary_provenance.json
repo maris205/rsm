@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "data/calibrated_models_2026-09-19/logarithmic.json": "4dca6ad7baf405b1b8b588acdc7d98a2c53f2e6aceba68553b0c2b92d20349df",
+    "data/calibrated_models_2026-09-19/exponential.json": "2603ca9cada423eab54a0901075cd53f4fd9465a9395a68a8c8e29bc790048b3",
+    "data/calibrated_models_2026-09-19/power_law.json": "f98d06162ae37140ed4e3c18bf1ec5f671152b60e6264b2a35ad6a9c8ae29127",
+    "code/summarize_calibrated_models.py": "d10ba44c3c232e1e20f2877e40ecaef4549e63bac704eae87b3f39e416d5bfbf",
+    "code/fit_calibrated_time_models.py": "1b70342b3a06f99520ae36c0d8110405b952041ab103c6c1955a8d5059e0f7c4"
+  },
+  "null_profile_sha256": "4868c0f8531624ec1a6b652fb3467d0f96a24f592cf8a685e830aa9f58b0f558",
+  "comparison_csv_sha256": "d88f60f69b35b147d3c9a9828bc9aca79b5d10c8bf7bdb3b5736e47208b23910"
+}

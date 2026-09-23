@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-23T14:40:43.079727+00:00",
+  "purpose": "Frozen small input/result sources for Chinese Chapter 5 figures; no refit is performed by this package.",
+  "scope": "Working-tree byte snapshots. Source repository HEAD is context, not a claim that untracked files are present in that commit.",
+  "source_repositories": {
+    "riemann_constant": {
+      "source_workspace_relative_path": "riemann_constant",
+      "head": "3827e38f1d7e633cbd1956a8c34fa363b83b54aa",
+      "origin_ssh_or_public_url": "git@github.com:maris205/riemann_fine_structure_constant.git",
+      "scope": "Metadata records the local source repository; each file is frozen from its working tree."
+    },
+    "riemann_hubble": {
+      "source_workspace_relative_path": "riemann_hubble",
+      "head": "ef4e20b6603d1ed51bbdc4b0a219748ca3e1dcce",
+      "origin_ssh_or_public_url": "https://github.com/maris205/riemann_hubble",
+      "scope": "Metadata records the local source repository; each file is frozen from its working tree."
+    }
+  },
+  "parser_metadata": {
+    "king2012": {
+      "file": "alpha/raw/King2012_tablea1.dat",
+      "format": "9 whitespace-separated columns; no header",
+      "columns_one_based": {
+        "id": 1,
+        "qso": 2,
+        "emission_redshift": 3,
+        "absorber_redshift": 4,
+        "delta_alpha_in_1e_minus5": 5,
+        "statistical_sigma_in_1e_minus5": 6,
+        "sample": 7,
+        "uncertainty_flag": 8,
+        "outlier_flag": 9
+      },
+      "catalog_rows": 295,
+      "retained_rows": 293,
+      "selection": "int(column_9) == 0",
+      "delta_alpha_to_ppm_factor": 10,
+      "statistical_sigma_to_ppm_factor": 10,
+      "published_extra_sigma_ppm_by_flag": {
+        "1": 0.0,
+        "2": 17.43,
+        "3": 9.05
+      },
+      "published_total_sigma": "hypot(statistical_sigma_ppm, published_extra_sigma_ppm)",
+      "limitation": "The source-paper weighted-mean excess-scatter budget is held fixed for conditional temporal fits; this is not a refit of the original spectral likelihood.",
+      "reference_parser": "alpha/code/analyze.py:read_king (copied for reference only; dependencies and additional fit inputs intentionally omitted)"
+    },
+    "hubble": {
+      "file": "hubble/comparison.csv",
+      "format": "CSV with header",
+      "rows": 12,
+      "baseline_clock_q": 0.9512450389523021,
+      "baseline_future_positive_selector": {
+        "case": "1.0_future_positive"
+      },
+      "null_reference": "hubble/null_profile.json",
+      "delta_chi2_convention": "chi2_null - chi2_model",
+      "delta_AIC_convention": "2 - delta_chi2 (one extra fitted parameter at fixed q)",
+      "limitation": "Conditional fits using archived 2022 Pantheon+SH0ES calibration and FS14 distance products; not a new H0 measurement, not a Planck-likelihood comparison or a full likelihood reproduction."
+    }
+  },
+  "files": [
+    {
+      "path": "alpha/results/results.json",
+      "sha256": "e01e70501ff8c952935a3f25bfce04bf42ac0fd0e6257c7f90acf4c439f8a6ec",
+      "bytes": 63767,
+      "source_workspace_relative_path": "riemann_constant/results/results.json",
+      "source_repo_relative_path": "results/results.json",
+      "source_repository": "riemann_constant",
+      "source_repo_head": "3827e38f1d7e633cbd1956a8c34fa363b83b54aa",
+      "source_repo_origin_ssh_or_public_url": "git@github.com:maris205/riemann_fine_structure_constant.git",
+      "git_ls_files_tracked": true,
+      "head_entry_exists": true,
+      "matches_head_bytes": true,
+      "head_sha256": "e01e70501ff8c952935a3f25bfce04bf42ac0fd0e6257c7f90acf4c439f8a6ec",
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "alpha/raw/King2012_tablea1.dat",
+      "sha256": "8bdec23fffb60800bba6afdcce4e077b639f4f743dc623207e80e38000d95964",
+      "bytes": 16815,
+      "source_workspace_relative_path": "riemann_constant/data/raw/King2012_tablea1.dat",
+      "source_repo_relative_path": "data/raw/King2012_tablea1.dat",
+      "source_repository": "riemann_constant",
+      "source_repo_head": "3827e38f1d7e633cbd1956a8c34fa363b83b54aa",
+      "source_repo_origin_ssh_or_public_url": "git@github.com:maris205/riemann_fine_structure_constant.git",
+      "git_ls_files_tracked": true,
+      "head_entry_exists": true,
+      "matches_head_bytes": true,
+      "head_sha256": "8bdec23fffb60800bba6afdcce4e077b639f4f743dc623207e80e38000d95964",
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "alpha/raw/King2012_ReadMe.txt",
+      "sha256": "be4c4042379487977a96c3eff95825ac4d8b9ada392414174a74c8500d1599b7",
+      "bytes": 5772,
+      "source_workspace_relative_path": "riemann_constant/data/raw/King2012_ReadMe.txt",
+      "source_repo_relative_path": "data/raw/King2012_ReadMe.txt",
+      "source_repository": "riemann_constant",
+      "source_repo_head": "3827e38f1d7e633cbd1956a8c34fa363b83b54aa",
+      "source_repo_origin_ssh_or_public_url": "git@github.com:maris205/riemann_fine_structure_constant.git",
+      "git_ls_files_tracked": true,
+      "head_entry_exists": true,
+      "matches_head_bytes": true,
+      "head_sha256": "be4c4042379487977a96c3eff95825ac4d8b9ada392414174a74c8500d1599b7",
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "alpha/raw/King2012_provenance.json",
+      "sha256": "033faeb62c2984543bfda5d99d716dd1bf029de1c6367504a7e36461a512e8ab",
+      "bytes": 1706,
+      "source_workspace_relative_path": "riemann_constant/data/raw/King2012_provenance.json",
+      "source_repo_relative_path": "data/raw/King2012_provenance.json",
+      "source_repository": "riemann_constant",
+      "source_repo_head": "3827e38f1d7e633cbd1956a8c34fa363b83b54aa",
+      "source_repo_origin_ssh_or_public_url": "git@github.com:maris205/riemann_fine_structure_constant.git",
+      "git_ls_files_tracked": true,
+      "head_entry_exists": true,
+      "matches_head_bytes": true,
+      "head_sha256": "033faeb62c2984543bfda5d99d716dd1bf029de1c6367504a7e36461a512e8ab",
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "alpha/code/analyze.py",
+      "sha256": "a1cdd3db70134c8efa5492648a109ab3a16786a688fd33f4aa43228618674dbe",
+      "bytes": 16182,
+      "source_workspace_relative_path": "riemann_constant/code/analyze.py",
+      "source_repo_relative_path": "code/analyze.py",
+      "source_repository": "riemann_constant",
+      "source_repo_head": "3827e38f1d7e633cbd1956a8c34fa363b83b54aa",
+      "source_repo_origin_ssh_or_public_url": "git@github.com:maris205/riemann_fine_structure_constant.git",
+      "git_ls_files_tracked": true,
+      "head_entry_exists": true,
+      "matches_head_bytes": true,
+      "head_sha256": "a1cdd3db70134c8efa5492648a109ab3a16786a688fd33f4aa43228618674dbe",
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "hubble/comparison.csv",
+      "sha256": "d88f60f69b35b147d3c9a9828bc9aca79b5d10c8bf7bdb3b5736e47208b23910",
+      "bytes": 3313,
+      "source_workspace_relative_path": "riemann_hubble/data/calibrated_models_2026-09-19/comparison.csv",
+      "source_repo_relative_path": "data/calibrated_models_2026-09-19/comparison.csv",
+      "source_repository": "riemann_hubble",
+      "source_repo_head": "ef4e20b6603d1ed51bbdc4b0a219748ca3e1dcce",
+      "source_repo_origin_ssh_or_public_url": "https://github.com/maris205/riemann_hubble",
+      "git_ls_files_tracked": false,
+      "head_entry_exists": false,
+      "matches_head_bytes": false,
+      "head_sha256": null,
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "hubble/null_profile.json",
+      "sha256": "4868c0f8531624ec1a6b652fb3467d0f96a24f592cf8a685e830aa9f58b0f558",
+      "bytes": 39414,
+      "source_workspace_relative_path": "riemann_hubble/data/calibrated_models_2026-09-19/null_profile.json",
+      "source_repo_relative_path": "data/calibrated_models_2026-09-19/null_profile.json",
+      "source_repository": "riemann_hubble",
+      "source_repo_head": "ef4e20b6603d1ed51bbdc4b0a219748ca3e1dcce",
+      "source_repo_origin_ssh_or_public_url": "https://github.com/maris205/riemann_hubble",
+      "git_ls_files_tracked": false,
+      "head_entry_exists": false,
+      "matches_head_bytes": false,
+      "head_sha256": null,
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "hubble/protocol.md",
+      "sha256": "6d50def22d8f595bcdb5cc08f6b9b28176682e545e413c9a021da1dc60735f99",
+      "bytes": 3519,
+      "source_workspace_relative_path": "riemann_hubble/data/calibrated_models_2026-09-19/protocol.md",
+      "source_repo_relative_path": "data/calibrated_models_2026-09-19/protocol.md",
+      "source_repository": "riemann_hubble",
+      "source_repo_head": "ef4e20b6603d1ed51bbdc4b0a219748ca3e1dcce",
+      "source_repo_origin_ssh_or_public_url": "https://github.com/maris205/riemann_hubble",
+      "git_ls_files_tracked": false,
+      "head_entry_exists": false,
+      "matches_head_bytes": false,
+      "head_sha256": null,
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "hubble/README_source.md",
+      "sha256": "d9d24c6c7b621079bd41cd033aed7f889273aece22ec45adb68168c063314c13",
+      "bytes": 2021,
+      "source_workspace_relative_path": "riemann_hubble/data/calibrated_models_2026-09-19/README.md",
+      "source_repo_relative_path": "data/calibrated_models_2026-09-19/README.md",
+      "source_repository": "riemann_hubble",
+      "source_repo_head": "ef4e20b6603d1ed51bbdc4b0a219748ca3e1dcce",
+      "source_repo_origin_ssh_or_public_url": "https://github.com/maris205/riemann_hubble",
+      "git_ls_files_tracked": false,
+      "head_entry_exists": false,
+      "matches_head_bytes": false,
+      "head_sha256": null,
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "hubble/results_source.md",
+      "sha256": "6d19bf819a28097e416d0249bd55ce85217edcf8d0697167b93ff977aab17744",
+      "bytes": 11100,
+      "source_workspace_relative_path": "riemann_hubble/papers/calibrated_models_2026-09-19/results.md",
+      "source_repo_relative_path": "papers/calibrated_models_2026-09-19/results.md",
+      "source_repository": "riemann_hubble",
+      "source_repo_head": "ef4e20b6603d1ed51bbdc4b0a219748ca3e1dcce",
+      "source_repo_origin_ssh_or_public_url": "https://github.com/maris205/riemann_hubble",
+      "git_ls_files_tracked": false,
+      "head_entry_exists": false,
+      "matches_head_bytes": false,
+      "head_sha256": null,
+      "snapshot_kind": "byte-identical working-tree file"
+    },
+    {
+      "path": "hubble/summary_provenance.json",
+      "sha256": "2bfecd1d0cb7984cdf395e3cc7e6a5bc46e128e7de64ed8b1e33f9f4ada2f197",
+      "bytes": 813,
+      "source_workspace_relative_path": "riemann_hubble/data/calibrated_models_2026-09-19/summary_provenance.json",
+      "source_repo_relative_path": "data/calibrated_models_2026-09-19/summary_provenance.json",
+      "source_repository": "riemann_hubble",
+      "source_repo_head": "ef4e20b6603d1ed51bbdc4b0a219748ca3e1dcce",
+      "source_repo_origin_ssh_or_public_url": "https://github.com/maris205/riemann_hubble",
+      "git_ls_files_tracked": false,
+      "head_entry_exists": false,
+      "matches_head_bytes": false,
+      "head_sha256": null,
+      "snapshot_kind": "byte-identical working-tree file"
+    }
+  ]
+}

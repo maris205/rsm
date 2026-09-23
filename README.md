@@ -1,6 +1,6 @@
 # 黎曼结构启发的假设性动力学框架
 
-当前写作方向：**按原文第0—9章构建中文逐章修订稿，已完成摘要、第0—4章及七幅矢量图**，入口见[manuscript_cn](manuscript_cn/README.md)。此前摘要、七章正文及三个附录的完整稿作为技术材料保留；其结构不替代原文十章。计算已完成至真实零点残差与替代输入的条件比较v0.5。写作更新日期为2026-09-23；最近一轮计算完成于2026-09-22。当前成果是明确的条件模型与可复现计算，尚未获得常数演化的观测确认。
+当前写作方向：**按原文第0—9章构建中文逐章修订稿，已完成摘要、第0—5章及十一幅矢量图**，入口见[manuscript_cn](manuscript_cn/README.md)。此前摘要、七章正文及三个附录的完整稿作为技术材料保留；其结构不替代原文十章。计算已完成至真实零点残差与替代输入的条件比较v0.5。写作更新日期为2026-09-23；最近一轮计算完成于2026-09-22。当前成果是明确的条件模型与可复现计算，尚未获得常数演化的观测确认。
 
 **论文定位：** 以黎曼／算术结构为动机，以逆对数平方响应为核心假设，通过明确的 Hamilton 模型研究微观自由度到宏观有效响应的连接。写作中始终区分输入假设、条件推论和待验证的物理对应；内部一致性的依据限于已推导、已核验的部分，不把“尚未发现矛盾”当作物理成立的证据。当前未检出特殊算术响应及已知数值、对照局限均属于需要报告的结果。
 
@@ -18,7 +18,7 @@ cd rsm
 
 当前新稿：
 
-- **[按原文逐章修订：中文累计稿](manuscript_cn/paper.md)**／[PDF（38页）](manuscript_cn/paper.pdf)：已完成摘要、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)、[第2章算术来源](manuscript_cn/chapters/02_source_code.md)、[第3章同步架构](manuscript_cn/chapters/03_cosmic_lockstep.md)、[第4章数学框架](manuscript_cn/chapters/04_mathematical_framework.md)、七幅矢量图和35条参考文献。第4章保留原4.1—4.4及11个三级小节，展开辛更新、时钟反作用、纯包络晚时尾律与长波场，区分模型修正和计算误差。对应说明见[第0章](manuscript_cn/notes/chapter00_alignment.md)、[第1章](manuscript_cn/notes/chapter01_alignment.md)、[第2章](manuscript_cn/notes/chapter02_alignment.md)、[第3章](manuscript_cn/notes/chapter03_alignment.md)、[第4章](manuscript_cn/notes/chapter04_alignment.md)及[章节总表](manuscript_cn/README.md)。下一步进入第5章观测证据与约束。
+- **[按原文逐章修订：中文累计稿](manuscript_cn/paper.md)**／[PDF（46页）](manuscript_cn/paper.pdf)：已完成摘要、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)、[第2章算术来源](manuscript_cn/chapters/02_source_code.md)、[第3章同步架构](manuscript_cn/chapters/03_cosmic_lockstep.md)、[第4章数学框架](manuscript_cn/chapters/04_mathematical_framework.md)、[第5章观测约束](manuscript_cn/chapters/05_observational_evidence.md)、十一幅矢量图和42条参考文献。第5章保留原5.1—5.4及14个三级小节，接入精细结构常数、原子钟、光谱、校准距离与CMB结果，重画原四图，明确共享响应、参数代价及独立确认的条件。对应说明见[第0章](manuscript_cn/notes/chapter00_alignment.md)、[第1章](manuscript_cn/notes/chapter01_alignment.md)、[第2章](manuscript_cn/notes/chapter02_alignment.md)、[第3章](manuscript_cn/notes/chapter03_alignment.md)、[第4章](manuscript_cn/notes/chapter04_alignment.md)、[第5章](manuscript_cn/notes/chapter05_alignment.md)及[章节总表](manuscript_cn/README.md)。下一步进入第6章预测与解释。
 - **[完整论文初稿：单栏 PDF](manuscript_v01/paper.pdf)**（22页）与[Markdown连续阅读版](manuscript_v01/paper.md)：已整合摘要、七章、三个附录及三张结果图；也可按[章节目录](manuscript_v01/README.md)阅读。[参考文献](manuscript_v01/references.md)包含两篇已发表前作。以下v0.1—v0.5作为分阶段来源保留。
 - **[研究主线备忘：从微观非线性动力学到宏观理论](RESEARCH_DIRECTION.md)**：记录用户的长期方向，对照原第4、7章等已有设想，明确辛结构、长波极限与统计粗粒化的不同作用。
 - **[假设性框架与算术输入检验 v0.5](draft_v05/arithmetic_response_v05.md)**：最近一轮计算的阶段短稿，开篇说明假设、条件结果和物理对应的区别。实际使用前作零点缓存，计算1593例；八个真实残差块的主指标均落入所构造替代集合的中心范围，未检出特殊宏观响应。节点及实际驱动匹配的局限明确保留。[实验入口](experiments/arithmetic_residual_v01/README.md)、[完整结果](experiments/arithmetic_residual_v01/reports/results_cn.md)、[主比较图](experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png)和[响应热力图](experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png)。
@@ -68,7 +68,7 @@ v0.5随后实际加入零点间距残差：1024个评价间距、八个固定块
 riemann_model/
 ├── ori_paper/       原始Word，保持原样
 ├── chapters/        按章Markdown及原图assets/
-├── manuscript_cn/   按原文第0—9章逐章修订；当前已写摘要、第0—4章及七幅图
+├── manuscript_cn/   按原文第0—9章逐章修订；当前已写摘要、第0—5章及十一幅图
 ├── manuscript_v01/  完整初稿（Markdown/PDF）、逐章正文及合并与排版脚本
 ├── draft_v01/       最小公设短稿、变量与主张表
 ├── draft_v02/       驱动场作用量、条件结论与数值结果

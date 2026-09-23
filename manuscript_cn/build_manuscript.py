@@ -282,6 +282,8 @@ def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str]
                       unresolved_reference_anchors=unresolved_anchors,
                       toc_entries=len(document.get_toc()), clickable_links=len(links),
                       bad_links=bad_links, vector_figure_xobjects=len(xobjects),
+                      embedded_figure_count=len(images),
+                      vector_figure_count=sum(figure["vector"] for figure in figure_checks),
                       front_matter_figure_pages=front_pages,
                       embedded_figures=figure_checks, missing_figures=missing_figures,
                       no_invented_author=not bool(document.metadata.get("author")))
@@ -319,9 +321,13 @@ def main() -> None:
          "--template", str(template), "--output", "paper.tex"], log="pandoc.log")
     tex_path = BUILD / "paper.tex"
     tex = tex_path.read_text()
-    # Preserve Latin diacritics and the en dash absent from the Chinese font.
-    tex = re.sub(r"[\u00c0-\u024f\u2013]", lambda match: r"{\latinfont " + match.group(0) + "}", tex)
+    # Preserve Latin diacritics, en dash, and the Unicode minus in source
+    # names (such as HE 0515−4414), which the Chinese body font lacks.
+    tex = re.sub(r"[\u00c0-\u024f\u2013\u2212]", lambda match: r"{\latinfont " + match.group(0) + "}", tex)
     tex = tex.replace(r"\(", r"\allowbreak{}\(").replace(r"\)", r"\)\allowbreak{}")
+    # A leading break penalty would become the first vertical item in a
+    # top-aligned table minipage and lower an otherwise single-line math cell.
+    tex = re.sub(r"(\\raggedright\s*)\\allowbreak\{\}", r"\1", tex)
     tex_path.write_text(tex)
     command = compiler()
     for pass_number in range(1, 4):

@@ -139,3 +139,31 @@
 <a id="r35"></a>
 
 **[35]** Chorin, A. J., Hald, O. H., and Kupferman, R. Optimal prediction with memory. *Physica D: Nonlinear Phenomena* **166**(3–4), 239–257 (2002). [DOI: 10.1016/S0167-2789(02)00446-3](https://doi.org/10.1016/S0167-2789(02)00446-3)；[作者提供的期刊全文](https://math.berkeley.edu/~chorin/CHK02.pdf)。
+
+<a id="r36"></a>
+
+**[36]** King, J. A., et al. Spatial variation in the fine-structure constant — new results from VLT/UVES. *Monthly Notices of the Royal Astronomical Society* **422**(4), 3370–3414 (2012). [DOI: 10.1111/j.1365-2966.2012.20852.x](https://doi.org/10.1111/j.1365-2966.2012.20852.x)；[作者预印本](https://arxiv.org/abs/1202.4758)；[CDS测量目录](https://cdsarc.cds.unistra.fr/ftp/J/MNRAS/422/3370/)。
+
+<a id="r37"></a>
+
+**[37]** Filzinger, M., et al. Improved Limits on the Coupling of Ultralight Bosonic Dark Matter to Photons from Optical Atomic Clock Comparisons. *Physical Review Letters* **130**, 253001 (2023). [DOI: 10.1103/PhysRevLett.130.253001](https://doi.org/10.1103/PhysRevLett.130.253001)；[作者预印本](https://arxiv.org/abs/2301.03433)。
+
+<a id="r38"></a>
+
+**[38]** Murphy, M. T., et al. Fundamental physics with ESPRESSO: Precise limit on variations in the fine-structure constant towards the bright quasar HE 0515−4414. *Astronomy & Astrophysics* **658**, A123 (2022). [DOI: 10.1051/0004-6361/202142257](https://doi.org/10.1051/0004-6361/202142257)；[作者预印本](https://arxiv.org/abs/2112.05819)。
+
+<a id="r39"></a>
+
+**[39]** Toscani De Col, L., et al. A thorium-229 optical nuclear clock with feedback loop. 作者预印本（2026），2026-06-03首稿，2026-06-05修订。[arXiv:2606.04997v2](https://arxiv.org/abs/2606.04997v2)。
+
+<a id="r40"></a>
+
+**[40]** Aeppli, A., et al. (BACON Collaboration). Atomic Clock Frequency Ratios with Fractional Uncertainty $\leq3.2\times10^{-18}$. *Physical Review Letters* **137**, 033201 (2026)，2026-07-14发表。[DOI: 10.1103/g865-9mk1](https://doi.org/10.1103/g865-9mk1)；[作者预印本](https://arxiv.org/abs/2512.21428)。
+
+<a id="r41"></a>
+
+**[41]** Muller, S., et al. A sub-ppm upper limit on the cosmological variations of the fine structure constant $\alpha$. *Astronomy & Astrophysics* **706**, A365 (2026). [DOI: 10.1051/0004-6361/202557492](https://doi.org/10.1051/0004-6361/202557492)；[作者预印本](https://arxiv.org/abs/2512.14441)。
+
+<a id="r42"></a>
+
+**[42]** Scolnic, D., et al. The Pantheon+ Analysis: The Full Data Set and Light-curve Release. *The Astrophysical Journal* **938**(2), 113 (2022). [DOI: 10.3847/1538-4357/ac8b7a](https://doi.org/10.3847/1538-4357/ac8b7a)；[作者预印本](https://arxiv.org/abs/2112.03863)。
