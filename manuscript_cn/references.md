@@ -123,3 +123,15 @@
 <a id="r31"></a>
 
 **[31]** Dyson, F. J. Statistical Theory of the Energy Levels of Complex Systems. I. *Journal of Mathematical Physics* **3**, 140–156 (1962). [DOI: 10.1063/1.1703773](https://doi.org/10.1063/1.1703773)；[期刊原文的学术镜像](https://filippo-colomo.github.io/random_matrices/Dyson_62.pdf)。
+
+<a id="r32"></a>
+
+**[32]** Schumacher, B., and Werner, R. F. Reversible quantum cellular automata. 作者预印本（2004）。[arXiv:quant-ph/0405174](https://arxiv.org/abs/quant-ph/0405174)。
+
+<a id="r33"></a>
+
+**[33]** Clauser, J. F., Horne, M. A., Shimony, A., and Holt, R. A. Proposed Experiment to Test Local Hidden-Variable Theories. *Physical Review Letters* **23**, 880–884 (1969). [DOI: 10.1103/PhysRevLett.23.880](https://doi.org/10.1103/PhysRevLett.23.880)。
+
+<a id="r34"></a>
+
+**[34]** Beckman, D., Gottesman, D., Nielsen, M. A., and Preskill, J. Causal and localizable quantum operations. *Physical Review A* **64**, 052309 (2001). [DOI: 10.1103/PhysRevA.64.052309](https://doi.org/10.1103/PhysRevA.64.052309)；[作者提供的期刊全文](https://www.preskill.caltech.edu/pubs/preskill-2001-causal.pdf)。

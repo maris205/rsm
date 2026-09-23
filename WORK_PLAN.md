@@ -4,7 +4,7 @@
 
 ## 当前写作任务：按原文逐章细化中文稿
 
-2026-09-23，用户进一步明确保持原文总体构建及章节设计，一章一章对应。[中文逐章稿](manuscript_cn/README.md)保留原第0—9章顺序，现已写出[摘要](manuscript_cn/abstract.md)、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)及[第2章算术来源](manuscript_cn/chapters/02_source_code.md)，完成对应说明、两张前置图及三张第2章重绘图。[累计稿PDF](manuscript_cn/paper.pdf)共25页。第0章保留I—VIII顺序，第1章保留1.1—1.5顺序，第2章保留2.1—2.5顺序；分别展开整体框架、物理问题与算术来路。第2章明确区分固定映射上的加权/稀疏化、非自治参数与物理读数，并说明平方对数的谱尺度动机和现有算术检验。下一步写第3章“宇宙同步架构”，定义完整状态、局部关联、同步更新及时间含义，再依序推进；当前没有把第3—9章计划计为完成。
+2026-09-23，用户进一步明确保持原文总体构建及章节设计，一章一章对应。[中文逐章稿](manuscript_cn/README.md)保留原第0—9章顺序，现已写出[摘要](manuscript_cn/abstract.md)、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)、[第2章算术来源](manuscript_cn/chapters/02_source_code.md)及[第3章同步架构](manuscript_cn/chapters/03_cosmic_lockstep.md)，完成对应说明、两张前置图、三张第2章重绘图及一张第3章架构图。[累计稿PDF](manuscript_cn/paper.pdf)共30页，含34条参考文献。各章保留原小节顺序，分别展开整体框架、物理问题、算术来路与同步架构。第3章落实完整场—时钟状态、同一配置上的耦合力与分阶段更新，并将局部算法依赖、全局时钟反馈、量子关联及物理时间假设分别说明。下一步写第4章“数学框架”，展开共同Hamilton量、辛结构、反作用、能量收支及条件连续与晚时描述；当前没有把第4—9章计划计为完成。
 
 以下七章稿作为已完成技术材料纳入原章相应位置。逐章中文写作是当前任务；新的数值突破仍按已有研究计划另行推进，本轮没有重跑科学计算。
 
