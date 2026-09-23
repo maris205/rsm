@@ -1,7 +1,5 @@
 # 参考文献
 
-本表按当前正文首次引用顺序编号，随逐章写作补充。
-
 <a id="r1"></a>
 
 **[1]** Berry, M. V., and Keating, J. P. The Riemann Zeros and Eigenvalue Asymptotics. *SIAM Review* **41**(2), 236–266 (1999). [DOI: 10.1137/S0036144598347497](https://doi.org/10.1137/S0036144598347497). [作者提供的全文](https://michaelberryphysics.wordpress.com/wp-content/uploads/2013/06/berry307.pdf).
@@ -25,3 +23,7 @@
 <a id="r6"></a>
 
 **[6]** Hairer, E., Lubich, C., and Wanner, G. Geometric numerical integration illustrated by the Störmer–Verlet method. *Acta Numerica* **12**, 399–450 (2003). [DOI: 10.1017/S0962492902000144](https://doi.org/10.1017/S0962492902000144). [作者原始摘要与方法说明](https://www.unige.ch/~hairer/preprints/gniverlet.html).
+
+<a id="r7"></a>
+
+**[7]** Copeland, E. J., Liddle, A. R., and Wands, D. Exponential potentials and cosmological scaling solutions. *Physical Review D* **57**, 4686–4690 (1998). [DOI: 10.1103/PhysRevD.57.4686](https://doi.org/10.1103/PhysRevD.57.4686). [作者预印本](https://arxiv.org/abs/gr-qc/9711068).

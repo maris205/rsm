@@ -1,6 +1,6 @@
 # 黎曼结构启发的假设性动力学框架
 
-当前阶段：**开始逐章撰写连贯新稿，第一章引言已完成初稿**；计算已完成至真实零点残差与替代输入的条件比较v0.5，此前各阶段结果均保留。写作更新日期为2026-09-23；最近一轮计算完成于2026-09-22。当前成果是明确的条件模型与可复现计算，尚未获得常数演化的观测确认。
+当前阶段：**已完成中文连贯论文初稿：摘要、七章正文及三个附录**；计算已完成至真实零点残差与替代输入的条件比较v0.5，此前各阶段结果均保留。写作更新日期为2026-09-23；最近一轮计算完成于2026-09-22。当前成果是明确的条件模型与可复现计算，尚未获得常数演化的观测确认。
 
 **论文定位：** 以黎曼／算术结构为动机，以逆对数平方响应为核心假设，通过明确的 Hamilton 模型研究微观自由度到宏观有效响应的连接。写作中始终区分输入假设、条件推论和待验证的物理对应；内部一致性的依据限于已推导、已核验的部分，不把“尚未发现矛盾”当作物理成立的证据。当前未检出特殊算术响应及已知数值、对照局限均属于需要报告的结果。
 
@@ -18,7 +18,7 @@ cd rsm
 
 当前新稿：
 
-- **[连贯论文新稿：章节结构与进度](manuscript_v01/README.md)**：按七章组织，当前先读[第一章引言](manuscript_v01/chapters/01_introduction.md)。已列[参考文献](manuscript_v01/references.md)，下一章写变量、尺度与基本假设。以下v0.1—v0.5作为分阶段来源保留。
+- **[完整论文初稿：连续阅读版](manuscript_v01/paper.md)**：已整合摘要、七章、三个附录及三张结果图；也可按[章节目录](manuscript_v01/README.md)阅读。[参考文献](manuscript_v01/references.md)包含两篇已发表前作。以下v0.1—v0.5作为分阶段来源保留。
 - **[研究主线备忘：从微观非线性动力学到宏观理论](RESEARCH_DIRECTION.md)**：记录用户的长期方向，对照原第4、7章等已有设想，明确辛结构、长波极限与统计粗粒化的不同作用。
 - **[假设性框架与算术输入检验 v0.5](draft_v05/arithmetic_response_v05.md)**：最近一轮计算的阶段短稿，开篇说明假设、条件结果和物理对应的区别。实际使用前作零点缓存，计算1593例；八个真实残差块的主指标均落入所构造替代集合的中心范围，未检出特殊宏观响应。节点及实际驱动匹配的局限明确保留。[实验入口](experiments/arithmetic_residual_v01/README.md)、[完整结果](experiments/arithmetic_residual_v01/reports/results_cn.md)、[主比较图](experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png)和[响应热力图](experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png)。
 - **[逆对数驱动与反馈 v0.4](draft_v04/log_clock_bridge_v04.md)**：把核心平方对数响应实际接入同一Hamilton体系，计算反作用、能流与连续场，并给出有条件的晚时尾律。[实验入口](experiments/log_clock_coupling_v01/README.md)、[数值报告](experiments/log_clock_coupling_v01/reports/results_cn.md)、[响应图](experiments/log_clock_coupling_v01/figures/log_clock_response.png)和[场演化图](experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png)。**真实黎曼物理来源仍待推导**，见该阶段的[算术桥接状态](experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md)。
@@ -67,7 +67,7 @@ v0.5随后实际加入零点间距残差：1024个评价间距、八个固定块
 riemann_model/
 ├── ori_paper/       原始Word，保持原样
 ├── chapters/        按章Markdown及原图assets/
-├── manuscript_v01/  连贯新稿、逐章正文及参考文献；目前完成第一章
+├── manuscript_v01/  完整初稿、逐章正文、附录、参考文献及合并脚本
 ├── draft_v01/       最小公设短稿、变量与主张表
 ├── draft_v02/       驱动场作用量、条件结论与数值结果
 ├── draft_v03/       非线性微观格点到连续场的条件桥接
