@@ -28,9 +28,9 @@
 | --- | --- | --- |
 | [image1：RSM总体架构](../../chapters/assets/media/image1.png) | 本轮重画为[中文构架图](../figures/rsm_architecture_cn.png)，保留层次和同步思想，区分设想、已完成基准与待建立物理接口。 | 前置总览／第0章 |
 | [image2：逻辑推演](../../chapters/assets/media/image2.png) | 本轮重画为[中文研究路线图](../figures/rsm_reasoning_cn.png)，把“必然漂移”改为有条件的假说与检验链。 | 前置总览／第0章 |
-| [image3：算术到比特流](../../chapters/assets/media/image3.png) | 进入第2章时核对定义后重画，区分编码表示与物理生成机制。 | 第2章 |
-| [image4：混沌参数示意](../../chapters/assets/media/image4.png) | 进入第2章时核对映射约定、临界点与实际计算来源，再决定保留或重算绘图。 | 第2章 |
-| [image5：逻辑推演图](../../chapters/assets/media/image5.png) | 与前置推演图承担相近功能；进入第2章时使用细化版或交叉引用，不重复宣称物理必然性。 | 第2章 |
+| [image3：算术到比特流](../../chapters/assets/media/image3.png) | 第2章已重画为[图2.1](../figures/chapter02_arithmetic_encoding_cn.png)，区分素数指示序列与映射符号编码。 | 第2章 |
+| [image4：混沌参数示意](../../chapters/assets/media/image4.png) | 第2章已重画为[图2.2](../figures/chapter02_parameter_landmarks_cn.png)，区分倍周期积聚与带合并、$u$与$r$坐标；未声称新增分岔扫描。 | 第2章 |
+| [image5：逻辑推演图](../../chapters/assets/media/image5.png) | 第2章已重画为[图2.3](../figures/chapter02_physical_bridge_cn.png)，细化算术、内部动力学和物理读数的联系，虚线标出新增假设。 | 第2章 |
 | [image6：旧α拟合](../../chapters/assets/media/image6.png) | 进入第5章时按当前数据、误差模型与统一响应重新审定。 | 第5章 |
 | [image7：旧α远期外推](../../chapters/assets/media/image7.png) | 进入第5／6章时明确背景、有效域与不确定性后决定是否重画。 | 第5／6章 |
 | [image8：旧Hubble远期外推](../../chapters/assets/media/image8.png) | 进入第5／6章时区分$H(t)$、推断的$H_0$和候选读数，避免直接照搬外推。 | 第5／6章 |

@@ -23,6 +23,8 @@ REPO = ROOT.parent
 BUILD = REPO / "build" / "manuscript_cn_full"
 TEMPLATE_SOURCE = REPO / "manuscript_v01" / "typeset" / "paper.tex"
 PUBLIC_BASE = "https://github.com/maris205/rsm/blob/main/"
+FRONT_FIGURES = [ROOT / "figures" / name for name in
+                 ("rsm_architecture_cn.png", "rsm_reasoning_cn.png")]
 
 
 def digest(path: Path) -> str:
@@ -141,13 +143,23 @@ def prepare_ast(text: str, chapters: list[Path]):
             target = node["c"][2][0]
             if urlsplit(target).scheme:
                 raise ValueError("Figures must be local reproducible artifacts")
-            path = (ROOT / unquote(target)).resolve()
+            source_path = (ROOT / unquote(target)).resolve()
+            if not source_path.is_file():
+                raise FileNotFoundError(source_path)
+            path = source_path
             if path.suffix == ".png" and path.with_suffix(".pdf").is_file():
                 path = path.with_suffix(".pdf")
             if not path.is_file():
                 raise FileNotFoundError(path)
-            images.append({"path": path.relative_to(REPO).as_posix(), "sha256": digest(path)})
+            anchor = f"rsm-embedded-figure-{len(images) + 1:03d}"
+            images.append({"path": path.relative_to(REPO).as_posix(), "sha256": digest(path),
+                           "source_path": source_path.relative_to(REPO).as_posix(),
+                           "source_sha256": digest(source_path), "anchor": anchor})
             node["c"][2][0] = str(path)
+            # Put the destination in the same indivisible inline unit as the
+            # image, so validation can locate each occurrence after pagination.
+            return {"t": "Span", "c": [["", ["rsm-embedded-figure"], []], [
+                {"t": "RawInline", "c": ["latex", r"\hypertarget{" + anchor + "}{}"]}, node]]}
         if node.get("t") == "Link":
             target = node["c"][2][0]
             split = urlsplit(target)
@@ -173,7 +185,11 @@ def prepare_ast(text: str, chapters: list[Path]):
     ast = rewrite(ast)
     laid_out = []
     inserted_toc = False
-    for block in ast["blocks"]:
+    skip_next = False
+    for index, block in enumerate(ast["blocks"]):
+        if skip_next:
+            skip_next = False
+            continue
         if block["t"] == "Header":
             heading = inline_text(block["c"][2])
             if heading.startswith(("图 A：", "图 B：")):
@@ -184,10 +200,26 @@ def prepare_ast(text: str, chapters: list[Path]):
                     inserted_toc = True
                 else:
                     laid_out.append({"t": "RawBlock", "c": ["latex", r"\clearpage"]})
-        laid_out.append(block)
+        standalone_figure = (block["t"] == "Para" and len(block["c"]) == 1
+                             and block["c"][0]["t"] == "Span"
+                             and "rsm-embedded-figure" in block["c"][0]["c"][0][1])
+        if standalone_figure:
+            # Keep the original following caption with the image. Scientific
+            # text stays in Markdown; no caption is fabricated by the renderer.
+            laid_out.append({"t": "RawBlock", "c": ["latex", r"\par\noindent\begin{minipage}{\linewidth}"]})
+            laid_out.append(block)
+            if index + 1 < len(ast["blocks"]):
+                following = ast["blocks"][index + 1]
+                if following["t"] == "Para" and inline_text(following["c"]).lstrip().startswith("图"):
+                    laid_out.append(following)
+                    skip_next = True
+            laid_out.append({"t": "RawBlock", "c": ["latex", r"\end{minipage}\par"]})
+        else:
+            laid_out.append(block)
     ast["blocks"] = laid_out
-    if len(images) != 2 or not inserted_toc:
-        raise ValueError("Expected two front-matter figures and at least one chapter")
+    front_sources = [str(path.relative_to(REPO)) for path in FRONT_FIGURES]
+    if ([figure["source_path"] for figure in images[:2]] != front_sources or not inserted_toc):
+        raise ValueError("Expected front-matter figures A/B first, followed by completed chapters")
     return ast, images, links, anchors
 
 
@@ -204,7 +236,7 @@ def compiler() -> list[str]:
     return [executable, "-progname=xelatex", f"-fmt={fmt}"]
 
 
-def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str]) -> dict:
+def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str], images: list[dict]) -> dict:
     import fitz
     with fitz.open(path) as document:
         extracted = "\n".join(page.get_text() for page in document)
@@ -227,8 +259,22 @@ def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str]
                            if r"\hypertarget{" + anchor + "}" not in tex]
         unresolved_anchors = [anchor for anchor in anchors
                               if document.resolve_link("#" + anchor)[0] < 0]
-        figure_pages = [number + 1 for number, page in enumerate(document)
-                        if page.get_xobjects()]
+        figure_checks = []
+        for image in images:
+            destination = document.resolve_link("#" + image["anchor"])
+            page_number = destination[0]
+            image_path = REPO / image["path"]
+            is_vector = image_path.suffix.lower() == ".pdf"
+            page_has_graphic = (page_number >= 0 and
+                                bool(document[page_number].get_xobjects() if is_vector
+                                     else document[page_number].get_images()))
+            tex_has_source = "{" + str(image_path) + "}" in tex
+            figure_checks.append({"path": image["path"], "page": page_number + 1,
+                                  "vector": is_vector,
+                                  "verified": page_has_graphic and tex_has_source})
+        missing_figures = [figure["path"] for figure in figure_checks if not figure["verified"]]
+        front_pages = [figure["page"] for figure in figure_checks[:2]]
+        expected_vector_sources = {image["path"] for image in images if image["path"].lower().endswith(".pdf")}
         checks = dict(completed_chapters=[path.stem for path in chapters],
                       equation_tags=len(tags), missing_equation_tags=missing_tags,
                       missing_headings=missing_headings, reference_anchors=len(anchors),
@@ -236,10 +282,11 @@ def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str]
                       unresolved_reference_anchors=unresolved_anchors,
                       toc_entries=len(document.get_toc()), clickable_links=len(links),
                       bad_links=bad_links, vector_figure_xobjects=len(xobjects),
-                      front_matter_figure_pages=figure_pages,
+                      front_matter_figure_pages=front_pages,
+                      embedded_figures=figure_checks, missing_figures=missing_figures,
                       no_invented_author=not bool(document.metadata.get("author")))
         if (bad_links or missing_tags or missing_headings or missing_anchors or unresolved_anchors
-                or len(xobjects) < 2 or figure_pages != [2, 3]):
+                or missing_figures or len(xobjects) < len(expected_vector_sources) or front_pages != [2, 3]):
             raise RuntimeError(f"PDF validation failed: {checks}")
         (BUILD / "paper_text.txt").write_text(extracted)
         return {"pages": len(document), "checks": checks}
@@ -250,6 +297,9 @@ def main() -> None:
     text, inputs, chapters = assemble()
     input_hashes = {path: digest(path) for path in inputs}
     ast, images, links, anchors = prepare_ast(text, chapters)
+    for image in images:
+        input_hashes[REPO / image["source_path"]] = image["source_sha256"]
+        input_hashes[REPO / image["path"]] = image["sha256"]
     ast_path = BUILD / "paper_ast.json"
     ast_path.write_text(json.dumps(ast, ensure_ascii=False))
     template = BUILD / "template.tex"
@@ -280,7 +330,7 @@ def main() -> None:
               if line.startswith(("Missing character:", "Overfull \\"))]
     if issues:
         raise RuntimeError("Typesetting requires correction: " + "\n".join(issues))
-    report = validate_pdf(BUILD / "paper.pdf", text, chapters, anchors)
+    report = validate_pdf(BUILD / "paper.pdf", text, chapters, anchors, images)
     if any(digest(path) != value for path, value in input_hashes.items()):
         raise RuntimeError("A manuscript source changed during rendering; rerun on finished sources")
     shutil.copyfile(BUILD / "paper.pdf", ROOT / "paper.pdf")

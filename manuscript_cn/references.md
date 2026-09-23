@@ -95,3 +95,31 @@
 <a id="r24"></a>
 
 **[24]** Wang, L. Logarithmic lattice cooling and CMB identifiability. 工作稿与计算资料（2026），版本`f42db51`。[固定版本结果与范围](https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/readme_cn.md)。
+
+<a id="r25"></a>
+
+**[25]** Hadamard, J. Sur la distribution des zéros de la fonction $\zeta(s)$ et ses conséquences arithmétiques. *Bulletin de la Société Mathématique de France* **24**, 199–220 (1896). [DOI: 10.24033/bsmf.545](https://doi.org/10.24033/bsmf.545)；[期刊数字档案](https://numdam.org/articles/10.24033/bsmf.545/)。
+
+<a id="r26"></a>
+
+**[26]** May, R. M. Simple mathematical models with very complicated dynamics. *Nature* **261**, 459–467 (1976). [DOI: 10.1038/261459a0](https://doi.org/10.1038/261459a0)。
+
+<a id="r27"></a>
+
+**[27]** Feigenbaum, M. J. Quantitative universality for a class of nonlinear transformations. *Journal of Statistical Physics* **19**, 25–52 (1978). [DOI: 10.1007/BF01020332](https://doi.org/10.1007/BF01020332)；[大学提供的原文](https://sites.math.rutgers.edu/~zeilberg/Bio21/MF78.pdf)。
+
+<a id="r28"></a>
+
+**[28]** Sprott, J. C. Misiurewicz Point of the Logistic Map. University of Wisconsin–Madison技术说明（2005，2006修订）。[作者原始说明及参数计算](https://sprott.physics.wisc.edu/chaos/mispoint.htm)。
+
+<a id="r29"></a>
+
+**[29]** Hardy, G. H., and Littlewood, J. E. Some problems of ‘Partitio numerorum’; III: On the expression of a number as a sum of primes. *Acta Mathematica* **44**, 1–70 (1923). [DOI: 10.1007/BF02403921](https://doi.org/10.1007/BF02403921)。
+
+<a id="r30"></a>
+
+**[30]** Wang, L. `prime_logistic`：素数与二次映射配套代码。文献7的作者代码库，版本`0bdeaaa`（2026）。[固定映射的加权双素数示例](https://github.com/maris205/prime_logistic/blob/0bdeaaac9ac3f062e151d27a2d3c50bf241be5ef/fig9-twin_prime_constant.ipynb)；[间距比较与随机稀疏化](https://github.com/maris205/prime_logistic/blob/0bdeaaac9ac3f062e151d27a2d3c50bf241be5ef/fig10-cramer_test.ipynb)。
+
+<a id="r31"></a>
+
+**[31]** Dyson, F. J. Statistical Theory of the Energy Levels of Complex Systems. I. *Journal of Mathematical Physics* **3**, 140–156 (1962). [DOI: 10.1063/1.1703773](https://doi.org/10.1063/1.1703773)；[期刊原文的学术镜像](https://filippo-colomo.github.io/random_matrices/Dyson_62.pdf)。
