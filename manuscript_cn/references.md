@@ -94,7 +94,7 @@
 
 <a id="r24"></a>
 
-**[24]** Wang, L. Logarithmic lattice cooling and CMB identifiability. 工作稿与计算资料（2026），版本`f42db51`。[固定版本结果与范围](https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/readme_cn.md)。
+**[24]** Wang, L. Logarithmic lattice cooling and CMB identifiability. 工作稿与计算资料（2026），版本`f42db51`。[固定版本结果与范围](https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/readme_cn.md)；[线性终场原始计时](https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/results/linear_runtime.json)；[计时方法核对](https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/reports/runtime_method_review.md)。
 
 <a id="r25"></a>
 
@@ -195,3 +195,11 @@
 <a id="r49"></a>
 
 **[49]** Englert, B.-G. Fringe Visibility and Which-Way Information: An Inequality. *Physical Review Letters* **77**, 2154–2157 (1996). [DOI: 10.1103/PhysRevLett.77.2154](https://doi.org/10.1103/PhysRevLett.77.2154)；[期刊全文](https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.77.2154/fulltext)。
+
+<a id="r50"></a>
+
+**[50]** Farama Foundation. Env. *Gymnasium官方文档*，2026-09-24查阅。[环境接口、返回值及终止／截断定义](https://gymnasium.farama.org/api/env/)。
+
+<a id="r51"></a>
+
+**[51]** NumPy Developers. Compatibility policy. *NumPy随机数模块官方文档*，2026-09-24查阅。[随机流复现的条件与兼容性范围](https://numpy.org/doc/stable/reference/random/compatibility.html)。

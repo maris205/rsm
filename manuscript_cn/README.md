@@ -4,7 +4,7 @@
 
 “黎曼标准模型”（RSM）沿用原稿自拟名称，指这里提出的假设框架，不表示已经建立与粒子物理标准模型同等地位的理论。工作副标题为“基于离散同步演化的计算宇宙假说”。
 
-**当前完成：** [中文摘要](abstract.md)、[第0章介绍](chapters/00_introduction.md)、[第1章物理动机](chapters/01_system_anomaly.md)、[第2章算术来源](chapters/02_source_code.md)、[第3章同步架构](chapters/03_cosmic_lockstep.md)、[第4章数学框架](chapters/04_mathematical_framework.md)、[第5章观测约束](chapters/05_observational_evidence.md)、[第6章预测与解释](chapters/06_predictions_interpretations.md)、两张[总览图](figures/captions.md)、三张[第2章图](figures/captions_chapter02.md)、一张[第3章图](figures/captions_chapter03.md)、一张[第4章图](figures/captions_chapter04.md)及四张[第5章图](figures/captions_chapter05.md)。[累计阅读版](paper.md)和[单栏PDF（53页）](paper.pdf)包含这些内容、目录及49条参考文献。原[摘要与图的三页版](front_matter.pdf)继续保留。第7—9章尚未在本目录逐章改写；下一步是第7章，不把章节计划计为已完成正文。
+**当前完成：** [中文摘要](abstract.md)、[第0章介绍](chapters/00_introduction.md)、[第1章物理动机](chapters/01_system_anomaly.md)、[第2章算术来源](chapters/02_source_code.md)、[第3章同步架构](chapters/03_cosmic_lockstep.md)、[第4章数学框架](chapters/04_mathematical_framework.md)、[第5章观测约束](chapters/05_observational_evidence.md)、[第6章预测与解释](chapters/06_predictions_interpretations.md)、[第7章引擎设计](chapters/07_engine_design.md)、两张[总览图](figures/captions.md)、三张[第2章图](figures/captions_chapter02.md)、一张[第3章图](figures/captions_chapter03.md)、一张[第4章图](figures/captions_chapter04.md)、四张[第5章图](figures/captions_chapter05.md)及一张[第7章图](figures/captions_chapter07.md)。[累计阅读版](paper.md)和[单栏PDF（60页）](paper.pdf)包含这些内容、目录及51条参考文献。原[摘要与图的三页版](front_matter.pdf)继续保留。第8—9章尚未在本目录逐章改写；下一步是第8章，不把章节计划计为已完成正文。
 
 [摘要与原版的对应说明](notes/abstract_alignment.md)记录保留的想法、修订的结论强度、逆对数指数变化及原图处理安排。
 
@@ -22,7 +22,9 @@
 
 [第6章对应说明](notes/chapter06_alignment.md)保留原6.1—6.5及13个三级小节，区分工程直觉、候选机制和已知物理基准，接入弱场钟速／空间响应及共同逆对数读数的交叉检验。新增14个公式、一张检验表及7条参考条目；原章没有图件，本次也未新增图或科学拟合。
 
-[正文首轮审阅](../reports/manuscript_cn_body_review_20260923.md)覆盖摘要及第0—5章，基准为`ac39f8c`。报告给出逐项定位、证据和最小修正，保留原章节设计；重点包括Hubble扩展的公开复现入口、贡献与候选对应、结果的方法定义及独立论文的组织。该轮为只读科学审阅；第0—5章科学正文及图件保持原样，整体修订清单尚未执行。当前累计PDF已另行加入第6章。
+[第7章对应说明](notes/chapter07_alignment.md)保留原7.1—7.5及10个三级小节，对照已运行的数组程序与独立参考整理引擎职责，增加性能范围和存档边界。新增5个公式、两张表、一张流程图、伪代码及2条官方文档引用；没有新增科学计算或实现统一引擎。
+
+[正文首轮审阅](../reports/manuscript_cn_body_review_20260923.md)覆盖摘要及第0—5章，基准为`ac39f8c`。报告给出逐项定位、证据和最小修正，保留原章节设计；重点包括Hubble扩展的公开复现入口、贡献与候选对应、结果的方法定义及独立论文的组织。该轮为只读科学审阅；第0—5章科学正文及图件保持原样，整体修订清单尚未执行。当前累计PDF已另行加入第6—7章。
 
 ## 与此前七章稿的关系
 
@@ -42,10 +44,10 @@
 | [第4章 Mathematical Framework](../chapters/05_chapter_04_mathematical_framework.md) | 数学框架：辛演化与离散—连续映射 | **已完成[中文稿](chapters/04_mathematical_framework.md)**；保留4.1—4.4及11个三级小节，给出辛更新、完整反馈、条件晚时与长波推导，区分空间、时间和字长误差。 |
 | [第5章 Observational Evidence](../chapters/06_chapter_05_observational_evidence.md) | 观测证据与约束：时间响应的检验 | **已完成[中文稿](chapters/05_observational_evidence.md)**；保留5.1—5.4及14个三级小节，融入四项目条件结果、近期数据进展与前瞻检验，重画原四图。 |
 | [第6章 Predictions & Interpretations](../chapters/07_chapter_06_predictions_interpretations.md) | 预测与解释：从计算直觉到物理条件 | **已完成[中文稿](chapters/06_predictions_interpretations.md)**；保留6.1—6.5及13个三级小节，提出条件接口和共同响应检验，明确已有理论基准与新增候选。 |
-| [第7章 Riemann Engine Design v1.0](../chapters/08_chapter_07_engine_design.md) | 黎曼引擎设计 v1.0 | **下一章**；ECS、状态更新及现有计算代码，工程架构和物理本体假说分别定义。 |
-| [第8章 Simulation Case Studies](../chapters/09_chapter_08_simulation_case_studies.md) | 模拟案例与系统验证 | 七章技术稿第5章、附录B及各实验报告；保留误差、未检出和失败记录。 |
+| [第7章 Riemann Engine Design v1.0](../chapters/08_chapter_07_engine_design.md) | 黎曼引擎设计：从动力学定义到研究实现 | **已完成[中文稿](chapters/07_engine_design.md)**；保留7.1—7.5及10个三级小节，给出实际更新、驱动、验证、存档和性能范围；统一适配层继续列为设计。 |
+| [第8章 Simulation Case Studies](../chapters/09_chapter_08_simulation_case_studies.md) | 模拟案例与系统验证 | **下一章**；七章技术稿第5章、附录B及各实验报告，保留误差、未检出和失败记录。 |
 | [第9章 Conclusion](../chapters/10_chapter_09_conclusion.md) | 结论：从几何描述到计算构想 | 汇总各章所得，原远期展望按可检验性逐项处理。 |
-| [References](../chapters/11_references.md) | 参考文献 | 已建立[中文稿参考表](references.md)，按当前实际引用纳入49条；原表与技术稿书目继续作为来源。 |
+| [References](../chapters/11_references.md) | 参考文献 | 已建立[中文稿参考表](references.md)，按当前实际引用纳入51条；原表与技术稿书目继续作为来源。 |
 | [Acknowledgments](../chapters/12_acknowledgments.md) | 致谢 | 完稿时按实际贡献与作者信息处理。 |
 
 ## 构建
@@ -58,8 +60,9 @@ python manuscript_cn/figures/make_chapter02_figures.py
 python manuscript_cn/figures/make_chapter03_figures.py
 python manuscript_cn/figures/make_chapter04_figures.py
 python manuscript_cn/figures/make_chapter05_figures.py
+python manuscript_cn/figures/make_chapter07_figures.py
 python manuscript_cn/build_front_matter.py
 python manuscript_cn/build_manuscript.py
 ```
 
-前五步重画总览图及第2—5章图件，复用已存档结果和固定函数，不运行新的科学拟合；第六步生成摘要与两图的三页版；第七步合并已完成章节及参考文献，生成累计Markdown和单栏PDF。正文修改入口为`abstract.md`、`chapters/`和`references.md`；前置图注在`figures/captions.md`，章节图注随正文保存，`figures/captions_chapter02.md`至`figures/captions_chapter05.md`记录各章来源。累计稿自动收录章节插图并优先嵌入配对矢量PDF，逐图检查来源、哈希和落页。排版沿用已有单栏模板，依赖Python、Matplotlib、Pandoc、XeTeX及已安装字体；PDF检查使用PyMuPDF。中间文件分别进入未纳入版本控制的`build/manuscript_cn/`与`build/manuscript_cn_full/`。
+前六步重画总览图及第2—5、7章图件，复用已存档结果、固定函数及实现流程，不运行新的科学拟合；第七步生成摘要与两图的三页版；第八步合并已完成章节及参考文献，生成累计Markdown和单栏PDF。正文修改入口为`abstract.md`、`chapters/`和`references.md`；前置图注在`figures/captions.md`，章节图注随正文保存，`figures/captions_chapter02.md`至`figures/captions_chapter05.md`及`figures/captions_chapter07.md`记录各章来源。累计稿自动收录章节插图并优先嵌入配对矢量PDF，逐图检查来源、哈希和落页。排版沿用已有单栏模板，依赖Python、Matplotlib、Pandoc、XeTeX及已安装字体；PDF检查使用PyMuPDF。中间文件分别进入未纳入版本控制的`build/manuscript_cn/`与`build/manuscript_cn_full/`。

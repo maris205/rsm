@@ -200,6 +200,12 @@ def prepare_ast(text: str, chapters: list[Path]):
                     inserted_toc = True
                 else:
                     laid_out.append({"t": "RawBlock", "c": ["latex", r"\clearpage"]})
+        if (block["t"] == "Para" and re.match(r"^表\s*\d", inline_text(block["c"]).lstrip())
+                and index + 1 < len(ast["blocks"])
+                and ast["blocks"][index + 1]["t"] == "Table"):
+            # Reserve room for the supplied title, table header, and first row.
+            # The long table can still break normally after its initial rows.
+            laid_out.append({"t": "RawBlock", "c": ["latex", r"\Needspace{6\baselineskip}"]})
         standalone_figure = (block["t"] == "Para" and len(block["c"]) == 1
                              and block["c"][0]["t"] == "Span"
                              and "rsm-embedded-figure" in block["c"][0]["c"][0][1])
@@ -312,6 +318,7 @@ def main() -> None:
     template_text = template_text.replace(
         r"\usepackage{amsmath,amssymb,mathtools,mathrsfs}",
         r"\usepackage{amsmath,amssymb,mathtools,mathrsfs}" + "\n"
+        + r"\usepackage{needspace}" + "\n"
         + r'\DeclareMathSymbol{\rsmhbar}{\mathord}{AMSb}{"7E}' + "\n"
         + r"\AtBeginDocument{\renewcommand{\hbar}{\rsmhbar}}")
     template.write_text(template_text)
