@@ -1,0 +1,880 @@
+{
+  "created_utc": "2026-09-24T15:47:07.148826+00:00",
+  "protocol_sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2",
+  "code_sha256": {
+    "pm_refined.py": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602",
+    "run_spherical_pm.py": "4c8f29acc2598935a30b027691ccf3f01ae34b6b80a27aac0f7cf5349fafa28b"
+  },
+  "input_sha256": {
+    "sphere_summary.json": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275",
+    "refined_pm_validation.json": "8f97dd3a305e99ca2fbfd7e7f79c128812b5d57e6d35c690793784de2d7781f6"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "runs": {
+    "ref_force128": {
+      "status": "completed",
+      "event200": {
+        "a": 0.5326680357768472,
+        "z": 0.877341858032822,
+        "t_Gyr": 6.372858257999106,
+        "y_median": 0.17099759466760844,
+        "Delta_proxy": 200.00000000021492,
+        "nonhomology_fraction": 0.4290030736003171,
+        "axis_ratio_min_max": 0.9999999999999989,
+        "actual_enclosed_mean_density_ratio": 263.3516948976536,
+        "actual_enclosed_particle_count_at_proxy_radius": 22592,
+        "estimator": "first fixed-label median(r/q)^(-3)=200, temporary partial KDK root"
+      },
+      "turnaround": {
+        "a": 0.34924822747648376,
+        "t_Gyr": 3.49970822880115,
+        "bracket_a": [
+          0.3473503382221293,
+          0.34960603646205196
+        ],
+        "estimator": "linear interpolation of physical radial expansion ratio in ln(a)",
+        "bracket_relative_width": 0.006494014807839843
+      },
+      "ode_event200": {
+        "a": 0.4999999999999683,
+        "N": -0.6931471805600087,
+        "E": 1.7906367583002212,
+        "dlnE": -1.1798177384300288,
+        "Omega_m": 0.785933045946586,
+        "t_Gyr": 5.840746999307794,
+        "y": 0.1709975946676697,
+        "y_N": -1.724798868555325,
+        "Delta": 200.0,
+        "delta": 199.0,
+        "comoving_radius_Mpc_h": 0.42749398666917426,
+        "physical_radius_Mpc_h": 0.21374699333457356,
+        "physical_radial_velocity_km_s": -347.7867095145961,
+        "peculiar_radial_velocity_km_s": -386.0610318387001
+      },
+      "initial_force_diagnostic": {
+        "mean_radial_g": -0.0025344824571522434,
+        "median_radial_g": -0.0027321843359338826,
+        "fraction_particles_with_inward_g": 0.9815242494226328,
+        "relative_L2_error_vs_uniform_core": 0.3280356816045586,
+        "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units",
+        "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only",
+        "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"
+      },
+      "diagnostics": {
+        "finite": true,
+        "max_mass_relative_error": 2.220446049250313e-16,
+        "max_total_force_normalized": 8.569037156290547e-15,
+        "max_total_force_absolute": 9.745406763621771e-16,
+        "max_momentum_change_absolute": 1.3374885143959267e-16,
+        "max_drift_cells": 0.14994327000644747,
+        "max_actual_dt_over_tdyn": 0.014627313043921831,
+        "max_nonhomology_fraction": 0.4290030736003171,
+        "max_axis_deviation": 1.4432899320127035e-15,
+        "max_radius_relative_error_vs_ode_common_pre_event": 0.7904621771828035,
+        "common_pre_event_end_a": 0.4999999999999683,
+        "common_pre_event_samples": 408,
+        "event_relative_error_vs_ode": 0.06533607155376187,
+        "partial_event_root_position_evaluations": 5,
+        "steps": 447,
+        "maximum_step_halvings": 3
+      },
+      "checks": [
+        {
+          "name": "finite",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "event200_present",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "mass",
+          "value": 2.220446049250313e-16,
+          "threshold": 1e-12,
+          "passed": true
+        },
+        {
+          "name": "total_force",
+          "value": 8.569037156290547e-15,
+          "threshold": 1e-11,
+          "passed": true
+        },
+        {
+          "name": "actual_drift_cells",
+          "value": 0.14994327000644747,
+          "threshold": 0.2,
+          "passed": true
+        },
+        {
+          "name": "actual_dt_over_tdyn",
+          "value": 0.014627313043921831,
+          "threshold": 0.05,
+          "passed": true
+        },
+        {
+          "name": "nonhomology",
+          "value": 0.4290030736003171,
+          "threshold": 0.1,
+          "passed": false
+        },
+        {
+          "name": "axis_deviation",
+          "value": 1.4432899320127035e-15,
+          "threshold": 0.1,
+          "passed": true
+        }
+      ],
+      "failures": [
+        {
+          "name": "nonhomology",
+          "value": 0.4290030736003171,
+          "threshold": 0.1,
+          "passed": false
+        }
+      ],
+      "wall_seconds": 385.41665390878916,
+      "array_sha256": "8ae3533b96d82515d18676fb843b9e2e69942800df281c44e97fa71251ec72e4",
+      "state_sha256": null,
+      "json_sha256": "ce70ce1caccd31eaf8e567fa95c0fb8c71f1535b65c2823b8d6ad27e4940389f"
+    },
+    "ref_main": {
+      "status": "completed",
+      "event200": {
+        "a": 0.5324377348401449,
+        "z": 0.878153884604427,
+        "t_Gyr": 6.369089887521625,
+        "y_median": 0.1709975946676694,
+        "Delta_proxy": 200.00000000000108,
+        "nonhomology_fraction": 0.28277764455976173,
+        "axis_ratio_min_max": 0.9999999999999941,
+        "actual_enclosed_mean_density_ratio": 280.9768614468066,
+        "actual_enclosed_particle_count_at_proxy_radius": 24104,
+        "estimator": "first fixed-label median(r/q)^(-3)=200, temporary partial KDK root"
+      },
+      "turnaround": {
+        "a": 0.37619054514180966,
+        "t_Gyr": 3.8987281549789197,
+        "bracket_a": [
+          0.37601475334109347,
+          0.37662373366234775
+        ],
+        "estimator": "linear interpolation of physical radial expansion ratio in ln(a)",
+        "bracket_relative_width": 0.0016195649661168154
+      },
+      "ode_event200": {
+        "a": 0.4999999999999683,
+        "N": -0.6931471805600087,
+        "E": 1.7906367583002212,
+        "dlnE": -1.1798177384300288,
+        "Omega_m": 0.785933045946586,
+        "t_Gyr": 5.840746999307794,
+        "y": 0.1709975946676697,
+        "y_N": -1.724798868555325,
+        "Delta": 200.0,
+        "delta": 199.0,
+        "comoving_radius_Mpc_h": 0.42749398666917426,
+        "physical_radius_Mpc_h": 0.21374699333457356,
+        "physical_radial_velocity_km_s": -347.7867095145961,
+        "peculiar_radial_velocity_km_s": -386.0610318387001
+      },
+      "initial_force_diagnostic": {
+        "mean_radial_g": -0.003616003366019882,
+        "median_radial_g": -0.0038847630786589963,
+        "fraction_particles_with_inward_g": 0.9711316397228638,
+        "relative_L2_error_vs_uniform_core": 0.6530577522340192,
+        "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units",
+        "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only",
+        "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"
+      },
+      "diagnostics": {
+        "finite": true,
+        "max_mass_relative_error": 1.1102230246251565e-16,
+        "max_total_force_normalized": 9.750981597821565e-15,
+        "max_total_force_absolute": 1.5331112313199656e-15,
+        "max_momentum_change_absolute": 2.438614463945129e-16,
+        "max_drift_cells": 0.14995380442387696,
+        "max_actual_dt_over_tdyn": 0.011561636892483722,
+        "max_nonhomology_fraction": 0.34124554620354486,
+        "max_axis_deviation": 7.549516567451064e-15,
+        "max_radius_relative_error_vs_ode_common_pre_event": 0.7647428536995822,
+        "common_pre_event_end_a": 0.4999999999999683,
+        "common_pre_event_samples": 806,
+        "event_relative_error_vs_ode": 0.06487546968035729,
+        "partial_event_root_position_evaluations": 6,
+        "steps": 895,
+        "maximum_step_halvings": 5
+      },
+      "checks": [
+        {
+          "name": "finite",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "event200_present",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "mass",
+          "value": 1.1102230246251565e-16,
+          "threshold": 1e-12,
+          "passed": true
+        },
+        {
+          "name": "total_force",
+          "value": 9.750981597821565e-15,
+          "threshold": 1e-11,
+          "passed": true
+        },
+        {
+          "name": "actual_drift_cells",
+          "value": 0.14995380442387696,
+          "threshold": 0.2,
+          "passed": true
+        },
+        {
+          "name": "actual_dt_over_tdyn",
+          "value": 0.011561636892483722,
+          "threshold": 0.05,
+          "passed": true
+        },
+        {
+          "name": "nonhomology",
+          "value": 0.34124554620354486,
+          "threshold": 0.1,
+          "passed": false
+        },
+        {
+          "name": "axis_deviation",
+          "value": 7.549516567451064e-15,
+          "threshold": 0.1,
+          "passed": true
+        },
+        {
+          "name": "PM_vs_ODE_event",
+          "value": 0.06487546968035729,
+          "threshold": 0.02,
+          "passed": false
+        },
+        {
+          "name": "PM_vs_ODE_radius",
+          "value": 0.7647428536995822,
+          "threshold": 0.03,
+          "passed": false
+        }
+      ],
+      "failures": [
+        {
+          "name": "nonhomology",
+          "value": 0.34124554620354486,
+          "threshold": 0.1,
+          "passed": false
+        },
+        {
+          "name": "PM_vs_ODE_event",
+          "value": 0.06487546968035729,
+          "threshold": 0.02,
+          "passed": false
+        },
+        {
+          "name": "PM_vs_ODE_radius",
+          "value": 0.7647428536995822,
+          "threshold": 0.03,
+          "passed": false
+        }
+      ],
+      "wall_seconds": 2566.205801822245,
+      "array_sha256": "cf0e60311ddac9d2c05cb99233b5c71711b95dc71e3912f5cb6e386d0bc7894f",
+      "state_sha256": "e969a55ab79591bef775523f058d95f64ae20ae9328951938ed101d2e5f87170",
+      "json_sha256": "9ae22c2acb3f724ed59228a53439a37c21af7488cf9daacee6d16f46604564bd"
+    },
+    "ref_halfstep": {
+      "status": "completed",
+      "event200": {
+        "a": 0.5324218600031525,
+        "z": 0.8782098841585486,
+        "t_Gyr": 6.368830138410246,
+        "y_median": 0.17099759466756187,
+        "Delta_proxy": 200.00000000037835,
+        "nonhomology_fraction": 0.28307067281,
+        "axis_ratio_min_max": 0.9999999999999925,
+        "actual_enclosed_mean_density_ratio": 280.97686144733666,
+        "actual_enclosed_particle_count_at_proxy_radius": 24104,
+        "estimator": "first fixed-label median(r/q)^(-3)=200, temporary partial KDK root"
+      },
+      "turnaround": {
+        "a": 0.3732856932255992,
+        "t_Gyr": 3.8552028112241468,
+        "bracket_a": [
+          0.3729845902560307,
+          0.3732865044507125
+        ],
+        "estimator": "linear interpolation of physical radial expansion ratio in ln(a)",
+        "bracket_relative_width": 0.0008094548744614904
+      },
+      "ode_event200": {
+        "a": 0.4999999999999683,
+        "N": -0.6931471805600087,
+        "E": 1.7906367583002212,
+        "dlnE": -1.1798177384300288,
+        "Omega_m": 0.785933045946586,
+        "t_Gyr": 5.840746999307794,
+        "y": 0.1709975946676697,
+        "y_N": -1.724798868555325,
+        "Delta": 200.0,
+        "delta": 199.0,
+        "comoving_radius_Mpc_h": 0.42749398666917426,
+        "physical_radius_Mpc_h": 0.21374699333457356,
+        "physical_radial_velocity_km_s": -347.7867095145961,
+        "peculiar_radial_velocity_km_s": -386.0610318387001
+      },
+      "initial_force_diagnostic": {
+        "mean_radial_g": -0.003616003366019882,
+        "median_radial_g": -0.0038847630786589963,
+        "fraction_particles_with_inward_g": 0.9711316397228638,
+        "relative_L2_error_vs_uniform_core": 0.6530577522340192,
+        "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units",
+        "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only",
+        "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"
+      },
+      "diagnostics": {
+        "finite": true,
+        "max_mass_relative_error": 2.220446049250313e-16,
+        "max_total_force_normalized": 1.3151675948237987e-14,
+        "max_total_force_absolute": 1.951403491364482e-15,
+        "max_momentum_change_absolute": 2.5446476651949153e-16,
+        "max_drift_cells": 0.07497608707368927,
+        "max_actual_dt_over_tdyn": 0.005762410314613394,
+        "max_nonhomology_fraction": 0.3420882146664158,
+        "max_axis_deviation": 7.771561172376096e-15,
+        "max_radius_relative_error_vs_ode_common_pre_event": 0.7640916276178611,
+        "common_pre_event_end_a": 0.4999999999999683,
+        "common_pre_event_samples": 1610,
+        "event_relative_error_vs_ode": 0.06484372000637251,
+        "partial_event_root_position_evaluations": 5,
+        "steps": 1789,
+        "maximum_step_halvings": 5
+      },
+      "checks": [
+        {
+          "name": "finite",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "event200_present",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "mass",
+          "value": 2.220446049250313e-16,
+          "threshold": 1e-12,
+          "passed": true
+        },
+        {
+          "name": "total_force",
+          "value": 1.3151675948237987e-14,
+          "threshold": 1e-11,
+          "passed": true
+        },
+        {
+          "name": "actual_drift_cells",
+          "value": 0.07497608707368927,
+          "threshold": 0.2,
+          "passed": true
+        },
+        {
+          "name": "actual_dt_over_tdyn",
+          "value": 0.005762410314613394,
+          "threshold": 0.05,
+          "passed": true
+        },
+        {
+          "name": "nonhomology",
+          "value": 0.3420882146664158,
+          "threshold": 0.1,
+          "passed": false
+        },
+        {
+          "name": "axis_deviation",
+          "value": 7.771561172376096e-15,
+          "threshold": 0.1,
+          "passed": true
+        }
+      ],
+      "failures": [
+        {
+          "name": "nonhomology",
+          "value": 0.3420882146664158,
+          "threshold": 0.1,
+          "passed": false
+        }
+      ],
+      "wall_seconds": 4872.25070803985,
+      "array_sha256": "f5187842c0257b11974e30fd4fd9d59ee4cf6c6f8ea6c32a1d223678a6dff326",
+      "state_sha256": null,
+      "json_sha256": "80db896f8abc0615fce68378727f63e780120a62f0855533ff4c7c621ea2fc7b"
+    },
+    "ref_shift": {
+      "status": "completed",
+      "event200": {
+        "a": 0.5114809715074147,
+        "z": 0.9551069457243797,
+        "t_Gyr": 6.0271484322976585,
+        "y_median": 0.17099759466855863,
+        "Delta_proxy": 199.99999999688092,
+        "nonhomology_fraction": 0.33749021615233915,
+        "axis_ratio_min_max": 0.8626666288108724,
+        "actual_enclosed_mean_density_ratio": 267.7579865305534,
+        "actual_enclosed_particle_count_at_proxy_radius": 22970,
+        "estimator": "first fixed-label median(r/q)^(-3)=200, temporary partial KDK root"
+      },
+      "turnaround": {
+        "a": 0.374946468180101,
+        "t_Gyr": 3.8800730102977665,
+        "bracket_a": [
+          0.37479974517167775,
+          0.3754067577082673
+        ],
+        "estimator": "linear interpolation of physical radial expansion ratio in ln(a)",
+        "bracket_relative_width": 0.0016195649661168154
+      },
+      "ode_event200": {
+        "a": 0.4999999999999683,
+        "N": -0.6931471805600087,
+        "E": 1.7906367583002212,
+        "dlnE": -1.1798177384300288,
+        "Omega_m": 0.785933045946586,
+        "t_Gyr": 5.840746999307794,
+        "y": 0.1709975946676697,
+        "y_N": -1.724798868555325,
+        "Delta": 200.0,
+        "delta": 199.0,
+        "comoving_radius_Mpc_h": 0.42749398666917426,
+        "physical_radius_Mpc_h": 0.21374699333457356,
+        "physical_radial_velocity_km_s": -347.7867095145961,
+        "peculiar_radial_velocity_km_s": -386.0610318387001
+      },
+      "initial_force_diagnostic": {
+        "mean_radial_g": -0.00329275222971999,
+        "median_radial_g": -0.003211132581982312,
+        "fraction_particles_with_inward_g": 0.9956697459584296,
+        "relative_L2_error_vs_uniform_core": 0.7417952460274692,
+        "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units",
+        "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only",
+        "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"
+      },
+      "diagnostics": {
+        "finite": true,
+        "max_mass_relative_error": 1.1102230246251565e-16,
+        "max_total_force_normalized": 4.700096530905737e-15,
+        "max_total_force_absolute": 1.6380328281736837e-15,
+        "max_momentum_change_absolute": 9.458313370065415e-17,
+        "max_drift_cells": 0.1499369648758862,
+        "max_actual_dt_over_tdyn": 0.011413233981264256,
+        "max_nonhomology_fraction": 0.33749021615233915,
+        "max_axis_deviation": 0.13733337118912758,
+        "max_radius_relative_error_vs_ode_common_pre_event": 0.30783762037473106,
+        "common_pre_event_end_a": 0.4999999999999683,
+        "common_pre_event_samples": 794,
+        "event_relative_error_vs_ode": 0.02296194301489418,
+        "partial_event_root_position_evaluations": 6,
+        "steps": 824,
+        "maximum_step_halvings": 5
+      },
+      "checks": [
+        {
+          "name": "finite",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "event200_present",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "mass",
+          "value": 1.1102230246251565e-16,
+          "threshold": 1e-12,
+          "passed": true
+        },
+        {
+          "name": "total_force",
+          "value": 4.700096530905737e-15,
+          "threshold": 1e-11,
+          "passed": true
+        },
+        {
+          "name": "actual_drift_cells",
+          "value": 0.1499369648758862,
+          "threshold": 0.2,
+          "passed": true
+        },
+        {
+          "name": "actual_dt_over_tdyn",
+          "value": 0.011413233981264256,
+          "threshold": 0.05,
+          "passed": true
+        },
+        {
+          "name": "nonhomology",
+          "value": 0.33749021615233915,
+          "threshold": 0.1,
+          "passed": false
+        },
+        {
+          "name": "axis_deviation",
+          "value": 0.13733337118912758,
+          "threshold": 0.1,
+          "passed": false
+        }
+      ],
+      "failures": [
+        {
+          "name": "nonhomology",
+          "value": 0.33749021615233915,
+          "threshold": 0.1,
+          "passed": false
+        },
+        {
+          "name": "axis_deviation",
+          "value": 0.13733337118912758,
+          "threshold": 0.1,
+          "passed": false
+        }
+      ],
+      "wall_seconds": 2102.4309004098177,
+      "array_sha256": "586a95986f63c67af5018a8ee44c7be3f110cfa9e7731ea7ac2a721096ecb751",
+      "state_sha256": null,
+      "json_sha256": "3edbaf93041c848561a6d4116ec28d7a67a8097ebe494fa6ffe8c00005b98379"
+    },
+    "clock_main": {
+      "status": "completed",
+      "event200": {
+        "a": 0.5325213869386797,
+        "z": 0.8778588513575529,
+        "t_Gyr": 6.370250076046147,
+        "y_median": 0.17099759467074982,
+        "Delta_proxy": 199.99999998919242,
+        "nonhomology_fraction": 0.2827605760149674,
+        "axis_ratio_min_max": 0.9999999999999962,
+        "actual_enclosed_mean_density_ratio": 280.9768614316216,
+        "actual_enclosed_particle_count_at_proxy_radius": 24104,
+        "estimator": "first fixed-label median(r/q)^(-3)=200, temporary partial KDK root"
+      },
+      "turnaround": {
+        "a": 0.37624382352980557,
+        "t_Gyr": 3.89938872349898,
+        "bracket_a": [
+          0.37601475334109347,
+          0.37662373366234775
+        ],
+        "estimator": "linear interpolation of physical radial expansion ratio in ln(a)",
+        "bracket_relative_width": 0.0016195649661168154
+      },
+      "ode_event200": {
+        "a": 0.5000753964251708,
+        "N": -0.6929963990777026,
+        "E": 1.7903647982755462,
+        "dlnE": -1.1797309490374062,
+        "Omega_m": 0.785816293667806,
+        "t_Gyr": 5.841773395321032,
+        "y": 0.1709975946676697,
+        "y_N": -1.7246637522205226,
+        "Delta": 200.0,
+        "delta": 199.0,
+        "comoving_radius_Mpc_h": 0.42749398666917426,
+        "physical_radius_Mpc_h": 0.213779224852964,
+        "physical_radial_velocity_km_s": -347.7560808187286,
+        "peculiar_radial_velocity_km_s": -386.03036069666655
+      },
+      "initial_force_diagnostic": {
+        "mean_radial_g": -0.003616003366019882,
+        "median_radial_g": -0.0038847630786589963,
+        "fraction_particles_with_inward_g": 0.9711316397228638,
+        "relative_L2_error_vs_uniform_core": 0.6530577522340192,
+        "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units",
+        "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only",
+        "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"
+      },
+      "diagnostics": {
+        "finite": true,
+        "max_mass_relative_error": 1.1102230246251565e-16,
+        "max_total_force_normalized": 1.1562201993385545e-14,
+        "max_total_force_absolute": 1.2649737539466883e-15,
+        "max_momentum_change_absolute": 1.974994144332722e-16,
+        "max_drift_cells": 0.14992401126304827,
+        "max_actual_dt_over_tdyn": 0.011560974206657665,
+        "max_nonhomology_fraction": 0.3415378470213961,
+        "max_axis_deviation": 4.6629367034256575e-15,
+        "max_radius_relative_error_vs_ode_common_pre_event": 0.7623240819363699,
+        "common_pre_event_end_a": 0.5000753964251708,
+        "common_pre_event_samples": 806,
+        "event_relative_error_vs_ode": 0.0648821972555571,
+        "partial_event_root_position_evaluations": 6,
+        "steps": 896,
+        "maximum_step_halvings": 5
+      },
+      "checks": [
+        {
+          "name": "finite",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "event200_present",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "mass",
+          "value": 1.1102230246251565e-16,
+          "threshold": 1e-12,
+          "passed": true
+        },
+        {
+          "name": "total_force",
+          "value": 1.1562201993385545e-14,
+          "threshold": 1e-11,
+          "passed": true
+        },
+        {
+          "name": "actual_drift_cells",
+          "value": 0.14992401126304827,
+          "threshold": 0.2,
+          "passed": true
+        },
+        {
+          "name": "actual_dt_over_tdyn",
+          "value": 0.011560974206657665,
+          "threshold": 0.05,
+          "passed": true
+        },
+        {
+          "name": "nonhomology",
+          "value": 0.3415378470213961,
+          "threshold": 0.1,
+          "passed": false
+        },
+        {
+          "name": "axis_deviation",
+          "value": 4.6629367034256575e-15,
+          "threshold": 0.1,
+          "passed": true
+        }
+      ],
+      "failures": [
+        {
+          "name": "nonhomology",
+          "value": 0.3415378470213961,
+          "threshold": 0.1,
+          "passed": false
+        }
+      ],
+      "wall_seconds": 2352.8571304008365,
+      "array_sha256": "c961b690c124cceee5e866ea809eb9a0ebe1fb81027bd67209c7cf62511d65d2",
+      "state_sha256": "cc9a7e8f184b7d6f2a86a9a00279b5b73b04f07793f86bbfdcb8f9da37bd86da",
+      "json_sha256": "c11aafda5f2cb93b09874d8bfd893d0d7d9c5fa16639f9b224d65cb2d915f220"
+    },
+    "ref_particles128": {
+      "status": "completed",
+      "event200": {
+        "a": 0.5147345794003969,
+        "z": 0.9427488263269164,
+        "t_Gyr": 6.0801005089534454,
+        "y_median": 0.17099759466766978,
+        "Delta_proxy": 199.99999999999972,
+        "nonhomology_fraction": 0.2858000358194919,
+        "axis_ratio_min_max": 0.9999999999999996,
+        "actual_enclosed_mean_density_ratio": 265.24010559909533,
+        "actual_enclosed_particle_count_at_proxy_radius": 182032,
+        "estimator": "first fixed-label median(r/q)^(-3)=200, temporary partial KDK root"
+      },
+      "turnaround": {
+        "a": 0.3290240962661008,
+        "t_Gyr": 3.2075600478610533,
+        "bracket_a": [
+          0.32875514210925744,
+          0.32982088505211293
+        ],
+        "estimator": "linear interpolation of physical radial expansion ratio in ln(a)",
+        "bracket_relative_width": 0.003241752922913399
+      },
+      "ode_event200": {
+        "a": 0.4999999999999683,
+        "N": -0.6931471805600087,
+        "E": 1.7906367583002212,
+        "dlnE": -1.1798177384300288,
+        "Omega_m": 0.785933045946586,
+        "t_Gyr": 5.840746999307794,
+        "y": 0.1709975946676697,
+        "y_N": -1.724798868555325,
+        "Delta": 200.0,
+        "delta": 199.0,
+        "comoving_radius_Mpc_h": 0.42749398666917426,
+        "physical_radius_Mpc_h": 0.21374699333457356,
+        "physical_radial_velocity_km_s": -347.7867095145961,
+        "peculiar_radial_velocity_km_s": -386.0610318387001
+      },
+      "initial_force_diagnostic": {
+        "mean_radial_g": -0.003495400632707777,
+        "median_radial_g": -0.0037563452558253218,
+        "fraction_particles_with_inward_g": 1.0,
+        "relative_L2_error_vs_uniform_core": 0.1946770925121791,
+        "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units",
+        "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only",
+        "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"
+      },
+      "diagnostics": {
+        "finite": true,
+        "max_mass_relative_error": 2.220446049250313e-16,
+        "max_total_force_normalized": 1.484028698828935e-14,
+        "max_total_force_absolute": 3.762792174234531e-15,
+        "max_momentum_change_absolute": 1.6880476197593106e-16,
+        "max_drift_cells": 0.1499436011780918,
+        "max_actual_dt_over_tdyn": 0.011828792479342346,
+        "max_nonhomology_fraction": 0.2858000358194919,
+        "max_axis_deviation": 1.4432899320127035e-15,
+        "max_radius_relative_error_vs_ode_common_pre_event": 0.26513997941777,
+        "common_pre_event_end_a": 0.4999999999999683,
+        "common_pre_event_samples": 643,
+        "event_relative_error_vs_ode": 0.029469158800859097,
+        "partial_event_root_position_evaluations": 7,
+        "steps": 683,
+        "maximum_step_halvings": 5
+      },
+      "checks": [
+        {
+          "name": "finite",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "event200_present",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "mass",
+          "value": 2.220446049250313e-16,
+          "threshold": 1e-12,
+          "passed": true
+        },
+        {
+          "name": "total_force",
+          "value": 1.484028698828935e-14,
+          "threshold": 1e-11,
+          "passed": true
+        },
+        {
+          "name": "actual_drift_cells",
+          "value": 0.1499436011780918,
+          "threshold": 0.2,
+          "passed": true
+        },
+        {
+          "name": "actual_dt_over_tdyn",
+          "value": 0.011828792479342346,
+          "threshold": 0.05,
+          "passed": true
+        },
+        {
+          "name": "nonhomology",
+          "value": 0.2858000358194919,
+          "threshold": 0.1,
+          "passed": false
+        },
+        {
+          "name": "axis_deviation",
+          "value": 1.4432899320127035e-15,
+          "threshold": 0.1,
+          "passed": true
+        }
+      ],
+      "failures": [
+        {
+          "name": "nonhomology",
+          "value": 0.2858000358194919,
+          "threshold": 0.1,
+          "passed": false
+        }
+      ],
+      "wall_seconds": 7279.657496709377,
+      "array_sha256": "dcf9876305d48112c55d0f16f3509bb301b4ccf83cfab6f8811b593c1610cf6b",
+      "state_sha256": null,
+      "json_sha256": "25d069fb31637c081bbb20c1c1ef683c4bfad87f2bad95f32db7c2b2d4b9de6f"
+    }
+  },
+  "comparisons": {
+    "ref_halfstep_event_relative_to_main": -2.9815386764719953e-05,
+    "ref_particles128_event_relative_to_main": -0.033249250158918664,
+    "ref_shift_event_relative_to_main": -0.039360026462102904,
+    "single_clock_pair_fractional_a200_shift": 0.0001571115138183643,
+    "single_clock_pair_delta_t_Myr": 1.1601885245218213
+  },
+  "checks": [
+    {
+      "name": "ref_halfstep_event_vs_main",
+      "value": -2.9815386764719953e-05,
+      "threshold": 0.005,
+      "passed": true
+    },
+    {
+      "name": "ref_particles128_event_vs_main",
+      "value": -0.033249250158918664,
+      "threshold": 0.01,
+      "passed": false
+    },
+    {
+      "name": "ref_shift_event_vs_main",
+      "value": -0.039360026462102904,
+      "threshold": 0.01,
+      "passed": false
+    },
+    {
+      "name": "all_six_cases_completed",
+      "value": true,
+      "threshold": null,
+      "passed": true
+    }
+  ],
+  "failures": [
+    {
+      "name": "ref_particles128_event_vs_main",
+      "value": -0.033249250158918664,
+      "threshold": 0.01,
+      "passed": false
+    },
+    {
+      "name": "ref_shift_event_vs_main",
+      "value": -0.039360026462102904,
+      "threshold": 0.01,
+      "passed": false
+    }
+  ],
+  "case_failure_count": 9,
+  "wall_seconds": 9846.204951904714,
+  "concurrent_production_jobs": 2,
+  "scope": "Controlled collisionless collapse, no observed-data fit, virialization claim, halo catalogue, gas evolution or resolved tiny clock response"
+}

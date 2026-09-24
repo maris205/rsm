@@ -227,3 +227,23 @@
 <a id="r57"></a>
 
 **[57]** 本项目研究记录. 宇宙年龄、正则时钟与无碰撞引力聚类的最小连接（2026-09-24）。未单独发表的数值实验；[协议与复现入口](../experiments/cosmic_bridge_v01/README.md)、[结果与适用范围](../experiments/cosmic_bridge_v01/reports/results_cn.md)。标准背景参数及CAMB初谱为输入，采用共同初态检验后期连接；没有重新拟合观测。
+
+<a id="r58"></a>
+
+**[58]** Pace, F., Meyer, S., and Bartelmann, M. On the implementation of the spherical collapse model for dark energy models. *Journal of Cosmology and Astroparticle Physics* **2017**(10), 040 (2017). [DOI: 10.1088/1475-7516/2017/10/040](https://doi.org/10.1088/1475-7516/2017/10/040)；[作者预印本](https://arxiv.org/abs/1708.02477)。
+
+<a id="r59"></a>
+
+**[59]** Power, C., et al. The inner structure of ΛCDM haloes — I. A numerical convergence study. *Monthly Notices of the Royal Astronomical Society* **338**, 14–34 (2003). [作者预印本](https://arxiv.org/abs/astro-ph/0201544)。用于说明质量、力尺度与步长须分别核验，不把已平衡晕的收敛判据直接等同于本次内落球的精度。
+
+<a id="r60"></a>
+
+**[60]** Katz, N., Weinberg, D. H., and Hernquist, L. Cosmological Simulations with TreeSPH. *The Astrophysical Journal Supplement Series* **105**, 19 (1996). [DOI: 10.1086/192305](https://doi.org/10.1086/192305)；[作者原文，第3.2节及表1—2](https://arxiv.org/pdf/astro-ph/9509107)。本轮采用其中历史原初H/He解析速率的无外部光电离情形，仅作瞬时冷却诊断。
+
+<a id="r61"></a>
+
+**[61]** Smith, B. D., et al. Grackle: a chemistry and cooling library for astrophysics. *Monthly Notices of the Royal Astronomical Society* **466**, 2217–2234 (2017). [DOI: 10.1093/mnras/stw3291](https://doi.org/10.1093/mnras/stw3291)；[作者预印本](https://arxiv.org/abs/1610.09591)。速率实现对照采用[官方3.4.1版解析平衡工具](https://github.com/grackle-project/grackle/blob/af7939494ce65007887ada7b98d1813df6843346/src/python/gracklepy/utilities/primordial_equilibrium.py)的`rates='cen'`；没有调用完整Grackle气体演化求解器。
+
+<a id="r62"></a>
+
+**[62]** 本项目研究记录. 受控球形塌缩、分辨率检查与原初气体冷却接口（2026-09-24）。未单独发表的条件数值实验；[协议与复现入口](../experiments/halo_cooling_v01/README.md)、[完整结果与限制](../experiments/halo_cooling_v01/reports/results_cn.md)。采用指定补偿初态和标准原子速率，不构成星系形成或观测验证。

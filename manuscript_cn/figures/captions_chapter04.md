@@ -43,3 +43,11 @@ SVG 在保存后移除行尾空白，便于版本管理检查。
 完整功率及时间/空间差异见实验目录的`figures/matter_power_diagnostics.pdf`。该图的CAMB z=0曲线是外部线性集合参考，未经过同一有限盒、带限和CIC窗口；差异不等于观测拟合误差或纯非线性修正。
 
 复现：`python manuscript_cn/figures/make_chapter04_cosmic_bridge.py`。脚本只读取本仓库保存结果，输入输出身份与显示读数记录于`experiments/cosmic_bridge_v01/figures/plot_inputs.json`；不重新积分或拟合。
+
+## 图4.5：受控塌缩的数值精度与条件冷却
+
+文件：`chapter04_halo_cooling_cn.{pdf,png}`。来源为[halo_cooling_v01](../../experiments/halo_cooling_v01/README.md)的保存结果，四面板分别展示物理半径—宇宙年龄、六配置的事件及半径误差、质量—红移网格上的瞬时冷却／动力学时间比，以及两个连续球形事件的时间尺度。PM半径使用固定拉格朗日标签的中位缩放，是同调代理；与独立ODE的差异和未通过门限均保留，不以调整初态改善图片。
+
+冷却网格中同一质量、红移的两背景微物理严格相同，因此使用一张共用热图；两条事件读数不同仅因达到阈值的红移不同。12个低于1e4 K、1个高于1e8 K的状态标为范围外，30个低温敏感状态及局部电离松弛警示另作标记。特征温度和均匀气体密度均是条件输入，图不表示已模拟气体热化、恒星或星系。
+
+复现：`python manuscript_cn/figures/make_chapter04_halo_cooling.py`。只读保存数据，不重积分。输入输出哈希、失败标记与显示规则记录于`experiments/halo_cooling_v01/figures/plot_inputs.json`。正式数值及限制以正文和实验完整报告为准。

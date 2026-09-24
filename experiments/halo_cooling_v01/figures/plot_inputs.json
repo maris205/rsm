@@ -1,0 +1,2068 @@
+{
+  "scope": "Figure from saved controlled-collapse and prescribed-state cooling outputs; no numerical evolution during plotting.",
+  "protocol_sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2",
+  "generator_sha256": "22f7a0030e4962bd762a927c1d8869e8b37a6bc077fd92d776428f581eb54b7f",
+  "font": "Droid Sans Fallback",
+  "inputs": {
+    "experiments/halo_cooling_v01/protocol.md": {
+      "sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2",
+      "bytes": 7448
+    },
+    "experiments/halo_cooling_v01/results/sphere_summary.json": {
+      "sha256": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275",
+      "bytes": 41038
+    },
+    "experiments/halo_cooling_v01/results/sphere_reference.csv": {
+      "sha256": "f96b0572abb16132aa7425143fdc498445bf2ddf45f9d971767d8c26075ee8a1",
+      "bytes": 1086897
+    },
+    "experiments/halo_cooling_v01/results/sphere_clock.csv": {
+      "sha256": "d167a2120c81799dbd5fa105b525354c0111bde73837160bd30a3b49618d8d32",
+      "bytes": 1082530
+    },
+    "experiments/halo_cooling_v01/results/cooling_grid.csv": {
+      "sha256": "8eda53b1b2450ccb80e8f5e2414290538c3455ce36a5d1a245e4bf0c89a697bc",
+      "bytes": 462537
+    },
+    "experiments/halo_cooling_v01/results/cooling_events.json": {
+      "sha256": "f1d8a63854ca3662fa82e110235b0ba89e1396cb603d8e48792b5351b61fd460",
+      "bytes": 8290
+    },
+    "experiments/halo_cooling_v01/results/cooling_summary.json": {
+      "sha256": "510c309d32bde5e7cac7d2e5cccdd30879a1f490f38801b3eb0ebe7e71e75af1",
+      "bytes": 4762
+    },
+    "experiments/halo_cooling_v01/results/spherical_pm_summary.json": {
+      "sha256": "b802585684d1e787679263f1ddf9b113b8c72f4a0beec6f9e25824c16c653393",
+      "bytes": 30825
+    },
+    "experiments/halo_cooling_v01/results/pm_ref_force128.json": {
+      "sha256": "ce70ce1caccd31eaf8e567fa95c0fb8c71f1535b65c2823b8d6ad27e4940389f",
+      "bytes": 826112
+    },
+    "experiments/halo_cooling_v01/results/pm_ref_main.json": {
+      "sha256": "9ae22c2acb3f724ed59228a53439a37c21af7488cf9daacee6d16f46604564bd",
+      "bytes": 1642432
+    },
+    "experiments/halo_cooling_v01/results/pm_ref_halfstep.json": {
+      "sha256": "80db896f8abc0615fce68378727f63e780120a62f0855533ff4c7c621ea2fc7b",
+      "bytes": 3276731
+    },
+    "experiments/halo_cooling_v01/results/pm_ref_particles128.json": {
+      "sha256": "25d069fb31637c081bbb20c1c1ef683c4bfad87f2bad95f32db7c2b2d4b9de6f",
+      "bytes": 1259788
+    },
+    "experiments/halo_cooling_v01/results/pm_ref_shift.json": {
+      "sha256": "3edbaf93041c848561a6d4116ec28d7a67a8097ebe494fa6ffe8c00005b98379",
+      "bytes": 1515496
+    },
+    "experiments/halo_cooling_v01/results/pm_clock_main.json": {
+      "sha256": "c11aafda5f2cb93b09874d8bfd893d0d7d9c5fa16639f9b224d65cb2d915f220",
+      "bytes": 1643868
+    }
+  },
+  "readout": {
+    "radius": {
+      "reference": {
+        "ode_turnaround_age_Gyr": 3.176549502526182,
+        "ode_Delta200_age_Gyr": 5.840746999307794,
+        "pm_last_age_Gyr": 6.369089887521625,
+        "pm_last_radius_proxy_Mpc": 0.33770612747762285,
+        "pm_history_points": 896
+      },
+      "clock": {
+        "ode_turnaround_age_Gyr": 3.177104879014233,
+        "ode_Delta200_age_Gyr": 5.841773395321032,
+        "pm_last_age_Gyr": 6.370250076046147,
+        "pm_last_radius_proxy_Mpc": 0.3377591850046212,
+        "pm_history_points": 897
+      }
+    },
+    "pm_errors": {
+      "runs": {
+        "ref_force128": {
+          "event_relative_error_vs_own_ode": 0.06533607155376187,
+          "max_common_pre_event_radius_relative_error": 0.7904621771828035,
+          "sample_count": 408,
+          "last_comparison_a": 0.4999165777519322,
+          "pm_event_missing": false,
+          "saved_protocol_failures": [
+            {
+              "name": "nonhomology",
+              "value": 0.4290030736003171,
+              "threshold": 0.1,
+              "passed": false
+            }
+          ]
+        },
+        "ref_main": {
+          "event_relative_error_vs_own_ode": 0.06487546968035729,
+          "max_common_pre_event_radius_relative_error": 0.7647428536995822,
+          "sample_count": 806,
+          "last_comparison_a": 0.4999165777519144,
+          "pm_event_missing": false,
+          "saved_protocol_failures": [
+            {
+              "name": "nonhomology",
+              "value": 0.34124554620354486,
+              "threshold": 0.1,
+              "passed": false
+            },
+            {
+              "name": "PM_vs_ODE_event",
+              "value": 0.06487546968035729,
+              "threshold": 0.02,
+              "passed": false
+            },
+            {
+              "name": "PM_vs_ODE_radius",
+              "value": 0.7647428536995822,
+              "threshold": 0.03,
+              "passed": false
+            }
+          ]
+        },
+        "ref_halfstep": {
+          "event_relative_error_vs_own_ode": 0.06484372000637251,
+          "max_common_pre_event_radius_relative_error": 0.7640916276178611,
+          "sample_count": 1610,
+          "last_comparison_a": 0.4999165777518715,
+          "pm_event_missing": false,
+          "saved_protocol_failures": [
+            {
+              "name": "nonhomology",
+              "value": 0.3420882146664158,
+              "threshold": 0.1,
+              "passed": false
+            }
+          ]
+        },
+        "ref_particles128": {
+          "event_relative_error_vs_own_ode": 0.029469158800859097,
+          "max_common_pre_event_radius_relative_error": 0.26513997941777,
+          "sample_count": 643,
+          "last_comparison_a": 0.49991657775192555,
+          "pm_event_missing": false,
+          "saved_protocol_failures": [
+            {
+              "name": "nonhomology",
+              "value": 0.2858000358194919,
+              "threshold": 0.1,
+              "passed": false
+            }
+          ]
+        },
+        "ref_shift": {
+          "event_relative_error_vs_own_ode": 0.02296194301489418,
+          "max_common_pre_event_radius_relative_error": 0.30783762037473106,
+          "sample_count": 794,
+          "last_comparison_a": 0.499916577751917,
+          "pm_event_missing": false,
+          "saved_protocol_failures": [
+            {
+              "name": "nonhomology",
+              "value": 0.33749021615233915,
+              "threshold": 0.1,
+              "passed": false
+            },
+            {
+              "name": "axis_deviation",
+              "value": 0.13733337118912758,
+              "threshold": 0.1,
+              "passed": false
+            }
+          ]
+        },
+        "clock_main": {
+          "event_relative_error_vs_own_ode": 0.0648821972555571,
+          "max_common_pre_event_radius_relative_error": 0.7623240819363699,
+          "sample_count": 806,
+          "last_comparison_a": 0.4999165777519144,
+          "pm_event_missing": false,
+          "saved_protocol_failures": [
+            {
+              "name": "nonhomology",
+              "value": 0.3415378470213961,
+              "threshold": 0.1,
+              "passed": false
+            }
+          ]
+        }
+      },
+      "matrix_protocol_failures": [
+        {
+          "name": "ref_particles128_event_vs_main",
+          "value": -0.033249250158918664,
+          "threshold": 0.01,
+          "passed": false
+        },
+        {
+          "name": "ref_shift_event_vs_main",
+          "value": -0.039360026462102904,
+          "threshold": 0.01,
+          "passed": false
+        }
+      ],
+      "matrix_comparisons": {
+        "ref_halfstep_event_relative_to_main": -2.9815386764719953e-05,
+        "ref_particles128_event_relative_to_main": -0.033249250158918664,
+        "ref_shift_event_relative_to_main": -0.039360026462102904,
+        "single_clock_pair_fractional_a200_shift": 0.0001571115138183643,
+        "single_clock_pair_delta_t_Myr": 1.1601885245218213
+      }
+    },
+    "cooling_grid": {
+      "colour_limits": [
+        -4.0,
+        4.0
+      ],
+      "cold_cells_gray_hatched": 12,
+      "hot_cells_gray_hatched": 1,
+      "sensitive_cells_dotted": 30,
+      "local_CIE_warning_cells": 63,
+      "grid_interpolation": "none; redshifts shown as discrete equal-height sampled rows",
+      "backgrounds_identical_at_fixed_M_z": true,
+      "cells": [
+        {
+          "log10_M_Msun": 8.0,
+          "z": 0.0,
+          "Tchar_K": 2201.5142236066376,
+          "log10_tcool_over_tdyn": 44.66336912459874,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.25,
+          "z": 0.0,
+          "Tchar_K": 3231.3809650693875,
+          "log10_tcool_over_tdyn": 27.28915196566935,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.5,
+          "z": 0.0,
+          "Tchar_K": 4743.018613877587,
+          "log10_tcool_over_tdyn": 15.452068751167552,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.75,
+          "z": 0.0,
+          "Tchar_K": 6961.7938670588255,
+          "log10_tcool_over_tdyn": 7.388763874636597,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.0,
+          "z": 0.0,
+          "Tchar_K": 10202.399181671351,
+          "log10_tcool_over_tdyn": 1.9177355420507431,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.25,
+          "z": 0.0,
+          "Tchar_K": 13660.265857245082,
+          "log10_tcool_over_tdyn": -0.9227323766151099,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.5,
+          "z": 0.0,
+          "Tchar_K": 15898.144763418082,
+          "log10_tcool_over_tdyn": -1.689488918410919,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.75,
+          "z": 0.0,
+          "Tchar_K": 18677.70681817923,
+          "log10_tcool_over_tdyn": -1.8369969117469493,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.0,
+          "z": 0.0,
+          "Tchar_K": 24812.16816405347,
+          "log10_tcool_over_tdyn": -1.4932147657643395,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.25,
+          "z": 0.0,
+          "Tchar_K": 35096.71422426055,
+          "log10_tcool_over_tdyn": -1.0085960106212029,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.5,
+          "z": 0.0,
+          "Tchar_K": 51119.35374961179,
+          "log10_tcool_over_tdyn": -0.5945850065490018,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.75,
+          "z": 0.0,
+          "Tchar_K": 74265.16189345333,
+          "log10_tcool_over_tdyn": -0.6968146336616031,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 11.0,
+          "z": 0.0,
+          "Tchar_K": 106648.02920363727,
+          "log10_tcool_over_tdyn": -0.4843833975070917,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.25,
+          "z": 0.0,
+          "Tchar_K": 155944.21855627472,
+          "log10_tcool_over_tdyn": 0.019488955756225695,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.5,
+          "z": 0.0,
+          "Tchar_K": 228802.35239576554,
+          "log10_tcool_over_tdyn": 0.4528915696386072,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.75,
+          "z": 0.0,
+          "Tchar_K": 335813.3378177227,
+          "log10_tcool_over_tdyn": 0.7943992881148909,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.0,
+          "z": 0.0,
+          "Tchar_K": 492898.37437962845,
+          "log10_tcool_over_tdyn": 1.060716755497155,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.25,
+          "z": 0.0,
+          "Tchar_K": 723471.9141040667,
+          "log10_tcool_over_tdyn": 1.2720565044938978,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.5,
+          "z": 0.0,
+          "Tchar_K": 1061909.2051143833,
+          "log10_tcool_over_tdyn": 1.4464902203508208,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.75,
+          "z": 0.0,
+          "Tchar_K": 1558667.9607544462,
+          "log10_tcool_over_tdyn": 1.597386028847161,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.0,
+          "z": 0.0,
+          "Tchar_K": 2287810.4991033413,
+          "log10_tcool_over_tdyn": 1.7333579744697085,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.25,
+          "z": 0.0,
+          "Tchar_K": 3358045.625626609,
+          "log10_tcool_over_tdyn": 1.8594735432024585,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.5,
+          "z": 0.0,
+          "Tchar_K": 4928936.124044383,
+          "log10_tcool_over_tdyn": 1.978563609536104,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.75,
+          "z": 0.0,
+          "Tchar_K": 7234688.167519915,
+          "log10_tcool_over_tdyn": 2.092193716511488,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 14.0,
+          "z": 0.0,
+          "Tchar_K": 10619069.423143309,
+          "log10_tcool_over_tdyn": 2.2012717766687317,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 8.0,
+          "z": 0.5,
+          "Tchar_K": 3302.271335409957,
+          "log10_tcool_over_tdyn": 26.227696099027387,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.25,
+          "z": 0.5,
+          "Tchar_K": 4847.071447477543,
+          "log10_tcool_over_tdyn": 14.64475849393835,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.5,
+          "z": 0.5,
+          "Tchar_K": 7114.518756163437,
+          "log10_tcool_over_tdyn": 6.754673785744274,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.75,
+          "z": 0.5,
+          "Tchar_K": 10419.451444587452,
+          "log10_tcool_over_tdyn": 1.4095931196008857,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.0,
+          "z": 0.5,
+          "Tchar_K": 13805.438078750121,
+          "log10_tcool_over_tdyn": -1.2614069034078217,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.25,
+          "z": 0.5,
+          "Tchar_K": 16022.54531532331,
+          "log10_tcool_over_tdyn": -1.9745574555399625,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.5,
+          "z": 0.5,
+          "Tchar_K": 18901.72877919555,
+          "log10_tcool_over_tdyn": -2.0948263824298943,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.75,
+          "z": 0.5,
+          "Tchar_K": 25296.411057112447,
+          "log10_tcool_over_tdyn": -1.7289979277550123,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.0,
+          "z": 0.5,
+          "Tchar_K": 35826.43497748582,
+          "log10_tcool_over_tdyn": -1.2456248631309332,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.25,
+          "z": 0.5,
+          "Tchar_K": 52233.556091869956,
+          "log10_tcool_over_tdyn": -0.8467618864765607,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.5,
+          "z": 0.5,
+          "Tchar_K": 75784.49362324852,
+          "log10_tcool_over_tdyn": -0.9688761492513288,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.75,
+          "z": 0.5,
+          "Tchar_K": 108930.5767302977,
+          "log10_tcool_over_tdyn": -0.7210455719356806,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.0,
+          "z": 0.5,
+          "Tchar_K": 159357.2441225578,
+          "log10_tcool_over_tdyn": -0.21758870010113535,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.25,
+          "z": 0.5,
+          "Tchar_K": 233820.13770830733,
+          "log10_tcool_over_tdyn": 0.21040144447785966,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.5,
+          "z": 0.5,
+          "Tchar_K": 343179.8976629637,
+          "log10_tcool_over_tdyn": 0.5471396546970076,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.75,
+          "z": 0.5,
+          "Tchar_K": 503711.3887079395,
+          "log10_tcool_over_tdyn": 0.8098101829097497,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.0,
+          "z": 0.5,
+          "Tchar_K": 739343.3826697593,
+          "log10_tcool_over_tdyn": 1.0186187605775345,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.25,
+          "z": 0.5,
+          "Tchar_K": 1085205.3928965756,
+          "log10_tcool_over_tdyn": 1.1914130914429821,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.5,
+          "z": 0.5,
+          "Tchar_K": 1592862.1174089403,
+          "log10_tcool_over_tdyn": 1.341274990163795,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.75,
+          "z": 0.5,
+          "Tchar_K": 2338000.674088798,
+          "log10_tcool_over_tdyn": 1.4765809205647797,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.0,
+          "z": 0.5,
+          "Tchar_K": 3431714.7386056613,
+          "log10_tcool_over_tdyn": 1.6022392725757288,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.25,
+          "z": 0.5,
+          "Tchar_K": 5037067.601855677,
+          "log10_tcool_over_tdyn": 1.7209871806649184,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.5,
+          "z": 0.5,
+          "Tchar_K": 7393403.477391451,
+          "log10_tcool_over_tdyn": 1.8343397951989229,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.75,
+          "z": 0.5,
+          "Tchar_K": 10852031.643547788,
+          "log10_tcool_over_tdyn": 1.9431800219913637,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 14.0,
+          "z": 0.5,
+          "Tchar_K": 15928603.61044549,
+          "log10_tcool_over_tdyn": 2.048088403029512,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 8.0,
+          "z": 1.0,
+          "Tchar_K": 4403.028447209408,
+          "log10_tcool_over_tdyn": 16.954352657809256,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.25,
+          "z": 1.0,
+          "Tchar_K": 6462.761131630317,
+          "log10_tcool_over_tdyn": 8.268019004125081,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.5,
+          "z": 1.0,
+          "Tchar_K": 9481.76714534903,
+          "log10_tcool_over_tdyn": 2.3581541597012343,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.75,
+          "z": 1.0,
+          "Tchar_K": 13122.835629234001,
+          "log10_tcool_over_tdyn": -1.0674147339609643,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.0,
+          "z": 1.0,
+          "Tchar_K": 15481.066126221578,
+          "log10_tcool_over_tdyn": -2.056259841553355,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.25,
+          "z": 1.0,
+          "Tchar_K": 17988.435135136955,
+          "log10_tcool_over_tdyn": -2.297269053730203,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.5,
+          "z": 1.0,
+          "Tchar_K": 23247.103644871488,
+          "log10_tcool_over_tdyn": -2.0399368762817924,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.75,
+          "z": 1.0,
+          "Tchar_K": 32745.369512452635,
+          "log10_tcool_over_tdyn": -1.5528366131859657,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.0,
+          "z": 1.0,
+          "Tchar_K": 47478.05043059904,
+          "log10_tcool_over_tdyn": -1.10301702942454,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.25,
+          "z": 1.0,
+          "Tchar_K": 69232.71077585376,
+          "log10_tcool_over_tdyn": -1.1074341202548428,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.5,
+          "z": 1.0,
+          "Tchar_K": 99239.00552648371,
+          "log10_tcool_over_tdyn": -1.0238203328649296,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.75,
+          "z": 1.0,
+          "Tchar_K": 144799.30288759724,
+          "log10_tcool_over_tdyn": -0.5269061359380929,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.0,
+          "z": 1.0,
+          "Tchar_K": 212407.91941749872,
+          "log10_tcool_over_tdyn": -0.0751262483328168,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.25,
+          "z": 1.0,
+          "Tchar_K": 311743.5181008211,
+          "log10_tcool_over_tdyn": 0.2831545808336627,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.5,
+          "z": 1.0,
+          "Tchar_K": 457567.1812105336,
+          "log10_tcool_over_tdyn": 0.5624726450397844,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.75,
+          "z": 1.0,
+          "Tchar_K": 671612.2964170916,
+          "log10_tcool_over_tdyn": 0.7829363239513901,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.0,
+          "z": 1.0,
+          "Tchar_K": 985789.4778451881,
+          "log10_tcool_over_tdyn": 0.9633189580294647,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.25,
+          "z": 1.0,
+          "Tchar_K": 1446939.3722428954,
+          "log10_tcool_over_tdyn": 1.1179696178159733,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.5,
+          "z": 1.0,
+          "Tchar_K": 2123815.297054167,
+          "log10_tcool_over_tdyn": 1.2563477959250082,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.75,
+          "z": 1.0,
+          "Tchar_K": 3117333.5489252806,
+          "log10_tcool_over_tdyn": 1.3840991210210312,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.0,
+          "z": 1.0,
+          "Tchar_K": 4575619.08660504,
+          "log10_tcool_over_tdyn": 1.5043997557432622,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.25,
+          "z": 1.0,
+          "Tchar_K": 6716089.6577756535,
+          "log10_tcool_over_tdyn": 1.6190028518650301,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.5,
+          "z": 1.0,
+          "Tchar_K": 9857870.89344924,
+          "log10_tcool_over_tdyn": 1.7289103570740652,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.75,
+          "z": 1.0,
+          "Tchar_K": 14469375.171331933,
+          "log10_tcool_over_tdyn": 1.834757822465375,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 14.0,
+          "z": 1.0,
+          "Tchar_K": 21238137.841727573,
+          "log10_tcool_over_tdyn": 1.9370156547141013,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 8.0,
+          "z": 2.0,
+          "Tchar_K": 6604.541258621477,
+          "log10_tcool_over_tdyn": 7.605327681299728,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.25,
+          "z": 2.0,
+          "Tchar_K": 9687.778992523698,
+          "log10_tcool_over_tdyn": 1.8252929389986794,
+          "below_atomic_range": true,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.5,
+          "z": 2.0,
+          "Tchar_K": 13286.68379428612,
+          "log10_tcool_over_tdyn": -1.4302435134487181,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.75,
+          "z": 2.0,
+          "Tchar_K": 15601.672266308771,
+          "log10_tcool_over_tdyn": -2.3473197934393144,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.0,
+          "z": 2.0,
+          "Tchar_K": 18178.107262781567,
+          "log10_tcool_over_tdyn": -2.5608678822651374,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.25,
+          "z": 2.0,
+          "Tchar_K": 23687.356296548525,
+          "log10_tcool_over_tdyn": -2.2768382374962854,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.5,
+          "z": 2.0,
+          "Tchar_K": 33408.08106687103,
+          "log10_tcool_over_tdyn": -1.789993677270027,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.75,
+          "z": 2.0,
+          "Tchar_K": 48512.335162301264,
+          "log10_tcool_over_tdyn": -1.348339643132752,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.0,
+          "z": 2.0,
+          "Tchar_K": 70674.27019466803,
+          "log10_tcool_over_tdyn": -1.3851893705231189,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.25,
+          "z": 2.0,
+          "Tchar_K": 101335.37004106704,
+          "log10_tcool_over_tdyn": -1.2635517825744922,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.5,
+          "z": 2.0,
+          "Tchar_K": 147964.34820789672,
+          "log10_tcool_over_tdyn": -0.7630486718350471,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.75,
+          "z": 2.0,
+          "Tchar_K": 217065.52371877996,
+          "log10_tcool_over_tdyn": -0.31658449070013356,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.0,
+          "z": 2.0,
+          "Tchar_K": 318581.91563282843,
+          "log10_tcool_over_tdyn": 0.036736535075115394,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.25,
+          "z": 2.0,
+          "Tchar_K": 467605.0602115925,
+          "log10_tcool_over_tdyn": 0.3121816318489212,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.5,
+          "z": 2.0,
+          "Tchar_K": 686346.0491916168,
+          "log10_tcool_over_tdyn": 0.5299106909088793,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.75,
+          "z": 2.0,
+          "Tchar_K": 1007415.7365288206,
+          "log10_tcool_over_tdyn": 0.7085036339253151,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.0,
+          "z": 2.0,
+          "Tchar_K": 1478682.4119579245,
+          "log10_tcool_over_tdyn": 0.8620239464579605,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.25,
+          "z": 2.0,
+          "Tchar_K": 2170407.7261202736,
+          "log10_tcool_over_tdyn": 0.9996796230772211,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.5,
+          "z": 2.0,
+          "Tchar_K": 3185721.893950666,
+          "log10_tcool_over_tdyn": 1.1269423040910485,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.75,
+          "z": 2.0,
+          "Tchar_K": 4675999.45755728,
+          "log10_tcool_over_tdyn": 1.2468834738668142,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.0,
+          "z": 2.0,
+          "Tchar_K": 6863427.898957518,
+          "log10_tcool_over_tdyn": 1.3611990849278282,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.25,
+          "z": 2.0,
+          "Tchar_K": 10074133.860945232,
+          "log10_tcool_over_tdyn": 1.4708622640628832,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.5,
+          "z": 2.0,
+          "Tchar_K": 14786805.800816681,
+          "log10_tcool_over_tdyn": 1.5764951448092255,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.75,
+          "z": 2.0,
+          "Tchar_K": 21704062.290785637,
+          "log10_tcool_over_tdyn": 1.6785623612685219,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 14.0,
+          "z": 2.0,
+          "Tchar_K": 31857206.35940747,
+          "log10_tcool_over_tdyn": 1.7774627465124284,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 8.0,
+          "z": 4.0,
+          "Tchar_K": 10953.668199511765,
+          "log10_tcool_over_tdyn": 0.06756260089296548,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.25,
+          "z": 4.0,
+          "Tchar_K": 14140.69345538794,
+          "log10_tcool_over_tdyn": -2.2042194358130485,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.5,
+          "z": 4.0,
+          "Tchar_K": 16332.58552957258,
+          "log10_tcool_over_tdyn": -2.803115829064358,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.75,
+          "z": 4.0,
+          "Tchar_K": 19496.733386555974,
+          "log10_tcool_over_tdyn": -2.8564490096166595,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.0,
+          "z": 4.0,
+          "Tchar_K": 26516.262738138197,
+          "log10_tcool_over_tdyn": -2.444598709934014,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.25,
+          "z": 4.0,
+          "Tchar_K": 37682.9209081797,
+          "log10_tcool_over_tdyn": -1.9643516476481928,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.5,
+          "z": 4.0,
+          "Tchar_K": 55037.70721843474,
+          "log10_tcool_over_tdyn": -1.6128151774886612,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.75,
+          "z": 4.0,
+          "Tchar_K": 79583.34784159815,
+          "log10_tcool_over_tdyn": -1.7622256917006403,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 10.0,
+          "z": 4.0,
+          "Tchar_K": 114705.83451946724,
+          "log10_tcool_over_tdyn": -1.4366097776091107,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.25,
+          "z": 4.0,
+          "Tchar_K": 167960.4275938619,
+          "log10_tcool_over_tdyn": -0.9374474649287254,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.5,
+          "z": 4.0,
+          "Tchar_K": 246464.35618816377,
+          "log10_tcool_over_tdyn": -0.5225925851319586,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.75,
+          "z": 4.0,
+          "Tchar_K": 361742.1403447538,
+          "log10_tcool_over_tdyn": -0.19718844566340327,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.0,
+          "z": 4.0,
+          "Tchar_K": 530957.8667103023,
+          "log10_tcool_over_tdyn": 0.05690300246820131,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.25,
+          "z": 4.0,
+          "Tchar_K": 779336.0408480973,
+          "log10_tcool_over_tdyn": 0.2598055685242544,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.5,
+          "z": 4.0,
+          "Tchar_K": 1143906.7179636364,
+          "log10_tcool_over_tdyn": 0.42879204455982695,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.75,
+          "z": 4.0,
+          "Tchar_K": 1679023.9464210724,
+          "log10_tcool_over_tdyn": 0.5762524788161251,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.0,
+          "z": 4.0,
+          "Tchar_K": 2464468.9827339873,
+          "log10_tcool_over_tdyn": 0.7100044659247147,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.25,
+          "z": 4.0,
+          "Tchar_K": 3617344.8548973543,
+          "log10_tcool_over_tdyn": 0.834587706000419,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.5,
+          "z": 4.0,
+          "Tchar_K": 5309535.36884246,
+          "log10_tcool_over_tdyn": 0.9525242296684321,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.75,
+          "z": 4.0,
+          "Tchar_K": 7793331.480310999,
+          "log10_tcool_over_tdyn": 1.0652144657726574,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.0,
+          "z": 4.0,
+          "Tchar_K": 11439045.684814021,
+          "log10_tcool_over_tdyn": 1.1734848196107794,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.25,
+          "z": 4.0,
+          "Tchar_K": 16790222.399983484,
+          "log10_tcool_over_tdyn": 1.2778901317897022,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.5,
+          "z": 4.0,
+          "Tchar_K": 24644675.728157613,
+          "log10_tcool_over_tdyn": 1.3788664727472448,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.75,
+          "z": 4.0,
+          "Tchar_K": 36173436.62681289,
+          "log10_tcool_over_tdyn": 1.4768010249567736,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 14.0,
+          "z": 4.0,
+          "Tchar_K": 53095343.47914296,
+          "log10_tcool_over_tdyn": 1.572059668907503,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 8.0,
+          "z": 6.0,
+          "Tchar_K": 13840.790487908258,
+          "log10_tcool_over_tdyn": -2.2825281393133756,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.25,
+          "z": 6.0,
+          "Tchar_K": 16053.697401237212,
+          "log10_tcool_over_tdyn": -2.9830146928569756,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.5,
+          "z": 6.0,
+          "Tchar_K": 18959.162749854506,
+          "log10_tcool_over_tdyn": -3.0964983122763075,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.75,
+          "z": 6.0,
+          "Tchar_K": 25418.37671344612,
+          "log10_tcool_over_tdyn": -2.7254603911478426,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.0,
+          "z": 6.0,
+          "Tchar_K": 36010.770285359846,
+          "log10_tcool_over_tdyn": -2.2424070667963223,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.25,
+          "z": 6.0,
+          "Tchar_K": 52513.894864820206,
+          "log10_tcool_over_tdyn": -1.847682215776364,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.5,
+          "z": 6.0,
+          "Tchar_K": 76165.6404928101,
+          "log10_tcool_over_tdyn": -1.9739963009559145,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.75,
+          "z": 6.0,
+          "Tchar_K": 109505.97491038249,
+          "log10_tcool_over_tdyn": -1.7176427861832617,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.0,
+          "z": 6.0,
+          "Tchar_K": 160216.35800499172,
+          "log10_tcool_over_tdyn": -1.2144251883187618,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.25,
+          "z": 6.0,
+          "Tchar_K": 235083.03360522306,
+          "log10_tcool_over_tdyn": -0.7877797846372068,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.5,
+          "z": 6.0,
+          "Tchar_K": 345033.91856731905,
+          "log10_tcool_over_tdyn": -0.4522168567775835,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.75,
+          "z": 6.0,
+          "Tchar_K": 506432.81049921934,
+          "log10_tcool_over_tdyn": -0.1904416384713085,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.0,
+          "z": 6.0,
+          "Tchar_K": 743337.9157866271,
+          "log10_tcool_over_tdyn": 0.01774742744077053,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.25,
+          "z": 6.0,
+          "Tchar_K": 1091068.5796658236,
+          "log10_tcool_over_tdyn": 0.19014120871764434,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.5,
+          "z": 6.0,
+          "Tchar_K": 1601468.1057720669,
+          "log10_tcool_over_tdyn": 0.33975051208760554,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.75,
+          "z": 6.0,
+          "Tchar_K": 2350632.5416272944,
+          "log10_tcool_over_tdyn": 0.4748934681998071,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.0,
+          "z": 6.0,
+          "Tchar_K": 3450255.7871955484,
+          "log10_tcool_over_tdyn": 0.600439622569384,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.25,
+          "z": 6.0,
+          "Tchar_K": 5064282.141297066,
+          "log10_tcool_over_tdyn": 0.7191033063340739,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.5,
+          "z": 6.0,
+          "Tchar_K": 7433348.959913322,
+          "log10_tcool_over_tdyn": 0.8323874472672753,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.75,
+          "z": 6.0,
+          "Tchar_K": 10910663.594725825,
+          "log10_tcool_over_tdyn": 0.9411689027857677,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.0,
+          "z": 6.0,
+          "Tchar_K": 16014663.546444047,
+          "log10_tcool_over_tdyn": 1.0460254502082684,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.25,
+          "z": 6.0,
+          "Tchar_K": 23506311.0034664,
+          "log10_tcool_over_tdyn": 1.1474028206901434,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.5,
+          "z": 6.0,
+          "Tchar_K": 34502545.71114246,
+          "log10_tcool_over_tdyn": 1.2456921449723501,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.75,
+          "z": 6.0,
+          "Tchar_K": 50642811.01120258,
+          "log10_tcool_over_tdyn": 1.3412612546255334,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 14.0,
+          "z": 6.0,
+          "Tchar_K": 74333480.64098251,
+          "log10_tcool_over_tdyn": 1.4344639212590737,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 8.0,
+          "z": 9.0,
+          "Tchar_K": 15898.144763418082,
+          "log10_tcool_over_tdyn": -3.189488918410919,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.25,
+          "z": 9.0,
+          "Tchar_K": 18677.70681817923,
+          "log10_tcool_over_tdyn": -3.3369969117469496,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.5,
+          "z": 9.0,
+          "Tchar_K": 24812.16816405347,
+          "log10_tcool_over_tdyn": -2.9932147657643395,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": true,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 8.75,
+          "z": 9.0,
+          "Tchar_K": 35096.71422426055,
+          "log10_tcool_over_tdyn": -2.508596010621203,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.0,
+          "z": 9.0,
+          "Tchar_K": 51119.35374961179,
+          "log10_tcool_over_tdyn": -2.0945850065490017,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.25,
+          "z": 9.0,
+          "Tchar_K": 74265.16189345333,
+          "log10_tcool_over_tdyn": -2.1968146336616035,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": true
+        },
+        {
+          "log10_M_Msun": 9.5,
+          "z": 9.0,
+          "Tchar_K": 106648.02920363727,
+          "log10_tcool_over_tdyn": -1.984383397507092,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 9.75,
+          "z": 9.0,
+          "Tchar_K": 155944.21855627472,
+          "log10_tcool_over_tdyn": -1.4805110442437746,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.0,
+          "z": 9.0,
+          "Tchar_K": 228802.35239576554,
+          "log10_tcool_over_tdyn": -1.0471084303613927,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.25,
+          "z": 9.0,
+          "Tchar_K": 335813.3378177227,
+          "log10_tcool_over_tdyn": -0.7056007118851095,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.5,
+          "z": 9.0,
+          "Tchar_K": 492898.37437962845,
+          "log10_tcool_over_tdyn": -0.43928324450284517,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 10.75,
+          "z": 9.0,
+          "Tchar_K": 723471.9141040667,
+          "log10_tcool_over_tdyn": -0.2279434955061025,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.0,
+          "z": 9.0,
+          "Tchar_K": 1061909.2051143833,
+          "log10_tcool_over_tdyn": -0.05350977964917942,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.25,
+          "z": 9.0,
+          "Tchar_K": 1558667.9607544462,
+          "log10_tcool_over_tdyn": 0.09738602884716083,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.5,
+          "z": 9.0,
+          "Tchar_K": 2287810.4991033413,
+          "log10_tcool_over_tdyn": 0.23335797446970816,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 11.75,
+          "z": 9.0,
+          "Tchar_K": 3358045.625626609,
+          "log10_tcool_over_tdyn": 0.3594735432024586,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.0,
+          "z": 9.0,
+          "Tchar_K": 4928936.124044383,
+          "log10_tcool_over_tdyn": 0.4785636095361043,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.25,
+          "z": 9.0,
+          "Tchar_K": 7234688.167519915,
+          "log10_tcool_over_tdyn": 0.5921937165114878,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.5,
+          "z": 9.0,
+          "Tchar_K": 10619069.423143309,
+          "log10_tcool_over_tdyn": 0.7012717766687315,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 12.75,
+          "z": 9.0,
+          "Tchar_K": 15586661.829901263,
+          "log10_tcool_over_tdyn": 0.8063897948575642,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.0,
+          "z": 9.0,
+          "Tchar_K": 22878090.393045433,
+          "log10_tcool_over_tdyn": 0.9079995344632302,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.25,
+          "z": 9.0,
+          "Tchar_K": 33580443.95549815,
+          "log10_tcool_over_tdyn": 1.0064945853254221,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.5,
+          "z": 9.0,
+          "Tchar_K": 49289350.72631891,
+          "log10_tcool_over_tdyn": 1.102243951668423,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 13.75,
+          "z": 9.0,
+          "Tchar_K": 72346872.623223,
+          "log10_tcool_over_tdyn": 1.1956023450355409,
+          "below_atomic_range": false,
+          "above_validated_range": false,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        },
+        {
+          "log10_M_Msun": 14.0,
+          "z": 9.0,
+          "Tchar_K": 106190686.41456409,
+          "log10_tcool_over_tdyn": 1.2869100570365108,
+          "below_atomic_range": false,
+          "above_validated_range": true,
+          "sensitive_temperature": false,
+          "local_CIE_warning": false
+        }
+      ]
+    },
+    "event_timescales": {
+      "reference": {
+        "time_Gyr": [
+          27.020952457916767,
+          0.9138741883780017,
+          1.0150590097919918,
+          5.8473269731808104e-06,
+          6.759827024011006e-05
+        ],
+        "fields": [
+          "tcool_Gyr",
+          "tdyn_Gyr",
+          "tff_Gyr",
+          "tau_H_s",
+          "tau_He_s"
+        ],
+        "Tchar_K": 4102383.7161514177,
+        "M_Msun_phys": 8489450852277.031,
+        "tcool_over_tdyn": 29.567475262514154,
+        "source_event": {
+          "label": "reference",
+          "eps": 0.0,
+          "epsilon": 0.0,
+          "event": "Delta200",
+          "a_event": 0.4999999999999683,
+          "z_event": 1.000000000000127,
+          "t_Gyr": 5.840746999307794,
+          "Delta": 200.0,
+          "M_Msun_h": 5721889874434.72,
+          "M_solar_physical": 8489450852277.031,
+          "qL_Mpc_h": 2.5,
+          "qL_Mpc_physical_comoving": 3.7091988130563798,
+          "R_physical_Mpc_h": 0.21374699333457356,
+          "R_physical_Mpc": 0.31713203758838804,
+          "physical_radial_velocity_km_s": -347.7867095145961,
+          "peculiar_radial_velocity_km_s": -386.0610318387001,
+          "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+        }
+      },
+      "clock": {
+        "time_Gyr": [
+          27.03027032127338,
+          0.9140809047110146,
+          1.015288613909237,
+          5.85006607322917e-06,
+          6.763111408740858e-05
+        ],
+        "fields": [
+          "tcool_Gyr",
+          "tdyn_Gyr",
+          "tff_Gyr",
+          "tau_H_s",
+          "tau_He_s"
+        ],
+        "Tchar_K": 4101765.19953573,
+        "M_Msun_phys": 8489450852277.031,
+        "tcool_over_tdyn": 29.570982373621472,
+        "source_event": {
+          "label": "clock",
+          "eps": 0.0001,
+          "epsilon": 0.0001,
+          "event": "Delta200",
+          "a_event": 0.5000753964251708,
+          "z_event": 0.9996984597694274,
+          "t_Gyr": 5.841773395321032,
+          "Delta": 200.0,
+          "M_Msun_h": 5721889874434.72,
+          "M_solar_physical": 8489450852277.031,
+          "qL_Mpc_h": 2.5,
+          "qL_Mpc_physical_comoving": 3.7091988130563798,
+          "R_physical_Mpc_h": 0.213779224852964,
+          "R_physical_Mpc": 0.3171798588322908,
+          "physical_radial_velocity_km_s": -347.7560808187286,
+          "peculiar_radial_velocity_km_s": -386.03036069666655,
+          "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+        }
+      }
+    }
+  },
+  "interpretation": "No observed objects, no galaxy formation, no hydrodynamics. PM failure and missing-event records retained.",
+  "outputs": {
+    "manuscript_cn/figures/chapter04_halo_cooling_cn.pdf": {
+      "sha256": "b4fd9d01fc75cd0e047b93c3b41d6a612cf54bd82e549f53ff91acadd2a22be1",
+      "bytes": 71026
+    },
+    "manuscript_cn/figures/chapter04_halo_cooling_cn.png": {
+      "sha256": "414006c9aab728f2d8fa551a0eea7addd0847412ed447e3b7f6327dfb8ed3ad0",
+      "bytes": 383296
+    }
+  }
+}

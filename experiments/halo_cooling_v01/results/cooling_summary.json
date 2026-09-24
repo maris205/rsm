@@ -1,0 +1,136 @@
+{
+  "manifest": {
+    "created_utc": "2026-09-24T12:57:29.604630+00:00",
+    "python": "3.12.3",
+    "argv": [
+      "experiments/halo_cooling_v01/code/run_cooling.py",
+      "--events",
+      "experiments/halo_cooling_v01/results/sphere_summary.json"
+    ],
+    "wall_seconds_before_output": 2.007742341607809,
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "protocol_sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2",
+    "code_sha256": {
+      "run_cooling.py": "8b6533ba863fb2361eb5526ce117a2a90dad6235878331d8ea8f8492cf9b9042",
+      "cooling.py": "1fd374c4fa2b146fdd2467fc5057b258531f3c630b2fdd5ff13bdc5233f91475",
+      "background.py": "8a4c445593daaefd124ced77efc9f41e65421bb9d6cf2fdb7ea4f5bdeb8f22e4"
+    },
+    "official_source_sha256": "dc45688c6a6eab60af5ebb86323c7d36b7db3e5347af43b65b4766332abde37e",
+    "source_metadata_sha256": "4ea9a85413930ff810248f172e999f7248e57a97dd7a812ac9866e424aa19efe",
+    "official_commit": "af7939494ce65007887ada7b98d1813df6843346",
+    "background_csv_sha256": {
+      "reference": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0",
+      "clock": "2f6fc8ea8e1b24cb87b41129d30005030488da0bb20974625187a8936942ef13"
+    },
+    "background_method": "Same Background code re-evaluated and checked against all saved CSV E/age samples.",
+    "source_and_license_sha256": {
+      "grackle_primordial_equilibrium.py": "dc45688c6a6eab60af5ebb86323c7d36b7db3e5347af43b65b4766332abde37e",
+      "GRACKLE_LICENSE": "a085c6b50d804f73ee99e5ede3dd4390a49a0ff261d1c7cc145d6c029e6f80bb"
+    },
+    "constants": {
+      "G_CGS": 6.6743e-08,
+      "K_B_CGS": 1.380649e-16,
+      "M_P_G": 1.67262192369e-24,
+      "M_SUN_G": 1.988409870698051e+33,
+      "MPC_CM": 3.085677581491367e+24,
+      "GYR_S": 3.15576e+16,
+      "X_H": 0.76,
+      "Y_HE": 0.24,
+      "H0_KM_S_MPC": 67.4,
+      "OMEGA_M0": 0.315,
+      "OMEGA_B0": 0.049,
+      "DELTA_M": 200.0
+    },
+    "mass_log10_Msun_phys": [
+      8.0,
+      8.25,
+      8.5,
+      8.75,
+      9.0,
+      9.25,
+      9.5,
+      9.75,
+      10.0,
+      10.25,
+      10.5,
+      10.75,
+      11.0,
+      11.25,
+      11.5,
+      11.75,
+      12.0,
+      12.25,
+      12.5,
+      12.75,
+      13.0,
+      13.25,
+      13.5,
+      13.75,
+      14.0
+    ],
+    "redshifts": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      6.0,
+      9.0
+    ],
+    "temperature_validation_K": {
+      "log10_min": 4,
+      "log10_max": 8,
+      "count": 161
+    },
+    "density_validation_nH_cm3": [
+      1e-06,
+      0.0001,
+      0.01
+    ],
+    "scope": "Historical KWH96 electron-collision CIE; X=.76,Y=.24; no UV, metals, molecules, Compton, hydro, star formation, or clock-dependent atomic/G multipliers.",
+    "temperature_scope": "10^4.5 to 10^8 K is a declared display regime, not a universal accuracy guarantee.",
+    "time_scope": "tcool is instantaneous 3/2 n_tot kT / Lvol; no integrated cooling trajectory. Chemical times are local linear CIE relaxation times at fixed T,density.",
+    "density_scope": "Uniform gas at fb*200*rho_m; optical thinness is assumed, not checked from density alone.",
+    "nonfinite_serialization": "Nonfinite diagnostic times serialize to null, never to a finite surrogate."
+  },
+  "n_grid_rows": 350,
+  "n_curve_rows": 483,
+  "validation_passed": true,
+  "validation_n_checks": 817,
+  "fixed_Mz_microphysics_max_absolute_difference": 0.0,
+  "unique_grid_warning_counts": {
+    "n_unique_Mz_states": 175,
+    "n_CIE_slower_than_cooling": 53,
+    "n_CIE_slower_than_dynamics": 24,
+    "by_temperature_regime": {
+      "above_declared_main_temperature_range": {
+        "n_unique_Mz_states": 1,
+        "n_CIE_slower_than_cooling": 0,
+        "n_CIE_slower_than_dynamics": 0
+      },
+      "below_atomic_diagnostic_range": {
+        "n_unique_Mz_states": 12,
+        "n_CIE_slower_than_cooling": 2,
+        "n_CIE_slower_than_dynamics": 12
+      },
+      "declared_main_temperature_range": {
+        "n_unique_Mz_states": 132,
+        "n_CIE_slower_than_cooling": 21,
+        "n_CIE_slower_than_dynamics": 0
+      },
+      "low_temperature_sensitive": {
+        "n_unique_Mz_states": 30,
+        "n_CIE_slower_than_cooling": 30,
+        "n_CIE_slower_than_dynamics": 12
+      }
+    }
+  },
+  "event_status": "event_readouts_computed",
+  "warnings": "tcool<tdyn is a conditional thermal diagnostic, not evidence that stars formed. A CIE time warning reports approximation limits, not failed code.",
+  "output_sha256": {
+    "cooling_curve.csv": "fa6d511ca322372f8a18314a78b52287cafa40db1a068c4c7b0c33654aea7655",
+    "cooling_grid.csv": "8eda53b1b2450ccb80e8f5e2414290538c3455ce36a5d1a245e4bf0c89a697bc",
+    "cooling_events.json": "f1d8a63854ca3662fa82e110235b0ba89e1396cb603d8e48792b5351b61fd460"
+  }
+}

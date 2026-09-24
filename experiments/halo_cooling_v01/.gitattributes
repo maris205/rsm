@@ -1,0 +1,7 @@
+# Preserve numerical/source evidence bytes, including CSV CRLF record endings.
+results/** -text
+reports/*.json -text
+sources/** -text
+# Keep the upstream licence byte-for-byte, including its original trailing spaces.
+sources/GRACKLE_LICENSE whitespace=-blank-at-eol
+results/*.csv whitespace=cr-at-eol

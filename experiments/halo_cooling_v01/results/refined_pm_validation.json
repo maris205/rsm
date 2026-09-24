@@ -1,0 +1,2156 @@
+{
+  "status": "FAIL",
+  "attempt": 1,
+  "created_utc": "2026-09-24T12:58:28.479568+00:00",
+  "checks_passed": 102,
+  "checks_total": 103,
+  "checks": [
+    {
+      "name": "rfft_fullfft_mesh:nf=8",
+      "passed": true,
+      "value": 9.096859985694442e-17,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "rfft_fullfft_relative",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "rfft_fullfft_particles:nf=8",
+      "passed": true,
+      "value": 9.477794973880019e-17,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "rfft_fullfft_relative",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "random_raw_mass:nf=8",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "random_net_force:nf=8",
+      "passed": true,
+      "value": 2.321696373876773e-17,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "net_force_normalized",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=8:case=0",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=8:case=1",
+      "passed": true,
+      "value": 1.6653345369377348e-16,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=8:case=2",
+      "passed": true,
+      "value": 5.551115123125783e-17,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "rfft_fullfft_mesh:nf=16",
+      "passed": true,
+      "value": 1.7285438965811388e-16,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "rfft_fullfft_relative",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "rfft_fullfft_particles:nf=16",
+      "passed": true,
+      "value": 1.7483713218739838e-16,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "rfft_fullfft_relative",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "random_raw_mass:nf=16",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "random_net_force:nf=16",
+      "passed": true,
+      "value": 2.7605860558848192e-17,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "net_force_normalized",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=16:case=0",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=16:case=1",
+      "passed": true,
+      "value": 8.881784197001252e-16,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=16:case=2",
+      "passed": true,
+      "value": 2.220446049250313e-16,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "rfft_fullfft_mesh:nf=32",
+      "passed": true,
+      "value": 2.0496022648960594e-16,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "rfft_fullfft_relative",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "rfft_fullfft_particles:nf=32",
+      "passed": true,
+      "value": 2.58964356122983e-16,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "rfft_fullfft_relative",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "random_raw_mass:nf=32",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "random_net_force:nf=32",
+      "passed": true,
+      "value": 1.6484689461687785e-17,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "net_force_normalized",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=32:case=0",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=32:case=1",
+      "passed": true,
+      "value": 1.7763568394002505e-15,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "single_self_force:nf=32:case=2",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "self_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "explicit_DFT_mesh:nf=8",
+      "passed": true,
+      "value": 8.832426345384712e-16,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "direct_dft_relative",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "explicit_DFT_and_CIC_particles:nf=8",
+      "passed": true,
+      "value": 9.202994173872592e-16,
+      "inclusive_upper_threshold": 1e-11,
+      "tolerance_name": "direct_dft_relative",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=8:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=8:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=8:shift=(0.25, 0.375, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=8:shift=(0.25, 0.375, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=8:shift=(0.5, 0.5, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=8:shift=(0.5, 0.5, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=16:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=16:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=16:shift=(0.25, 0.375, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=16:shift=(0.25, 0.375, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=16:shift=(0.5, 0.5, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=16:shift=(0.5, 0.5, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=32:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=32:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=32:shift=(0.25, 0.375, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=32:shift=(0.25, 0.375, 0.5)",
+      "passed": true,
+      "value": 8.673617379884035e-19,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_raw_mass:np=8:nf=32:shift=(0.5, 0.5, 0.5)",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "mass_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "uniform_particle_force:np=8:nf=32:shift=(0.5, 0.5, 0.5)",
+      "passed": true,
+      "value": 1.734723475976807e-18,
+      "inclusive_upper_threshold": 1e-12,
+      "tolerance_name": "uniform_force_absolute",
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.0, 0.0, 0.0):mode=(1, 0, 0):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.0, 0.0, 0.0):mode=(1, 0, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.0, 0.0, 0.0):mode=(1, 1, 0):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.0, 0.0, 0.0):mode=(1, 1, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.0, 0.0, 0.0):mode=(1, 1, 1):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.0, 0.0, 0.0):mode=(1, 1, 1):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.25, 0.375, 0.5):mode=(1, 0, 0):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.25, 0.375, 0.5):mode=(1, 0, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.25, 0.375, 0.5):mode=(1, 1, 0):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.25, 0.375, 0.5):mode=(1, 1, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.25, 0.375, 0.5):mode=(1, 1, 1):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.25, 0.375, 0.5):mode=(1, 1, 1):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.5, 0.5, 0.5):mode=(1, 0, 0):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.5, 0.5, 0.5):mode=(1, 0, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.5, 0.5, 0.5):mode=(1, 1, 0):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.5, 0.5, 0.5):mode=(1, 1, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.5, 0.5, 0.5):mode=(1, 1, 1):amplitude=2.5e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=8:shift=(0.5, 0.5, 0.5):mode=(1, 1, 1):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.0, 0.0, 0.0):mode=(1, 0, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.0, 0.0, 0.0):mode=(1, 0, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.0, 0.0, 0.0):mode=(1, 1, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.0, 0.0, 0.0):mode=(1, 1, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.0, 0.0, 0.0):mode=(1, 1, 1):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.0, 0.0, 0.0):mode=(1, 1, 1):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.25, 0.375, 0.5):mode=(1, 0, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.25, 0.375, 0.5):mode=(1, 0, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.25, 0.375, 0.5):mode=(1, 1, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.25, 0.375, 0.5):mode=(1, 1, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.25, 0.375, 0.5):mode=(1, 1, 1):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.25, 0.375, 0.5):mode=(1, 1, 1):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.5, 0.5, 0.5):mode=(1, 0, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.5, 0.5, 0.5):mode=(1, 0, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.5, 0.5, 0.5):mode=(1, 1, 0):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.5, 0.5, 0.5):mode=(1, 1, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.5, 0.5, 0.5):mode=(1, 1, 1):amplitude=1.25e-06",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=16:shift=(0.5, 0.5, 0.5):mode=(1, 1, 1):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.0, 0.0, 0.0):mode=(1, 0, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.0, 0.0, 0.0):mode=(1, 0, 0):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.0, 0.0, 0.0):mode=(1, 1, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.0, 0.0, 0.0):mode=(1, 1, 0):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.0, 0.0, 0.0):mode=(1, 1, 1):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.0, 0.0, 0.0):mode=(1, 1, 1):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.25, 0.375, 0.5):mode=(1, 0, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.25, 0.375, 0.5):mode=(1, 0, 0):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.25, 0.375, 0.5):mode=(1, 1, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.25, 0.375, 0.5):mode=(1, 1, 0):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.25, 0.375, 0.5):mode=(1, 1, 1):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.25, 0.375, 0.5):mode=(1, 1, 1):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.5, 0.5, 0.5):mode=(1, 0, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.5, 0.5, 0.5):mode=(1, 0, 0):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.5, 0.5, 0.5):mode=(1, 1, 0):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.5, 0.5, 0.5):mode=(1, 1, 0):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.5, 0.5, 0.5):mode=(1, 1, 1):amplitude=6.25e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "phase_response_finite:nf=32:shift=(0.5, 0.5, 0.5):mode=(1, 1, 1):amplitude=3.125e-07",
+      "passed": true,
+      "scope": "implementation_protocol"
+    },
+    {
+      "name": "compensated_core_force_finite:np=32:nf=32:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "scope": "physical_discretization_diagnostic"
+    },
+    {
+      "name": "compensated_core_mean_force_inward:np=32:nf=32:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "mean_radial_component": -0.00232941616330651,
+      "particles_with_inward_force_fraction": 1.0,
+      "qualification": "Only the mean sign is a gate; individual-force accuracy is diagnostic",
+      "scope": "physical_discretization_diagnostic"
+    },
+    {
+      "name": "compensated_core_force_finite:np=32:nf=64:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "scope": "physical_discretization_diagnostic"
+    },
+    {
+      "name": "compensated_core_mean_force_inward:np=32:nf=64:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "mean_radial_component": -0.0009115854686942295,
+      "particles_with_inward_force_fraction": 0.8545454545454545,
+      "qualification": "Only the mean sign is a gate; individual-force accuracy is diagnostic",
+      "scope": "physical_discretization_diagnostic"
+    },
+    {
+      "name": "compensated_core_force_finite:np=32:nf=128:shift=(0.0, 0.0, 0.0)",
+      "passed": true,
+      "scope": "physical_discretization_diagnostic"
+    },
+    {
+      "name": "compensated_core_mean_force_inward:np=32:nf=128:shift=(0.0, 0.0, 0.0)",
+      "passed": false,
+      "mean_radial_component": 0.0009649081634239301,
+      "particles_with_inward_force_fraction": 0.32727272727272727,
+      "qualification": "Only the mean sign is a gate; individual-force accuracy is diagnostic",
+      "scope": "physical_discretization_diagnostic"
+    },
+    {
+      "name": "compensated_core_force_finite:np=32:nf=128:shift=(0.25, 0.375, 0.5)",
+      "passed": true,
+      "scope": "physical_discretization_diagnostic"
+    },
+    {
+      "name": "compensated_core_mean_force_inward:np=32:nf=128:shift=(0.25, 0.375, 0.5)",
+      "passed": true,
+      "mean_radial_component": -0.005014602229814018,
+      "particles_with_inward_force_fraction": 1.0,
+      "qualification": "Only the mean sign is a gate; individual-force accuracy is diagnostic",
+      "scope": "physical_discretization_diagnostic"
+    }
+  ],
+  "failures": [
+    {
+      "name": "compensated_core_mean_force_inward:np=32:nf=128:shift=(0.0, 0.0, 0.0)",
+      "passed": false,
+      "mean_radial_component": 0.0009649081634239301,
+      "particles_with_inward_force_fraction": 0.32727272727272727,
+      "qualification": "Only the mean sign is a gate; individual-force accuracy is diagnostic",
+      "scope": "physical_discretization_diagnostic"
+    }
+  ],
+  "detail": {
+    "interpretation": {
+      "sinc_reference_used_for_unequal_grids": false,
+      "physical_force_errors": "Diagnostic only; no machine-precision continuum claim",
+      "lattice_aliases": "Uniform particles may produce nonzero mesh delta when Nforce>Nparticle",
+      "twofold_force_grid": "For a regular load, all Bragg gradient components are DC/Nyquist, hence mesh force is zero with this operator",
+      "fourfold_force_grid": "Non-Nyquist Bragg modes may produce force between particles; particle forces still cancel by symmetry",
+      "phase_response": "A force-only test, not a fitted growth reference or a collapse trajectory"
+    },
+    "rfft_fullfft": [
+      {
+        "nforce": 8,
+        "mesh_relative_l2": 9.096859985694442e-17,
+        "particle_relative_l2": 9.477794973880019e-17,
+        "rfft_imaginary_diagnostic": 0.0,
+        "fullfft_imaginary_diagnostic": 0.0,
+        "random_diagnostics": {
+          "raw_mass": 1.0,
+          "mass_relative_error": 0.0,
+          "density_contrast_mean": -6.938893903907228e-18,
+          "total_force_absolute": 8.813204567320504e-19,
+          "total_force_normalized": 2.321696373876773e-17,
+          "mean_force_magnitude": 0.03796019439270691,
+          "max_force_magnitude": 0.07749817508553486,
+          "real_fft": true,
+          "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+        }
+      },
+      {
+        "nforce": 16,
+        "mesh_relative_l2": 1.7285438965811388e-16,
+        "particle_relative_l2": 1.7483713218739838e-16,
+        "rfft_imaginary_diagnostic": 0.0,
+        "fullfft_imaginary_diagnostic": 6.938893903907228e-18,
+        "random_diagnostics": {
+          "raw_mass": 1.0,
+          "mass_relative_error": 0.0,
+          "density_contrast_mean": -6.938893903907228e-18,
+          "total_force_absolute": 1.4976863511110163e-18,
+          "total_force_normalized": 2.7605860558848192e-17,
+          "mean_force_magnitude": 0.05425247830685648,
+          "max_force_magnitude": 0.1745577976491067,
+          "real_fft": true,
+          "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+        }
+      },
+      {
+        "nforce": 32,
+        "mesh_relative_l2": 2.0496022648960594e-16,
+        "particle_relative_l2": 2.58964356122983e-16,
+        "rfft_imaginary_diagnostic": 0.0,
+        "fullfft_imaginary_diagnostic": 5.416160895749946e-18,
+        "random_diagnostics": {
+          "raw_mass": 1.0,
+          "mass_relative_error": 0.0,
+          "density_contrast_mean": 0.0,
+          "total_force_absolute": 1.1365511417785649e-18,
+          "total_force_normalized": 1.6484689461687785e-17,
+          "mean_force_magnitude": 0.06894586303369764,
+          "max_force_magnitude": 0.2912587162349702,
+          "real_fft": true,
+          "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+        }
+      }
+    ],
+    "explicit_dft": {
+      "nforce": 8,
+      "mesh_relative_l2": 8.832426345384712e-16,
+      "particles_relative_l2": 9.202994173872592e-16,
+      "mesh_imaginary_max": 2.3058514423829666e-17,
+      "particles_mesh_imaginary_max": 1.8016963938707597e-16,
+      "reference": "Explicit forward/inverse DFT sums; independent scalar-loop CIC for particles"
+    },
+    "uniform_lattices": [
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 0.0,
+        "mesh_force_max_abs": 0.0,
+        "particle_force_max_abs": 0.0,
+        "imaginary_diagnostic": 0.0
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 0.0,
+        "mesh_force_max_abs": 0.0,
+        "particle_force_max_abs": 0.0,
+        "imaginary_diagnostic": 0.0
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 0.0,
+        "mesh_force_max_abs": 0.0,
+        "particle_force_max_abs": 0.0,
+        "imaginary_diagnostic": 0.0
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 2.6457513110645907,
+        "mesh_force_max_abs": 0.0,
+        "particle_force_max_abs": 0.0,
+        "imaginary_diagnostic": 0.0
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 0.57282196186948,
+        "mesh_force_max_abs": 0.0,
+        "particle_force_max_abs": 0.0,
+        "imaginary_diagnostic": 0.0
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 0.0,
+        "mesh_force_max_abs": 0.0,
+        "particle_force_max_abs": 0.0,
+        "imaginary_diagnostic": 0.0
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 7.937253933193772,
+        "mesh_force_max_abs": 0.21928014381550026,
+        "particle_force_max_abs": 0.0,
+        "imaginary_diagnostic": 0.0
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 3.1024184114977142,
+        "mesh_force_max_abs": 0.07858275315162333,
+        "particle_force_max_abs": 8.673617379884035e-19,
+        "imaginary_diagnostic": 0.0
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mass_absolute_error": 0.0,
+        "mesh_delta_rms": 2.6457513110645907,
+        "mesh_force_max_abs": 0.04642019173513614,
+        "particle_force_max_abs": 1.734723475976807e-18,
+        "imaginary_diagnostic": 0.0
+      }
+    ],
+    "phase_response": [
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.9003163161634457,
+        "orthogonal_residual_relative_l2": 8.284271247184945e-06,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 8.284271247267522e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.9003163161734047,
+        "orthogonal_residual_relative_l2": 4.1421356236215865e-06,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 4.142135623686228e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.7684680442386284,
+        "orthogonal_residual_relative_l2": 8.786796475582067e-06,
+        "transverse_force_relative_l2": 3.6174222707924887e-12,
+        "reversal_nonodd_relative_l2": 8.786796526108624e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.7684680442535307,
+        "orthogonal_residual_relative_l2": 4.393398364434141e-06,
+        "transverse_force_relative_l2": 3.8544832555022154e-12,
+        "reversal_nonodd_relative_l2": 4.3933981610470795e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.6559285046660177,
+        "orthogonal_residual_relative_l2": 1.1547005533591168e-05,
+        "transverse_force_relative_l2": 3.932012426222943e-12,
+        "reversal_nonodd_relative_l2": 1.1547005477736997e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.6559285047319591,
+        "orthogonal_residual_relative_l2": 5.773503137566345e-06,
+        "transverse_force_relative_l2": 3.58142346239839e-12,
+        "reversal_nonodd_relative_l2": 5.773503120398937e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.9003163161636436,
+        "orthogonal_residual_relative_l2": 0.20280301048813315,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 8.112120413142857e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.9003163161734046,
+        "orthogonal_residual_relative_l2": 0.20280301037249623,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 4.056060206656173e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.8220314046943314,
+        "orthogonal_residual_relative_l2": 0.2494434268682914,
+        "transverse_force_relative_l2": 4.515793298168192e-12,
+        "reversal_nonodd_relative_l2": 1.0212543718566925e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.8220314047122314,
+        "orthogonal_residual_relative_l2": 0.2494434266801072,
+        "transverse_force_relative_l2": 4.604271048720578e-12,
+        "reversal_nonodd_relative_l2": 5.106271834827875e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.7980453699253863,
+        "orthogonal_residual_relative_l2": 0.18070255675727154,
+        "transverse_force_relative_l2": 3.927411500246041e-12,
+        "reversal_nonodd_relative_l2": 0.048858323148678336,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.7980468484101343,
+        "orthogonal_residual_relative_l2": 0.18070419771935337,
+        "transverse_force_relative_l2": 5.96238964098189e-12,
+        "reversal_nonodd_relative_l2": 0.04886347691344067,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.9003142979197847,
+        "orthogonal_residual_relative_l2": 0.26119488067168617,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 0.2611948806662147,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.9003153070504196,
+        "orthogonal_residual_relative_l2": 0.2611993778184583,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 0.26119937781733793,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.9003112683427177,
+        "orthogonal_residual_relative_l2": 0.33332068804011744,
+        "transverse_force_relative_l2": 5.201248668776509e-12,
+        "reversal_nonodd_relative_l2": 0.3333206880310765,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.9003137922738108,
+        "orthogonal_residual_relative_l2": 0.33332701070712983,
+        "transverse_force_relative_l2": 6.948894636956409e-12,
+        "reversal_nonodd_relative_l2": 0.3333270107048622,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 2.5e-06,
+        "force_projection_on_displacement": 0.9003076767195837,
+        "orthogonal_residual_relative_l2": 0.2611896868738564,
+        "transverse_force_relative_l2": 3.7841159481378306e-12,
+        "reversal_nonodd_relative_l2": 0.2611896868737612,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 8,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.9003119964878809,
+        "orthogonal_residual_relative_l2": 0.261196780930507,
+        "transverse_force_relative_l2": 3.9667003623837616e-12,
+        "reversal_nonodd_relative_l2": 0.2611967809304965,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 1.3105149428926492,
+        "orthogonal_residual_relative_l2": 0.2743713389770699,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 0.27437133897109106,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.3105179633800748,
+        "orthogonal_residual_relative_l2": 0.27437368434248216,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 0.2743736843521734,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 1.2274478223241057,
+        "orthogonal_residual_relative_l2": 0.4950842180835469,
+        "transverse_force_relative_l2": 2.0524439207668324e-11,
+        "reversal_nonodd_relative_l2": 0.4950842180808169,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.227451306925569,
+        "orthogonal_residual_relative_l2": 0.49509134174112296,
+        "transverse_force_relative_l2": 3.621762295507001e-11,
+        "reversal_nonodd_relative_l2": 0.49509134174044034,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 1.146124681932899,
+        "orthogonal_residual_relative_l2": 0.5273760027172699,
+        "transverse_force_relative_l2": 9.135548115069887e-12,
+        "reversal_nonodd_relative_l2": 0.527376002714323,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.14612946949195,
+        "orthogonal_residual_relative_l2": 0.5273846681097345,
+        "transverse_force_relative_l2": 1.0798698946742691e-10,
+        "reversal_nonodd_relative_l2": 0.5273846681089931,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 1.1184189313906243,
+        "orthogonal_residual_relative_l2": 0.22842134236212036,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 9.136853687436965e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.1184189313790607,
+        "orthogonal_residual_relative_l2": 0.22842134222223257,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 4.568426843716069e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 1.060580842433688,
+        "orthogonal_residual_relative_l2": 0.1931340460746216,
+        "transverse_force_relative_l2": 0.08810366773677746,
+        "reversal_nonodd_relative_l2": 8.166226689011071e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.0605808423939582,
+        "orthogonal_residual_relative_l2": 0.1931340458893644,
+        "transverse_force_relative_l2": 0.08810366773946997,
+        "reversal_nonodd_relative_l2": 4.083113538328642e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 1.0071059267823095,
+        "orthogonal_residual_relative_l2": 0.18757709794985472,
+        "transverse_force_relative_l2": 0.16081921830311313,
+        "reversal_nonodd_relative_l2": 5.04868106313202e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.0071059266805806,
+        "orthogonal_residual_relative_l2": 0.1875770978567828,
+        "transverse_force_relative_l2": 0.1608192182845118,
+        "reversal_nonodd_relative_l2": 2.5243400986958737e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 1.1137089810537988,
+        "orthogonal_residual_relative_l2": 9.087382301190702e-06,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 9.087382301095504e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.1137089810396035,
+        "orthogonal_residual_relative_l2": 4.54369961236927e-06,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 4.54369115048756e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 1.0507422982473194,
+        "orthogonal_residual_relative_l2": 5.003723648885793e-06,
+        "transverse_force_relative_l2": 9.643042407889077e-12,
+        "reversal_nonodd_relative_l2": 5.003723648709336e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.0507422982073429,
+        "orthogonal_residual_relative_l2": 2.501862142330116e-06,
+        "transverse_force_relative_l2": 1.870823102876671e-11,
+        "reversal_nonodd_relative_l2": 2.5018621422796897e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 1.25e-06,
+        "force_projection_on_displacement": 0.9925232350261333,
+        "orthogonal_residual_relative_l2": 2.172130756280824e-06,
+        "transverse_force_relative_l2": 5.982510045479205e-12,
+        "reversal_nonodd_relative_l2": 2.172130755709918e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 16,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 0.9925232349287793,
+        "orthogonal_residual_relative_l2": 1.08606331080715e-06,
+        "transverse_force_relative_l2": 4.854218318887573e-11,
+        "reversal_nonodd_relative_l2": 1.0860633079488114e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.582352156085794,
+        "orthogonal_residual_relative_l2": 0.6310358999539781,
+        "transverse_force_relative_l2": 6.565700525604972e-17,
+        "reversal_nonodd_relative_l2": 0.6310358999689357,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.5823579139470878,
+        "orthogonal_residual_relative_l2": 0.6310393801309122,
+        "transverse_force_relative_l2": 4.404453180617114e-17,
+        "reversal_nonodd_relative_l2": 0.6310393801135707,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.5750301956604122,
+        "orthogonal_residual_relative_l2": 0.836919198333365,
+        "transverse_force_relative_l2": 4.0279166475919605e-11,
+        "reversal_nonodd_relative_l2": 0.8369191983330223,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.575039124993513,
+        "orthogonal_residual_relative_l2": 0.8369231465544359,
+        "transverse_force_relative_l2": 1.7221079975826393e-10,
+        "reversal_nonodd_relative_l2": 0.8369231465543501,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.5734269916373536,
+        "orthogonal_residual_relative_l2": 0.8379059892640395,
+        "transverse_force_relative_l2": 1.4785023725487318e-10,
+        "reversal_nonodd_relative_l2": 0.8379059892634518,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.5734408074399044,
+        "orthogonal_residual_relative_l2": 0.8379104881494214,
+        "transverse_force_relative_l2": 1.6182422843052846e-10,
+        "reversal_nonodd_relative_l2": 0.8379104881492744,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.2015799882682954,
+        "orthogonal_residual_relative_l2": 0.5736114894568092,
+        "transverse_force_relative_l2": 5.908147992150517e-12,
+        "reversal_nonodd_relative_l2": 2.2944461089955157e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.2015799882450726,
+        "orthogonal_residual_relative_l2": 0.5736114892391652,
+        "transverse_force_relative_l2": 1.135272996701528e-11,
+        "reversal_nonodd_relative_l2": 1.1472229042180827e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.1491815047548772,
+        "orthogonal_residual_relative_l2": 0.5370428697004677,
+        "transverse_force_relative_l2": 0.16102198602834525,
+        "reversal_nonodd_relative_l2": 2.4053434164189018e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.149181504939742,
+        "orthogonal_residual_relative_l2": 0.537042869286543,
+        "transverse_force_relative_l2": 0.161021986073199,
+        "reversal_nonodd_relative_l2": 1.2026716340721397e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.0925827897194156,
+        "orthogonal_residual_relative_l2": 0.48554679612351637,
+        "transverse_force_relative_l2": 0.32402211466272224,
+        "reversal_nonodd_relative_l2": 2.058529987332253e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.0925827898649056,
+        "orthogonal_residual_relative_l2": 0.4855467957410966,
+        "transverse_force_relative_l2": 0.32402211468318026,
+        "reversal_nonodd_relative_l2": 1.029264664883416e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.192754291342375,
+        "orthogonal_residual_relative_l2": 2.6970549554057325e-05,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 2.6970537418805276e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          0,
+          0
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.192754291328256,
+        "orthogonal_residual_relative_l2": 1.3485261206066729e-05,
+        "transverse_force_relative_l2": 0.0,
+        "reversal_nonodd_relative_l2": 1.3485267787644224e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.1201696769433631,
+        "orthogonal_residual_relative_l2": 1.922302691512158e-05,
+        "transverse_force_relative_l2": 2.2371075199226754e-11,
+        "reversal_nonodd_relative_l2": 1.922302751748934e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          0
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.1201696771211835,
+        "orthogonal_residual_relative_l2": 9.611512171399684e-06,
+        "transverse_force_relative_l2": 7.645632349977456e-11,
+        "reversal_nonodd_relative_l2": 9.61151386807641e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 6.25e-07,
+        "force_projection_on_displacement": 1.0533439853106479,
+        "orthogonal_residual_relative_l2": 1.5484138317893068e-05,
+        "transverse_force_relative_l2": 5.7869085910395885e-11,
+        "reversal_nonodd_relative_l2": 1.5484138164132712e-05,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      },
+      {
+        "nparticle": 8,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mode": [
+          1,
+          1,
+          1
+        ],
+        "amplitude_box": 3.125e-07,
+        "force_projection_on_displacement": 1.0533439854518565,
+        "orthogonal_residual_relative_l2": 7.742071748193483e-06,
+        "transverse_force_relative_l2": 7.856083487015762e-11,
+        "reversal_nonodd_relative_l2": 7.742072108280453e-06,
+        "interpretation": "Diagnostic of finite CIC response; not a universal analytic growth factor"
+      }
+    ],
+    "sphere_background_input": {
+      "path": "/root/autodl-tmp/dsc_world/riemann_model/experiments/cosmic_bridge_v01/results/background_eps0.csv",
+      "sha256": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0"
+    },
+    "compensated_sphere": [
+      {
+        "nparticle": 32,
+        "nforce": 32,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_nl_core": 0.05,
+        "scale_core": 0.9838681468061969,
+        "core_lagrangian_radius_box": 0.25,
+        "core_q_interval_fraction": [
+          0.25,
+          0.75
+        ],
+        "selected_particles": 880,
+        "core_mapping_max_abs_box": 5.551115123125783e-17,
+        "force_relative_l2_to_continuum_sphere": 0.016387308404714546,
+        "tangential_force_relative_l2_to_analytic": 5.2462740350976204e-05,
+        "radial_force_relative_l2_to_analytic": 0.01638722442673261,
+        "mean_radial_component": -0.00232941616330651,
+        "particles_with_inward_force_fraction": 1.0,
+        "diagnostics": {
+          "raw_mass": 1.0,
+          "mass_relative_error": 0.0,
+          "density_contrast_mean": 2.168404344971009e-19,
+          "total_force_absolute": 1.6209005391368725e-19,
+          "total_force_normalized": 2.700680101638984e-16,
+          "mean_force_magnitude": 0.0006001823533832027,
+          "max_force_magnitude": 0.004139039923563771,
+          "real_fft": true,
+          "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+        },
+        "interpretation": "Finite particle/mesh error, diagnostic only; not evidence of a resolved halo"
+      },
+      {
+        "nparticle": 32,
+        "nforce": 64,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_nl_core": 0.05,
+        "scale_core": 0.9838681468061969,
+        "core_lagrangian_radius_box": 0.25,
+        "core_q_interval_fraction": [
+          0.25,
+          0.75
+        ],
+        "selected_particles": 880,
+        "core_mapping_max_abs_box": 5.551115123125783e-17,
+        "force_relative_l2_to_continuum_sphere": 0.6315747166878928,
+        "tangential_force_relative_l2_to_analytic": 0.16778939561131279,
+        "radial_force_relative_l2_to_analytic": 0.6088787576191028,
+        "mean_radial_component": -0.0009115854686942295,
+        "particles_with_inward_force_fraction": 0.8545454545454545,
+        "diagnostics": {
+          "raw_mass": 1.0,
+          "mass_relative_error": 0.0,
+          "density_contrast_mean": 0.0,
+          "total_force_absolute": 2.514841517276002e-19,
+          "total_force_normalized": 1.813199836017669e-16,
+          "mean_force_magnitude": 0.0013869632388669021,
+          "max_force_magnitude": 0.006274591424101852,
+          "real_fft": true,
+          "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+        },
+        "interpretation": "Finite particle/mesh error, diagnostic only; not evidence of a resolved halo"
+      },
+      {
+        "nparticle": 32,
+        "nforce": 128,
+        "shift_force_cells": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_nl_core": 0.05,
+        "scale_core": 0.9838681468061969,
+        "core_lagrangian_radius_box": 0.25,
+        "core_q_interval_fraction": [
+          0.25,
+          0.75
+        ],
+        "selected_particles": 880,
+        "core_mapping_max_abs_box": 5.551115123125783e-17,
+        "force_relative_l2_to_continuum_sphere": 1.516822717578822,
+        "tangential_force_relative_l2_to_analytic": 0.4854721068514981,
+        "radial_force_relative_l2_to_analytic": 1.43703444288311,
+        "mean_radial_component": 0.0009649081634239301,
+        "particles_with_inward_force_fraction": 0.32727272727272727,
+        "diagnostics": {
+          "raw_mass": 1.0,
+          "mass_relative_error": 0.0,
+          "density_contrast_mean": -3.469446951953614e-18,
+          "total_force_absolute": 1.0057097638367384e-18,
+          "total_force_normalized": 3.01311815578735e-16,
+          "mean_force_magnitude": 0.003337770747240873,
+          "max_force_magnitude": 0.015526610340774395,
+          "real_fft": true,
+          "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+        },
+        "interpretation": "Finite particle/mesh error, diagnostic only; not evidence of a resolved halo"
+      },
+      {
+        "nparticle": 32,
+        "nforce": 128,
+        "shift_force_cells": [
+          0.25,
+          0.375,
+          0.5
+        ],
+        "delta_nl_core": 0.05,
+        "scale_core": 0.9838681468061969,
+        "core_lagrangian_radius_box": 0.25,
+        "core_q_interval_fraction": [
+          0.25,
+          0.75
+        ],
+        "selected_particles": 880,
+        "core_mapping_max_abs_box": 5.551115123125783e-17,
+        "force_relative_l2_to_continuum_sphere": 1.6545516186309643,
+        "tangential_force_relative_l2_to_analytic": 1.0252407516492685,
+        "radial_force_relative_l2_to_analytic": 1.2986232940587452,
+        "mean_radial_component": -0.005014602229814018,
+        "particles_with_inward_force_fraction": 1.0,
+        "diagnostics": {
+          "raw_mass": 1.0,
+          "mass_relative_error": 0.0,
+          "density_contrast_mean": -3.469446951953614e-18,
+          "total_force_absolute": 8.702590340099026e-19,
+          "total_force_normalized": 9.16007134989725e-16,
+          "mean_force_magnitude": 0.0009500570473391175,
+          "max_force_magnitude": 0.01136213034204887,
+          "real_fft": true,
+          "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+        },
+        "interpretation": "Finite particle/mesh error, diagnostic only; not evidence of a resolved halo",
+        "force_relative_l2_to_unshifted_configuration": 3.220048816118435
+      }
+    ]
+  },
+  "protocol_sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2",
+  "thresholds": {
+    "mass_absolute": 1e-12,
+    "uniform_force_absolute": 1e-12,
+    "self_force_absolute": 1e-12,
+    "net_force_normalized": 1e-11,
+    "rfft_fullfft_relative": 1e-11,
+    "direct_dft_relative": 1e-11
+  },
+  "command_configuration": {
+    "workers": 4,
+    "large": false
+  },
+  "code_sha256": {
+    "pm_refined.py": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602",
+    "validate_refined_pm.py": "3c63e4c7fe4a1060f1f3c71360461f7a2c826932408651d9d24cf438ad23a226",
+    "spherical_collapse.py": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47",
+    "legacy_pm.py": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "previous_attempts": [],
+  "wall_seconds": 1.467719528824091,
+  "scope": "Force-operator checks and initial compensated-sphere discretization; no production collapse or halo claim",
+  "implementation_status": "PASS",
+  "implementation_failures": [],
+  "implementation_checks_passed": 95,
+  "implementation_checks_total": 95,
+  "physical_diagnostic_status": "FAIL",
+  "physical_diagnostic_failures": [
+    {
+      "name": "compensated_core_mean_force_inward:np=32:nf=128:shift=(0.0, 0.0, 0.0)",
+      "passed": false,
+      "mean_radial_component": 0.0009649081634239301,
+      "particles_with_inward_force_fraction": 0.32727272727272727,
+      "qualification": "Only the mean sign is a gate; individual-force accuracy is diagnostic",
+      "scope": "physical_discretization_diagnostic"
+    }
+  ],
+  "physical_diagnostic_checks_passed": 7,
+  "physical_diagnostic_checks_total": 8,
+  "scope_classification": {
+    "schema_version": 1,
+    "rule": "compensated_core_* checks are physical_discretization_diagnostic; all remaining checks are implementation_protocol",
+    "production_gate": "implementation_failures must be empty; status retains every failure",
+    "outcomes_changed_by_classification": false,
+    "classification_only_no_tests_rerun": true,
+    "classification_created_utc": "2026-09-24T13:02:24.790113+00:00",
+    "source_attempt_path": "refined_pm_validation_attempt_001.json",
+    "source_attempt_sha256": "cfcc318f8ade4a34e4599fdd14adf5f738205e4cc4977a6a7c86a3f414a08324",
+    "classification_script_sha256": "592c3464a49884b9b3b83b1da3c8be680461f53ec50dcd0b14f0a6d334823798",
+    "note": "Original numerical values, pass/fail outcomes, execution timing and execution code hashes remain unchanged. The original attempt file is not modified."
+  }
+}

@@ -1,0 +1,1200 @@
+{
+  "created_utc": "2026-09-24T12:53:41.211591+00:00",
+  "scope": "Fixed-mass high-density collapse events; not virialization, halo identification or observation fitting",
+  "protocol_sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2",
+  "code_sha256": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47",
+  "execution": {
+    "command": "python experiments/halo_cooling_v01/code/spherical_collapse.py",
+    "argv": [
+      "experiments/halo_cooling_v01/code/spherical_collapse.py"
+    ],
+    "python_executable": "/root/miniconda3/bin/python",
+    "working_directory": "/root/autodl-tmp/dsc_world/riemann_model",
+    "wall_seconds": 8.01781564950943
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "inputs": {
+    "initial_a": 0.02,
+    "target_reference_a200": 0.5,
+    "R_L_Mpc_h": 2.5,
+    "R_comp_Mpc_h": 4.0,
+    "Omega_m0": 0.315,
+    "Omega_r0": 9.2e-05,
+    "H0_km_s_Mpc": 67.4,
+    "h": 0.674,
+    "thresholds_mean_density": [
+      100.0,
+      200.0,
+      500.0
+    ],
+    "rtol": 2e-10,
+    "atol": 2e-12,
+    "max_step_N": 0.01,
+    "check_threshold": 1e-06,
+    "delta_root_bracket": [
+      0.001,
+      0.5
+    ],
+    "trajectory_points": 4097,
+    "core_mass_Msun_h": 5721889874434.72,
+    "profile": "W=1 for q<=2.5; 1-10s^3+15s^4-6s^5 for 2.5<q<4; zero outside",
+    "profile_meaning": "delta_i W is enclosed mean overdensity in the initial Lagrangian mapping, not local shell density"
+  },
+  "models": {
+    "reference": {
+      "epsilon": 0.0,
+      "initial": {
+        "a_i": 0.02,
+        "delta_i": 0.07295182597218097,
+        "y_i": 0.9768021172143073,
+        "y_N_i": -0.021924495763588223,
+        "E_i": 199.87667424689658,
+        "E_reference_i": 199.87667424689658,
+        "f_reference_i": 0.9903491493236205,
+        "common_peculiar_momentum_per_RL": -0.001752878119106475,
+        "velocity_convention": "finite-ai delta_N=f_reference*delta; matched physical p, not exact nonlinear pure growing mode"
+      },
+      "events": {
+        "100": {
+          "a": 0.4861595987189668,
+          "N": -0.7212183165647764,
+          "E": 1.8514763590486947,
+          "dlnE": -1.200539933239327,
+          "Omega_m": 0.7997193735122022,
+          "t_Gyr": 5.617068062506323,
+          "y": 0.21544346900318834,
+          "y_N": -1.4629899509397724,
+          "Delta": 100.00000000000004,
+          "delta": 99.00000000000004,
+          "comoving_radius_Mpc_h": 0.5386086725079708,
+          "physical_radius_Mpc_h": 0.2618497760930305,
+          "physical_radial_velocity_km_s": -280.73320279428395,
+          "peculiar_radial_velocity_km_s": -329.21406980012796
+        },
+        "200": {
+          "a": 0.4999999999999683,
+          "N": -0.6931471805600087,
+          "E": 1.7906367583002212,
+          "dlnE": -1.1798177384300288,
+          "Omega_m": 0.785933045946586,
+          "t_Gyr": 5.840746999307794,
+          "y": 0.1709975946676697,
+          "y_N": -1.724798868555325,
+          "Delta": 200.0,
+          "delta": 199.0,
+          "comoving_radius_Mpc_h": 0.42749398666917426,
+          "physical_radius_Mpc_h": 0.21374699333457356,
+          "physical_radial_velocity_km_s": -347.7867095145961,
+          "peculiar_radial_velocity_km_s": -386.0610318387001
+        },
+        "500": {
+          "a": 0.5120014293012694,
+          "N": -0.6694278623424842,
+          "E": 1.7415969666930056,
+          "dlnE": -1.1615105628424036,
+          "Omega_m": 0.7737518750597314,
+          "t_Gyr": 6.035615199909299,
+          "y": 0.12599210498948724,
+          "y_N": -2.110672801417962,
+          "Delta": 500.00000000000097,
+          "delta": 499.00000000000097,
+          "comoving_radius_Mpc_h": 0.3149802624737181,
+          "physical_radius_Mpc_h": 0.16127034458823264,
+          "physical_radial_velocity_km_s": -442.4350118364305,
+          "peculiar_radial_velocity_km_s": -470.52180613167064
+        }
+      },
+      "turnaround": {
+        "a": 0.3268493599237132,
+        "N": -1.1182558872434643,
+        "E": 3.116767274875693,
+        "dlnE": -1.3946565447062078,
+        "Omega_m": 0.9286645913254664,
+        "t_Gyr": 3.176549502526182,
+        "y": 0.5566358620678454,
+        "y_N": -0.5566358620678452,
+        "Delta": 5.7981100100949385,
+        "delta": 4.7981100100949385,
+        "comoving_radius_Mpc_h": 1.3915896551696136,
+        "physical_radius_Mpc_h": 0.454840188068649,
+        "physical_radial_velocity_km_s": 5.6549952988332664e-14,
+        "peculiar_radial_velocity_km_s": -141.76310134706702
+      },
+      "solver_evaluations": 4901,
+      "tight": {
+        "events": {
+          "100": {
+            "a": 0.4861595987189213,
+            "N": -0.7212183165648701,
+            "E": 1.851476359048903,
+            "dlnE": -1.2005399332393945,
+            "Omega_m": 0.7997193735122471,
+            "t_Gyr": 5.617068062505589,
+            "y": 0.21544346900318895,
+            "y_N": -1.4629899509696918,
+            "Delta": 99.9999999999992,
+            "delta": 98.9999999999992,
+            "comoving_radius_Mpc_h": 0.5386086725079724,
+            "physical_radius_Mpc_h": 0.2618497760930067,
+            "physical_radial_velocity_km_s": -280.73320280102183,
+            "peculiar_radial_velocity_km_s": -329.2140698068669
+          },
+          "200": {
+            "a": 0.49999999999934647,
+            "N": -0.6931471805612524,
+            "E": 1.7906367583028486,
+            "dlnE": -1.1798177384309696,
+            "Omega_m": 0.7859330459472117,
+            "t_Gyr": 5.840746999297718,
+            "y": 0.17099759466767026,
+            "y_N": -1.724798868532204,
+            "Delta": 199.99999999999804,
+            "delta": 198.99999999999804,
+            "comoving_radius_Mpc_h": 0.42749398666917565,
+            "physical_radius_Mpc_h": 0.21374699333430844,
+            "physical_radial_velocity_km_s": -347.78670950949856,
+            "peculiar_radial_velocity_km_s": -386.06103183361125
+          },
+          "500": {
+            "a": 0.512001429301243,
+            "N": -0.6694278623425355,
+            "E": 1.7415969666931095,
+            "dlnE": -1.161510562842444,
+            "Omega_m": 0.7737518750597584,
+            "t_Gyr": 6.035615199908872,
+            "y": 0.12599210498948726,
+            "y_N": -2.110672801583733,
+            "Delta": 500.0000000000006,
+            "delta": 499.0000000000006,
+            "comoving_radius_Mpc_h": 0.31498026247371813,
+            "physical_radius_Mpc_h": 0.1612703445882244,
+            "physical_radial_velocity_km_s": -442.4350118733887,
+            "peculiar_radial_velocity_km_s": -470.5218061686291
+          }
+        },
+        "turnaround": {
+          "a": 0.3268493599238187,
+          "N": -1.1182558872431416,
+          "E": 3.116767274874291,
+          "dlnE": -1.3946565447061123,
+          "Omega_m": 0.9286645913254029,
+          "t_Gyr": 3.1765495025276835,
+          "y": 0.5566358620676701,
+          "y_N": -0.5566358620676701,
+          "Delta": 5.798110010100417,
+          "delta": 4.798110010100417,
+          "comoving_radius_Mpc_h": 1.3915896551691753,
+          "physical_radius_Mpc_h": 0.4548401880686525,
+          "physical_radial_velocity_km_s": 0.0,
+          "peculiar_radial_velocity_km_s": -141.7631013470044
+        },
+        "solver_evaluations": 9749
+      },
+      "physical_R_Radau": {
+        "events": {
+          "100": {
+            "a": 0.4861595987190046,
+            "N": -0.7212183165646987,
+            "E": 1.851476359048522,
+            "dlnE": -1.200539933239271,
+            "Omega_m": 0.7997193735121649,
+            "t_Gyr": 5.617068062506932,
+            "y": 0.21544346900318834,
+            "y_N": -1.4629899509938624,
+            "Delta": 100.00000000000004,
+            "delta": 99.00000000000004,
+            "comoving_radius_Mpc_h": 0.5386086725079708,
+            "physical_radius_Mpc_h": 0.2618497760930509,
+            "physical_radial_velocity_km_s": -280.73320280645135,
+            "peculiar_radial_velocity_km_s": -329.2140698122946
+          },
+          "200": {
+            "a": 0.49999999999938605,
+            "N": -0.6931471805611732,
+            "E": 1.7906367583026814,
+            "dlnE": -1.1798177384309096,
+            "Omega_m": 0.7859330459471717,
+            "t_Gyr": 5.840746999298359,
+            "y": 0.17099759466766973,
+            "y_N": -1.7247988685067095,
+            "Delta": 199.9999999999999,
+            "delta": 198.9999999999999,
+            "comoving_radius_Mpc_h": 0.4274939866691743,
+            "physical_radius_Mpc_h": 0.21374699333432473,
+            "physical_radial_velocity_km_s": -347.78670950378734,
+            "peculiar_radial_velocity_km_s": -386.06103182789934
+          },
+          "500": {
+            "a": 0.5120014293012884,
+            "N": -0.6694278623424469,
+            "E": 1.7415969666929303,
+            "dlnE": -1.1615105628423743,
+            "Omega_m": 0.7737518750597115,
+            "t_Gyr": 6.035615199909609,
+            "y": 0.12599210498948726,
+            "y_N": -2.110672801515929,
+            "Delta": 500.0000000000006,
+            "delta": 499.0000000000006,
+            "comoving_radius_Mpc_h": 0.31498026247371813,
+            "physical_radius_Mpc_h": 0.1612703445882387,
+            "physical_radial_velocity_km_s": -442.4350118582671,
+            "peculiar_radial_velocity_km_s": -470.5218061535071
+          }
+        },
+        "turnaround": {
+          "a": 0.3268493599237552,
+          "N": -1.118255887243336,
+          "E": 3.1167672748751354,
+          "dlnE": -1.3946565447061698,
+          "Omega_m": 0.9286645913254409,
+          "t_Gyr": 3.176549502526779,
+          "y": 0.5566358620677581,
+          "y_N": -0.5566358620677582,
+          "Delta": 5.798110010097669,
+          "delta": 4.798110010097669,
+          "comoving_radius_Mpc_h": 1.3915896551693951,
+          "physical_radius_Mpc_h": 0.454840188068636,
+          "physical_radial_velocity_km_s": -2.8274976494164902e-14,
+          "peculiar_radial_velocity_km_s": -141.7631013470377
+        },
+        "solver_evaluations": 9132
+      }
+    },
+    "clock": {
+      "epsilon": 0.0001,
+      "initial": {
+        "a_i": 0.02,
+        "delta_i": 0.07295182597218097,
+        "y_i": 0.9768021172143073,
+        "y_N_i": -0.02192367208586432,
+        "E_i": 199.88418366244795,
+        "E_reference_i": 199.87667424689658,
+        "f_reference_i": 0.9903491493236205,
+        "common_peculiar_momentum_per_RL": -0.001752878119106475,
+        "velocity_convention": "finite-ai delta_N=f_reference*delta; matched physical p, not exact nonlinear pure growing mode"
+      },
+      "events": {
+        "100": {
+          "a": 0.4862318557462272,
+          "N": -0.7210696994064055,
+          "E": 1.8511955667607713,
+          "dlnE": -1.2004588655219586,
+          "Omega_m": 0.7996054125859535,
+          "t_Gyr": 5.618043253085383,
+          "y": 0.21544346900318842,
+          "y_N": -1.462878977235879,
+          "Delta": 99.99999999999993,
+          "delta": 98.99999999999993,
+          "comoving_radius_Mpc_h": 0.5386086725079711,
+          "physical_radius_Mpc_h": 0.2618886943545627,
+          "physical_radial_velocity_km_s": -280.70737359462294,
+          "peculiar_radial_velocity_km_s": -329.18809259201623
+        },
+        "200": {
+          "a": 0.5000753964251708,
+          "N": -0.6929963990777026,
+          "E": 1.7903647982755462,
+          "dlnE": -1.1797309490374062,
+          "Omega_m": 0.785816293667806,
+          "t_Gyr": 5.841773395321032,
+          "y": 0.1709975946676697,
+          "y_N": -1.7246637522205226,
+          "Delta": 200.0,
+          "delta": 199.0,
+          "comoving_radius_Mpc_h": 0.42749398666917426,
+          "physical_radius_Mpc_h": 0.213779224852964,
+          "physical_radial_velocity_km_s": -347.7560808187286,
+          "peculiar_radial_velocity_km_s": -386.03036069666655
+        },
+        "500": {
+          "a": 0.5120795995356849,
+          "N": -0.6692751981833672,
+          "E": 1.7413323045264768,
+          "dlnE": -1.161418779024436,
+          "Omega_m": 0.7736326963194653,
+          "t_Gyr": 6.036686677243884,
+          "y": 0.12599210498948726,
+          "y_N": -2.1105031620726526,
+          "Delta": 500.0000000000006,
+          "delta": 499.0000000000006,
+          "comoving_radius_Mpc_h": 0.31498026247371813,
+          "physical_radius_Mpc_h": 0.16129496666918652,
+          "physical_radial_velocity_km_s": -442.3974990795735,
+          "peculiar_radial_velocity_km_s": -470.48431268143105
+        }
+      },
+      "turnaround": {
+        "a": 0.32689643993016354,
+        "N": -1.1181118557053886,
+        "E": 3.116246340991291,
+        "dlnE": -1.3946245632156233,
+        "Omega_m": 0.9285737831942414,
+        "t_Gyr": 3.177104879014233,
+        "y": 0.5566246269695986,
+        "y_N": -0.5566246269695987,
+        "Delta": 5.798461110175586,
+        "delta": 4.798461110175586,
+        "comoving_radius_Mpc_h": 1.3915615674239965,
+        "physical_radius_Mpc_h": 0.45489652233454264,
+        "physical_radial_velocity_km_s": -2.827432273909279e-14,
+        "peculiar_radial_velocity_km_s": -141.7569623254682
+      },
+      "solver_evaluations": 4901,
+      "tight": {
+        "events": {
+          "100": {
+            "a": 0.48623185574618183,
+            "N": -0.7210696994064988,
+            "E": 1.8511955667609787,
+            "dlnE": -1.2004588655220256,
+            "Omega_m": 0.799605412585998,
+            "t_Gyr": 5.618043253084653,
+            "y": 0.21544346900318806,
+            "y_N": -1.4628789772657318,
+            "Delta": 100.00000000000044,
+            "delta": 99.00000000000044,
+            "comoving_radius_Mpc_h": 0.5386086725079702,
+            "physical_radius_Mpc_h": 0.2618886943545378,
+            "physical_radial_velocity_km_s": -280.707373601346,
+            "peculiar_radial_velocity_km_s": -329.1880925987401
+          },
+          "200": {
+            "a": 0.5000753964246143,
+            "N": -0.6929963990788155,
+            "E": 1.7903647982778967,
+            "dlnE": -1.1797309490382482,
+            "Omega_m": 0.7858162936683664,
+            "t_Gyr": 5.841773395312013,
+            "y": 0.17099759466767012,
+            "y_N": -1.7246637521971249,
+            "Delta": 199.99999999999852,
+            "delta": 198.99999999999852,
+            "comoving_radius_Mpc_h": 0.42749398666917526,
+            "physical_radius_Mpc_h": 0.2137792248527266,
+            "physical_radial_velocity_km_s": -347.7560808135609,
+            "peculiar_radial_velocity_km_s": -386.0303606915066
+          },
+          "500": {
+            "a": 0.5120795995355503,
+            "N": -0.6692751981836303,
+            "E": 1.741332304527009,
+            "dlnE": -1.1614187790246433,
+            "Omega_m": 0.7736326963196032,
+            "t_Gyr": 6.036686677241692,
+            "y": 0.12599210498948737,
+            "y_N": -2.1105031622339787,
+            "Delta": 499.9999999999993,
+            "delta": 498.9999999999993,
+            "comoving_radius_Mpc_h": 0.31498026247371846,
+            "physical_radius_Mpc_h": 0.16129496666914422,
+            "physical_radial_velocity_km_s": -442.397499115556,
+            "peculiar_radial_velocity_km_s": -470.48431271741487
+          }
+        },
+        "turnaround": {
+          "a": 0.32689643993028256,
+          "N": -1.1181118557050247,
+          "E": 3.116246340989709,
+          "dlnE": -1.3946245632155159,
+          "Omega_m": 0.9285737831941702,
+          "t_Gyr": 3.1771048790159266,
+          "y": 0.5566246269694005,
+          "y_N": -0.5566246269694003,
+          "Delta": 5.798461110181776,
+          "delta": 4.798461110181776,
+          "comoving_radius_Mpc_h": 1.3915615674235013,
+          "physical_radius_Mpc_h": 0.4548965223345464,
+          "physical_radial_velocity_km_s": 5.6548645478177467e-14,
+          "peculiar_radial_velocity_km_s": -141.75696232539732
+        },
+        "solver_evaluations": 9749
+      },
+      "physical_R_Radau": {
+        "events": {
+          "100": {
+            "a": 0.4862318557462305,
+            "N": -0.7210696994063988,
+            "E": 1.8511955667607565,
+            "dlnE": -1.2004588655219537,
+            "Omega_m": 0.7996054125859505,
+            "t_Gyr": 5.618043253085436,
+            "y": 0.21544346900318848,
+            "y_N": -1.4628789772535389,
+            "Delta": 99.99999999999986,
+            "delta": 98.99999999999986,
+            "comoving_radius_Mpc_h": 0.5386086725079712,
+            "physical_radius_Mpc_h": 0.2618886943545645,
+            "physical_radial_velocity_km_s": -280.7073735985965,
+            "peculiar_radial_velocity_km_s": -329.1880925959898
+          },
+          "200": {
+            "a": 0.5000753964246776,
+            "N": -0.6929963990786892,
+            "E": 1.79036479827763,
+            "dlnE": -1.1797309490381527,
+            "Omega_m": 0.7858162936683024,
+            "t_Gyr": 5.841773395313036,
+            "y": 0.17099759466766978,
+            "y_N": -1.724663752187119,
+            "Delta": 199.99999999999972,
+            "delta": 198.99999999999972,
+            "comoving_radius_Mpc_h": 0.4274939866691745,
+            "physical_radius_Mpc_h": 0.21377922485275327,
+            "physical_radial_velocity_km_s": -347.75608081131367,
+            "peculiar_radial_velocity_km_s": -386.03036068925843
+          },
+          "500": {
+            "a": 0.5120795995355871,
+            "N": -0.6692751981835584,
+            "E": 1.7413323045268634,
+            "dlnE": -1.1614187790245865,
+            "Omega_m": 0.7736326963195657,
+            "t_Gyr": 6.036686677242291,
+            "y": 0.1259921049894874,
+            "y_N": -2.110503162139581,
+            "Delta": 499.999999999999,
+            "delta": 498.999999999999,
+            "comoving_radius_Mpc_h": 0.3149802624737185,
+            "physical_radius_Mpc_h": 0.1612949666691559,
+            "physical_radial_velocity_km_s": -442.39749909450717,
+            "peculiar_radial_velocity_km_s": -470.4843126963657
+          }
+        },
+        "turnaround": {
+          "a": 0.3268964399301906,
+          "N": -1.118111855705306,
+          "E": 3.1162463409909322,
+          "dlnE": -1.3946245632155991,
+          "Omega_m": 0.9285737831942251,
+          "t_Gyr": 3.177104879014617,
+          "y": 0.5566246269695315,
+          "y_N": -0.5566246269695314,
+          "Delta": 5.798461110177682,
+          "delta": 4.798461110177682,
+          "comoving_radius_Mpc_h": 1.3915615674238289,
+          "physical_radius_Mpc_h": 0.4548965223345255,
+          "physical_radial_velocity_km_s": 2.8274322739091876e-14,
+          "peculiar_radial_velocity_km_s": -141.75696232544647
+        },
+        "solver_evaluations": 9146
+      }
+    }
+  },
+  "benchmarks": {
+    "EdS": {
+      "initial": {
+        "a_i": 0.02,
+        "delta_i": 0.06740965467950799,
+        "y_i": 0.9784897735926111,
+        "y_N_i": -0.021712201309078603,
+        "E_i": 353.5533905932736,
+        "velocity_convention": "exact EdS cycloid growing initial state"
+      },
+      "analytic": {
+        "B_H0": 0.040656044037289375,
+        "theta_i": 0.6575946264067072,
+        "events": {
+          "100": {
+            "theta": 4.592411274647883,
+            "a": 0.48772075956262717,
+            "t_Gyr": 3.2942176122444855,
+            "Delta": 100.0,
+            "delta_linear": 1.5591422824317254
+          },
+          "200": {
+            "theta": 4.801433431477828,
+            "a": 0.5,
+            "t_Gyr": 3.419404107526933,
+            "Delta": 200.0,
+            "delta_linear": 1.598396471610021
+          },
+          "500": {
+            "theta": 5.032396899220198,
+            "a": 0.5105331420433676,
+            "t_Gyr": 3.5280223920152833,
+            "Delta": 500.0,
+            "delta_linear": 1.6320687457641931
+          }
+        },
+        "turnaround": {
+          "a": 0.33233608534245573,
+          "t_Gyr": 1.8529413471517375,
+          "Delta": 5.551652475612764
+        },
+        "formal_collapse_delta_linear": 1.6864701998411453,
+        "formal_collapse_a": 0.5275506514796076,
+        "interpretation": "Exact EdS pre-shell-crossing benchmark. No virialization is inferred from Delta=200."
+      },
+      "events": {
+        "100": {
+          "a": 0.48772075956255034,
+          "N": -0.7180122509170744,
+          "E": 2.935912701168028,
+          "dlnE": -1.5,
+          "Omega_m": 1.0,
+          "t_Gyr": 3.294217612243707,
+          "y": 0.21544346900318845,
+          "y_N": -1.6447854025106312,
+          "Delta": 99.9999999999999,
+          "delta": 98.9999999999999,
+          "comoving_radius_Mpc_h": 0.5386086725079711,
+          "physical_radius_Mpc_h": 0.26269063086256456,
+          "physical_radial_velocity_km_s": -511.6706699432637,
+          "peculiar_radial_velocity_km_s": -588.7943459059882
+        },
+        "200": {
+          "a": 0.5000000000012962,
+          "N": -0.6931471805573529,
+          "E": 2.8284271247351915,
+          "dlnE": -1.5,
+          "Omega_m": 1.0,
+          "t_Gyr": 3.4194041075402293,
+          "y": 0.17099759466766984,
+          "y_N": -1.9553858251083844,
+          "Delta": 199.99999999999952,
+          "delta": 198.99999999999952,
+          "comoving_radius_Mpc_h": 0.4274939866691746,
+          "physical_radius_Mpc_h": 0.2137469933351414,
+          "physical_radial_velocity_km_s": -630.8765090062288,
+          "peculiar_radial_velocity_km_s": -691.3332883841995
+        },
+        "500": {
+          "a": 0.5105331420432293,
+          "N": -0.6722997227339834,
+          "E": 2.7413474897694887,
+          "dlnE": -1.5,
+          "Omega_m": 1.0,
+          "t_Gyr": 3.52802239201385,
+          "y": 0.12599210498948743,
+          "y_N": -2.4100434799125936,
+          "Delta": 499.99999999999864,
+          "delta": 498.99999999999864,
+          "comoving_radius_Mpc_h": 0.3149802624737186,
+          "physical_radius_Mpc_h": 0.16080786308230863,
+          "physical_radial_velocity_km_s": -799.1603101837761,
+          "peculiar_radial_velocity_km_s": -843.2433333633644
+        }
+      },
+      "turnaround": {
+        "a": 0.33233608534245435,
+        "N": -1.1016085168527217,
+        "E": 5.219558267758689,
+        "dlnE": -1.5,
+        "Omega_m": 1.0,
+        "t_Gyr": 1.8529413471517258,
+        "y": 0.564753905091613,
+        "y_N": -0.5647539050916126,
+        "Delta": 5.55165247561276,
+        "delta": 4.55165247561276,
+        "comoving_radius_Mpc_h": 1.4118847627290325,
+        "physical_radius_Mpc_h": 0.46922025500002673,
+        "physical_radial_velocity_km_s": 1.9258456628576558e-13,
+        "peculiar_radial_velocity_km_s": -244.9122461385228
+      },
+      "independent_events": {
+        "100": {
+          "a": 0.48772075956259053,
+          "N": -0.7180122509169921,
+          "E": 2.9359127011676653,
+          "dlnE": -1.5,
+          "Omega_m": 1.0,
+          "t_Gyr": 3.294217612244114,
+          "y": 0.2154434690031883,
+          "y_N": -1.6447854025141746,
+          "Delta": 100.00000000000009,
+          "delta": 99.00000000000009,
+          "comoving_radius_Mpc_h": 0.5386086725079707,
+          "physical_radius_Mpc_h": 0.2626906308625861,
+          "physical_radial_velocity_km_s": -511.67066994451113,
+          "peculiar_radial_velocity_km_s": -588.7943459072325
+        },
+        "200": {
+          "a": 0.4999999999999761,
+          "N": -0.6931471805599931,
+          "E": 2.828427124746393,
+          "dlnE": -1.5,
+          "Omega_m": 1.0,
+          "t_Gyr": 3.4194041075266877,
+          "y": 0.17099759466766964,
+          "y_N": -1.955385825145095,
+          "Delta": 200.0000000000002,
+          "delta": 199.0000000000002,
+          "comoving_radius_Mpc_h": 0.4274939866691741,
+          "physical_radius_Mpc_h": 0.21374699333457683,
+          "physical_radial_velocity_km_s": -630.8765090200409,
+          "peculiar_radial_velocity_km_s": -691.3332883980912
+        },
+        "500": {
+          "a": 0.5105331420433048,
+          "N": -0.6722997227338356,
+          "E": 2.741347489768881,
+          "dlnE": -1.5,
+          "Omega_m": 1.0,
+          "t_Gyr": 3.5280223920146314,
+          "y": 0.12599210498948715,
+          "y_N": -2.4100434799829857,
+          "Delta": 500.00000000000193,
+          "delta": 499.00000000000193,
+          "comoving_radius_Mpc_h": 0.3149802624737179,
+          "physical_radius_Mpc_h": 0.16080786308233205,
+          "physical_radial_velocity_km_s": -799.1603102083468,
+          "peculiar_radial_velocity_km_s": -843.2433333879316
+        }
+      }
+    }
+  },
+  "event_rows": [
+    {
+      "label": "reference",
+      "eps": 0.0,
+      "epsilon": 0.0,
+      "event": "turnaround",
+      "a_event": 0.3268493599237132,
+      "z_event": 2.059513410806129,
+      "t_Gyr": 3.176549502526182,
+      "Delta": 5.7981100100949385,
+      "M_Msun_h": 5721889874434.72,
+      "M_solar_physical": 8489450852277.031,
+      "qL_Mpc_h": 2.5,
+      "qL_Mpc_physical_comoving": 3.7091988130563798,
+      "R_physical_Mpc_h": 0.454840188068649,
+      "R_physical_Mpc": 0.6748370742858294,
+      "physical_radial_velocity_km_s": 5.6549952988332664e-14,
+      "peculiar_radial_velocity_km_s": -141.76310134706702,
+      "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+    },
+    {
+      "label": "reference",
+      "eps": 0.0,
+      "epsilon": 0.0,
+      "event": "Delta100",
+      "a_event": 0.4861595987189668,
+      "z_event": 1.056937685967747,
+      "t_Gyr": 5.617068062506323,
+      "Delta": 100.00000000000004,
+      "M_Msun_h": 5721889874434.72,
+      "M_solar_physical": 8489450852277.031,
+      "qL_Mpc_h": 2.5,
+      "qL_Mpc_physical_comoving": 3.7091988130563798,
+      "R_physical_Mpc_h": 0.2618497760930305,
+      "R_physical_Mpc": 0.388501151473339,
+      "physical_radial_velocity_km_s": -280.73320279428395,
+      "peculiar_radial_velocity_km_s": -329.21406980012796,
+      "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+    },
+    {
+      "label": "reference",
+      "eps": 0.0,
+      "epsilon": 0.0,
+      "event": "Delta200",
+      "a_event": 0.4999999999999683,
+      "z_event": 1.000000000000127,
+      "t_Gyr": 5.840746999307794,
+      "Delta": 200.0,
+      "M_Msun_h": 5721889874434.72,
+      "M_solar_physical": 8489450852277.031,
+      "qL_Mpc_h": 2.5,
+      "qL_Mpc_physical_comoving": 3.7091988130563798,
+      "R_physical_Mpc_h": 0.21374699333457356,
+      "R_physical_Mpc": 0.31713203758838804,
+      "physical_radial_velocity_km_s": -347.7867095145961,
+      "peculiar_radial_velocity_km_s": -386.0610318387001,
+      "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+    },
+    {
+      "label": "reference",
+      "eps": 0.0,
+      "epsilon": 0.0,
+      "event": "Delta500",
+      "a_event": 0.5120014293012694,
+      "z_event": 0.9531195476635768,
+      "t_Gyr": 6.035615199909299,
+      "Delta": 500.00000000000097,
+      "M_Msun_h": 5721889874434.72,
+      "M_solar_physical": 8489450852277.031,
+      "qL_Mpc_h": 2.5,
+      "qL_Mpc_physical_comoving": 3.7091988130563798,
+      "R_physical_Mpc_h": 0.16127034458823264,
+      "R_physical_Mpc": 0.23927350829114633,
+      "physical_radial_velocity_km_s": -442.4350118364305,
+      "peculiar_radial_velocity_km_s": -470.52180613167064,
+      "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+    },
+    {
+      "label": "clock",
+      "eps": 0.0001,
+      "epsilon": 0.0001,
+      "event": "turnaround",
+      "a_event": 0.32689643993016354,
+      "z_event": 2.059072776117216,
+      "t_Gyr": 3.177104879014233,
+      "Delta": 5.798461110175586,
+      "M_Msun_h": 5721889874434.72,
+      "M_solar_physical": 8489450852277.031,
+      "qL_Mpc_h": 2.5,
+      "qL_Mpc_physical_comoving": 3.7091988130563798,
+      "R_physical_Mpc_h": 0.45489652233454264,
+      "R_physical_Mpc": 0.6749206562827041,
+      "physical_radial_velocity_km_s": -2.827432273909279e-14,
+      "peculiar_radial_velocity_km_s": -141.7569623254682,
+      "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+    },
+    {
+      "label": "clock",
+      "eps": 0.0001,
+      "epsilon": 0.0001,
+      "event": "Delta100",
+      "a_event": 0.4862318557462272,
+      "z_event": 1.05663201244864,
+      "t_Gyr": 5.618043253085383,
+      "Delta": 99.99999999999993,
+      "M_Msun_h": 5721889874434.72,
+      "M_solar_physical": 8489450852277.031,
+      "qL_Mpc_h": 2.5,
+      "qL_Mpc_physical_comoving": 3.7091988130563798,
+      "R_physical_Mpc_h": 0.2618886943545627,
+      "R_physical_Mpc": 0.38855889370113156,
+      "physical_radial_velocity_km_s": -280.70737359462294,
+      "peculiar_radial_velocity_km_s": -329.18809259201623,
+      "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+    },
+    {
+      "label": "clock",
+      "eps": 0.0001,
+      "epsilon": 0.0001,
+      "event": "Delta200",
+      "a_event": 0.5000753964251708,
+      "z_event": 0.9996984597694274,
+      "t_Gyr": 5.841773395321032,
+      "Delta": 200.0,
+      "M_Msun_h": 5721889874434.72,
+      "M_solar_physical": 8489450852277.031,
+      "qL_Mpc_h": 2.5,
+      "qL_Mpc_physical_comoving": 3.7091988130563798,
+      "R_physical_Mpc_h": 0.213779224852964,
+      "R_physical_Mpc": 0.3171798588322908,
+      "physical_radial_velocity_km_s": -347.7560808187286,
+      "peculiar_radial_velocity_km_s": -386.03036069666655,
+      "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+    },
+    {
+      "label": "clock",
+      "eps": 0.0001,
+      "epsilon": 0.0001,
+      "event": "Delta500",
+      "a_event": 0.5120795995356849,
+      "z_event": 0.9528213990690595,
+      "t_Gyr": 6.036686677243884,
+      "Delta": 500.0000000000006,
+      "M_Msun_h": 5721889874434.72,
+      "M_solar_physical": 8489450852277.031,
+      "qL_Mpc_h": 2.5,
+      "qL_Mpc_physical_comoving": 3.7091988130563798,
+      "R_physical_Mpc_h": 0.16129496666918652,
+      "R_physical_Mpc": 0.23931003956852598,
+      "physical_radial_velocity_km_s": -442.3974990795735,
+      "peculiar_radial_velocity_km_s": -470.48431268143105,
+      "interpretation": "fixed-mass spherical event; not an equilibrium/virialized halo"
+    }
+  ],
+  "input_sha256": {
+    "experiments/cosmic_bridge_v01/results/background_eps0.csv": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0",
+    "experiments/cosmic_bridge_v01/results/background_eps1e-4.csv": "2f6fc8ea8e1b24cb87b41129d30005030488da0bb20974625187a8936942ef13",
+    "experiments/cosmic_bridge_v01/results/background_summary.json": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307"
+  },
+  "delta_i": 0.07295182597218097,
+  "initial": {
+    "reference": {
+      "a_i": 0.02,
+      "delta_i": 0.07295182597218097,
+      "y_i": 0.9768021172143073,
+      "y_N_i": -0.021924495763588223,
+      "E_i": 199.87667424689658,
+      "E_reference_i": 199.87667424689658,
+      "f_reference_i": 0.9903491493236205,
+      "common_peculiar_momentum_per_RL": -0.001752878119106475,
+      "velocity_convention": "finite-ai delta_N=f_reference*delta; matched physical p, not exact nonlinear pure growing mode"
+    },
+    "clock": {
+      "a_i": 0.02,
+      "delta_i": 0.07295182597218097,
+      "y_i": 0.9768021172143073,
+      "y_N_i": -0.02192367208586432,
+      "E_i": 199.88418366244795,
+      "E_reference_i": 199.87667424689658,
+      "f_reference_i": 0.9903491493236205,
+      "common_peculiar_momentum_per_RL": -0.001752878119106475,
+      "velocity_convention": "finite-ai delta_N=f_reference*delta; matched physical p, not exact nonlinear pure growing mode"
+    }
+  },
+  "calibration_trace": [
+    {
+      "delta_i": 0.001,
+      "a200": null,
+      "no_event_by_a1": true,
+      "root_residual": 0.5
+    },
+    {
+      "delta_i": 0.5,
+      "a200": 0.09923311394890555,
+      "no_event_by_a1": false,
+      "root_residual": -0.40076688605109445
+    },
+    {
+      "delta_i": 0.2779862034935502,
+      "a200": 0.15165276948412146,
+      "no_event_by_a1": false,
+      "root_residual": -0.34834723051587857
+    },
+    {
+      "delta_i": 0.1394931017467751,
+      "a200": 0.2691929295427941,
+      "no_event_by_a1": false,
+      "root_residual": -0.2308070704572059
+    },
+    {
+      "delta_i": 0.07024655087338755,
+      "a200": 0.5204530560440527,
+      "no_event_by_a1": false,
+      "root_residual": 0.020453056044052675
+    },
+    {
+      "delta_i": 0.07588335288249441,
+      "a200": 0.47986456108655806,
+      "no_event_by_a1": false,
+      "root_residual": -0.02013543891344194
+    },
+    {
+      "delta_i": 0.07308700671000395,
+      "a200": 0.4990275475764468,
+      "no_event_by_a1": false,
+      "root_residual": -0.000972452423553205
+    },
+    {
+      "delta_i": 0.07295154293490692,
+      "a200": 0.5000020407911402,
+      "no_event_by_a1": false,
+      "root_residual": 2.040791140189846e-06
+    },
+    {
+      "delta_i": 0.07295182662418034,
+      "a200": 0.4999999952988717,
+      "no_event_by_a1": false,
+      "root_residual": -4.701128319961612e-09
+    },
+    {
+      "delta_i": 0.07295182597218097,
+      "a200": 0.4999999999999683,
+      "no_event_by_a1": false,
+      "root_residual": -3.169686735304822e-14
+    },
+    {
+      "delta_i": 0.07295182597110803,
+      "a200": 0.500000000007706,
+      "no_event_by_a1": false,
+      "root_residual": 7.705946991620749e-12
+    }
+  ],
+  "paired_event_shifts": {
+    "100": {
+      "delta_a": 7.225702726038064e-05,
+      "fractional_delta_a": 0.00014862820244787578,
+      "delta_t_Myr": 0.9751905790595927,
+      "reference_a": 0.4861595987189668,
+      "clock_a": 0.4862318557462272,
+      "reference_t_Gyr": 5.617068062506323,
+      "clock_t_Gyr": 5.618043253085383
+    },
+    "200": {
+      "delta_a": 7.539642520254519e-05,
+      "fractional_delta_a": 0.0001507928504052014,
+      "delta_t_Myr": 1.0263960132377292,
+      "reference_a": 0.4999999999999683,
+      "clock_a": 0.5000753964251708,
+      "reference_t_Gyr": 5.840746999307794,
+      "clock_t_Gyr": 5.841773395321032
+    },
+    "500": {
+      "delta_a": 7.817023441558657e-05,
+      "fractional_delta_a": 0.00015267581288247456,
+      "delta_t_Myr": 1.0714773345847917,
+      "reference_a": 0.5120014293012694,
+      "clock_a": 0.5120795995356849,
+      "reference_t_Gyr": 6.035615199909299,
+      "clock_t_Gyr": 6.036686677243884
+    }
+  },
+  "checks": [
+    {
+      "name": "matched_initial_physical_momentum",
+      "value": 0.0,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_threshold_100",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_threshold_200",
+      "value": 0.0,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_threshold_500",
+      "value": 1.9984014443252818e-15,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_turnaround_radial_derivative",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_target_a200",
+      "value": -6.339373470609644e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_tight_y",
+      "value": 1.2541301330770693e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_tight_y_N",
+      "value": 3.557887318095254e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_tight_event_a100",
+      "value": -9.35918009759007e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_tight_event_a200",
+      "value": -1.2436718321851004e-12,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_tight_event_a500",
+      "value": -5.140332604014475e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_tight_turnaround_a",
+      "value": 3.226308109560705e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_physical_R_Radau_y",
+      "value": 1.1745937555929231e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_physical_R_Radau_y_N",
+      "value": 3.647993018773832e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_physical_R_Radau_event_a100",
+      "value": 7.771561172376096e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_physical_R_Radau_event_a200",
+      "value": -1.1645129305293267e-12,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_physical_R_Radau_event_a500",
+      "value": 3.730349362740526e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_physical_R_Radau_turnaround_a",
+      "value": 1.283417816466681e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_threshold_100",
+      "value": -6.661338147750939e-16,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_threshold_200",
+      "value": 0.0,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_threshold_500",
+      "value": 1.3322676295501878e-15,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_turnaround_radial_derivative",
+      "value": -1.1102230246251565e-16,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_tight_y",
+      "value": 1.122202331060862e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_tight_y_N",
+      "value": 3.623856770218481e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_tight_event_a100",
+      "value": -9.325873406851315e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_tight_event_a200",
+      "value": -1.112887559884257e-12,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_tight_event_a500",
+      "value": -2.630118345336996e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_tight_turnaround_a",
+      "value": 3.6415315207705135e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_physical_R_Radau_y",
+      "value": 9.949596702085728e-12,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_physical_R_Radau_y_N",
+      "value": 4.4868997406410926e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_physical_R_Radau_event_a100",
+      "value": 6.8833827526759706e-15,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_physical_R_Radau_event_a200",
+      "value": -9.864331573794516e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_physical_R_Radau_event_a500",
+      "value": -1.9095836023552692e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_physical_R_Radau_turnaround_a",
+      "value": 8.260059303211165e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "EdS_cycloid_a100",
+      "value": -1.5754064719430971e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "EdS_physical_R_Radau_a100",
+      "value": -7.51620987671231e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "EdS_cycloid_a200",
+      "value": 2.5923707624997405e-12,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "EdS_physical_R_Radau_a200",
+      "value": -4.785061236134425e-14,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "EdS_cycloid_a500",
+      "value": -2.710054403110007e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "EdS_physical_R_Radau_a500",
+      "value": -1.2312373343092986e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "EdS_cycloid_turnaround_a",
+      "value": -4.218847493575595e-15,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "EdS_cycloid_turnaround_Delta",
+      "value": -7.771561172376096e-16,
+      "threshold": 1e-06,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "checks_total": 42,
+    "checks_passed": 42,
+    "failures": 0,
+    "models_completed": 2
+  },
+  "limitations": [
+    "Spherical smooth-background equations neglect tides, shell crossing and clustered scalar/radiation perturbations.",
+    "Delta=100/200/500 are fixed-mean-density collapse events; Delta=200 does not establish virialization.",
+    "Only EdS has an analytic cycloid benchmark here; no EdS collapse/virial overdensity is imposed on general backgrounds.",
+    "Reference delta_i is calibrated to a prescribed numerical event at a=.5, not an observed halo.",
+    "Physical ages inherit the declared prior background and its idealized early tail.",
+    "PM comparison must separately measure finite-particle core mass, radial estimator, anisotropy and periodic compensation errors."
+  ]
+}

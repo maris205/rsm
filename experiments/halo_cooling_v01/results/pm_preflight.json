@@ -1,0 +1,60 @@
+{
+  "protocol_sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2",
+  "force_evaluations": 3,
+  "entries": [
+    {
+      "nparticle": 64,
+      "nmesh": 128,
+      "force_seconds": 0.5253452956676483,
+      "process_peak_rss_KiB": 2146196,
+      "diagnostics": {
+        "raw_mass": 1.0,
+        "mass_relative_error": 0.0,
+        "density_contrast_mean": 2.6020852139652106e-18,
+        "total_force_absolute": 1.0600881787300954e-19,
+        "total_force_normalized": 6.70037636547088e-17,
+        "mean_force_magnitude": 0.0015821322876623156,
+        "max_force_magnitude": 0.006471547914831985,
+        "real_fft": true,
+        "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+      }
+    },
+    {
+      "nparticle": 64,
+      "nmesh": 256,
+      "force_seconds": 2.0739237517118454,
+      "process_peak_rss_KiB": 2146196,
+      "diagnostics": {
+        "raw_mass": 1.0,
+        "mass_relative_error": 0.0,
+        "density_contrast_mean": -2.6020852139652106e-18,
+        "total_force_absolute": 1.5875451955179638e-18,
+        "total_force_normalized": 5.658581740266332e-16,
+        "mean_force_magnitude": 0.0028055531728401664,
+        "max_force_magnitude": 0.01343838540591155,
+        "real_fft": true,
+        "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+      }
+    },
+    {
+      "nparticle": 128,
+      "nmesh": 256,
+      "force_seconds": 6.768600959330797,
+      "process_peak_rss_KiB": 2146196,
+      "diagnostics": {
+        "raw_mass": 1.0,
+        "mass_relative_error": 0.0,
+        "density_contrast_mean": -2.168404344971009e-18,
+        "total_force_absolute": 2.691162738776164e-19,
+        "total_force_normalized": 2.0793030375677615e-16,
+        "mean_force_magnitude": 0.001294261918611016,
+        "max_force_magnitude": 0.007560822632119075,
+        "real_fft": true,
+        "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+      }
+    }
+  ],
+  "timing_scope": "Sequential initial-state force calls, not total integration benchmark",
+  "fft_workers": 4,
+  "code_sha256": "a76267b7c01ea4a562094f95c6e2909db522342feebcb05361bc9db303fb0e25"
+}

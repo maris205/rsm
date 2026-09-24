@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/grackle-project/grackle",
+  "tag": "grackle-3.4.1",
+  "commit": "af7939494ce65007887ada7b98d1813df6843346",
+  "files": [
+    {
+      "local_path": "grackle_primordial_equilibrium.py",
+      "upstream_path": "src/python/gracklepy/utilities/primordial_equilibrium.py",
+      "url": "https://raw.githubusercontent.com/grackle-project/grackle/af7939494ce65007887ada7b98d1813df6843346/src/python/gracklepy/utilities/primordial_equilibrium.py",
+      "resolved_url": "https://raw.githubusercontent.com/grackle-project/grackle/af7939494ce65007887ada7b98d1813df6843346/src/python/gracklepy/utilities/primordial_equilibrium.py",
+      "sha256": "dc45688c6a6eab60af5ebb86323c7d36b7db3e5347af43b65b4766332abde37e",
+      "bytes": 8698,
+      "downloaded_utc": "2026-09-24T12:47:31Z",
+      "preservation": "Original upstream bytes; no text, newline, or encoding changes."
+    },
+    {
+      "local_path": "GRACKLE_LICENSE",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/grackle-project/grackle/af7939494ce65007887ada7b98d1813df6843346/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/grackle-project/grackle/af7939494ce65007887ada7b98d1813df6843346/LICENSE",
+      "sha256": "a085c6b50d804f73ee99e5ede3dd4390a49a0ff261d1c7cc145d6c029e6f80bb",
+      "bytes": 4491,
+      "downloaded_utc": "2026-09-24T12:47:31Z",
+      "preservation": "Original upstream bytes; no text, newline, or encoding changes."
+    }
+  ],
+  "license": {
+    "upstream_path": "LICENSE",
+    "local_path": "GRACKLE_LICENSE",
+    "upstream_name": "Enzo Public License",
+    "components": [
+      "University of Illinois/NCSA Open Source License",
+      "University of California/BSD License"
+    ],
+    "description": "The upstream license identifies itself as the Enzo Public License, BSD-like; the complete original multi-part license is archived without alteration.",
+    "source_header_alias": "The source header spells the name Enzo Public Licence and refers to LICENSE; this is the same repository license file.",
+    "alias_check": {
+      "method": "Inspected the untruncated recursive Git tree at the pinned commit.",
+      "url": "https://api.github.com/repos/grackle-project/grackle/git/trees/af7939494ce65007887ada7b98d1813df6843346?recursive=1",
+      "root_license_paths": [
+        "LICENSE"
+      ],
+      "other_license_named_paths": [
+        "scripts/wheels/binary_license_annex.txt.in",
+        "scripts/wheels/check_packaged_dependency_licenses.py",
+        "scripts/wheels/zlib_license_for_macos.txt"
+      ],
+      "conclusion": "No separate root LICENCE, COPYING, or alternate license file. Other matches concern wheel packaging and dependencies."
+    }
+  },
+  "intended_use": {
+    "role": "Independent validation reference only; not the production cooling implementation.",
+    "entry_point": "total_cooling(T, nH, rates=\"cen\")",
+    "rate_choice": "cen must be supplied explicitly; upstream default is enzo.",
+    "helium_mass_fraction": 0.24,
+    "hydrogen_mass_fraction": 0.76,
+    "composition_note": "The archived total_cooling entry point has no Y parameter; component defaults fix Y=0.24.",
+    "temperature_units": "K",
+    "hydrogen_nuclei_number_density_units": "cm^-3",
+    "return_quantity": "Positive volumetric radiative cooling loss in erg cm^-3 s^-1.",
+    "coefficient_normalization": "Divide total_cooling by nH**2 to obtain Lambda_H in erg cm^3 s^-1."
+  },
+  "scope_warnings": [
+    "This is the official analytic primordial-equilibrium utility, not a run of the full Grackle chemistry/cooling solver or a Cloudy table.",
+    "Use only as a validation reference for an optically thin, low-density, atomic H/He, electron-collision ionization-equilibrium subset with fixed Y=0.24.",
+    "It contains no metals, molecular chemistry, external UV photoheating/photoionization, or CMB Compton cooling.",
+    "It is not identical to the current Grackle C core: neutral-collider ionization k57/k58 and some electron-density-squared helium cooling terms are absent; rate fits can also differ.",
+    "Selecting rates=\"cen\" is an explicit reference-model choice, not a claim to reproduce the current Grackle default rates.",
+    "A collisional-ionization-equilibrium closure does not establish that a time-dependent gas equilibrates faster than it cools or evolves dynamically.",
+    "The source was archived and byte-checked only; it was not imported or executed during this provenance task."
+  ],
+  "citation": {
+    "authors": "Smith, B. D., Bryan, G. L., Glover, S. C. O., et al.",
+    "year": 2017,
+    "title": "Grackle: a chemistry and cooling library for astrophysics",
+    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "volume": "466",
+    "pages": "2217-2234",
+    "doi": "10.1093/mnras/stw3291",
+    "url": "https://doi.org/10.1093/mnras/stw3291",
+    "documentation": "https://grackle.readthedocs.io/en/grackle-3.4.1/Citing.html"
+  }
+}
