@@ -1,0 +1,5 @@
+# Versions used for this archived experiment; CAMB is only needed to regenerate inputs.
+numpy==2.4.4
+scipy==1.16.1
+matplotlib==3.10.5
+camb==2.0.4

@@ -1,0 +1,6 @@
+# Preserve archived scientific bytes and their recorded SHA-256 across checkouts.
+# Python's csv writer emits CRLF; CR at end of line is part of this format.
+results/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+inputs/*.csv -text
+# CAMB's native parameter representation includes a final indented blank line.
+inputs/camb_parameters.txt -text -whitespace

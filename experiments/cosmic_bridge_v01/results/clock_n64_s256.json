@@ -1,0 +1,4981 @@
+{
+  "metadata": {
+    "background_label": "clock_eps1e-4",
+    "background": {
+      "source_csv": "experiments/cosmic_bridge_v01/results/background_eps1e-4.csv",
+      "source_sha256": "2f6fc8ea8e1b24cb87b41129d30005030488da0bb20974625187a8936942ef13"
+    },
+    "omega_m0": 0.315,
+    "nmesh": 64,
+    "particles": 262144,
+    "steps": 256,
+    "a_initial": 0.02,
+    "a_final": 1.0,
+    "box_mpc_h": 50.0,
+    "mesh_length_mpc_h": 0.78125,
+    "integrator": "KDK, fixed logarithmic scale-factor boundaries, 16-point factor quadrature",
+    "initial_conditions": {
+      "seed": 20260924,
+      "base_grid": 32,
+      "box_mpc_h": 50.0,
+      "cutoff_fraction_base_nyquist": 0.6,
+      "kmax_h_mpc": 1.2063715789784806,
+      "retained_full_fft_modes": 3742,
+      "spectrum_redshift": 49,
+      "source_csv": "experiments/cosmic_bridge_v01/inputs/reference_linear_spectrum.csv",
+      "source_sha256": "a41eb6b0edbb1380b97b013a7edb05fe48ae4111e8b5ee4d94b868b6dc4bdf45",
+      "coefficient_sha256": "bcd5b2a74b99db77fe5dd361ab4b952d6ce37d93f04d90e1f8a54677ac2c7269",
+      "normalization": "E|delta_m|^2 = P(k)/L^3; no realization rescaling",
+      "realized_linear_density_variance": 0.0026281025697600354,
+      "expected_linear_density_variance": 0.0028342886930406144,
+      "interpretation": "External standard matter transfer, not a fitted SMICA phase realization",
+      "nmesh": 64,
+      "a_initial": 0.02,
+      "E_reference_initial": 199.87667424689658,
+      "f_reference_initial": 0.9903491493236205,
+      "common_momentum_factor": 0.07917907772401937,
+      "initial_condition_order": "Zeldovich displacement and common reference growing velocity",
+      "max_ifft_imaginary_displacement": 1.4163701135316626e-18,
+      "displacement_rms_box_units": 0.001462306159109485,
+      "max_displacement_cells": 0.4068957318839067
+    },
+    "code_sha256": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+    "gravity": "Periodic Newtonian PM, CIC deposit/gather, spectral Poisson and Nyquist-safe gradient",
+    "interpretation": "Collisionless density clustering, not resolved halos or galaxies"
+  },
+  "diagnostics": {
+    "max_mass_relative_error": 1.1102230246251565e-16,
+    "max_total_force_normalized": 3.154624147005176e-15,
+    "max_total_force_absolute": 1.9295658752954583e-16,
+    "max_momentum_change_absolute": 1.0583622221608924e-16,
+    "max_drift_cells": 0.26623437866165767,
+    "max_force_ifft_imaginary": 1.7257945311404983e-16,
+    "finite": true
+  },
+  "history": [
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -2.168404344971009e-19,
+      "total_force_absolute": 1.5225541878232903e-18,
+      "total_force_normalized": 6.61537957203775e-16,
+      "mean_force_magnitude": 0.0023015371548125614,
+      "force_ifft_max_imaginary": 1.2385298283622916e-18,
+      "max_force_magnitude": 0.006208594000150798,
+      "a": 0.02,
+      "mean_momentum": [
+        1.1469885413995177e-19,
+        -1.1531673220813474e-21,
+        3.665444089375604e-23
+      ],
+      "momentum_change_absolute": 0.0,
+      "momentum_rms": 0.00011578405302844214,
+      "max_drift_cells": 0.0
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.113535900646731e-18,
+      "total_force_normalized": 4.765518459073705e-16,
+      "mean_force_magnitude": 0.0023366521611652173,
+      "force_ifft_max_imaginary": 1.4596904642760455e-18,
+      "max_force_magnitude": 0.006304127806928151,
+      "max_drift_cells": 0.006202994900516163,
+      "a": 0.020307973931323484,
+      "mean_momentum": [
+        1.801643835098419e-19,
+        9.136856100501748e-21,
+        2.553920141257473e-23
+      ],
+      "momentum_change_absolute": 6.626930089616009e-20,
+      "momentum_rms": 0.00011840387943853955
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 2.168404344971009e-19,
+      "total_force_absolute": 4.723248176152085e-18,
+      "total_force_normalized": 1.9910031578502476e-15,
+      "mean_force_magnitude": 0.0023722956729269745,
+      "force_ifft_max_imaginary": 1.329814355540063e-18,
+      "max_force_magnitude": 0.006401121334919526,
+      "max_drift_cells": 0.00629521923580601,
+      "a": 0.0206206902597657,
+      "mean_momentum": [
+        -1.257802309148067e-19,
+        -4.89584940115409e-21,
+        3.169135721843787e-23
+      ],
+      "momentum_change_absolute": 2.405082078486116e-19,
+      "momentum_rms": 0.00012108443573826056
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.717040356380573e-18,
+      "total_force_normalized": 7.129156983644927e-16,
+      "mean_force_magnitude": 0.002408476009603454,
+      "force_ifft_max_imaginary": 1.7206161070875595e-18,
+      "max_force_magnitude": 0.006499599239519221,
+      "max_drift_cells": 0.006388907059080744,
+      "a": 0.020938222012060883,
+      "mean_momentum": [
+        7.83064227052219e-20,
+        8.063460008743483e-22,
+        8.84566267548894e-23
+      ],
+      "momentum_change_absolute": 3.6445184066770953e-20,
+      "momentum_rms": 0.00012382711371230186
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.6989639730836678e-18,
+      "total_force_normalized": 6.948154950637301e-16,
+      "mean_force_magnitude": 0.0024452016184927407,
+      "force_ifft_max_imaginary": 1.272470705727413e-18,
+      "max_force_magnitude": 0.0065995866190535464,
+      "max_drift_cells": 0.006484080355847341,
+      "a": 0.021260643339459796,
+      "mean_momentum": [
+        1.2541332461435114e-19,
+        -4.269441032904168e-21,
+        1.2686882645032062e-22
+      ],
+      "momentum_change_absolute": 1.1158816156873568e-20,
+      "momentum_rms": 0.00012663333752459152
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.809745106286034e-18,
+      "total_force_normalized": 7.290066067930548e-16,
+      "mean_force_magnitude": 0.002482481076882437,
+      "force_ifft_max_imaginary": 1.2639886081240473e-18,
+      "max_force_magnitude": 0.006701109025547772,
+      "max_drift_cells": 0.006580761503187407,
+      "a": 0.021588029535045787,
+      "mean_momentum": [
+        -3.184239522841123e-20,
+        1.5511601039324082e-20,
+        -9.40917946779069e-24
+      ],
+      "momentum_change_absolute": 1.4748577691708843e-19,
+      "momentum_rms": 0.00012950456446931638
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": -2.168404344971009e-19,
+      "total_force_absolute": 5.171449420189579e-19,
+      "total_force_normalized": 2.0518993901633016e-16,
+      "mean_force_magnitude": 0.002520323094290703,
+      "force_ifft_max_imaginary": 1.238946551313938e-18,
+      "max_force_magnitude": 0.006804192475827097,
+      "max_drift_cells": 0.006678973276799445,
+      "a": 0.02192045705131755,
+      "mean_momentum": [
+        4.7902261917493113e-20,
+        -1.7663666499245638e-21,
+        -2.1713491079516976e-23
+      ],
+      "momentum_change_absolute": 6.679943227875949e-20,
+      "momentum_rms": 0.00013244228573997097
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 2.168404344971009e-19,
+      "total_force_absolute": 1.9057799606463572e-18,
+      "total_force_normalized": 7.448128987328891e-16,
+      "mean_force_magnitude": 0.002558736514752309,
+      "force_ifft_max_imaginary": 1.2914549842171522e-18,
+      "max_force_magnitude": 0.006908863462965056,
+      "max_drift_cells": 0.006778738858232608,
+      "a": 0.022258003518042628,
+      "mean_momentum": [
+        4.79260950588923e-20,
+        -1.0547793580969932e-20,
+        2.598381099182198e-22
+      ],
+      "momentum_change_absolute": 6.743078057379678e-20,
+      "momentum_rms": 0.0001354480272168685
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 2.86656671109585e-18,
+      "total_force_normalized": 1.1034889534002825e-15,
+      "mean_force_magnitude": 0.002597730319150756,
+      "force_ifft_max_imaginary": 1.3821802262121061e-18,
+      "max_force_magnitude": 0.007015148968093141,
+      "max_drift_cells": 0.006880081842314088,
+      "a": 0.022600747760385804,
+      "mean_momentum": [
+        -2.711871830188122e-19,
+        -1.0564130398067855e-21,
+        9.455708377246798e-23
+      ],
+      "momentum_change_absolute": 3.8588605363267815e-19,
+      "momentum_rms": 0.00013852335027356494
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 2.168404344971009e-19,
+      "total_force_absolute": 1.5193879768977824e-18,
+      "total_force_normalized": 5.761119803873502e-16,
+      "mean_force_magnitude": 0.00263731362759757,
+      "force_ifft_max_imaginary": 1.5341240714319975e-18,
+      "max_force_magnitude": 0.007123076472586538,
+      "max_drift_cells": 0.006983026244777757,
+      "a": 0.022948769817316625,
+      "mean_momentum": [
+        1.2235141217940954e-19,
+        -1.856813680028409e-21,
+        5.144029434314141e-23
+      ],
+      "momentum_change_absolute": 7.684854023713404e-21,
+      "momentum_rms": 0.00014166985260266032
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.883895096049739e-18,
+      "total_force_normalized": 2.9445033620681805e-15,
+      "mean_force_magnitude": 0.0026774957018599545,
+      "force_ifft_max_imaginary": 1.47846616920033e-18,
+      "max_force_magnitude": 0.007232673970641144,
+      "max_drift_cells": 0.007087596510104438,
+      "a": 0.023302150960300447,
+      "mean_momentum": [
+        1.6778265296265948e-19,
+        4.0240268849173414e-21,
+        1.4315394475995835e-22
+      ],
+      "momentum_change_absolute": 5.3335770168349573e-20,
+      "momentum_rms": 0.00014488916906145615
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 2.168404344971009e-19,
+      "total_force_absolute": 2.5803408387954563e-18,
+      "total_force_normalized": 9.492529072770135e-16,
+      "mean_force_magnitude": 0.0027182859478379813,
+      "force_ifft_max_imaginary": 1.6034562668721287e-18,
+      "max_force_magnitude": 0.007343969982257773,
+      "max_drift_cells": 0.007193817519571969,
+      "a": 0.023660973712277284,
+      "mean_momentum": [
+        -1.5504492455934955e-20,
+        1.0677660937140758e-20,
+        1.1146258754152048e-22
+      ],
+      "momentum_change_absolute": 1.3073976272858468e-19,
+      "momentum_rms": 0.0001481829725379567
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 9.291796540982374e-19,
+      "total_force_normalized": 3.3669663436460576e-16,
+      "mean_force_magnitude": 0.0027596939180925613,
+      "force_ifft_max_imaginary": 1.4976389543537725e-18,
+      "max_force_magnitude": 0.0074569935666503485,
+      "max_drift_cells": 0.007301714599528751,
+      "a": 0.024025321866932865,
+      "mean_momentum": [
+        1.7599110222314702e-19,
+        -9.459120497273579e-21,
+        -2.6935068696257964e-22
+      ],
+      "momentum_change_absolute": 6.185323089684736e-20,
+      "momentum_rms": 0.00015155297483771926
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 2.168404344971009e-19,
+      "total_force_absolute": 2.0259919283815566e-18,
+      "total_force_normalized": 7.231219368517013e-16,
+      "mean_force_magnitude": 0.0028017293144254997,
+      "force_ifft_max_imaginary": 1.4206129630087564e-18,
+      "max_force_magnitude": 0.00757177433609551,
+      "max_drift_cells": 0.007411313529895814,
+      "a": 0.02439528050826643,
+      "mean_momentum": [
+        2.903721122127253e-19,
+        -1.0269085413327847e-20,
+        1.6031794247043368e-22
+      ],
+      "momentum_change_absolute": 1.759096610684337e-19,
+      "momentum_rms": 0.0001550009275920708
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 4.336808689942018e-19,
+      "total_force_absolute": 7.403339456724265e-19,
+      "total_force_normalized": 2.602775374724466e-16,
+      "mean_force_magnitude": 0.0028444019905129138,
+      "force_ifft_max_imaginary": 1.6469479423399504e-18,
+      "max_force_magnitude": 0.007688342470241801,
+      "max_drift_cells": 0.007522640552904679,
+      "a": 0.024770936030459913,
+      "mean_momentum": [
+        -3.0459367338798465e-19,
+        6.431691154117782e-21,
+        9.316121648878474e-23
+      ],
+      "momentum_change_absolute": 4.1936112947182523e-19,
+      "momentum_rms": 0.00015852862318822345
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.5268369871012267e-18,
+      "total_force_normalized": 8.750277993634124e-16,
+      "mean_force_magnitude": 0.002887721954593345,
+      "force_ifft_max_imaginary": 1.6103725459618623e-18,
+      "max_force_magnitude": 0.00780672873089757,
+      "max_drift_cells": 0.0076357223820817405,
+      "a": 0.02515237615805306,
+      "mean_momentum": [
+        2.1708261747081993e-19,
+        -4.889154408071239e-21,
+        4.042845243852923e-23
+      ],
+      "momentum_change_absolute": 1.0245190387465266e-19,
+      "momentum_rms": 0.00016213789572183662
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 2.168404344971009e-19,
+      "total_force_absolute": 1.2612733387058295e-18,
+      "total_force_normalized": 4.3021919322998453e-16,
+      "mean_force_magnitude": 0.002931699372211839,
+      "force_ifft_max_imaginary": 1.6389440147733006e-18,
+      "max_force_magnitude": 0.007926964477317397,
+      "max_drift_cells": 0.007750586211479436,
+      "a": 0.025539689966429194,
+      "mean_momentum": [
+        -4.711053374900623e-19,
+        -4.261376021931776e-21,
+        2.212708138579349e-23
+      ],
+      "momentum_change_absolute": 5.85812437648485e-19,
+      "momentum_rms": 0.00016583062197258664
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.910510152601722e-18,
+      "total_force_normalized": 6.418981768733715e-16,
+      "mean_force_magnitude": 0.002976344569021283,
+      "force_ifft_max_imaginary": 1.6959237425561998e-18,
+      "max_force_magnitude": 0.00804908168200784,
+      "max_drift_cells": 0.007867259725172158,
+      "a": 0.0259329679026164,
+      "mean_momentum": [
+        3.9763949818131824e-19,
+        -1.705599894174887e-20,
+        6.467518414398985e-23
+      ],
+      "momentum_change_absolute": 2.833872066435406e-19,
+      "momentum_rms": 0.00016960872240332335
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -2.168404344971009e-19,
+      "total_force_absolute": 3.599263606825133e-18,
+      "total_force_normalized": 1.1911512339383644e-15,
+      "mean_force_magnitude": 0.0030216680336422968,
+      "force_ifft_max_imaginary": 1.6757615300947988e-18,
+      "max_force_magnitude": 0.008173112947074321,
+      "max_drift_cells": 0.007985771107021325,
+      "a": 0.026332301806409105,
+      "mean_momentum": [
+        -1.4886839277481023e-19,
+        2.4597766477912815e-21,
+        6.704298864742289e-22
+      ],
+      "momentum_change_absolute": 2.635927705413636e-19,
+      "momentum_rms": 0.00017347416218340878
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 4.336808689942018e-19,
+      "total_force_absolute": 6.838602951630024e-18,
+      "total_force_normalized": 2.22924229843026e-15,
+      "mean_force_magnitude": 0.0030676804205830312,
+      "force_ifft_max_imaginary": 1.708647884395435e-18,
+      "max_force_magnitude": 0.008299091521131672,
+      "max_drift_cells": 0.008106149050718462,
+      "a": 0.026737784931814904,
+      "mean_momentum": [
+        8.520694432089826e-20,
+        1.3102644300416527e-20,
+        -2.7658851732241863e-22
+      ],
+      "momentum_change_absolute": 3.2758190287960085e-20,
+      "momentum_rms": 0.00017742895223684947
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.459268160773491e-19,
+      "total_force_normalized": 1.752915879254934e-16,
+      "mean_force_magnitude": 0.003114392553220477,
+      "force_ifft_max_imaginary": 1.7475200789565422e-18,
+      "max_force_magnitude": 0.00842705131680218,
+      "max_drift_cells": 0.008228422770115955,
+      "a": 0.027149511968831544,
+      "mean_momentum": [
+        -6.233284129378696e-20,
+        -2.3061485285248704e-20,
+        -8.90253134260196e-23
+      ],
+      "momentum_change_absolute": 1.7838220589374917e-19,
+      "momentum_rms": 0.0001814751503158507
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 4.336808689942018e-19,
+      "total_force_absolute": 1.3881564181741732e-18,
+      "total_force_normalized": 4.3903777759703254e-16,
+      "mean_force_magnitude": 0.0031618154268452997,
+      "force_ifft_max_imaginary": 1.587450585748446e-18,
+      "max_force_magnitude": 0.008557026928825802,
+      "max_drift_cells": 0.008352622009855624,
+      "a": 0.027567579065559296,
+      "mean_momentum": [
+        -4.839049493429488e-19,
+        5.371710897919362e-21,
+        1.7422491651898145e-23
+      ],
+      "momentum_change_absolute": 5.986393638492618e-19,
+      "momentum_rms": 0.00018561486210043983
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.862506824352834e-18,
+      "total_force_normalized": 1.2032880688635333e-15,
+      "mean_force_magnitude": 0.003209960211772769,
+      "force_ifft_max_imaginary": 1.815245185380751e-18,
+      "max_force_magnitude": 0.008689053652808327,
+      "max_drift_cells": 0.008478777056310678,
+      "a": 0.02799208385065384,
+      "mean_momentum": [
+        4.73985787178125e-19,
+        -2.731763972956374e-21,
+        6.436499141428247e-23
+      ],
+      "momentum_change_absolute": 3.592904020249324e-19,
+      "momentum_rms": 0.0001898502423248272
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.8804039685714074e-19,
+      "total_force_normalized": 5.770166607095949e-17,
+      "mean_force_magnitude": 0.003258838256522701,
+      "force_ifft_max_imaginary": 1.823409448915448e-18,
+      "max_force_magnitude": 0.00882316750463473,
+      "max_drift_cells": 0.00860691874884169,
+      "a": 0.028423125456124947,
+      "mean_momentum": [
+        -2.0871808956850129e-19,
+        -9.003912666427991e-21,
+        1.1508150272143998e-22
+      ],
+      "momentum_change_absolute": 3.2351222516464894e-19,
+      "momentum_rms": 0.00019418349593118634
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.591463609034895e-20,
+      "total_force_normalized": 1.992304995029371e-17,
+      "mean_force_magnitude": 0.003308461116887238,
+      "force_ifft_max_imaginary": 1.8176563663842937e-18,
+      "max_force_magnitude": 0.008959405769461715,
+      "max_drift_cells": 0.008737078491386281,
+      "a": 0.028860804540486115,
+      "mean_momentum": [
+        8.041177830992836e-21,
+        -4.883105649841945e-21,
+        -9.26442286059391e-23
+      ],
+      "momentum_change_absolute": 1.0672295476466857e-19,
+      "momentum_rms": 0.00019861687924086716
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 4.336808689942018e-19,
+      "total_force_absolute": 1.4168874387033133e-18,
+      "total_force_normalized": 4.2183825555518437e-16,
+      "mean_force_magnitude": 0.0033588405509560474,
+      "force_ifft_max_imaginary": 1.8477914436385475e-18,
+      "max_force_magnitude": 0.00909780595927562,
+      "max_drift_cells": 0.008869288276140318,
+      "a": 0.029305223312260723,
+      "mean_momentum": [
+        -1.5705187152055633e-19,
+        -1.5038298632578897e-20,
+        -1.4594567932732482e-22
+      ],
+      "momentum_change_absolute": 2.7210528681252484e-19,
+      "momentum_rms": 0.00020315270116653478
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.8499458201657945e-18,
+      "total_force_normalized": 5.425079357295987e-16,
+      "mean_force_magnitude": 0.003409988496625162,
+      "force_ifft_max_imaginary": 1.9025551135413662e-18,
+      "max_force_magnitude": 0.00923840646821683,
+      "max_drift_cells": 0.009003580683918237,
+      "a": 0.02975648555385018,
+      "mean_momentum": [
+        6.811351545643136e-20,
+        1.0337638006593179e-20,
+        4.1141895716856214e-22
+      ],
+      "momentum_change_absolute": 4.7983047379282366e-20,
+      "momentum_rms": 0.00020779332447040837
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 1.9846239770827607e-18,
+      "total_force_normalized": 5.732730954398156e-16,
+      "mean_force_magnitude": 0.0034619171785135942,
+      "force_ifft_max_imaginary": 1.8538021152294863e-18,
+      "max_force_magnitude": 0.00938124760763415,
+      "max_drift_cells": 0.009139988898983941,
+      "a": 0.03021469664576965,
+      "mean_momentum": [
+        -1.2291009513500668e-19,
+        -1.998933649022676e-21,
+        -1.518910399800497e-22
+      ],
+      "momentum_change_absolute": 2.3761052932399254e-19,
+      "momentum_rms": 0.00021254116715352717
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 4.336808689942018e-19,
+      "total_force_absolute": 2.4745123886549994e-18,
+      "total_force_normalized": 7.040587966178874e-16,
+      "mean_force_magnitude": 0.0035146388349125155,
+      "force_ifft_max_imaginary": 2.002489781664269e-18,
+      "max_force_magnitude": 0.009523078748157653,
+      "max_drift_cells": 0.009278546746775479,
+      "a": 0.030679963591256854,
+      "mean_momentum": [
+        -4.134457047656819e-19,
+        5.1191623171492655e-21,
+        -1.131686475549111e-22
+      ],
+      "momentum_change_absolute": 5.28181824438978e-19,
+      "momentum_rms": 0.0002173987036076782
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.9098581086118623e-18,
+      "total_force_normalized": 8.155052453700021e-16,
+      "mean_force_magnitude": 0.003568166023618442,
+      "force_ifft_max_imaginary": 1.967432605858735e-18,
+      "max_force_magnitude": 0.009668707599253595,
+      "max_drift_cells": 0.0094192143825181,
+      "a": 0.031152395041259887,
+      "mean_momentum": [
+        1.2796432377407054e-20,
+        -1.6574114536148446e-21,
+        2.724526142596535e-22
+      ],
+      "momentum_change_absolute": 1.0190394214157908e-19,
+      "momentum_rms": 0.00022236846578389558
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.647485796473045e-18,
+      "total_force_normalized": 1.8350488770169405e-15,
+      "mean_force_magnitude": 0.00362251157433976,
+      "force_ifft_max_imaginary": 1.961252873446586e-18,
+      "max_force_magnitude": 0.009831694428810846,
+      "max_drift_cells": 0.00956205831876359,
+      "a": 0.03163210131980982,
+      "mean_momentum": [
+        -4.3161374464343176e-19,
+        -6.032111219466385e-21,
+        3.9828746494428283e-22
+      ],
+      "momentum_change_absolute": 5.463345041835195e-19,
+      "momentum_rms": 0.00022745304472419537
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 7.203521421542764e-19,
+      "total_force_normalized": 1.9587090054289487e-16,
+      "mean_force_magnitude": 0.003677688417001598,
+      "force_ifft_max_imaginary": 2.146524001214836e-18,
+      "max_force_magnitude": 0.010005886188804219,
+      "max_drift_cells": 0.009707442418825539,
+      "a": 0.032119194449784026,
+      "mean_momentum": [
+        5.180502929448901e-19,
+        1.758746248531419e-20,
+        3.1794754795007e-22
+      ],
+      "momentum_change_absolute": 4.0378666832549566e-19,
+      "momentum_rms": 0.00023265509219468354
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 4.10932228636041e-18,
+      "total_force_normalized": 1.1006003920695144e-15,
+      "mean_force_magnitude": 0.003733709633369696,
+      "force_ifft_max_imaginary": 2.1727494833795143e-18,
+      "max_force_magnitude": 0.010174463210770047,
+      "max_drift_cells": 0.009855592063530124,
+      "a": 0.0326137881790662,
+      "mean_momentum": [
+        3.9364698170786034e-20,
+        -2.0276574957935798e-20,
+        2.408129558295002e-22
+      ],
+      "momentum_change_absolute": 7.772375091240043e-20,
+      "momentum_rms": 0.0002379773217738164
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.577835265352965e-18,
+      "total_force_normalized": 1.7353071106648385e-15,
+      "mean_force_magnitude": 0.003790588550537798,
+      "force_ifft_max_imaginary": 1.9491494944866927e-18,
+      "max_force_magnitude": 0.010332071325088133,
+      "max_drift_cells": 0.010006368473960092,
+      "a": 0.03311599800710911,
+      "mean_momentum": [
+        -7.624274149375164e-19,
+        1.2736513481785244e-21,
+        3.695429386580651e-22
+      ],
+      "momentum_change_absolute": 8.771296894811903e-19,
+      "momentum_rms": 0.0002434225100172955
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 2.3145547045703275e-19,
+      "total_force_normalized": 6.014425090943568e-17,
+      "mean_force_magnitude": 0.003848339067445614,
+      "force_ifft_max_imaginary": 1.8711786178413495e-18,
+      "max_force_magnitude": 0.010488102033120941,
+      "max_drift_cells": 0.010159512550101992,
+      "a": 0.033625941211906596,
+      "mean_momentum": [
+        -3.5830693080745106e-19,
+        -2.1799311068069353e-21,
+        -1.823933250679426e-22
+      ],
+      "momentum_change_absolute": 4.730069500752628e-19,
+      "momentum_rms": 0.00024899349886824856
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 4.336808689942018e-19,
+      "total_force_absolute": 1.7072124080983867e-19,
+      "total_force_normalized": 4.369652770131622e-17,
+      "mean_force_magnitude": 0.003906974988419874,
+      "force_ifft_max_imaginary": 2.161950836940479e-18,
+      "max_force_magnitude": 0.010647188498729886,
+      "max_drift_cells": 0.010314972016109153,
+      "a": 0.03414373687738074,
+      "mean_momentum": [
+        -4.531002263435912e-19,
+        -8.914732256637118e-21,
+        -2.419503291717606e-22
+      ],
+      "momentum_change_absolute": 5.678521949493619e-19,
+      "momentum_rms": 0.00025469319686114306
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.4884629292893714e-18,
+      "total_force_normalized": 6.273682871186111e-16,
+      "mean_force_magnitude": 0.0039665105495185786,
+      "force_ifft_max_imaginary": 1.974969337472549e-18,
+      "max_force_magnitude": 0.010800428977077507,
+      "max_drift_cells": 0.010472798361608138,
+      "a": 0.034669505921190814,
+      "mean_momentum": [
+        3.0967744788455313e-19,
+        6.040486423168485e-22,
+        3.7212787807229333e-22
+      ],
+      "momentum_change_absolute": 1.9498680049940531e-19,
+      "momentum_rms": 0.000260524580291991
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 4.668712088061225e-18,
+      "total_force_normalized": 1.159363891612022e-15,
+      "mean_force_magnitude": 0.00402696006132266,
+      "force_ifft_max_imaginary": 2.141219881320066e-18,
+      "max_force_magnitude": 0.010952036467278728,
+      "max_drift_cells": 0.010632846603482262,
+      "a": 0.0352033711229704,
+      "mean_momentum": [
+        -1.1866805445989333e-19,
+        -1.3845349092912577e-20,
+        8.819813281346658e-23
+      ],
+      "momentum_change_absolute": 2.337118057871798e-19,
+      "momentum_rms": 0.00026649069561753935
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 3.933146638364166e-19,
+      "total_force_normalized": 9.620404477757576e-17,
+      "mean_force_magnitude": 0.004088338122848806,
+      "force_ifft_max_imaginary": 2.4165860221549758e-18,
+      "max_force_magnitude": 0.011101989605690983,
+      "max_drift_cells": 0.01079506423573434,
+      "a": 0.03574545715299943,
+      "mean_momentum": [
+        -9.033996708318662e-19,
+        -1.2443381352211764e-21,
+        -1.878733966261064e-22
+      ],
+      "momentum_change_absolute": 1.0180985538122812e-18,
+      "momentum_rms": 0.00027259466082276654
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.1386583901484625e-19,
+      "total_force_normalized": 5.152575106597054e-17,
+      "mean_force_magnitude": 0.004150659322578821,
+      "force_ifft_max_imaginary": 2.480863859774007e-18,
+      "max_force_magnitude": 0.011271563257275614,
+      "max_drift_cells": 0.010959399289879879,
+      "a": 0.03629589060131762,
+      "mean_momentum": [
+        5.319029832657391e-20,
+        2.9193788756410575e-21,
+        -4.64461913948525e-22
+      ],
+      "momentum_change_absolute": 6.164526898620115e-20,
+      "momentum_rms": 0.00027883966591836604
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.0558444143221414e-17,
+      "total_force_normalized": 2.505599842203359e-15,
+      "mean_force_magnitude": 0.004213938700577421,
+      "force_ifft_max_imaginary": 2.1653944574883136e-18,
+      "max_force_magnitude": 0.011445552207898268,
+      "max_drift_cells": 0.011126123023864641,
+      "a": 0.03685480000728636,
+      "mean_momentum": [
+        -3.4730884078052258e-19,
+        3.6873126768199746e-20,
+        -6.224534109461533e-23
+      ],
+      "momentum_change_absolute": 4.635699720529119e-19,
+      "momentum_rms": 0.0002852289740689263
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.07779611908625e-18,
+      "total_force_normalized": 2.5192795200855406e-16,
+      "mean_force_magnitude": 0.00427819188181887,
+      "force_ifft_max_imaginary": 2.2756545532140676e-18,
+      "max_force_magnitude": 0.011616067970623657,
+      "max_drift_cells": 0.011295418103935948,
+      "a": 0.037422315889605595,
+      "mean_momentum": [
+        -2.76893798667239e-19,
+        1.1098695868930249e-20,
+        5.085092815669738e-22
+      ],
+      "momentum_change_absolute": 3.917845537169823e-19,
+      "momentum_rms": 0.0002917659254283987
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 2.9334823831290103e-19,
+      "total_force_normalized": 6.753831971360415e-17,
+      "mean_force_magnitude": 0.004343434061682945,
+      "force_ifft_max_imaginary": 2.2379354932927963e-18,
+      "max_force_magnitude": 0.011789367404751554,
+      "max_drift_cells": 0.011467318159182276,
+      "a": 0.03799857077679313,
+      "mean_momentum": [
+        4.546609610631139e-19,
+        2.1464302919985377e-21,
+        3.5806580765889185e-22
+      ],
+      "momentum_change_absolute": 3.399782710605445e-19,
+      "momentum_rms": 0.00029845393875350544
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.452532006599942e-18,
+      "total_force_normalized": 5.56169874803457e-16,
+      "mean_force_magnitude": 0.004409681497881621,
+      "force_ifft_max_imaginary": 2.220891023180835e-18,
+      "max_force_magnitude": 0.011969500736817235,
+      "max_drift_cells": 0.011641876224388567,
+      "a": 0.038583699238133234,
+      "mean_momentum": [
+        3.401627757698887e-19,
+        -4.656396123456474e-20,
+        7.881997261864662e-22
+      ],
+      "momentum_change_absolute": 2.2999279332367836e-19,
+      "momentum_rms": 0.0003052965130363313
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 4.336808689942018e-19,
+      "total_force_absolute": 4.1876843212500526e-18,
+      "total_force_normalized": 9.353878494165977e-16,
+      "mean_force_magnitude": 0.004476949667308503,
+      "force_ifft_max_imaginary": 2.4877972255794088e-18,
+      "max_force_magnitude": 0.012151432209939556,
+      "max_drift_cells": 0.011819124548230696,
+      "a": 0.03917783791510177,
+      "mean_momentum": [
+        -1.7178871451864793e-19,
+        -1.2887370545999602e-20,
+        -1.2614504341433672e-22
+      ],
+      "momentum_change_absolute": 2.8672782394613916e-19,
+      "momentum_rms": 0.0003122972288025552
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.769636092436471e-18,
+      "total_force_normalized": 3.893369625902011e-16,
+      "mean_force_magnitude": 0.00454525581301951,
+      "force_ifft_max_imaginary": 2.2876201377432245e-18,
+      "max_force_magnitude": 0.01233321865834426,
+      "max_drift_cells": 0.011999083091656683,
+      "a": 0.039781125553275176,
+      "mean_momentum": [
+        2.1766409959205056e-19,
+        2.796532214919276e-20,
+        1.04638347487958e-22
+      ],
+      "momentum_change_absolute": 1.0700342434665915e-19,
+      "momentum_rms": 0.00031945975019927913
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.849539871092583e-18,
+      "total_force_normalized": 1.0509085056950113e-15,
+      "mean_force_magnitude": 0.00461461663390513,
+      "force_ifft_max_imaginary": 2.3710112035115947e-18,
+      "max_force_magnitude": 0.012517158521128677,
+      "max_drift_cells": 0.012181728374996915,
+      "a": 0.040393703034730916,
+      "mean_momentum": [
+        -1.4741064204155037e-18,
+        3.058614052249046e-20,
+        -5.156437143502436e-22
+      ],
+      "momentum_change_absolute": 1.5891223644360874e-18,
+      "momentum_rms": 0.0003267878292526134
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.755835235139644e-18,
+      "total_force_normalized": 5.882191782264085e-16,
+      "mean_force_magnitude": 0.004685048256075236,
+      "force_ifft_max_imaginary": 2.4936649967166602e-18,
+      "max_force_magnitude": 0.012703597719244487,
+      "max_drift_cells": 0.012367087904155381,
+      "a": 0.04101571341094686,
+      "mean_momentum": [
+        -3.5582249383764804e-19,
+        -1.1130749117666679e-20,
+        -5.764414893728912e-22
+      ],
+      "momentum_change_absolute": 4.706275246176799e-19,
+      "momentum_rms": 0.0003342853054149246
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.201620577884351e-18,
+      "total_force_normalized": 1.5140368862409678e-15,
+      "mean_force_magnitude": 0.0047565687753912305,
+      "force_ifft_max_imaginary": 2.3272078029280854e-18,
+      "max_force_magnitude": 0.012890308704564047,
+      "max_drift_cells": 0.012555196842538127,
+      "a": 0.04164730193620719,
+      "mean_momentum": [
+        2.346475134350479e-19,
+        -1.422337063284931e-21,
+        3.6127113253253484e-22
+      ],
+      "momentum_change_absolute": 1.199494005613914e-19,
+      "momentum_rms": 0.000341956107946767
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.9415095231190438e-18,
+      "total_force_normalized": 6.091097826691275e-16,
+      "mean_force_magnitude": 0.004829194353486342,
+      "force_ifft_max_imaginary": 2.603881064424299e-18,
+      "max_force_magnitude": 0.013080083593493299,
+      "max_drift_cells": 0.012746040450490048,
+      "a": 0.04228861610152268,
+      "mean_momentum": [
+        5.553990485653078e-20,
+        -2.3243258224857232e-20,
+        -6.888346551035338e-22
+      ],
+      "momentum_change_absolute": 6.315282836769616e-20,
+      "momentum_rms": 0.0003498042573561357
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 3.7492331773440946e-19,
+      "total_force_normalized": 7.646903621901172e-17,
+      "mean_force_magnitude": 0.004902942893913394,
+      "force_ifft_max_imaginary": 3.360889836999345e-18,
+      "max_force_magnitude": 0.013274288811408136,
+      "max_drift_cells": 0.012939665909474938,
+      "a": 0.04293980566907343,
+      "mean_momentum": [
+        2.0050785669981792e-18,
+        -2.314017084101781e-20,
+        1.2014798397332727e-22
+      ],
+      "momentum_change_absolute": 1.890507575779814e-18,
+      "momentum_rms": 0.0003578338670858747
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 6.526541204259258e-18,
+      "total_force_normalized": 1.3111210252456151e-15,
+      "mean_force_magnitude": 0.004977832769508541,
+      "force_ifft_max_imaginary": 2.8140727457931124e-18,
+      "max_force_magnitude": 0.013472743156803062,
+      "max_drift_cells": 0.013136150273814621,
+      "a": 0.043601022707181955,
+      "mean_momentum": [
+        -8.176924373367382e-19,
+        2.551666074088266e-20,
+        4.571206860121169e-22
+      ],
+      "momentum_change_absolute": 9.327727359557317e-19,
+      "momentum_rms": 0.0003660491479843225
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 8.275505830267507e-19,
+      "total_force_normalized": 1.6374553422193713e-16,
+      "mean_force_magnitude": 0.0050538818475813,
+      "force_ifft_max_imaginary": 2.726499319923927e-18,
+      "max_force_magnitude": 0.013677024783614699,
+      "max_drift_cells": 0.013335565851897628,
+      "a": 0.04427242162582472,
+      "mean_momentum": [
+        1.8117112435386488e-18,
+        1.2631047953684733e-21,
+        2.9116757561866574e-22
+      ],
+      "momentum_change_absolute": 1.6970141286744068e-18,
+      "momentum_rms": 0.0003744544112348789
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 1.7705099390763244e-18,
+      "total_force_normalized": 3.4505402598224806e-16,
+      "mean_force_magnitude": 0.0051311093503004414,
+      "force_ifft_max_imaginary": 3.1910927969390835e-18,
+      "max_force_magnitude": 0.013901395402826377,
+      "max_drift_cells": 0.01353798441258359,
+      "a": 0.04495415921269052,
+      "mean_momentum": [
+        -9.818545983064355e-19,
+        -2.5758817865207558e-20,
+        -2.5808035111654463e-22
+      ],
+      "momentum_change_absolute": 1.0968295213839475e-18,
+      "momentum_rms": 0.0003830540686724674
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.2709255712188798e-18,
+      "total_force_normalized": 2.4396149627732106e-16,
+      "mean_force_magnitude": 0.0052095334329896326,
+      "force_ifft_max_imaginary": 2.7409725345887988e-18,
+      "max_force_magnitude": 0.014132605035645061,
+      "max_drift_cells": 0.013743494891694744,
+      "a": 0.04564639466979419,
+      "mean_momentum": [
+        6.291790097116689e-19,
+        -4.410113435826467e-21,
+        -4.809021286230165e-22
+      ],
+      "momentum_change_absolute": 5.144907249308666e-19,
+      "momentum_rms": 0.00039185263291112703
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.0630432897263641e-17,
+      "total_force_normalized": 2.009847493675906e-15,
+      "mean_force_magnitude": 0.005289173895389016,
+      "force_ifft_max_imaginary": 2.8073292386456962e-18,
+      "max_force_magnitude": 0.014366422405341446,
+      "max_drift_cells": 0.0139522806507621,
+      "a": 0.04634928965065416,
+      "mean_momentum": [
+        -2.9534245956779744e-19,
+        -2.6487253792137068e-20,
+        5.954666434616108e-22
+      ],
+      "momentum_change_absolute": 4.1082357181097434e-19,
+      "momentum_rms": 0.00040085472345121215
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 3.0178332902226226e-18,
+      "total_force_normalized": 5.619748937830992e-16,
+      "mean_force_magnitude": 0.0053700500211089335,
+      "force_ifft_max_imaginary": 2.7088113653192525e-18,
+      "max_force_magnitude": 0.014609800360705576,
+      "max_drift_cells": 0.014164428626829812,
+      "a": 0.047063008298042296,
+      "mean_momentum": [
+        -2.330291862653762e-19,
+        1.383562972071508e-21,
+        1.8849378208552118e-22
+      ],
+      "momentum_change_absolute": 3.477373263541034e-19,
+      "momentum_rms": 0.00041006506957565577
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 5.2268185869773274e-18,
+      "total_force_normalized": 9.58665487592239e-16,
+      "mean_force_magnitude": 0.005452181865965446,
+      "force_ifft_max_imaginary": 3.0651954821783487e-18,
+      "max_force_magnitude": 0.014851769666755736,
+      "max_drift_cells": 0.014380169521027778,
+      "a": 0.047787717282315186,
+      "mean_momentum": [
+        -1.1269250171481026e-19,
+        -3.327302994721583e-20,
+        3.302518595617963e-22
+      ],
+      "momentum_change_absolute": 2.296488634676183e-19,
+      "momentum_rms": 0.0004194885108132873
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.394233069027716e-18,
+      "total_force_normalized": 9.744640479824761e-16,
+      "mean_force_magnitude": 0.0055355896199515,
+      "force_ifft_max_imaginary": 3.3595894911631604e-18,
+      "max_force_magnitude": 0.015096776612613565,
+      "max_drift_cells": 0.014599606868676047,
+      "a": 0.04852358584033565,
+      "mean_momentum": [
+        -1.0727734315521655e-18,
+        1.7241959483208447e-20,
+        3.752298053693672e-22
+      ],
+      "momentum_change_absolute": 1.1876148048127058e-18,
+      "momentum_rms": 0.00042912999948870094
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 4.336808689942018e-19,
+      "total_force_absolute": 1.0308205164716597e-17,
+      "total_force_normalized": 1.834104560032994e-15,
+      "mean_force_magnitude": 0.005620293078891402,
+      "force_ifft_max_imaginary": 3.095241118628283e-18,
+      "max_force_magnitude": 0.015334714921034723,
+      "max_drift_cells": 0.01482281902879954,
+      "a": 0.04927078581499365,
+      "mean_momentum": [
+        4.45941029840733e-19,
+        -2.0863252807389033e-20,
+        3.680953725860973e-22
+      ],
+      "momentum_change_absolute": 3.318282331054978e-19,
+      "momentum_rms": 0.0004389946029479326
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 9.2559673921812e-18,
+      "total_force_normalized": 1.622056835272e-15,
+      "mean_force_magnitude": 0.005706315087676371,
+      "force_ifft_max_imaginary": 2.9143785223080405e-18,
+      "max_force_magnitude": 0.015575122946899885,
+      "max_drift_cells": 0.015049847534347096,
+      "a": 0.050029491695335694,
+      "mean_momentum": [
+        -7.609329580645745e-19,
+        -7.483916592073518e-22,
+        8.161170718601309e-22
+      ],
+      "momentum_change_absolute": 8.756322526894e-19,
+      "momentum_rms": 0.00044908751050256473
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.800904495437249e-18,
+      "total_force_normalized": 8.286454649206707e-16,
+      "mean_force_magnitude": 0.005793677391207177,
+      "force_ifft_max_imaginary": 3.3213821703309197e-18,
+      "max_force_magnitude": 0.015817317578311813,
+      "max_drift_cells": 0.015280804977626381,
+      "a": 0.0507998806573121,
+      "mean_momentum": [
+        -1.340806213003795e-18,
+        2.3653333013530395e-20,
+        8.010210256810382e-22
+      ],
+      "momentum_change_absolute": 1.4557166438549432e-18,
+      "momentum_rms": 0.0004594140354059721
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 1.5912217882795556e-18,
+      "total_force_normalized": 2.7050563063688944e-16,
+      "mean_force_magnitude": 0.005882398028215229,
+      "force_ifft_max_imaginary": 3.295916909282023e-18,
+      "max_force_magnitude": 0.016059472646608383,
+      "max_drift_cells": 0.015515690554072505,
+      "a": 0.051582132605151876,
+      "mean_momentum": [
+        -4.058894615687983e-19,
+        -2.0307904423636244e-20,
+        -9.97269626009244e-22
+      ],
+      "momentum_change_absolute": 5.209416161191953e-19,
+      "momentum_rms": 0.0004699796088697485
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": -4.336808689942018e-19,
+      "total_force_absolute": 5.977935809337393e-18,
+      "total_force_normalized": 1.0009100259542593e-15,
+      "mean_force_magnitude": 0.0059725006787079375,
+      "force_ifft_max_imaginary": 3.7947076036992655e-18,
+      "max_force_magnitude": 0.01630907775031786,
+      "max_drift_cells": 0.01575440777041107,
+      "a": 0.05237643021337474,
+      "mean_momentum": [
+        -7.898430238708794e-19,
+        -2.3314499155113362e-20,
+        1.0105045158100924e-21
+      ],
+      "momentum_change_absolute": 9.048138383601036e-19,
+      "momentum_rms": 0.00048078978800631577
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.6481306401282013e-18,
+      "total_force_normalized": 4.366963868449835e-16,
+      "mean_force_magnitude": 0.006064008587889285,
+      "force_ifft_max_imaginary": 3.4443635278421662e-18,
+      "max_force_magnitude": 0.016571846059808402,
+      "max_drift_cells": 0.015997095257647892,
+      "a": 0.05318295896944989,
+      "mean_momentum": [
+        1.9617882764353697e-18,
+        1.7043953124078566e-20,
+        1.6543612251060553e-22
+      ],
+      "momentum_change_absolute": 1.8471790616323243e-18,
+      "momentum_rms": 0.0004918502662100606
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.357589266486466e-19,
+      "total_force_normalized": 7.077518286145098e-17,
+      "mean_force_magnitude": 0.006156945260059381,
+      "force_ifft_max_imaginary": 3.150061992205381e-18,
+      "max_force_magnitude": 0.0168314204417608,
+      "max_drift_cells": 0.016243779635477722,
+      "a": 0.05400190721711174,
+      "mean_momentum": [
+        3.125944486159331e-19,
+        -3.991766841027773e-21,
+        -2.3119698120857124e-22
+      ],
+      "momentum_change_absolute": 1.9791613300743154e-19,
+      "momentum_rms": 0.0005031668745998245
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 8.527840419669066e-18,
+      "total_force_normalized": 1.3641637909931975e-15,
+      "mean_force_magnitude": 0.006251331750610576,
+      "force_ifft_max_imaginary": 3.5862377613870414e-18,
+      "max_force_magnitude": 0.017099702203182018,
+      "max_drift_cells": 0.01649435695393828,
+      "a": 0.0548334662003427,
+      "mean_momentum": [
+        -1.0845825721697023e-18,
+        -1.1495328972649426e-20,
+        8.623357885865314e-23
+      ],
+      "momentum_change_absolute": 1.1993260200033248e-18,
+      "momentum_rms": 0.0005147455806101606
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 3.790176073313258e-18,
+      "total_force_normalized": 5.971423581985251e-16,
+      "mean_force_magnitude": 0.006347190115180511,
+      "force_ifft_max_imaginary": 4.471231535255284e-18,
+      "max_force_magnitude": 0.01737944787254038,
+      "max_drift_cells": 0.016748893637451984,
+      "a": 0.055677830108033316,
+      "mean_momentum": [
+        2.613310571865438e-18,
+        -1.1682064995933272e-20,
+        1.548688901852406e-21
+      ],
+      "momentum_change_absolute": 2.4986343589828306e-18,
+      "momentum_rms": 0.0005265924885411185
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.736550785695773e-18,
+      "total_force_normalized": 7.349704873258108e-16,
+      "mean_force_magnitude": 0.0064445455530190154,
+      "force_ifft_max_imaginary": 3.918905856867341e-18,
+      "max_force_magnitude": 0.017664473156779766,
+      "max_drift_cells": 0.017007491653765024,
+      "a": 0.05653519611932991,
+      "mean_momentum": [
+        3.722418222016725e-19,
+        5.860750415818369e-20,
+        7.713459212056983e-23
+      ],
+      "momentum_change_absolute": 2.643855515954972e-19,
+      "momentum_rms": 0.0005387138467977305
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 3.358486076571911e-18,
+      "total_force_normalized": 5.132612373295312e-16,
+      "mean_force_magnitude": 0.006543424346724335,
+      "force_ifft_max_imaginary": 3.838949855540198e-18,
+      "max_force_magnitude": 0.017948410276838297,
+      "max_drift_cells": 0.017270218460411508,
+      "a": 0.05740576444968062,
+      "mean_momentum": [
+        -3.810795232637656e-19,
+        -3.0707632674959185e-20,
+        2.591143268822359e-22
+      ],
+      "momentum_change_absolute": 4.966585501244876e-19,
+      "momentum_rms": 0.0005511160559363168
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 2.975221959659766e-18,
+      "total_force_normalized": 4.478162305107212e-16,
+      "mean_force_magnitude": 0.006643845749553591,
+      "force_ifft_max_imaginary": 3.485105860312645e-18,
+      "max_force_magnitude": 0.018228741662356513,
+      "max_drift_cells": 0.017537099163835987,
+      "a": 0.05828973839759048,
+      "mean_momentum": [
+        1.0723203433716396e-18,
+        1.3267356639891149e-20,
+        3.494838088036542e-22
+      ],
+      "momentum_change_absolute": 9.577301112588383e-19,
+      "momentum_rms": 0.0005638056633405338
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 4.206893859714033e-18,
+      "total_force_normalized": 6.236283449203692e-16,
+      "mean_force_magnitude": 0.006745834909494387,
+      "force_ifft_max_imaginary": 4.209753747853873e-18,
+      "max_force_magnitude": 0.018507343829482027,
+      "max_drift_cells": 0.017808090010147118,
+      "a": 0.05918732439209662,
+      "mean_momentum": [
+        -2.4988154368007216e-19,
+        -2.3204897723950085e-20,
+        1.0035768781799608e-21
+      ],
+      "momentum_change_absolute": 3.652479708736564e-19,
+      "momentum_rms": 0.000576789364261969
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 2.6390196272885296e-18,
+      "total_force_normalized": 3.852909662649097e-16,
+      "mean_force_magnitude": 0.006849419940653505,
+      "force_ifft_max_imaginary": 4.0206495478255226e-18,
+      "max_force_magnitude": 0.018779976998914462,
+      "max_drift_cells": 0.01808315499927751,
+      "a": 0.060098732040974226,
+      "mean_momentum": [
+        -2.4680329442803264e-19,
+        9.54090798033976e-21,
+        1.0949803358670704e-21
+      ],
+      "momentum_change_absolute": 3.616618402866729e-19,
+      "momentum_rms": 0.0005900740182182116
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.1939237369794924e-17,
+      "total_force_normalized": 3.154624147005176e-15,
+      "mean_force_magnitude": 0.0069546279833757095,
+      "force_ifft_max_imaginary": 3.5660087079406044e-18,
+      "max_force_magnitude": 0.01905756292840279,
+      "max_drift_cells": 0.018362331602353094,
+      "a": 0.061024174179684997,
+      "mean_momentum": [
+        1.4200227153285843e-18,
+        2.0274196813674708e-20,
+        2.0032246484502948e-21
+      ],
+      "momentum_change_absolute": 1.3055011995094405e-18,
+      "momentum_rms": 0.0006036666522535722
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.850122403189973e-19,
+      "total_force_normalized": 6.868417053175958e-17,
+      "mean_force_magnitude": 0.007061485005409325,
+      "force_ifft_max_imaginary": 3.832504120878806e-18,
+      "max_force_magnitude": 0.019338597376506554,
+      "max_drift_cells": 0.01864568006547166,
+      "a": 0.06196386692107929,
+      "mean_momentum": [
+        -1.5173634686574463e-18,
+        -3.067764737775414e-20,
+        2.711084457642548e-22
+      ],
+      "momentum_change_absolute": 1.6323293709867738e-18,
+      "momentum_rms": 0.00061757445913347
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.629470346635582e-18,
+      "total_force_normalized": 7.851408136201042e-16,
+      "mean_force_magnitude": 0.007170013644659976,
+      "force_ifft_max_imaginary": 3.877578466828657e-18,
+      "max_force_magnitude": 0.019621301916492192,
+      "max_drift_cells": 0.018933267520213355,
+      "a": 0.06291802970586376,
+      "mean_momentum": [
+        -1.4772420036237509e-18,
+        -5.494505859852859e-20,
+        9.338869115723682e-22
+      ],
+      "momentum_change_absolute": 1.5928496687417293e-18,
+      "momentum_rms": 0.0006318047942877843
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 9.603380360782746e-18,
+      "total_force_normalized": 1.3191019447661364e-15,
+      "mean_force_magnitude": 0.007280241226909365,
+      "force_ifft_max_imaginary": 4.3845830320621495e-18,
+      "max_force_magnitude": 0.019910324250085747,
+      "max_drift_cells": 0.0192251185986212,
+      "a": 0.06388688535384587,
+      "mean_momentum": [
+        7.391637356912868e-19,
+        -1.74514429733375e-20,
+        1.5379355538892167e-21
+      ],
+      "momentum_change_absolute": 6.246793384810381e-19,
+      "momentum_rms": 0.0006463651786483466
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.129372300932026e-18,
+      "total_force_normalized": 8.291676620456486e-16,
+      "mean_force_magnitude": 0.0073921989261016095,
+      "force_ifft_max_imaginary": 3.786780691323545e-18,
+      "max_force_magnitude": 0.02020952961465031,
+      "max_drift_cells": 0.01952138930279106,
+      "a": 0.0648706601159677,
+      "mean_momentum": [
+        -3.8178821025357043e-19,
+        -2.3128797107595207e-20,
+        7.645216811521358e-22
+      ],
+      "momentum_change_absolute": 4.969737047423e-19,
+      "momentum_rms": 0.0006612633189055743
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 8.972341312474047e-18,
+      "total_force_normalized": 1.1953700910046652e-15,
+      "mean_force_magnitude": 0.007505910830455128,
+      "force_ifft_max_imaginary": 4.27969202375384e-18,
+      "max_force_magnitude": 0.020517485728404884,
+      "max_drift_cells": 0.019822149978047973,
+      "a": 0.06586958372714087,
+      "mean_momentum": [
+        1.1226483899836269e-18,
+        1.2886853558116756e-20,
+        1.7124706631379055e-21
+      ],
+      "momentum_change_absolute": 1.008048707828053e-18,
+      "momentum_rms": 0.0006765071099515538
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 1.980430009886043e-17,
+      "total_force_normalized": 2.5985100327455133e-15,
+      "mean_force_magnitude": 0.007621406055506262,
+      "force_ifft_max_imaginary": 4.8866491882130336e-18,
+      "max_force_magnitude": 0.020827553148664784,
+      "max_drift_cells": 0.02012746647852147,
+      "a": 0.06688388945989528,
+      "mean_momentum": [
+        -1.8435149939228173e-18,
+        -3.698324518724587e-21,
+        1.9976411793155618e-22
+      ],
+      "momentum_change_absolute": 1.9582155088689088e-18,
+      "momentum_rms": 0.000692104628808251
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 2.0915218826315157e-17,
+      "total_force_normalized": 2.7026734498166663e-15,
+      "mean_force_magnitude": 0.0077387147262403914,
+      "force_ifft_max_imaginary": 4.610400331905157e-18,
+      "max_force_magnitude": 0.021134984046577515,
+      "max_drift_cells": 0.0204373505109525,
+      "a": 0.06791381417885374,
+      "mean_momentum": [
+        -4.3094631328667803e-19,
+        3.7275239943477086e-20,
+        -2.971646350596752e-22
+      ],
+      "momentum_change_absolute": 5.469968031498703e-19,
+      "momentum_rms": 0.0007080641437691467
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 4.471557853796269e-18,
+      "total_force_normalized": 5.690548778282296e-16,
+      "mean_force_magnitude": 0.007857867541460594,
+      "force_ifft_max_imaginary": 4.397641343158451e-18,
+      "max_force_magnitude": 0.021448256863305835,
+      "max_drift_cells": 0.020751706982214877,
+      "a": 0.06895959839604543,
+      "mean_momentum": [
+        -1.2006286708829556e-18,
+        4.383436861071632e-20,
+        9.558071978050235e-22
+      ],
+      "momentum_change_absolute": 1.3160969650120702e-18,
+      "momentum_rms": 0.0007243941220158393
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.6941065614357178e-18,
+      "total_force_normalized": 3.3765416555268223e-16,
+      "mean_force_magnitude": 0.007978893306486906,
+      "force_ifft_max_imaginary": 4.064323437058683e-18,
+      "max_force_magnitude": 0.021767238218616383,
+      "max_drift_cells": 0.021070631290089948,
+      "a": 0.07002148632707134,
+      "mean_momentum": [
+        4.1563695790712317e-19,
+        -6.024749312014663e-20,
+        5.817147657779167e-22
+      ],
+      "momentum_change_absolute": 3.0668579805929467e-19,
+      "momentum_rms": 0.0007411032324816655
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 1.5010705191960207e-17,
+      "total_force_normalized": 1.852756777479302e-15,
+      "mean_force_magnitude": 0.008101821768738826,
+      "force_ifft_max_imaginary": 4.471997589221655e-18,
+      "max_force_magnitude": 0.022089837053350946,
+      "max_drift_cells": 0.021394211819286416,
+      "a": 0.07109972594813438,
+      "mean_momentum": [
+        -1.4287499877789016e-18,
+        -5.2094387412517715e-20,
+        5.914341379754148e-23
+      ],
+      "momentum_change_absolute": 1.5442892656593537e-18,
+      "momentum_rms": 0.0007582003502428599
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 1.3063488693096471e-17,
+      "total_force_normalized": 1.5879410530986673e-15,
+      "mean_force_magnitude": 0.008226683646477126,
+      "force_ifft_max_imaginary": 4.462983987472566e-18,
+      "max_force_magnitude": 0.022415136540722063,
+      "max_drift_cells": 0.021722490455665162,
+      "a": 0.07219456905394783,
+      "mean_momentum": [
+        1.663194480072356e-18,
+        4.3538444746575473e-20,
+        2.2292517508304096e-21
+      ],
+      "momentum_change_absolute": 1.5491419725783841e-18,
+      "momentum_rms": 0.0007756945614420079
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.0470937991296834e-18,
+      "total_force_normalized": 4.844780287247517e-16,
+      "mean_force_magnitude": 0.008353513594378031,
+      "force_ifft_max_imaginary": 4.411347589300396e-18,
+      "max_force_magnitude": 0.0227507392824853,
+      "max_drift_cells": 0.022055491564197796,
+      "a": 0.07330627131653528,
+      "mean_momentum": [
+        -2.2781588045476073e-20,
+        4.366438299483667e-20,
+        9.237539490685937e-22
+      ],
+      "momentum_change_absolute": 1.446038441586103e-19,
+      "momentum_rms": 0.0007935951751509464
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.56517851244776e-17,
+      "total_force_normalized": 1.845219249717969e-15,
+      "mean_force_magnitude": 0.008482344375536882,
+      "force_ifft_max_imaginary": 4.548906923956422e-18,
+      "max_force_magnitude": 0.023092350453583824,
+      "max_drift_cells": 0.02239340407100224,
+      "a": 0.0744350923449362,
+      "mean_momentum": [
+        6.802505882967648e-20,
+        1.0012814519801262e-20,
+        1.61941284422569e-21
+      ],
+      "momentum_change_absolute": 4.801694954203199e-20,
+      "momentum_rms": 0.0008119117282252917
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 9.31222905352178e-18,
+      "total_force_normalized": 1.0811568826270987e-15,
+      "mean_force_magnitude": 0.008613207947114976,
+      "force_ifft_max_imaginary": 4.797084646993946e-18,
+      "max_force_magnitude": 0.02344653423139084,
+      "max_drift_cells": 0.022736320861146915,
+      "a": 0.07558129574583099,
+      "mean_momentum": [
+        -1.5769383605420108e-18,
+        -2.6613502233127974e-20,
+        1.4314360500230144e-21
+      ],
+      "momentum_change_absolute": 1.6918293767890626e-18,
+      "momentum_rms": 0.0008306539836304692
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.7872999479705817e-18,
+      "total_force_normalized": 2.043531102552726e-16,
+      "mean_force_magnitude": 0.008746135283862002,
+      "force_ifft_max_imaginary": 5.208689667183252e-18,
+      "max_force_magnitude": 0.023816861508087137,
+      "max_drift_cells": 0.023084398519664304,
+      "a": 0.0767451491850993,
+      "mean_momentum": [
+        9.496657953471235e-19,
+        -1.4229988077749735e-20,
+        2.1792073237709514e-21
+      ],
+      "momentum_change_absolute": 8.350720847225061e-19,
+      "momentum_rms": 0.0008498319300117935
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.7146804209501898e-17,
+      "total_force_normalized": 1.9306932746908348e-15,
+      "mean_force_magnitude": 0.008881164312465762,
+      "force_ifft_max_imaginary": 4.811639954859509e-18,
+      "max_force_magnitude": 0.0241961920756382,
+      "max_drift_cells": 0.02343790798314854,
+      "a": 0.07792692445032641,
+      "mean_momentum": [
+        -1.3576633267070132e-18,
+        -1.011172464154729e-19,
+        3.652002404421617e-22
+      ],
+      "momentum_change_absolute": 1.475751780158087e-18,
+      "momentum_rms": 0.0008694557965416786
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.042387011385803e-17,
+      "total_force_normalized": 1.155853803556907e-15,
+      "mean_force_magnitude": 0.00901832920545892,
+      "force_ifft_max_imaginary": 5.462061521063146e-18,
+      "max_force_magnitude": 0.024581403879327328,
+      "max_drift_cells": 0.023797131872487,
+      "a": 0.07912689751427211,
+      "mean_momentum": [
+        7.510971601958596e-19,
+        -7.354338749117086e-20,
+        1.2167826810655037e-21
+      ],
+      "momentum_change_absolute": 6.405033494288859e-19,
+      "momentum_rms": 0.0008895360667742079
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 8.535301211450162e-18,
+      "total_force_normalized": 9.320384038175734e-16,
+      "mean_force_magnitude": 0.00915767116085569,
+      "force_ifft_max_imaginary": 4.976975895725094e-18,
+      "max_force_magnitude": 0.024977017346446098,
+      "max_drift_cells": 0.02416220330248461,
+      "a": 0.0803453485993171,
+      "mean_momentum": [
+        5.333635774323546e-19,
+        3.283886352320206e-20,
+        -5.0809569126069725e-22
+      ],
+      "momentum_change_absolute": 4.200427424003388e-19,
+      "momentum_rms": 0.0009100834795334278
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.932560011948025e-18,
+      "total_force_normalized": 6.379631335534477e-16,
+      "mean_force_magnitude": 0.009299220754189557,
+      "force_ifft_max_imaginary": 5.830866882503283e-18,
+      "max_force_magnitude": 0.02539509544111244,
+      "max_drift_cells": 0.024533276092088673,
+      "a": 0.08158256224290147,
+      "mean_momentum": [
+        -1.1559855264283156e-18,
+        -4.3061368328285515e-20,
+        1.791673206789858e-21
+      ],
+      "momentum_change_absolute": 1.2713764872855744e-18,
+      "momentum_rms": 0.0009311090301110266
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 6.4957730930499816e-18,
+      "total_force_normalized": 6.878916269187627e-16,
+      "mean_force_magnitude": 0.00944301811339987,
+      "force_ifft_max_imaginary": 5.315672225125933e-18,
+      "max_force_magnitude": 0.02582233533141727,
+      "max_drift_cells": 0.02491054374720573,
+      "a": 0.08283882736397093,
+      "mean_momentum": [
+        1.7915427190482277e-18,
+        -1.6665621391412125e-20,
+        3.556876633978019e-23
+      ],
+      "momentum_change_absolute": 1.676915616097887e-18,
+      "momentum_rms": 0.0009526239772204059
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 2.2907583808308017e-19,
+      "total_force_normalized": 2.3889179434195874e-17,
+      "mean_force_magnitude": 0.009589104502901943,
+      "force_ifft_max_imaginary": 5.2937491057849876e-18,
+      "max_force_magnitude": 0.026259557347727905,
+      "max_drift_cells": 0.025294178058873015,
+      "a": 0.08411443733044635,
+      "mean_momentum": [
+        8.765120099244651e-19,
+        4.2471588551535206e-20,
+        1.0209476710435744e-21
+      ],
+      "momentum_change_absolute": 7.630618405375509e-19,
+      "momentum_rms": 0.0009746398618610337
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.327137415475414e-17,
+      "total_force_normalized": 1.3629113643119733e-15,
+      "mean_force_magnitude": 0.009737518155814785,
+      "force_ifft_max_imaginary": 5.603488404809336e-18,
+      "max_force_magnitude": 0.026701236426267323,
+      "max_drift_cells": 0.025684308853156604,
+      "a": 0.08540969002773233,
+      "mean_momentum": [
+        3.317808202060393e-18,
+        -3.8215123914490464e-20,
+        1.4680387921284859e-21
+      ],
+      "momentum_change_absolute": 3.2033240754289804e-18,
+      "momentum_rms": 0.0009971685083547805
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 9.599438855709554e-18,
+      "total_force_normalized": 9.707882908566803e-16,
+      "mean_force_magnitude": 0.009888292788573344,
+      "force_ifft_max_imaginary": 4.872056077681251e-18,
+      "max_force_magnitude": 0.02714562422389856,
+      "max_drift_cells": 0.026080935091570015,
+      "a": 0.08672488792828036,
+      "mean_momentum": [
+        -1.5384111827414347e-19,
+        -5.3564494156177584e-20,
+        -1.7308754317672104e-22
+      ],
+      "momentum_change_absolute": 2.736068492497463e-19,
+      "momentum_rms": 0.0010202220144551956
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 1.5231941227061797e-17,
+      "total_force_normalized": 1.516903639207891e-15,
+      "mean_force_magnitude": 0.010041469235986365,
+      "force_ifft_max_imaginary": 6.079310656175042e-18,
+      "max_force_magnitude": 0.027593446086599978,
+      "max_drift_cells": 0.026484105150996667,
+      "a": 0.0880603381622234,
+      "mean_momentum": [
+        -1.3969854250762528e-18,
+        -7.492085000622479e-20,
+        -3.172237649140861e-22
+      ],
+      "momentum_change_absolute": 1.513483120575776e-18,
+      "momentum_rms": 0.0010438127629172143
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.6023684542800803e-18,
+      "total_force_normalized": 2.552069555658886e-16,
+      "mean_force_magnitude": 0.01019709062595752,
+      "force_ifft_max_imaginary": 5.341389765385618e-18,
+      "max_force_magnitude": 0.02804964683274749,
+      "max_drift_cells": 0.02689386868038353,
+      "a": 0.08941635258909812,
+      "mean_momentum": [
+        1.9974182541404788e-18,
+        -8.624247105023808e-20,
+        2.6035509780106546e-21
+      ],
+      "momentum_change_absolute": 1.8846429682316806e-18,
+      "momentum_rms": 0.0010679534429078703
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 1.2556232461717184e-17,
+      "total_force_normalized": 1.2125536779876532e-15,
+      "mean_force_magnitude": 0.010355197208716922,
+      "force_ifft_max_imaginary": 5.4447962095975554e-18,
+      "max_force_magnitude": 0.02851413149506421,
+      "max_drift_cells": 0.027310385777437444,
+      "a": 0.09079324787067163,
+      "mean_momentum": [
+        1.8986880441776808e-18,
+        2.2509652419099266e-21,
+        2.455072058057386e-21
+      ],
+      "momentum_change_absolute": 1.78399407707362e-18,
+      "momentum_rms": 0.0010926570521335103
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.880429649402833e-19,
+      "total_force_normalized": 5.591974689955319e-17,
+      "mean_force_magnitude": 0.010515837383823745,
+      "force_ifft_max_imaginary": 5.541381938246241e-18,
+      "max_force_magnitude": 0.0289682610276623,
+      "max_drift_cells": 0.02773377276117068,
+      "a": 0.09219134554488953,
+      "mean_momentum": [
+        9.761560476689811e-19,
+        -4.2261898266253013e-20,
+        9.975798187389514e-22
+      ],
+      "momentum_change_absolute": 8.624380252634583e-19,
+      "momentum_rms": 0.0011179369108609287
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.241107780594625e-18,
+      "total_force_normalized": 6.780663573405696e-16,
+      "mean_force_magnitude": 0.010679054788966124,
+      "force_ifft_max_imaginary": 5.9631119486702744e-18,
+      "max_force_magnitude": 0.029438567733529847,
+      "max_drift_cells": 0.02816393582848429,
+      "a": 0.0936109721009626,
+      "mean_momentum": [
+        9.267307652980189e-19,
+        5.0814532209745043e-20,
+        6.906958114817781e-22
+      ],
+      "momentum_change_absolute": 8.136933662650616e-19,
+      "momentum_rms": 0.0011438066742714675
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 1.2926679134750773e-17,
+      "total_force_normalized": 1.1919596111742567e-15,
+      "mean_force_magnitude": 0.010844896935741036,
+      "force_ifft_max_imaginary": 5.7905066104414366e-18,
+      "max_force_magnitude": 0.02995926978301187,
+      "max_drift_cells": 0.028600486157900753,
+      "a": 0.09505245905560987,
+      "mean_momentum": [
+        -8.594960775436368e-19,
+        -5.0984104235318414e-20,
+        2.0013634920720505e-21
+      ],
+      "momentum_change_absolute": 9.754705260915364e-19,
+      "momentum_rms": 0.0011702803359452346
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.34363160848459e-19,
+      "total_force_normalized": 3.9439460457247636e-17,
+      "mean_force_magnitude": 0.011013415391909545,
+      "force_ifft_max_imaginary": 6.3851577794339965e-18,
+      "max_force_magnitude": 0.03052225881433531,
+      "max_drift_cells": 0.029043665622254158,
+      "a": 0.09651614303047584,
+      "mean_momentum": [
+        -4.4294897280852154e-18,
+        1.015037465566883e-19,
+        2.898440866385809e-21
+      ],
+      "momentum_change_absolute": 4.545348886786825e-18,
+      "momentum_rms": 0.0011973722454824125
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.9067174496445517e-18,
+      "total_force_normalized": 1.7047617996280874e-16,
+      "mean_force_magnitude": 0.011184656120641154,
+      "force_ifft_max_imaginary": 6.114299140647513e-18,
+      "max_force_magnitude": 0.031066029356711017,
+      "max_drift_cells": 0.029494813745302863,
+      "a": 0.0980023658307396,
+      "mean_momentum": [
+        -4.891254206056205e-18,
+        6.212126400273238e-21,
+        4.867957904874568e-22
+      ],
+      "momentum_change_absolute": 5.005958498735893e-18,
+      "momentum_rms": 0.0012250971089068769
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 1.5446809391336017e-17,
+      "total_force_normalized": 1.359913914118147e-15,
+      "mean_force_magnitude": 0.011358667067799429,
+      "force_ifft_max_imaginary": 7.23259848381383e-18,
+      "max_force_magnitude": 0.03157232855287847,
+      "max_drift_cells": 0.029953605532401055,
+      "a": 0.09951147452493435,
+      "mean_momentum": [
+        2.0653407425741987e-18,
+        -2.702316343149486e-20,
+        1.5435190230239496e-21
+      ],
+      "momentum_change_absolute": 1.9508140106770545e-18,
+      "momentum_rms": 0.001253469992959303
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 9.12368268540212e-18,
+      "total_force_normalized": 7.909227234526173e-16,
+      "mean_force_magnitude": 0.011535491919582839,
+      "force_ifft_max_imaginary": 6.99057929190505e-18,
+      "max_force_magnitude": 0.03208974832686736,
+      "max_drift_cells": 0.03041948844504745,
+      "a": 0.10104382152599632,
+      "mean_momentum": [
+        2.3160560843117243e-19,
+        8.467889289735972e-20,
+        4.04077729232154e-22
+      ],
+      "momentum_change_absolute": 1.4503264032725328e-19,
+      "momentum_rms": 0.0012825063366576717
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -8.673617379884035e-19,
+      "total_force_absolute": 1.2170444417416322e-18,
+      "total_force_normalized": 1.0388605685143838e-16,
+      "mean_force_magnitude": 0.011715185643074884,
+      "force_ifft_max_imaginary": 6.729353835878052e-18,
+      "max_force_magnitude": 0.0325933095506285,
+      "max_drift_cells": 0.030892514277200647,
+      "a": 0.10259976467356176,
+      "mean_momentum": [
+        3.611813420770422e-18,
+        -1.0389553929788538e-19,
+        2.927392187825165e-21
+      ],
+      "momentum_change_absolute": 3.498624678856387e-18,
+      "momentum_rms": 0.001312221957049248
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 8.673617379884035e-19,
+      "total_force_absolute": 2.843132234632639e-18,
+      "total_force_normalized": 2.3896286200524874e-16,
+      "mean_force_magnitude": 0.011897799560879843,
+      "force_ifft_max_imaginary": 5.902988987630528e-18,
+      "max_force_magnitude": 0.03312393824476531,
+      "max_drift_cells": 0.0313727521342293,
+      "a": 0.10417966731753078,
+      "mean_momentum": [
+        -3.066010908081648e-18,
+        -8.911134020972512e-20,
+        2.601483026479272e-22
+      ],
+      "momentum_change_absolute": 3.181925719060554e-18,
+      "momentum_rms": 0.0013426330661589813
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.747633329390492e-19,
+      "total_force_normalized": 6.41180168105856e-17,
+      "mean_force_magnitude": 0.012083395143487021,
+      "force_ifft_max_imaginary": 7.143045222410824e-18,
+      "max_force_magnitude": 0.03372661881139615,
+      "max_drift_cells": 0.03185994938204796,
+      "a": 0.10578389840291838,
+      "mean_momentum": [
+        5.286980926619177e-18,
+        -4.678740339753063e-20,
+        1.9475967522561037e-21
+      ],
+      "momentum_change_absolute": 5.1724837334198246e-18,
+      "momentum_rms": 0.001373756296730113
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.643942108258651e-18,
+      "total_force_normalized": 5.413894677731303e-16,
+      "mean_force_magnitude": 0.01227201950489883,
+      "force_ifft_max_imaginary": 7.150684897151421e-18,
+      "max_force_magnitude": 0.034326916189899394,
+      "max_drift_cells": 0.03235422293541164,
+      "a": 0.10741283255601189,
+      "mean_momentum": [
+        -1.6686801350996545e-18,
+        -1.0317423780373914e-20,
+        1.5621305868063928e-21
+      ],
+      "momentum_change_absolute": 1.783403187710279e-18,
+      "momentum_rms": 0.001405608698086903
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 1.5295427585944205e-17,
+      "total_force_normalized": 1.2271948955673415e-15,
+      "mean_force_magnitude": 0.012463731426191284,
+      "force_ifft_max_imaginary": 7.072093929416795e-18,
+      "max_force_magnitude": 0.03488811816746335,
+      "max_drift_cells": 0.03285598964022433,
+      "a": 0.10906685017185515,
+      "mean_momentum": [
+        3.9713561594130273e-19,
+        -7.458604865329395e-20,
+        4.121840992351737e-21
+      ],
+      "momentum_change_absolute": 2.9185544577169915e-19,
+      "momentum_rms": 0.0014382077337388567
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.056453739107912e-18,
+      "total_force_normalized": 1.6245517536993609e-16,
+      "mean_force_magnitude": 0.012658591727995383,
+      "force_ifft_max_imaginary": 7.102724635225323e-18,
+      "max_force_magnitude": 0.03543047530710277,
+      "max_drift_cells": 0.03336551208638472,
+      "a": 0.1107463375030799,
+      "mean_momentum": [
+        -4.2997799498210815e-19,
+        -1.0633737646614192e-19,
+        -1.22670884841614e-21
+      ],
+      "momentum_change_absolute": 5.547415469474028e-19,
+      "momentum_rms": 0.001471571314891259
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 2.4983504598037755e-17,
+      "total_force_normalized": 1.9432344258169024e-15,
+      "mean_force_magnitude": 0.012856660146670218,
+      "force_ifft_max_imaginary": 7.876343523727098e-18,
+      "max_force_magnitude": 0.035981016320665554,
+      "max_drift_cells": 0.033883183724368396,
+      "a": 0.1124516867501049,
+      "mean_momentum": [
+        4.780053421178558e-19,
+        -6.052645978173014e-20,
+        5.6041486500467625e-21
+      ],
+      "momentum_change_absolute": 3.681681532345062e-19,
+      "momentum_rms": 0.0015057178044099596
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.1267211251722474e-17,
+      "total_force_normalized": 8.628588915669272e-16,
+      "mean_force_magnitude": 0.013057999821108106,
+      "force_ifft_max_imaginary": 7.176926540300996e-18,
+      "max_force_magnitude": 0.03652299673090807,
+      "max_drift_cells": 0.0344089936885374,
+      "a": 0.1141832961527242,
+      "mean_momentum": [
+        -4.3060710719698535e-18,
+        3.0344707181201544e-20,
+        1.1683926152311516e-21
+      ],
+      "momentum_change_absolute": 4.420882280328941e-18,
+      "momentum_rms": 0.001540666037465284
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.994622135431314e-18,
+      "total_force_normalized": 3.011928853677293e-16,
+      "mean_force_magnitude": 0.013262670964336497,
+      "force_ifft_max_imaginary": 7.832961747057106e-18,
+      "max_force_magnitude": 0.03725435726978839,
+      "max_drift_cells": 0.034942947120366344,
+      "a": 0.11594157008310556,
+      "mean_momentum": [
+        2.6775699943540435e-18,
+        1.9114489594875364e-20,
+        -3.5651484401035493e-22
+      ],
+      "momentum_change_absolute": 2.5629513092997432e-18,
+      "momentum_rms": 0.0015764353373856098
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.2062690962314184e-17,
+      "total_force_normalized": 1.6378234462104067e-15,
+      "mean_force_magnitude": 0.013470738261418105,
+      "force_ifft_max_imaginary": 7.974798820183929e-18,
+      "max_force_magnitude": 0.038070976216680937,
+      "max_drift_cells": 0.03548513683597056,
+      "a": 0.11772691914022108,
+      "mean_momentum": [
+        -2.9512315330789432e-18,
+        -8.123782154913912e-20,
+        -8.271806125530277e-24
+      ],
+      "momentum_change_absolute": 3.066976148119388e-18,
+      "momentum_rms": 0.0016130455121939954
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.1637078194162348e-18,
+      "total_force_normalized": 1.581395461532118e-16,
+      "mean_force_magnitude": 0.013682269059504888,
+      "force_ifft_max_imaginary": 9.094808607460064e-18,
+      "max_force_magnitude": 0.03892700464628642,
+      "max_drift_cells": 0.03604104898612831,
+      "a": 0.11953976024573183,
+      "mean_momentum": [
+        7.744474762714965e-18,
+        -1.982338337983331e-21,
+        3.85218011265945e-21
+      ],
+      "momentum_change_absolute": 7.62977690767118e-18,
+      "momentum_rms": 0.0016505168773554722
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.139289684033849e-18,
+      "total_force_normalized": 2.2589161486385726e-16,
+      "mean_force_magnitude": 0.01389732720236592,
+      "force_ifft_max_imaginary": 7.041130356703412e-18,
+      "max_force_magnitude": 0.03985067343374146,
+      "max_drift_cells": 0.03661321552103894,
+      "a": 0.12138051674134903,
+      "mean_momentum": [
+        7.872757654422445e-19,
+        4.828542748686416e-20,
+        6.302289087041518e-21
+      ],
+      "momentum_change_absolute": 6.744205916571159e-19,
+      "momentum_rms": 0.0016888702645025616
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 5.335102202603082e-18,
+      "total_force_normalized": 3.7794737243437534e-16,
+      "mean_force_magnitude": 0.01411599230929814,
+      "force_ifft_max_imaginary": 7.424865451000884e-18,
+      "max_force_magnitude": 0.04082074829215925,
+      "max_drift_cells": 0.03719459114408027,
+      "a": 0.12324961848769445,
+      "mean_momentum": [
+        -3.341259599606884e-18,
+        2.661358495118923e-19,
+        4.4804237878934744e-21
+      ],
+      "momentum_change_absolute": 3.4662821581097955e-18,
+      "momentum_rms": 0.0017281270557853083
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 6.176863553508094e-18,
+      "total_force_normalized": 4.3079311572711565e-16,
+      "mean_force_magnitude": 0.014338352513090775,
+      "force_ifft_max_imaginary": 7.706737459700907e-18,
+      "max_force_magnitude": 0.04177846920258793,
+      "max_drift_cells": 0.03778553737944311,
+      "a": 0.12514750196468313,
+      "mean_momentum": [
+        -1.7606448348323813e-18,
+        2.0851568881236722e-20,
+        2.9497260643640967e-21
+      ],
+      "momentum_change_absolute": 1.875475045467153e-18,
+      "momentum_rms": 0.0017683092338087714
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.0415330051173574e-17,
+      "total_force_normalized": 1.401721196744522e-15,
+      "mean_force_magnitude": 0.014564472663028778,
+      "force_ifft_max_imaginary": 7.705198367984619e-18,
+      "max_force_magnitude": 0.04267633270281461,
+      "max_drift_cells": 0.038386582184461226,
+      "a": 0.12707461037345194,
+      "mean_momentum": [
+        4.4298098469822735e-18,
+        -1.679954193258446e-19,
+        4.6954907471572616e-21
+      ],
+      "momentum_change_absolute": 4.318337749916982e-18,
+      "momentum_rms": 0.0018094393536078799
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 2.476119178455107e-18,
+      "total_force_normalized": 1.6736836913871443e-16,
+      "mean_force_magnitude": 0.01479442735325279,
+      "force_ifft_max_imaginary": 8.385018946116709e-18,
+      "max_force_magnitude": 0.043631062058541656,
+      "max_drift_cells": 0.03899805654559275,
+      "a": 0.1290313937398575,
+      "mean_momentum": [
+        2.1753824406185062e-18,
+        9.434036245197908e-20,
+        1.8011857838342178e-21
+      ],
+      "momentum_change_absolute": 2.062895773271565e-18,
+      "momentum_rms": 0.0018515405441522433
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 3.417364632366686e-18,
+      "total_force_normalized": 2.273952499756264e-16,
+      "mean_force_magnitude": 0.015028302626079392,
+      "force_ifft_max_imaginary": 7.29726258270023e-18,
+      "max_force_magnitude": 0.044639813479022725,
+      "max_drift_cells": 0.03962036955989321,
+      "a": 0.13101830901956807,
+      "mean_momentum": [
+        -1.6306203143451709e-18,
+        2.0396619544332556e-19,
+        5.075580238625378e-21
+      ],
+      "momentum_change_absolute": 1.7573384260398115e-18,
+      "momentum_rms": 0.0018946365609426351
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.2348592213369905e-17,
+      "total_force_normalized": 8.088856926582175e-16,
+      "mean_force_magnitude": 0.01526617706982687,
+      "force_ifft_max_imaginary": 1.0300706792947127e-17,
+      "max_force_magnitude": 0.045737238120634086,
+      "max_drift_cells": 0.040253944220246314,
+      "a": 0.13303582020477359,
+      "mean_momentum": [
+        -1.8668134664535624e-18,
+        -7.713459212056983e-21,
+        3.5572902242842955e-21
+      ],
+      "momentum_change_absolute": 1.9815263079176855e-18,
+      "momentum_rms": 0.0019387517937221176
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 2.6128450636260426e-17,
+      "total_force_normalized": 1.684822223983634e-15,
+      "mean_force_magnitude": 0.015508135080555676,
+      "force_ifft_max_imaginary": 8.709847892281078e-18,
+      "max_force_magnitude": 0.04689180456050525,
+      "max_drift_cells": 0.0408990261841345,
+      "a": 0.13508439843253897,
+      "mean_momentum": [
+        2.102182333081545e-18,
+        7.87571068920926e-20,
+        9.421173586672709e-21
+      ],
+      "momentum_change_absolute": 1.9891114348347504e-18,
+      "momentum_rms": 0.001983911282378975
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 3.469446951953614e-18,
+      "total_force_absolute": 6.865333286492013e-18,
+      "total_force_normalized": 4.3577625558527596e-16,
+      "mean_force_magnitude": 0.015754261960123143,
+      "force_ifft_max_imaginary": 8.039637786187156e-18,
+      "max_force_magnitude": 0.048075740279032324,
+      "max_drift_cells": 0.04155614200421482,
+      "a": 0.13716452209482577,
+      "mean_momentum": [
+        -2.17403579058127e-18,
+        -8.188260883662421e-20,
+        -3.857143196334768e-21
+      ],
+      "momentum_change_absolute": 2.2901612777999864e-18,
+      "momentum_rms": 0.0020301407222136315
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 2.2049095126919312e-17,
+      "total_force_normalized": 1.3776678219792257e-15,
+      "mean_force_magnitude": 0.016004652772714463,
+      "force_ifft_max_imaginary": 8.322436777311745e-18,
+      "max_force_magnitude": 0.04903381741127473,
+      "max_drift_cells": 0.04222571884161915,
+      "a": 0.13927667695020823,
+      "mean_momentum": [
+        2.673242185389166e-18,
+        2.2815212937376354e-19,
+        1.315217173959314e-22
+      ],
+      "momentum_change_absolute": 2.5687983389072008e-18,
+      "momentum_rms": 0.0020774665085454514
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.5559924621282438e-17,
+      "total_force_normalized": 9.569802186272984e-16,
+      "mean_force_magnitude": 0.016259400474966705,
+      "force_ifft_max_imaginary": 9.077656729973154e-18,
+      "max_force_magnitude": 0.05002510513310093,
+      "max_drift_cells": 0.042908306683501776,
+      "a": 0.1414213562373095,
+      "mean_momentum": [
+        -4.901648971223853e-19,
+        8.49415227418453e-20,
+        2.7772589066467904e-21
+      ],
+      "momentum_change_absolute": 6.109664181943126e-19,
+      "momentum_rms": 0.0021259157577460065
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.2127503360206e-17,
+      "total_force_normalized": 7.341727378145326e-16,
+      "mean_force_magnitude": 0.016518596694705463,
+      "force_ifft_max_imaginary": 9.397337965592761e-18,
+      "max_force_magnitude": 0.05123523491209778,
+      "max_drift_cells": 0.043604221486847415,
+      "a": 0.14359906078998463,
+      "mean_momentum": [
+        -1.7348500346105277e-18,
+        9.46236718117785e-20,
+        6.808110031617694e-21
+      ],
+      "momentum_change_absolute": 1.8520394562220926e-18,
+      "momentum_rms": 0.0021755163106389743
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 6.828912965812784e-19,
+      "total_force_normalized": 4.069111842946655e-17,
+      "mean_force_magnitude": 0.01678231817994861,
+      "force_ifft_max_imaginary": 1.0523537336687427e-17,
+      "max_force_magnitude": 0.052586944407395586,
+      "max_drift_cells": 0.044313846766149,
+      "a": 0.14581029915427715,
+      "mean_momentum": [
+        1.6490726458596976e-18,
+        -2.453665851016046e-20,
+        4.893186913557435e-21
+      ],
+      "momentum_change_absolute": 1.53455964572389e-18,
+      "momentum_rms": 0.0022262967095567424
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.2889323015375017e-17,
+      "total_force_normalized": 7.559420034529775e-16,
+      "mean_force_magnitude": 0.01705067711080931,
+      "force_ifft_max_imaginary": 1.077000754612312e-17,
+      "max_force_magnitude": 0.054001200866512854,
+      "max_drift_cells": 0.04503725603611273,
+      "a": 0.1480555877071769,
+      "mean_momentum": [
+        -1.0857320430284213e-18,
+        -1.2726256442189586e-19,
+        4.356760286316797e-21
+      ],
+      "momentum_change_absolute": 1.2070445651374514e-18,
+      "momentum_rms": 0.0022782862428209144
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.2711829388504357e-17,
+      "total_force_normalized": 7.337791617217998e-16,
+      "mean_force_magnitude": 0.017323780848009195,
+      "force_ifft_max_imaginary": 9.24786121772534e-18,
+      "max_force_magnitude": 0.0552658179954663,
+      "max_drift_cells": 0.04577455093364233,
+      "a": 0.15033545077720625,
+      "mean_momentum": [
+        2.4558963435377952e-18,
+        7.028057356495544e-20,
+        6.729941463731433e-21
+      ],
+      "momentum_change_absolute": 2.342296578956442e-18,
+      "momentum_rms": 0.0023315150618788863
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 6.54448088162455e-19,
+      "total_force_normalized": 3.7180935106966986e-17,
+      "mean_force_magnitude": 0.01760171136846486,
+      "force_ifft_max_imaginary": 8.850598131214256e-18,
+      "max_force_magnitude": 0.056495167780265,
+      "max_drift_cells": 0.04652582397355353,
+      "a": 0.15265042076686341,
+      "mean_momentum": [
+        -9.60939853505915e-19,
+        1.6103552165182343e-20,
+        3.856316015722215e-21
+      ],
+      "momentum_change_absolute": 1.0757839065388917e-18,
+      "momentum_rms": 0.002386014118600239
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.436684461552982e-17,
+      "total_force_normalized": 1.3624503196980197e-15,
+      "mean_force_magnitude": 0.017884574771820382,
+      "force_ifft_max_imaginary": 8.857428163687036e-18,
+      "max_force_magnitude": 0.057796675187452996,
+      "max_drift_cells": 0.0472901583828017,
+      "a": 0.1550010382769511,
+      "mean_momentum": [
+        5.7896732673235246e-18,
+        3.08455650421024e-20,
+        4.966392397768378e-21
+      ],
+      "momentum_change_absolute": 5.6750667671382924e-18,
+      "momentum_rms": 0.002441815134180308
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 8.373480810282834e-18,
+      "total_force_normalized": 4.607775681592157e-16,
+      "mean_force_magnitude": 0.01817250098292434,
+      "force_ifft_max_imaginary": 9.680216696519886e-18,
+      "max_force_magnitude": 0.05918332265930415,
+      "max_drift_cells": 0.04806934223481194,
+      "a": 0.15738785223281979,
+      "mean_momentum": [
+        7.675173157404966e-18,
+        -1.6617314043639028e-19,
+        1.1438253510383267e-20
+      ],
+      "momentum_change_absolute": 7.56228360208202e-18,
+      "momentum_rms": 0.002498950722306212
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.0932071971133452e-18,
+      "total_force_normalized": 1.1335708018395757e-16,
+      "mean_force_magnitude": 0.018465606151079908,
+      "force_ifft_max_imaginary": 1.0955741690834955e-17,
+      "max_force_magnitude": 0.060671312905147864,
+      "max_drift_cells": 0.048866301802424655,
+      "a": 0.15981142001255477,
+      "mean_momentum": [
+        -1.0950127199880518e-17,
+        1.9921735154665863e-19,
+        1.363855393977432e-20
+      ],
+      "momentum_change_absolute": 1.1066648497274678e-17,
+      "momentum_rms": 0.002557454440476819
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 3.469446951953614e-18,
+      "total_force_absolute": 2.3352109448664015e-17,
+      "total_force_normalized": 1.2445166395405577e-15,
+      "mean_force_magnitude": 0.018763999376725883,
+      "force_ifft_max_imaginary": 1.0639782023293792e-17,
+      "max_force_magnitude": 0.062231200249711086,
+      "max_drift_cells": 0.04968210659729418,
+      "a": 0.16227230757713748,
+      "mean_momentum": [
+        -3.3934340167436663e-18,
+        -6.796943093348228e-21,
+        4.404736761844872e-21
+      ],
+      "momentum_change_absolute": 3.508140130057842e-18,
+      "momentum_rms": 0.0026173607842832833
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.90712485470474e-18,
+      "total_force_normalized": 4.14684438093666e-16,
+      "mean_force_magnitude": 0.019067811878965987,
+      "force_ifft_max_imaginary": 1.11141204737562e-17,
+      "max_force_magnitude": 0.06387987476624353,
+      "max_drift_cells": 0.050516105707933245,
+      "a": 0.16477108960261064,
+      "mean_momentum": [
+        1.3214044849412107e-18,
+        -1.0866423552925359e-19,
+        7.076530140391152e-21
+      ],
+      "momentum_change_absolute": 1.2115059508910288e-18,
+      "momentum_rms": 0.0026787052118338313
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.998818636928387e-17,
+      "total_force_normalized": 1.547602857300531e-15,
+      "mean_force_magnitude": 0.01937718467487969,
+      "force_ifft_max_imaginary": 1.1664724645902114e-17,
+      "max_force_magnitude": 0.0656140552643325,
+      "max_drift_cells": 0.05136554412708018,
+      "a": 0.1673083496142791,
+      "mean_momentum": [
+        3.5728681031702004e-18,
+        -7.247921963312139e-20,
+        5.9002793093407464e-21
+      ],
+      "momentum_change_absolute": 3.4589097043394046e-18,
+      "momentum_rms": 0.002741524218277976
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.2089713422516054e-17,
+      "total_force_normalized": 6.139324432477727e-16,
+      "mean_force_magnitude": 0.019692253692539997,
+      "force_ifft_max_imaginary": 1.1984452032507209e-17,
+      "max_force_magnitude": 0.06753142459171509,
+      "max_drift_cells": 0.052231417417371244,
+      "a": 0.1698846801229767,
+      "mean_momentum": [
+        -2.6903222242674672e-18,
+        -1.488726579248437e-19,
+        1.2626912050621967e-20
+      ],
+      "momentum_change_absolute": 2.8089362422099467e-18,
+      "momentum_rms": 0.0028058553764238013
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.734723475976807e-18,
+      "total_force_absolute": 1.2942770214186152e-17,
+      "total_force_normalized": 6.46713592699102e-16,
+      "mean_force_magnitude": 0.020013140840551447,
+      "force_ifft_max_imaginary": 1.057348415839363e-17,
+      "max_force_magnitude": 0.06943305135775524,
+      "max_drift_cells": 0.05311464119204565,
+      "a": 0.17250068276343192,
+      "mean_momentum": [
+        -3.4833071902975527e-19,
+        -7.655887441423292e-20,
+        1.2018934300395492e-20
+      ],
+      "momentum_change_absolute": 4.692824110516181e-19,
+      "momentum_rms": 0.0028717372878485055
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 3.469446951953614e-18,
+      "total_force_absolute": 6.284479556221026e-17,
+      "total_force_normalized": 3.0897151058265295e-15,
+      "mean_force_magnitude": 0.020339996863690982,
+      "force_ifft_max_imaginary": 1.17443129865134e-17,
+      "max_force_magnitude": 0.07155953379535396,
+      "max_drift_cells": 0.05401646053633239,
+      "a": 0.17515696843476383,
+      "mean_momentum": [
+        7.488879675748836e-19,
+        8.490264525305531e-20,
+        4.561901078229948e-21
+      ],
+      "momentum_change_absolute": 6.400171187823655e-19,
+      "momentum_rms": 0.0029392096709506483
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.7525644026972293e-17,
+      "total_force_normalized": 8.477559123558507e-16,
+      "mean_force_magnitude": 0.020672983545782453,
+      "force_ifft_max_imaginary": 1.1583217225136155e-17,
+      "max_force_magnitude": 0.07403302438051192,
+      "max_drift_cells": 0.0549377230901264,
+      "a": 0.17785415744314165,
+      "mean_momentum": [
+        3.747163743631555e-18,
+        2.1305194729160802e-19,
+        1.0968414922453147e-20
+      ],
+      "momentum_change_absolute": 3.6387916274366595e-18,
+      "momentum_rms": 0.003008313460378333
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 7.202850184218262e-19,
+      "total_force_normalized": 3.4279313024001134e-17,
+      "mean_force_magnitude": 0.021012236094623854,
+      "force_ifft_max_imaginary": 1.2115959277525512e-17,
+      "max_force_magnitude": 0.07736602420771772,
+      "max_drift_cells": 0.056087443293201186,
+      "a": 0.18059287964664109,
+      "mean_momentum": [
+        -4.101153205231786e-18,
+        1.9851672956782622e-19,
+        1.8363409598677214e-21
+      ],
+      "momentum_change_absolute": 4.220578146783271e-18,
+      "momentum_rms": 0.003079090698912433
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.7800532485300495e-17,
+      "total_force_normalized": 1.3016511029763193e-15,
+      "mean_force_magnitude": 0.021357898765446876,
+      "force_ifft_max_imaginary": 1.1623417807804792e-17,
+      "max_force_magnitude": 0.08095736326185184,
+      "max_drift_cells": 0.05732376063919599,
+      "a": 0.18337377460233129,
+      "mean_momentum": [
+        -1.2950943511977365e-18,
+        2.1002777497211415e-19,
+        4.034159847421116e-21
+      ],
+      "momentum_change_absolute": 1.4255280608441395e-18,
+      "momentum_rms": 0.003151584512520077
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.1496269514961866e-18,
+      "total_force_normalized": 9.9015091370386e-17,
+      "mean_force_magnitude": 0.021710094105302308,
+      "force_ifft_max_imaginary": 1.2368848610678478e-17,
+      "max_force_magnitude": 0.0848407276766934,
+      "max_drift_cells": 0.05860710591133279,
+      "a": 0.18619749171562652,
+      "mean_momentum": [
+        -5.021840795769645e-18,
+        -2.53991597348695e-19,
+        7.26181859760303e-21
+      ],
+      "momentum_change_absolute": 5.1427637559768205e-18,
+      "momentum_rms": 0.0032258391922398537
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.607016701655045e-18,
+      "total_force_normalized": 7.281784007017359e-17,
+      "mean_force_magnitude": 0.02206899710436871,
+      "force_ifft_max_imaginary": 1.2115161379224186e-17,
+      "max_force_magnitude": 0.08853708438360326,
+      "max_drift_cells": 0.05994213423912925,
+      "a": 0.18906469039193813,
+      "mean_momentum": [
+        -7.356100643821824e-18,
+        -1.7072346098604449e-19,
+        1.7652861452494164e-20
+      ],
+      "momentum_change_absolute": 7.472744445917355e-18,
+      "momentum_rms": 0.0033019002837401104
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.750400144273668e-18,
+      "total_force_normalized": 2.5631689048484935e-16,
+      "mean_force_magnitude": 0.022434729655920076,
+      "force_ifft_max_imaginary": 1.2237932021930131e-17,
+      "max_force_magnitude": 0.09152885820373992,
+      "max_drift_cells": 0.06133278519301114,
+      "a": 0.1919760401906612,
+      "mean_momentum": [
+        1.18663881333703e-17,
+        -2.1853698193344715e-19,
+        1.1064367873509298e-20
+      ],
+      "momentum_change_absolute": 1.1753704873311054e-17,
+      "momentum_rms": 0.003379814504130528
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 2.064460840126516e-17,
+      "total_force_normalized": 9.051694533051731e-16,
+      "mean_force_magnitude": 0.02280745149527813,
+      "force_ifft_max_imaginary": 1.4455497034272507e-17,
+      "max_force_magnitude": 0.0916011921502683,
+      "max_drift_cells": 0.0627833873055493,
+      "a": 0.1949322209815328,
+      "mean_momentum": [
+        9.132872191876539e-18,
+        1.7012706376439375e-19,
+        1.5013328117837452e-20
+      ],
+      "momentum_change_absolute": 9.019812169207214e-18,
+      "momentum_rms": 0.003459629771114712
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 2.2812831133923185e-17,
+      "total_force_normalized": 9.838508411660514e-16,
+      "mean_force_magnitude": 0.02318728630336446,
+      "force_ifft_max_imaginary": 1.4265761654087544e-17,
+      "max_force_magnitude": 0.09557588685003507,
+      "max_drift_cells": 0.06426889382603639,
+      "a": 0.19793392310339775,
+      "mean_momentum": [
+        2.883576430778231e-18,
+        3.304669265210601e-20,
+        1.3959500017444895e-20
+      ],
+      "momentum_change_absolute": 2.7691237802708406e-18,
+      "momentum_rms": 0.003541395195573497
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.0319727365828827e-17,
+      "total_force_normalized": 4.3775088123739065e-16,
+      "mean_force_magnitude": 0.02357442967712149,
+      "force_ifft_max_imaginary": 1.432695731897918e-17,
+      "max_force_magnitude": 0.09951386800564858,
+      "max_drift_cells": 0.06576373268710554,
+      "a": 0.2009818475254193,
+      "mean_momentum": [
+        -1.1455486164084584e-17,
+        -2.2012185998709875e-19,
+        1.8855582063146266e-20
+      ],
+      "momentum_change_absolute": 1.1572272153572598e-17,
+      "momentum_rms": 0.003625161163275272
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 1.152759398502249e-17,
+      "total_force_normalized": 4.809344445140419e-16,
+      "mean_force_magnitude": 0.02396915861718014,
+      "force_ifft_max_imaginary": 1.3572009754881671e-17,
+      "max_force_magnitude": 0.10369143072851963,
+      "max_drift_cells": 0.06726766843782889,
+      "a": 0.20407670601077232,
+      "mean_momentum": [
+        -7.148442741304674e-18,
+        1.2093215119402754e-19,
+        2.103437579661094e-20
+      ],
+      "momentum_change_absolute": 7.264197929900949e-18,
+      "momentum_rms": 0.0037109797009659416
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.734723475976807e-18,
+      "total_force_absolute": 5.84600503581611e-19,
+      "total_force_normalized": 2.398680282233496e-17,
+      "mean_force_magnitude": 0.024371755915601593,
+      "force_ifft_max_imaginary": 1.500767351508809e-17,
+      "max_force_magnitude": 0.1086588664434779,
+      "max_drift_cells": 0.06878006125064025,
+      "a": 0.20721922128285652,
+      "mean_momentum": [
+        4.87052464631532e-18,
+        -7.33295613028259e-21,
+        2.1226281698723243e-20
+      ],
+      "momentum_change_absolute": 4.755877012246375e-18,
+      "momentum_rms": 0.0037989046830285626
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 1.7955172871254875e-17,
+      "total_force_normalized": 7.245136790269569e-16,
+      "mean_force_magnitude": 0.024782379396023548,
+      "force_ifft_max_imaginary": 1.5852717588572318e-17,
+      "max_force_magnitude": 0.11211932375242142,
+      "max_drift_cells": 0.07029774736884173,
+      "a": 0.21041012719407,
+      "mean_momentum": [
+        7.123241029582021e-19,
+        1.339676904672507e-19,
+        1.0448945497769846e-20
+      ],
+      "momentum_change_absolute": 6.127984987251957e-19,
+      "momentum_rms": 0.003888991731781446
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.976486212229425e-18,
+      "total_force_normalized": 3.165118137036663e-16,
+      "mean_force_magnitude": 0.025201227464126813,
+      "force_ifft_max_imaginary": 1.573953346944879e-17,
+      "max_force_magnitude": 0.11513590615988767,
+      "max_drift_cells": 0.07181898931119793,
+      "a": 0.21365016889718147,
+      "mean_momentum": [
+        -4.8124970991641125e-18,
+        5.2688923477790204e-20,
+        2.4195860097788613e-20
+      ],
+      "momentum_change_absolute": 4.92754935035821e-18,
+      "momentum_rms": 0.00398129783714602
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 9.652051674765365e-18,
+      "total_force_normalized": 3.7661341956389205e-16,
+      "mean_force_magnitude": 0.025628538903213205,
+      "force_ifft_max_imaginary": 1.4718044491490723e-17,
+      "max_force_magnitude": 0.11830524550176567,
+      "max_drift_cells": 0.07364922475199952,
+      "a": 0.21694010301934102,
+      "mean_momentum": [
+        1.3622609206286748e-17,
+        -1.1870207226258458e-19,
+        -6.890414502566721e-22
+      ],
+      "momentum_change_absolute": 1.350842183059597e-17,
+      "momentum_rms": 0.004075881426113693
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 1.0947731681625207e-17,
+      "total_force_normalized": 4.200247789297288e-16,
+      "mean_force_magnitude": 0.026064490074898153,
+      "force_ifft_max_imaginary": 1.7104861579628503e-17,
+      "max_force_magnitude": 0.12158825405164823,
+      "max_drift_cells": 0.07563332908892412,
+      "a": 0.2202806978387704,
+      "mean_momentum": [
+        2.6623544205764368e-18,
+        -4.8295767244521074e-20,
+        1.1358016990965623e-20
+      ],
+      "momentum_change_absolute": 2.5481168503764194e-18,
+      "momentum_rms": 0.004172802337590284
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.4441238156561988e-17,
+      "total_force_normalized": 5.447590078982356e-16,
+      "mean_force_magnitude": 0.026509406815095202,
+      "force_ifft_max_imaginary": 1.7828349473808514e-17,
+      "max_force_magnitude": 0.12507884976443304,
+      "max_drift_cells": 0.0776684558118881,
+      "a": 0.2236727334641746,
+      "mean_momentum": [
+        -5.2333136552718896e-18,
+        1.3868510150064062e-20,
+        2.172507160809272e-20
+      ],
+      "momentum_change_absolute": 5.3480775834928605e-18,
+      "momentum_rms": 0.004272122015857406
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 6.8303699067787394e-18,
+      "total_force_normalized": 2.533177073851726e-16,
+      "mean_force_magnitude": 0.026963649629092375,
+      "force_ifft_max_imaginary": 1.5057643824727278e-17,
+      "max_force_magnitude": 0.1327937623193015,
+      "max_drift_cells": 0.07975386213025483,
+      "a": 0.22711700201691604,
+      "mean_momentum": [
+        -1.0509511662220978e-18,
+        -1.7306769084201977e-19,
+        1.9289024704124052e-20
+      ],
+      "momentum_change_absolute": 1.1784164065082795e-18,
+      "momentum_rms": 0.004373904058392187
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.187733561178885e-17,
+      "total_force_normalized": 1.1622414335466885e-15,
+      "mean_force_magnitude": 0.02742746445935263,
+      "force_ifft_max_imaginary": 1.5234088729201115e-17,
+      "max_force_magnitude": 0.1415105377734133,
+      "max_drift_cells": 0.08188971405105815,
+      "a": 0.2306143078159937,
+      "mean_momentum": [
+        -2.607791933011214e-18,
+        1.4666904877300244e-19,
+        1.9651329812422278e-20
+      ],
+      "momentum_change_absolute": 2.7265715155088385e-18,
+      "momentum_rms": 0.004478213804796015
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.1586163846501794e-17,
+      "total_force_normalized": 1.490496310033677e-15,
+      "mean_force_magnitude": 0.027900883461806206,
+      "force_ifft_max_imaginary": 1.7972223317616906e-17,
+      "max_force_magnitude": 0.1445087923694659,
+      "max_drift_cells": 0.0840749447090693,
+      "a": 0.23416546756587045,
+      "mean_momentum": [
+        9.739466896118826e-18,
+        -6.341001139709e-20,
+        2.1658897159088477e-20
+      ],
+      "momentum_change_absolute": 9.624993677811544e-18,
+      "momentum_rms": 0.004585117500269275
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.5907368384410454e-17,
+      "total_force_normalized": 9.127383875436684e-16,
+      "mean_force_magnitude": 0.02838422130368759,
+      "force_ifft_max_imaginary": 1.7835125737386548e-17,
+      "max_force_magnitude": 0.15171534648318427,
+      "max_drift_cells": 0.08627517866889133,
+      "a": 0.23777131054719347,
+      "mean_momentum": [
+        -7.993277869671421e-19,
+        -1.5807256069765848e-19,
+        2.639450616595456e-20
+      ],
+      "momentum_change_absolute": 9.277732120612427e-19,
+      "momentum_rms": 0.004694682536808801
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 3.4391406316947405e-18,
+      "total_force_normalized": 1.1909259124808381e-16,
+      "mean_force_magnitude": 0.02887787221398691,
+      "force_ifft_max_imaginary": 1.7167598262088924e-17,
+      "max_force_magnitude": 0.15962162405762603,
+      "max_drift_cells": 0.08847869492999558,
+      "a": 0.24143267881045113,
+      "mean_momentum": [
+        9.212376656452073e-19,
+        -1.8035846076106215e-19,
+        1.6335989917309744e-20
+      ],
+      "momentum_change_absolute": 8.263685981436094e-19,
+      "momentum_rms": 0.004806978187397873
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.050131605786839e-17,
+      "total_force_normalized": 3.5740508054703853e-16,
+      "mean_force_magnitude": 0.029382111865324474,
+      "force_ifft_max_imaginary": 2.097931203759451e-17,
+      "max_force_magnitude": 0.1670957083136447,
+      "max_drift_cells": 0.0906711317396831,
+      "a": 0.24515042737261183,
+      "mean_momentum": [
+        5.8241513960256536e-18,
+        3.496178120628878e-19,
+        2.4686378201032558e-20
+      ],
+      "momentum_change_absolute": 5.720270641928163e-18,
+      "momentum_rms": 0.004922075463874906
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.4113347095040193e-17,
+      "total_force_normalized": 8.065443859738919e-16,
+      "mean_force_magnitude": 0.02989711107581964,
+      "force_ifft_max_imaginary": 2.1863679947389235e-17,
+      "max_force_magnitude": 0.1650114625032206,
+      "max_drift_cells": 0.0928360147740314,
+      "a": 0.24892542441679058,
+      "mean_momentum": [
+        1.8861105148096282e-17,
+        -8.210594760201353e-21,
+        4.202987410443189e-20
+      ],
+      "momentum_change_absolute": 1.874645465617073e-17,
+      "momentum_rms": 0.005040046667249337
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.0263343752751292e-17,
+      "total_force_normalized": 3.3735251961557924e-16,
+      "mean_force_magnitude": 0.030423201713289716,
+      "force_ifft_max_imaginary": 1.8189063752114007e-17,
+      "max_force_magnitude": 0.16651160949585198,
+      "max_drift_cells": 0.09495404345602858,
+      "a": 0.2527585514949907,
+      "mean_momentum": [
+        -7.379485039738698e-19,
+        -3.608790489221847e-19,
+        3.2687696266257995e-20
+      ],
+      "momentum_change_absolute": 9.260001715570752e-19,
+      "momentum_rms": 0.005160965445940592
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.5184067487730448e-17,
+      "total_force_normalized": 4.904311230780249e-16,
+      "mean_force_magnitude": 0.030960652318378145,
+      "force_ifft_max_imaginary": 1.892037611565183e-17,
+      "max_force_magnitude": 0.17353055009233503,
+      "max_drift_cells": 0.09700300676184384,
+      "a": 0.25665070373396764,
+      "mean_momentum": [
+        8.33960763879941e-18,
+        -2.2699655805802696e-19,
+        3.744646633027556e-20
+      ],
+      "momentum_change_absolute": 8.228093901210234e-18,
+      "momentum_rms": 0.00528490742410849
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 1.4921632392637365e-17,
+      "total_force_normalized": 4.735513573216631e-16,
+      "mean_force_magnitude": 0.03151006150004917,
+      "force_ifft_max_imaginary": 2.0816681711721685e-17,
+      "max_force_magnitude": 0.17999390162369944,
+      "max_drift_cells": 0.09895612530345502,
+      "a": 0.26060279004426207,
+      "mean_momentum": [
+        9.090896911692536e-19,
+        1.4730266912221806e-19,
+        4.7271717646180426e-20
+      ],
+      "momentum_change_absolute": 8.095227535569947e-19,
+      "momentum_rms": 0.005411950689992043
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 9.179481616163706e-17,
+      "total_force_normalized": 2.8621441851982357e-15,
+      "mean_force_magnitude": 0.03207204467069126,
+      "force_ifft_max_imaginary": 2.966884040763912e-17,
+      "max_force_magnitude": 0.19020768771423266,
+      "max_drift_cells": 0.10120027100646009,
+      "a": 0.26461573333245203,
+      "mean_momentum": [
+        -1.5002171105735337e-17,
+        3.0076287072428086e-21,
+        6.568972116528614e-20
+      ],
+      "momentum_change_absolute": 1.511701309853153e-17,
+      "momentum_rms": 0.005542175845320948
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.95384173279473e-17,
+      "total_force_normalized": 1.2111001022003493e-15,
+      "mean_force_magnitude": 0.03264669638464497,
+      "force_ifft_max_imaginary": 2.2661921816506602e-17,
+      "max_force_magnitude": 0.20208198503901445,
+      "max_drift_cells": 0.1034184063895823,
+      "a": 0.26869047071667396,
+      "mean_momentum": [
+        8.018846022405435e-18,
+        -2.4579341029768196e-19,
+        4.598958769672323e-20
+      ],
+      "momentum_change_absolute": 7.908065691315244e-18,
+      "momentum_rms": 0.0056756645459687454
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.874010660337447e-17,
+      "total_force_normalized": 2.0683292326848194e-15,
+      "mean_force_magnitude": 0.03323460574704809,
+      "force_ifft_max_imaginary": 2.051495071241308e-17,
+      "max_force_magnitude": 0.21446487982964121,
+      "max_drift_cells": 0.10546223883661915,
+      "a": 0.27282795374546237,
+      "mean_momentum": [
+        1.9874084588299134e-17,
+        1.721213962212591e-19,
+        4.589363474566708e-20
+      ],
+      "momentum_change_absolute": 1.9760198671276237e-17,
+      "momentum_rms": 0.005812498848912436
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 3.0757457007156445e-17,
+      "total_force_normalized": 9.090141268803896e-16,
+      "mean_force_magnitude": 0.03383606051614596,
+      "force_ifft_max_imaginary": 2.4069288229178198e-17,
+      "max_force_magnitude": 0.22747269005353996,
+      "max_drift_cells": 0.1072566323459113,
+      "a": 0.2770291486199589,
+      "mean_momentum": [
+        4.222727248581154e-18,
+        4.033332666808563e-21,
+        3.2152510409936186e-20
+      ],
+      "momentum_change_absolute": 4.108157204577488e-18,
+      "momentum_rms": 0.005952761430653531
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.995689170159771e-17,
+      "total_force_normalized": 2.0305921921980127e-15,
+      "mean_force_magnitude": 0.03445147281191549,
+      "force_ifft_max_imaginary": 2.5370330836160804e-17,
+      "max_force_magnitude": 0.24123711260312478,
+      "max_drift_cells": 0.10873351899182375,
+      "a": 0.28129503641954323,
+      "mean_momentum": [
+        9.223257390229596e-18,
+        -3.6884645258229546e-19,
+        5.470807135303214e-20
+      ],
+      "momentum_change_absolute": 9.11614095553728e-18,
+      "momentum_rms": 0.006096535632225099
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.812218797317834e-17,
+      "total_force_normalized": 5.165790400441096e-16,
+      "mean_force_magnitude": 0.035081152289165515,
+      "force_ifft_max_imaginary": 2.3027577998275514e-17,
+      "max_force_magnitude": 0.23613553870186738,
+      "max_drift_cells": 0.11162900513758475,
+      "a": 0.28562661333093853,
+      "mean_momentum": [
+        -6.789448836998498e-19,
+        -1.3403138337441729e-19,
+        4.241285872804394e-20
+      ],
+      "momentum_change_absolute": 8.058056500195126e-19,
+      "momentum_rms": 0.006243904500398017
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.274419008150062e-17,
+      "total_force_normalized": 9.165314961582496e-16,
+      "mean_force_magnitude": 0.035726202775083864,
+      "force_ifft_max_imaginary": 2.7358003501806916e-17,
+      "max_force_magnitude": 0.23800213501495845,
+      "max_drift_cells": 0.11556394353618984,
+      "a": 0.29002489088084543,
+      "mean_momentum": [
+        -7.838762185607741e-18,
+        -4.82992414030938e-19,
+        2.6335776342463295e-20
+      ],
+      "momentum_change_absolute": 7.968086546609933e-18,
+      "momentum_rms": 0.0063949518540103705
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.9053674441351134e-17,
+      "total_force_normalized": 5.236331117933987e-16,
+      "mean_force_magnitude": 0.03638745146595854,
+      "force_ifft_max_imaginary": 2.3568677455195185e-17,
+      "max_force_magnitude": 0.24749556831053413,
+      "max_drift_cells": 0.11908556336895051,
+      "a": 0.29449089617215735,
+      "mean_momentum": [
+        6.870636614120578e-18,
+        -5.004939014313349e-20,
+        2.601483026479272e-20
+      ],
+      "momentum_change_absolute": 6.7561646459331745e-18,
+      "momentum_rms": 0.006549764329230594
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.366876920071696e-17,
+      "total_force_normalized": 1.9875633816275396e-15,
+      "mean_force_magnitude": 0.03706486539332014,
+      "force_ifft_max_imaginary": 2.4032084292360244e-17,
+      "max_force_magnitude": 0.2561741300589364,
+      "max_drift_cells": 0.12213788379365859,
+      "a": 0.2990256721238131,
+      "mean_momentum": [
+        -4.662957733665551e-18,
+        6.511069473649902e-20,
+        -2.4388593180513468e-20
+      ],
+      "momentum_change_absolute": 4.778178519387655e-18,
+      "momentum_rms": 0.00670842823926206
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.009146351798834e-17,
+      "total_force_normalized": 1.0617413440758184e-15,
+      "mean_force_magnitude": 0.03776010394780805,
+      "force_ifft_max_imaginary": 2.577209577310192e-17,
+      "max_force_magnitude": 0.2757577862529168,
+      "max_drift_cells": 0.12558124504746893,
+      "a": 0.3036302777143438,
+      "mean_momentum": [
+        -2.102828774730255e-18,
+        -4.615006073555852e-19,
+        2.4070955825293105e-21
+      ],
+      "momentum_change_absolute": 2.264807755492578e-18,
+      "momentum_rms": 0.006871031717862411
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 1.749690441090852e-17,
+      "total_force_normalized": 4.547790296024597e-16,
+      "mean_force_magnitude": 0.03847341955543389,
+      "force_ifft_max_imaginary": 4.2186564622105745e-17,
+      "max_force_magnitude": 0.3019580496907681,
+      "max_drift_cells": 0.12898757246989115,
+      "a": 0.30830578822917,
+      "mean_momentum": [
+        -2.619029181632747e-18,
+        3.144907601702109e-19,
+        9.79183321915772e-20
+      ],
+      "momentum_change_absolute": 2.7536304918001806e-18,
+      "momentum_rms": 0.007037663221209746
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 6.97319707537976e-17,
+      "total_force_normalized": 1.7786711031795196e-15,
+      "mean_force_magnitude": 0.03920453344586642,
+      "force_ifft_max_imaginary": 2.6924322632812714e-17,
+      "max_force_magnitude": 0.3140503880991363,
+      "max_drift_cells": 0.13184551663855976,
+      "a": 0.31305329551170613,
+      "mean_momentum": [
+        -3.744615200164279e-18,
+        3.904954235740333e-19,
+        5.213057656431691e-20
+      ],
+      "momentum_change_absolute": 3.879485451090553e-18,
+      "momentum_rms": 0.0072084041716586125
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.111161984967695e-17,
+      "total_force_normalized": 1.779861113917836e-15,
+      "mean_force_magnitude": 0.03995346563482463,
+      "force_ifft_max_imaginary": 3.160877515186579e-17,
+      "max_force_magnitude": 0.31012925749232273,
+      "max_drift_cells": 0.1340571966132805,
+      "a": 0.3178739082183317,
+      "mean_momentum": [
+        -5.419927255825078e-18,
+        -1.3486518143187074e-19,
+        5.749070693366053e-20
+      ],
+      "momentum_change_absolute": 5.536539176053193e-18,
+      "momentum_rms": 0.007383328048539893
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 3.469446951953614e-18,
+      "total_force_absolute": 5.372070234241831e-17,
+      "total_force_normalized": 1.319263031106379e-15,
+      "mean_force_magnitude": 0.04072023628022556,
+      "force_ifft_max_imaginary": 3.714773898622954e-17,
+      "max_force_magnitude": 0.327560470859842,
+      "max_drift_cells": 0.1355107123635698,
+      "a": 0.3227687520772895,
+      "mean_momentum": [
+        -3.0625485368326543e-18,
+        5.715652596618911e-20,
+        3.795600958760823e-20
+      ],
+      "momentum_change_absolute": 3.1780086345490544e-18,
+      "momentum_rms": 0.007562500085507401
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.357413284891028e-17,
+      "total_force_normalized": 5.679609008294647e-16,
+      "mean_force_magnitude": 0.04150661218841299,
+      "force_ifft_max_imaginary": 3.400564909758114e-17,
+      "max_force_magnitude": 0.36134704772184145,
+      "max_drift_cells": 0.13587270448208938,
+      "a": 0.3277389701515702,
+      "mean_momentum": [
+        2.6373231080599696e-18,
+        -4.0963638294851037e-19,
+        1.037367206202752e-19
+      ],
+      "momentum_change_absolute": 2.5575858475600854e-18,
+      "momentum_rms": 0.007745977458126982
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 3.469446951953614e-18,
+      "total_force_absolute": 2.4438668077360538e-17,
+      "total_force_normalized": 5.775606414372695e-16,
+      "mean_force_magnitude": 0.042313596744654375,
+      "force_ifft_max_imaginary": 4.6203971743822844e-17,
+      "max_force_magnitude": 0.39277035935232973,
+      "max_drift_cells": 0.13671218786420752,
+      "a": 0.33278572310584464,
+      "mean_momentum": [
+        1.6400427287027624e-18,
+        2.191102180979464e-19,
+        1.2416146430543456e-19
+      ],
+      "momentum_change_absolute": 1.5461555106285033e-18,
+      "momentum_rms": 0.007933806566406259
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.578855078484656e-17,
+      "total_force_normalized": 5.97741684107997e-16,
+      "mean_force_magnitude": 0.043143303320615015,
+      "force_ifft_max_imaginary": 4.3372279722539296e-17,
+      "max_force_magnitude": 0.40423020273206167,
+      "max_drift_cells": 0.1403803157002878,
+      "a": 0.3379101894775064,
+      "mean_momentum": [
+        5.540976866666088e-18,
+        -1.9698644543460312e-19,
+        3.0382343899072706e-20
+      ],
+      "momentum_change_absolute": 5.429895450458469e-18,
+      "momentum_rms": 0.008126023843280417
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 4.641991195220019e-18,
+      "total_force_normalized": 1.0550012851279864e-16,
+      "mean_force_magnitude": 0.04399986294478192,
+      "force_ifft_max_imaginary": 5.601704961059644e-17,
+      "max_force_magnitude": 0.41177815158308656,
+      "max_drift_cells": 0.14364358937039765,
+      "a": 0.3431135659518887,
+      "mean_momentum": [
+        1.5140197771468385e-17,
+        -2.5907296785160827e-20,
+        1.8300378436000674e-19
+      ],
+      "momentum_change_absolute": 1.5026633270702865e-17,
+      "momentum_rms": 0.008322670077743847
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.351709130746874e-17,
+      "total_force_normalized": 1.1924536077662804e-15,
+      "mean_force_magnitude": 0.04487980996402673,
+      "force_ifft_max_imaginary": 4.5757524502007406e-17,
+      "max_force_magnitude": 0.40818296308775154,
+      "max_drift_cells": 0.14651249399594524,
+      "a": 0.3483970676417196,
+      "mean_momentum": [
+        1.6621631926436555e-17,
+        -9.273521847331993e-20,
+        7.508649292388853e-20
+      ],
+      "momentum_change_absolute": 1.650735772931661e-17,
+      "momentum_rms": 0.008523778065973152
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 2.725381699824949e-17,
+      "total_force_normalized": 5.952945330015087e-16,
+      "mean_force_magnitude": 0.045782071709669844,
+      "force_ifft_max_imaginary": 4.705856710899001e-17,
+      "max_force_magnitude": 0.43565878657688933,
+      "max_drift_cells": 0.14889237444889028,
+      "a": 0.35376192837087933,
+      "mean_momentum": [
+        7.511911692724763e-18,
+        -1.8779316010668877e-19,
+        7.161729743484114e-20
+      ],
+      "momentum_change_absolute": 7.39991324642945e-18,
+      "momentum_rms": 0.008729354338011053
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.269188260466858e-18,
+      "total_force_normalized": 9.139597816567712e-17,
+      "mean_force_magnitude": 0.04671089851161646,
+      "force_ifft_max_imaginary": 5.486482275088564e-17,
+      "max_force_magnitude": 0.4284340513595547,
+      "max_drift_cells": 0.1539109647552078,
+      "a": 0.3592094009625271,
+      "mean_momentum": [
+        6.487106051304241e-18,
+        3.4824469224604976e-19,
+        -9.012794518255279e-20
+      ],
+      "momentum_change_absolute": 6.382615608492123e-18,
+      "momentum_rms": 0.008939401065070263
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 8.393773813397732e-18,
+      "total_force_normalized": 1.7609017486648587e-16,
+      "mean_force_magnitude": 0.0476674738937707,
+      "force_ifft_max_imaginary": 4.503766091408703e-17,
+      "max_force_magnitude": 0.4426450519871665,
+      "max_drift_cells": 0.159407161814396,
+      "a": 0.36474075753166607,
+      "mean_momentum": [
+        5.919832204660275e-18,
+        7.871715406850628e-19,
+        2.0163354611592603e-20
+      ],
+      "momentum_change_absolute": 5.858449807469346e-18,
+      "momentum_rms": 0.009153931005050828
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 3.469446951953614e-18,
+      "total_force_absolute": 6.951325093208593e-18,
+      "total_force_normalized": 1.428802129825977e-16,
+      "mean_force_magnitude": 0.048651418892098376,
+      "force_ifft_max_imaginary": 4.5323843633013204e-17,
+      "max_force_magnitude": 0.46019304930682264,
+      "max_drift_cells": 0.16417107603755282,
+      "a": 0.37035728978221244,
+      "mean_momentum": [
+        6.4381055261778246e-18,
+        -3.960209900658875e-20,
+        -1.0128330292344292e-19
+      ],
+      "momentum_change_absolute": 6.324335221513884e-18,
+      "momentum_rms": 0.009372962340915012
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 1.522609317159397e-17,
+      "total_force_normalized": 3.065901775055292e-16,
+      "mean_force_magnitude": 0.04966269074722518,
+      "force_ifft_max_imaginary": 4.2462426042968076e-17,
+      "max_force_magnitude": 0.49959710907253063,
+      "max_drift_cells": 0.16806888246107995,
+      "a": 0.3760603093086394,
+      "mean_momentum": [
+        -8.014112894940407e-18,
+        9.577428004383976e-20,
+        -1.3497767799517795e-19
+      ],
+      "momentum_change_absolute": 8.130510700565058e-18,
+      "momentum_rms": 0.009596518938369351
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -3.469446951953614e-18,
+      "total_force_absolute": 8.092274070523318e-18,
+      "total_force_normalized": 1.5960838884502837e-16,
+      "mean_force_magnitude": 0.05070080669995675,
+      "force_ifft_max_imaginary": 4.705856710899001e-17,
+      "max_force_magnitude": 0.5326109762958728,
+      "max_drift_cells": 0.17095473274908715,
+      "a": 0.3818511479022647,
+      "mean_momentum": [
+        9.876008772652342e-18,
+        1.0929371997540644e-19,
+        2.210557468986711e-19
+      ],
+      "momentum_change_absolute": 9.764436454777763e-18,
+      "momentum_rms": 0.00982463630216528
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.214050853960209e-17,
+      "total_force_normalized": 8.141960311716343e-16,
+      "mean_force_magnitude": 0.05175720210642832,
+      "force_ifft_max_imaginary": 6.078753916953266e-17,
+      "max_force_magnitude": 0.5345868322690668,
+      "max_drift_cells": 0.17222776565294046,
+      "a": 0.38773115786225676,
+      "mean_momentum": [
+        5.802549574328831e-18,
+        4.702157822894439e-19,
+        1.9535855398909876e-19
+      ],
+      "momentum_change_absolute": 5.710690426406788e-18,
+      "momentum_rms": 0.01005733770478474
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.3004429696241767e-17,
+      "total_force_normalized": 4.3538944969801212e-16,
+      "mean_force_magnitude": 0.0528364426657507,
+      "force_ifft_max_imaginary": 4.6229272718982126e-17,
+      "max_force_magnitude": 0.5389955442264638,
+      "max_drift_cells": 0.17151845137813132,
+      "a": 0.39370171231142875,
+      "mean_momentum": [
+        2.932637505525486e-17,
+        -3.342107459734751e-19,
+        3.2258389528342973e-20
+      ],
+      "momentum_change_absolute": 2.9213592590944586e-17,
+      "momentum_rms": 0.010294627222427043
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.136610431102804e-17,
+      "total_force_normalized": 5.814695236936813e-16,
+      "mean_force_magnitude": 0.0539428173497047,
+      "force_ifft_max_imaginary": 4.619346216819987e-17,
+      "max_force_magnitude": 0.5670576285509402,
+      "max_drift_cells": 0.16994659747000274,
+      "a": 0.3997642055168956,
+      "mean_momentum": [
+        -1.6612483308861719e-18,
+        -5.399107119807118e-19,
+        4.8869830589632875e-21
+      ],
+      "momentum_change_absolute": 1.85587489384832e-18,
+      "momentum_rms": 0.010536527090337122
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.0721091955204185e-17,
+      "total_force_normalized": 1.9464407894872562e-16,
+      "mean_force_magnitude": 0.05508049365338467,
+      "force_ifft_max_imaginary": 5.0636889011183675e-17,
+      "max_force_magnitude": 0.5783512429030031,
+      "max_drift_cells": 0.1720622939903466,
+      "a": 0.405920053215668,
+      "mean_momentum": [
+        1.46295593270047e-17,
+        5.917153793836828e-19,
+        1.7726315090888872e-19
+      ],
+      "momentum_change_absolute": 1.4528044496471464e-17,
+      "momentum_rms": 0.010783080636673858
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.6121995765759763e-17,
+      "total_force_normalized": 8.200466129472801e-16,
+      "mean_force_magnitude": 0.05624313915521885,
+      "force_ifft_max_imaginary": 6.476399729842036e-17,
+      "max_force_magnitude": 0.5974600148170438,
+      "max_drift_cells": 0.17824653284032763,
+      "a": 0.4121706929452611,
+      "mean_momentum": [
+        -2.2716447572237523e-18,
+        5.98878763488392e-20,
+        -1.581883659834159e-19
+      ],
+      "momentum_change_absolute": 2.3923622212359636e-18,
+      "momentum_rms": 0.011034332581133191
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.329724178626131e-17,
+      "total_force_normalized": 1.2761459924339346e-15,
+      "mean_force_magnitude": 0.0574364079194927,
+      "force_ifft_max_imaginary": 6.006899317881606e-17,
+      "max_force_magnitude": 0.5880983824005364,
+      "max_drift_cells": 0.1837904862801195,
+      "a": 0.4185175843793947,
+      "mean_momentum": [
+        -3.225964849723528e-17,
+        -7.995627062611072e-19,
+        1.7141332961691371e-19
+      ],
+      "momentum_change_absolute": 3.2384644419603555e-17,
+      "momentum_rms": 0.011290313533685875
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.359189001233831e-17,
+      "total_force_normalized": 7.43134042310648e-16,
+      "mean_force_magnitude": 0.05865952510639506,
+      "force_ifft_max_imaginary": 5.486482275088564e-17,
+      "max_force_magnitude": 0.6104954890293729,
+      "max_drift_cells": 0.188634337796656,
+      "a": 0.4249622096688611,
+      "mean_momentum": [
+        -4.232186886066311e-18,
+        9.64770526922648e-19,
+        4.9938547941051387e-20
+      ],
+      "momentum_change_absolute": 4.453191487067094e-18,
+      "momentum_rms": 0.011551049158512353
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 2.069531507840579e-17,
+      "total_force_normalized": 3.454367182846256e-16,
+      "mean_force_magnitude": 0.05991058269999457,
+      "force_ifft_max_imaginary": 5.573218448887404e-17,
+      "max_force_magnitude": 0.6125780263662323,
+      "max_drift_cells": 0.19127683699316161,
+      "a": 0.4315060737876428,
+      "mean_momentum": [
+        2.2247783580777228e-17,
+        -1.287887126520562e-19,
+        2.3472904242417266e-19
+      ],
+      "momentum_change_absolute": 2.2134696990605344e-17,
+      "momentum_rms": 0.011816575025331314
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 5.630616590943254e-17,
+      "total_force_normalized": 9.202400045520946e-16,
+      "mean_force_magnitude": 0.06118639227908621,
+      "force_ifft_max_imaginary": 5.659954622686244e-17,
+      "max_force_magnitude": 0.6215568366524831,
+      "max_drift_cells": 0.19261080205759615,
+      "a": 0.43815070488435964,
+      "mean_momentum": [
+        7.192613358834393e-18,
+        -7.201103540641638e-20,
+        3.6211816547978914e-19
+      ],
+      "momentum_change_absolute": 7.087524080655362e-18,
+      "momentum_rms": 0.012086935939333963
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 8.371906531609715e-18,
+      "total_force_normalized": 1.3395705110995027e-16,
+      "mean_force_magnitude": 0.062496945567562245,
+      "force_ifft_max_imaginary": 5.64373051211199e-17,
+      "max_force_magnitude": 0.6248361312110251,
+      "max_drift_cells": 0.19559709227122576,
+      "a": 0.44489765463912895,
+      "mean_momentum": [
+        -3.67731082244329e-18,
+        8.1411446759714005e-19,
+        5.431102465900669e-20
+      ],
+      "momentum_change_absolute": 3.879039109252482e-18,
+      "momentum_rms": 0.01236217745277618
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 3.1247571059840157e-17,
+      "total_force_normalized": 4.894358909408454e-16,
+      "mean_force_magnitude": 0.06384405320127376,
+      "force_ifft_max_imaginary": 5.712813719948321e-17,
+      "max_force_magnitude": 0.6250032976885345,
+      "max_drift_cells": 0.19598821516320095,
+      "a": 0.4517484986259194,
+      "mean_momentum": [
+        -2.68646756261297e-18,
+        -5.825204396945434e-19,
+        2.424929596535954e-19
+      ],
+      "momentum_change_absolute": 2.8711158561903407e-18,
+      "momentum_rms": 0.012642373511200877
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.9036213844400835e-18,
+      "total_force_normalized": 5.985405752419722e-17,
+      "mean_force_magnitude": 0.06521899343017748,
+      "force_ifft_max_imaginary": 5.97022702542721e-17,
+      "max_force_magnitude": 0.6488967597653593,
+      "max_drift_cells": 0.19832002986700165,
+      "a": 0.4587048366804847,
+      "mean_momentum": [
+        4.2145414692393296e-18,
+        7.825691077568178e-19,
+        6.398175863648665e-19
+      ],
+      "momentum_change_absolute": 4.222824850013703e-18,
+      "momentum_rms": 0.012927580851866401
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 1.7164720791340204e-17,
+      "total_force_normalized": 2.5762773409659725e-16,
+      "mean_force_magnitude": 0.06662605969629151,
+      "force_ifft_max_imaginary": 5.66335585704751e-17,
+      "max_force_magnitude": 0.6419169076882836,
+      "max_drift_cells": 0.20205611909203408,
+      "a": 0.4657682932739637,
+      "mean_momentum": [
+        3.7262600623717276e-18,
+        3.741503346699855e-20,
+        5.410340232525588e-19
+      ],
+      "momentum_change_absolute": 3.652059695566026e-18,
+      "momentum_rms": 0.013217841127830391
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 8.494551458785665e-17,
+      "total_force_normalized": 1.2478806783610554e-15,
+      "mean_force_magnitude": 0.06807182454289026,
+      "force_ifft_max_imaginary": 6.266688556966216e-17,
+      "max_force_magnitude": 0.6474554881061838,
+      "max_drift_cells": 0.20297495579030117,
+      "a": 0.47294051789223396,
+      "mean_momentum": [
+        -3.872271667993873e-17,
+        -1.0383565142153654e-18,
+        1.7286255005010662e-19
+      ],
+      "momentum_change_absolute": 3.885164739029345e-17,
+      "momentum_rms": 0.013513229710433136
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.89776668073855e-17,
+      "total_force_normalized": 9.916449031124247e-16,
+      "mean_force_magnitude": 0.06955883763521484,
+      "force_ifft_max_imaginary": 5.5375101856807247e-17,
+      "max_force_magnitude": 0.6787243077239287,
+      "max_drift_cells": 0.2009923122904934,
+      "a": 0.4802231854211057,
+      "mean_momentum": [
+        6.171210738453915e-18,
+        -1.077829573046396e-18,
+        7.143531770007947e-19
+      ],
+      "momentum_change_absolute": 6.192803596262501e-18,
+      "momentum_rms": 0.013813824578848168
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.9409782834458274e-17,
+      "total_force_normalized": 5.543353284005015e-16,
+      "mean_force_magnitude": 0.07109376006788641,
+      "force_ifft_max_imaginary": 5.721744563678519e-17,
+      "max_force_magnitude": 0.6647676406699601,
+      "max_drift_cells": 0.1960717627614686,
+      "a": 0.4876179965374469,
+      "mean_momentum": [
+        -8.814337345691557e-19,
+        -8.783864011925103e-19,
+        5.241181797258494e-20
+      ],
+      "momentum_change_absolute": 1.3283679605629043e-18,
+      "momentum_rms": 0.014119716782235463
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.376260336083462e-17,
+      "total_force_normalized": 6.022273481007133e-16,
+      "mean_force_magnitude": 0.07266791104530843,
+      "force_ifft_max_imaginary": 6.683353858980902e-17,
+      "max_force_magnitude": 0.6638810420216171,
+      "max_drift_cells": 0.19916239404381708,
+      "a": 0.49512667810633254,
+      "mean_momentum": [
+        5.062305644155127e-18,
+        7.789956875105887e-19,
+        9.076818297666883e-20
+      ],
+      "momentum_change_absolute": 5.009558602768454e-18,
+      "momentum_rms": 0.014431015315549902
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.981185620044044e-17,
+      "total_force_normalized": 4.0134646270508204e-16,
+      "mean_force_magnitude": 0.07427960371073913,
+      "force_ifft_max_imaginary": 6.700788708272329e-17,
+      "max_force_magnitude": 0.6658184455820857,
+      "max_drift_cells": 0.2016933712803104,
+      "a": 0.5027509835843095,
+      "mean_momentum": [
+        -6.351043112345393e-18,
+        -7.607513919201191e-19,
+        1.0393358960606282e-19
+      ],
+      "momentum_change_absolute": 6.511037030544288e-18,
+      "momentum_rms": 0.01474781441752541
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 1.2437183825573454e-17,
+      "total_force_normalized": 1.638258285582086e-16,
+      "mean_force_magnitude": 0.07591711230780943,
+      "force_ifft_max_imaginary": 6.554786047606468e-17,
+      "max_force_magnitude": 0.6689508472597105,
+      "max_drift_cells": 0.20341207012112347,
+      "a": 0.5104926934288698,
+      "mean_momentum": [
+        -1.1471588889069154e-17,
+        3.709574175055308e-19,
+        1.9879797097609425e-19
+      ],
+      "momentum_change_absolute": 1.1593965500066364e-17,
+      "momentum_rms": 0.015070193411591543
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.3341871694094566e-17,
+      "total_force_normalized": 1.719458615236982e-16,
+      "mean_force_magnitude": 0.07759344468000319,
+      "force_ifft_max_imaginary": 5.687132915542391e-17,
+      "max_force_magnitude": 0.7090081176151452,
+      "max_drift_cells": 0.20465971660436247,
+      "a": 0.5183536155142299,
+      "mean_momentum": [
+        -6.909472743879942e-19,
+        -8.265585727323878e-19,
+        5.829191407497939e-19
+      ],
+      "momentum_change_absolute": 1.2923280390590715e-18,
+      "momentum_rms": 0.015398231718398145
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.3877787807814457e-17,
+      "total_force_absolute": 9.370468832855847e-18,
+      "total_force_normalized": 1.181505512197759e-16,
+      "mean_force_magnitude": 0.07930956509399195,
+      "force_ifft_max_imaginary": 7.75359737062295e-17,
+      "max_force_magnitude": 0.6809184496771862,
+      "max_drift_cells": 0.20684986090407204,
+      "a": 0.5263355855535126,
+      "mean_momentum": [
+        2.6191297667952333e-17,
+        2.406963233631302e-19,
+        6.796612221103207e-20
+      ],
+      "momentum_change_absolute": 2.607780878995123e-17,
+      "momentum_rms": 0.015731992036046097
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.524143462848885e-17,
+      "total_force_normalized": 1.8799803584893637e-16,
+      "mean_force_magnitude": 0.08107230780185345,
+      "force_ifft_max_imaginary": 8.083340970223671e-17,
+      "max_force_magnitude": 0.6823841478833345,
+      "max_drift_cells": 0.20899052829812179,
+      "a": 0.5344404675274304,
+      "mean_momentum": [
+        -1.7242831331574078e-17,
+        5.919403725102972e-19,
+        7.933439624159335e-19
+      ],
+      "momentum_change_absolute": 1.73857686220613e-17,
+      "momentum_rms": 0.016071534041173723
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 4.762531763717529e-17,
+      "total_force_normalized": 5.745121213356637e-16,
+      "mean_force_magnitude": 0.08289697617946302,
+      "force_ifft_max_imaginary": 6.869828425700267e-17,
+      "max_force_magnitude": 0.6887584184297165,
+      "max_drift_cells": 0.20909588973201293,
+      "a": 0.5426701541195695,
+      "mean_momentum": [
+        -1.8387100051420733e-18,
+        2.28494747583483e-18,
+        4.4943865966333695e-19
+      ],
+      "momentum_change_absolute": 3.0403987377417947e-18,
+      "momentum_rms": 0.016416944098572857
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 4.4919975175533686e-18,
+      "total_force_normalized": 5.298540610434867e-17,
+      "mean_force_magnitude": 0.0847780143216586,
+      "force_ifft_max_imaginary": 6.603934585307627e-17,
+      "max_force_magnitude": 0.718724975615496,
+      "max_drift_cells": 0.21132872119345492,
+      "a": 0.5510265671583757,
+      "mean_momentum": [
+        -3.420436169787602e-17,
+        -1.1063077471753715e-18,
+        2.3902045544209777e-19
+      ],
+      "momentum_change_absolute": 3.4337681882670106e-17,
+      "momentum_rms": 0.016768329640132515
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 2.660299894980706e-17,
+      "total_force_normalized": 3.0673744002334008e-16,
+      "mean_force_magnitude": 0.0867288940919074,
+      "force_ifft_max_imaginary": 7.112366251504909e-17,
+      "max_force_magnitude": 0.7172579550169035,
+      "max_drift_cells": 0.2144354416302595,
+      "a": 0.5595116580659478,
+      "mean_momentum": [
+        -4.5509803089107775e-17,
+        6.36783487878022e-19,
+        3.54752949305617e-19
+      ],
+      "momentum_change_absolute": 4.563034039315624e-17,
+      "momentum_rms": 0.017125860282132848
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 6.641175846585418e-17,
+      "total_force_normalized": 7.484987674264482e-16,
+      "mean_force_magnitude": 0.08872661032455231,
+      "force_ifft_max_imaginary": 7.838781707070197e-17,
+      "max_force_magnitude": 0.7084851543971756,
+      "max_drift_cells": 0.21554230337770375,
+      "a": 0.568127408313742,
+      "mean_momentum": [
+        4.615330328355973e-18,
+        1.089499437128294e-18,
+        3.3373263557941944e-19
+      ],
+      "momentum_change_absolute": 4.642904239603296e-18,
+      "momentum_rms": 0.017489742426687698
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.916355536751847e-17,
+      "total_force_normalized": 2.1112231869005423e-16,
+      "mean_force_magnitude": 0.09076991710976906,
+      "force_ifft_max_imaginary": 7.827939685345342e-17,
+      "max_force_magnitude": 0.7630115278951076,
+      "max_drift_cells": 0.21750111187049648,
+      "a": 0.5768758298852922,
+      "mean_momentum": [
+        2.631041829360487e-17,
+        1.1216569106219055e-18,
+        2.2636128334758624e-19
+      ],
+      "momentum_change_absolute": 2.6220748316170202e-17,
+      "momentum_rms": 0.0178601191820144
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 6.240041946591115e-18,
+      "total_force_normalized": 6.719570497697378e-17,
+      "mean_force_magnitude": 0.09286370235611659,
+      "force_ifft_max_imaginary": 8.521829075736065e-17,
+      "max_force_magnitude": 0.7969285169105889,
+      "max_drift_cells": 0.2181952370336159,
+      "a": 0.5857589657460557,
+      "mean_momentum": [
+        1.0526832824247839e-17,
+        -2.5629463361016516e-18,
+        4.505272293494567e-19
+      ],
+      "momentum_change_absolute": 1.0732113482868216e-17,
+      "momentum_rms": 0.018237094282715915
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 9.886889556375315e-17,
+      "total_force_normalized": 1.0406798838448664e-15,
+      "mean_force_magnitude": 0.09500413825476757,
+      "force_ifft_max_imaginary": 8.153200337090993e-17,
+      "max_force_magnitude": 0.8121611237535855,
+      "max_drift_cells": 0.2173601912083875,
+      "a": 0.5947788903204949,
+      "mean_momentum": [
+        3.38280805459481e-18,
+        1.5527371237702406e-18,
+        6.280037928563841e-19
+      ],
+      "momentum_change_absolute": 3.672799410501261e-18,
+      "momentum_rms": 0.01862073440835496
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 2.349111348342184e-17,
+      "total_force_normalized": 2.417126592978681e-16,
+      "mean_force_magnitude": 0.09718611160730807,
+      "force_ifft_max_imaginary": 7.556152650716979e-17,
+      "max_force_magnitude": 0.8486610272248225,
+      "max_drift_cells": 0.21857529770420078,
+      "a": 0.6039377099765056,
+      "mean_momentum": [
+        8.508591538957256e-18,
+        -1.3243955700362024e-18,
+        9.747562512773882e-19
+      ],
+      "momentum_change_absolute": 8.553273242041739e-18,
+      "momentum_rms": 0.019010984810343315
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 8.537059436532496e-17,
+      "total_force_normalized": 8.586935903603339e-16,
+      "mean_force_magnitude": 0.09941915873565665,
+      "force_ifft_max_imaginary": 9.302454639925628e-17,
+      "max_force_magnitude": 0.8675430873404957,
+      "max_drift_cells": 0.22212554280427474,
+      "a": 0.613237563517304,
+      "mean_momentum": [
+        -2.3723219021943163e-17,
+        3.4801076556881976e-18,
+        1.2681737581621982e-18
+      ],
+      "momentum_change_absolute": 2.412413060192105e-17,
+      "momentum_rms": 0.019407726991397638
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.802382776759108e-17,
+      "total_force_normalized": 5.705262674178875e-16,
+      "mean_force_magnitude": 0.10170228976519843,
+      "force_ifft_max_imaginary": 1.3227266504323154e-16,
+      "max_force_magnitude": 0.8974502660736761,
+      "max_drift_cells": 0.22339588705383617,
+      "a": 0.6226806226808868,
+      "mean_momentum": [
+        1.1357371790087832e-17,
+        6.41369377194016e-19,
+        4.2187203856939475e-19
+      ],
+      "momentum_change_absolute": 1.1268916321288804e-17,
+      "momentum_rms": 0.01981084036875725
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 7.876899155170898e-17,
+      "total_force_normalized": 7.572147161720389e-16,
+      "mean_force_magnitude": 0.10402464435703425,
+      "force_ifft_max_imaginary": 8.131516293641283e-17,
+      "max_force_magnitude": 0.9403125000320718,
+      "max_drift_cells": 0.22328743038753826,
+      "a": 0.6322690926471858,
+      "mean_momentum": [
+        8.405574465469902e-18,
+        2.6594849310314903e-19,
+        1.4667897494035308e-18
+      ],
+      "momentum_change_absolute": 8.42385460113897e-18,
+      "momentum_rms": 0.020220118362431636
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.531152608750454e-17,
+      "total_force_normalized": 6.138386600910119e-16,
+      "mean_force_magnitude": 0.10639852184908166,
+      "force_ifft_max_imaginary": 8.283304597789254e-17,
+      "max_force_magnitude": 0.9709339590430722,
+      "max_drift_cells": 0.2274178251382537,
+      "a": 0.6420052125530297,
+      "mean_momentum": [
+        1.7281427578955802e-17,
+        5.605439051802345e-19,
+        1.3995895964397228e-20
+      ],
+      "momentum_change_absolute": 1.717592133112804e-17,
+      "momentum_rms": 0.0206352668073386
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 9.086202953976198e-17,
+      "total_force_normalized": 8.348437077597805e-16,
+      "mean_force_magnitude": 0.10883717358735463,
+      "force_ifft_max_imaginary": 1.0668549377257364e-16,
+      "max_force_magnitude": 1.010557941135031,
+      "max_drift_cells": 0.23242549870127907,
+      "a": 0.651891256015036,
+      "mean_momentum": [
+        1.8996149827721077e-17,
+        -3.297538968330394e-19,
+        -9.471218013732167e-20
+      ],
+      "momentum_change_absolute": 1.8884547827492103e-17,
+      "momentum_rms": 0.021055946606242125
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 4.3887670729072956e-17,
+      "total_force_normalized": 3.942558877403246e-16,
+      "mean_force_magnitude": 0.11131773067642665,
+      "force_ifft_max_imaginary": 1.0164350403229611e-16,
+      "max_force_magnitude": 1.0638052150365,
+      "max_drift_cells": 0.23555983711035774,
+      "a": 0.6619295316605536,
+      "mean_momentum": [
+        -4.11486885240465e-17,
+        -5.189201767565662e-19,
+        -6.456839512690926e-19
+      ],
+      "momentum_change_absolute": 4.127168733767707e-17,
+      "momentum_rms": 0.021481789275811784
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 5.5200859620247015e-17,
+      "total_force_normalized": 4.849958432849491e-16,
+      "mean_force_magnitude": 0.11381718087801201,
+      "force_ifft_max_imaginary": 1.2750217548429532e-16,
+      "max_force_magnitude": 1.1533232512673213,
+      "max_drift_cells": 0.24182930515712453,
+      "a": 0.6721223836667839,
+      "mean_momentum": [
+        -4.835515881250238e-17,
+        2.84900855297964e-19,
+        -9.665770893804639e-20
+      ],
+      "momentum_change_absolute": 4.847079820807919e-17,
+      "momentum_rms": 0.021912341573800575
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 4.2298559697092806e-17,
+      "total_force_normalized": 3.635747677755725e-16,
+      "mean_force_magnitude": 0.11634074596508541,
+      "force_ifft_max_imaginary": 1.0798653637955624e-16,
+      "max_force_magnitude": 1.1664492780266509,
+      "max_drift_cells": 0.24736397406526514,
+      "a": 0.682472192308202,
+      "mean_momentum": [
+        3.858093461422469e-17,
+        -2.6272116522521214e-18,
+        7.805110823927859e-19
+      ],
+      "momentum_change_absolute": 3.856366965226963e-17,
+      "momentum_rms": 0.022347065794610755
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.9295658752954583e-16,
+      "total_force_normalized": 1.6235212071472062e-15,
+      "mean_force_magnitude": 0.11885067264911328,
+      "force_ifft_max_imaginary": 1.0408340855860843e-16,
+      "max_force_magnitude": 1.3251309315675552,
+      "max_drift_cells": 0.2497262337858443,
+      "a": 0.6929813745124076,
+      "mean_momentum": [
+        -2.38727633505254e-17,
+        -3.276045507293816e-18,
+        3.292443535757067e-19
+      ],
+      "momentum_change_absolute": 2.421222089292562e-17,
+      "momentum_rms": 0.022785433084602482
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.732358069016735e-17,
+      "total_force_normalized": 5.548109357807064e-16,
+      "mean_force_magnitude": 0.12134508595334818,
+      "force_ifft_max_imaginary": 1.0581813203458523e-16,
+      "max_force_magnitude": 1.3629852626487198,
+      "max_drift_cells": 0.2525485889674292,
+      "a": 0.7036523844245344,
+      "mean_momentum": [
+        -1.838721916542894e-17,
+        -2.905038458951532e-18,
+        6.335277049870133e-19
+      ],
+      "momentum_change_absolute": 1.873912567599972e-17,
+      "momentum_rms": 0.023226939080237534
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 1.5590904876427074e-16,
+      "total_force_normalized": 1.2587557305124414e-15,
+      "mean_force_magnitude": 0.12385965361269889,
+      "force_ifft_max_imaginary": 1.3444106938820255e-16,
+      "max_force_magnitude": 1.387585805453995,
+      "max_drift_cells": 0.2550005708019241,
+      "a": 0.7144877139803524,
+      "mean_momentum": [
+        7.101894806694478e-18,
+        9.869257324492684e-19,
+        6.532576169576281e-19
+      ],
+      "momentum_change_absolute": 7.086882588094642e-18,
+      "momentum_rms": 0.0236711694855299
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 9.097636167394167e-17,
+      "total_force_normalized": 7.197687220111632e-16,
+      "mean_force_magnitude": 0.12639665894308016,
+      "force_ifft_max_imaginary": 1.1275702593849246e-16,
+      "max_force_magnitude": 1.4384991669143383,
+      "max_drift_cells": 0.26195547632493155,
+      "a": 0.7254898934881948,
+      "mean_momentum": [
+        -2.510526246322941e-19,
+        1.418356670177326e-18,
+        4.1717365269009355e-19
+      ],
+      "momentum_change_absolute": 1.5240687642918318e-18,
+      "momentum_rms": 0.024117796038168944
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 3.7071354022794807e-17,
+      "total_force_normalized": 2.874808448704882e-16,
+      "mean_force_magnitude": 0.12895243173330614,
+      "force_ifft_max_imaginary": 1.2663481374630692e-16,
+      "max_force_magnitude": 1.4559875988991764,
+      "max_drift_cells": 0.26576577283275077,
+      "a": 0.7366614922198456,
+      "mean_momentum": [
+        2.899034451193377e-17,
+        3.2146753232872817e-18,
+        -3.672681919735443e-22
+      ],
+      "momentum_change_absolute": 2.905416433488727e-17,
+      "momentum_rms": 0.024566656058176376
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.3454039212371622e-16,
+      "total_force_normalized": 1.0227445761771922e-15,
+      "mean_force_magnitude": 0.13154837997440222,
+      "force_ifft_max_imaginary": 1.3530843112619095e-16,
+      "max_force_magnitude": 1.4604267788501966,
+      "max_drift_cells": 0.26623437866165767,
+      "a": 0.7480051190105239,
+      "mean_momentum": [
+        -4.7152557315858487e-17,
+        1.4049497268090664e-18,
+        -2.519790669183535e-19
+      ],
+      "momentum_change_absolute": 4.72888374049622e-17,
+      "momentum_rms": 0.025017852170242133
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 7.167414921255308e-17,
+      "total_force_normalized": 5.340581487249452e-16,
+      "mean_force_magnitude": 0.1342066390779242,
+      "force_ifft_max_imaginary": 1.1622647289044608e-16,
+      "max_force_magnitude": 1.3815749048147576,
+      "max_drift_cells": 0.2657120166712159,
+      "a": 0.7595234228681116,
+      "mean_momentum": [
+        3.996221374062494e-17,
+        -3.574015816270118e-18,
+        1.4218572985296503e-19
+      ],
+      "momentum_change_absolute": 4.000762422959568e-17,
+      "momentum_rms": 0.025471642018176817
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.3877787807814457e-17,
+      "total_force_absolute": 8.079201389374573e-17,
+      "total_force_normalized": 5.900511691617766e-16,
+      "mean_force_magnitude": 0.1369237417299222,
+      "force_ifft_max_imaginary": 1.3877787807814457e-16,
+      "max_force_magnitude": 1.3580007650018897,
+      "max_drift_cells": 0.2661004514935604,
+      "a": 0.7712190935917592,
+      "mean_momentum": [
+        -3.3687420137144683e-17,
+        5.292897129155309e-18,
+        -9.364610976386333e-19
+      ],
+      "momentum_change_absolute": 3.4226995849508146e-17,
+      "momentum_rms": 0.025928396304145715
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -2.0816681711721685e-17,
+      "total_force_absolute": 3.3980054564230803e-17,
+      "total_force_normalized": 2.432391508359832e-16,
+      "mean_force_magnitude": 0.13969813020414482,
+      "force_ifft_max_imaginary": 1.2750217548429532e-16,
+      "max_force_magnitude": 1.3593914690981521,
+      "max_drift_cells": 0.26393657279633226,
+      "a": 0.7830948624000185,
+      "mean_momentum": [
+        -7.587361152501439e-17,
+        -6.875862741230688e-18,
+        -1.921739086307696e-19
+      ],
+      "momentum_change_absolute": 7.629889835970663e-17,
+      "momentum_rms": 0.026388517610321308
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.3877787807814457e-17,
+      "total_force_absolute": 1.822251480609718e-16,
+      "total_force_normalized": 1.278520084423586e-15,
+      "mean_force_magnitude": 0.14252818573681386,
+      "force_ifft_max_imaginary": 1.5005358067199381e-16,
+      "max_force_magnitude": 1.4011805225256313,
+      "max_drift_cells": 0.26231634489845296,
+      "a": 0.7951535025686463,
+      "mean_momentum": [
+        -7.42155643830988e-17,
+        -7.59034164968459e-19,
+        4.638398741278852e-19
+      ],
+      "momentum_change_absolute": 7.433557378503506e-17,
+      "momentum_rms": 0.02685250456664611
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 1.0192490500602826e-17,
+      "total_force_normalized": 7.009074881890754e-17,
+      "mean_force_magnitude": 0.14541848492640616,
+      "force_ifft_max_imaginary": 1.1275702593849246e-16,
+      "max_force_magnitude": 1.4041922631926895,
+      "max_drift_cells": 0.26385401825065263,
+      "a": 0.807397830078231,
+      "mean_momentum": [
+        -7.320566288195526e-17,
+        3.561336791840905e-18,
+        1.1595318565094836e-18
+      ],
+      "momentum_change_absolute": 7.341601466263755e-17,
+      "momentum_rms": 0.027321063898498494
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.5214213506305452e-16,
+      "total_force_normalized": 1.025569599809635e-15,
+      "mean_force_magnitude": 0.14834891273229528,
+      "force_ifft_max_imaginary": 1.4610292299626696e-16,
+      "max_force_magnitude": 1.4116903839179944,
+      "max_drift_cells": 0.2634457353514606,
+      "a": 0.8198307042717926,
+      "mean_momentum": [
+        -1.897952018868631e-17,
+        8.908483734289892e-18,
+        1.4021306952814857e-18
+      ],
+      "momentum_change_absolute": 2.1117213316944915e-17,
+      "momentum_rms": 0.027795096214274093
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 4.87064894417371e-17,
+      "total_force_normalized": 3.2176768079930786e-16,
+      "mean_force_magnitude": 0.15137160239569303,
+      "force_ifft_max_imaginary": 1.2948407159797134e-16,
+      "max_force_magnitude": 1.4300571118201406,
+      "max_drift_cells": 0.2605837943110216,
+      "a": 0.8324550285225067,
+      "mean_momentum": [
+        -4.639649438365032e-18,
+        -1.1654379260831122e-18,
+        1.9882609511692105e-18
+      ],
+      "momentum_change_absolute": 5.283220849068217e-18,
+      "momentum_rms": 0.028275687871446326
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 8.440383551032193e-17,
+      "total_force_normalized": 5.46438801673092e-16,
+      "mean_force_magnitude": 0.15446164374106194,
+      "force_ifft_max_imaginary": 1.3357370765021415e-16,
+      "max_force_magnitude": 1.4224897621676755,
+      "max_drift_cells": 0.25560121086742893,
+      "a": 0.8452737509117106,
+      "mean_momentum": [
+        4.4348620180095636e-17,
+        1.2037165361096161e-17,
+        -2.8660815608227345e-19
+      ],
+      "momentum_change_absolute": 4.584368085254384e-17,
+      "momentum_rms": 0.028763850354051917
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 6.561202176713628e-17,
+      "total_force_normalized": 4.162968571982944e-16,
+      "mean_force_magnitude": 0.15760873672866416,
+      "force_ifft_max_imaginary": 1.5412611650709503e-16,
+      "max_force_magnitude": 1.381749232121676,
+      "max_drift_cells": 0.25486351008416613,
+      "a": 0.8582898649173515,
+      "mean_momentum": [
+        -1.958256794246197e-17,
+        -8.621339565170684e-19,
+        4.605311516776731e-19
+      ],
+      "momentum_change_absolute": 1.972145183189779e-17,
+      "momentum_rms": 0.029260335723600654
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.655602199440054e-16,
+      "total_force_normalized": 1.029361883231633e-15,
+      "mean_force_magnitude": 0.16083772154476605,
+      "force_ifft_max_imaginary": 1.3944484733045313e-16,
+      "max_force_magnitude": 1.444319556574056,
+      "max_drift_cells": 0.2555825882275895,
+      "a": 0.871506410113036,
+      "mean_momentum": [
+        2.565979111099516e-17,
+        -1.0278400707796113e-17,
+        4.119988107779618e-19
+      ],
+      "momentum_change_absolute": 2.7538033122169006e-17,
+      "momentum_rms": 0.02976575962258704
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -6.938893903907228e-18,
+      "total_force_absolute": 2.82546211012935e-17,
+      "total_force_normalized": 1.7211839619187487e-16,
+      "mean_force_magnitude": 0.1641580547252816,
+      "force_ifft_max_imaginary": 1.3010426069826053e-16,
+      "max_force_magnitude": 1.483572721713703,
+      "max_drift_cells": 0.25396106934928386,
+      "a": 0.8849264728778423,
+      "mean_momentum": [
+        1.0583816304029882e-16,
+        -4.828339262255728e-18,
+        7.438967597587386e-19
+      ],
+      "momentum_change_absolute": 1.0583622221608924e-16,
+      "momentum_rms": 0.030280664862582043
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.0309331212549086e-16,
+      "total_force_normalized": 6.150110113899638e-16,
+      "mean_force_magnitude": 0.16762840049399028,
+      "force_ifft_max_imaginary": 1.3288978463132545e-16,
+      "max_force_magnitude": 1.4882479006206677,
+      "max_drift_cells": 0.2520232421567075,
+      "a": 0.8985531871170629,
+      "mean_momentum": [
+        -1.7995936265911757e-17,
+        1.8388357365951814e-18,
+        7.183534224431011e-19
+      ],
+      "momentum_change_absolute": 1.8218030700308477e-17,
+      "momentum_rms": 0.030805531602886158
+    },
+    {
+      "raw_mass": 0.9999999999999999,
+      "mass_relative_error": 1.1102230246251565e-16,
+      "density_contrast_mean": 6.938893903907228e-18,
+      "total_force_absolute": 9.683770100110643e-18,
+      "total_force_normalized": 5.655363414757881e-17,
+      "mean_force_magnitude": 0.17123161483911864,
+      "force_ifft_max_imaginary": 1.3801784012907467e-16,
+      "max_force_magnitude": 1.538888337877267,
+      "max_drift_cells": 0.2512411229108613,
+      "a": 0.9123897349940467,
+      "mean_momentum": [
+        -2.213612081552747e-17,
+        -1.1230697351081461e-17,
+        2.1418022164713035e-19
+      ],
+      "momentum_change_absolute": 2.4924836930548585e-17,
+      "momentum_rms": 0.031340652878948924
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 3.343113865790659e-17,
+      "total_force_normalized": 1.9107518853150717e-16,
+      "mean_force_magnitude": 0.17496326401579865,
+      "force_ifft_max_imaginary": 1.3530843112619095e-16,
+      "max_force_magnitude": 1.5195868084318103,
+      "max_drift_cells": 0.24984471915087367,
+      "a": 0.9264393476733116,
+      "mean_momentum": [
+        2.909407957819282e-17,
+        -6.0997621858640346e-18,
+        2.9599566341801525e-18
+      ],
+      "momentum_change_absolute": 2.97616979589053e-17,
+      "momentum_rms": 0.031886097867186124
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.3877787807814457e-17,
+      "total_force_absolute": 2.0814088663621404e-17,
+      "total_force_normalized": 1.1642541401666502e-16,
+      "mean_force_magnitude": 0.1787761618837112,
+      "force_ifft_max_imaginary": 1.5588475352376462e-16,
+      "max_force_magnitude": 1.5603089130956136,
+      "max_drift_cells": 0.2501928504569901,
+      "a": 0.9407053060750972,
+      "mean_momentum": [
+        1.581865130988438e-17,
+        -2.0872810879367083e-18,
+        6.38983788307413e-19
+      ],
+      "momentum_change_absolute": 1.585478810559528e-17,
+      "momentum_rms": 0.03244179362044996
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.3877787807814457e-17,
+      "total_force_absolute": 5.2325211417787396e-17,
+      "total_force_normalized": 2.864846599057238e-16,
+      "mean_force_magnitude": 0.18264577040532134,
+      "force_ifft_max_imaginary": 1.3493304225463628e-16,
+      "max_force_magnitude": 1.525577409777957,
+      "max_drift_cells": 0.249027745418049,
+      "a": 0.9551909416415375,
+      "mean_momentum": [
+        8.060386701895603e-17,
+        1.065851997776628e-18,
+        -2.2779230580730297e-19
+      ],
+      "momentum_change_absolute": 8.049656264662186e-17,
+      "momentum_rms": 0.03300747482816343
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": -1.3877787807814457e-17,
+      "total_force_absolute": 1.6767378232554004e-17,
+      "total_force_normalized": 8.984764301092697e-17,
+      "mean_force_magnitude": 0.18662012347407725,
+      "force_ifft_max_imaginary": 1.567364564712968e-16,
+      "max_force_magnitude": 1.5694115365376802,
+      "max_drift_cells": 0.24669857122378427,
+      "a": 0.9698996371146332,
+      "mean_momentum": [
+        1.6275466766250464e-17,
+        1.5273598843216037e-17,
+        2.3403586507085323e-19
+      ],
+      "momentum_change_absolute": 2.2238327817601632e-17,
+      "momentum_rms": 0.03358263612228593
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 1.3877787807814457e-17,
+      "total_force_absolute": 6.358488392109057e-17,
+      "total_force_normalized": 3.33380528367267e-16,
+      "mean_force_magnitude": 0.19072764756987426,
+      "force_ifft_max_imaginary": 1.579756141062288e-16,
+      "max_force_magnitude": 1.6105140743084023,
+      "max_drift_cells": 0.24363359824787123,
+      "a": 0.9848348273262033,
+      "mean_momentum": [
+        4.627941193102711e-17,
+        4.894560033374273e-18,
+        7.179100536347727e-19
+      ],
+      "momentum_change_absolute": 4.642912968635164e-17,
+      "momentum_rms": 0.0341665753884023
+    },
+    {
+      "raw_mass": 1.0,
+      "mass_relative_error": 0.0,
+      "density_contrast_mean": 0.0,
+      "total_force_absolute": 1.1854230712230092e-16,
+      "total_force_normalized": 6.079645497066163e-16,
+      "mean_force_magnitude": 0.1949822685870509,
+      "force_ifft_max_imaginary": 1.7257945311404983e-16,
+      "max_force_magnitude": 1.6795897958653676,
+      "max_drift_cells": 0.24226030241743648,
+      "a": 1.0,
+      "mean_momentum": [
+        -8.742868940766975e-18,
+        1.4288056156750958e-18,
+        7.190780326596976e-19
+      ],
+      "momentum_change_absolute": 9.001017157301386e-18,
+      "momentum_rms": 0.03475838785072605
+    }
+  ],
+  "integration_wall_seconds": 150.18519255518913,
+  "initial_metadata": {
+    "seed": 20260924,
+    "base_grid": 32,
+    "box_mpc_h": 50.0,
+    "cutoff_fraction_base_nyquist": 0.6,
+    "kmax_h_mpc": 1.2063715789784806,
+    "retained_full_fft_modes": 3742,
+    "spectrum_redshift": 49,
+    "source_csv": "experiments/cosmic_bridge_v01/inputs/reference_linear_spectrum.csv",
+    "source_sha256": "a41eb6b0edbb1380b97b013a7edb05fe48ae4111e8b5ee4d94b868b6dc4bdf45",
+    "coefficient_sha256": "bcd5b2a74b99db77fe5dd361ab4b952d6ce37d93f04d90e1f8a54677ac2c7269",
+    "normalization": "E|delta_m|^2 = P(k)/L^3; no realization rescaling",
+    "realized_linear_density_variance": 0.0026281025697600354,
+    "expected_linear_density_variance": 0.0028342886930406144,
+    "interpretation": "External standard matter transfer, not a fitted SMICA phase realization",
+    "nmesh": 64,
+    "a_initial": 0.02,
+    "E_reference_initial": 199.87667424689658,
+    "f_reference_initial": 0.9903491493236205,
+    "common_momentum_factor": 0.07917907772401937,
+    "initial_condition_order": "Zeldovich displacement and common reference growing velocity",
+    "max_ifft_imaginary_displacement": 1.4163701135316626e-18,
+    "displacement_rms_box_units": 0.001462306159109485,
+    "max_displacement_cells": 0.4068957318839067
+  },
+  "snapshot_a": [
+    0.02,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "snapshot_step_kind": [
+    "initial",
+    "temporary_KDK_from_previous_main_state",
+    "temporary_KDK_from_previous_main_state",
+    "temporary_KDK_from_previous_main_state",
+    "main_fixed_log_a_state"
+  ],
+  "array_sha256": "77fe543174823aff9a7bd276579bab43d2e15401a1a5f9b01bbf7c876892264b"
+}

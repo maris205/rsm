@@ -1,0 +1,2583 @@
+{
+  "created_utc": "2026-09-24T12:11:25.275338+00:00",
+  "scope": "Read saved arrays and metadata; independent NumPy FFT/CIC reconstruction; no PM integrations and no production pm.py imports.",
+  "checks": [
+    {
+      "name": "source_coefficients_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "source_coefficients_shape",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "source_DC_zero",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "source_coefficients_independent_relative_L2",
+      "value": 3.288379381600201e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:array_file_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:pm_code_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:metadata_dimensions",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:initial_metadata_copy",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:source_coefficient_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:source_spectrum_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:background_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:reference_E_initial",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:reference_f_initial",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:common_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:snapshot_shapes",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:all_saved_arrays_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:snapshot_a",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:saved_density_lower_bound",
+      "value": 0.0,
+      "threshold": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:density_raw_mean_from_float32",
+      "value": 4.4958282582885367e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:projection_from_saved_float32_density",
+      "value": 7.056104690696495e-08,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:final_power_independent_FFT",
+      "value": 2.6193203161994916e-09,
+      "threshold": 1e-06,
+      "passed": true,
+      "note": "Tolerance includes float32 density quantization; saved power used float64 density."
+    },
+    {
+      "name": "reference_n64_s256:shell_count",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:shell_centers",
+      "value": 1.6342482922482304e-13,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:initial_density_independent_CIC",
+      "value": 7.4502388702768485e-09,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:initial_displacement_rms",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:initial_momentum_mean",
+      "value": 5.8105043634846006e-21,
+      "threshold": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:initial_momentum_rms",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:history_length",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:history_fixed_log_a",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:recorded_mean_momentum_change",
+      "value": 0.0,
+      "threshold": 1e-28,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:recorded_force_normalization",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:summary_max_mass_relative_error",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:summary_max_total_force_normalized",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:summary_max_total_force_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:summary_max_momentum_change_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:summary_max_drift_cells",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:summary_max_force_ifft_imaginary",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:mass_protocol_threshold",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:force_protocol_threshold",
+      "value": 3.227569360312437e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s256:reported_final_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:array_file_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:pm_code_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:metadata_dimensions",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:initial_metadata_copy",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:source_coefficient_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:source_spectrum_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:background_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:reference_E_initial",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:reference_f_initial",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:common_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:snapshot_shapes",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:all_saved_arrays_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:snapshot_a",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:saved_density_lower_bound",
+      "value": 0.0,
+      "threshold": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:density_raw_mean_from_float32",
+      "value": 1.9058061899446255e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:projection_from_saved_float32_density",
+      "value": 7.186918207964086e-08,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:final_power_independent_FFT",
+      "value": 1.1424176049601442e-09,
+      "threshold": 1e-06,
+      "passed": true,
+      "note": "Tolerance includes float32 density quantization; saved power used float64 density."
+    },
+    {
+      "name": "clock_n64_s256:shell_count",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:shell_centers",
+      "value": 1.6342482922482304e-13,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:initial_density_independent_CIC",
+      "value": 7.4502388702768485e-09,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:initial_displacement_rms",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:initial_momentum_mean",
+      "value": 5.8105043634846006e-21,
+      "threshold": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:initial_momentum_rms",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:history_length",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:history_fixed_log_a",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:recorded_mean_momentum_change",
+      "value": 0.0,
+      "threshold": 1e-28,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:recorded_force_normalization",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:summary_max_mass_relative_error",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:summary_max_total_force_normalized",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:summary_max_total_force_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:summary_max_momentum_change_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:summary_max_drift_cells",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:summary_max_force_ifft_imaginary",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:mass_protocol_threshold",
+      "value": 1.1102230246251565e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:force_protocol_threshold",
+      "value": 3.154624147005176e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:reported_final_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:array_file_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:pm_code_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:metadata_dimensions",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:initial_metadata_copy",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:source_coefficient_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:source_spectrum_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:background_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:reference_E_initial",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:reference_f_initial",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:common_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:snapshot_shapes",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:all_saved_arrays_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:snapshot_a",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:saved_density_lower_bound",
+      "value": 0.0,
+      "threshold": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:density_raw_mean_from_float32",
+      "value": 1.800371518534405e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:projection_from_saved_float32_density",
+      "value": 7.891998225156563e-08,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:final_power_independent_FFT",
+      "value": 2.1066457467355804e-09,
+      "threshold": 1e-06,
+      "passed": true,
+      "note": "Tolerance includes float32 density quantization; saved power used float64 density."
+    },
+    {
+      "name": "reference_n64_s128:shell_count",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:shell_centers",
+      "value": 1.6342482922482304e-13,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:initial_density_independent_CIC",
+      "value": 7.4502388702768485e-09,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:initial_displacement_rms",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:initial_momentum_mean",
+      "value": 5.8105043634846006e-21,
+      "threshold": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:initial_momentum_rms",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:history_length",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:history_fixed_log_a",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:recorded_mean_momentum_change",
+      "value": 0.0,
+      "threshold": 1e-28,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:recorded_force_normalization",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:summary_max_mass_relative_error",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:summary_max_total_force_normalized",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:summary_max_total_force_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:summary_max_momentum_change_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:summary_max_drift_cells",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:summary_max_force_ifft_imaginary",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:mass_protocol_threshold",
+      "value": 1.1102230246251565e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:force_protocol_threshold",
+      "value": 3.18035750578203e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:reported_final_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:array_file_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:pm_code_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:metadata_dimensions",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:initial_metadata_copy",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:source_coefficient_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:source_spectrum_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:background_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:reference_E_initial",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:reference_f_initial",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:common_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:snapshot_shapes",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:all_saved_arrays_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:snapshot_a",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:saved_density_lower_bound",
+      "value": 0.0,
+      "threshold": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:density_raw_mean_from_float32",
+      "value": 3.8878400498987276e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:projection_from_saved_float32_density",
+      "value": 7.458781082059986e-08,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:final_power_independent_FFT",
+      "value": 4.2653818255189435e-09,
+      "threshold": 1e-06,
+      "passed": true,
+      "note": "Tolerance includes float32 density quantization; saved power used float64 density."
+    },
+    {
+      "name": "clock_n64_s128:shell_count",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:shell_centers",
+      "value": 1.6342482922482304e-13,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:initial_density_independent_CIC",
+      "value": 7.4502388702768485e-09,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:initial_displacement_rms",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:initial_momentum_mean",
+      "value": 5.8105043634846006e-21,
+      "threshold": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:initial_momentum_rms",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:history_length",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:history_fixed_log_a",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:recorded_mean_momentum_change",
+      "value": 0.0,
+      "threshold": 1e-28,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:recorded_force_normalization",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:summary_max_mass_relative_error",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:summary_max_total_force_normalized",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:summary_max_total_force_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:summary_max_momentum_change_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:summary_max_drift_cells",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:summary_max_force_ifft_imaginary",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:mass_protocol_threshold",
+      "value": 1.1102230246251565e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:force_protocol_threshold",
+      "value": 2.4493632767629793e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:reported_final_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:array_file_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:pm_code_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:metadata_dimensions",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:initial_metadata_copy",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:source_coefficient_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:source_spectrum_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:background_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:reference_E_initial",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:reference_f_initial",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:common_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:snapshot_shapes",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:all_saved_arrays_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:snapshot_a",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:saved_density_lower_bound",
+      "value": 0.0,
+      "threshold": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:density_raw_mean_from_float32",
+      "value": 1.777089309040747e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:projection_from_saved_float32_density",
+      "value": 7.459393246403626e-08,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:final_power_independent_FFT",
+      "value": 2.080703609408374e-09,
+      "threshold": 1e-06,
+      "passed": true,
+      "note": "Tolerance includes float32 density quantization; saved power used float64 density."
+    },
+    {
+      "name": "reference_n64_s512:shell_count",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:shell_centers",
+      "value": 1.6342482922482304e-13,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:initial_density_independent_CIC",
+      "value": 7.4502388702768485e-09,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:initial_displacement_rms",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:initial_momentum_mean",
+      "value": 5.8105043634846006e-21,
+      "threshold": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:initial_momentum_rms",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:history_length",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:history_fixed_log_a",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:recorded_mean_momentum_change",
+      "value": 0.0,
+      "threshold": 1e-28,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:recorded_force_normalization",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:summary_max_mass_relative_error",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:summary_max_total_force_normalized",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:summary_max_total_force_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:summary_max_momentum_change_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:summary_max_drift_cells",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:summary_max_force_ifft_imaginary",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:mass_protocol_threshold",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:force_protocol_threshold",
+      "value": 3.3347858057763025e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:reported_final_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:array_file_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:pm_code_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:metadata_dimensions",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:initial_metadata_copy",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:source_coefficient_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:source_spectrum_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:background_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:reference_E_initial",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:reference_f_initial",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:common_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:snapshot_shapes",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:all_saved_arrays_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:snapshot_a",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:saved_density_lower_bound",
+      "value": 0.0,
+      "threshold": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:density_raw_mean_from_float32",
+      "value": 5.497120814101919e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:projection_from_saved_float32_density",
+      "value": 8.576041878698931e-08,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:final_power_independent_FFT",
+      "value": 4.1483867452285494e-09,
+      "threshold": 1e-06,
+      "passed": true,
+      "note": "Tolerance includes float32 density quantization; saved power used float64 density."
+    },
+    {
+      "name": "clock_n64_s512:shell_count",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:shell_centers",
+      "value": 1.6342482922482304e-13,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:initial_density_independent_CIC",
+      "value": 7.4502388702768485e-09,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:initial_displacement_rms",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:initial_momentum_mean",
+      "value": 5.8105043634846006e-21,
+      "threshold": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:initial_momentum_rms",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:history_length",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:history_fixed_log_a",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:recorded_mean_momentum_change",
+      "value": 3.851859888774472e-34,
+      "threshold": 1e-28,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:recorded_force_normalization",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:summary_max_mass_relative_error",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:summary_max_total_force_normalized",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:summary_max_total_force_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:summary_max_momentum_change_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:summary_max_drift_cells",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:summary_max_force_ifft_imaginary",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:mass_protocol_threshold",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:force_protocol_threshold",
+      "value": 3.938702613032412e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:reported_final_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:array_file_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:pm_code_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:metadata_dimensions",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:initial_metadata_copy",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:source_coefficient_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:source_spectrum_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:background_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:reference_E_initial",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:reference_f_initial",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:common_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:snapshot_shapes",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:all_saved_arrays_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:snapshot_a",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:saved_density_lower_bound",
+      "value": 0.0,
+      "threshold": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:density_raw_mean_from_float32",
+      "value": 5.084923870857239e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:projection_from_saved_float32_density",
+      "value": 6.640246483919075e-08,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:final_power_independent_FFT",
+      "value": 1.5046288881492842e-08,
+      "threshold": 1e-06,
+      "passed": true,
+      "note": "Tolerance includes float32 density quantization; saved power used float64 density."
+    },
+    {
+      "name": "reference_n32_s256:shell_count",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:shell_centers",
+      "value": 3.2507330161024584e-13,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:initial_density_independent_CIC",
+      "value": 7.405053459308419e-09,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:initial_displacement_rms",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:initial_momentum_mean",
+      "value": 5.628757273270215e-21,
+      "threshold": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:initial_momentum_rms",
+      "value": 3.3306690738754696e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:history_length",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:history_fixed_log_a",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:recorded_mean_momentum_change",
+      "value": 0.0,
+      "threshold": 1e-28,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:recorded_force_normalization",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:summary_max_mass_relative_error",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:summary_max_total_force_normalized",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:summary_max_total_force_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:summary_max_momentum_change_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:summary_max_drift_cells",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:summary_max_force_ifft_imaginary",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:mass_protocol_threshold",
+      "value": 1.1102230246251565e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:force_protocol_threshold",
+      "value": 1.0821548711898523e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "reference_n32_s256:reported_final_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:array_file_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:pm_code_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:metadata_dimensions",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:initial_metadata_copy",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:source_coefficient_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:source_spectrum_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:background_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:reference_E_initial",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:reference_f_initial",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:common_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:snapshot_shapes",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:all_saved_arrays_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:snapshot_a",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:saved_density_lower_bound",
+      "value": 0.0,
+      "threshold": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:density_raw_mean_from_float32",
+      "value": 4.148663634850891e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:projection_from_saved_float32_density",
+      "value": 6.873605391764907e-08,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:final_power_independent_FFT",
+      "value": 6.583160794271237e-09,
+      "threshold": 1e-06,
+      "passed": true,
+      "note": "Tolerance includes float32 density quantization; saved power used float64 density."
+    },
+    {
+      "name": "clock_n32_s256:shell_count",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:shell_centers",
+      "value": 3.2507330161024584e-13,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:initial_density_independent_CIC",
+      "value": 7.405053459308419e-09,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:initial_displacement_rms",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:initial_momentum_mean",
+      "value": 5.628757273270215e-21,
+      "threshold": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:initial_momentum_rms",
+      "value": 3.3306690738754696e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:history_length",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:history_fixed_log_a",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:recorded_mean_momentum_change",
+      "value": 0.0,
+      "threshold": 1e-28,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:recorded_force_normalization",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:summary_max_mass_relative_error",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:summary_max_total_force_normalized",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:summary_max_total_force_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:summary_max_momentum_change_absolute",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:summary_max_drift_cells",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:summary_max_force_ifft_imaginary",
+      "value": 0.0,
+      "threshold": 1e-25,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:mass_protocol_threshold",
+      "value": 2.220446049250313e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:force_protocol_threshold",
+      "value": 1.3875757439846334e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:reported_final_finite",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:identical_same_grid_initial_density",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n32_s256:identical_same_grid_initial_power",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:identical_same_grid_initial_density",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s256:identical_same_grid_initial_power",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:identical_same_grid_initial_density",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s128:identical_same_grid_initial_power",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:identical_same_grid_initial_density",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s128:identical_same_grid_initial_power",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:identical_same_grid_initial_density",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reference_n64_s512:identical_same_grid_initial_power",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:identical_same_grid_initial_density",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "clock_n64_s512:identical_same_grid_initial_power",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_pair_n64_s256",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_pair_n64_s128",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_pair_n64_s512",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_pair_n32_s256",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_paired_response_time_difference_256_minus_512",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_paired_response_space_difference_32_minus_64",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_absolute_reference_pk_fractional_change_256_to_512",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_absolute_reference_pk_fractional_change_32_to_64",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_low_k_mask",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_resolution_flag",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_reference_n64_s256.json",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_reference_n64_s256.npz",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_final_power_reference_n64_s256",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_clock_n64_s256.json",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_clock_n64_s256.npz",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_final_power_clock_n64_s256",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_reference_n64_s128.json",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_reference_n64_s128.npz",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_final_power_reference_n64_s128",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_clock_n64_s128.json",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_clock_n64_s128.npz",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_final_power_clock_n64_s128",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_reference_n64_s512.json",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_reference_n64_s512.npz",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_final_power_reference_n64_s512",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_clock_n64_s512.json",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_clock_n64_s512.npz",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_final_power_clock_n64_s512",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_reference_n32_s256.json",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_reference_n32_s256.npz",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_final_power_reference_n32_s256",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_clock_n32_s256.json",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_hash_clock_n32_s256.npz",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_final_power_clock_n32_s256",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "summary_production_code_hash_run_clustering.py",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_production_code_hash_pm.py",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_input_hash_background_eps0.csv",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_input_hash_background_eps1e-4.csv",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_input_hash_reference_linear_spectrum.csv",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_protocol_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_initial_modes_hash",
+      "value": 0.0,
+      "threshold": 0.0,
+      "passed": true
+    },
+    {
+      "name": "summary_momentum_factor",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "summary_minimum_horizon_ratio",
+      "value": 0.0,
+      "threshold": 1e-13,
+      "passed": true
+    }
+  ],
+  "runs": {
+    "reference_n64_s256": {
+      "final_power_max_relative_quantization_difference": 2.6193203161994916e-09,
+      "projection_max_scaled_difference": 7.056104690696495e-08,
+      "independent_final_pk": [
+        1886.6818269013577,
+        809.9781135509191,
+        467.0242665385134,
+        374.3557243276142,
+        280.2022649129586,
+        237.97307074491198,
+        179.13189531743922,
+        159.83519323691368,
+        126.81023736552021,
+        104.80991177357025,
+        91.54888074342661,
+        77.725842577287,
+        64.57585217169998,
+        57.03489380467242,
+        50.529470948292776,
+        44.70283533427196
+      ],
+      "saved_final_pk": [
+        1886.6818236954095,
+        809.9781133478549,
+        467.0242657378991,
+        374.3557237426722,
+        280.20226480223295,
+        237.97307058018657,
+        179.13189520209542,
+        159.8351930339369,
+        126.81023717131616,
+        104.80991164020821,
+        91.54888057492326,
+        77.72584240995653,
+        64.57585202289488,
+        57.03489370002056,
+        50.52947081593991,
+        44.70283526158773
+      ],
+      "max_momentum_change_absolute": 8.341951102611139e-17,
+      "max_drift_cells": 0.26626807444302364
+    },
+    "clock_n64_s256": {
+      "final_power_max_relative_quantization_difference": 1.1424176049601442e-09,
+      "projection_max_scaled_difference": 7.186918207964086e-08,
+      "independent_final_pk": [
+        1886.1815526442633,
+        809.7458960579766,
+        466.85708087396023,
+        374.21852266813414,
+        280.09528805846725,
+        237.88149253017997,
+        179.04086415535932,
+        159.75053772038672,
+        126.73368482312505,
+        104.75228840399944,
+        91.49620547261941,
+        77.68334393475949,
+        64.54052481698871,
+        57.00604725152362,
+        50.505436849610874,
+        44.68102103018434
+      ],
+      "saved_final_pk": [
+        1886.1815536592553,
+        809.7458969830445,
+        466.85708096500974,
+        374.2185227077701,
+        280.095288127542,
+        237.8814925332176,
+        179.040864199106,
+        159.75053771768458,
+        126.73368485554947,
+        104.75228841731744,
+        91.4962054708572,
+        77.68334398408781,
+        64.54052482031823,
+        57.00604727765354,
+        50.505436860997456,
+        44.681021022816
+      ],
+      "max_momentum_change_absolute": 1.0583622221608924e-16,
+      "max_drift_cells": 0.26623437866165767
+    },
+    "reference_n64_s128": {
+      "final_power_max_relative_quantization_difference": 2.1066457467355804e-09,
+      "projection_max_scaled_difference": 7.891998225156563e-08,
+      "independent_final_pk": [
+        1886.028400046215,
+        809.6251529310795,
+        466.7309342689859,
+        374.08983695590575,
+        279.96945028510066,
+        237.74842259722845,
+        178.897899397492,
+        159.60049732219088,
+        126.58618707075524,
+        104.6169660534728,
+        91.3634970406585,
+        77.56277294553017,
+        64.42971110028904,
+        56.90416525383723,
+        50.40775352694817,
+        44.589740700162345
+      ],
+      "saved_final_pk": [
+        1886.028400751087,
+        809.6251532815116,
+        466.730934137169,
+        374.0898370775879,
+        279.96945005125866,
+        237.74842251075108,
+        178.89789924958077,
+        159.6004973404301,
+        126.58618704629482,
+        104.61696596029131,
+        91.36349693112268,
+        77.56277282064426,
+        64.4297110774816,
+        56.90416517944539,
+        50.40775346007336,
+        44.58974060622756
+      ],
+      "max_momentum_change_absolute": 9.042546585575059e-17,
+      "max_drift_cells": 0.5312412882634242
+    },
+    "clock_n64_s128": {
+      "final_power_max_relative_quantization_difference": 4.2653818255189435e-09,
+      "projection_max_scaled_difference": 7.458781082059986e-08,
+      "independent_final_pk": [
+        1885.5283894120792,
+        809.3931078145665,
+        466.5639271410566,
+        373.95282064809635,
+        279.862599995247,
+        237.6569654520725,
+        178.807030191142,
+        159.51606864290065,
+        126.50989583022579,
+        104.5595924608418,
+        91.31106947896342,
+        77.52049325846549,
+        64.39457948055613,
+        56.87546266396114,
+        50.383850562807766,
+        44.56801392125714
+      ],
+      "saved_final_pk": [
+        1885.528387832617,
+        809.3931064410865,
+        466.56392621304406,
+        373.9528198729706,
+        279.86259934011963,
+        237.65696491247766,
+        178.80702998069515,
+        159.5160682440852,
+        126.5098954995128,
+        104.55959218143495,
+        91.31106928216215,
+        77.52049302572719,
+        64.3945792733441,
+        56.8754624629402,
+        50.38385038332267,
+        44.56801373115755
+      ],
+      "max_momentum_change_absolute": 8.970672556854254e-17,
+      "max_drift_cells": 0.5312278892752269
+    },
+    "reference_n64_s512": {
+      "final_power_max_relative_quantization_difference": 2.080703609408374e-09,
+      "projection_max_scaled_difference": 7.459393246403626e-08,
+      "independent_final_pk": [
+        1886.845027910377,
+        810.0661727828636,
+        467.0973290637225,
+        374.42190231211345,
+        280.2603827637627,
+        238.02923584682333,
+        179.1905866187718,
+        159.89389959891258,
+        126.86595931802928,
+        104.85745628564125,
+        91.59437387924159,
+        77.76566584837269,
+        64.611482513707,
+        57.066960703766625,
+        50.55946318028606,
+        44.73084604504021
+      ],
+      "saved_final_pk": [
+        1886.8450298232933,
+        810.066172644467,
+        467.0973292800242,
+        374.4219025494887,
+        280.26038305910606,
+        238.0292359934663,
+        179.19058668976527,
+        159.89389976433688,
+        126.86595940077983,
+        104.85745636088699,
+        91.5943740138962,
+        77.7656659140374,
+        64.611482563957,
+        57.06696077008594,
+        50.55946327518447,
+        44.73084613811184
+      ],
+      "max_momentum_change_absolute": 1.2019132075501712e-16,
+      "max_drift_cells": 0.1333174792662127
+    },
+    "clock_n64_s512": {
+      "final_power_max_relative_quantization_difference": 4.1483867452285494e-09,
+      "projection_max_scaled_difference": 8.576041878698931e-08,
+      "independent_final_pk": [
+        1886.3446931945878,
+        809.8339184000422,
+        466.9301057097606,
+        374.2846655996656,
+        280.1533783665881,
+        237.93762038755509,
+        179.0995117121921,
+        159.80919188780402,
+        126.78935543638123,
+        104.79979934575121,
+        91.54167302620438,
+        77.72315403641822,
+        64.57614264644788,
+        57.03809703660277,
+        50.535413102140055,
+        44.70901642299372
+      ],
+      "saved_final_pk": [
+        1886.34469837152,
+        809.8339200839736,
+        466.9301070687524,
+        374.28466681863205,
+        280.1533792067663,
+        237.93762110344537,
+        179.099512159663,
+        159.80919242212536,
+        126.78935591948212,
+        104.79979967370144,
+        91.54167331487614,
+        77.7231542754391,
+        64.5761428934841,
+        57.0380972383111,
+        50.53541330869372,
+        44.70901660846401
+      ],
+      "max_momentum_change_absolute": 1.34558672275601e-16,
+      "max_drift_cells": 0.1333041750441097
+    },
+    "reference_n32_s256": {
+      "final_power_max_relative_quantization_difference": 1.5046288881492842e-08,
+      "projection_max_scaled_difference": 6.640246483919075e-08,
+      "independent_final_pk": [
+        1844.8690695545524,
+        756.3739887505575,
+        414.94321952224414,
+        303.7419894148881,
+        205.3759903713303,
+        155.80508156389993,
+        105.56424926793557,
+        84.68052216889586,
+        58.11045008590055,
+        41.97328227649502,
+        32.208029014386526,
+        24.832661272598944,
+        17.99087675999916,
+        13.034451612503995,
+        10.252885055218746,
+        7.838227711152395
+      ],
+      "saved_final_pk": [
+        1844.869065127114,
+        756.3739864769243,
+        414.94321716813033,
+        303.74198777868867,
+        205.37598947467316,
+        155.8050808058572,
+        105.56424881896469,
+        84.6805216102035,
+        58.11044962857907,
+        41.973281927769634,
+        32.20802878346888,
+        24.832661036587456,
+        17.990876600755204,
+        13.034451486581874,
+        10.252884910508268,
+        7.838227593216159
+      ],
+      "max_momentum_change_absolute": 3.904071175045043e-17,
+      "max_drift_cells": 0.09064315350812106
+    },
+    "clock_n32_s256": {
+      "final_power_max_relative_quantization_difference": 6.583160794271237e-09,
+      "projection_max_scaled_difference": 6.873605391764907e-08,
+      "independent_final_pk": [
+        1844.37574071319,
+        756.1535690967913,
+        414.791282371481,
+        303.62724959866483,
+        205.29239322549614,
+        155.7393023746128,
+        105.50797340745191,
+        84.63477090935795,
+        58.076108527787916,
+        41.95193255769033,
+        32.19125433839313,
+        24.820567206350518,
+        17.982489619340438,
+        13.028486861175148,
+        10.24883361206321,
+        7.835651327155913
+      ],
+      "saved_final_pk": [
+        1844.3757383308596,
+        756.1535684509239,
+        414.7912822055707,
+        303.6272494505772,
+        205.29239327636083,
+        155.73930215214534,
+        105.5079733502107,
+        84.63477080638886,
+        58.07610853165321,
+        41.9519325456467,
+        32.19125443788974,
+        24.820567273503645,
+        17.982489715651433,
+        13.028486946943772,
+        10.248833640405559,
+        7.835651354473659
+      ],
+      "max_momentum_change_absolute": 3.119013361966712e-17,
+      "max_drift_cells": 0.09062155318656427
+    }
+  },
+  "comparisons": {
+    "paired_fractional_power_response": {
+      "n64_s256": [
+        -0.00026515866632692564,
+        -0.0002866946167848772,
+        -0.0003579787714568239,
+        -0.00036649909751718113,
+        -0.00038178376169240025,
+        -0.0003848252524779605,
+        -0.0005081786405860544,
+        -0.0005296412801549799,
+        -0.0006036761500829435,
+        -0.0005497879159422903,
+        -0.0005753768231272494,
+        -0.000546773435333936,
+        -0.0005470652181891467,
+        -0.0005057679693195594,
+        -0.0004756423242586738,
+        -0.0004879833380607712
+      ],
+      "n64_s128": [
+        -0.0002651142041503185,
+        -0.00028661021644971196,
+        -0.00035782484491564404,
+        -0.00036626818223040036,
+        -0.0003816513234550234,
+        -0.0003846822507067582,
+        -0.0005079392729975263,
+        -0.0005290027146018783,
+        -0.0006026846100840588,
+        -0.0005484175375353173,
+        -0.0005738358394934417,
+        -0.0005451042217744506,
+        -0.0005452733459451187,
+        -0.000504404491563637,
+        -0.00047419444648777453,
+        -0.0004872617506767041
+      ],
+      "n64_s512": [
+        -0.0002651682803118671,
+        -0.00028670813365183623,
+        -0.00035800292741883233,
+        -0.00036652698445849285,
+        -0.00038180156314560065,
+        -0.000384889232780794,
+        -0.000508255103042643,
+        -0.0005297721947888911,
+        -0.0006038143065288937,
+        -0.0005498577706014585,
+        -0.0005753704808558746,
+        -0.0005466633391307818,
+        -0.0005469565017010014,
+        -0.0005057835809957334,
+        -0.000475676855188345,
+        -0.00048801960017541557
+      ],
+      "n32_s256": [
+        -0.0002674047744523067,
+        -0.0002914140754985972,
+        -0.0003661584435492582,
+        -0.00037774931595913053,
+        -0.00040703978359968307,
+        -0.0004221855498653948,
+        -0.0005330921157833401,
+        -0.0005402754133381205,
+        -0.0005909625058032608,
+        -0.0005086421919466844,
+        -0.0005208125493154636,
+        -0.0004870103556761096,
+        -0.0004661743443573618,
+        -0.0004575980542212976,
+        -0.0003951346511805731,
+        -0.0003286761849999875
+      ]
+    },
+    "low_k_shell_mean_h_mpc": [
+      0.16036478039875368,
+      0.28033098430515146
+    ],
+    "low_k_response": [
+      -0.00026515866632692564,
+      -0.0002866946167848772
+    ],
+    "low_k_time_difference": [
+      9.613984941481135e-09,
+      1.3516866959051299e-08
+    ],
+    "low_k_space_difference": [
+      -2.2461081253810633e-06,
+      -4.719458713720037e-06
+    ],
+    "low_k_absolute_time_difference": [
+      -8.649683747430359e-05,
+      -0.0001087063002823685
+    ],
+    "low_k_absolute_space_difference": [
+      -0.022162061479130357,
+      -0.06617972262160332
+    ],
+    "low_k_resolution_flag": true,
+    "bin_note": "Low-k selection uses shell means <=0.3 h/Mpc; the second shell extends to 0.3078 h/Mpc."
+  },
+  "input_sha256": {
+    "results/reference_n64_s256.json": "590285a9d4a27577eb61a73d17d12cf2f8161191ebe2154e5e54fbce199d267f",
+    "results/reference_n64_s256.npz": "a477e27fe8a1d4c4ab7cb981359c2374668d6c6ff5b2281873a7688c61c131d3",
+    "results/clock_n64_s256.json": "c09aa88ea3d984ce8d57ae85d950784317ebb60b7c06edb668ec9932f1fa979e",
+    "results/clock_n64_s256.npz": "77fe543174823aff9a7bd276579bab43d2e15401a1a5f9b01bbf7c876892264b",
+    "results/reference_n64_s128.json": "0d1bf434918df19d88717b38dba6abb05b77b84b2e95ae6e3431f40c7ae9a8c2",
+    "results/reference_n64_s128.npz": "7492e8079c8858563130090a1689541256604098230f941a68f2c36bec788f6f",
+    "results/clock_n64_s128.json": "6e1dd6767d14a77ad020d1f153fef1510e0ac3474304e022d396b698c05af1ce",
+    "results/clock_n64_s128.npz": "ec8658ff4befef974ab36a2a785d5b16f56fbdc23850b2abd3eb826e808d7b6e",
+    "results/reference_n64_s512.json": "513e261c7f1fd640f3abf1f10d59ccda0bd6f8f8d0f4f7c3f89b881bd769e3e3",
+    "results/reference_n64_s512.npz": "71872291ebb8dbbab3de80f555b9586ad43f1a359f74666b24941c4c1ef0633d",
+    "results/clock_n64_s512.json": "8bc76b9b992db6ba837234d9a96c3083ed8349fe137f9451c080c52ce3b4812d",
+    "results/clock_n64_s512.npz": "d376c57859efe9f94697d627df65f828fb904018540b2da655f86ff056945516",
+    "results/reference_n32_s256.json": "4ec3d10c29093b8dfb6ab97b1dbb65f3309d227c6594d59b845ada78a9df65cf",
+    "results/reference_n32_s256.npz": "f28dd062bb2c92cd5cab455911bbb836fd1b2597171c14f6695c4208822bd9a8",
+    "results/clock_n32_s256.json": "980e18b3aac17c147e507a1ddc5468434b296f5defa6288d28796ae1e818b174",
+    "results/clock_n32_s256.npz": "92785887cd4cfd793b3914e0b467f291e2bbef2c7643b55a83b8fa4f1f01207e",
+    "results/clustering_summary.json": "2445b60dbf7fc98176caff87bca82ae83e5f23f56092ea2aba067b0a8a9333c1",
+    "protocol.md": "74a2cab351d53f98169b885542d23d18b4d425c6fd6b75b91b49f5c53422e2e1",
+    "results/initial_modes.npz": "1ed87046b6858eda55fdebe689583f103cd78c3274b81c5e923f12ba5951a4d7",
+    "results/background_summary.json": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307",
+    "inputs/reference_linear_spectrum.csv": "a41eb6b0edbb1380b97b013a7edb05fe48ae4111e8b5ee4d94b868b6dc4bdf45"
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4"
+  },
+  "reviewed_production_code_sha256": {
+    "pm.py": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+    "run_clustering.py": "cb808e77c948b400c9eaf6b523dcd9524c58777b730fa39bc48cd3de0c5f7468"
+  },
+  "audit_code_sha256": "a05d36bcd0882116ea89b4104ad817c0e786ae8feb04e31353b7cf5f7ec0c6d8",
+  "complete": true,
+  "completed_runs": 8,
+  "expected_runs": 8,
+  "missing_runs": [],
+  "summary_available": true,
+  "checks_passed": 347,
+  "checks_total": 347,
+  "failures": [],
+  "status": "PASS",
+  "limitations": [
+    "Saved densities/projections are float32; saved powers were calculated before quantization.",
+    "Particles are not stored at each output. Force/momentum summaries can be checked against saved histories, not rederived from unsaved final particle arrays.",
+    "Common initial positions and momenta are reconstructible; no per-run entrance array hashes were originally stored. All available initial density snapshots and momentum statistics are independently checked.",
+    "Timing records describe concurrent execution, not a serial performance benchmark."
+  ]
+}

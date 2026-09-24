@@ -35,3 +35,11 @@ SVG 在保存后移除行尾空白，便于版本管理检查。
 [最小来源快照与说明](../../reports/chapter04_timeline_sources/README.md)包含四张真实切片、每步体积统计及原结果/验证JSON副本，约326KB；其六份源输入已与CMB固定提交`f42db51748003fc83be064dade9bb52de5eb8319`逐字节校验。小NPZ SHA256：`ea7635e5a870e1abb0fffccc0614fbc3b50f69fdd39bd0554b79645af6d99351`。这些材料支持图形复现，不替代完整三维状态和原拟合输入。
 
 复现命令：`python manuscript_cn/figures/make_chapter04_timeline_figure.py`。只读取本仓库快照，不需要相邻项目或重新演化。原项目52项验证报告作为历史来源复制，本次未重跑这52项检查。
+
+## 图4.4：具有物理年龄的背景与物质引力演化
+
+文件：`chapter04_cosmic_bridge_cn.{pdf,svg,png}`。来源为[cosmic_bridge_v01](../../experiments/cosmic_bridge_v01/README.md)新计算，使用同一协议下的标准背景与指数势正则时钟背景。上排将物理年龄、尺度因子、χ⁻²响应和共同初动量的线性增长接起来；下排展示主64³/256步时钟背景的z=9、1、0密度投影，共用对数色标。没有将SMICA反演场作为物质，也没有重新缩放初谱制造团块。
+
+完整功率及时间/空间差异见实验目录的`figures/matter_power_diagnostics.pdf`。该图的CAMB z=0曲线是外部线性集合参考，未经过同一有限盒、带限和CIC窗口；差异不等于观测拟合误差或纯非线性修正。
+
+复现：`python manuscript_cn/figures/make_chapter04_cosmic_bridge.py`。脚本只读取本仓库保存结果，输入输出身份与显示读数记录于`experiments/cosmic_bridge_v01/figures/plot_inputs.json`；不重新积分或拟合。

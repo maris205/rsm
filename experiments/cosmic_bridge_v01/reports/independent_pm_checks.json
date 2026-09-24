@@ -1,0 +1,408 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-09-24T12:01:27.628117+00:00",
+  "scope": "Independent small Fourier/CIC diagnostics only; no production matrix, time integration, observed-data fit or statistical detection.",
+  "code_sha256": {
+    "pm.py": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+    "independent_pm_checks.py": "b69db6b6cb50604ea23a623070de9db36b89e7966b250ba8066ca7ce42dfaa31"
+  },
+  "pm_disk_sha256_after_checks": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+  "protocol_sha256": "74a2cab351d53f98169b885542d23d18b4d425c6fd6b75b91b49f5c53422e2e1",
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "checks_passed": 17,
+  "checks_total": 17,
+  "checks": [
+    {
+      "name": "cell_center_direct_mode:n=32",
+      "value": 2.710505431213761e-20,
+      "strict_upper_threshold": 1e-16,
+      "passed": true
+    },
+    {
+      "name": "cell_center_imaginary:n=32",
+      "value": 1.5246593050577406e-20,
+      "strict_upper_threshold": 1e-16,
+      "passed": true
+    },
+    {
+      "name": "common_reference_momentum:n=32",
+      "value": 0.0,
+      "strict_upper_threshold": 1e-17,
+      "passed": true
+    },
+    {
+      "name": "cell_center_direct_mode:n=64",
+      "value": 1.0249098661777034e-19,
+      "strict_upper_threshold": 1e-16,
+      "passed": true
+    },
+    {
+      "name": "cell_center_imaginary:n=64",
+      "value": 1.4374625781406634e-20,
+      "strict_upper_threshold": 1e-16,
+      "passed": true
+    },
+    {
+      "name": "common_reference_momentum:n=64",
+      "value": 0.0,
+      "strict_upper_threshold": 1e-17,
+      "passed": true
+    },
+    {
+      "name": "CIC_projected_linear_response:n=16",
+      "value": 1.2548850847338144e-12,
+      "strict_upper_threshold": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "CIC_finite_amplitude_remainder:n=16",
+      "value": 9.299543730835641e-07,
+      "strict_upper_threshold": 6e-06,
+      "passed": true
+    },
+    {
+      "name": "CIC_raw_mass:n=16",
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "CIC_transverse_force:n=16",
+      "value": 0.0,
+      "strict_upper_threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "CIC_projected_linear_response:n=32",
+      "value": 4.174249834676402e-11,
+      "strict_upper_threshold": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "CIC_finite_amplitude_remainder:n=32",
+      "value": 9.824597267169828e-07,
+      "strict_upper_threshold": 6e-06,
+      "passed": true
+    },
+    {
+      "name": "CIC_raw_mass:n=32",
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "CIC_transverse_force:n=32",
+      "value": 0.0,
+      "strict_upper_threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "single_axis_cosine_shell_power",
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "first_shell_mode_count",
+      "value": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "name": "source_unchanged_during_checks",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "detail": {
+    "shared_continuous_field": {
+      "source_grid": 32,
+      "mode": [
+        1,
+        2,
+        -1
+      ],
+      "density_cosine_amplitude": 0.001,
+      "momentum_factor": 0.0792,
+      "expected_displacement": "-A sin(2*pi*m.q) (2*pi*m)/|2*pi*m|^2, in box units",
+      "note": "32 and 64 cell centers are not nested; each is checked at its own physical positions.",
+      "grids": {
+        "32": {
+          "selected_flat_indices": [
+            0,
+            1,
+            34,
+            1027,
+            10922,
+            32767
+          ],
+          "positions": [
+            [
+              0.015625,
+              0.015625,
+              0.015625
+            ],
+            [
+              0.015625,
+              0.015625,
+              0.046875
+            ],
+            [
+              0.015625,
+              0.046875,
+              0.078125
+            ],
+            [
+              0.046875,
+              0.015625,
+              0.109375
+            ],
+            [
+              0.328125,
+              0.671875,
+              0.328125
+            ],
+            [
+              0.984375,
+              0.984375,
+              0.984375
+            ]
+          ],
+          "expected_displacements": [
+            [
+              -5.174931516376072e-06,
+              -1.0349863032752144e-05,
+              5.174931516376072e-06
+            ],
+            [
+              -0.0,
+              -0.0,
+              0.0
+            ],
+            [
+              -5.174931516376072e-06,
+              -1.0349863032752144e-05,
+              5.174931516376072e-06
+            ],
+            [
+              5.174931516376072e-06,
+              1.0349863032752144e-05,
+              -5.174931516376072e-06
+            ],
+            [
+              -2.2055416471441994e-05,
+              -4.411083294288399e-05,
+              2.2055416471441994e-05
+            ],
+            [
+              5.174931516376068e-06,
+              1.0349863032752136e-05,
+              -5.174931516376068e-06
+            ]
+          ],
+          "actual_displacements": [
+            [
+              -5.174931516376071e-06,
+              -1.0349863032752143e-05,
+              5.174931516376071e-06
+            ],
+            [
+              8.470329472543003e-22,
+              1.6940658945086007e-21,
+              -8.470329472543003e-22
+            ],
+            [
+              -5.174931516376071e-06,
+              -1.0349863032752143e-05,
+              5.174931516376071e-06
+            ],
+            [
+              5.174931516376072e-06,
+              1.0349863032752144e-05,
+              -5.174931516376072e-06
+            ],
+            [
+              -2.205541647144198e-05,
+              -4.411083294288396e-05,
+              2.205541647144198e-05
+            ],
+            [
+              5.174931516376072e-06,
+              1.0349863032752144e-05,
+              -5.174931516376072e-06
+            ]
+          ],
+          "direct_evaluation_max_abs_error": 2.710505431213761e-20,
+          "ifft_max_imaginary": 1.5246593050577406e-20,
+          "common_momentum_relation_max_abs_error": 0.0
+        },
+        "64": {
+          "selected_flat_indices": [
+            0,
+            1,
+            66,
+            4099,
+            87381,
+            262143
+          ],
+          "positions": [
+            [
+              0.0078125,
+              0.0078125,
+              0.0078125
+            ],
+            [
+              0.0078125,
+              0.0078125,
+              0.0234375
+            ],
+            [
+              0.0078125,
+              0.0234375,
+              0.0390625
+            ],
+            [
+              0.0234375,
+              0.0078125,
+              0.0546875
+            ],
+            [
+              0.3359375,
+              0.3359375,
+              0.3359375
+            ],
+            [
+              0.9921875,
+              0.9921875,
+              0.9921875
+            ]
+          ],
+          "expected_displacements": [
+            [
+              -2.5999853985302565e-06,
+              -5.199970797060513e-06,
+              2.5999853985302565e-06
+            ],
+            [
+              -0.0,
+              -0.0,
+              0.0
+            ],
+            [
+              -2.5999853985302565e-06,
+              -5.199970797060513e-06,
+              2.5999853985302565e-06
+            ],
+            [
+              2.5999853985302565e-06,
+              5.199970797060513e-06,
+              -2.5999853985302565e-06
+            ],
+            [
+              2.3393688106482473e-05,
+              4.678737621296495e-05,
+              -2.3393688106482473e-05
+            ],
+            [
+              2.5999853985303073e-06,
+              5.1999707970606146e-06,
+              -2.5999853985303073e-06
+            ]
+          ],
+          "actual_displacements": [
+            [
+              -2.5999853985302565e-06,
+              -5.199970797060513e-06,
+              2.5999853985302565e-06
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -2.599985398530258e-06,
+              -5.199970797060516e-06,
+              2.599985398530258e-06
+            ],
+            [
+              2.5999853985302556e-06,
+              5.199970797060511e-06,
+              -2.5999853985302556e-06
+            ],
+            [
+              2.3393688106482477e-05,
+              4.6787376212964953e-05,
+              -2.3393688106482477e-05
+            ],
+            [
+              2.599985398530256e-06,
+              5.199970797060512e-06,
+              -2.599985398530256e-06
+            ]
+          ],
+          "direct_evaluation_max_abs_error": 1.0249098661777034e-19,
+          "ifft_max_imaginary": 1.4374625781406634e-20,
+          "common_momentum_relation_max_abs_error": 0.0
+        }
+      }
+    },
+    "CIC_linear_response": {
+      "initial_density_amplitude": 2e-06,
+      "geometry": "mesh nodes j/N, initial particle positions (j+1/2)/N",
+      "analytic_response": "F = sin(kh)/(kh), kh = 2*pi/N",
+      "remainder_note": "The full finite-amplitude force has higher-order terms; the projected fundamental checks F.",
+      "grids": {
+        "16": {
+          "analytic_F": 0.9744953584044327,
+          "projected_F": 0.9744953584056876,
+          "projected_F_abs_error": 1.2548850847338144e-12,
+          "full_force_residual_over_displacement_amplitude": 9.299543730835641e-07,
+          "transverse_force_max_abs": 0.0,
+          "force_diagnostics": {
+            "raw_mass": 1.0,
+            "mass_relative_error": 0.0,
+            "density_contrast_mean": 1.3877787807814457e-17,
+            "total_force_absolute": 2.135063020924469e-21,
+            "total_force_normalized": 1.074252836416356e-14,
+            "mean_force_magnitude": 1.9874865102026757e-07,
+            "force_ifft_max_imaginary": 5.7777898331617076e-34,
+            "max_force_magnitude": 3.042313840678103e-07
+          }
+        },
+        "32": {
+          "analytic_F": 0.9935868511442058,
+          "projected_F": 0.9935868511859482,
+          "projected_F_abs_error": 4.174249834676402e-11,
+          "full_force_residual_over_displacement_amplitude": 9.824597267169828e-07,
+          "transverse_force_max_abs": 0.0,
+          "force_diagnostics": {
+            "raw_mass": 1.0,
+            "mass_relative_error": 0.0,
+            "density_contrast_mean": 6.938893903907228e-18,
+            "total_force_absolute": 1.6232237315467942e-20,
+            "total_force_normalized": 8.049046400380872e-14,
+            "mean_force_magnitude": 2.016665889104559e-07,
+            "force_ifft_max_imaginary": 2.646977960246726e-23,
+            "max_force_magnitude": 3.1474566005999626e-07
+          }
+        }
+      }
+    },
+    "power_normalization": {
+      "grid": 32,
+      "box_mpc_h": 50.0,
+      "density_cosine_amplitude": 0.02,
+      "actual_shell_power": 4.166666666666667,
+      "expected_shell_power": 4.166666666666667,
+      "relative_error": 0.0,
+      "full_fft_mode_count": 6,
+      "formula": "L^3 A^2/12 for the six-mode first shell of a single-axis cosine"
+    }
+  },
+  "wall_seconds": 0.5651340149343014
+}

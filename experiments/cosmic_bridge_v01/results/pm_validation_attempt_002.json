@@ -1,0 +1,439 @@
+{
+  "status": "PASS",
+  "attempt": 2,
+  "created_utc": "2026-09-24T12:01:35.771321+00:00",
+  "checks_passed": 43,
+  "checks_total": 43,
+  "checks": [
+    {
+      "name": "reject_nonfinite_power_input",
+      "passed": true
+    },
+    {
+      "name": "reject_nonfinite_mode_input",
+      "passed": true
+    },
+    {
+      "name": "reject_nonhermitian_mode_input",
+      "passed": true
+    },
+    {
+      "name": "uniform_force:n=16:shift=0.0",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "uniform_raw_mass:n=16:shift=0.0",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "uniform_force:n=16:shift=0.137",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "uniform_raw_mass:n=16:shift=0.137",
+      "passed": true,
+      "value": 1.1102230246251565e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "random_raw_mass:n=16",
+      "passed": true,
+      "value": 1.1102230246251565e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "random_total_force:n=16",
+      "passed": true,
+      "value": 6.689663829215414e-17,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "single_particle_self_force:n=16",
+      "passed": true,
+      "value": 3.559146706898733e-17,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "analytic_mesh_fourier_force:n=16:mode=(1, 0, 0)",
+      "passed": true,
+      "value": 2.892701123603618e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "analytic_mesh_fourier_force:n=16:mode=(1, 2, 0)",
+      "passed": true,
+      "value": 8.707314732689446e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "analytic_mesh_fourier_force:n=16:mode=(2, 1, 3)",
+      "passed": true,
+      "value": 1.6353984836705948e-15,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "uniform_force:n=32:shift=0.0",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "uniform_raw_mass:n=32:shift=0.0",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "uniform_force:n=32:shift=0.137",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "uniform_raw_mass:n=32:shift=0.137",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "random_raw_mass:n=32",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "random_total_force:n=32",
+      "passed": true,
+      "value": 7.288519851715995e-17,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "single_particle_self_force:n=32",
+      "passed": true,
+      "value": 3.6188537347123774e-17,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "analytic_mesh_fourier_force:n=32:mode=(1, 0, 0)",
+      "passed": true,
+      "value": 2.666268629404316e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "analytic_mesh_fourier_force:n=32:mode=(1, 2, 0)",
+      "passed": true,
+      "value": 7.696831802959466e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "analytic_mesh_fourier_force:n=32:mode=(2, 1, 3)",
+      "passed": true,
+      "value": 1.5700523634755321e-15,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "eds_kick_factor:0.02:0.04",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-11
+    },
+    {
+      "name": "eds_drift_factor:0.02:0.04",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-11
+    },
+    {
+      "name": "eds_kick_factor:0.02:1.0",
+      "passed": true,
+      "value": 1.1102230246251565e-16,
+      "strict_upper_threshold": 1e-11
+    },
+    {
+      "name": "eds_drift_factor:0.02:1.0",
+      "passed": true,
+      "value": 1.1102230246251565e-16,
+      "strict_upper_threshold": 1e-11
+    },
+    {
+      "name": "eds_kick_factor:0.73:1.0",
+      "passed": true,
+      "value": 2.220446049250313e-16,
+      "strict_upper_threshold": 1e-11
+    },
+    {
+      "name": "eds_drift_factor:0.73:1.0",
+      "passed": true,
+      "value": 3.3306690738754696e-16,
+      "strict_upper_threshold": 1e-11
+    },
+    {
+      "name": "eds_kick_factor:0.1:0.02",
+      "passed": true,
+      "value": 2.220446049250313e-16,
+      "strict_upper_threshold": 1e-11
+    },
+    {
+      "name": "eds_drift_factor:0.1:0.02",
+      "passed": true,
+      "value": 2.220446049250313e-16,
+      "strict_upper_threshold": 1e-11
+    },
+    {
+      "name": "short_time_reversal_position_absolute",
+      "passed": true,
+      "value": 0.0,
+      "strict_upper_threshold": 1e-10
+    },
+    {
+      "name": "short_time_reversal_momentum_absolute",
+      "passed": true,
+      "value": 6.617444900424222e-24,
+      "strict_upper_threshold": 1e-10
+    },
+    {
+      "name": "plane_mass:n=16:steps=128",
+      "passed": true,
+      "value": 2.220446049250313e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "plane_mass:n=16:steps=256",
+      "passed": true,
+      "value": 2.220446049250313e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "plane_mass:n=16:steps=512",
+      "passed": true,
+      "value": 2.220446049250313e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "fine_step_discrete_growth:n=16",
+      "passed": true,
+      "value": 1.8500206902860583e-05,
+      "strict_upper_threshold": 0.0005
+    },
+    {
+      "name": "KDK_time_difference_order:n=16",
+      "passed": true,
+      "value": 1.999554409638109,
+      "inclusive_interval": [
+        1.7,
+        2.3
+      ],
+      "coarse_medium_difference": 0.010512270094736209,
+      "medium_fine_difference": 0.0026288793532032173
+    },
+    {
+      "name": "plane_mass:n=32:steps=128",
+      "passed": true,
+      "value": 1.1102230246251565e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "plane_mass:n=32:steps=256",
+      "passed": true,
+      "value": 1.1102230246251565e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "plane_mass:n=32:steps=512",
+      "passed": true,
+      "value": 2.220446049250313e-16,
+      "strict_upper_threshold": 1e-12
+    },
+    {
+      "name": "fine_step_discrete_growth:n=32",
+      "passed": true,
+      "value": 1.9025994317023454e-05,
+      "strict_upper_threshold": 0.0005
+    },
+    {
+      "name": "KDK_time_difference_order:n=32",
+      "passed": true,
+      "value": 1.9995511829996484,
+      "inclusive_interval": [
+        1.7,
+        2.3
+      ],
+      "coarse_medium_difference": 0.01125764493085768,
+      "medium_fine_difference": 0.002815286921666882
+    }
+  ],
+  "failures": [],
+  "detail": {
+    "plane_mode": {
+      "16": {
+        "reference": {
+          "F": 0.9744953584044327,
+          "r_plus": 0.9846023803665085,
+          "r_minus": -1.4846023803665085,
+          "growing_weight": 1.0062358617958118,
+          "decaying_weight": -0.006235861795811749,
+          "growth": 47.370670293547256,
+          "continuum_growth": 50.0,
+          "derivation": "CIC center load, node mesh, spectral gradient: F=sin(kh)/(kh); no fitted force correction"
+        },
+        "runs": [
+          {
+            "steps": 128,
+            "growth": 47.35665277689776,
+            "relative_error_discrete_linear_reference": 0.0002959113004445957,
+            "relative_error_continuum_EdS": 0.05286694446204476,
+            "nonfundamental_displacement_relative_l2": 1.944866653803393e-05,
+            "transverse_displacement_max_abs": 0.0,
+            "diagnostics": {
+              "max_mass_relative_error": 2.220446049250313e-16,
+              "max_total_force_normalized": 3.21769227672524e-14,
+              "max_total_force_absolute": 2.4100424134615307e-19,
+              "max_momentum_change_absolute": 1.7176506555418201e-19,
+              "max_drift_cells": 7.0119625889300585e-06,
+              "max_force_ifft_imaginary": 2.5849394142282115e-26,
+              "finite": true
+            },
+            "wall_seconds": 0.49875178188085556
+          },
+          {
+            "steps": 256,
+            "growth": 47.3671650469925,
+            "relative_error_discrete_linear_reference": 7.399613585867826e-05,
+            "relative_error_continuum_EdS": 0.052656699060150025,
+            "nonfundamental_displacement_relative_l2": 1.9458361138475054e-05,
+            "transverse_displacement_max_abs": 0.0,
+            "diagnostics": {
+              "max_mass_relative_error": 2.220446049250313e-16,
+              "max_total_force_normalized": 4.3857752095585875e-14,
+              "max_total_force_absolute": 2.306628293280151e-19,
+              "max_momentum_change_absolute": 2.5817508591490183e-19,
+              "max_drift_cells": 3.533303760616964e-06,
+              "max_force_ifft_imaginary": 2.5849394142282115e-26,
+              "finite": true
+            },
+            "wall_seconds": 1.0964281968772411
+          },
+          {
+            "steps": 512,
+            "growth": 47.3697939263457,
+            "relative_error_discrete_linear_reference": 1.8500206902860583e-05,
+            "relative_error_continuum_EdS": 0.05260412147308602,
+            "nonfundamental_displacement_relative_l2": 1.9460647161013662e-05,
+            "transverse_displacement_max_abs": 0.0,
+            "diagnostics": {
+              "max_mass_relative_error": 2.220446049250313e-16,
+              "max_total_force_normalized": 4.962207453640598e-14,
+              "max_total_force_absolute": 4.533272357229487e-19,
+              "max_momentum_change_absolute": 2.327297242654121e-19,
+              "max_drift_cells": 1.773416265230267e-06,
+              "max_force_ifft_imaginary": 2.5849394142282115e-26,
+              "finite": true
+            },
+            "wall_seconds": 2.6886191330850124
+          }
+        ],
+        "time_order": 1.999554409638109
+      },
+      "32": {
+        "reference": {
+          "F": 0.9935868511442058,
+          "r_plus": 0.9961461698838978,
+          "r_minus": -1.4961461698838978,
+          "growing_weight": 1.0015462993865563,
+          "decaying_weight": -0.0015462993865564116,
+          "growth": 49.32799394732711,
+          "continuum_growth": 50.0,
+          "derivation": "CIC center load, node mesh, spectral gradient: F=sin(kh)/(kh); no fitted force correction"
+        },
+        "runs": [
+          {
+            "steps": 128,
+            "growth": 49.31298250134207,
+            "relative_error_discrete_linear_reference": 0.0003043190039527799,
+            "relative_error_continuum_EdS": 0.01374034997315865,
+            "nonfundamental_displacement_relative_l2": 2.0460322587782713e-05,
+            "transverse_displacement_max_abs": 0.0,
+            "diagnostics": {
+              "max_mass_relative_error": 1.1102230246251565e-16,
+              "max_total_force_normalized": 1.9367848164376934e-13,
+              "max_total_force_absolute": 1.1426797188146378e-18,
+              "max_momentum_change_absolute": 7.933113091785252e-19,
+              "max_drift_cells": 1.4988618818889483e-05,
+              "max_force_ifft_imaginary": 1.694078819205672e-21,
+              "finite": true
+            },
+            "wall_seconds": 5.14522160589695
+          },
+          {
+            "steps": 256,
+            "growth": 49.32424014627293,
+            "relative_error_discrete_linear_reference": 7.609879814263198e-05,
+            "relative_error_continuum_EdS": 0.013515197074541407,
+            "nonfundamental_displacement_relative_l2": 2.04709823172975e-05,
+            "transverse_displacement_max_abs": 0.0,
+            "diagnostics": {
+              "max_mass_relative_error": 1.1102230246251565e-16,
+              "max_total_force_normalized": 2.331944311245463e-13,
+              "max_total_force_absolute": 1.4730481591440158e-18,
+              "max_momentum_change_absolute": 1.635344748941677e-18,
+              "max_drift_cells": 7.55342858255378e-06,
+              "max_force_ifft_imaginary": 1.9058305936707113e-21,
+              "finite": true
+            },
+            "wall_seconds": 10.368806522339582
+          },
+          {
+            "steps": 512,
+            "growth": 49.327055433194595,
+            "relative_error_discrete_linear_reference": 1.9025994317023454e-05,
+            "relative_error_continuum_EdS": 0.013458891336108114,
+            "nonfundamental_displacement_relative_l2": 2.047343008183806e-05,
+            "transverse_displacement_max_abs": 0.0,
+            "diagnostics": {
+              "max_mass_relative_error": 2.220446049250313e-16,
+              "max_total_force_normalized": 2.924895946466779e-13,
+              "max_total_force_absolute": 1.740998610275302e-18,
+              "max_momentum_change_absolute": 1.5413963150036832e-18,
+              "max_drift_cells": 3.7913483896157808e-06,
+              "max_force_ifft_imaginary": 1.905837056019247e-21,
+              "finite": true
+            },
+            "wall_seconds": 20.11296619474888
+          }
+        ],
+        "time_order": 1.9995511829996484
+      }
+    },
+    "spatial_comparison": {
+      "continuum_relative_error_16": 0.05260412147308602,
+      "continuum_relative_error_32": 0.013458891336108114,
+      "error_reduction": 3.9085033201774455,
+      "qualification": "Two resolutions diagnose the expected CIC spatial bias; they do not establish a general convergence theorem."
+    }
+  },
+  "protocol_sha256": "74a2cab351d53f98169b885542d23d18b4d425c6fd6b75b91b49f5c53422e2e1",
+  "code_sha256": {
+    "pm.py": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+    "validate_pm.py": "8c164d1d27f746678c3fa7df110ed30e3e12ce19421a1fdab9b50f94e16d5b95"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "previous_attempts": [
+    {
+      "path": "pm_validation_attempt_001.json",
+      "sha256": "fd65891821964edb6e6d5ac56e4f74e020ec3cf86430aad8b11e1a6f4c388b52"
+    }
+  ],
+  "implementation_review_note": "After attempt 1 passed, additive finite/Hermitian input guards were introduced before production; no numerical algorithm, physical parameter, or frozen threshold was changed.",
+  "wall_seconds": 40.209792759269476,
+  "scope": "Small deterministic numerical validation; no observed-data fit, halo classification, or inflation calculation"
+}

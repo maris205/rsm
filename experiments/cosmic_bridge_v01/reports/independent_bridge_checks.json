@@ -1,0 +1,222 @@
+{
+  "scope": "Independent Radau background with v=chi_dot/(H0 E_rad), z=H0 E_rad t; independent D,D_N growth. No new PM production.",
+  "models": {
+    "eps1e-4": {
+      "Radau_evaluations": 7417
+    },
+    "eps1e-2": {
+      "Radau_evaluations": 7400
+    }
+  },
+  "checks": [
+    {
+      "name": "eps0_E_analytic",
+      "value": 7.771561172376096e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "eps0_age_analytic_a0.02",
+      "value": -1.1102230246251565e-16,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps0_age_analytic_a0.1",
+      "value": -2.0495383168395165e-11,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps0_age_analytic_a0.5",
+      "value": -2.7195024010495672e-11,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps0_age_analytic_a1",
+      "value": -2.220446049250313e-16,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps0_matched_initial_f",
+      "value": -3.3306690738754696e-16,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps0_matched_D_independent",
+      "value": 3.288591621242176e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps0_matched_f_independent",
+      "value": 8.706813048320328e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-4_Radau_E",
+      "value": 1.7763568394002505e-15,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-4_Radau_q",
+      "value": 7.703615523269036e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-4_Radau_chi",
+      "value": 2.8688162956314045e-13,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-4_Radau_t_Gyr",
+      "value": 7.113420963378303e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-4_potential_normalization",
+      "value": 0.0,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "eps1e-4_matched_initial_f",
+      "value": -2.220446049250313e-16,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-4_matched_D_independent",
+      "value": 3.3033575874696908e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-4_matched_f_independent",
+      "value": 8.75499672758906e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-2_Radau_E",
+      "value": 1.7119639039719914e-13,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-2_Radau_q",
+      "value": 7.2168937492733676e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-2_Radau_chi",
+      "value": 2.8843594179761567e-13,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-2_Radau_t_Gyr",
+      "value": 7.085221298552824e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-2_potential_normalization",
+      "value": 0.0,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "eps1e-2_matched_initial_f",
+      "value": 1.1324274851176597e-14,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-2_matched_D_independent",
+      "value": 3.3864022697116525e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "eps1e-2_matched_f_independent",
+      "value": 8.251843652828939e-12,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "CAMB_saved_hash_reference_linear_spectrum.npz",
+      "value": 0.0,
+      "threshold": 0,
+      "passed": true
+    },
+    {
+      "name": "CAMB_saved_hash_reference_linear_spectrum.csv",
+      "value": 0.0,
+      "threshold": 0,
+      "passed": true
+    },
+    {
+      "name": "CAMB_saved_hash_camb_parameters.txt",
+      "value": 0.0,
+      "threshold": 0,
+      "passed": true
+    },
+    {
+      "name": "CAMB_provenance_generator_sha256",
+      "value": 0.0,
+      "threshold": 0,
+      "passed": true
+    },
+    {
+      "name": "CAMB_provenance_protocol_sha256",
+      "value": 0.0,
+      "threshold": 0,
+      "passed": true
+    },
+    {
+      "name": "CAMB_provenance_input_note_sha256",
+      "value": 0.0,
+      "threshold": 0,
+      "passed": true
+    },
+    {
+      "name": "CAMB_npz_csv_k_h_mpc",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "CAMB_npz_csv_pk_z49_mpc_over_h3",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "CAMB_npz_csv_pk_z0_mpc_over_h3",
+      "value": 0.0,
+      "threshold": 1e-14,
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "results/background_eps0.csv": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0",
+    "results/background_eps1e-4.csv": "2f6fc8ea8e1b24cb87b41129d30005030488da0bb20974625187a8936942ef13",
+    "results/background_eps1e-2.csv": "57e49cbb049ebb66ca4e515869e660bbfe6b81b4f3a8748d564fb625b6498821",
+    "results/background_summary.json": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307",
+    "inputs/reference_spectrum_metadata.json": "dcd7b753dea4b52a18158d18adb8bc321e4a2628ec27075f8f2c9ee940e487dc"
+  },
+  "code_sha256": "5bc73a68d4c120a870ba2f8c2c4c7685724a57a8e375e40bb2b5da5ffe768a4e",
+  "passed": 33,
+  "total": 33,
+  "failures": []
+}

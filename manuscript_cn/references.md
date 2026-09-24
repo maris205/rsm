@@ -215,3 +215,15 @@
 <a id="r54"></a>
 
 **[54]** Baumann, D. TASI Lectures on Inflation. 作者讲义（2009，2012修订），第5—6节及第12节。[arXiv:0907.5424v2](https://arxiv.org/abs/0907.5424v2)；[DOI: 10.48550/arXiv.0907.5424](https://doi.org/10.48550/arXiv.0907.5424)。
+
+<a id="r55"></a>
+
+**[55]** Lewis, A., Challinor, A., and Lasenby, A. Efficient Computation of CMB Anisotropies in Closed FRW Models. *The Astrophysical Journal* **538**, 473–476 (2000). [DOI: 10.1086/309179](https://doi.org/10.1086/309179)；[作者预印本](https://arxiv.org/abs/astro-ph/9911177)；[CAMB官方接口与单位文档](https://camb.readthedocs.io/en/latest/camb.html)，2026-09-24查阅。本轮使用CAMB 2.0.4生成声明参数下的外部标准线性物质谱，不将其归作RSM的原初谱预测。
+
+<a id="r56"></a>
+
+**[56]** Springel, V., Pakmor, R., Zier, O., and Reinecke, M. Simulating cosmic structure formation with the GADGET-4 code. *Monthly Notices of the Royal Astronomical Society* **506**, 2871–2949 (2021). [作者原文，第4—5节](https://arxiv.org/html/2010.03567v3)；[DOI: 10.1093/mnras/stab1855](https://doi.org/10.1093/mnras/stab1855)。本文借用标准共动引力与时间推进的物理接口，未执行GADGET-4，也不主张本次PM实现具有同等分辨率或完整物理内容。
+
+<a id="r57"></a>
+
+**[57]** 本项目研究记录. 宇宙年龄、正则时钟与无碰撞引力聚类的最小连接（2026-09-24）。未单独发表的数值实验；[协议与复现入口](../experiments/cosmic_bridge_v01/README.md)、[结果与适用范围](../experiments/cosmic_bridge_v01/reports/results_cn.md)。标准背景参数及CAMB初谱为输入，采用共同初态检验后期连接；没有重新拟合观测。

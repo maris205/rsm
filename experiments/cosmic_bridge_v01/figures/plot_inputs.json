@@ -1,0 +1,286 @@
+{
+  "scope": "Saved conditional background and PM results; no simulation or fit during plotting.",
+  "protocol_sha256": "74a2cab351d53f98169b885542d23d18b4d425c6fd6b75b91b49f5c53422e2e1",
+  "generator_sha256": "1a0426ea279b6ce4938e55d72485191dcf7694822a01a71aa4c3fec14748f50e",
+  "font": "Droid Sans Fallback",
+  "inputs": {
+    "experiments/cosmic_bridge_v01/protocol.md": {
+      "sha256": "74a2cab351d53f98169b885542d23d18b4d425c6fd6b75b91b49f5c53422e2e1",
+      "bytes": 5433
+    },
+    "experiments/cosmic_bridge_v01/results/background_eps0.csv": {
+      "sha256": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0",
+      "bytes": 994355
+    },
+    "experiments/cosmic_bridge_v01/results/background_eps1e-4.csv": {
+      "sha256": "2f6fc8ea8e1b24cb87b41129d30005030488da0bb20974625187a8936942ef13",
+      "bytes": 1309997
+    },
+    "experiments/cosmic_bridge_v01/results/background_summary.json": {
+      "sha256": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307",
+      "bytes": 51495
+    },
+    "experiments/cosmic_bridge_v01/results/clustering_summary.json": {
+      "sha256": "2445b60dbf7fc98176caff87bca82ae83e5f23f56092ea2aba067b0a8a9333c1",
+      "bytes": 23933
+    },
+    "experiments/cosmic_bridge_v01/inputs/reference_linear_spectrum.npz": {
+      "sha256": "e2f66b8f4c4ea7cf682ac31a3ea9f2578cadc5fefc7b3cb8cf5d9d34494d2ef2",
+      "bytes": 48977
+    },
+    "experiments/cosmic_bridge_v01/inputs/reference_spectrum_metadata.json": {
+      "sha256": "dcd7b753dea4b52a18158d18adb8bc321e4a2628ec27075f8f2c9ee940e487dc",
+      "bytes": 7125
+    },
+    "experiments/cosmic_bridge_v01/results/reference_n64_s256.npz": {
+      "sha256": "a477e27fe8a1d4c4ab7cb981359c2374668d6c6ff5b2281873a7688c61c131d3",
+      "bytes": 4859662
+    },
+    "experiments/cosmic_bridge_v01/results/clock_n64_s256.npz": {
+      "sha256": "77fe543174823aff9a7bd276579bab43d2e15401a1a5f9b01bbf7c876892264b",
+      "bytes": 4859570
+    },
+    "experiments/cosmic_bridge_v01/results/reference_n64_s128.npz": {
+      "sha256": "7492e8079c8858563130090a1689541256604098230f941a68f2c36bec788f6f",
+      "bytes": 4859444
+    },
+    "experiments/cosmic_bridge_v01/results/clock_n64_s128.npz": {
+      "sha256": "ec8658ff4befef974ab36a2a785d5b16f56fbdc23850b2abd3eb826e808d7b6e",
+      "bytes": 4859591
+    },
+    "experiments/cosmic_bridge_v01/results/reference_n64_s512.npz": {
+      "sha256": "71872291ebb8dbbab3de80f555b9586ad43f1a359f74666b24941c4c1ef0633d",
+      "bytes": 4859529
+    },
+    "experiments/cosmic_bridge_v01/results/clock_n64_s512.npz": {
+      "sha256": "d376c57859efe9f94697d627df65f828fb904018540b2da655f86ff056945516",
+      "bytes": 4859584
+    },
+    "experiments/cosmic_bridge_v01/results/reference_n32_s256.npz": {
+      "sha256": "f28dd062bb2c92cd5cab455911bbb836fd1b2597171c14f6695c4208822bd9a8",
+      "bytes": 623527
+    },
+    "experiments/cosmic_bridge_v01/results/clock_n32_s256.npz": {
+      "sha256": "92785887cd4cfd793b3914e0b467f291e2bbef2c7643b55a83b8fa4f1f01207e",
+      "bytes": 623443
+    }
+  },
+  "readout": {
+    "main_density_snapshots": [
+      {
+        "a": 0.1,
+        "z": 9.0,
+        "age_Gyr": 0.5424923132234343,
+        "projection_mean_before_normalization": 0.9999999996798579,
+        "zero_pixels_masked": 0,
+        "log_projection_min": -0.10349596366487496,
+        "log_projection_max": 0.09616580661256566
+      },
+      {
+        "a": 0.5,
+        "z": 1.0,
+        "age_Gyr": 5.840552552077936,
+        "projection_mean_before_normalization": 1.000000000167347,
+        "zero_pixels_masked": 0,
+        "log_projection_min": -0.5364175629937006,
+        "log_projection_max": 0.8369492841755505
+      },
+      {
+        "a": 1.0,
+        "z": 0.0,
+        "age_Gyr": 13.790399059682949,
+        "projection_mean_before_normalization": 1.0000000002291927,
+        "zero_pixels_masked": 0,
+        "log_projection_min": -0.7275426393115715,
+        "log_projection_max": 1.2800843331442844
+      }
+    ],
+    "common_log_colour_limits": [
+      -1.2800843331442844,
+      1.2800843331442844
+    ],
+    "response_initial_and_final": [
+      1.0843616107179717,
+      1.0
+    ],
+    "matched_linear_growth_fractional_final": -0.00014528613144160207,
+    "age_assignment": "linear interpolation in saved ln(a) table; no background re-integration",
+    "projection_orientation": "array.T puts the original x-index horizontally and y-index vertically"
+  },
+  "paired_power_responses": {
+    "n64_s256": {
+      "k_h_mpc": [
+        0.16036478039875368,
+        0.28033098430515146,
+        0.3938500551132636,
+        0.5102675064649091,
+        0.6405811884796118,
+        0.7693041878971126,
+        0.8886614688766801,
+        1.008461087795431,
+        1.138185124682304,
+        1.2683684555081185,
+        1.3899975675633591,
+        1.5116256737072093,
+        1.6392536275366998,
+        1.7660451915191844,
+        1.8870421041656986,
+        2.011199915671185
+      ],
+      "fractional_response": [
+        -0.00026515866632692564,
+        -0.0002866946167848772,
+        -0.0003579787714568239,
+        -0.00036649909751718113,
+        -0.00038178376169240025,
+        -0.0003848252524779605,
+        -0.0005081786405860544,
+        -0.0005296412801549799,
+        -0.0006036761500829435,
+        -0.0005497879159422903,
+        -0.0005753768231272494,
+        -0.000546773435333936,
+        -0.0005470652181891467,
+        -0.0005057679693195594,
+        -0.0004756423242586738,
+        -0.0004879833380607712
+      ]
+    },
+    "n64_s128": {
+      "k_h_mpc": [
+        0.16036478039875368,
+        0.28033098430515146,
+        0.3938500551132636,
+        0.5102675064649091,
+        0.6405811884796118,
+        0.7693041878971126,
+        0.8886614688766801,
+        1.008461087795431,
+        1.138185124682304,
+        1.2683684555081185,
+        1.3899975675633591,
+        1.5116256737072093,
+        1.6392536275366998,
+        1.7660451915191844,
+        1.8870421041656986,
+        2.011199915671185
+      ],
+      "fractional_response": [
+        -0.0002651142041503185,
+        -0.00028661021644971196,
+        -0.00035782484491564404,
+        -0.00036626818223040036,
+        -0.0003816513234550234,
+        -0.0003846822507067582,
+        -0.0005079392729975263,
+        -0.0005290027146018783,
+        -0.0006026846100840588,
+        -0.0005484175375353173,
+        -0.0005738358394934417,
+        -0.0005451042217744506,
+        -0.0005452733459451187,
+        -0.000504404491563637,
+        -0.00047419444648777453,
+        -0.0004872617506767041
+      ]
+    },
+    "n64_s512": {
+      "k_h_mpc": [
+        0.16036478039875368,
+        0.28033098430515146,
+        0.3938500551132636,
+        0.5102675064649091,
+        0.6405811884796118,
+        0.7693041878971126,
+        0.8886614688766801,
+        1.008461087795431,
+        1.138185124682304,
+        1.2683684555081185,
+        1.3899975675633591,
+        1.5116256737072093,
+        1.6392536275366998,
+        1.7660451915191844,
+        1.8870421041656986,
+        2.011199915671185
+      ],
+      "fractional_response": [
+        -0.0002651682803118671,
+        -0.00028670813365183623,
+        -0.00035800292741883233,
+        -0.00036652698445849285,
+        -0.00038180156314560065,
+        -0.000384889232780794,
+        -0.000508255103042643,
+        -0.0005297721947888911,
+        -0.0006038143065288937,
+        -0.0005498577706014585,
+        -0.0005753704808558746,
+        -0.0005466633391307818,
+        -0.0005469565017010014,
+        -0.0005057835809957334,
+        -0.000475676855188345,
+        -0.00048801960017541557
+      ]
+    },
+    "n32_s256": {
+      "k_h_mpc": [
+        0.16036478039875368,
+        0.28033098430515146,
+        0.39385005511326254,
+        0.5102675064649086,
+        0.640581188479612,
+        0.7693041878971071,
+        0.8886614688766418,
+        1.0084610877954154,
+        1.1381851246823005,
+        1.2683684555081371,
+        1.389997567563305,
+        1.5116256737073193,
+        1.6392536275367748,
+        1.766045191519346,
+        1.887042104165503,
+        2.0098231956115087
+      ],
+      "fractional_response": [
+        -0.0002674047744523067,
+        -0.0002914140754985972,
+        -0.0003661584435492582,
+        -0.00037774931595913053,
+        -0.00040703978359968307,
+        -0.0004221855498653948,
+        -0.0005330921157833401,
+        -0.0005402754133381205,
+        -0.0005909625058032608,
+        -0.0005086421919466844,
+        -0.0005208125493154636,
+        -0.0004870103556761096,
+        -0.0004661743443573618,
+        -0.0004575980542212976,
+        -0.0003951346511805731,
+        -0.0003286761849999875
+      ]
+    }
+  },
+  "outputs": {
+    "manuscript_cn/figures/chapter04_cosmic_bridge_cn.pdf": {
+      "sha256": "ebc41c425b25275d7c02591afa680e99c0dd04f0cd76ed790df254d859b39410",
+      "bytes": 62271
+    },
+    "manuscript_cn/figures/chapter04_cosmic_bridge_cn.png": {
+      "sha256": "7ad7092280d85cd50c057e20060f0e53472391897ee7e7c29960ec5966ad9277",
+      "bytes": 322702
+    },
+    "manuscript_cn/figures/chapter04_cosmic_bridge_cn.svg": {
+      "sha256": "f4c2f6ff091e0e860d25a9ba435946006cf7b131834d776cfc8379ef477ccf53",
+      "bytes": 222945
+    },
+    "experiments/cosmic_bridge_v01/figures/matter_power_diagnostics.pdf": {
+      "sha256": "3c1c127544690f9e71eb4ee1b2f0187adeb914fad6b3f6aeeccbd508091e721e",
+      "bytes": 41219
+    },
+    "experiments/cosmic_bridge_v01/figures/matter_power_diagnostics.png": {
+      "sha256": "a3ddcca259d7f84e2227b7b876ea760fdea001c53834abe0c80ab6d9bbbad3dc",
+      "bytes": 342399
+    }
+  }
+}
