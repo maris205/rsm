@@ -4,7 +4,9 @@
 
 ## 当前写作任务：按原文逐章细化中文稿
 
-2026-09-23，用户进一步明确保持原文总体构建及章节设计，一章一章对应。[中文逐章稿](manuscript_cn/README.md)保留原第0—9章顺序，现已写出[摘要](manuscript_cn/abstract.md)、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)、[第2章算术来源](manuscript_cn/chapters/02_source_code.md)、[第3章同步架构](manuscript_cn/chapters/03_cosmic_lockstep.md)、[第4章数学框架](manuscript_cn/chapters/04_mathematical_framework.md)及[第5章观测约束](manuscript_cn/chapters/05_observational_evidence.md)，完成各章对应说明和十一幅矢量图。[累计稿PDF](manuscript_cn/paper.pdf)共46页，含42条参考文献。第5章保留5.1—5.4及全部14个三级小节，使用已有常数、光谱、校准距离及CMB结果，报告零相容、模型比较和保留区失败；四图及小型来源快照可在本仓库复现。下一步写第6章“预测与解释”，把原量子、真空、引力与波粒设想接到已明确的模型与检验条件；当前没有把第6—9章计划计为完成。
+2026-09-24，继续保持原文总体构建及章节设计，一章一章对应。[中文逐章稿](manuscript_cn/README.md)保留原第0—9章顺序，现已写出[摘要](manuscript_cn/abstract.md)、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)、[第2章算术来源](manuscript_cn/chapters/02_source_code.md)、[第3章同步架构](manuscript_cn/chapters/03_cosmic_lockstep.md)、[第4章数学框架](manuscript_cn/chapters/04_mathematical_framework.md)、[第5章观测约束](manuscript_cn/chapters/05_observational_evidence.md)及[第6章预测与解释](manuscript_cn/chapters/06_predictions_interpretations.md)，完成各章对应说明和十一幅矢量图。[累计稿PDF](manuscript_cn/paper.pdf)共53页，含49条参考文献。第6章保留6.1—6.5及全部13个三级小节，新增14个公式和一张检验表，分开采样与量子结构、数值残差与真空源、共同钟速与物质响应，提出共同时间函数的交叉检验。没有新增科学拟合。下一步写第7章“黎曼引擎设计”，对照实际代码落实状态、更新、读出和验证；当前没有把第7—9章计划计为完成。
+
+[摘要及第0—5章首轮审阅](reports/manuscript_cn_body_review_20260923.md)中的整体修订另列待办，Hubble完整校准扩展的公开复现入口尚未补齐；新增第6章不表示该报告全部建议已处理。
 
 以下七章稿作为已完成技术材料纳入原章相应位置。逐章中文写作是当前任务；新的数值突破仍按已有研究计划另行推进，本轮没有重跑科学计算。
 

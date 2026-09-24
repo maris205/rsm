@@ -325,6 +325,9 @@ def main() -> None:
     # names (such as HE 0515−4414), which the Chinese body font lacks.
     tex = re.sub(r"[\u00c0-\u024f\u2013\u2212]", lambda match: r"{\latinfont " + match.group(0) + "}", tex)
     tex = tex.replace(r"\(", r"\allowbreak{}\(").replace(r"\)", r"\)\allowbreak{}")
+    # Keep closing punctuation with its preceding inline formula; an
+    # unconditional break opportunity can strand a Chinese full stop.
+    tex = re.sub(r"(\\\))\\allowbreak\{\}(?=[。，、；：？！）》」』])", r"\1\\nobreak{}", tex)
     # A leading break penalty would become the first vertical item in a
     # top-aligned table minipage and lower an otherwise single-line math cell.
     tex = re.sub(r"(\\raggedright\s*)\\allowbreak\{\}", r"\1", tex)

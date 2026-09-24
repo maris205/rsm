@@ -4,7 +4,7 @@
 
 “黎曼标准模型”（RSM）沿用原稿自拟名称，指这里提出的假设框架，不表示已经建立与粒子物理标准模型同等地位的理论。工作副标题为“基于离散同步演化的计算宇宙假说”。
 
-**当前完成：** [中文摘要](abstract.md)、[第0章介绍](chapters/00_introduction.md)、[第1章物理动机](chapters/01_system_anomaly.md)、[第2章算术来源](chapters/02_source_code.md)、[第3章同步架构](chapters/03_cosmic_lockstep.md)、[第4章数学框架](chapters/04_mathematical_framework.md)、[第5章观测约束](chapters/05_observational_evidence.md)、两张[总览图](figures/captions.md)、三张[第2章图](figures/captions_chapter02.md)、一张[第3章图](figures/captions_chapter03.md)、一张[第4章图](figures/captions_chapter04.md)及四张[第5章图](figures/captions_chapter05.md)。[累计阅读版](paper.md)和[单栏PDF（46页）](paper.pdf)包含这些内容、目录及42条参考文献。原[摘要与图的三页版](front_matter.pdf)继续保留。第6—9章尚未在本目录逐章改写；下一步是第6章，不把章节计划计为已完成正文。
+**当前完成：** [中文摘要](abstract.md)、[第0章介绍](chapters/00_introduction.md)、[第1章物理动机](chapters/01_system_anomaly.md)、[第2章算术来源](chapters/02_source_code.md)、[第3章同步架构](chapters/03_cosmic_lockstep.md)、[第4章数学框架](chapters/04_mathematical_framework.md)、[第5章观测约束](chapters/05_observational_evidence.md)、[第6章预测与解释](chapters/06_predictions_interpretations.md)、两张[总览图](figures/captions.md)、三张[第2章图](figures/captions_chapter02.md)、一张[第3章图](figures/captions_chapter03.md)、一张[第4章图](figures/captions_chapter04.md)及四张[第5章图](figures/captions_chapter05.md)。[累计阅读版](paper.md)和[单栏PDF（53页）](paper.pdf)包含这些内容、目录及49条参考文献。原[摘要与图的三页版](front_matter.pdf)继续保留。第7—9章尚未在本目录逐章改写；下一步是第7章，不把章节计划计为已完成正文。
 
 [摘要与原版的对应说明](notes/abstract_alignment.md)记录保留的想法、修订的结论强度、逆对数指数变化及原图处理安排。
 
@@ -20,7 +20,9 @@
 
 [第5章对应说明](notes/chapter05_alignment.md)保留原5.1—5.4及14个三级小节，以实际观测约束重写原四图主线；纳入精细结构常数与光钟联合结果、光谱系统诊断、校准距离比较、CMB保留区结果及前瞻设计。新增16个公式、四张重绘图、两张结果表和7条参考条目；没有重新拟合观测。[绘图来源快照](../reports/chapter05_sources/README.md)记录小型输入的来源、版本含义和文件哈希。
 
-[正文首轮审阅](../reports/manuscript_cn_body_review_20260923.md)覆盖摘要及第0—5章，基准为`ac39f8c`。报告给出逐项定位、证据和最小修正，保留原章节设计；重点包括Hubble扩展的公开复现入口、贡献与候选对应、结果的方法定义及独立论文的组织。此轮为只读科学审阅，正文、图件及PDF仍保持审阅基准版本。
+[第6章对应说明](notes/chapter06_alignment.md)保留原6.1—6.5及13个三级小节，区分工程直觉、候选机制和已知物理基准，接入弱场钟速／空间响应及共同逆对数读数的交叉检验。新增14个公式、一张检验表及7条参考条目；原章没有图件，本次也未新增图或科学拟合。
+
+[正文首轮审阅](../reports/manuscript_cn_body_review_20260923.md)覆盖摘要及第0—5章，基准为`ac39f8c`。报告给出逐项定位、证据和最小修正，保留原章节设计；重点包括Hubble扩展的公开复现入口、贡献与候选对应、结果的方法定义及独立论文的组织。该轮为只读科学审阅；第0—5章科学正文及图件保持原样，整体修订清单尚未执行。当前累计PDF已另行加入第6章。
 
 ## 与此前七章稿的关系
 
@@ -39,11 +41,11 @@
 | [第3章 Cosmic Lockstep Architecture](../chapters/04_chapter_03_cosmic_lockstep.md) | 形式化：宇宙同步架构 | **已完成[中文稿](chapters/03_cosmic_lockstep.md)**；保留3.1—3.4，接入场—时钟的共同更新，明确逻辑依赖、物理传播与测量条件。 |
 | [第4章 Mathematical Framework](../chapters/05_chapter_04_mathematical_framework.md) | 数学框架：辛演化与离散—连续映射 | **已完成[中文稿](chapters/04_mathematical_framework.md)**；保留4.1—4.4及11个三级小节，给出辛更新、完整反馈、条件晚时与长波推导，区分空间、时间和字长误差。 |
 | [第5章 Observational Evidence](../chapters/06_chapter_05_observational_evidence.md) | 观测证据与约束：时间响应的检验 | **已完成[中文稿](chapters/05_observational_evidence.md)**；保留5.1—5.4及14个三级小节，融入四项目条件结果、近期数据进展与前瞻检验，重画原四图。 |
-| [第6章 Predictions & Interpretations](../chapters/07_chapter_06_predictions_interpretations.md) | 预测与解释 | **下一章**；对应原量子、真空、引力与波粒设想，逐项说明需要的机制和可能检验。 |
-| [第7章 Riemann Engine Design v1.0](../chapters/08_chapter_07_engine_design.md) | 黎曼引擎设计 v1.0 | ECS、状态更新及现有计算代码；工程架构和物理本体假说分别定义。 |
+| [第6章 Predictions & Interpretations](../chapters/07_chapter_06_predictions_interpretations.md) | 预测与解释：从计算直觉到物理条件 | **已完成[中文稿](chapters/06_predictions_interpretations.md)**；保留6.1—6.5及13个三级小节，提出条件接口和共同响应检验，明确已有理论基准与新增候选。 |
+| [第7章 Riemann Engine Design v1.0](../chapters/08_chapter_07_engine_design.md) | 黎曼引擎设计 v1.0 | **下一章**；ECS、状态更新及现有计算代码，工程架构和物理本体假说分别定义。 |
 | [第8章 Simulation Case Studies](../chapters/09_chapter_08_simulation_case_studies.md) | 模拟案例与系统验证 | 七章技术稿第5章、附录B及各实验报告；保留误差、未检出和失败记录。 |
 | [第9章 Conclusion](../chapters/10_chapter_09_conclusion.md) | 结论：从几何描述到计算构想 | 汇总各章所得，原远期展望按可检验性逐项处理。 |
-| [References](../chapters/11_references.md) | 参考文献 | 已建立[中文稿参考表](references.md)，按当前实际引用纳入42条；原表与技术稿书目继续作为来源。 |
+| [References](../chapters/11_references.md) | 参考文献 | 已建立[中文稿参考表](references.md)，按当前实际引用纳入49条；原表与技术稿书目继续作为来源。 |
 | [Acknowledgments](../chapters/12_acknowledgments.md) | 致谢 | 完稿时按实际贡献与作者信息处理。 |
 
 ## 构建

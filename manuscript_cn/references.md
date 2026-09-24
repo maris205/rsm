@@ -167,3 +167,31 @@
 <a id="r42"></a>
 
 **[42]** Scolnic, D., et al. The Pantheon+ Analysis: The Full Data Set and Light-curve Release. *The Astrophysical Journal* **938**(2), 113 (2022). [DOI: 10.3847/1538-4357/ac8b7a](https://doi.org/10.3847/1538-4357/ac8b7a)；[作者预印本](https://arxiv.org/abs/2112.03863)。
+
+<a id="r43"></a>
+
+**[43]** Shannon, C. E. Communication in the Presence of Noise. *Proceedings of the IRE* **37**(1), 10–21 (1949). [DOI: 10.1109/JRPROC.1949.232969](https://doi.org/10.1109/JRPROC.1949.232969)；[MIT保存的原文](https://fab.cba.mit.edu/classes/S62.12/docs/Shannon_noise.pdf)。
+
+<a id="r44"></a>
+
+**[44]** Gromov, M. Pseudo holomorphic curves in symplectic manifolds. *Inventiones Mathematicae* **82**, 307–347 (1985). [DOI: 10.1007/BF01388806](https://doi.org/10.1007/BF01388806)；[作者提供的原文](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/945.pdf)。
+
+<a id="r45"></a>
+
+**[45]** Robertson, H. P. The Uncertainty Principle. *Physical Review* **34**, 163–164 (1929). [DOI: 10.1103/PhysRev.34.163](https://doi.org/10.1103/PhysRev.34.163)。
+
+<a id="r46"></a>
+
+**[46]** Hensen, B., et al. Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres. *Nature* **526**, 682–686 (2015). [DOI: 10.1038/nature15759](https://doi.org/10.1038/nature15759)。
+
+<a id="r47"></a>
+
+**[47]** Bothwell, T., et al. Resolving the gravitational redshift across a millimetre-scale atomic sample. *Nature* **602**, 420–424 (2022). [DOI: 10.1038/s41586-021-04349-7](https://doi.org/10.1038/s41586-021-04349-7)。
+
+<a id="r48"></a>
+
+**[48]** Bertotti, B., Iess, L., and Tortora, P. A test of general relativity using radio links with the Cassini spacecraft. *Nature* **425**, 374–376 (2003). [DOI: 10.1038/nature01997](https://doi.org/10.1038/nature01997)。
+
+<a id="r49"></a>
+
+**[49]** Englert, B.-G. Fringe Visibility and Which-Way Information: An Inequality. *Physical Review Letters* **77**, 2154–2157 (1996). [DOI: 10.1103/PhysRevLett.77.2154](https://doi.org/10.1103/PhysRevLett.77.2154)；[期刊全文](https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.77.2154/fulltext)。
