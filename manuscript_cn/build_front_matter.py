@@ -36,6 +36,8 @@ def main() -> None:
     BUILD.mkdir(parents=True, exist_ok=True)
     abstract = (ROOT / "abstract.md").read_text().strip()
     title, subtitle, date, body = abstract.split("\n\n", 3)
+    date = "中文摘要与总览图 · " + date.rsplit(" · ", 1)[-1]
+    abstract = "\n\n".join([title, subtitle, date, body])
     title = title.removeprefix("# ")
     subtitle = subtitle.strip("*")
     captions = (ROOT / "figures" / "captions.md").read_text().strip()
@@ -75,8 +77,8 @@ def main() -> None:
     source.write_text(pdf_source)
     template_source = REPO / "manuscript_v01" / "typeset" / "paper.tex"
     template = BUILD / "template.tex"
-    template.write_text(template_source.read_text().replace("中文完整初稿", "中文逐章修订：摘要与总览图"))
-    run(["pandoc", str(source), "--from=markdown-implicit_figures", "--to=latex",
+    template.write_text(template_source.read_text().replace("中文完整初稿", "中文摘要与总览图"))
+    run(["pandoc", str(source), "--from=markdown-implicit_figures", "--to=latex-smart",
          "--standalone", "--template", str(template), "--metadata", f"title={title}",
          "--metadata", f"subtitle={subtitle}", "--metadata", f"date={date}",
          "--output", "front_matter.tex"], "pandoc.log")

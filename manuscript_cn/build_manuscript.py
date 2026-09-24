@@ -56,10 +56,16 @@ def rebase(text: str, source: Path) -> str:
     return re.sub(r"(!?\[[^\]]*\])\(([^)]+)\)", replace, text)
 
 
-def assemble() -> tuple[str, list[Path], list[Path]]:
+def manuscript_status(chapters: list[Path]) -> str:
+    complete = [int(path.name[:2]) for path in chapters] == list(range(10))
+    return "中文完整初稿" if complete else "中文逐章修订累计稿"
+
+
+def assemble() -> tuple[str, list[Path], list[Path], list[Path]]:
     abstract_path = ROOT / "abstract.md"
     captions_path = ROOT / "figures" / "captions.md"
     references_path = ROOT / "references.md"
+    back_matter = [path for path in (ROOT / "acknowledgments.md",) if path.is_file()]
     chapters = sorted((ROOT / "chapters").glob("[0-9][0-9]_*.md"))
     if not chapters or not references_path.is_file():
         raise FileNotFoundError("At least one completed chapter and references.md are required")
@@ -67,7 +73,10 @@ def assemble() -> tuple[str, list[Path], list[Path]]:
     title, subtitle, date, body = abstract.split("\n\n", 3)
     chapter_numbers = [str(int(path.name[:2])) for path in chapters]
     coverage = "第 " + "、".join(chapter_numbers) + " 章"
-    date = re.sub(r" · 摘要(?= ·|$)", f" · 累计稿（已完成{coverage}）", date)
+    status = manuscript_status(chapters)
+    if status != "中文完整初稿":
+        status += f"（已完成{coverage}）"
+    date = status + " · " + date.rsplit(" · ", 1)[-1]
     captions = captions_path.read_text()
     figures = re.findall(r"^## 图 [AB]：[^\n]+\n.*?(?=^## |\Z)", captions, flags=re.M | re.S)
     if len(figures) != 2:
@@ -76,9 +85,10 @@ def assemble() -> tuple[str, list[Path], list[Path]]:
     pieces.extend(rebase(block.strip(), captions_path) for block in figures)
     pieces.extend(rebase(path.read_text().strip(), path) for path in chapters)
     pieces.append(rebase(references_path.read_text().strip(), references_path))
+    pieces.extend(rebase(path.read_text().strip(), path) for path in back_matter)
     text = "\n\n".join(pieces) + "\n"
     (ROOT / "paper.md").write_text(text)
-    return text, [abstract_path, captions_path, *chapters, references_path], chapters
+    return text, [abstract_path, captions_path, *chapters, references_path, *back_matter], chapters, back_matter
 
 
 def inline_text(value) -> str:
@@ -96,7 +106,7 @@ def inline_text(value) -> str:
     return inline_text(contents)
 
 
-def prepare_ast(text: str, chapters: list[Path]):
+def prepare_ast(text: str, chapters: list[Path], back_matter: list[Path]):
     ast = json.loads(run(["pandoc", "--from=markdown-implicit_figures", "--to=json"],
                          stdin=text, log="parse.log"))
     blocks = ast["blocks"]
@@ -169,7 +179,7 @@ def prepare_ast(text: str, chapters: list[Path]):
             if not path.is_file():
                 raise FileNotFoundError(f"Broken manuscript link: {target}")
             replacement = None
-            if path in chapters:
+            if path in [*chapters, *back_matter]:
                 title = next(line[2:].strip() for line in path.read_text().splitlines()
                              if line.startswith("# "))
                 if title in headers:
@@ -242,7 +252,8 @@ def compiler() -> list[str]:
     return [executable, "-progname=xelatex", f"-fmt={fmt}"]
 
 
-def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str], images: list[dict]) -> dict:
+def validate_pdf(path: Path, text: str, chapters: list[Path], back_matter: list[Path],
+                 anchors: list[str], images: list[dict]) -> dict:
     import fitz
     with fitz.open(path) as document:
         extracted = "\n".join(page.get_text() for page in document)
@@ -253,11 +264,19 @@ def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str]
         tags = re.findall(r"\\tag\{([^}]+)\}", text)
         missing_tags = [tag for tag in tags if f"({tag})" not in compact]
         expected = ["黎曼标准模型", "摘要", "关键词", "图A", "图B", "目录", "参考文献"]
-        for chapter in chapters:
+        for chapter in [*chapters, *back_matter]:
             expected.extend(re.sub(r"^#+\s+", "", line).replace(" ", "")
                             for line in chapter.read_text().splitlines()
                             if re.match(r"^#{1,2} ", line))
         missing_headings = [heading for heading in expected if heading not in compact]
+        # Back matter is a named, unnumbered section after References, never an
+        # extra completed chapter. Check actual PDF bookmark order as well.
+        section_sources = [*chapters, ROOT / "references.md", *back_matter]
+        expected_sections = [next(line[2:].strip() for line in source.read_text().splitlines()
+                                  if line.startswith("# ")) for source in section_sources]
+        actual_sections = [entry[1] for entry in document.get_toc()
+                           if entry[0] == 1 and entry[1] in expected_sections]
+        section_order_valid = actual_sections == expected_sections
         # XeTeX embeds each PDF figure as a reusable form XObject, preserving vectors.
         xobjects = {entry[0] for page in document for entry in page.get_xobjects()}
         tex = (BUILD / "paper.tex").read_text()
@@ -282,6 +301,9 @@ def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str]
         front_pages = [figure["page"] for figure in figure_checks[:2]]
         expected_vector_sources = {image["path"] for image in images if image["path"].lower().endswith(".pdf")}
         checks = dict(completed_chapters=[path.stem for path in chapters],
+                      manuscript_status=manuscript_status(chapters),
+                      back_matter=[path.stem for path in back_matter],
+                      section_order_valid=section_order_valid,
                       equation_tags=len(tags), missing_equation_tags=missing_tags,
                       missing_headings=missing_headings, reference_anchors=len(anchors),
                       missing_reference_anchors=missing_anchors,
@@ -293,7 +315,7 @@ def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str]
                       front_matter_figure_pages=front_pages,
                       embedded_figures=figure_checks, missing_figures=missing_figures,
                       no_invented_author=not bool(document.metadata.get("author")))
-        if (bad_links or missing_tags or missing_headings or missing_anchors or unresolved_anchors
+        if (not section_order_valid or bad_links or missing_tags or missing_headings or missing_anchors or unresolved_anchors
                 or missing_figures or len(xobjects) < len(expected_vector_sources) or front_pages != [2, 3]):
             raise RuntimeError(f"PDF validation failed: {checks}")
         (BUILD / "paper_text.txt").write_text(extracted)
@@ -302,16 +324,16 @@ def validate_pdf(path: Path, text: str, chapters: list[Path], anchors: list[str]
 
 def main() -> None:
     BUILD.mkdir(parents=True, exist_ok=True)
-    text, inputs, chapters = assemble()
+    text, inputs, chapters, back_matter = assemble()
     input_hashes = {path: digest(path) for path in inputs}
-    ast, images, links, anchors = prepare_ast(text, chapters)
+    ast, images, links, anchors = prepare_ast(text, chapters, back_matter)
     for image in images:
         input_hashes[REPO / image["source_path"]] = image["source_sha256"]
         input_hashes[REPO / image["path"]] = image["sha256"]
     ast_path = BUILD / "paper_ast.json"
     ast_path.write_text(json.dumps(ast, ensure_ascii=False))
     template = BUILD / "template.tex"
-    template_text = TEMPLATE_SOURCE.read_text().replace("中文完整初稿", "中文逐章修订累计稿")
+    template_text = TEMPLATE_SOURCE.read_text().replace("中文完整初稿", manuscript_status(chapters))
     # The legacy \hbar macro takes its overbar from the text Roman family,
     # whose Chinese font lacks U+00AF. Use the existing AMS mathematical
     # glyph instead; this preserves \hbar in all manuscript source files.
@@ -348,7 +370,7 @@ def main() -> None:
               if line.startswith(("Missing character:", "Overfull \\"))]
     if issues:
         raise RuntimeError("Typesetting requires correction: " + "\n".join(issues))
-    report = validate_pdf(BUILD / "paper.pdf", text, chapters, anchors, images)
+    report = validate_pdf(BUILD / "paper.pdf", text, chapters, back_matter, anchors, images)
     if any(digest(path) != value for path, value in input_hashes.items()):
         raise RuntimeError("A manuscript source changed during rendering; rerun on finished sources")
     shutil.copyfile(BUILD / "paper.pdf", ROOT / "paper.pdf")
