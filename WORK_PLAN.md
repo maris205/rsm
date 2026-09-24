@@ -4,9 +4,9 @@
 
 ## 当前写作任务：按原文逐章细化中文稿
 
-2026-09-24，继续保持原文总体构建及章节设计，一章一章对应。[中文逐章稿](manuscript_cn/README.md)保留原第0—9章顺序，现已写出[摘要](manuscript_cn/abstract.md)、[第0章介绍](manuscript_cn/chapters/00_introduction.md)、[第1章物理动机](manuscript_cn/chapters/01_system_anomaly.md)、[第2章算术来源](manuscript_cn/chapters/02_source_code.md)、[第3章同步架构](manuscript_cn/chapters/03_cosmic_lockstep.md)、[第4章数学框架](manuscript_cn/chapters/04_mathematical_framework.md)、[第5章观测约束](manuscript_cn/chapters/05_observational_evidence.md)、[第6章预测与解释](manuscript_cn/chapters/06_predictions_interpretations.md)及[第7章引擎设计](manuscript_cn/chapters/07_engine_design.md)，完成各章对应说明和十二幅矢量图。[累计稿PDF](manuscript_cn/paper.pdf)共60页，含51条参考文献。第7章保留7.1—7.5及全部10个三级小节，新增5个公式、两张表、一张流程图及与现有代码对应的伪代码，明确实际模块与待实现接口，纳入既有线性终场速度结果及适用范围。没有新增科学拟合、基准计时或统一软件包。下一步写第8章“模拟案例与系统验证”，用已有案例说明数值可信度与模型边界；当前没有把第8—9章计划计为完成。
+2026-09-24，继续保持原文总体构建及章节设计，一章一章对应。[中文逐章稿](manuscript_cn/README.md)保留原第0—9章顺序，现已写出摘要及第0—8章、各章对应说明和十四幅矢量图。[累计稿PDF](manuscript_cn/paper.pdf)共67页，含51条参考文献。本轮[第8章模拟案例与系统验证](manuscript_cn/chapters/08_simulation_case_studies.md)保留三个案例及9个三级小节，新增6个公式、三张表、两张结果图，串联已有α恢复、固定系数收敛、时钟反馈、自主背景和算术控制；区分数值正确、幅度可检出、形状可识别和真实物理证据。没有新增科学模拟或观测拟合。下一步写第9章结论，完成中文逐章版本，再集中处理全稿组织及重点物理连接；当前未把第9章计划计为完成。
 
-[摘要及第0—5章首轮审阅](reports/manuscript_cn_body_review_20260923.md)中的整体修订另列待办，Hubble完整校准扩展的公开复现入口尚未补齐；新增第6—7章不表示该报告全部建议已处理。
+[摘要及第0—5章首轮审阅](reports/manuscript_cn_body_review_20260923.md)中的整体修订另列待办，Hubble完整校准扩展的公开复现入口尚未补齐；新增第6—8章不表示该报告全部建议已处理。
 
 以下七章稿作为已完成技术材料纳入原章相应位置。逐章中文写作是当前任务；新的数值突破仍按已有研究计划另行推进，本轮没有重跑科学计算。
 
