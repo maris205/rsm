@@ -1,0 +1,140 @@
+{
+  "format": "rsm-chapter04-timeline-plot-snapshot-v1",
+  "source_repository": "https://github.com/maris205/riemann_cmb",
+  "source_commit": "f42db51748003fc83be064dade9bb52de5eb8319",
+  "source_inputs": {
+    "results/lattice_timeline.npz": {
+      "sha256": "1f521898fc4877317e8b90e664995809947d9b4c7e95ae7638ad4279afa4fcf6",
+      "bytes": 60994916,
+      "matches_fixed_commit": true,
+      "url": "https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/results/lattice_timeline.npz"
+    },
+    "results/lattice_timeline.json": {
+      "sha256": "63d3a126d6d90490ee4da6d8234b38809da9cd1abded8b3b9e66b257ca9fcdf3",
+      "bytes": 4745,
+      "matches_fixed_commit": true,
+      "url": "https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/results/lattice_timeline.json"
+    },
+    "reports/timeline_verification.json": {
+      "sha256": "55426249c4d591b5ea6da1ba58cfe0bb5ac1ebe8bd51f894eb04820f5e831e32",
+      "bytes": 8356,
+      "matches_fixed_commit": true,
+      "url": "https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/reports/timeline_verification.json"
+    },
+    "code/run_lattice_timeline.py": {
+      "sha256": "2be2a9c77e3f263d07ec220b122360752ecf6b2d68d47ceeb2eb3ad5ffc6a189",
+      "bytes": 13573,
+      "matches_fixed_commit": true,
+      "url": "https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/code/run_lattice_timeline.py"
+    },
+    "code/verify_lattice_timeline.py": {
+      "sha256": "456294c2a70a790df878c5156264efefdc30b8587d3ff9e36a52736ff17a826d",
+      "bytes": 10291,
+      "matches_fixed_commit": true,
+      "url": "https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/code/verify_lattice_timeline.py"
+    },
+    "code/lattice_transfer.py": {
+      "sha256": "6ed9effd4f9f734715907d4ea3193f31e8169542a378c4fc7a7c52adb570c5b4",
+      "bytes": 7527,
+      "matches_fixed_commit": true,
+      "url": "https://github.com/maris205/riemann_cmb/blob/f42db51748003fc83be064dade9bb52de5eb8319/code/lattice_transfer.py"
+    }
+  },
+  "extraction": {
+    "source_repository": "https://github.com/maris205/riemann_cmb",
+    "source_commit": "f42db51748003fc83be064dade9bb52de5eb8319",
+    "source_npz_sha256": "1f521898fc4877317e8b90e664995809947d9b4c7e95ae7638ad4279afa4fcf6",
+    "source_json_sha256": "63d3a126d6d90490ee4da6d8234b38809da9cd1abded8b3b9e66b257ca9fcdf3",
+    "selection": "snapshots[:, :, :, 48] copied exactly; no interpolation or normalization",
+    "volume_shape": [
+      96,
+      96,
+      96
+    ],
+    "slice_axis": 2,
+    "slice_index": 48,
+    "snapshot_steps": [
+      0,
+      45,
+      70,
+      95
+    ],
+    "shared_colour_limits": [
+      -3.2,
+      3.2
+    ],
+    "units": {
+      "q": "original dimensionless scalar-field units",
+      "variance": "population variance of the entire 96^3 field in original q^2 units",
+      "n": "dimensionless model update index; no cosmic-age calibration"
+    },
+    "moment_columns": [
+      "mean",
+      "variance",
+      "mean_sum_neighbor_difference_squared",
+      "gradient_length_sites",
+      "max_abs_field"
+    ],
+    "phase1": {
+      "p": 2,
+      "A": 0.45,
+      "offset": 10.0,
+      "eta": 0.0,
+      "initial_velocity": "q[-1]=q[0]",
+      "updates": 45
+    },
+    "phase2": {
+      "first_update": 46,
+      "last_update": 95,
+      "velocity_preserved": true,
+      "clip": null,
+      "force": "alpha*q-beta*q^3",
+      "potential": "-alpha*q^2/2+beta*q^4/4",
+      "unit_note": "q is the dimensionless field of the saved reconstruction; it is not matter density"
+    },
+    "old_verification_status": "PASS",
+    "old_verification_checks": [
+      52,
+      52
+    ],
+    "simulation_or_fit_executed_during_extraction": false,
+    "not_included": [
+      "complete 3D fields",
+      "observed or fitted sky pixels",
+      "step-to-age mapping",
+      "matter density or galaxy identification"
+    ]
+  },
+  "checks": {
+    "source_bytes_match_fixed_commit": true,
+    "source_verification_is_bound_to_input_hashes": true,
+    "snapshot_selection_is_exact": true,
+    "full_volume_variance_matches_saved_history": true,
+    "four_branches_share_complete_prefix": true,
+    "summary_final_variances_match_histories": true,
+    "common_colour_scale_does_not_clip_saved_slices": true
+  },
+  "local_files": {
+    "timeline_snapshot.npz": {
+      "sha256": "ea7635e5a870e1abb0fffccc0614fbc3b50f69fdd39bd0554b79645af6d99351",
+      "bytes": 293783
+    },
+    "lattice_timeline_source.json": {
+      "sha256": "63d3a126d6d90490ee4da6d8234b38809da9cd1abded8b3b9e66b257ca9fcdf3",
+      "bytes": 4745
+    },
+    "timeline_verification_source.json": {
+      "sha256": "55426249c4d591b5ea6da1ba58cfe0bb5ac1ebe8bd51f894eb04820f5e831e32",
+      "bytes": 8356
+    },
+    "extract_timeline_snapshot.py": {
+      "sha256": "c36c93c4b8a86896dc973d628f0342742b18006e833a323e1b3efc0e59b0387e",
+      "bytes": 10025
+    },
+    "README.md": {
+      "sha256": "ef82c3fb70360d1128e6d7412b2eeac399c02c9dd1ad1a01e2d4149f044f95d2",
+      "bytes": 4160
+    }
+  },
+  "scope": "Plotting snapshot and byte-identical old summaries; no new simulation or fit."
+}

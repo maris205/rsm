@@ -1,0 +1,369 @@
+{
+  "status": "PASS",
+  "checks_passed": 52,
+  "checks_total": 52,
+  "scope": "Independent Fourier recurrence and Parseval/neighbor-difference diagnostics; complete p2 nonlinear late branch recomputed, other branch endpoints checked but not fully rerun.",
+  "inputs_sha256": {
+    "results/lattice_timeline.json": "63d3a126d6d90490ee4da6d8234b38809da9cd1abded8b3b9e66b257ca9fcdf3",
+    "results/lattice_timeline.npz": "1f521898fc4877317e8b90e664995809947d9b4c7e95ae7638ad4279afa4fcf6",
+    "code/verify_lattice_timeline.py": "456294c2a70a790df878c5156264efefdc30b8587d3ff9e36a52736ff17a826d"
+  },
+  "checks": [
+    {
+      "name": "source_hash:results/sky_fit_full_latent.npz",
+      "passed": true,
+      "detail": {
+        "sha256": "57dfec1714b5bc781af7c5f6430e356d76b710dfd55dfed02cfc95dfe6a58f54"
+      }
+    },
+    {
+      "name": "source_hash:results/sky_fit_summary.json",
+      "passed": true,
+      "detail": {
+        "sha256": "f87c4e3348b57ba5cc9df43fb90061ea71bb6a8ccd9e61d3720113a0226ddded"
+      }
+    },
+    {
+      "name": "source_hash:results/sky_fit_maps.npz",
+      "passed": true,
+      "detail": {
+        "sha256": "6344d808ace33e7f8242141ea2581e3e9ad8e183a65bb8bc13ff2b2134b5d5bd"
+      }
+    },
+    {
+      "name": "source_hash:code/lattice_transfer.py",
+      "passed": true,
+      "detail": {
+        "sha256": "6ed9effd4f9f734715907d4ea3193f31e8169542a378c4fc7a7c52adb570c5b4"
+      }
+    },
+    {
+      "name": "source_hash:code/run_lattice_timeline.py",
+      "passed": true,
+      "detail": {
+        "sha256": "2be2a9c77e3f263d07ec220b122360752ecf6b2d68d47ceeb2eb3ad5ffc6a189"
+      }
+    },
+    {
+      "name": "array_shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "finite_saved_fields_and_histories",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "step_axis",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "snapshot_steps",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "p2_coefficients",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "common_early_history:1",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "common_early_history:2",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "common_early_history:3",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "initial_field_from_saved_latent",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 1.3322676295501878e-15
+      }
+    },
+    {
+      "name": "phase1_fourier_field:44",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 1.6930901125533637e-14
+      }
+    },
+    {
+      "name": "phase1_fourier_field:45",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 1.7180701306074297e-14
+      }
+    },
+    {
+      "name": "every_step_early_moments_parseval",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 7.549516567451064e-15
+      }
+    },
+    {
+      "name": "snapshot_moments:0",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "snapshot_moments:45",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "snapshot_moments:70",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "snapshot_moments:95",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "final_moments:p2_nonlinear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "summary_final_variance:p2_nonlinear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "summary_growth:p2_nonlinear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "final_moments:p2_linear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "summary_final_variance:p2_linear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "summary_growth:p2_linear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "final_moments:p0_nonlinear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "summary_final_variance:p0_nonlinear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "summary_growth:p0_nonlinear",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "final_moments:p2_nonlinear_undamped",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "summary_final_variance:p2_nonlinear_undamped",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "summary_growth:p2_nonlinear_undamped",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "main_final_snapshot_matches_branch",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "initial_variance_summary",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "anchor_variance_summary",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "early_variance_minimum_step",
+      "passed": true,
+      "detail": {
+        "step": 36
+      }
+    },
+    {
+      "name": "early_variance_minimum_value",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "actual_nonlinear_snapshot:70",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 1.6631140908884845e-13
+      }
+    },
+    {
+      "name": "actual_nonlinear_snapshot:95",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 1.7752466163756253e-12
+      }
+    },
+    {
+      "name": "every_step_main_late_moments_fourier",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 2.3092638912203256e-14
+      }
+    },
+    {
+      "name": "preserved_velocity_is_nonzero",
+      "passed": true,
+      "detail": {
+        "backward_velocity_l2": 13.330476818873079
+      }
+    },
+    {
+      "name": "intermediate_is_not_endpoint_average",
+      "passed": true,
+      "detail": {
+        "relative_l2_distance_from_endpoint_average": 0.5237178883782977
+      }
+    },
+    {
+      "name": "constant_control_phase_matching",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "nonlinear_controls_explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_anchor_projection_uK",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 2.1032064978498966e-12
+      }
+    },
+    {
+      "name": "saved_anchor_matches_prior_fit",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 1.7426060594516457e-12
+      }
+    },
+    {
+      "name": "observed_anchor_unchanged",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "observation_mask_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reported_anchor_correlation",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 3.3306690738754696e-16
+      }
+    },
+    {
+      "name": "threshold_fraction_high",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    },
+    {
+      "name": "threshold_fraction_intermediate",
+      "passed": true,
+      "detail": {
+        "max_abs_difference": 0.0
+      }
+    }
+  ]
+}

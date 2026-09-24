@@ -23,3 +23,15 @@ SVG 在保存后移除行尾空白，便于版本管理检查。
 来源为[预先固定的波动协议](../../experiments/macro_laws_v01/protocol_wave.md)、[独立代码](../../experiments/macro_laws_v01/code/verify_wave_transfer.py)及[曲线NPZ](../../experiments/macro_laws_v01/results/wave_transfer_curves.npz)。NPZ SHA256为`61c38ac59e6b8af538c5125df51383b24cd4f7c173395c2185f0d17c4ed98ab7`。无天空观测、无参数拟合，不能由峰谷断言p=2独有或优于p=0。
 
 复现命令：`python manuscript_cn/figures/make_chapter04_macro_figure.py`。脚本只读已保存曲线，复用既有中文字体与配色，提供PDF/SVG矢量版及PNG预览；不重跑动力学。
+
+## 图4.3：从CMB约束初态到非线性场域
+
+文件：`chapter04_timeline_cn.{pdf,svg,png}`。
+
+上排采用CMB项目固定版本的实际存档状态，显示n=0、45、70、95的96³体积在z=48处的有符号中央切片；共用[-3.2,3.2]色标，不作逐面板归一化。第70步是真实积分快照。下面是完整三维体积在每一步的方差，比较四个共用前45步历史和q44/q45锚点的分支；“仅晚期常系数”只替换46—95步。纵轴为对数刻度，方差不等于熵或空间膨胀率。
+
+初态受同一SMICA反演约束，非线性阶段由给定的双阱势及阻尼驱动。图内没有物理年龄、真实大爆炸奇点、星系或暴涨成功的标签，也没有用这张图替代CMB声学谱检验。此前旧Figure 16的全过程研究构想保留，物理宇宙史的映射作为下一步任务。
+
+[最小来源快照与说明](../../reports/chapter04_timeline_sources/README.md)包含四张真实切片、每步体积统计及原结果/验证JSON副本，约326KB；其六份源输入已与CMB固定提交`f42db51748003fc83be064dade9bb52de5eb8319`逐字节校验。小NPZ SHA256：`ea7635e5a870e1abb0fffccc0614fbc3b50f69fdd39bd0554b79645af6d99351`。这些材料支持图形复现，不替代完整三维状态和原拟合输入。
+
+复现命令：`python manuscript_cn/figures/make_chapter04_timeline_figure.py`。只读取本仓库快照，不需要相邻项目或重新演化。原项目52项验证报告作为历史来源复制，本次未重跑这52项检查。

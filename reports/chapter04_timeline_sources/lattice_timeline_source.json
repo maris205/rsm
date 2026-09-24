@@ -1,0 +1,121 @@
+{
+  "scope": "Illustrative continuation of a CMB-conditioned lattice; not observed cosmic history or a gravity simulation",
+  "grid_size": 96,
+  "anchor_step": 45,
+  "final_step": 95,
+  "intermediate_step": 70,
+  "phase1": {
+    "p": 2,
+    "A": 0.45,
+    "offset": 10.0,
+    "eta": 0.0,
+    "initial_velocity": "q[-1]=q[0]",
+    "updates": 45
+  },
+  "phase2": {
+    "first_update": 46,
+    "last_update": 95,
+    "velocity_preserved": true,
+    "clip": null,
+    "force": "alpha*q-beta*q^3",
+    "potential": "-alpha*q^2/2+beta*q^4/4",
+    "unit_note": "q is the dimensionless field of the saved reconstruction; it is not matter density"
+  },
+  "moment_columns": [
+    "mean",
+    "variance",
+    "mean_sum_neighbor_difference_squared",
+    "gradient_length_sites",
+    "max_abs_field"
+  ],
+  "gradient_length_definition": "sqrt(var(q)/mean(sum_i(q(x+ei)-q(x))^2)); a lattice roughness diagnostic, not a measured cosmological length",
+  "branches": {
+    "p2_nonlinear": {
+      "eta_after_45": 0.015,
+      "alpha": 0.05,
+      "beta": 0.01,
+      "late_c2_constant": null,
+      "final_variance": 4.28200728530751,
+      "variance_growth_from_45": 62.645347594555666,
+      "final_gradient_length_sites": 1.5614211697688274,
+      "final_max_abs_field": 3.4399795498095456
+    },
+    "p2_linear": {
+      "eta_after_45": 0.015,
+      "alpha": 0.0,
+      "beta": 0.0,
+      "late_c2_constant": null,
+      "final_variance": 0.03879271566998369,
+      "variance_growth_from_45": 0.5675336344292026,
+      "final_gradient_length_sites": 1.0275970255549602,
+      "final_max_abs_field": 2.325047195702102
+    },
+    "p0_nonlinear": {
+      "eta_after_45": 0.015,
+      "alpha": 0.05,
+      "beta": 0.01,
+      "late_c2_constant": 0.023629776358038895,
+      "final_variance": 4.2731333345461255,
+      "variance_growth_from_45": 62.51552256322249,
+      "final_gradient_length_sites": 1.5854196125861135,
+      "final_max_abs_field": 3.4500940372779785
+    },
+    "p2_nonlinear_undamped": {
+      "eta_after_45": 0.0,
+      "alpha": 0.05,
+      "beta": 0.01,
+      "late_c2_constant": null,
+      "final_variance": 3.1805972326858916,
+      "variance_growth_from_45": 46.531826296409605,
+      "final_gradient_length_sites": 0.9647915991246666,
+      "final_max_abs_field": 4.723490850966422
+    }
+  },
+  "initial_variance": 0.08405509957410041,
+  "anchor_variance": 0.06835315709349896,
+  "initial_to_anchor_variance_ratio": 1.2297178820741679,
+  "minimum_phase1_variance": 0.06256571121542746,
+  "minimum_phase1_variance_step": 36,
+  "field_selection": {
+    "high_abs_threshold": 2.0,
+    "intermediate_abs_interval": [
+      0.8,
+      2.0
+    ],
+    "high_voxel_fraction": 0.47653989438657407,
+    "intermediate_voxel_fraction": 0.4890758373119213
+  },
+  "display": {
+    "field_panels": "Signed central z=48 slices, common symmetric color scale across c-h",
+    "difference_panels": "max_z absolute field difference, common color scale across i-j",
+    "threshold_panels": "Selected signed field on the same central slice; zero outside amplitude interval"
+  },
+  "checks": {
+    "coordinate_vs_fourier_relative_l2": 2.2855896740999392e-14,
+    "reconstructed_anchor_max_abs_difference_uK": 1.7426060594516457e-12,
+    "late_phase_proxy_p2": 7.6859899099008215,
+    "late_phase_proxy_p0": 7.6859899099008215
+  },
+  "anchor_fit_r": 0.9971961173207873,
+  "reference_chronology": {
+    "source": "https://science.nasa.gov/mission/webb/big-bang-q-and-a/",
+    "recombination_years_approx": 380000,
+    "present_age_years_approx": 13800000000.0,
+    "role": "Independent standard-cosmology context only; no mapping from lattice step n to these cosmic ages"
+  },
+  "limitations": [
+    "Initial and anchor volumes are conditioned on the same fitted sky; not independent observations.",
+    "The toy force and switch time are prescribed; late morphology does not validate p=2.",
+    "No expansion, Poisson gravity, mass conservation, galaxy catalogue or matter power spectrum is supplied.",
+    "Scalar variance is not entropy, thermodynamic complexity or evidence for inflation.",
+    "Thresholded field selections are not identified galaxies or dark matter."
+  ],
+  "source_sha256": {
+    "results/sky_fit_full_latent.npz": "57dfec1714b5bc781af7c5f6430e356d76b710dfd55dfed02cfc95dfe6a58f54",
+    "results/sky_fit_summary.json": "f87c4e3348b57ba5cc9df43fb90061ea71bb6a8ccd9e61d3720113a0226ddded",
+    "results/sky_fit_maps.npz": "6344d808ace33e7f8242141ea2581e3e9ad8e183a65bb8bc13ff2b2134b5d5bd",
+    "code/lattice_transfer.py": "6ed9effd4f9f734715907d4ea3193f31e8169542a378c4fc7a7c52adb570c5b4",
+    "code/run_lattice_timeline.py": "2be2a9c77e3f263d07ec220b122360752ecf6b2d68d47ceeb2eb3ad5ffc6a189"
+  },
+  "elapsed_seconds": 25.793670885264874
+}

@@ -211,3 +211,7 @@
 <a id="r53"></a>
 
 **[53]** 本项目研究记录. 微观—宏观关系的代数与小格点验证：局部能流、条件波动压力、色散与协方差传递（2026-09-24）。未单独发表的代码、预先记录协议及完整结果；[归档说明](../experiments/macro_laws_v01/README.md)、[守恒核验](../experiments/macro_laws_v01/reports/conservation_checks_cn.md)、[波动与传递核验](../experiments/macro_laws_v01/reports/wave_transfer_checks_cn.md)。
+
+<a id="r54"></a>
+
+**[54]** Baumann, D. TASI Lectures on Inflation. 作者讲义（2009，2012修订），第5—6节及第12节。[arXiv:0907.5424v2](https://arxiv.org/abs/0907.5424v2)；[DOI: 10.48550/arXiv.0907.5424](https://doi.org/10.48550/arXiv.0907.5424)。
