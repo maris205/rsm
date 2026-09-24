@@ -1,0 +1,3588 @@
+{
+  "metadata": {
+    "run_utc": "2026-09-24T08:49:34.251837+00:00",
+    "protocol_sha256": "54c15298f33aa4b2e4842118f25a02f58bb7b5d68e6b162d362ebc07f432cc43",
+    "script_sha256": "48a7543d802f043484c498d07c7bfd7eb6b649d714c30d53759061c8f7ecc70a",
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "sympy": "1.14.0",
+    "random_generator": "PCG64",
+    "seed": 20260925,
+    "complex_step": 1e-25,
+    "scope": "finite algebraic and deterministic numerical checks; no trajectory integration or data fit"
+  },
+  "symbolic_checks": [
+    {
+      "name": "finite_a_local_energy",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "finite_a_density_normalization",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "finite_a_block_flux",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "continuum_energy_with_source",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "continuum_momentum_uniform_clock",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "integrated_field_plus_clock_energy",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "candidate_G_clock_force",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "candidate_G_continuum_energy",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "candidate_G_continuum_momentum",
+      "residual": "0",
+      "passed": true
+    }
+  ],
+  "lattice_cases": [
+    {
+      "N": 7,
+      "a": 0.03125,
+      "realization": 0,
+      "state_sha256": "4c9331016854115dcde08fb7f400e372682208a2c7f279bc13d14bc724993eac",
+      "rhs_gradient": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 40.02861255314478,
+        "scaled_residual": 1.775087095054154e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 23.054986604130086,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 2.0858369285253753e-14,
+        "scale": 155.113570051434,
+        "scaled_residual": 1.3447159573683553e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.3021268091550908e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.3021268091550908e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 4.679433517106382e-16,
+          "scale": 2.6521213838858126,
+          "scaled_residual": 1.7644115180920602e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 3.6312641261970757e-16,
+          "scale": 1.0,
+          "scaled_residual": 3.6312641261970757e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 1.2999584048101198e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.2999584048101198e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.03125,
+      "realization": 1,
+      "state_sha256": "865166916a2f09e4b3850bea5a8b65b5744c01d45a9647db6d70dc95ce7aa5cd",
+      "rhs_gradient": {
+        "absolute_residual": 1.4210854715202004e-14,
+        "scale": 68.50285833175374,
+        "scaled_residual": 2.0744907674333815e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 55.617862574672266,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.2751605327210314e-13,
+        "scale": 516.3060649572224,
+        "scaled_residual": 2.469776396732203e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 7.769501188248373e-15,
+        "scale": 1.0,
+        "scaled_residual": 7.769501188248373e-15,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.9825314350255252e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.9825314350255252e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 5.644085459416415e-15,
+          "scale": 11.265562857206245,
+          "scaled_residual": 5.010034146501665e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 7.43610902020908e-15,
+          "scale": 1.0,
+          "scaled_residual": 7.43610902020908e-15,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.03125,
+      "realization": 2,
+      "state_sha256": "c350df349f69dcb17fd485df4acaef32fb3bfecf1f725ec51434d99bd6763546",
+      "rhs_gradient": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 29.982292517189833,
+        "scaled_residual": 2.3698746029934924e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 3.552713678800501e-15,
+        "scale": 20.68303316815121,
+        "scaled_residual": 1.7176947162039808e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 6.408805777735616e-14,
+        "scale": 98.98288882527342,
+        "scaled_residual": 6.474660270876281e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 2.174530087245552e-15,
+        "scale": 1.0,
+        "scaled_residual": 2.174530087245552e-15,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.0040121905678943e-16,
+          "scale": 2.8258460983341256,
+          "scaled_residual": 7.091724463513022e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 4.092863201132779e-17,
+          "scale": 1.0,
+          "scaled_residual": 4.092863201132779e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 2.1746927175714248e-15,
+          "scale": 1.0,
+          "scaled_residual": 2.1746927175714248e-15,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.03125,
+      "realization": 3,
+      "state_sha256": "8c160a6604ae820f0e2c6d40b3f751924242ada65936d996fe620e48fde3b96b",
+      "rhs_gradient": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 41.58151197973557,
+        "scaled_residual": 1.7087948511982385e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 36.634957913767515,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 8.980143018089137e-14,
+        "scale": 204.05068144172506,
+        "scaled_residual": 4.4009375291666354e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 8.609107350621148e-16,
+        "scale": 1.0,
+        "scaled_residual": 8.609107350621148e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.8062946931528554e-15,
+          "scale": 5.965449892811833,
+          "scaled_residual": 4.704246525537573e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 1.9440016003208216e-15,
+          "scale": 5.7846938198155335,
+          "scaled_residual": 3.3605954971404405e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 1.305108365129426e-15,
+          "scale": 5.7846938198155335,
+          "scaled_residual": 2.2561407842516447e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.2,
+      "realization": 0,
+      "state_sha256": "464d25867566447bf3bb94f96078a949b0d58d107edc44c9b63d9c892d7bd2f5",
+      "rhs_gradient": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 3.3962957294063223,
+        "scaled_residual": 1.3075693203185522e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 1.8415047487364395,
+        "scaled_residual": 2.411556148061944e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.08135614178273e-15,
+        "scale": 4.422853375295543,
+        "scaled_residual": 2.44492875984267e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 2.690989792109022e-16,
+        "scale": 1.0,
+        "scaled_residual": 2.690989792109022e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.9253397704269148e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.9253397704269148e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 4.049495114233359e-16,
+          "scale": 1.0,
+          "scaled_residual": 4.049495114233359e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 2.7907363919776884e-16,
+          "scale": 1.0,
+          "scaled_residual": 2.7907363919776884e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.2,
+      "realization": 1,
+      "state_sha256": "c35ad0349bb5ac2f2bbb8a7ed79744cb6a89166fd67d212711324b75cc6ffdec",
+      "rhs_gradient": {
+        "absolute_residual": 8.881784197001252e-16,
+        "scale": 7.088291996492564,
+        "scaled_residual": 1.253021771873414e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 4.974576437518336,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.8474805019152996e-15,
+        "scale": 6.358077786702883,
+        "scaled_residual": 2.9057217666934994e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 2.92300905702092e-16,
+        "scale": 1.0,
+        "scaled_residual": 2.92300905702092e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.3635607360183997e-16,
+          "scale": 1.2702765106853384,
+          "scaled_residual": 1.860666332201336e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 4.445228907190568e-17,
+          "scale": 1.0,
+          "scaled_residual": 4.445228907190568e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 9.410874857174178e-17,
+          "scale": 1.0,
+          "scaled_residual": 9.410874857174178e-17,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.2,
+      "realization": 2,
+      "state_sha256": "7d3c3582b52786b018795a0c54d33a72ccc22fbedfb39dabb3d879c4b18b3f19",
+      "rhs_gradient": {
+        "absolute_residual": 8.881784197001252e-16,
+        "scale": 4.130229674736747,
+        "scaled_residual": 2.1504334858974542e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 1.4135117686871723,
+        "scaled_residual": 3.141743986061888e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 2.085137618124122e-15,
+        "scale": 2.3806382525213743,
+        "scaled_residual": 8.758733570359619e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 2.5326962749261384e-16,
+        "scale": 1.0,
+        "scaled_residual": 2.5326962749261384e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 5.800481622797449e-17,
+          "scale": 1.0,
+          "scaled_residual": 5.800481622797449e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 1.48318857196017e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.48318857196017e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 2.5196858488563123e-16,
+          "scale": 1.0,
+          "scaled_residual": 2.5196858488563123e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.2,
+      "realization": 3,
+      "state_sha256": "ba39c1fc424f7c0de4e44d01835a2d81771f5bd4a9bf0e78bde8abb4b24b303d",
+      "rhs_gradient": {
+        "absolute_residual": 8.881784197001252e-16,
+        "scale": 4.755078596656462,
+        "scaled_residual": 1.8678522376573306e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 2.3865168930843335,
+        "scaled_residual": 1.8608257546256958e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 8.898589330674778e-16,
+        "scale": 2.5195810039947784,
+        "scaled_residual": 3.531773464145874e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.3682631416767066e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.3682631416767066e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 4.662069341687669e-17,
+          "scale": 1.0,
+          "scaled_residual": 4.662069341687669e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 2.883977778811442e-17,
+          "scale": 1.0,
+          "scaled_residual": 2.883977778811442e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 1.487525380650112e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.487525380650112e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.7,
+      "realization": 0,
+      "state_sha256": "507e89fb918fcfe39280716bbb99deb895d3dbfa5eacb0253c8f7882656197c5",
+      "rhs_gradient": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 2.1078150679637453,
+        "scaled_residual": 1.0534349445539237e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 1.5345803875493664,
+        "scaled_residual": 1.4469401976368494e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.750444407477847e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.750444407477847e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 6.071532165918825e-18,
+        "scale": 1.0,
+        "scaled_residual": 6.071532165918825e-18,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.491455613525372e-17,
+          "scale": 1.0,
+          "scaled_residual": 1.491455613525372e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 7.19910242530375e-17,
+          "scale": 1.0,
+          "scaled_residual": 7.19910242530375e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 2.6020852139652106e-18,
+          "scale": 1.0,
+          "scaled_residual": 2.6020852139652106e-18,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.7,
+      "realization": 1,
+      "state_sha256": "3fd57004135ca45517ed56caff9cae066ef8034d5bfe90c28dce7edf17b1f668",
+      "rhs_gradient": {
+        "absolute_residual": 1.1102230246251565e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.1102230246251565e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 1.0,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.0798653637955624e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.0798653637955624e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 7.45931094670027e-17,
+        "scale": 1.0,
+        "scaled_residual": 7.45931094670027e-17,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 8.023096076392733e-18,
+          "scale": 1.0,
+          "scaled_residual": 8.023096076392733e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 1.8648277366750676e-17,
+          "scale": 1.0,
+          "scaled_residual": 1.8648277366750676e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 8.326672684688674e-17,
+          "scale": 1.0,
+          "scaled_residual": 8.326672684688674e-17,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.7,
+      "realization": 2,
+      "state_sha256": "c68db2b155df2acffb9ad7bd4cb5b17247fc39635a73d59994556577b93cedea",
+      "rhs_gradient": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 2.0490008996595863,
+        "scaled_residual": 2.167345118900836e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 1.4024481112106897,
+        "scaled_residual": 1.5832643158066441e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.9927635930283571e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.9927635930283571e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.9255430583342559e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.9255430583342559e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 4.336808689942018e-18,
+          "scale": 1.0,
+          "scaled_residual": 4.336808689942018e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 3.8163916471489756e-17,
+          "scale": 1.0,
+          "scaled_residual": 3.8163916471489756e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 1.8995222061946038e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.8995222061946038e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "a": 0.7,
+      "realization": 3,
+      "state_sha256": "b1e4160a2d73213f14d059ab2f7573fb0adcd56d4ab03d33693f7532f77cdf7d",
+      "rhs_gradient": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 1.0,
+        "scaled_residual": 2.220446049250313e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 1.0,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.205632815803881e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.205632815803881e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.9081958235744878e-17,
+        "scale": 1.0,
+        "scaled_residual": 1.9081958235744878e-17,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 4.336808689942018e-18,
+          "scale": 1.0,
+          "scaled_residual": 4.336808689942018e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 5,
+          "length": 3,
+          "absolute_residual": 8.239936510889834e-18,
+          "scale": 1.0,
+          "scaled_residual": 8.239936510889834e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 7,
+          "absolute_residual": 2.3418766925686896e-17,
+          "scale": 1.0,
+          "scaled_residual": 2.3418766925686896e-17,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.03125,
+      "realization": 0,
+      "state_sha256": "7d19df76267322a41af809bfb56de0ca7487c2651f586e2bc4abd490af92f4f1",
+      "rhs_gradient": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 35.45725325017624,
+        "scaled_residual": 2.0039418472342285e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 56.017089919107754,
+        "scaled_residual": 1.2684392152219423e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.5549540821613306e-13,
+        "scale": 476.13340347048415,
+        "scaled_residual": 3.2657949869247583e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 2.9626908565338894e-15,
+        "scale": 1.0,
+        "scaled_residual": 2.9626908565338894e-15,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.528054534375185e-16,
+          "scale": 4.642460461639438,
+          "scaled_residual": 5.4455057943184464e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 2.793988998495145e-15,
+          "scale": 2.1283294894278777,
+          "scaled_residual": 1.312761493168149e-15,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 1.186550857568136e-15,
+          "scale": 4.626146140519039,
+          "scaled_residual": 2.564879754177002e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.03125,
+      "realization": 1,
+      "state_sha256": "7b272168d952b2a1d66a267dd4544e50df225439aab09356b35e935a3dd70e54",
+      "rhs_gradient": {
+        "absolute_residual": 1.4210854715202004e-14,
+        "scale": 53.999820797222,
+        "scaled_residual": 2.631648495384095e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 69.50144540148833,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 9.97847637851379e-14,
+        "scale": 388.3750497969893,
+        "scaled_residual": 2.5692887284416756e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 5.939259500875593e-16,
+        "scale": 1.0,
+        "scaled_residual": 5.939259500875593e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.8273549990885374e-16,
+          "scale": 1.8044355024183099,
+          "scaled_residual": 1.0127017544486964e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 2.680581451253161e-15,
+          "scale": 7.115118149613734,
+          "scaled_residual": 3.7674447491763505e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 1.5048726154098802e-16,
+          "scale": 1.8044355024183099,
+          "scaled_residual": 8.339852620905793e-17,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.03125,
+      "realization": 2,
+      "state_sha256": "165026b460d77abb2695feac6eae28195dae53e4734f35d8ef99efe3030044a3",
+      "rhs_gradient": {
+        "absolute_residual": 3.552713678800501e-15,
+        "scale": 32.94767123899977,
+        "scaled_residual": 1.078289768350971e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 34.95676069643994,
+        "scaled_residual": 2.0326332348994312e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 5.819552739011469e-14,
+        "scale": 327.50228370125325,
+        "scaled_residual": 1.776950277488767e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 8.50122923445884e-16,
+        "scale": 1.0,
+        "scaled_residual": 8.50122923445884e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.7067886506412092e-15,
+          "scale": 10.234446365664164,
+          "scaled_residual": 2.6447826818676695e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 3.942592780026288e-15,
+          "scale": 2.276923761439432,
+          "scaled_residual": 1.7315436058051628e-15,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 8.497976627941384e-16,
+          "scale": 4.230476739439093,
+          "scaled_residual": 2.0087515311733179e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.03125,
+      "realization": 3,
+      "state_sha256": "95e79259481cdff1a02bd75ced1025c6fc6a2e7e37fe05beaf2f5659090b440d",
+      "rhs_gradient": {
+        "absolute_residual": 1.4210854715202004e-14,
+        "scale": 65.52507626771047,
+        "scaled_residual": 2.1687658412089243e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 1.4210854715202004e-14,
+        "scale": 78.27335006701519,
+        "scaled_residual": 1.8155419057744578e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 6.767633328741418e-14,
+        "scale": 451.67429332052296,
+        "scaled_residual": 1.4983437022701848e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 7.487500203184894e-15,
+        "scale": 1.0,
+        "scaled_residual": 7.487500203184894e-15,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.4389056894777152e-16,
+          "scale": 2.1037967965367335,
+          "scaled_residual": 6.83956593073266e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 3.595214403961933e-15,
+          "scale": 1.0,
+          "scaled_residual": 3.595214403961933e-15,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 5.711577044653637e-15,
+          "scale": 1.2473883274174808,
+          "scaled_residual": 4.578828356105071e-15,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.2,
+      "realization": 0,
+      "state_sha256": "2e897ac232be50a6977021e6225bdcc6133c36fdcf11b2d510a95d77f752b614",
+      "rhs_gradient": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 9.199472371074807,
+        "scaled_residual": 1.930933392425323e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 12.135308921499378,
+        "scaled_residual": 1.4637920228410407e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 4.617400212181266e-15,
+        "scale": 5.90503975469893,
+        "scaled_residual": 7.819422737174587e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 3.920475055707584e-16,
+        "scale": 1.0,
+        "scaled_residual": 3.920475055707584e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.824712256293104e-16,
+          "scale": 1.1802489591004206,
+          "scaled_residual": 1.5460401318073517e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 9.8879238130678e-16,
+          "scale": 1.0,
+          "scaled_residual": 9.8879238130678e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 4.163336342344337e-17,
+          "scale": 1.0,
+          "scaled_residual": 4.163336342344337e-17,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.2,
+      "realization": 1,
+      "state_sha256": "e4ddcf19ad7ce1f82664e313ad175c6a6ab4b5f123eaa5b4eb1c0d540871ab3f",
+      "rhs_gradient": {
+        "absolute_residual": 8.881784197001252e-16,
+        "scale": 6.288408425647516,
+        "scaled_residual": 1.412405746544158e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 6.908937486857406,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 2.8699373606777545e-15,
+        "scale": 10.037745213207328,
+        "scaled_residual": 2.859145455198033e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 5.598820018715145e-16,
+        "scale": 1.0,
+        "scaled_residual": 5.598820018715145e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.088267930632325e-17,
+          "scale": 1.0,
+          "scaled_residual": 1.088267930632325e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 3.0487765090292385e-16,
+          "scale": 1.2244746981425425,
+          "scaled_residual": 2.489864848701289e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 9.141992718397773e-16,
+          "scale": 1.0,
+          "scaled_residual": 9.141992718397773e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.2,
+      "realization": 2,
+      "state_sha256": "72fd5662d2193e0b3b6e1ca0af44678a9eb6a02e270ed11111ed01f579197144",
+      "rhs_gradient": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 10.209820751050655,
+        "scaled_residual": 1.7398511518602833e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 13.651624489015738,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 2.447911665037772e-15,
+        "scale": 6.736272678709906,
+        "scaled_residual": 3.63392603267744e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 4.683753385137379e-16,
+        "scale": 1.0,
+        "scaled_residual": 4.683753385137379e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 4.9873299934333204e-18,
+          "scale": 1.0,
+          "scaled_residual": 4.9873299934333204e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 1.7694179454963432e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.7694179454963432e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 2.706168622523819e-16,
+          "scale": 1.0,
+          "scaled_residual": 2.706168622523819e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.2,
+      "realization": 3,
+      "state_sha256": "9e445abab0ab0ca15576a15fbb3a68290d2b541ed75dce92a1f13bae69b96124",
+      "rhs_gradient": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 8.507975776395215,
+        "scaled_residual": 2.0878724694170247e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 3.552713678800501e-15,
+        "scale": 11.720361468764331,
+        "scaled_residual": 3.0312321751071904e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 3.910066714851723e-15,
+        "scale": 8.037870413536698,
+        "scaled_residual": 4.864555552260112e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 5.499073418846478e-16,
+        "scale": 1.0,
+        "scaled_residual": 5.499073418846478e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 7.8236028766554e-16,
+          "scale": 1.0,
+          "scaled_residual": 7.8236028766554e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 7.762887554996212e-16,
+          "scale": 1.0,
+          "scaled_residual": 7.762887554996212e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 5.221517662690189e-16,
+          "scale": 1.0,
+          "scaled_residual": 5.221517662690189e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.7,
+      "realization": 0,
+      "state_sha256": "dfdf137308b877b48f4faa183f626ffdfda925112ea683153a7872bebfab43cb",
+      "rhs_gradient": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 3.393760638671599,
+        "scaled_residual": 1.3085460559289472e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 4.525325173384468,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 3.0704605524789486e-16,
+        "scale": 1.012771960271186,
+        "scaled_residual": 3.0317392986045774e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 6.938893903907228e-17,
+        "scale": 1.0,
+        "scaled_residual": 6.938893903907228e-17,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 4.9873299934333204e-18,
+          "scale": 1.0,
+          "scaled_residual": 4.9873299934333204e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 4.597017211338539e-17,
+          "scale": 1.0,
+          "scaled_residual": 4.597017211338539e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 5.551115123125783e-17,
+          "scale": 1.0,
+          "scaled_residual": 5.551115123125783e-17,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.7,
+      "realization": 1,
+      "state_sha256": "a1d50e466517545287f42da59363e26898c59dfa7b12168b6d248d1b7bcecc9c",
+      "rhs_gradient": {
+        "absolute_residual": 8.881784197001252e-16,
+        "scale": 4.223248892613789,
+        "scaled_residual": 2.1030690880035425e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 5.844766154060212,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 6.722053469410127e-16,
+        "scale": 1.8820318895952932,
+        "scaled_residual": 3.5717000899786127e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 4.2327252813834093e-16,
+        "scale": 1.0,
+        "scaled_residual": 4.2327252813834093e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.482312951650946e-17,
+          "scale": 1.0,
+          "scaled_residual": 1.482312951650946e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 1.7867651802561113e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.7867651802561113e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 4.822531263215524e-16,
+          "scale": 1.0,
+          "scaled_residual": 4.822531263215524e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.7,
+      "realization": 2,
+      "state_sha256": "1f40f608053696abfd18b2c8312e891ebc20e318c7d1d4965187f0848f1c1147",
+      "rhs_gradient": {
+        "absolute_residual": 8.881784197001252e-16,
+        "scale": 3.355090624749102,
+        "scaled_residual": 2.6472561222293195e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 4.110634582358934,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.1714804473705875e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.1714804473705875e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 4.128641872824801e-16,
+        "scale": 1.0,
+        "scaled_residual": 4.128641872824801e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 8.71596902724675e-19,
+          "scale": 1.0,
+          "scaled_residual": 8.71596902724675e-19,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 2.8622937353617317e-16,
+          "scale": 1.0,
+          "scaled_residual": 2.8622937353617317e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 3.95516952522712e-16,
+          "scale": 1.0,
+          "scaled_residual": 3.95516952522712e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "a": 0.7,
+      "realization": 3,
+      "state_sha256": "8ffa1ed108b0a31aef9496197358a72ef3c12f6ba0f1506673480d1b762abc9b",
+      "rhs_gradient": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 2.580164356307354,
+        "scaled_residual": 1.7211663619972968e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 3.842907068874065,
+        "scaled_residual": 1.1556074656267359e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.3487475025719675e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.3487475025719675e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.5265566588595902e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.5265566588595902e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.168404344971009e-18,
+          "scale": 1.0,
+          "scaled_residual": 2.168404344971009e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 14,
+          "length": 8,
+          "absolute_residual": 8.326672684688674e-17,
+          "scale": 1.0,
+          "scaled_residual": 8.326672684688674e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 16,
+          "absolute_residual": 2.220446049250313e-16,
+          "scale": 1.0,
+          "scaled_residual": 2.220446049250313e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.03125,
+      "realization": 0,
+      "state_sha256": "0df9b28fb1e909ac7c41c4541202d4953a1f93f9f4d5337a1d42c9987a4826e2",
+      "rhs_gradient": {
+        "absolute_residual": 1.4210854715202004e-14,
+        "scale": 66.86588456729643,
+        "scaled_residual": 2.1252773080268827e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 168.0060470598896,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.0784819218234709e-13,
+        "scale": 422.1989387776281,
+        "scaled_residual": 2.5544401531324235e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 4.163336342344337e-17,
+        "scale": 1.0,
+        "scaled_residual": 4.163336342344337e-17,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 8.773211513822196e-16,
+          "scale": 1.437609913750681,
+          "scaled_residual": 6.102637043544831e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 4.00081443668876e-15,
+          "scale": 7.740845794751838,
+          "scaled_residual": 5.168446113990856e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 4.0462425077159025e-16,
+          "scale": 1.0,
+          "scaled_residual": 4.0462425077159025e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.03125,
+      "realization": 1,
+      "state_sha256": "4e91b25b3ed00bbed81dc207cf5019e9f0d9982382c4b30ccf9f85df05190274",
+      "rhs_gradient": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 43.34330839563513,
+        "scaled_residual": 1.639336640558927e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 2.842170943040401e-14,
+        "scale": 83.65627688679248,
+        "scaled_residual": 3.397438959525484e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 5.6463514419569094e-14,
+        "scale": 538.8657298562024,
+        "scaled_residual": 1.0478215869217832e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 5.5593550596366725e-15,
+        "scale": 1.0,
+        "scaled_residual": 5.5593550596366725e-15,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.7390075290539506e-16,
+          "scale": 1.0,
+          "scaled_residual": 2.7390075290539506e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 4.99556992994421e-15,
+          "scale": 1.2142402123740297,
+          "scaled_residual": 4.11415293204389e-15,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 6.225055193542772e-15,
+          "scale": 1.0,
+          "scaled_residual": 6.225055193542772e-15,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.03125,
+      "realization": 2,
+      "state_sha256": "a52c423eb7a9e61645669e143978b89d974470189d03d7e47d19f8dc489c0090",
+      "rhs_gradient": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 63.92003313395522,
+        "scaled_residual": 1.111611964078676e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 8.526512829121202e-14,
+        "scale": 136.30351848623457,
+        "scaled_residual": 6.255533917110367e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.389543861918252e-13,
+        "scale": 394.2052200424778,
+        "scaled_residual": 3.5249250676298025e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 7.266322959997851e-16,
+        "scale": 1.0,
+        "scaled_residual": 7.266322959997851e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 6.619418487191324e-16,
+          "scale": 1.0,
+          "scaled_residual": 6.619418487191324e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 1.4791770239219737e-15,
+          "scale": 1.0,
+          "scaled_residual": 1.4791770239219737e-15,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 1.0495077029659683e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.0495077029659683e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.03125,
+      "realization": 3,
+      "state_sha256": "9ac393dcab028f99794e826783122fe9a6d70c6f0718d7f4bdb5bdebabfd0fd1",
+      "rhs_gradient": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 54.190964554737604,
+        "scaled_residual": 1.311183038719287e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 125.40632433278618,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.2068557958544446e-13,
+        "scale": 410.50420678957903,
+        "scaled_residual": 2.9399352695868195e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 7.593752016088473e-16,
+        "scale": 1.0,
+        "scaled_residual": 7.593752016088473e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 3.771424362045139e-15,
+          "scale": 5.045485887597152,
+          "scaled_residual": 7.474848698548697e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 1.278924882663901e-15,
+          "scale": 2.771155326233352,
+          "scaled_residual": 4.615132434320306e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 7.585078398708589e-16,
+          "scale": 4.367178727611332,
+          "scaled_residual": 1.7368371829511353e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.2,
+      "realization": 0,
+      "state_sha256": "66fd8bf88c6715ce0dfbc6b370616a943415573e060a2b00bebe32584a6892ad",
+      "rhs_gradient": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 12.335773731106547,
+        "scaled_residual": 1.4400043954445225e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 34.706192117119684,
+        "scaled_residual": 2.0473082537038326e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 1.0069202416307377e-14,
+        "scale": 15.351245076918133,
+        "scaled_residual": 6.559208953967686e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 4.333339242990064e-15,
+        "scale": 1.0,
+        "scaled_residual": 4.333339242990064e-15,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 4.4350645118235166e-18,
+          "scale": 1.0,
+          "scaled_residual": 4.4350645118235166e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 2.896988204881268e-16,
+          "scale": 1.0,
+          "scaled_residual": 2.896988204881268e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 3.8614944575243726e-15,
+          "scale": 1.0,
+          "scaled_residual": 3.8614944575243726e-15,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.2,
+      "realization": 1,
+      "state_sha256": "1b117eb60b2dbf2a56c3b7d7e69ecf1640cfd137f7b027e0610f4a7c9bba6568",
+      "rhs_gradient": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 12.831846370220838,
+        "scaled_residual": 1.3843345596177668e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 35.315329979640765,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 5.745349942326561e-15,
+        "scale": 10.23320502404039,
+        "scaled_residual": 5.614418873490055e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.745131816832668e-15,
+        "scale": 1.0,
+        "scaled_residual": 1.745131816832668e-15,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.3086320221900039e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.3086320221900039e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 2.2690183065776637e-15,
+          "scale": 1.0,
+          "scaled_residual": 2.2690183065776637e-15,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 1.7832957333041577e-15,
+          "scale": 1.0,
+          "scaled_residual": 1.7832957333041577e-15,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.2,
+      "realization": 2,
+      "state_sha256": "fd0f938558d315459ba4279b16d1cb04c7bdbd48a4bfb33f56c33cab61a191fb",
+      "rhs_gradient": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 8.238030482473233,
+        "scaled_residual": 2.1562882574658186e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 14.065327479527362,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 3.254124400497993e-15,
+        "scale": 8.25485823877783,
+        "scaled_residual": 3.942071815614584e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.0894063429134349e-15,
+        "scale": 1.0,
+        "scaled_residual": 1.0894063429134349e-15,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 1.8173938916288268e-17,
+          "scale": 1.0,
+          "scaled_residual": 1.8173938916288268e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 2.7582103268031233e-16,
+          "scale": 1.0,
+          "scaled_residual": 2.7582103268031233e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 7.927686285214008e-16,
+          "scale": 1.0,
+          "scaled_residual": 7.927686285214008e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.2,
+      "realization": 3,
+      "state_sha256": "40ae0921b72594978f494f7bd74ca65684c0a4473a612a72343aa0f590b4e6ec",
+      "rhs_gradient": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 11.492555887674875,
+        "scaled_residual": 1.545658647877705e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 7.105427357601002e-15,
+        "scale": 30.68681479247686,
+        "scaled_residual": 2.3154659112235265e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 8.422082475867398e-15,
+        "scale": 13.148241838357547,
+        "scaled_residual": 6.405481873095413e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 6.175615574477433e-16,
+        "scale": 1.0,
+        "scaled_residual": 6.175615574477433e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 8.879615792656281e-17,
+          "scale": 1.668957330038952,
+          "scaled_residual": 5.320457049940899e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 6.730727086790012e-16,
+          "scale": 1.0,
+          "scaled_residual": 6.730727086790012e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 6.140921104957897e-16,
+          "scale": 1.0,
+          "scaled_residual": 6.140921104957897e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.7,
+      "realization": 0,
+      "state_sha256": "36395434dc892515e4712812df094dd5e90fe67b75bd92d6285bf5476b950f0e",
+      "rhs_gradient": {
+        "absolute_residual": 8.881784197001252e-16,
+        "scale": 2.2524794126171095,
+        "scaled_residual": 3.9431144840883095e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 8.881784197001252e-16,
+        "scale": 5.664922441215706,
+        "scaled_residual": 1.5678562750269887e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 2.3158558404290375e-16,
+        "scale": 1.0,
+        "scaled_residual": 2.3158558404290375e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 4.371503159461554e-16,
+        "scale": 1.0,
+        "scaled_residual": 4.371503159461554e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 7.237049501340742e-17,
+          "scale": 1.0,
+          "scaled_residual": 7.237049501340742e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 3.7470027081099033e-16,
+          "scale": 1.0,
+          "scaled_residual": 3.7470027081099033e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 4.579669976578771e-16,
+          "scale": 1.0,
+          "scaled_residual": 4.579669976578771e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.7,
+      "realization": 1,
+      "state_sha256": "a0912bc9b5a226714d99f6155f6e6814f5b9c0a1ababd939215d654e4b9b0240",
+      "rhs_gradient": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 3.881197175334071,
+        "scaled_residual": 1.1442067738077183e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 7.4575512627528875,
+        "scaled_residual": 2.3819572629320748e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 3.7643499428696714e-16,
+        "scale": 1.0,
+        "scaled_residual": 3.7643499428696714e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 7.632783294297951e-17,
+        "scale": 1.0,
+        "scaled_residual": 7.632783294297951e-17,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 4.87890977618477e-18,
+          "scale": 1.0,
+          "scaled_residual": 4.87890977618477e-18,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 5.551115123125783e-17,
+          "scale": 1.0,
+          "scaled_residual": 5.551115123125783e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 4.85722573273506e-17,
+          "scale": 1.0,
+          "scaled_residual": 4.85722573273506e-17,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.7,
+      "realization": 2,
+      "state_sha256": "1df9af9c94de10ef65ab6ba0fc5d016de516ce412a9591ec752b5511c16a173e",
+      "rhs_gradient": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 4.513859255202664,
+        "scaled_residual": 9.83834862237245e-17,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 1.7763568394002505e-15,
+        "scale": 11.600197619007455,
+        "scaled_residual": 1.5313160152458167e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 3.885780586188048e-16,
+        "scale": 1.0,
+        "scaled_residual": 3.885780586188048e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.6653345369377348e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.6653345369377348e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.949029909160572e-17,
+          "scale": 1.0,
+          "scaled_residual": 2.949029909160572e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 1.1102230246251565e-16,
+          "scale": 1.0,
+          "scaled_residual": 1.1102230246251565e-16,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 3.469446951953614e-16,
+          "scale": 1.0,
+          "scaled_residual": 3.469446951953614e-16,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "N": 31,
+      "a": 0.7,
+      "realization": 3,
+      "state_sha256": "77030815bc5f8cd37543457eedb4c0f28ca5c2683c25b7e19a82a36c97870045",
+      "rhs_gradient": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 3.5461473253160465,
+        "scaled_residual": 1.2523146082501906e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "density_normalization": {
+        "absolute_residual": 0.0,
+        "scale": 8.861684144499732,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "local_energy": {
+        "absolute_residual": 2.8449465006019636e-16,
+        "scale": 1.0188335001324305,
+        "scaled_residual": 2.792356651241023e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "total_energy": {
+        "absolute_residual": 1.3183898417423734e-16,
+        "scale": 1.0,
+        "scaled_residual": 1.3183898417423734e-16,
+        "threshold": 5e-12,
+        "passed": true
+      },
+      "blocks": [
+        {
+          "start": 0,
+          "length": 1,
+          "absolute_residual": 2.0383000842727483e-17,
+          "scale": 1.0,
+          "scaled_residual": 2.0383000842727483e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 29,
+          "length": 15,
+          "absolute_residual": 2.0816681711721685e-17,
+          "scale": 1.0,
+          "scaled_residual": 2.0816681711721685e-17,
+          "threshold": 5e-12,
+          "passed": true
+        },
+        {
+          "start": 1,
+          "length": 31,
+          "absolute_residual": 9.71445146547012e-17,
+          "scale": 1.0,
+          "scaled_residual": 9.71445146547012e-17,
+          "threshold": 5e-12,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "wave_cases": [
+    {
+      "phase_count": 16,
+      "amplitude": 0.4,
+      "k": 0.3,
+      "v": 0.7,
+      "mean_energy": 0.0035279999999999995,
+      "mean_stress": [
+        [
+          0.0011759999999999997,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0011759999999999997,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0011759999999999997
+        ]
+      ],
+      "mean_momentum": [
+        7.84917197788985e-20,
+        7.84917197788985e-20,
+        7.84917197788985e-20
+      ],
+      "energy_average": {
+        "absolute_residual": 8.673617379884035e-19,
+        "scale": 1.0,
+        "scaled_residual": 8.673617379884035e-19,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 0.0,
+        "scale": 1.0,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 7.84917197788985e-20,
+        "scale": 1.0,
+        "scaled_residual": 7.84917197788985e-20,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 16,
+      "amplitude": 0.4,
+      "k": 0.3,
+      "v": 1.7,
+      "mean_energy": 0.020808000000000004,
+      "mean_stress": [
+        [
+          0.006935999999999999,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.006936000000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.006936000000000004
+        ]
+      ],
+      "mean_momentum": [
+        7.182839392716467e-19,
+        7.182839392716467e-19,
+        7.182839392716467e-19
+      ],
+      "energy_average": {
+        "absolute_residual": 3.469446951953614e-18,
+        "scale": 1.0,
+        "scaled_residual": 3.469446951953614e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 2.6020852139652106e-18,
+        "scale": 1.0,
+        "scaled_residual": 2.6020852139652106e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 7.182839392716467e-19,
+        "scale": 1.0,
+        "scaled_residual": 7.182839392716467e-19,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 16,
+      "amplitude": 0.4,
+      "k": 2.1,
+      "v": 0.7,
+      "mean_energy": 0.172872,
+      "mean_stress": [
+        [
+          0.05762400000000001,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.05762400000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.05762400000000001
+        ]
+      ],
+      "mean_momentum": [
+        -2.023844055306275e-18,
+        -2.023844055306275e-18,
+        -2.023844055306275e-18
+      ],
+      "energy_average": {
+        "absolute_residual": 5.551115123125783e-17,
+        "scale": 1.0,
+        "scaled_residual": 5.551115123125783e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 6.938893903907228e-18,
+        "scale": 1.0,
+        "scaled_residual": 6.938893903907228e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 2.023844055306275e-18,
+        "scale": 1.0,
+        "scaled_residual": 2.023844055306275e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 16,
+      "amplitude": 0.4,
+      "k": 2.1,
+      "v": 1.7,
+      "mean_energy": 1.0195920000000003,
+      "mean_stress": [
+        [
+          0.33986400000000017,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.33986400000000017,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.33986400000000017
+        ]
+      ],
+      "mean_momentum": [
+        7.517135062566164e-18,
+        7.517135062566164e-18,
+        7.517135062566164e-18
+      ],
+      "energy_average": {
+        "absolute_residual": 0.0,
+        "scale": 1.0195920000000003,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 5.551115123125783e-17,
+        "scale": 1.0195920000000003,
+        "scaled_residual": 5.444447507557711e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 7.517135062566164e-18,
+        "scale": 1.0,
+        "scaled_residual": 7.517135062566164e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 16,
+      "amplitude": 1.2,
+      "k": 0.3,
+      "v": 0.7,
+      "mean_energy": 0.03175199999999999,
+      "mean_stress": [
+        [
+          0.010583999999999996,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.010583999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.010583999999999998
+        ]
+      ],
+      "mean_momentum": [
+        -1.2106924259421466e-18,
+        -1.2106924259421466e-18,
+        -1.2106924259421466e-18
+      ],
+      "energy_average": {
+        "absolute_residual": 1.3877787807814457e-17,
+        "scale": 1.0,
+        "scaled_residual": 1.3877787807814457e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 1.734723475976807e-18,
+        "scale": 1.0,
+        "scaled_residual": 1.734723475976807e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 1.2106924259421466e-18,
+        "scale": 1.0,
+        "scaled_residual": 1.2106924259421466e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 16,
+      "amplitude": 1.2,
+      "k": 0.3,
+      "v": 1.7,
+      "mean_energy": 0.187272,
+      "mean_stress": [
+        [
+          0.06242399999999996,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.06242399999999997,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.06242399999999998
+        ]
+      ],
+      "mean_momentum": [
+        -1.9877039828900914e-19,
+        -1.9877039828900914e-19,
+        -1.9877039828900914e-19
+      ],
+      "energy_average": {
+        "absolute_residual": 0.0,
+        "scale": 1.0,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 4.163336342344337e-17,
+        "scale": 1.0,
+        "scaled_residual": 4.163336342344337e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 1.9877039828900914e-19,
+        "scale": 1.0,
+        "scaled_residual": 1.9877039828900914e-19,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 16,
+      "amplitude": 1.2,
+      "k": 2.1,
+      "v": 0.7,
+      "mean_energy": 1.555848,
+      "mean_stress": [
+        [
+          0.5186160000000001,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5186160000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.5186160000000001
+        ]
+      ],
+      "mean_momentum": [
+        1.474514954580286e-17,
+        1.474514954580286e-17,
+        1.474514954580286e-17
+      ],
+      "energy_average": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 1.5558480000000001,
+        "scaled_residual": 1.4271612967656948e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 1.1102230246251565e-16,
+        "scale": 1.555848,
+        "scaled_residual": 7.135806483828475e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 1.474514954580286e-17,
+        "scale": 2.22264,
+        "scaled_residual": 6.634070090434285e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 16,
+      "amplitude": 1.2,
+      "k": 2.1,
+      "v": 1.7,
+      "mean_energy": 9.176328,
+      "mean_stress": [
+        [
+          3.058776,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.058776,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0587760000000004
+        ]
+      ],
+      "mean_momentum": [
+        -7.517135062566164e-17,
+        -7.517135062566164e-17,
+        -7.517135062566164e-17
+      ],
+      "energy_average": {
+        "absolute_residual": 0.0,
+        "scale": 9.176328,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 4.440892098500626e-16,
+        "scale": 9.176328,
+        "scaled_residual": 4.8395088956068555e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 7.517135062566164e-17,
+        "scale": 5.39784,
+        "scaled_residual": 1.3926190962618685e-17,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 32,
+      "amplitude": 0.4,
+      "k": 0.3,
+      "v": 0.7,
+      "mean_energy": 0.003528,
+      "mean_stress": [
+        [
+          0.0011760000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0011760000000000002,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0011760000000000002
+        ]
+      ],
+      "mean_momentum": [
+        -8.067988822597211e-20,
+        -8.067988822597211e-20,
+        -8.067988822597211e-20
+      ],
+      "energy_average": {
+        "absolute_residual": 4.336808689942018e-19,
+        "scale": 1.0,
+        "scaled_residual": 4.336808689942018e-19,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 2.168404344971009e-19,
+        "scale": 1.0,
+        "scaled_residual": 2.168404344971009e-19,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 8.067988822597211e-20,
+        "scale": 1.0,
+        "scaled_residual": 8.067988822597211e-20,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 32,
+      "amplitude": 0.4,
+      "k": 0.3,
+      "v": 1.7,
+      "mean_energy": 0.020807999999999997,
+      "mean_stress": [
+        [
+          0.006936,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.006936000000000002,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.006936000000000002
+        ]
+      ],
+      "mean_momentum": [
+        8.540915551480861e-20,
+        8.540915551480861e-20,
+        8.540915551480861e-20
+      ],
+      "energy_average": {
+        "absolute_residual": 3.469446951953614e-18,
+        "scale": 1.0,
+        "scaled_residual": 3.469446951953614e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 3.469446951953614e-18,
+        "scale": 1.0,
+        "scaled_residual": 3.469446951953614e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 8.540915551480861e-20,
+        "scale": 1.0,
+        "scaled_residual": 8.540915551480861e-20,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 32,
+      "amplitude": 0.4,
+      "k": 2.1,
+      "v": 0.7,
+      "mean_energy": 0.172872,
+      "mean_stress": [
+        [
+          0.057624000000000015,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.05762400000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.05762400000000001
+        ]
+      ],
+      "mean_momentum": [
+        -1.3597702246589034e-18,
+        -1.3597702246589034e-18,
+        -1.3597702246589034e-18
+      ],
+      "energy_average": {
+        "absolute_residual": 5.551115123125783e-17,
+        "scale": 1.0,
+        "scaled_residual": 5.551115123125783e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 1.3877787807814457e-17,
+        "scale": 1.0,
+        "scaled_residual": 1.3877787807814457e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 1.3597702246589034e-18,
+        "scale": 1.0,
+        "scaled_residual": 1.3597702246589034e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 32,
+      "amplitude": 0.4,
+      "k": 2.1,
+      "v": 1.7,
+      "mean_energy": 1.019592,
+      "mean_stress": [
+        [
+          0.3398639999999999,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.33986399999999994,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.33986399999999994
+        ]
+      ],
+      "mean_momentum": [
+        -3.7161029461940664e-17,
+        -3.7161029461940664e-17,
+        -3.7161029461940664e-17
+      ],
+      "energy_average": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 1.0195920000000003,
+        "scaled_residual": 2.1777790030230843e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 1.1102230246251565e-16,
+        "scale": 1.019592,
+        "scaled_residual": 1.0888895015115424e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 3.7161029461940664e-17,
+        "scale": 1.0,
+        "scaled_residual": 3.7161029461940664e-17,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 32,
+      "amplitude": 1.2,
+      "k": 0.3,
+      "v": 0.7,
+      "mean_energy": 0.031752,
+      "mean_stress": [
+        [
+          0.010583999999999998,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.010584000000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.010584000000000003
+        ]
+      ],
+      "mean_momentum": [
+        3.7438856268640075e-19,
+        3.7438856268640075e-19,
+        3.7438856268640075e-19
+      ],
+      "energy_average": {
+        "absolute_residual": 0.0,
+        "scale": 1.0,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 3.469446951953614e-18,
+        "scale": 1.0,
+        "scaled_residual": 3.469446951953614e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 3.7438856268640075e-19,
+        "scale": 1.0,
+        "scaled_residual": 3.7438856268640075e-19,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 32,
+      "amplitude": 1.2,
+      "k": 0.3,
+      "v": 1.7,
+      "mean_energy": 0.18727199999999997,
+      "mean_stress": [
+        [
+          0.06242399999999998,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.06242399999999998,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.062423999999999986
+        ]
+      ],
+      "mean_momentum": [
+        -5.421010862427522e-20,
+        -5.421010862427522e-20,
+        -5.421010862427522e-20
+      ],
+      "energy_average": {
+        "absolute_residual": 2.7755575615628914e-17,
+        "scale": 1.0,
+        "scaled_residual": 2.7755575615628914e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 6.938893903907228e-18,
+        "scale": 1.0,
+        "scaled_residual": 6.938893903907228e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 5.421010862427522e-20,
+        "scale": 1.0,
+        "scaled_residual": 5.421010862427522e-20,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 32,
+      "amplitude": 1.2,
+      "k": 2.1,
+      "v": 0.7,
+      "mean_energy": 1.555848,
+      "mean_stress": [
+        [
+          0.5186159999999999,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5186159999999999,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.5186159999999999
+        ]
+      ],
+      "mean_momentum": [
+        -1.0592655225183378e-16,
+        -1.0592655225183378e-16,
+        -1.0592655225183378e-16
+      ],
+      "energy_average": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 1.5558480000000001,
+        "scaled_residual": 1.4271612967656948e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 1.1102230246251565e-16,
+        "scale": 1.555848,
+        "scaled_residual": 7.135806483828475e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 1.0592655225183378e-16,
+        "scale": 2.22264,
+        "scaled_residual": 4.765798881142865e-17,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 32,
+      "amplitude": 1.2,
+      "k": 2.1,
+      "v": 1.7,
+      "mean_energy": 9.176328,
+      "mean_stress": [
+        [
+          3.058776,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0587760000000013,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.058776000000002
+        ]
+      ],
+      "mean_momentum": [
+        -3.1297302712414897e-17,
+        -3.1297302712414897e-17,
+        -3.1297302712414897e-17
+      ],
+      "energy_average": {
+        "absolute_residual": 0.0,
+        "scale": 9.176328,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 2.220446049250313e-15,
+        "scale": 9.176328,
+        "scaled_residual": 2.4197544478034274e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 3.1297302712414897e-17,
+        "scale": 5.39784,
+        "scaled_residual": 5.798116045013356e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 64,
+      "amplitude": 0.4,
+      "k": 0.3,
+      "v": 0.7,
+      "mean_energy": 0.003528,
+      "mean_stress": [
+        [
+          0.0011759999999999993,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0011759999999999993,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0011759999999999993
+        ]
+      ],
+      "mean_momentum": [
+        -9.337655917491938e-20,
+        -9.337655917491938e-20,
+        -9.337655917491938e-20
+      ],
+      "energy_average": {
+        "absolute_residual": 4.336808689942018e-19,
+        "scale": 1.0,
+        "scaled_residual": 4.336808689942018e-19,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 6.505213034913027e-19,
+        "scale": 1.0,
+        "scaled_residual": 6.505213034913027e-19,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 9.337655917491938e-20,
+        "scale": 1.0,
+        "scaled_residual": 9.337655917491938e-20,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 64,
+      "amplitude": 0.4,
+      "k": 0.3,
+      "v": 1.7,
+      "mean_energy": 0.020808000000000004,
+      "mean_stress": [
+        [
+          0.006936000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.006936000000000004,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.006936000000000005
+        ]
+      ],
+      "mean_momentum": [
+        6.22692741870052e-19,
+        6.22692741870052e-19,
+        6.22692741870052e-19
+      ],
+      "energy_average": {
+        "absolute_residual": 3.469446951953614e-18,
+        "scale": 1.0,
+        "scaled_residual": 3.469446951953614e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 3.469446951953614e-18,
+        "scale": 1.0,
+        "scaled_residual": 3.469446951953614e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 6.22692741870052e-19,
+        "scale": 1.0,
+        "scaled_residual": 6.22692741870052e-19,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 64,
+      "amplitude": 0.4,
+      "k": 2.1,
+      "v": 0.7,
+      "mean_energy": 0.172872,
+      "mean_stress": [
+        [
+          0.057624000000000015,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.05762400000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.05762400000000001
+        ]
+      ],
+      "mean_momentum": [
+        2.341763754842389e-18,
+        2.341763754842389e-18,
+        2.341763754842389e-18
+      ],
+      "energy_average": {
+        "absolute_residual": 5.551115123125783e-17,
+        "scale": 1.0,
+        "scaled_residual": 5.551115123125783e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 1.3877787807814457e-17,
+        "scale": 1.0,
+        "scaled_residual": 1.3877787807814457e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 2.341763754842389e-18,
+        "scale": 1.0,
+        "scaled_residual": 2.341763754842389e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 64,
+      "amplitude": 0.4,
+      "k": 2.1,
+      "v": 1.7,
+      "mean_energy": 1.0195920000000003,
+      "mean_stress": [
+        [
+          0.33986400000000044,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.33986400000000044,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.33986400000000044
+        ]
+      ],
+      "mean_momentum": [
+        5.0720332881587504e-18,
+        5.0720332881587504e-18,
+        5.0720332881587504e-18
+      ],
+      "energy_average": {
+        "absolute_residual": 0.0,
+        "scale": 1.0195920000000003,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 3.3306690738754696e-16,
+        "scale": 1.0195920000000003,
+        "scaled_residual": 3.2666685045346266e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 5.0720332881587504e-18,
+        "scale": 1.0,
+        "scaled_residual": 5.0720332881587504e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 64,
+      "amplitude": 1.2,
+      "k": 0.3,
+      "v": 0.7,
+      "mean_energy": 0.031752,
+      "mean_stress": [
+        [
+          0.010584000000000001,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.010584000000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.010584000000000003
+        ]
+      ],
+      "mean_momentum": [
+        1.172646529394641e-18,
+        1.172646529394641e-18,
+        1.172646529394641e-18
+      ],
+      "energy_average": {
+        "absolute_residual": 0.0,
+        "scale": 1.0,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 1.734723475976807e-18,
+        "scale": 1.0,
+        "scaled_residual": 1.734723475976807e-18,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 1.172646529394641e-18,
+        "scale": 1.0,
+        "scaled_residual": 1.172646529394641e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 64,
+      "amplitude": 1.2,
+      "k": 0.3,
+      "v": 1.7,
+      "mean_energy": 0.18727199999999997,
+      "mean_stress": [
+        [
+          0.062424000000000014,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.06242400000000003,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.06242400000000003
+        ]
+      ],
+      "mean_momentum": [
+        2.017914824675495e-18,
+        2.017914824675495e-18,
+        2.017914824675495e-18
+      ],
+      "energy_average": {
+        "absolute_residual": 2.7755575615628914e-17,
+        "scale": 1.0,
+        "scaled_residual": 2.7755575615628914e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 4.163336342344337e-17,
+        "scale": 1.0,
+        "scaled_residual": 4.163336342344337e-17,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 2.017914824675495e-18,
+        "scale": 1.0,
+        "scaled_residual": 2.017914824675495e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 64,
+      "amplitude": 1.2,
+      "k": 2.1,
+      "v": 0.7,
+      "mean_energy": 1.555848,
+      "mean_stress": [
+        [
+          0.5186160000000001,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5186160000000002,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.5186160000000002
+        ]
+      ],
+      "mean_momentum": [
+        8.754029041010043e-17,
+        8.754029041010043e-17,
+        8.754029041010043e-17
+      ],
+      "energy_average": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 1.5558480000000001,
+        "scaled_residual": 1.4271612967656948e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 2.220446049250313e-16,
+        "scale": 1.555848,
+        "scaled_residual": 1.427161296765695e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 8.754029041010043e-17,
+        "scale": 2.22264,
+        "scaled_residual": 3.93857261680256e-17,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    },
+    {
+      "phase_count": 64,
+      "amplitude": 1.2,
+      "k": 2.1,
+      "v": 1.7,
+      "mean_energy": 9.176328,
+      "mean_stress": [
+        [
+          3.0587760000000017,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.058776000000002,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0587760000000035
+        ]
+      ],
+      "mean_momentum": [
+        3.967276449486542e-17,
+        3.967276449486542e-17,
+        3.967276449486542e-17
+      ],
+      "energy_average": {
+        "absolute_residual": 0.0,
+        "scale": 9.176328,
+        "scaled_residual": 0.0,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "isotropic_stress": {
+        "absolute_residual": 3.552713678800501e-15,
+        "scale": 9.176328,
+        "scaled_residual": 3.8716071164854844e-16,
+        "threshold": 5e-13,
+        "passed": true
+      },
+      "zero_mean_momentum": {
+        "absolute_residual": 3.967276449486542e-17,
+        "scale": 5.39784,
+        "scaled_residual": 7.34974813904551e-18,
+        "threshold": 5e-13,
+        "passed": true
+      }
+    }
+  ],
+  "anisotropic_control": {
+    "directions": [
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "phase_count": 64,
+    "amplitude": 1.2,
+    "k": 2.1,
+    "v": 1.7,
+    "mean_energy": 9.176328000000002,
+    "mean_stress": [
+      [
+        9.176328000000005,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.9997566970408887e-15,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.9997566970408887e-15
+      ]
+    ],
+    "mean_momentum": [
+      5.397840000000001,
+      0.0,
+      0.0
+    ],
+    "directional_stress": {
+      "absolute_residual": 3.552713678800501e-15,
+      "scale": 9.176328000000005,
+      "scaled_residual": 3.871607116485482e-16,
+      "threshold": 5e-13,
+      "passed": true
+    },
+    "max_deviation_from_rho_over_3_relative_to_rho": 0.6666666666666671
+  },
+  "failures": [],
+  "summary": {
+    "total_checks": 334,
+    "passed_checks": 334,
+    "failed_checks": 0,
+    "symbolic_checks": 9,
+    "lattice_states": 36,
+    "lattice_blocks": 108,
+    "isotropic_wave_cases": 24,
+    "anisotropic_controls": 1
+  }
+}

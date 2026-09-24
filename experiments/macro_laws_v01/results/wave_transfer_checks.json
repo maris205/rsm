@@ -1,0 +1,455 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-09-24T08:52:24.057133+00:00",
+  "checks_passed": 28,
+  "checks_total": 28,
+  "checks": [
+    {
+      "name": "matched_long_wave_distance",
+      "passed": true,
+      "detail": {
+        "observed": 8.881784197001252e-16,
+        "strict_upper_threshold": 1e-13,
+        "distances_lattice_sites": [
+          3.6902109801398386,
+          3.6902109801398395
+        ]
+      }
+    },
+    {
+      "name": "coordinate_fft_relative_l2:p=0",
+      "passed": true,
+      "detail": {
+        "observed": 9.512179473985952e-15,
+        "strict_upper_threshold": 1e-11
+      }
+    },
+    {
+      "name": "linear_mean_conservation:p=0",
+      "passed": true,
+      "detail": {
+        "observed": 2.1163626406917047e-16,
+        "strict_upper_threshold": 1e-13
+      }
+    },
+    {
+      "name": "coordinate_fft_relative_l2:p=2",
+      "passed": true,
+      "detail": {
+        "observed": 3.849829917422337e-15,
+        "strict_upper_threshold": 1e-11
+      }
+    },
+    {
+      "name": "linear_mean_conservation:p=2",
+      "passed": true,
+      "detail": {
+        "observed": 1.5959455978986625e-16,
+        "strict_upper_threshold": 1e-13
+      }
+    },
+    {
+      "name": "coordinate_fourier_eigenvalue",
+      "passed": true,
+      "detail": {
+        "observed": 1.2087308289164479e-14,
+        "strict_upper_threshold": 1e-13,
+        "mode_indices": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            6,
+            6,
+            6
+          ]
+        ],
+        "errors": [
+          0.0,
+          1.8111044797400593e-16,
+          1.6476622377199301e-15,
+          1.2087308289164479e-14
+        ]
+      }
+    },
+    {
+      "name": "constant_transfer_closed_form",
+      "passed": true,
+      "detail": {
+        "observed": 2.4397150966137815e-14,
+        "strict_upper_threshold": 2e-11
+      }
+    },
+    {
+      "name": "single_mode_symplectic",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "strict_upper_threshold": 1e-14
+      }
+    },
+    {
+      "name": "45_step_mode_symplectic",
+      "passed": true,
+      "detail": {
+        "observed": 2.864375403532904e-14,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "45_step_mode_determinant",
+      "passed": true,
+      "detail": {
+        "observed": 5.684341886080802e-14,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "selected_frozen_oscillatory_upper_bound",
+      "passed": true,
+      "detail": {
+        "max_c2_lambda": 0.1565244139473232,
+        "strict_upper_bound": 4.0,
+        "qualification": "The zero mode is neutral; this is not a proof for arbitrary time-dependent products."
+      }
+    },
+    {
+      "name": "long_wave_coefficient_one_sixth",
+      "passed": true,
+      "detail": {
+        "observed": 8.333305555774384e-06,
+        "strict_upper_threshold": 1e-05,
+        "r": 0.01,
+        "errors_by_direction": [
+          8.333305555774384e-06,
+          4.166659722415478e-06,
+          2.7777746907653444e-06
+        ]
+      }
+    },
+    {
+      "name": "quartic_direction_coefficient",
+      "passed": true,
+      "detail": {
+        "observed": 4.629585406180914e-08,
+        "strict_upper_threshold": 1e-07,
+        "expected": [
+          -0.013888888888888888,
+          -0.006944444444444442,
+          -0.004629629629629633
+        ],
+        "measured": [
+          -0.013888842593034826,
+          -0.006944432870883825,
+          -0.004629624484611076
+        ],
+        "r": 0.01
+      }
+    },
+    {
+      "name": "relative_long_wave_error_order_2",
+      "passed": true,
+      "detail": {
+        "orders": [
+          2.000541109948894,
+          2.000270530143147,
+          2.0001803479171025
+        ],
+        "inclusive_interval": [
+          1.95,
+          2.05
+        ],
+        "radii": [
+          0.1,
+          0.05
+        ]
+      }
+    },
+    {
+      "name": "relative_corrected_error_order_4",
+      "passed": true,
+      "detail": {
+        "orders": [
+          4.0007085750704485,
+          4.000354321131881,
+          4.000235959595696
+        ],
+        "inclusive_interval": [
+          3.95,
+          4.05
+        ],
+        "radii": [
+          0.1,
+          0.05
+        ]
+      }
+    },
+    {
+      "name": "sine_cosine_eigenvalue_identity",
+      "passed": true,
+      "detail": {
+        "observed": 4.440892098500626e-16,
+        "strict_upper_threshold": 1e-14
+      }
+    },
+    {
+      "name": "dense_laplacian_symmetry",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "strict_upper_threshold": 1e-13
+      }
+    },
+    {
+      "name": "dense_eigendecomposition",
+      "passed": true,
+      "detail": {
+        "observed": 8.326672684688674e-16,
+        "strict_upper_threshold": 1e-12
+      }
+    },
+    {
+      "name": "coordinate_modal_operator:p=0",
+      "passed": true,
+      "detail": {
+        "observed": 7.225245018704451e-15,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "complete_covariance_propagation:p=0",
+      "passed": true,
+      "detail": {
+        "observed": 9.267274035305733e-15,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "coordinate_modal_operator:p=2",
+      "passed": true,
+      "detail": {
+        "observed": 4.592848262625803e-15,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "complete_covariance_propagation:p=2",
+      "passed": true,
+      "detail": {
+        "observed": 5.277093409354347e-15,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "retained_mode_subspace_nonempty",
+      "passed": true,
+      "detail": {
+        "retained_modes": 64,
+        "total_modes": 64,
+        "rule": "Both schedules have |T_N| > 0.1 before division."
+      }
+    },
+    {
+      "name": "prior_absorption_target_covariance:p=0",
+      "passed": true,
+      "detail": {
+        "observed": 1.7981364074713427e-14,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "prior_absorption_target_covariance:p=2",
+      "passed": true,
+      "detail": {
+        "observed": 1.195687347570518e-14,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "prior_absorption_equal_final_covariances",
+      "passed": true,
+      "detail": {
+        "observed": 2.157437056798829e-14,
+        "strict_upper_threshold": 1e-10
+      }
+    },
+    {
+      "name": "finite_propagation_sum_diagnostics",
+      "passed": true,
+      "detail": {
+        "qualification": "No convergence rate, finite horizon, or asymptotic theorem is proved by these finite sums."
+      }
+    },
+    {
+      "name": "constant_schedule_sum_ratio",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "strict_upper_threshold": 2e-14
+      }
+    }
+  ],
+  "metadata": {
+    "model": "Externally scheduled normalized three-dimensional linear wave lattice",
+    "units": {
+      "n": "dimensionless update index",
+      "lambda": "dimensionless eigenvalue of -L",
+      "k_radius": "radians per lattice spacing",
+      "q": "arbitrary scalar field units",
+      "mode_power": "dimensionless |T_N|^2",
+      "propagation_distance": "lattice sites"
+    },
+    "steps": 45,
+    "coefficient_indices": "1,...,45",
+    "initial_pair": "q[-1] = q[0]",
+    "offset": 10.0,
+    "exponents": [
+      0,
+      2
+    ],
+    "amplitudes": [
+      0.040348613564280385,
+      0.45
+    ],
+    "amplitude_matching": "Equal sum sqrt(c_n^2), which only matches a long-wave phase proxy",
+    "coordinate_grid_size": 12,
+    "covariance_grid_size": 4,
+    "seed_coordinate": 2026092404,
+    "seed_covariance": 2026092405,
+    "source_commit": "f42db51748003fc83be064dade9bb52de5eb8319",
+    "source_sha256_verified_before_implementation": {
+      "code/lattice_transfer.py": "6ed9effd4f9f734715907d4ea3193f31e8169542a378c4fc7a7c52adb570c5b4",
+      "paper/main.tex": "e513fb52ca871f01b932f2504d4a305123f1d2e507b192c79dc031ab75fb2dcd",
+      "reports/theory_derivation.md": "cd2ea373103c79c8d1dfd6a066c80c85274c2d68e4922517b2e85132d28b2cd3"
+    },
+    "protocol_sha256": "57108d82f7676be910a8691b80c242e10f4e41862a04f9580994cac36c01fb56",
+    "script_sha256": "fb220f741b2846c10a44cd2202f00c43833041183fbb0e62816aec4356f7352a",
+    "not_included": [
+      "observations",
+      "sky fitting",
+      "autonomous clock",
+      "drag",
+      "clipping",
+      "nonlinear force"
+    ]
+  },
+  "runtime": {
+    "python": "3.12.3",
+    "numpy": "2.4.4"
+  },
+  "summary": {
+    "coordinate_fft_relative_l2": [
+      9.512179473985952e-15,
+      3.849829917422337e-15
+    ],
+    "mean_max_abs_errors": [
+      2.1163626406917047e-16,
+      1.5959455978986625e-16
+    ],
+    "covariance_relative_errors": [
+      9.267274035305733e-15,
+      5.277093409354347e-15
+    ],
+    "matched_distance_lattice_sites": [
+      3.6902109801398386,
+      3.6902109801398395
+    ],
+    "long_wave_relative_error_orders": [
+      2.000541109948894,
+      2.000270530143147,
+      2.0001803479171025
+    ],
+    "corrected_relative_error_orders": [
+      4.0007085750704485,
+      4.000354321131881,
+      4.000235959595696
+    ],
+    "prior_absorption": {
+      "retained_modes": 64,
+      "excluded_modes": 0,
+      "total_modes": 64,
+      "schedule_statistics": [
+        {
+          "p": 0,
+          "minimum_retained_abs_T": 0.3751219336894276,
+          "maximum_initial_mode_power": 4.974542242295229,
+          "minimum_initial_mode_power": 0.5016755771828473
+        },
+        {
+          "p": 2,
+          "minimum_retained_abs_T": 0.4521452938100001,
+          "maximum_initial_mode_power": 3.424065078609726,
+          "minimum_initial_mode_power": 0.2931342302290625
+        }
+      ]
+    }
+  },
+  "finite_sum_diagnostic": {
+    "p": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "N": [
+      45,
+      100,
+      1000,
+      10000,
+      100000,
+      1000000
+    ],
+    "A_all_p": 0.45,
+    "offset": 10.0,
+    "ratios": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0649228821309455,
+        1.0901937204949692,
+        1.0875270679425866,
+        1.0659264585305923,
+        1.050821706136685,
+        1.0410997329151597
+      ],
+      [
+        1.1398623891646211,
+        1.1973562335255745,
+        1.1932965086773037,
+        1.142907450349242,
+        1.1080430721400105,
+        1.0862020763444622
+      ],
+      [
+        1.2266091537101027,
+        1.3256349827251572,
+        1.323354293461869,
+        1.2344000973562836,
+        1.1732502671590428,
+        1.1360512311902307
+      ]
+    ],
+    "not_a_proof": true
+  },
+  "artifacts": {
+    "results/wave_transfer_curves.npz": "61c38ac59e6b8af538c5125df51383b24cd4f7c173395c2185f0d17c4ed98ab7"
+  }
+}

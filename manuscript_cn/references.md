@@ -203,3 +203,11 @@
 <a id="r51"></a>
 
 **[51]** NumPy Developers. Compatibility policy. *NumPy随机数模块官方文档*，2026-09-24查阅。[随机流复现的条件与兼容性范围](https://numpy.org/doc/stable/reference/random/compatibility.html)。
+
+<a id="r52"></a>
+
+**[52]** Seljak, U., and Zaldarriaga, M. A Line-of-Sight Integration Approach to Cosmic Microwave Background Anisotropies. *The Astrophysical Journal* **469**, 437–444 (1996). [DOI: 10.1086/177793](https://doi.org/10.1086/177793)；[作者预印本](https://arxiv.org/abs/astro-ph/9603033)。
+
+<a id="r53"></a>
+
+**[53]** 本项目研究记录. 微观—宏观关系的代数与小格点验证：局部能流、条件波动压力、色散与协方差传递（2026-09-24）。未单独发表的代码、预先记录协议及完整结果；[归档说明](../experiments/macro_laws_v01/README.md)、[守恒核验](../experiments/macro_laws_v01/reports/conservation_checks_cn.md)、[波动与传递核验](../experiments/macro_laws_v01/reports/wave_transfer_checks_cn.md)。
