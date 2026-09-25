@@ -1,0 +1,307 @@
+{
+  "created_utc": "2026-09-25T15:17:47.900657+00:00",
+  "stage": "sequestering_test_v01",
+  "parent_git_commit": "18bf8a90abf5bd5d3b385af99978018ad4b9c054",
+  "input_type": "Primary finite 5D gravity coefficient plus conditional 4D K/W; stored model coordinates, no new observation.",
+  "output_type": "Correlated selected matter contacts and clock curvature; local necessary conditions and independent calculations.",
+  "scope_exclusions": [
+    "full 5D embedding of clock and quartic stabilizer",
+    "complete two-loop matching and finite local potential",
+    "rolling covariant stability or new cosmic trajectory",
+    "Standard Model or observed alpha prediction",
+    "Riemann derivation of interactions or inverse-log exponent"
+  ],
+  "assumptions": [
+    "kappa clock-metric extension is explicit input",
+    "nu0=0 and nu0=-c are different finite matching boundaries",
+    "positive local curvature is a necessary condition, not full stability"
+  ],
+  "authorship": "AI-assisted project-internal derivation and distinct code paths; no external peer review.",
+  "failure_provenance": [
+    "initial root-residual normalization precision failure retained",
+    "two comparator mass-scaling failures retained; tolerances unchanged",
+    "initial leading-curvature summary retained before finite-clock refinement",
+    "negative-curvature physical branches retained"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 26850,
+      "sha256": "d0016e10d420a9006db4f218592d226618704b8cd38f72e61b6f12449d3ea30e"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "bytes": 36552,
+      "sha256": "d761d2ff898ef5cd7f6316208d6dde0e06a97c6a5c698fd3d8bfefa56c9de912"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "bytes": 32648,
+      "sha256": "0839df69460bae90a99a0686b224adcfef39d8a5588daf5e3ea38c93dc413323"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/README.md",
+      "bytes": 2550,
+      "sha256": "2910ca32a9fd663573ce98dbc7dfefc8d2aa877a0d26a4d2f8a37e7c2f669161"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/code/audit_archive.py",
+      "bytes": 8591,
+      "sha256": "6ccdc272e9aea4182bf734520372fc5b75a2eead0e794d8729161dd188109940"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/code/independent_check.py",
+      "bytes": 22162,
+      "sha256": "6030b727db85dac13f3756017a184bd3582a8b7e9086e4aa9b3b7010b4d5d65b"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/code/plot_results.py",
+      "bytes": 4742,
+      "sha256": "34f4c5fee9492f95e03ad3be71137ee8297aa17bf6d1a38aea5603601ed42a18"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/code/run_sequestering.py",
+      "bytes": 14547,
+      "sha256": "b8cf2f19cf7f492c76ae1ffe1e77828ec9576164201a299da36ba252fbb63098"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/figures/captions.md",
+      "bytes": 870,
+      "sha256": "0200e4bcc3da1b22a8a5f17b699432565eb63bf549b0571a2675d8f3cec29030"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/figures/transfer_and_clock_curvature.pdf",
+      "bytes": 43714,
+      "sha256": "224aec1e16cf4e82946027dfc7c40ed4ea3a13df24e7341120a69450c2bd3c97"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/figures/transfer_and_clock_curvature.png",
+      "bytes": 249498,
+      "sha256": "38ee550cea8922b5aa78ce85a0ea81343ac990acf8dc8d0e32efb941e60ae71f"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/independent_derive.log",
+      "bytes": 1329,
+      "sha256": "28b4091611c5a749c33f0b251ba6efb1c7a20c0f97c7e7fc631f980a4215df62"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/independent_first_comparison.log",
+      "bytes": 1129,
+      "sha256": "0479477fadc1445c67998cd5b01b1da48d81745b1eb4e1d461ffcbc4b3b06329"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/independent_initial_derive.log",
+      "bytes": 745,
+      "sha256": "7b1b189566f86b830f048ff2aad426405aa7ee9c753b0f15c036b0086455ee4d"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/independent_second_comparison.log",
+      "bytes": 1206,
+      "sha256": "227271ffea52b938899aa013a2da0f6d9701026d1001b259f13f7f078e108ddc"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/main_archive_run.log",
+      "bytes": 2593,
+      "sha256": "19a0bde5a664b9b6fd2aaf06b5f05cfbec80c41cde891d12005935b542648fa2"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/main_final_run.log",
+      "bytes": 2593,
+      "sha256": "19a0bde5a664b9b6fd2aaf06b5f05cfbec80c41cde891d12005935b542648fa2"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/main_refined_run.log",
+      "bytes": 2416,
+      "sha256": "9245d8480fa9a403a5b664a12a0ff8a6071bf7741f80864fec8bfe7f4edc3303"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/main_run.log",
+      "bytes": 2281,
+      "sha256": "59c9672a3ad19c0b19d4eff47e7a8fff18e66a66c908d42ee8aff25977d34718"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/logs/plot_run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/protocol.md",
+      "bytes": 6433,
+      "sha256": "46141472b690897f9bd9ccd1d0d9ac3c2acd903c0bea08da13765628af092438"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/reports/independent_results_cn.md",
+      "bytes": 8331,
+      "sha256": "b5649c6e06bdd720989128695acf4795cede2cdaca291969c25427398aeac6f7"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/reports/results_cn.md",
+      "bytes": 12488,
+      "sha256": "cfdffd4decf59ace1e3abc3ad98a9b333c33db2ab9b613c2dc17f537ee534cbc"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/conditional_limits.csv",
+      "bytes": 562,
+      "sha256": "1ced4ab1c49a01cfee1cc07b6422d795431cd4011f94965968cdb5c26af4e005"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_budgets.csv",
+      "bytes": 3620,
+      "sha256": "577b97422178055db78696f7e17a707b0cd7690d01b7701bdb6e5884fddcbb4a"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_comparison.json",
+      "bytes": 6109,
+      "sha256": "42a0c9ec2a53af590d5b01071a8480cb3409b2c4e93a8059bc2b1856279f316b"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_first_comparison.json",
+      "bytes": 6038,
+      "sha256": "9bd14651c7e1198be6b957c5ddebfa275525eaac6b6e5c5e3557201a0290d3a7"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_initial_kahler_140.csv",
+      "bytes": 45241,
+      "sha256": "512276833928169a672fedf4f825226f0e2c69ce260328ee6aeff961844031a4"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_initial_kahler_220.csv",
+      "bytes": 45083,
+      "sha256": "7d3d1ebb2290c10bbc57cede3e376f1d4a1c4eeed1cfb0160c95eaeaa0d150cc"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_initial_summary.json",
+      "bytes": 11252,
+      "sha256": "f3fc9d67f2336685e5f851eb538108092fc1d395f40c8215cc793002287fab2a"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_kahler_140.csv",
+      "bytes": 70676,
+      "sha256": "9237046127faf8e3af7c8a7e978e63cd360d296e5879e294bc2975c0ebf42ce4"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_kahler_220.csv",
+      "bytes": 70506,
+      "sha256": "84f345b46bf3f4b1411a9c9daae50b768b446b2e7e204b78303188cea5b60990"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_second_comparison.json",
+      "bytes": 6039,
+      "sha256": "21d56fb1f109d68675c674b12b61a9095a7d352600e008397e9df84ee18c76f3"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/independent_summary.json",
+      "bytes": 37848,
+      "sha256": "dce927bde1fad792cf8f73832d334d9f85df4bc2ed1f695bdc0840abe1c29cee"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/initial_leading_mass_summary.json",
+      "bytes": 32241,
+      "sha256": "9cfd137b386ff8c61d3b9e95ac48f0e9d2d36ab9aaf282774432f84e6c4a3794"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/inputs.json",
+      "bytes": 6241,
+      "sha256": "b8e64481a02d792e1115be91fc519fc944e5465d7acf5867f18218917514de77"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/representatives.csv",
+      "bytes": 69980,
+      "sha256": "35db7b18420b56ed0b3f2c12507c3848d66cf2a41bc653c0b19a39cfeb9d70d8"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/scan.csv",
+      "bytes": 10092534,
+      "sha256": "aead0d21ee750612414f77fb851f4d8c5285d020858eadb8daaf02217154d15a"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/summary.json",
+      "bytes": 32682,
+      "sha256": "2695b045cc46a2973f3ffa250a5b0ac66e8893a08ada16c9a8c822e32b155a78"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/inputs.json",
+      "bytes": 1556,
+      "sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/trajectories.csv",
+      "bytes": 6623432,
+      "sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+    },
+    {
+      "path": "reports/protection_5d_20260925.md",
+      "bytes": 7795,
+      "sha256": "8dddf0f341d461ffca37b9da44210143b98fc63289bfd6e4faa73073e61e954f"
+    },
+    {
+      "path": "reports/protection_5d_20260925_checks.json",
+      "bytes": 5845,
+      "sha256": "f3756476d54ae7abea848a8e2c79eb54022c11f2927338d42e67ba29b2b73c6e"
+    },
+    {
+      "path": "reports/protection_5d_20260925_checks.py",
+      "bytes": 5214,
+      "sha256": "3d9d5ba6c304dcac98315e05ebf1daba3630a4afb32286c154b679fd7ece62ca"
+    },
+    {
+      "path": "reports/protection_5d_20260925_sources.json",
+      "bytes": 5144,
+      "sha256": "8898b057351a820d9c765c1b39a86034068741baa34502e3f6d45345d5800a9c"
+    },
+    {
+      "path": "reports/protection_power_correction_20260925.md",
+      "bytes": 14070,
+      "sha256": "439c5e64f53ae226965efa9859958c1f0fee8e04437e258cfb78cb830d42b70b"
+    },
+    {
+      "path": "reports/protection_power_correction_20260925_checks.json",
+      "bytes": 103487,
+      "sha256": "4d488c582e61c0729e18c2323f28f6efd1187f9075a9e269c44ead2d7ec6fdaf"
+    },
+    {
+      "path": "reports/protection_power_correction_20260925_checks.py",
+      "bytes": 7294,
+      "sha256": "54a3b31c7cf6ca720cc7e56467636d246acb74145fbf6d8ee1b580f078a521c6"
+    },
+    {
+      "path": "reports/protection_power_correction_20260925_review.json",
+      "bytes": 25680,
+      "sha256": "9bf8ad2035f30c16caa6474e9fb6761cb005ff1eadd56a1a0a3e6e4a343e1f92"
+    },
+    {
+      "path": "reports/protection_power_correction_20260925_review.py",
+      "bytes": 4926,
+      "sha256": "2f5025f099b33f1bddde8082a3fc85a674ffce81065fe6dbf7e350be02c519f6"
+    },
+    {
+      "path": "reports/protection_symmetry_20260925.md",
+      "bytes": 11399,
+      "sha256": "66bc0b755ee69dc8ca20f3ccf61ab9771a372fcfcd7c93a7089121e168053c91"
+    },
+    {
+      "path": "reports/protection_symmetry_20260925_checks.json",
+      "bytes": 5718,
+      "sha256": "f5916b24c0fdc25e8f3d8332a4ece90456c3bedcd708448e5c11e631f943662c"
+    },
+    {
+      "path": "reports/protection_symmetry_20260925_checks.py",
+      "bytes": 9210,
+      "sha256": "0c73d0746c2ed76684e0d03ef0f8817b2607f2e2c4081be3fb3c43b67a244aca"
+    },
+    {
+      "path": "reports/protection_symmetry_20260925_sources.json",
+      "bytes": 2891,
+      "sha256": "cfbf045d43f2238409a44c7a9b933ddf6dad29e7cd0eba74094b1a2c43bfc836"
+    }
+  ],
+  "excluded": [
+    "this manifest and its audit to avoid self-reference",
+    "ignored primary-source fulltexts in build/",
+    "Python caches"
+  ],
+  "source_read_records": [
+    "reports/protection_5d_20260925_sources.json",
+    "reports/protection_symmetry_20260925_sources.json"
+  ]
+}

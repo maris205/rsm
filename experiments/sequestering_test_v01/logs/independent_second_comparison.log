@@ -1,0 +1,27 @@
+Direct K/W batch 140 digits: 72 points
+Direct K/W batch 220 digits: 72 points
+{
+  "created_utc": "2026-09-25T15:02:44.613772+00:00",
+  "code_independence": "No import or execution of the primary implementation.",
+  "scope": "Direct 4D two-chiral-field K/W Hessians and selected coefficient susceptibility; not full loop matching.",
+  "check_count": 153,
+  "checks_passed": 153,
+  "direct_points_per_precision": 72,
+  "precision_digits": [
+    140,
+    220
+  ],
+  "max_precision_normalized_difference": "1.05585904409063530283477626932688416001732527113865841480523522622136747378136892639801766e-83",
+  "max_clockoff_leading_normalized_difference": 7.078322021227449e-19,
+  "max_finiteclock_leading_normalized_difference": 3.5968512450822744e-09,
+  "max_finiteclock_refined_normalized_difference": 4.663243360048532e-17
+}
+{
+  "created_utc": "2026-09-25T15:03:06.762136+00:00",
+  "checked_rows": 19359,
+  "checks_passed": 21,
+  "check_count": 22,
+  "boolean_mismatches": [],
+  "max_normalized_difference": "0.00000000157008105167879176697376547440776111911646638651276065052990287734580308349626498430713366",
+  "scope": "Main leading-order table comparison; no reading or importing main implementation."
+}

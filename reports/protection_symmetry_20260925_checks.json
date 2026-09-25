@@ -1,0 +1,230 @@
+{
+  "scope": "Exact finite transformations, permitted local operators, constant-W SUGRA derivatives; not a classification of every possible UV symmetry",
+  "sympy_version": "1.14.0",
+  "script_sha256": "0c73d0746c2ed76684e0d03ef0f8817b2607f2e2c4081be3fb3c43b67a244aca",
+  "checks": [
+    {
+      "name": "clock_holomorphic_coordinate_to_standard_coset",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "finite_heisenberg_Y_invariance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "imaginary_T_shift_Y_invariance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "real_clock_shift_k_invariance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "b_breaks_axionic_T_translation",
+      "passed": true,
+      "nonzero_witness": "8*alpha*b*(alpha + v)*(2*alpha**2 + 2*alpha*v + v**2)"
+    },
+    {
+      "name": "quartic_preserves_CP",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "centered_continuous_rotation_breaking_polynomial",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "positive_quartics_not_centered_U1",
+      "passed": true,
+      "nonzero_witness": "4*delta*v*(-a*delta**2 + b*v**2)"
+    },
+    {
+      "name": "Heisenberg_breaking_witness_at_center",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quartic_Heisenberg_breaking_witness_nonzero",
+      "passed": true,
+      "nonzero_witness": "a*e_real**8/(81*P**4)"
+    },
+    {
+      "name": "ideal_homogeneous_scaling",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "centered_quartic_breaks_homogeneous_scaling",
+      "passed": true,
+      "nonzero_witness": "(lam - 1)*(a*lam**3*t**4 + a*lam**2*t**4 - 4*a*lam**2*t**3 + a*lam*t**4 - 4*a*lam*t**3 + 6*a*lam*t**2 - a + b*lam**3*v**4 + b*lam**2*v**4 + b*lam*v**4)"
+    },
+    {
+      "name": "mass_superpotential_breaks_Q_translation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "mass_breaking_nonzero",
+      "passed": true,
+      "nonzero_witness": "M*Qm*e"
+    },
+    {
+      "name": "charged_translation_covariant_derivative_mismatch",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "gauge_breaking_nonzero",
+      "passed": true,
+      "nonzero_witness": "-I*A*e*g"
+    },
+    {
+      "name": "fixed_Wc_and_mass_not_required_scale_weight",
+      "passed": true,
+      "nonzero_witness": "-(r - 1)*(M*Qm*Qp*r**2 + Wc*r**2 + Wc*r + Wc)"
+    },
+    {
+      "name": "clock_exponential_shift_factor",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "constant_and_clock_not_same_shift_character",
+      "passed": true,
+      "nonzero_witness": "Wc*(exp(kap*shift) - 1)*exp(-kap*shift)"
+    },
+    {
+      "name": "clock_mass_squared_shift_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "dangerous_contact_invariant_under_all_linear_phases_including_R",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_U1_gauge_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "W_mass_U1_gauge_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_centered_parity_even",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_CP_even",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quadratic_hidden_deformation_phase_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cubic_hidden_deformation_CP_even",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cubic_odd_under_hypothetical_centered_parity",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "centered_parity_not_actual_base_K_invariance",
+      "passed": true,
+      "nonzero_witness": "-2*(tau + taub)"
+    },
+    {
+      "name": "contact_mixed_log_metric_curvature",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic_rescaling_cannot_change_mixed_curvature",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "soft_mass_contact_shift",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "direct_SUGRA_potential_identity",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "hidden_c2_center_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "hidden_c2_center_metric",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "hidden_c2_compensator_over_Wbar_P",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "hidden_c2_common_soft_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "hidden_c3_center_potential_zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "hidden_c3_real_gradient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quartic_real_hessian",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quartic_imaginary_hessian",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cubic_leading_displacement",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quartic_axion_breaking_not_a_Kahler_transformation",
+      "passed": true,
+      "nonzero_witness": "-579/257"
+    },
+    {
+      "name": "quartic_Q_translation_breaking_not_a_Kahler_transformation",
+      "passed": true,
+      "nonzero_witness": "-3006673/430023169"
+    }
+  ],
+  "total": 44,
+  "passed": 44,
+  "physical_inference": "The tested existing symmetries do not force c=0. Permitted does not imply a computed nonzero loop coefficient."
+}

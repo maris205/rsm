@@ -1,0 +1,102 @@
+{
+  "retrieved": "2026-09-25T14:45:42.430547+00:00",
+  "sources": [
+    {
+      "id": "hep-th/0209178",
+      "url": "https://arxiv.org/html/hep-th/0209178",
+      "status": 200,
+      "bytes": 111215,
+      "sha256": "633c1735ca40c0b0b6c7150ad43b7b4bedb1794e91c5ca0e31dd90a69ce4ab05",
+      "cache": "build/protection_5d_sources/hep-th_0209178.html",
+      "read_scope": "HTML Eqs. 3–19 and concluding gravity-loop paragraphs; PDF pp. 1–5 via text; rendered PDF p. 2 (third physical page) viewed to verify Eq. 6 printing and Planck convention.",
+      "version": "v2",
+      "sha256_verified_now": true
+    },
+    {
+      "id": "hep-th/0209178",
+      "url": "https://arxiv.org/pdf/hep-th/0209178",
+      "status": 200,
+      "bytes": 104329,
+      "sha256": "bd589eb5f3f2f833d58470c17ef7b59fba8207e2a8375e53b1451ef989d9c05e",
+      "cache": "build/protection_5d_sources/hep-th_0209178.pdf",
+      "read_scope": "HTML Eqs. 3–19 and concluding gravity-loop paragraphs; PDF pp. 1–5 via text; rendered PDF p. 2 (third physical page) viewed to verify Eq. 6 printing and Planck convention.",
+      "version": "v2",
+      "sha256_verified_now": true
+    },
+    {
+      "id": "hep-th/0305184",
+      "url": "https://arxiv.org/html/hep-th/0305184",
+      "status": 200,
+      "bytes": 1053096,
+      "sha256": "00a929809370632faf3ff20cfc51807458375bc55dc9b290bcbf9ebbb37daf87",
+      "cache": "build/protection_5d_sources/hep-th_0305184.html",
+      "read_scope": "HTML Sections 1, 2.1–2.2, Eq. 3.34, Section 6.1 and Eqs. 7.1–7.5, 7.14–7.15; PDF text around Sections 1, 2, 3.2, 6.1; rendered physical page 5 viewed for Eq. 2.1. Not a full 46-page audit.",
+      "version": "v1",
+      "sha256_verified_now": true
+    },
+    {
+      "id": "hep-th/0305184",
+      "url": "https://arxiv.org/pdf/hep-th/0305184",
+      "status": 200,
+      "bytes": 415210,
+      "sha256": "b052827c172eddd1dcb5d19c4c5237d512b95d9cf57351f596b2f2ee1329691c",
+      "cache": "build/protection_5d_sources/hep-th_0305184.pdf",
+      "read_scope": "HTML Sections 1, 2.1–2.2, Eq. 3.34, Section 6.1 and Eqs. 7.1–7.5, 7.14–7.15; PDF text around Sections 1, 2, 3.2, 6.1; rendered physical page 5 viewed for Eq. 2.1. Not a full 46-page audit.",
+      "version": "v1",
+      "sha256_verified_now": true
+    },
+    {
+      "id": "hep-th/9810155",
+      "url": "https://arxiv.org/html/hep-th/9810155",
+      "status": 200,
+      "bytes": 481353,
+      "sha256": "6e120595e5a77425d0acfb8f52e58ee62ca9430ca511845c759220a9208a7030",
+      "cache": "build/protection_5d_sources/hep-th_9810155.html",
+      "read_scope": "HTML Sections 1, 4.2, 5 and 7, particularly Eqs. 15, 44–45; PDF introductory pages via text. No modern phenomenological bounds imported.",
+      "version": "v2",
+      "sha256_verified_now": true
+    },
+    {
+      "id": "hep-th/9810155",
+      "url": "https://arxiv.org/pdf/hep-th/9810155",
+      "status": 200,
+      "bytes": 387880,
+      "sha256": "b5642ae88f20da0b4e2286b1afe1338ce3072528cbfc6e6bb7319ade886a2de2",
+      "cache": "build/protection_5d_sources/hep-th_9810155.pdf",
+      "read_scope": "HTML Sections 1, 4.2, 5 and 7, particularly Eqs. 15, 44–45; PDF introductory pages via text. No modern phenomenological bounds imported.",
+      "version": "v2",
+      "sha256_verified_now": true
+    }
+  ],
+  "scope": "Three bounded primary source reads; no systematic review, full UV completion, observed SUSY or current experimental exclusion claim.",
+  "errors": [
+    {
+      "action": "web screenshot PDFs for LO physical page 3 and RSS physical pages 5 and 29",
+      "error": "Web screenshot unavailable / could not resolve application/pdf",
+      "resolution": "Downloaded PDFs successfully, extracted via PyMuPDF; generated local raster views and directly viewed LO physical page 3 and RSS physical page 5."
+    }
+  ],
+  "source_inconsistencies": [
+    {
+      "source": "hep-th/0305184",
+      "location": "Section 2.2 sentence about length versus Eqs. 2.1, 6.3 and Planck relation",
+      "issue": "Sentence calls T+Tdagger pi R; equations consistently require 2 pi R. PDF text contains same statement.",
+      "policy": "Use L=2 pi R, as explicitly reproduced by Eq. 6.3; expose convention choice."
+    },
+    {
+      "source": "hep-th/0209178",
+      "location": "Eq. 6 first term",
+      "issue": "Printed |c|^2/M5^3 multiplying Delta K_TTbar is dimensionally inconsistent with Eq. 3 and F_T=c*/M5^3; same in viewed PDF.",
+      "policy": "Do not import this coefficient. Casimir normalization is cross-checked directly against Eq. 9 and RSS."
+    }
+  ],
+  "retrieval_errors": [],
+  "claims_not_imported": [
+    "No complete 5D embedding of current quartic stabilization or shift-symmetric clock metric.",
+    "No replacement of unknown same-boundary counterterms by zero.",
+    "No arbitrary cutoff or NDA coefficient presented as calculated.",
+    "No new hidden X required for finite radion-mediated correction; no old nilpotent cutoff imported.",
+    "General boundary-function extension of RSS Eq. 2.7 is conditional, as noted by its authors."
+  ],
+  "source_manifest_written_utc": "2026-09-25T14:50:35.488270+00:00"
+}

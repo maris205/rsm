@@ -1,0 +1,178 @@
+{
+  "scope": "Coefficient-integral, convention, and dimensional checks; not original full 5D diagram reproduction or observational evidence",
+  "mpmath_dps": 80,
+  "checks": [
+    {
+      "name": "RSS_integral_constant",
+      "passed": true,
+      "relative_to_max_one": "0.0"
+    },
+    {
+      "name": "RSS_integral_one_boundary_derivative",
+      "passed": true,
+      "relative_to_max_one": "0.0"
+    },
+    {
+      "name": "RSS_integral_cross_boundary_derivative",
+      "passed": true,
+      "relative_to_max_one": "0.0"
+    },
+    {
+      "name": "RSS_A",
+      "passed": true,
+      "relative_to_max_one": "0.0"
+    },
+    {
+      "name": "RSS_B",
+      "passed": true,
+      "relative_to_max_one": "0.0"
+    },
+    {
+      "name": "RSS_C",
+      "passed": true,
+      "relative_to_max_one": "0.0"
+    },
+    {
+      "name": "normalized_frame_complete_displayed_terms",
+      "passed": true
+    },
+    {
+      "name": "tree_Einstein_mass",
+      "passed": true
+    },
+    {
+      "name": "LO_RSS_M5_cube_ratio",
+      "passed": true
+    },
+    {
+      "name": "loop_log_sign",
+      "passed": true
+    },
+    {
+      "name": "canonical_boundary_metric_factor",
+      "passed": true
+    },
+    {
+      "name": "cross_boundary_contact",
+      "passed": true
+    },
+    {
+      "name": "radion_second_derivative",
+      "passed": true
+    },
+    {
+      "name": "Casimir_LO_RSS",
+      "passed": true
+    },
+    {
+      "name": "RSS_radius_convention_Eq6_3",
+      "passed": true
+    },
+    {
+      "name": "KK_conversion",
+      "passed": true
+    },
+    {
+      "name": "frame_function_mass_dimension_two",
+      "passed": true
+    },
+    {
+      "name": "lambda_dimensionless",
+      "passed": true
+    },
+    {
+      "name": "vacuum_mass_dimension_four",
+      "passed": true
+    },
+    {
+      "name": "Planck_conversion_100GeV",
+      "passed": true,
+      "relative_to_max_one": "7.8012264779905871860179447979398140657053714229526955870575446385800267753176221e-80"
+    },
+    {
+      "name": "lambda_conversion_100GeV",
+      "passed": true,
+      "relative_to_max_one": "0.0"
+    },
+    {
+      "name": "Planck_conversion_1000GeV",
+      "passed": true,
+      "relative_to_max_one": "8.2229143957198081149918877599906148260137698782474358890606551595843525469564125e-80"
+    },
+    {
+      "name": "lambda_conversion_1000GeV",
+      "passed": true,
+      "relative_to_max_one": "5.0758836746312984465480491116610870936472376994021911632121206424789533957785989e-116"
+    },
+    {
+      "name": "Planck_conversion_10000GeV",
+      "passed": true,
+      "relative_to_max_one": "8.2229143957198081149918877599906148260137698782474358890606551595843525469564125e-80"
+    },
+    {
+      "name": "lambda_conversion_10000GeV",
+      "passed": true,
+      "relative_to_max_one": "1.2994262207056124023163005725852382959736928510469609377823028844746120693193213e-113"
+    },
+    {
+      "name": "Planck_conversion_1000000GeV",
+      "passed": true,
+      "relative_to_max_one": "8.5391803340167238117223449815287153962450687197184911155629880503375968756855053e-80"
+    },
+    {
+      "name": "lambda_conversion_1000000GeV",
+      "passed": true,
+      "relative_to_max_one": "5.3224498000101883998875671453091360603082459178883520011563126148080110359319402e-110"
+    },
+    {
+      "name": "positive_gravity_frame_coefficient",
+      "passed": true
+    },
+    {
+      "name": "negative_pure_gravity_potential",
+      "passed": true
+    },
+    {
+      "name": "all_benchmarks_KK_below_M5",
+      "passed": true
+    }
+  ],
+  "passed": 30,
+  "total": 30,
+  "benchmarks": [
+    {
+      "mKK_GeV": 100,
+      "M5_RSS_GeV": "5736090827058.9813856580592440165051542198504419603075686763997888769156272592856",
+      "lambda5": "4.3359709872696970310726574354548808824708960615649348339948415970040762590040086e-37",
+      "M_Q_over_mKK": "1.0",
+      "mKK_over_M5": "0.000000000017433475691888961340335536489501090087373213190132267099068280009147980046689118",
+      "qualifier": "hierarchy illustration only; M_Q = mKK point is not controlled four-dimensional threshold matching"
+    },
+    {
+      "mKK_GeV": 1000,
+      "M5_RSS_GeV": "12358033062989.548097241975988385393479682335429321477079561826610196212563656424",
+      "lambda5": "4.3359709872696970310726574354548808824708960615649348339948415970040762590040086e-35",
+      "M_Q_over_mKK": "0.1",
+      "mKK_over_M5": "0.000000000080919026102531617558603845855466625863174920887281041705408281453554232652102394",
+      "qualifier": "hierarchy illustration only; M_Q = mKK point is not controlled four-dimensional threshold matching"
+    },
+    {
+      "mKK_GeV": 10000,
+      "M5_RSS_GeV": "26624575131465.657615794115570534460021008168822893283407523465764537448784801686",
+      "lambda5": "4.3359709872696970310726574354548808824708960615649348339948415970040762590040086e-33",
+      "M_Q_over_mKK": "0.01",
+      "mKK_over_M5": "0.0000000003755928479843317402794537159401978453568234609942419652632677288700910341428975",
+      "qualifier": "hierarchy illustration only; M_Q = mKK point is not controlled four-dimensional threshold matching"
+    },
+    {
+      "mKK_GeV": 1000000,
+      "M5_RSS_GeV": "123580330629895.48097241975988385393479682335429321477079561826610196212563656424",
+      "lambda5": "4.3359709872696970310726574354548808824708960615649348339948415970040762590040086e-29",
+      "M_Q_over_mKK": "0.0001",
+      "mKK_over_M5": "0.0000000080919026102531617558603845855466625863174920887281041705408281453554232652102394",
+      "qualifier": "hierarchy illustration only; M_Q = mKK point is not controlled four-dimensional threshold matching"
+    }
+  ],
+  "kappa5_zeta3_over_48pi4": "0.00025708947576994169379061777282734966100368498700632350741093064667996494056793043",
+  "script_sha256": "3d9d5ba6c304dcac98315e05ebf1daba3630a4afb32286c154b679fd7ece62ca"
+}

@@ -1,0 +1,46 @@
+{
+  "retrieved_utc": "2026-09-25T14:51:46.627104+00:00",
+  "scope": "Four bounded primary-source reads; internally assisted source audit, not external peer review",
+  "sources": [
+    {
+      "id": "1903.05267v2",
+      "url": "https://arxiv.org/html/1903.05267v2",
+      "title": "A Unified No-Scale Model of Modulus Fixing, Inflation, Supersymmetry Breaking and Dark Energy",
+      "read_scope": "Eq. (2), stabilization paragraph between Eqs. (8) and (9), footnote/reference [19]; quartics and restriction of full coset symmetry to vanishing quartics",
+      "http_status": 200,
+      "sha256": "a6c5e896dcf836aaa7b2670d7d47b5b27a62863ac15b6de2b1160844d2bc1db4",
+      "cache": "build/protection_symmetry_sources/1903.05267v2.html",
+      "usage_limit": "Equation-level bounded read; no full-literature coverage, model-specific coefficient, empirical evidence or universal UV no-go imported"
+    },
+    {
+      "id": "0905.0905",
+      "url": "https://arxiv.org/html/0905.0905",
+      "title": "Chaotic Inflation in Supergravity with Heisenberg Symmetry",
+      "read_scope": "Sections II-III, Eqs. (1)-(3),(8), nearby explanation distinguishing Heisenberg-invariant K from symmetry-breaking W",
+      "http_status": 200,
+      "sha256": "9913532fc19b4e34a30f9817ffd7c9fdb106b1acd0a20e71301e9c362cab7aa4",
+      "cache": "build/protection_symmetry_sources/0905.0905.html",
+      "usage_limit": "Equation-level bounded read; no full-literature coverage, model-specific coefficient, empirical evidence or universal UV no-go imported"
+    },
+    {
+      "id": "hep-th_0105137",
+      "url": "https://arxiv.org/html/hep-th/0105137",
+      "title": "Supersymmetry Breaking and Composite Extra Dimensions",
+      "read_scope": "Eq. (1.2), Section 2 Eqs. (2.1)-(2.10); Kähler contact and dynamical conformal suppression, conserved-current exception; no blanket no-go imported",
+      "http_status": 200,
+      "sha256": "57fb4cc4578cf61f5104712162bb2ee9d8784cbe79edd6b320da81322b45225f",
+      "cache": "build/protection_symmetry_sources/hep-th_0105137.html",
+      "usage_limit": "Equation-level bounded read; no full-literature coverage, model-specific coefficient, empirical evidence or universal UV no-go imported"
+    },
+    {
+      "id": "hep-ph_9707209v3",
+      "url": "https://arxiv.org/html/hep-ph/9707209v3",
+      "title": "Soft Supersymmetry-Breaking Terms from Supergravity and Superstring Models",
+      "read_scope": "Section 2, Eq. (22), canonically normalized soft-mass dependence on mixed log matter-metric derivatives",
+      "http_status": 200,
+      "sha256": "6bfc23ecf5d587fed96527eb89e46febf52643bad1e0044c027369a9dd137c4d",
+      "cache": "build/protection_symmetry_sources/hep-ph_9707209v3.html",
+      "usage_limit": "Equation-level bounded read; no full-literature coverage, model-specific coefficient, empirical evidence or universal UV no-go imported"
+    }
+  ]
+}
