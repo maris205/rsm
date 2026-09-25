@@ -1,0 +1,515 @@
+{
+  "scope": "Specified sequestered no-scale K with quadratic W stabilization; symbolic identities and local dimensionless checks; no cosmological trajectories or observations",
+  "python": "3.12.3",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "mpmath_dps": 80,
+  "script_sha256": "82a9979e7605d9e962b2790769f2947309e1884ba1d114f44704736e22e1e7b3",
+  "checks": [
+    {
+      "name": "exact_Kahler_metric_inverse_0_0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "exact_Kahler_metric_inverse_0_1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "exact_Kahler_metric_inverse_1_0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "exact_Kahler_metric_inverse_1_1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "direct_DW_potential_with_nilpotent_F",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "unstabilized_J_zero_exact_cancellation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_diagonal_Qplus",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_diagonal_Qminus",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_holomorphic_B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_antiholomorphic_B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_no_hermitian_mixing",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_no_same_charge_holomorphic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_Dirac_mass_squared",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "common_soft_term_exact",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "reference_uplift_energy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "reference_uplift_real_stationarity",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "reference_uplift_imag_stationarity",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "modulus_mass_in_SUSY_Minkowski",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axion_mass_in_SUSY_Minkowski",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "envelope_linear_real_w_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quadrature_finite_kappa_real_shift_leading",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quadrature_finite_kappa_imag_shift_leading",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "J_stationary_in_strong_limit",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "strong_limit_completed_square",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "strong_limit_F_T_zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "strong_limit_full_y_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "strong_limit_axis_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "strong_limit_axis_transverse_tadpole",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "strong_limit_hidden_transverse_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_y_asymptotic_quadratic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_y_local_minimum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_y_tree_potential_shift",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pure_B_CW_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pure_B_CW_force_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "vacuum_energy_1000.0_aligned",
+      "passed": true,
+      "absolute_error": "1.38844138604e-72",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_1000.0_aligned",
+      "passed": true,
+      "absolute_error": "4.55201182909e-70",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_1000.0_aligned",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_1000.0_aligned",
+      "passed": true,
+      "min_eigenvalue": "652747.172829"
+    },
+    {
+      "name": "vacuum_energy_1000.0_quadrature",
+      "passed": true,
+      "absolute_error": "5.08476078348e-81",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_1000.0_quadrature",
+      "passed": true,
+      "absolute_error": "5.93845232914e-78",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_1000.0_quadrature",
+      "passed": true,
+      "absolute_error": "1.838005075e-78",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_1000.0_quadrature",
+      "passed": true,
+      "min_eigenvalue": "664648.691403"
+    },
+    {
+      "name": "vacuum_energy_1000.0_opposed",
+      "passed": true,
+      "absolute_error": "8.21310694185e-73",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_1000.0_opposed",
+      "passed": true,
+      "absolute_error": "2.78301685538e-70",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_1000.0_opposed",
+      "passed": true,
+      "absolute_error": "6.63693592475e-78",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_1000.0_opposed",
+      "passed": true,
+      "min_eigenvalue": "676718.000201"
+    },
+    {
+      "name": "vacuum_energy_100000.0_aligned",
+      "passed": true,
+      "absolute_error": "3.7744495941e-65",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_100000.0_aligned",
+      "passed": true,
+      "absolute_error": "1.25794227648e-60",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_100000.0_aligned",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_100000.0_aligned",
+      "passed": true,
+      "min_eigenvalue": "6665266747.66"
+    },
+    {
+      "name": "vacuum_energy_100000.0_quadrature",
+      "passed": true,
+      "absolute_error": "3.28801355427e-73",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_100000.0_quadrature",
+      "passed": true,
+      "absolute_error": "1.91534729547e-64",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_100000.0_quadrature",
+      "passed": true,
+      "absolute_error": "8.08702465704e-69",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_100000.0_quadrature",
+      "passed": true,
+      "min_eigenvalue": "6666466648.67"
+    },
+    {
+      "name": "vacuum_energy_100000.0_opposed",
+      "passed": true,
+      "absolute_error": "3.76551474047e-65",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_100000.0_opposed",
+      "passed": true,
+      "absolute_error": "1.25537868996e-60",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_100000.0_opposed",
+      "passed": true,
+      "absolute_error": "6.55867168328e-76",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_100000.0_opposed",
+      "passed": true,
+      "min_eigenvalue": "6667666717.67"
+    },
+    {
+      "name": "vacuum_energy_10000000.0_aligned",
+      "passed": true,
+      "absolute_error": "4.9736169429e-81",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_10000000.0_aligned",
+      "passed": true,
+      "absolute_error": "3.69753313355e-75",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_10000000.0_aligned",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_10000000.0_aligned",
+      "passed": true,
+      "min_eigenvalue": "6.66665266667e+13"
+    },
+    {
+      "name": "vacuum_energy_10000000.0_quadrature",
+      "passed": true,
+      "absolute_error": "3.63585899625e-81",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_10000000.0_quadrature",
+      "passed": true,
+      "absolute_error": "2.20727295737e-74",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_10000000.0_quadrature",
+      "passed": true,
+      "absolute_error": "3.69754877477e-75",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_10000000.0_quadrature",
+      "passed": true,
+      "min_eigenvalue": "6.66666466666e+13"
+    },
+    {
+      "name": "vacuum_energy_10000000.0_opposed",
+      "passed": true,
+      "absolute_error": "1.96090478065e-81",
+      "tolerance": "1.0e-60"
+    },
+    {
+      "name": "vacuum_grad_real_10000000.0_opposed",
+      "passed": true,
+      "absolute_error": "3.69756310412e-75",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_grad_imag_10000000.0_opposed",
+      "passed": true,
+      "absolute_error": "6.55789257116e-74",
+      "tolerance": "1.0e-56"
+    },
+    {
+      "name": "vacuum_Hessian_positive_10000000.0_opposed",
+      "passed": true,
+      "min_eigenvalue": "6.66667666667e+13"
+    }
+  ],
+  "passed": 70,
+  "total": 70,
+  "numeric_examples": [
+    {
+      "kappa": "1000.0",
+      "phase": "aligned",
+      "a": "0.0030136228843334736438",
+      "b": "0.0",
+      "f_squared": "3.0090613025591501219",
+      "ReJ_reference": "3.0136228843334736438",
+      "J_to_3W_at_clock_relative_error": "0.00599113576329",
+      "physical_modulus_min_mass_to_kappa_over3": "0.995469302062"
+    },
+    {
+      "kappa": "1000.0",
+      "phase": "quadrature",
+      "a": "4.500070876874122509e-6",
+      "b": "0.0030000135002733828094",
+      "f_squared": "3.0000067500921269658",
+      "ReJ_reference": "0.004500070876874122509",
+      "J_to_3W_at_clock_relative_error": "0.00599997975025",
+      "physical_modulus_min_mass_to_kappa_over3": "0.998494358013",
+      "ReJ_over_leading_4p5_over_kappa": "1.000015750416472"
+    },
+    {
+      "kappa": "1000.0",
+      "phase": "opposed",
+      "a": "-0.0029866201501183545617",
+      "b": "9.8075356688931660031e-84",
+      "f_squared": "2.9910602089262444923",
+      "ReJ_reference": "-2.9866201501183545617",
+      "J_to_3W_at_clock_relative_error": "0.00600913426062",
+      "physical_modulus_min_mass_to_kappa_over3": "1.00149219675"
+    },
+    {
+      "kappa": "100000.0",
+      "phase": "aligned",
+      "a": "0.000030001350121513671073",
+      "b": "0.0",
+      "f_squared": "3.0000900060765469274",
+      "ReJ_reference": "3.0001350121513671073",
+      "J_to_3W_at_clock_relative_error": "5.99991005593e-5",
+      "physical_modulus_min_mass_to_kappa_over3": "0.999954996962"
+    },
+    {
+      "kappa": "100000.0",
+      "phase": "quadrature",
+      "a": "4.5000000070935000187e-10",
+      "b": "0.000030000000013500000027",
+      "f_squared": "3.0000000006760000009",
+      "ReJ_reference": "0.000045000000070935000187",
+      "J_to_3W_at_clock_relative_error": "5.99999999798e-5",
+      "physical_modulus_min_mass_to_kappa_over3": "0.999984999437",
+      "ReJ_over_leading_4p5_over_kappa": "1.000000001576333"
+    },
+    {
+      "kappa": "100000.0",
+      "phase": "opposed",
+      "a": "-0.000029998650121486332372",
+      "b": "9.8365319698639140651e-86",
+      "f_squared": "2.9999100060754531874",
+      "ReJ_reference": "-2.9998650121486332372",
+      "J_to_3W_at_clock_relative_error": "6.00008997107e-5",
+      "physical_modulus_min_mass_to_kappa_over3": "1.00001499921"
+    },
+    {
+      "kappa": "10000000.0",
+      "phase": "aligned",
+      "a": "3.000001350001215002e-7",
+      "b": "0.0",
+      "f_squared": "3.0000009000016075017",
+      "ReJ_reference": "3.000001350001215002",
+      "J_to_3W_at_clock_relative_error": "5.99999914243e-7",
+      "physical_modulus_min_mass_to_kappa_over3": "0.99999955"
+    },
+    {
+      "kappa": "10000000.0",
+      "phase": "quadrature",
+      "a": "4.50000000000670875e-14",
+      "b": "3.000000000000135e-7",
+      "f_squared": "3.0000000000010675",
+      "ReJ_reference": "4.50000000000670875e-7",
+      "J_to_3W_at_clock_relative_error": "6.0e-7",
+      "physical_modulus_min_mass_to_kappa_over3": "0.99999985",
+      "ReJ_over_leading_4p5_over_kappa": "1.000000000001491"
+    },
+    {
+      "kappa": "10000000.0",
+      "phase": "opposed",
+      "a": "-2.999998650001214998e-7",
+      "b": "9.8368241014989843478e-88",
+      "f_squared": "2.9999991000016074983",
+      "ReJ_reference": "-2.999998650001214998",
+      "J_to_3W_at_clock_relative_error": "6.00000085758e-7",
+      "physical_modulus_min_mass_to_kappa_over3": "1.00000015"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/pdf/1012.1858",
+      "scope": "Abstract, introduction, sections 2.1–2.2; separable Kahler geometry does not automatically suppress B for explicit visible supersymmetric masses; accessed 2026-09-25"
+    },
+    {
+      "url": "https://arxiv.org/html/1209.0499v2",
+      "scope": "Section 2.1, equations 9–12 and section 2.2 introductory caveat; strongly stabilized modulus can have small D_T W while W_T remains nonzero; different uplift K from our model"
+    },
+    {
+      "url": "https://arxiv.org/html/hep-ph/9707209v3",
+      "scope": "Opened for general soft-term conventions; no formula or numerical result imported into this calculation"
+    }
+  ],
+  "anomalies": [
+    {
+      "kind": "source_transport",
+      "url": "https://arxiv.org/html/1012.1858v2",
+      "status": "HTTP 404",
+      "resolution": "Read authoritative arXiv PDF instead; no claimed read of unavailable version"
+    },
+    {
+      "kind": "check_implementation",
+      "attempt": 1,
+      "passed": 64,
+      "total": 65,
+      "failed_check": "strong_limit_F_T_zero",
+      "cause": "Contravariant auxiliary vector used inverse metric without the transpose needed by the stored holomorphic/antiholomorphic matrix convention",
+      "resolution": "Changed this diagnostic contraction to Gi.T * Db. Potential, spectrum, stationary equations, and numerical examples were unchanged; reran full bounded script"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+  File "/root/autodl-tmp/dsc_world/riemann_model/experiments/noscale_protection_v01/code/independent_check.py", line 321
+    for p in [Path(__file__),ROOT/'protocol.md',IP,TP,OUT/'representative_curves.csv',OUT/'scan.csv',OUT/'scheme_scan.csv',OUT/'budget_limits.csv']],
+                                                                                                                                                   ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 320

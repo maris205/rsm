@@ -1,0 +1,135 @@
+{
+  "run_utc": "2026-09-25T12:41:28.404472+00:00",
+  "scope": "Independent symbolic checks of no-scale soft/gauge-interface identities.\nNo production imports, no observations, no loop-completeness assertion.\nM_P=1, F^i=-exp(K/2) K^{i jbar} D_jbar Wbar.\n",
+  "sympy_version": "1.14.0",
+  "script_sha256": "1850b5b9a113778150bbe672bb00c4237762fa5066dbf0dfb1e2dc82bebccfb9",
+  "total": 24,
+  "passed": 24,
+  "checks": [
+    {
+      "name": "ideal_K_inverse_contraction_0",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "ideal_K_inverse_contraction_1",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "ideal_no_scale_norm",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "ideal_Fcomp_general_WT",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "ideal_Fcomp_WT_zero",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "ideal_FZ_real_axis",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "B_is_minus_Fcomp_minus_clock_derivative",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "ideal_B_has_no_m32",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "strong_superpotential_FT_zero_B_residual",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "common_soft_all_F_included",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "gauge_total_reduces_to_Fcomp",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "gauge_noscale_total_zero",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "gauge_U1_pair_coefficient",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "gauge_empty_IR_beta_zero",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "curved_G_Fcomp_formula",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "curved_G_WT_zero_formula",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "curved_G_center_zero",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "quartic_center_G",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "quartic_center_G_T",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "quartic_center_G_TbarT",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "quartic_center_third_mixed",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "quartic_mixed_curvature_real_axis",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "quartic_mixed_curvature_imag_axis",
+      "residual": "0",
+      "passed": true
+    },
+    {
+      "name": "positive_clock_energy_modulus_force",
+      "residual": "0",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Symbolic local identities only; no cosmological trajectory is solved.",
+    "No UV matching, complete SUGRA loops, or observational claim.",
+    "Quartic central derivative jets do not prove a stationary point with U>0."
+  ]
+}

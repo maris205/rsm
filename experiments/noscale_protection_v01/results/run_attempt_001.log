@@ -1,0 +1,8 @@
+Checks 66 / 66
+Rows 873 5238 15375
+{'a': 1.0, 'phase': 'zero', 'mu_factor': 1.0, 'scheme': 'tree_eta', 'component_sum_10percent_mG_eV': 4083904.6930323667, 'selected_force_at_component_bound': 0.10000000000000087}
+{'a': 1.0, 'phase': 'zero', 'mu_factor': 1.0, 'scheme': 'scalar_retuned_eta', 'component_sum_10percent_mG_eV': 316268.20237882074, 'selected_force_at_component_bound': 0.09990710982285374}
+{'a': 1.0, 'phase': 'quadrature', 'mu_factor': 1.0, 'scheme': 'tree_eta', 'component_sum_10percent_mG_eV': 5890009.788702312, 'selected_force_at_component_bound': 0.09999999999999945}
+{'a': 1.0, 'phase': 'quadrature', 'mu_factor': 1.0, 'scheme': 'scalar_retuned_eta', 'component_sum_10percent_mG_eV': 316311.06302007387, 'selected_force_at_component_bound': 0.09997289608947091}
+{'a': 1.0, 'phase': 'pi', 'mu_factor': 1.0, 'scheme': 'tree_eta', 'component_sum_10percent_mG_eV': 4083904.6930323667, 'selected_force_at_component_bound': 0.10000000000000087}
+{'a': 1.0, 'phase': 'pi', 'mu_factor': 1.0, 'scheme': 'scalar_retuned_eta', 'component_sum_10percent_mG_eV': 316268.20237882074, 'selected_force_at_component_bound': 0.09993033236714031}

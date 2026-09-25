@@ -1,0 +1,10 @@
+done tree_eta a=0.1 mG=0.000001 precision=220
+done tree_eta a=0.1 mG=1.0 precision=220
+done tree_eta a=0.1 mG=10000000.0 precision=220
+done tree_eta a=1.0 mG=0.000001 precision=220
+done tree_eta a=1.0 mG=1.0 precision=220
+done tree_eta a=1.0 mG=10000000.0 precision=220
+done tree_eta a=10.0 mG=0.000001 precision=220
+done tree_eta a=10.0 mG=1.0 precision=220
+done tree_eta a=10.0 mG=10000000.0 precision=220
+{"rows": 81, "passed": 405, "count": 405, "elapsed_seconds": 23.154517889022827}

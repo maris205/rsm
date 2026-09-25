@@ -1,0 +1,27 @@
+{
+  "change": "Removed one trailing whitespace character on the leading_cw declaration; no scientific algorithm or threshold change.",
+  "csv_byte_identical": {
+    "independent_tree_eta_160_a0.1.csv": true,
+    "independent_tree_eta_160_a1.csv": true,
+    "independent_tree_eta_160_a10.csv": true,
+    "independent_tree_eta_220.csv": true,
+    "independent_scalar_retuned_eta_160.csv": true,
+    "independent_scalar_retuned_eta_220.csv": true,
+    "independent_direct_CW.csv": true,
+    "independent_exact_main_comparison.csv": true
+  },
+  "scientific_summary_identical": true,
+  "seven_json_script_hashes_match": {
+    "independent_tree_eta_160_a0.1.json": true,
+    "independent_tree_eta_160_a1.json": true,
+    "independent_tree_eta_160_a10.json": true,
+    "independent_tree_eta_220.json": true,
+    "independent_scalar_retuned_eta_160.json": true,
+    "independent_scalar_retuned_eta_220.json": true,
+    "independent_summary.json": true
+  },
+  "current_script_sha256": "3aff607be22bde3249b4620d41022564954dc8017d7581de4194339ec4c0bd35",
+  "summary_passed": 527,
+  "summary_count": 527,
+  "logs": "Seven rerun logs use the _archive_final suffix; previous logs retained."
+}

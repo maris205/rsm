@@ -1,0 +1,1329 @@
+{
+  "created_utc": "2026-09-25T13:17:06.179252+00:00",
+  "scope": "Archive integrity, declared counts and immutability; not additional physical experiments",
+  "checks_passed": 330,
+  "check_count": 330,
+  "checks": [
+    {
+      "name": "main final pass",
+      "passed": true
+    },
+    {
+      "name": "independent audit final pass",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/noscale_protection_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/noscale_protection_v01/code/run_protection.py",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/noscale_protection_v01/code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/noscale_protection_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/noscale_protection_v01/results/representative_curves.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/noscale_protection_v01/results/scan.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/noscale_protection_v01/results/scheme_scan.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/noscale_protection_v01/results/budget_limits.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json final pass",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a0.1.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a0.1.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a0.1.json hash experiments/noscale_protection_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a0.1.json hash experiments/noscale_protection_v01/code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a0.1.json final pass",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a1.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a1.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a1.json hash experiments/noscale_protection_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a1.json hash experiments/noscale_protection_v01/code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a1.json final pass",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a10.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a10.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a10.json hash experiments/noscale_protection_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a10.json hash experiments/noscale_protection_v01/code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_160_a10.json final pass",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_160.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_160.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_160.json hash experiments/noscale_protection_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_160.json hash experiments/noscale_protection_v01/code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_160.json final pass",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_220.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_220.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_220.json hash experiments/noscale_protection_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_220.json hash experiments/noscale_protection_v01/code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_220.json final pass",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_220.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_220.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_220.json hash experiments/noscale_protection_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_220.json hash experiments/noscale_protection_v01/code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_220.json final pass",
+      "passed": true
+    },
+    {
+      "name": "noscale_exact final checks",
+      "passed": true
+    },
+    {
+      "name": "noscale_exact reports/noscale_exact_20260925_checks.py",
+      "passed": true
+    },
+    {
+      "name": "noscale_exact experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "noscale_exact experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "noscale_stabilization final checks",
+      "passed": true
+    },
+    {
+      "name": "noscale_stabilization script hash",
+      "passed": true
+    },
+    {
+      "name": "noscale_kahler final checks",
+      "passed": true
+    },
+    {
+      "name": "noscale_quantum_sources final checks",
+      "passed": true
+    },
+    {
+      "name": "noscale_quantum_sources script hash",
+      "passed": true
+    },
+    {
+      "name": "scan.csv rows",
+      "passed": true
+    },
+    {
+      "name": "scheme_scan.csv rows",
+      "passed": true
+    },
+    {
+      "name": "representative_curves.csv rows",
+      "passed": true
+    },
+    {
+      "name": "budget_limits.csv rows",
+      "passed": true
+    },
+    {
+      "name": "independent_tree_eta_220.csv rows",
+      "passed": true
+    },
+    {
+      "name": "independent_scalar_retuned_eta_220.csv rows",
+      "passed": true
+    },
+    {
+      "name": "independent_direct_CW.csv rows",
+      "passed": true
+    },
+    {
+      "name": "experiments/sugra_shift_v01/results/inputs.json unchanged",
+      "passed": true
+    },
+    {
+      "name": "experiments/sugra_shift_v01/results/trajectories.csv unchanged",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/results/scan.csv unchanged",
+      "passed": true
+    },
+    {
+      "name": "manuscript_cn/paper.pdf unchanged",
+      "passed": true
+    },
+    {
+      "name": "source cache hep-ph/9707209v3",
+      "passed": true
+    },
+    {
+      "name": "source cache 1202.1280",
+      "passed": true
+    },
+    {
+      "name": "source cache 1305.1247",
+      "passed": true
+    },
+    {
+      "name": "source cache 1111.1465",
+      "passed": true
+    },
+    {
+      "name": "source cache 1903.05267",
+      "passed": true
+    },
+    {
+      "name": "source cache hep-th/0209178",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/protocol.md control chars",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/protocol.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md control chars",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md figures/protection_and_radiative_vacuum.png",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md figures/protection_and_radiative_vacuum.pdf",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md figures/geometry_budget_and_phase.png",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md figures/geometry_budget_and_phase.pdf",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md protocol.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md ../../reports/noscale_exact_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md ../../reports/noscale_stabilization_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md ../../reports/noscale_kahler_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md ../../reports/noscale_quantum_sources_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/README.md reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md control chars",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../../sugra_shift_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../../hidden_transfer_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../../../reports/noscale_exact_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../../../reports/noscale_stabilization_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../../../reports/noscale_kahler_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../figures/protection_and_radiative_vacuum.png",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../figures/geometry_budget_and_phase.png",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../../../reports/noscale_quantum_sources_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md ../../../reports/noscale_quantum_sources_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/results_cn.md independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md control chars",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../protocol.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_tree_eta_220.csv",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_scalar_retuned_eta_220.csv",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_direct_CW.csv",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_exact_main_comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_summary.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_summary.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_initial_leading_expansion_audit.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_attempt_audit_syntax.log",
+      "passed": true
+    },
+    {
+      "name": "experiments/noscale_protection_v01/reports/independent_results_cn.md ../results/independent_archive_format_verification.json",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_quantum_sources_20260925.md control chars",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_quantum_sources_20260925.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_quantum_sources_20260925.md noscale_quantum_sources_20260925_sources.json",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_quantum_sources_20260925.md noscale_kahler_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_quantum_sources_20260925.md ../experiments/noscale_protection_v01/results/summary.json",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_quantum_sources_20260925.md noscale_quantum_sources_20260925_checks.py",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_quantum_sources_20260925.md noscale_quantum_sources_20260925_checks.json",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_quantum_sources_20260925.md noscale_quantum_sources_20260925_sources.json",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_exact_20260925.md control chars",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_exact_20260925.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_exact_20260925.md noscale_exact_20260925_checks.py",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_exact_20260925.md noscale_exact_20260925_checks.json",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_stabilization_20260925.md control chars",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_stabilization_20260925.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_stabilization_20260925.md noscale_stabilization_20260925_checks.py",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_stabilization_20260925.md noscale_stabilization_20260925_checks.json",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_kahler_20260925.md control chars",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_kahler_20260925.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_kahler_20260925.md noscale_kahler_20260925_checks.py",
+      "passed": true
+    },
+    {
+      "name": "reports/noscale_kahler_20260925.md noscale_kahler_20260925_checks.json",
+      "passed": true
+    },
+    {
+      "name": "README.md control chars",
+      "passed": true
+    },
+    {
+      "name": "README.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/macro_laws_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/cosmic_bridge_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/halo_cooling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/pm_matched_scale_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/manuscript_cn_body_review_20260923.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/repository_portability.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/noscale_protection_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/hidden_transfer_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/gauge_matching_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/sugra_shift_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/protected_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/charged_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/constant_clock_bridge_20260925/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/paper.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/00_introduction.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/01_system_anomaly.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/02_source_code.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/03_cosmic_lockstep.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/05_observational_evidence.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/06_predictions_interpretations.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/07_engine_design.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/08_simulation_case_studies.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/chapters/09_conclusion.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/acknowledgments.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter00_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter01_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter02_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter03_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter04_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter05_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter06_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter07_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter08_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/notes/chapter09_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/halo_cooling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/pm_matched_scale_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/cosmic_bridge_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/cosmic_bridge_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_cn/figures/chapter04_cosmic_bridge_cn.png",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/chapter04_timeline_sources/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/chapter04_inflation_feasibility.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/macro_laws_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_v01/paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_v01/paper.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md manuscript_v01/references.md",
+      "passed": true
+    },
+    {
+      "name": "README.md RESEARCH_DIRECTION.md",
+      "passed": true
+    },
+    {
+      "name": "README.md draft_v05/arithmetic_response_v05.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/arithmetic_residual_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "passed": true
+    },
+    {
+      "name": "README.md draft_v04/log_clock_bridge_v04.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/log_clock_coupling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/log_clock_coupling_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/log_clock_coupling_v01/figures/log_clock_response.png",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true
+    },
+    {
+      "name": "README.md draft_v03/micro_macro_bridge_v03.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/micro_macro_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/micro_macro_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/micro_macro_v01/figures/micro_macro_evolution.png",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/micro_macro_v01/figures/micro_macro_convergence.png",
+      "passed": true
+    },
+    {
+      "name": "README.md draft_v02/action_framework_v02.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/action_completion_v02/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/action_completion_v02/figures/background_completion.png",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/action_completion_v02/reports/numerical_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/action_completion_v02/reports/independent_background_review.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/action_completion_v02_derivation.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/action_completion_v02_independent_review.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/action_completion_v02_sources.md",
+      "passed": true
+    },
+    {
+      "name": "README.md draft_v01/minimal_framework_v01.md",
+      "passed": true
+    },
+    {
+      "name": "README.md draft_v01/variables_and_claims_v01.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/minimal_dynamics_v01_review.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/alpha_interface_v01_review.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/sources_v01_audit.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/alpha_recovery_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/alpha_recovery_v01/reports/recovery_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md experiments/alpha_recovery_v01/figures/captions.md",
+      "passed": true
+    },
+    {
+      "name": "README.md chapters/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/first_reading_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md WORK_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/prior_projects_evidence.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/foundations_first_pass.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/conversion_notes_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/conversion_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "README.md ori_paper/merged_document_v2_with_latex.docx",
+      "passed": true
+    },
+    {
+      "name": "README.md reports/minimal_dynamics_v01_checks.json",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md control chars",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md manuscript_cn/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md manuscript_cn/paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/macro_laws_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md reports/chapter04_timeline_sources/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md reports/chapter04_inflation_feasibility.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md reports/manuscript_cn_body_review_20260923.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md manuscript_v01/paper.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md manuscript_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md draft_v05/arithmetic_response_v05.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md draft_v01/minimal_framework_v01.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md draft_v01/variables_and_claims_v01.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md reports/minimal_dynamics_v01_checks.json",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/alpha_recovery_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md draft_v02/action_framework_v02.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/action_completion_v02/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/micro_macro_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md draft_v03/micro_macro_bridge_v03.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md draft_v04/log_clock_bridge_v04.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/log_clock_coupling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/arithmetic_residual_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/noscale_protection_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/hidden_transfer_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/hidden_transfer_v01/results/summary.json",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md reports/hidden_transfer_theory_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md reports/hidden_transfer_independent_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md reports/gauge_leakage_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/gauge_matching_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/sugra_shift_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/protected_threshold_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/charged_threshold_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md reports/constant_clock_bridge_20260925/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/pm_matched_scale_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md RESEARCH_DIRECTION.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md draft_v05/arithmetic_response_v05.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md RESEARCH_DIRECTION.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md control chars",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md display delimiters",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/noscale_protection_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md draft_v05/arithmetic_response_v05.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/arithmetic_residual_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md draft_v04/log_clock_bridge_v04.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/log_clock_coupling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md draft_v03/micro_macro_bridge_v03.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/micro_macro_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md chapters/03_chapter_02_source_code.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md chapters/04_chapter_03_cosmic_lockstep.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md chapters/05_chapter_04_mathematical_framework.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md chapters/07_chapter_06_predictions_interpretations.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md chapters/08_chapter_07_engine_design.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md chapters/09_chapter_08_simulation_case_studies.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md draft_v01/minimal_framework_v01.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md draft_v02/action_framework_v02.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/micro_macro_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md WORK_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/cosmic_bridge_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/halo_cooling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/halo_cooling_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/halo_cooling_v01/reports/pm_next_stage_design.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/pm_matched_scale_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md reports/constant_clock_bridge_20260925/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/charged_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/protected_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/sugra_shift_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/gauge_matching_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md reports/gauge_matching_theory_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/hidden_transfer_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md reports/hidden_transfer_theory_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md reports/gauge_leakage_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/noscale_protection_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md reports/noscale_stabilization_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "masses below gravity-capped geometric marker",
+      "passed": true
+    }
+  ],
+  "max_mass_over_capped_marker": 2.845258000113146e-14
+}

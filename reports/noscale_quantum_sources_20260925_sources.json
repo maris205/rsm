@@ -1,0 +1,117 @@
+{
+  "scope": "Six bounded primary-paper reads, equation-level source audit; no systematic review claim",
+  "retrieved_utc": "2026-09-25T12:44:25.988912+00:00",
+  "sources": [
+    {
+      "id": "hep-ph/9707209v3",
+      "version_from_html": "hep-ph/9707209v3",
+      "title": "Soft supersymmetry-breaking terms from supergravity and superstring models",
+      "authors": [
+        "A. Brignole",
+        "L. E. Ibanez",
+        "C. Munoz"
+      ],
+      "url": "https://arxiv.org/html/hep-ph/9707209v3",
+      "http_status": 200,
+      "sha256": "6bfc23ecf5d587fed96527eb89e46febf52643bad1e0044c027369a9dd137c4d",
+      "cached_file": "build/noscale_quantum_sources/hep-ph_9707209v3.html",
+      "read_scope": "Section 2; Eqs.22--24 and 36--42; canonical soft masses and bilinear terms; no-scale conditions",
+      "claims_not_imported": "No observational support, realistic SM/SUSY realization, complete UV model or full quantum stability imported."
+    },
+    {
+      "id": "1202.1280",
+      "version_from_html": "1202.1280v3",
+      "title": "The Two Faces of Anomaly Mediation",
+      "authors": [
+        "Francesco D’Eramo",
+        "Jesse Thaler",
+        "Zoe Thomas"
+      ],
+      "url": "https://arxiv.org/html/1202.1280",
+      "http_status": 200,
+      "sha256": "7e3194c7bf99b1b1764ded69e5cc878dcd53870af1711bd18d99a7fdf8e90a89",
+      "cached_file": "build/noscale_quantum_sources/1202.1280.html",
+      "read_scope": "Section 3 Eqs.19--32, last paragraph of Section 5; Appendix A scope; full anomaly composition and no-scale cancellation; follow-up Section 2 discussion immediately after Eq12: massive vectorlike threshold and cancellation.",
+      "claims_not_imported": "No observational support, realistic SM/SUSY realization, complete UV model or full quantum stability imported."
+    },
+    {
+      "id": "1305.1247",
+      "version_from_html": "1305.1247v2",
+      "title": "No-Scale Supergravity Realization of the Starobinsky Model of Inflation",
+      "authors": [
+        "John Ellis",
+        "Dimitri V. Nanopoulos",
+        "Keith A. Olive"
+      ],
+      "url": "https://arxiv.org/html/1305.1247",
+      "http_status": 200,
+      "sha256": "a3fc5a9d5e503f6dd6716adfbd7ddddaf31b6bdc396d37fef2428a3464075e32",
+      "cached_file": "build/noscale_quantum_sources/1305.1247.html",
+      "read_scope": "Eqs.3,9--10; no-scale W_T independent potential reduction; T stabilization assumption",
+      "claims_not_imported": "No observational support, realistic SM/SUSY realization, complete UV model or full quantum stability imported."
+    },
+    {
+      "id": "1111.1465",
+      "version_from_html": "1111.1465v2",
+      "title": "Supersymmetry Breaking due to Moduli Stabilization in String Theory",
+      "authors": [
+        "Andrei Linde",
+        "Yann Mambrini",
+        "Keith A. Olive"
+      ],
+      "url": "https://arxiv.org/html/1111.1465",
+      "http_status": 200,
+      "sha256": "a0bb30cfc67cf98272a824a1d5a24e009491a956fe8e47a47b0c47e9009fea05",
+      "cached_file": "build/noscale_quantum_sources/1111.1465.html",
+      "read_scope": "Strong stabilization paragraphs and Eqs.23--24,33--36; suppressed modulus auxiliary field; different matter metric from present model",
+      "claims_not_imported": "No observational support, realistic SM/SUSY realization, complete UV model or full quantum stability imported."
+    },
+    {
+      "id": "1903.05267",
+      "version_from_html": "1903.05267v2",
+      "title": "A Unified No-Scale Model of Modulus Fixing, Inflation, Supersymmetry Breaking and Dark Energy",
+      "authors": [
+        "John Ellis",
+        "Dimitri V. Nanopoulos",
+        "Keith A. Olive",
+        "Sarunas Verner"
+      ],
+      "url": "https://arxiv.org/html/1903.05267",
+      "http_status": 200,
+      "sha256": "a6c5e896dcf836aaa7b2670d7d47b5b27a62863ac15b6de2b1160844d2bc1db4",
+      "cached_file": "build/noscale_quantum_sources/1903.05267.html",
+      "read_scope": "Eqs.2,8,14 and discussion between Eqs.8--9; quartic Kahler stabilization, EFT scale and modulus mass consistency",
+      "claims_not_imported": "No observational support, realistic SM/SUSY realization, complete UV model or full quantum stability imported."
+    },
+    {
+      "id": "hep-th/0209178",
+      "version_from_html": "hep-th/0209178v2",
+      "title": "Almost No-Scale Supergravity",
+      "authors": [
+        "Markus A. Luty",
+        "Nobuchika Okada"
+      ],
+      "url": "https://arxiv.org/html/hep-th/0209178",
+      "http_status": 200,
+      "sha256": "633c1735ca40c0b0b6c7150ad43b7b4bedb1794e91c5ca0e31dd90a69ce4ab05",
+      "cached_file": "build/noscale_quantum_sources/hep-th_0209178.html",
+      "read_scope": "Eqs.3--8,13--15 and final gravity loop paragraphs; ideal Fphi=0, stabilization corrections, loop limitations",
+      "claims_not_imported": "No observational support, realistic SM/SUSY realization, complete UV model or full quantum stability imported."
+    }
+  ],
+  "errors": [
+    {
+      "stage": "web source discovery",
+      "url": "https://arxiv.org/html/1202.1280v4",
+      "error": "Web tool Internal Error for guessed version; no inference made from failure.",
+      "resolution": "Opened current HTML and verified header arXiv:1202.1280v3, then explicitly opened v3."
+    }
+  ],
+  "notes": [
+    "1111.1465 Eq37 HTML appears awkwardly rendered; not used to derive Fcomp. General expression checked instead against 1202.1280 and direct action algebra.",
+    "0209178 HTML contains damaged alignment/reference markup; bounded equations 3--8 read; no numerical example imported.",
+    "Adversarial follow-up uses Luty--Okada Eqs13--14 only as an explicit example of loop-generated contacts; no 5D coefficient transplanted into the present 4D model. No numerical power-divergence estimate treated as a prediction."
+  ],
+  "followup_review_utc": "2026-09-25T12:58:46.487027+00:00",
+  "followup_scope": "Adversarial local-versus-technical-naturalness audit; full O(Q^2) matching and loop-order/threshold ledger. Re-read existing primary sources only."
+}

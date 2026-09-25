@@ -1,0 +1,721 @@
+{
+  "created_utc": "2026-09-25T13:17:06.204338+00:00",
+  "parent_git_commit": "e465d77a3ba676da9fe4cd9da083102f8aa3e78b",
+  "material_passport": {
+    "type": "User-authorized deterministic model construction and consistency audit",
+    "observations": "None added; no fitting or new background ODE",
+    "new_assumptions": "Quartic Kahler geometry and a once-fixed eta; tree_eta and scalar-retuned diagnostic; fixed finite kernels",
+    "interpretation": "Local conditional compatibility of selected contributions, not complete SUGRA loop protection",
+    "disclosure": "AI-assisted derivation, source reading, independent numerical implementations and writing; no external peer review",
+    "protocol": "Analytic exploration and a declared pre-production addendum preceded full scan; no blind preregistration claim"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.5"
+  },
+  "inputs": [
+    {
+      "path": "experiments/sugra_shift_v01/results/inputs.json",
+      "role": "fixed parameters",
+      "bytes": 1556,
+      "sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/trajectories.csv",
+      "role": "unchanged shift-axis reference coordinates",
+      "bytes": 6623432,
+      "sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/scan.csv",
+      "role": "previous candidate plotted only over its archived domain",
+      "bytes": 142594,
+      "sha256": "dbc050287726858d0c22b6cb64bbf126cd303943912e29b57b4c47fe46032790"
+    }
+  ],
+  "source_records": [
+    "reports/noscale_quantum_sources_20260925_sources.json",
+    "reports/noscale_exact_20260925_checks.json",
+    "reports/noscale_stabilization_20260925_checks.json",
+    "reports/noscale_kahler_20260925.md"
+  ],
+  "commands": [
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/run_protection.py",
+      "exit_code": 0,
+      "log": "results/run_attempt_001.log",
+      "seconds": 13.20507264137268,
+      "passed": 66
+    },
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/independent_check.py --mode tree_eta --dps 160 --a 0.1",
+      "exit_code": 0,
+      "log": "results/independent_final_tree_eta_160_a0.1_archive_final.log",
+      "seconds": 6.869794607162476,
+      "passed": 135,
+      "count": 135
+    },
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/independent_check.py --mode tree_eta --dps 160 --a 1",
+      "exit_code": 0,
+      "log": "results/independent_final_tree_eta_160_a1_archive_final.log",
+      "seconds": 7.043237924575806,
+      "passed": 135,
+      "count": 135
+    },
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/independent_check.py --mode tree_eta --dps 160 --a 10",
+      "exit_code": 0,
+      "log": "results/independent_final_tree_eta_160_a10_archive_final.log",
+      "seconds": 7.520478248596191,
+      "passed": 135,
+      "count": 135
+    },
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/independent_check.py --mode scalar_retuned_eta --dps 160",
+      "exit_code": 0,
+      "log": "results/independent_final_scalar_retuned_eta_160_archive_final.log",
+      "seconds": 6.633579969406128,
+      "passed": 135,
+      "count": 135
+    },
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/independent_check.py --mode tree_eta --dps 220",
+      "exit_code": 0,
+      "log": "results/independent_final_tree_eta_220_archive_final.log",
+      "seconds": 26.434507369995117,
+      "passed": 405,
+      "count": 405
+    },
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/independent_check.py --mode scalar_retuned_eta --dps 220",
+      "exit_code": 0,
+      "log": "results/independent_final_scalar_retuned_eta_220_archive_final.log",
+      "seconds": 8.805008888244629,
+      "passed": 135,
+      "count": 135
+    },
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/independent_check.py --audit",
+      "exit_code": 0,
+      "log": "results/independent_final_audit_archive_final.log",
+      "seconds": 13.973166465759277,
+      "passed": 527
+    },
+    {
+      "command": "timeout 180 python reports/noscale_exact_20260925_checks.py",
+      "exit_code": 0,
+      "passed": 52,
+      "result": "reports/noscale_exact_20260925_checks.json"
+    },
+    {
+      "command": "timeout 180 python reports/noscale_stabilization_20260925_checks.py",
+      "exit_code": 0,
+      "passed": 70,
+      "result": "reports/noscale_stabilization_20260925_checks.json"
+    },
+    {
+      "command": "timeout 180 python reports/noscale_kahler_20260925_checks.py",
+      "exit_code": 0,
+      "passed": 35,
+      "result": "reports/noscale_kahler_20260925_checks.json"
+    },
+    {
+      "command": "timeout 180 python reports/noscale_quantum_sources_20260925_checks.py",
+      "exit_code": 0,
+      "passed": 24,
+      "result": "reports/noscale_quantum_sources_20260925_checks.json"
+    },
+    {
+      "command": "timeout 180 python experiments/noscale_protection_v01/code/plot_results.py",
+      "exit_code": 0,
+      "log": "results/plot_attempt_002.log",
+      "scope": "Label-position adjustment only; scientific CSV files unchanged"
+    }
+  ],
+  "anomalies": [
+    {
+      "stage": "ideal no-scale derivation",
+      "record": "reports/noscale_exact_20260925_checks.json",
+      "description": "Initial 45/46 expected F^T conjugate/index mismatch corrected using direct inverse; final 52 pass. An rg escape and one source HTML 406 are also recorded."
+    },
+    {
+      "stage": "superpotential stabilization",
+      "record": "reports/noscale_stabilization_20260925_checks.json",
+      "description": "Initial 64/65 auxiliary contraction needed matrix transpose; potential/spectra unaffected. One unavailable HTML version replaced by primary PDF."
+    },
+    {
+      "stage": "quartic analytic y derivative",
+      "record": "reports/noscale_kahler_20260925.md",
+      "description": "Early axis-only mass extrapolation corrected before main scan: full geometry yields transverse coefficient 1/3. Final 35 checks pass."
+    },
+    {
+      "stage": "independent exact input precision",
+      "record": "experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "description": "Rounded xi and chi_i must preserve the declared initial 100 GeV mass. High-precision normalization corrected and exact batches repeated; attempt logs retained."
+    },
+    {
+      "stage": "independent low-order expansion",
+      "record": "experiments/noscale_protection_v01/results/independent_initial_leading_expansion_audit.json",
+      "description": "Initial 523/526 strict audit exposed d^2 terms at near-zero leading force. Expanded through d^3 and B^4; retained strict tolerance and historical failed audit."
+    },
+    {
+      "stage": "independent tool errors",
+      "record": "experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "description": "Audit SyntaxError before scientific execution and a report-write JavaScript quoting error corrected; logs/disclosure retained."
+    },
+    {
+      "stage": "source discovery",
+      "record": "reports/noscale_quantum_sources_20260925_sources.json",
+      "description": "One guessed arXiv version failed; actual accessible version verified. No inference from unavailable page."
+    },
+    {
+      "stage": "archive formatting rerun",
+      "description": "One trailing blank in the independent script was removed. Six exact batches and the audit were repeated with the final source hash; scientific CSV byte equality is recorded in the independent archive-format validation."
+    },
+    {
+      "stage": "final report and plot review",
+      "description": "Fixed multiplication punctuation, limited zero clock-fermion claim to clock-off, capped gravity marker by Mp, and moved plot annotation. No scientific output changed."
+    }
+  ],
+  "verification": {
+    "all_final_checks_pass": true,
+    "main": 66,
+    "ideal_symbolic_and_local": 52,
+    "superpotential_stabilization": 70,
+    "quartic_geometry": 35,
+    "quantum_interfaces": 24,
+    "independent_summary": 527,
+    "exact_220_checks": 540,
+    "exact_points": 108,
+    "direct_CW_points": 54,
+    "primary_rows": 873,
+    "scheme_rows": 5238,
+    "background_points_per_case": 1025,
+    "representative_rows": 15375,
+    "notes": "Counts overlap and are not physical evidence counts; initial failed checks are explicitly retained."
+  },
+  "unchanged_manuscript": {
+    "path": "manuscript_cn/paper.pdf",
+    "role": "86-page manuscript unchanged",
+    "bytes": 1729255,
+    "sha256": "bcd56f85a5077fd7b625e82c37aeb5a6115b817fef9eabec740e3425d02acceb"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "role": "archived artifact",
+      "bytes": 23881,
+      "sha256": "35871b5ec7f965b79c100da8048a843931f3cd6b44d4460806981523b5729505"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "role": "archived artifact",
+      "bytes": 30595,
+      "sha256": "2b38336675b61a2164c1255ad39071b4ea88d94bedc11a8f88267a210163e854"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "role": "archived artifact",
+      "bytes": 27481,
+      "sha256": "aefe9c6f81bdb89485edb29071b43b33c657957622d68828299bb64fa8d18741"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/README.md",
+      "role": "archived artifact",
+      "bytes": 3910,
+      "sha256": "8fb36fc2061f0b9ea0d0c5d1befd805990d41971cb486c8f8fda6273ad78002b"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/code/independent_check.py",
+      "role": "archived artifact",
+      "bytes": 21827,
+      "sha256": "3aff607be22bde3249b4620d41022564954dc8017d7581de4194339ec4c0bd35"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/code/plot_results.py",
+      "role": "archived artifact",
+      "bytes": 5257,
+      "sha256": "42afd851a39f5018b6190535b0bf73d401a464b6c29b94a6acef9032a7eed2ad"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/code/run_protection.py",
+      "role": "archived artifact",
+      "bytes": 10506,
+      "sha256": "de2dc0214f21de3152e53a19c175610c4e79ce17ce572cf196259553600e2f39"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/figures/geometry_budget_and_phase.pdf",
+      "role": "archived artifact",
+      "bytes": 29842,
+      "sha256": "e14dc33d11d0b6e3561a895fc0388e19faa885fd161d822e2942cef8f50b4609"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/figures/geometry_budget_and_phase.png",
+      "role": "archived artifact",
+      "bytes": 147601,
+      "sha256": "91d8d4a052a4965e0b0279a0900fe31586fb16763fefcb3fb5d7a21bb1478953"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/figures/protection_and_radiative_vacuum.pdf",
+      "role": "archived artifact",
+      "bytes": 31185,
+      "sha256": "28443df8d94547fea503676cc1bb460eccc11f327b80be5e5cc114e3033f7f5e"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/figures/protection_and_radiative_vacuum.png",
+      "role": "archived artifact",
+      "bytes": 240929,
+      "sha256": "c03a1bd16dfa5ca211c3c6336c7801031949e92b4fdb04f4067b73cd571ed043"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/protocol.md",
+      "role": "archived artifact",
+      "bytes": 6247,
+      "sha256": "68b45ee0dbf2b673419ea1ed4a3297aad0d5e77648ab7cba17bb22bbae0fc8bc"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "role": "archived artifact",
+      "bytes": 7810,
+      "sha256": "bf10aa3b029e5a1ba7c92640b23b3c63f355b54f49dc143c7fffe05cf06d6cda"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/reports/results_cn.md",
+      "role": "archived artifact",
+      "bytes": 16880,
+      "sha256": "fb6d231950eb874a14534c3e7e648f093ec4625cea4e3354f7f3b86fa871a443"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/archive_validation.json",
+      "role": "archived artifact",
+      "bytes": 38074,
+      "sha256": "887902843231879d5b3436ac4722b4e137af8ed0245df78ca06f44f7d7e2422c"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/budget_limits.csv",
+      "role": "archived artifact",
+      "bytes": 3703,
+      "sha256": "26f3f6a5774321f7a4a0bf6b61c9b84012dd8b4ea3bf60feda859eb92cfbb98e"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_archive_format_verification.json",
+      "role": "archived artifact",
+      "bytes": 1179,
+      "sha256": "c096736f0c59f87590c32fa48fbfcdbedca7c7a7b2d50fa5364cb693cf2c9c59"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_audit.log",
+      "role": "archived artifact",
+      "bytes": 163,
+      "sha256": "fbde38c1b00a37dd1e364b325dfdd36c786329be7648df019254b601946861a9"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_audit_syntax.log",
+      "role": "archived artifact",
+      "bytes": 508,
+      "sha256": "5d32c6ba326ce6ecfd538b281b020509d8384f9a01d95f62c5dba3c4545808f8"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_scalar_retuned_eta_160.log",
+      "role": "archived artifact",
+      "bytes": 245,
+      "sha256": "a6f0bf03ccbdec17e9cf0955e85b38dba4be656a4b0810f8f88e409b29224aee"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_scalar_retuned_eta_160_normalized.log",
+      "role": "archived artifact",
+      "bytes": 244,
+      "sha256": "bbaa12b347cf9c6f4cea35a676ffe2569565ca7ea536294515fa838e144dd768"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_scalar_retuned_eta_220.log",
+      "role": "archived artifact",
+      "bytes": 245,
+      "sha256": "6db18c3829f77bdf2c515cda2b8426c411b2a89f256a274fce405b1ff641247a"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_scalar_retuned_eta_220_normalized.log",
+      "role": "archived artifact",
+      "bytes": 245,
+      "sha256": "a76ae13472efde07f06111b246e63d9cc41029cd995e4d218933a1907c531b01"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_tree160a01.log",
+      "role": "archived artifact",
+      "bytes": 215,
+      "sha256": "5d3de741637a61ac548dcc60cbafb23d36c42a7606e0f912cc6f5af08c29195e"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_tree_eta_160_a0.1_normalized.log",
+      "role": "archived artifact",
+      "bytes": 215,
+      "sha256": "39bad5ab51b19f36bf6633109185044ea913ac7792b69bebab1d0f6ecb0ca1c5"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_tree_eta_160_a1.log",
+      "role": "archived artifact",
+      "bytes": 215,
+      "sha256": "d5013a34e249526dea25a59dde3356f57e1b99beae8eca86df3235a90bb3d046"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_tree_eta_160_a10.log",
+      "role": "archived artifact",
+      "bytes": 218,
+      "sha256": "a7c61fea7d0c12ab4e7bd8d22a3076a8be466ded4167650bca5504f582a9838f"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_tree_eta_160_a10_normalized.log",
+      "role": "archived artifact",
+      "bytes": 218,
+      "sha256": "bc63b857f2c30cb5bc5727347b808eef923c9d93046b83af4878ca83929eba4d"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_tree_eta_160_a1_normalized.log",
+      "role": "archived artifact",
+      "bytes": 215,
+      "sha256": "37d5b5d3c091e7916ae7013eb8fa2cd9bb93d23bb7060f4a682dc545f929c800"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_tree_eta_220.log",
+      "role": "archived artifact",
+      "bytes": 489,
+      "sha256": "3c7e54086c4e5342679643dd32ed852a0226dd7ad2409888ef1f24df0ec56c75"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_attempt_tree_eta_220_normalized.log",
+      "role": "archived artifact",
+      "bytes": 488,
+      "sha256": "735312d1c21b1325ebfc8da596b4281b21cdd664c7799c8b3d369b777e3f536d"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_direct_CW.csv",
+      "role": "archived artifact",
+      "bytes": 64562,
+      "sha256": "4a2ceaaabed9ca07c327d511a3d4b248f9e4b95001a60cf0bbba8a9728779853"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_exact_main_comparison.csv",
+      "role": "archived artifact",
+      "bytes": 115974,
+      "sha256": "79703642aa7c7164ef650d695a9c3edb192d274112c1f5c8008bc04eed8be377"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_audit.log",
+      "role": "archived artifact",
+      "bytes": 162,
+      "sha256": "1823e9e1c96278b0303b7a00e9be52735291a299590a9f4092c966dbe3a698d6"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_audit_archive_final.log",
+      "role": "archived artifact",
+      "bytes": 163,
+      "sha256": "622f9d85f90f671f2d77f903dbf194d8bef67d42d842efd4447c78f3edd52ce2"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_scalar_retuned_eta_160.log",
+      "role": "archived artifact",
+      "bytes": 246,
+      "sha256": "ddc7369fe38f7cbe972528b18c3954bd891e13f90323866142531ac42d2936e4"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_scalar_retuned_eta_160_archive_final.log",
+      "role": "archived artifact",
+      "bytes": 245,
+      "sha256": "dd625443f17285edb024b0ed9ad357c96d1a001d528752f562c6691339fbf4f5"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_scalar_retuned_eta_220.log",
+      "role": "archived artifact",
+      "bytes": 245,
+      "sha256": "4dd346e8d2f173621bd080fc94c65fdc96d4016a50aabc5ed646bc0550a0faa9"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_scalar_retuned_eta_220_archive_final.log",
+      "role": "archived artifact",
+      "bytes": 245,
+      "sha256": "61fccdf7a3d40a7a60070f88354a4e420ca4becffb68921a4868f825741e05b9"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_tree_eta_160_a0.1.log",
+      "role": "archived artifact",
+      "bytes": 216,
+      "sha256": "90a41975447ef5b4c522ea6fbd1af436a161a6650b75edf466481d52681ef937"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_tree_eta_160_a0.1_archive_final.log",
+      "role": "archived artifact",
+      "bytes": 215,
+      "sha256": "8cce2d4ef6436a1238a50a37f55842a38a1b969d8f2bca963a83d853bd871025"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_tree_eta_160_a1.log",
+      "role": "archived artifact",
+      "bytes": 215,
+      "sha256": "97990ccbbf8f24e07ea59d1b7a5edb0c138625565d76ec782b8aabe5c6a96f33"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_tree_eta_160_a10.log",
+      "role": "archived artifact",
+      "bytes": 218,
+      "sha256": "b640baa7020d35ecb72d4a3255881dacfb2553159ea4b7a1224204f61ef3b3df"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_tree_eta_160_a10_archive_final.log",
+      "role": "archived artifact",
+      "bytes": 218,
+      "sha256": "7f9433ed6f71a97a60b1e5010a3a7f5ea136403d9997d9710882cd5e4538ef57"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_tree_eta_160_a1_archive_final.log",
+      "role": "archived artifact",
+      "bytes": 215,
+      "sha256": "da905a0e8569a127b144b064ffdf608262dda09cdf10807095c741a033a2b888"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_tree_eta_220.log",
+      "role": "archived artifact",
+      "bytes": 488,
+      "sha256": "3ac67ac3820e3d45e85dca2f313de2cf357a6565284061593535d8fdc96ce18f"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_final_tree_eta_220_archive_final.log",
+      "role": "archived artifact",
+      "bytes": 489,
+      "sha256": "d1ff336dacbcf400bff8d992f357da1be9ea8770916dcd90c0600da3d87c800e"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_initial_leading_expansion_audit.json",
+      "role": "archived artifact",
+      "bytes": 230299,
+      "sha256": "9c9a930fff2909265d1a02fd1dc790f6e57a5196a06df2636de053f8e7c478b5"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_pre_archive_format_snapshot.json",
+      "role": "archived artifact",
+      "bytes": 239624,
+      "sha256": "dabd6e80c7cbb109114a2dd21ecebb30bda8258564b761727d690b598ce79012"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_scalar_retuned_eta_160.csv",
+      "role": "archived artifact",
+      "bytes": 145867,
+      "sha256": "e48c7eaf48ba95263e32b2eb807744f90e61ca9a68bb810e1dc17bf7bb75e417"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_scalar_retuned_eta_160.json",
+      "role": "archived artifact",
+      "bytes": 41039,
+      "sha256": "6713b65eafd595a7f694bada2f16459f0fbdf8f89dc023c67ae34d591fe247bb"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_scalar_retuned_eta_220.csv",
+      "role": "archived artifact",
+      "bytes": 206482,
+      "sha256": "76fa4403fe3dbbbb8c70542eeb21386c5745d7001f403ea62969a433b2ddf411"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_scalar_retuned_eta_220.json",
+      "role": "archived artifact",
+      "bytes": 43514,
+      "sha256": "7c07d4ba63ce12454f0d071794b0cee0ac44f438fc90bc30fa50b7fdde196d1f"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_summary.json",
+      "role": "archived artifact",
+      "bytes": 230922,
+      "sha256": "3431581d870f3047ea7c68a547aba8cae1f8d1e0b1691af38c7fcf831c8ed0a0"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_tree_eta_160_a0.1.csv",
+      "role": "archived artifact",
+      "bytes": 138139,
+      "sha256": "d0bc523ea3001bcb6fad2bf0f70b641bcac6fb04782a829c97c255255d0a0c69"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_tree_eta_160_a0.1.json",
+      "role": "archived artifact",
+      "bytes": 38176,
+      "sha256": "ac6c25b45e4a51679974152ed1bc22c612875d917652b3825c0761b697659455"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_tree_eta_160_a1.csv",
+      "role": "archived artifact",
+      "bytes": 138234,
+      "sha256": "7ebbffc5f0c51be6cf720b303d7de1f1f2206a26731769a0520257cdca36b22b"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_tree_eta_160_a1.json",
+      "role": "archived artifact",
+      "bytes": 39652,
+      "sha256": "513e6390da59ad7c5501e8e98e5e18cad1b13f8e2c41d2ed1ba4cb073ac3b0b4"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_tree_eta_160_a10.csv",
+      "role": "archived artifact",
+      "bytes": 138474,
+      "sha256": "c5a332208df7bc05325352febb9e81ffb3d1e359e9c3e787e003334d0f2d838e"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_tree_eta_160_a10.json",
+      "role": "archived artifact",
+      "bytes": 38325,
+      "sha256": "61df7f45bce360138234a7c6ce00b30cdc0c98248142a22a99d20ef42da5c540"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_tree_eta_220.csv",
+      "role": "archived artifact",
+      "bytes": 588504,
+      "sha256": "a47673fe79c12c41b03e17343325e3551332271ecf5340657da7ff7e89d1c2b5"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/independent_tree_eta_220.json",
+      "role": "archived artifact",
+      "bytes": 133582,
+      "sha256": "7f8e759855861579dc07aaccd96527859aa45cb6cad758d15f7e81cba5cf773a"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/inputs.json",
+      "role": "archived artifact",
+      "bytes": 4487,
+      "sha256": "c6e52a607345aa2d61a9caa92cb6c820f3af77895c66420bf34ddf65a919988e"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/plot_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 51,
+      "sha256": "db143f0e8127500adcc49cd6fb3564463e78f5791ab3d3bec6597ddd81819f38"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/plot_attempt_002.log",
+      "role": "archived artifact",
+      "bytes": 51,
+      "sha256": "db143f0e8127500adcc49cd6fb3564463e78f5791ab3d3bec6597ddd81819f38"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/representative_curves.csv",
+      "role": "archived artifact",
+      "bytes": 18115528,
+      "sha256": "3094a0aeae4ff521dc2cc2221bc7858ba4feb8febcb5aa2f5fefa15180d2e720"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/run_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 1146,
+      "sha256": "a1530ca26bd004fc73405efb51d91cdb2149236f3153bc25af020e194aa6fbd1"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/scan.csv",
+      "role": "archived artifact",
+      "bytes": 416779,
+      "sha256": "e84f8fd600c0cb8857487c8ad206f319f6824d7d6e617c52b95e29b356129ce6"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/scheme_scan.csv",
+      "role": "archived artifact",
+      "bytes": 2518893,
+      "sha256": "df2dc243955f0438028e1dd59742ed1443997605c74eef22c0c0a4f4005e6778"
+    },
+    {
+      "path": "experiments/noscale_protection_v01/results/summary.json",
+      "role": "archived artifact",
+      "bytes": 63882,
+      "sha256": "0477184b5e0d5f4e2f41ca79437e1a054d0b153d837ebe4a410f42354bd9ca63"
+    },
+    {
+      "path": "reports/noscale_exact_20260925.md",
+      "role": "archived artifact",
+      "bytes": 11248,
+      "sha256": "38acc341f7d8709b18b5b7c916173d63a24920a5d6d561a8469cf7688257d91c"
+    },
+    {
+      "path": "reports/noscale_exact_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 25766,
+      "sha256": "72be461ef601e9e159d13a650d60fd3b50b7fa883d593cd01747a9ac2a2af272"
+    },
+    {
+      "path": "reports/noscale_exact_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 11496,
+      "sha256": "663da013167d80025f48e363828fda24c15f6a3de3fb4ff7e03f156999d91503"
+    },
+    {
+      "path": "reports/noscale_kahler_20260925.md",
+      "role": "archived artifact",
+      "bytes": 12124,
+      "sha256": "4cfd74ede0798b0c4c2057efce2adc514b9f9b99bbdf2b24ef6a40de5740fc6d"
+    },
+    {
+      "path": "reports/noscale_kahler_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 3851,
+      "sha256": "fe3abbd04b8ebfe315d67ed118ffbdd037a47f31e5159ec33d1f7836a0cebaab"
+    },
+    {
+      "path": "reports/noscale_kahler_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 6283,
+      "sha256": "44a5bddcd02593c244c5b9bd4839160e798e08a0bca55b48381e6992963f482f"
+    },
+    {
+      "path": "reports/noscale_quantum_sources_20260925.md",
+      "role": "archived artifact",
+      "bytes": 19445,
+      "sha256": "89e578fe63bd6ed8057df3823a0dc9ac525f1081817ab0fcd5d384c93347dbb7"
+    },
+    {
+      "path": "reports/noscale_quantum_sources_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 3084,
+      "sha256": "141c3ecf2139cf15559d441de3815b0090830d90cfe1b8f502de808e73691b57"
+    },
+    {
+      "path": "reports/noscale_quantum_sources_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 4020,
+      "sha256": "1850b5b9a113778150bbe672bb00c4237762fa5066dbf0dfb1e2dc82bebccfb9"
+    },
+    {
+      "path": "reports/noscale_quantum_sources_20260925_sources.json",
+      "role": "archived artifact",
+      "bytes": 6024,
+      "sha256": "2780f4bcffa6211255ad3cc45691e6ed4a3747ad6be1f12d58f3c449aacd446e"
+    },
+    {
+      "path": "reports/noscale_stabilization_20260925.md",
+      "role": "archived artifact",
+      "bytes": 13839,
+      "sha256": "f52dd597843d22af209802cf9cb48593f19760f871b4b71759e30a9486b61c30"
+    },
+    {
+      "path": "reports/noscale_stabilization_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 14314,
+      "sha256": "1131d6dc77b8782c0d10473293345eef4bdc55d14eb61e995e8bb84e176f09dd"
+    },
+    {
+      "path": "reports/noscale_stabilization_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 11289,
+      "sha256": "82a9979e7605d9e962b2790769f2947309e1884ba1d114f44704736e22e1e7b3"
+    }
+  ],
+  "limitations": [
+    "Retuned eta is a leading selected-scalar vacuum diagnostic, not full loop vacuum matching.",
+    "Charged spectra use Vtree, not the tuned Vtotal. The loop-induced eta followed by charged CW is only part of a higher-order calculation.",
+    "The thresholds M_Q=100 GeV and much lighter T require ordered matching or explicitly uniform 1PI coefficients.",
+    "Scalar CW omits complete gravitino, ghost, mixed and local-counterterm contributions.",
+    "A locally arranged no-scale jet is not a proof of technical naturalness or a symmetry of all quantum terms.",
+    "No real electromagnetism, inverse-log exponent selection or Riemann-derived interactions have been established."
+  ],
+  "notes": [
+    "Paths are repo-relative except command log fields, which are experiment-relative.",
+    "Manifest does not hash itself. Full source caches are ignored and indexed separately.",
+    "No new observations, p-values, confidence intervals or stochastic discovery claims."
+  ]
+}

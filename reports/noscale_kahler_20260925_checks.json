@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-25",
+  "method": "independent SymPy analytic checks",
+  "units": "M_P=1 in symbolic expressions",
+  "checks": [
+    {
+      "name": "metric_determinant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "full_complex_T_and_Z_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "real_Z_axis_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quartic_center_preserves_V_equals_U",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "clock_tadpole_real_T",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "imaginary_T_tadpole_zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "real_T_canonical_mass_clockoff",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "imaginary_T_canonical_mass_clockoff",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "finite_clock_real_coordinate_Hessian_at_center",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "finite_clock_imag_coordinate_Hessian_at_center",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quartic_metric_center",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "compensator_cancellation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_canonical_common_soft",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_canonical_B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_B_at_exact_center",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_fermion_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "clock_shift_linear_equation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shifted_q_leading",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "clock_valley_energy_leading",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "eta_center_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "eta_center_real_T_tadpole",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "eta_vacuum_shift_leading",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "eta_combined_shift_leading",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "imaginary_clock_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "uplift_clock_S_y",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "uplift_clock_S_yy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "uplift_y_tadpole",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "uplift_y_Hessian",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "full_potential_real_T_mass_y_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "full_potential_imag_T_mass_y_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_mass_y_derivative_one_third_gravitino",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "clockino_mass_clockoff_center",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "clockino_mass_zero_q",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "modulus_scalar_CW_chain_rule",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "eta_vacuum_counterterm_slope",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "passed": 35,
+  "total": 35,
+  "scope": "local classical geometry/spectrum and scalar CW chain rule; not a full SUGRA loop or cosmology calculation",
+  "errors": []
+}
