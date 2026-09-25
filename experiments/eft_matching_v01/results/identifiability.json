@@ -1,0 +1,194 @@
+[
+  {
+    "mG_eV": 1e-06,
+    "phase": "zero",
+    "normalized_singular_values": [
+      1.729349420018655,
+      0.09669841509115817,
+      1.2531529596926745e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.7955354416997306e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 1e-06,
+    "phase": "quadrature",
+    "normalized_singular_values": [
+      1.729349420018655,
+      0.09669841509115817,
+      1.3173690360754985e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.7955354416997306e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 1e-06,
+    "phase": "pi",
+    "normalized_singular_values": [
+      1.729349420018655,
+      0.09669841509115817,
+      1.1487655309190993e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.7955354416997306e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 1.0,
+    "phase": "zero",
+    "normalized_singular_values": [
+      1.7293494200186545,
+      0.0966984150911582,
+      8.420036469094835e-17
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 1.3910784505949234e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 1.0,
+    "phase": "quadrature",
+    "normalized_singular_values": [
+      1.7293494200186545,
+      0.0966984150911582,
+      9.583289719654268e-17
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 1.3910784505949234e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 1.0,
+    "phase": "pi",
+    "normalized_singular_values": [
+      1.7293494200186548,
+      0.09669841509115819,
+      8.995518369620457e-17
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 1.3910784505949234e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 100000.0,
+    "phase": "zero",
+    "normalized_singular_values": [
+      1.7293494200186548,
+      0.09669841509115816,
+      1.6906645577471698e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.5847818708853285e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 100000.0,
+    "phase": "quadrature",
+    "normalized_singular_values": [
+      1.7293494200186545,
+      0.0966984150911582,
+      1.1063487030805077e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.5847818708853285e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 100000.0,
+    "phase": "pi",
+    "normalized_singular_values": [
+      1.7293494200186548,
+      0.09669841509115819,
+      1.4172290349034006e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.5847818708853285e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 10000000.0,
+    "phase": "zero",
+    "normalized_singular_values": [
+      1.7293494200186548,
+      0.0966984150911582,
+      1.1776479223527055e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.9155377448390144e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 10000000.0,
+    "phase": "quadrature",
+    "normalized_singular_values": [
+      1.7293494200186548,
+      0.09669841509115816,
+      1.618673808377873e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.9155377448390144e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  },
+  {
+    "mG_eV": 10000000.0,
+    "phase": "pi",
+    "normalized_singular_values": [
+      1.7293494200186548,
+      0.09669841509115819,
+      1.1726879812621307e-16
+    ],
+    "null_vector_c_beta2_nu": [
+      1,
+      2,
+      -1
+    ],
+    "null_relative_residual": 3.9155377448390144e-16,
+    "interpretation": "Only A=-c+beta²/2 and D=c+nu0 enter this selected leading potential."
+  }
+]

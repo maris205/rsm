@@ -1,0 +1,323 @@
+{
+  "scope": "Specified selected Q^2 determinant plus one finite local coefficient; not full SUGRA matching",
+  "direct_spectrum_points": 1344,
+  "kernel_points": 12300,
+  "budget_rows": 36,
+  "precisions": [
+    160,
+    220
+  ],
+  "independent_indices": [
+    0,
+    173,
+    701,
+    1024
+  ],
+  "scales": [
+    "0.5",
+    "1",
+    "2",
+    "10"
+  ],
+  "max_residuals": {
+    "precision_force_over_2U": "5.5264184301538182794626458270948477199414473403407e-106",
+    "neglected_force_over_2U": "2.1656389541436372742940563479963135804826842446368e-54",
+    "common_split_over_s": "9.1330966463099709782272797729244260731530710839837e-55",
+    "B_over_s": "1.6189408454487778691397938015468764224487954787749e-28"
+  },
+  "max_null_residual": "3.895152655764552050462059581118487044259158902527e-81",
+  "max_rg_residual": "1.9956233834272592051655240576165639158857705778469e-80",
+  "max_yjet_residual": "6.9806724495801612102783314952355618837497004556293e-82",
+  "singular_values": [
+    {
+      "mG_eV": "1e-6",
+      "phase": "zero",
+      "column_l2_normalized_singular_values": [
+        1.7293494200186554,
+        0.09669841509115866,
+        1.3609552878775826e-16
+      ],
+      "smallest_over_largest": 7.869753053508996e-17
+    },
+    {
+      "mG_eV": "1e-6",
+      "phase": "quadrature",
+      "column_l2_normalized_singular_values": [
+        1.7293494200186554,
+        0.09669841509115862,
+        1.7925161611597109e-16
+      ],
+      "smallest_over_largest": 1.0365263031344898e-16
+    },
+    {
+      "mG_eV": "1e-6",
+      "phase": "pi",
+      "column_l2_normalized_singular_values": [
+        1.7293494200186554,
+        0.09669841509115862,
+        1.7925161611597109e-16
+      ],
+      "smallest_over_largest": 1.0365263031344898e-16
+    },
+    {
+      "mG_eV": "1",
+      "phase": "zero",
+      "column_l2_normalized_singular_values": [
+        1.7293494200186548,
+        0.09669841509115865,
+        3.6983429625830597e-16
+      ],
+      "smallest_over_largest": 2.138574726293987e-16
+    },
+    {
+      "mG_eV": "1",
+      "phase": "quadrature",
+      "column_l2_normalized_singular_values": [
+        1.7293494200186548,
+        0.09669841509115863,
+        2.584648247491726e-16
+      ],
+      "smallest_over_largest": 1.4945783758749257e-16
+    },
+    {
+      "mG_eV": "1",
+      "phase": "pi",
+      "column_l2_normalized_singular_values": [
+        1.7293494200186548,
+        0.09669841509115863,
+        2.584648247491726e-16
+      ],
+      "smallest_over_largest": 1.4945783758749257e-16
+    },
+    {
+      "mG_eV": "1e5",
+      "phase": "zero",
+      "column_l2_normalized_singular_values": [
+        1.729349420018655,
+        0.09669841509115866,
+        1.471448861278727e-16
+      ],
+      "smallest_over_largest": 8.508684504389251e-17
+    },
+    {
+      "mG_eV": "1e5",
+      "phase": "quadrature",
+      "column_l2_normalized_singular_values": [
+        1.729349420018655,
+        0.09669841509115865,
+        1.1643729513636084e-16
+      ],
+      "smallest_over_largest": 6.733011489089625e-17
+    },
+    {
+      "mG_eV": "1e5",
+      "phase": "pi",
+      "column_l2_normalized_singular_values": [
+        1.729349420018655,
+        0.09669841509115865,
+        1.1643729513636084e-16
+      ],
+      "smallest_over_largest": 6.733011489089625e-17
+    },
+    {
+      "mG_eV": "1e7",
+      "phase": "zero",
+      "column_l2_normalized_singular_values": [
+        1.729349420018655,
+        0.0966984150911586,
+        3.57583191624769e-16
+      ],
+      "smallest_over_largest": 2.067732451784739e-16
+    },
+    {
+      "mG_eV": "1e7",
+      "phase": "quadrature",
+      "column_l2_normalized_singular_values": [
+        1.729349420018655,
+        0.09669841509115865,
+        4.009855156769849e-16
+      ],
+      "smallest_over_largest": 2.318707318690166e-16
+    },
+    {
+      "mG_eV": "1e7",
+      "phase": "pi",
+      "column_l2_normalized_singular_values": [
+        1.729349420018655,
+        0.09669841509115865,
+        4.009855156769849e-16
+      ],
+      "smallest_over_largest": 2.318707318690166e-16
+    }
+  ],
+  "checks": [
+    {
+      "name": "1025 coordinates",
+      "residual": "0",
+      "tolerance": "0",
+      "passed": true
+    },
+    {
+      "name": "first chi equals fixed initial chi",
+      "residual": "0.0",
+      "tolerance": "0",
+      "passed": true
+    },
+    {
+      "name": "exact initial charged mass",
+      "residual": "0.0",
+      "tolerance": "1e-75",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e-6 zero",
+      "residual": "7.869753053508996e-17",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e-6 quadrature",
+      "residual": "1.0365263031344898e-16",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e-6 pi",
+      "residual": "1.0365263031344898e-16",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1 zero",
+      "residual": "2.138574726293987e-16",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1 quadrature",
+      "residual": "1.4945783758749257e-16",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1 pi",
+      "residual": "1.4945783758749257e-16",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e5 zero",
+      "residual": "8.508684504389251e-17",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e5 quadrature",
+      "residual": "6.733011489089625e-17",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e5 pi",
+      "residual": "6.733011489089625e-17",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e7 zero",
+      "residual": "2.067732451784739e-16",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e7 quadrature",
+      "residual": "2.318707318690166e-16",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "normalized response rank two 1e7 pi",
+      "residual": "2.318707318690166e-16",
+      "tolerance": "1e-13",
+      "passed": true
+    },
+    {
+      "name": "kernel exact null identity all grid points",
+      "residual": "3.8951526557645520504620595811184870442591589025269877534770931771701789693440825e-81",
+      "tolerance": "1e-75",
+      "passed": true
+    },
+    {
+      "name": "RG running closure independent coefficients",
+      "residual": "1.995623383427259205165524057616563915885770577846942807677957444058818991739251e-80",
+      "tolerance": "1e-75",
+      "passed": true
+    },
+    {
+      "name": "transverse full S derivative factor one third",
+      "residual": "6.9806724495801612102783314952355618837497004556292655974481394916040683751152425e-82",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "160 to 220 digit direct force convergence",
+      "residual": "5.526418430153818279462645827094847719941447340340732291430430589297125873374835e-106",
+      "tolerance": "1e-85",
+      "passed": true
+    },
+    {
+      "name": "direct CW omitted orders below budget",
+      "residual": "2.1656389541436372742940563479963135804826842446367592615127824273037015047275532e-54",
+      "tolerance": "1e-45",
+      "passed": true
+    },
+    {
+      "name": "common mass split small",
+      "residual": "9.1330966463099709782272797729244260731530710839836915680748811129684530054508315e-55",
+      "tolerance": "1e-45",
+      "passed": true
+    },
+    {
+      "name": "B split small",
+      "residual": "1.6189408454487778691397938015468764224487954787748978197184989154289374473961628e-28",
+      "tolerance": "1e-24",
+      "passed": true
+    }
+  ],
+  "passed": 22,
+  "total": 22,
+  "elapsed_seconds": 12.425204992294312,
+  "hashes": {
+    "experiments/eft_matching_v01/code/independent_check.py": "02c98d1ed5aa5fc65b01aeefd337496855f412b518bd305f4bb5636526665cc2",
+    "experiments/sugra_shift_v01/results/inputs.json": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39",
+    "experiments/eft_matching_v01/protocol.md": "6afdbe676dafc1bbf077325339c6636bb13fcc4e97276a8d0fea70f335d2fb19"
+  },
+  "python": "3.12.3",
+  "mpmath": "1.3.0",
+  "numpy": "2.4.4",
+  "production_code_imported_or_read": false,
+  "retained_diagnostics": [
+    {
+      "file": "independent_initial_diagnostic.json",
+      "passed": 21,
+      "total": 22,
+      "issue": "80-digit differentiation of full |S|^2 lost significant digits",
+      "residual": "1.5165949892991368e-47",
+      "original_tolerance": "1e-70",
+      "correction": "Use 160 digits for this independent differentiation; tolerance unchanged"
+    },
+    {
+      "issue": "Potential cancellation in initial quadrature Kc identified by code review",
+      "correction": "Algebraically factor sd*X cancellation before numerical evaluation"
+    }
+  ],
+  "tolerance_convention": "Direct errors use common reference force 2U, including near-zero components; no relative division by a vanishing component.",
+  "scope_limits": [
+    "Loop-order counting is external to this determinant check.",
+    "No mixed gravity/fermion/ghost determinants or unknown Wilson coefficients are computed.",
+    "RG closure retains only terms linear in c and quadratic in beta.",
+    "The local-only check verifies normalization, not a prediction of nu.",
+    "Column-normalized singular values diagnose a two-shape degeneracy, not a protective symmetry."
+  ]
+}

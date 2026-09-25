@@ -1,0 +1,27 @@
+{
+  "stage": "pre_format_fix",
+  "git_diff_cached_check_exit_code": 2,
+  "cause": "csv.DictWriter default CRLF reported as trailing whitespace by repository diff check",
+  "original_code_sha256": "73e92e020c059f47d0d814041b295d89e8a400fd6ee9a42881c96ebe69e5966c",
+  "files": [
+    {
+      "path": "experiments/eft_matching_v01/results/independent_kernels.csv",
+      "original_sha256": "887d09281a6be3b31feafd5df3afa3831616f72fbb2fceffa55e885b38f220ad",
+      "normalized_LF_sha256": "deb4ae9abc9d7c93c8edc71ce4dfa6f65eea655b28cfea9efa3c99aa30835e03",
+      "crlf_lines": 12301
+    },
+    {
+      "path": "experiments/eft_matching_v01/results/independent_budgets.csv",
+      "original_sha256": "c09cec3063c42e520ca5788f8634a501284f7fd6cbeb7715d579c1b13cf1bee6",
+      "normalized_LF_sha256": "4b25a4d2e5d7eb61db4b6efbda9bc46a6e16c371fb278197fdd54b836153a237",
+      "crlf_lines": 37
+    },
+    {
+      "path": "experiments/eft_matching_v01/results/independent_direct_cw.csv",
+      "original_sha256": "9e64d26ef39fe2b49675fee47761f06539ec5d2bc03d8bcd9b3c08bd1b88dbbc",
+      "normalized_LF_sha256": "7bdbc6a2bbd330ed6efdd013cdc7cde92fb1041345e3b1395c1df346d674ba83",
+      "crlf_lines": 1345
+    }
+  ],
+  "resolution": "Set lineterminator to LF, rerun independent derive and compare, verify normalized bytes unchanged"
+}

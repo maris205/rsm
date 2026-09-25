@@ -1,0 +1,21 @@
+Checks 300 / 300
+{
+  "mG_eV": 1.0,
+  "phase": "zero",
+  "coordinates": 1025,
+  "c_unit_max_force_ratio": 8.116894967570333e+30,
+  "beta2_unit_max_force_ratio": 2.5959597919265662e+32,
+  "nu_unit_max_force_ratio": 5.273088533528836e+32,
+  "c_10percent": 1.2319982012768789e-32,
+  "abs_beta_10percent": 1.962686879516439e-17,
+  "beta2_10percent": 3.852139787025976e-34,
+  "abs_nu_10percent": 1.896421790837606e-34,
+  "c_limit_if_nu0_minus_c": 1.926069893512988e-34,
+  "beta_limit_if_nu0_minus_beta2_over2": 1.5697122037347362e-16,
+  "max_abs_d_over_s_at_c_limit": 1.2511091296314832e-54,
+  "max_abs_B_over_s_at_beta_limit": 1.9778510353420283e-28,
+  "baseline_B_cross_max_force_ratio": 7.529164842588891e-20,
+  "max_abs_baseline_B_over_added_B": 2.6683159814629225e-18,
+  "max_modulus_mass_over_charged_mass": 6.981732071004874e-11,
+  "null_relative_residual": 1.3910784505949234e-16
+}

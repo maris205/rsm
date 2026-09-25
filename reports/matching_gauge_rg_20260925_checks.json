@@ -1,0 +1,193 @@
+{
+  "scope": "Independent algebraic and high-precision checks of a specified leading threshold and selected CW RG identities; not full SUGRA matching.",
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, Apr 19 2024, 16:50:38) [GCC 11.2.0]",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "script_sha256": "585b2ac1a46254d18541c50d01601334be0a8fbe90d5dfe21d8a470cdb51eaec",
+  "parent_input_sha256": "c6e52a607345aa2d61a9caa92cb6c820f3af77895c66420bf34ddf65a919988e",
+  "checks": [
+    {
+      "name": "exact_CW_scale_derivative",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "vacuum_beta_matrix_vs_mass_eigenvalues",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "RG_completed_potential",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "RG_commutes_with_s_derivative",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "RG_commutes_with_d_derivative",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "RG_commutes_with_h_derivative",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "finite_subtraction_local_polynomial",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW_small_splitting_cubic_series",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "two_real_scalar_scale_derivative",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "above_plus_threshold_equals_IR",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "constant_holomorphic_mass_decoupling",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "arbitrary_linear_metric_Aplus_cancels",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "arbitrary_linear_metric_Aminus_cancels",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "compensator_cancels_below_empty_U1",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "variable_mass_not_zero_when_betaIR_zero",
+      "pass": true,
+      "detail": "Residual is -2 k A_M for A_M != 0."
+    },
+    {
+      "name": "missing_threshold_negative_control",
+      "pass": true,
+      "detail": "Above-threshold 2 k Fcomp would falsely survive constant-mass decoupling."
+    },
+    {
+      "name": "Kahler_holomorphic_matching_invariance",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Konishi_pair_holomorphic_matching_invariance",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "selected_basis_scale_completion",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "selected_basis_rank_two_identity",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "selected_basis_finite_degeneracy",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "selected_basis_from_general_CW",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "selected_basis_RG_from_general_J",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_0_factor_0.5",
+      "pass": true,
+      "detail": "3.790602616730237221908372335793530061256384471736188569548255057661215833249198758941124251846451144e-100"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_0_factor_2",
+      "pass": true,
+      "detail": "3.790602616730237221908372335793530061256384471736188569548255057661215833249198758941124251846451144e-100"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_0_factor_7",
+      "pass": true,
+      "detail": "6.444024448441403277244232970849001104135853601951520568232033598024066916523637890199911228138966946e-100"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_1_factor_0.5",
+      "pass": true,
+      "detail": "0.000000000000000000000000008292254908676479105873765060382790807742070501776532031461835261164523251956236938817257851624903143"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_1_factor_2",
+      "pass": true,
+      "detail": "0.00000000000000000000000006803320157315639216123278432390403255423242923417521857261262043608809279994231125626575938168134246"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_1_factor_7",
+      "pass": true,
+      "detail": "0.00000000000000000000000002418809981168866664527317760732118044668973777042720935220102746424100918466695560862959083767124159"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_2_factor_0.5",
+      "pass": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_2_factor_2",
+      "pass": true,
+      "detail": "8.621560842943501507438335992008653970846722290334754980195351856691406664210813481613372279335542413e-101"
+    },
+    {
+      "name": "direct_high_precision_RG_sample_2_factor_7",
+      "pass": true,
+      "detail": "2.490673132405900435482185953246944480466830883874484772056434980821961925216457228021640880696934475e-100"
+    },
+    {
+      "name": "threshold_hierarchy_Q_above_T",
+      "pass": true,
+      "detail": {
+        "M_Q_eV": 100000000000.0,
+        "m_T_eV_for_mG1_a1": 6.928203230275509,
+        "ratio": 14433756729.740644
+      }
+    },
+    {
+      "name": "clock_mass_derivative_nonzero",
+      "pass": true,
+      "detail": {
+        "A_M_eV_at_initial_center": 5.237068767221307e-35,
+        "conditional_IR_gaugino_eV": -6.082382638043377e-38
+      }
+    }
+  ],
+  "passed": 34,
+  "total": 34,
+  "max_direct_RG_relative_residual": "0.00000000000000000000000006803320157315639216123278432390403255423242923417521857261262043608809279994231125626575938168134246",
+  "hierarchy_ratio_MQ_over_MT": 14433756729.740644,
+  "initial_center_A_M_eV": 5.237068767221307e-35,
+  "initial_center_conditional_Mlambda_IR_eV": -6.082382638043377e-38
+}

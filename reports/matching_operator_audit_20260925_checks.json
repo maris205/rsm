@@ -1,0 +1,247 @@
+{
+  "date_utc": "2026-09-25T14:05:22.805848+00:00",
+  "scope": "Independent local operator algebra; conditional selected-CW tolerance, not complete SUGRA or observation",
+  "versions": {
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "numpy": "2.4.4",
+    "mpmath": "1.3.0"
+  },
+  "script_sha256": "0557af83e7303c7e9c53016ffd742317dc7b8eebce9b80defda71d89a01dd3a8",
+  "input_sha256": {
+    "experiments/sugra_shift_v01/results/inputs.json": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+  },
+  "symbolic_checks": [
+    {
+      "name": "metric_deformation_common_soft_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "bilinear_deformation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic_Q_rescaling_b_invariance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_value",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_first_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_irreducible_curvature",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_auxiliary_FT",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_auxiliary_FZ",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "direct_full_potential_contact_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_X_chi_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_X_y_one_third",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic_constant_fermion_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic_constant_scalar_bilinear",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "antiholomorphic_linear_fermion_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "antiholomorphic_linear_scalar_bilinear",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "inverse_t_no_scale_bilinear_fermion_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "inverse_t_no_scale_bilinear_scalar_bilinear",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW_first_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW_second_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_force_kernel",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "contact_scale_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "three_coefficients_two_shapes",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "selected_RG_cancellation",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "numeric_checks": [
+    {
+      "name": "direct_CW_mixed_derivative_0",
+      "passed": true,
+      "relative_error": "5.45681652990509174871541684660582311321516485248889259390799248127753594714825345197186202667192291638870377606065201625607050009796229021762835900740830898822e-122"
+    },
+    {
+      "name": "direct_CW_mixed_derivative_512",
+      "passed": true,
+      "relative_error": "1.644322826275048661355630026360038190241289948949794161681352867588316515884018802650680032902201810822154894465393539549010365808631776118460446325933532352411e-154"
+    },
+    {
+      "name": "direct_CW_mixed_derivative_1024",
+      "passed": true,
+      "relative_error": "1.684596997959218345407949189107808379814498411492756000303546204937437823803430229682869533329590920175815664655270816477644456747195368905169756078299522257281e-155"
+    }
+  ],
+  "checks_total": 26,
+  "checks_passed": 26,
+  "conditional_boundary": "mu_Q=100GeV, local potential nu(mu_Q)=0, no other operators, leading d/s and |B|/s; c varied singly",
+  "direct_CW_decimal_precision": 160,
+  "old_coordinate_count": 1025,
+  "final_mass_squared_ratio": 0.9847248110480707,
+  "final_log_mass_squared_ratio": -0.015393056490440657,
+  "conditional_tolerances": [
+    {
+      "mG_eV": 1e-06,
+      "phase": "zero",
+      "max_R_per_abs_c": 8.116894967570425e+18,
+      "conditional_c_10percent": 1.231998201276865e-20,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 1.481638120699907e-09
+    },
+    {
+      "mG_eV": 1e-06,
+      "phase": "quadrature",
+      "max_R_per_abs_c": 8.116894967570425e+18,
+      "conditional_c_10percent": 1.231998201276865e-20,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 4.938793735666358e-10
+    },
+    {
+      "mG_eV": 1e-06,
+      "phase": "pi",
+      "max_R_per_abs_c": 8.116894967570425e+18,
+      "conditional_c_10percent": 1.231998201276865e-20,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 1.481638120699907e-09
+    },
+    {
+      "mG_eV": 1.0,
+      "phase": "zero",
+      "max_R_per_abs_c": 8.116894967570424e+30,
+      "conditional_c_10percent": 1.2319982012768652e-32,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 0.0014816381206999075
+    },
+    {
+      "mG_eV": 1.0,
+      "phase": "quadrature",
+      "max_R_per_abs_c": 8.116894967570424e+30,
+      "conditional_c_10percent": 1.2319982012768652e-32,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 0.0004938793735666359
+    },
+    {
+      "mG_eV": 1.0,
+      "phase": "pi",
+      "max_R_per_abs_c": 8.116894967570424e+30,
+      "conditional_c_10percent": 1.2319982012768652e-32,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 0.0014816381206999075
+    },
+    {
+      "mG_eV": 100000.0,
+      "phase": "zero",
+      "max_R_per_abs_c": 8.116894967570424e+40,
+      "conditional_c_10percent": 1.231998201276865e-42,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 148.1638120699907
+    },
+    {
+      "mG_eV": 100000.0,
+      "phase": "quadrature",
+      "max_R_per_abs_c": 8.116894967570424e+40,
+      "conditional_c_10percent": 1.231998201276865e-42,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 49.38793735666358
+    },
+    {
+      "mG_eV": 100000.0,
+      "phase": "pi",
+      "max_R_per_abs_c": 8.116894967570424e+40,
+      "conditional_c_10percent": 1.231998201276865e-42,
+      "max_chi": 139.79424666735443,
+      "initial_R_per_abs_c": 148.1638120699907
+    }
+  ],
+  "execution_history": [
+    {
+      "date_utc": "2026-09-25T14:01:52.744967+00:00",
+      "checks_passed": 25,
+      "checks_total": 26,
+      "script_sha256": "5e6f5b331e3665329c0d2576a693f14a02ff281f6be38c6c35d30599433601c6",
+      "decimal_precision": 100,
+      "failed_checks": [
+        {
+          "name": "direct_CW_mixed_derivative_0",
+          "passed": false,
+          "relative_error": "3.897107294018133922732907163119114803747291778225572503151930127033948118607970195986281881834947709e-62"
+        }
+      ],
+      "resolution": "Increase direct CW precision to 160 digits; retain 1e-65 criterion."
+    }
+  ]
+}

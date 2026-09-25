@@ -1,0 +1,63 @@
+{
+  "scope": "Only local-center first jets entering selected X and baseline B interference; no full off-axis valley, loops or new cosmic solution. Symbolic W/M jets are independent of production implementation.",
+  "source_hashes": {
+    "experiments/eft_matching_v01/code/run_matching.py": "ce485b2e317c3b60218092aef7d4009505989e239f499e7d509dd161651adac1",
+    "experiments/eft_matching_v01/protocol.md": "6afdbe676dafc1bbf077325339c6636bb13fcc4e97276a8d0fea70f335d2fb19",
+    "reports/matching_gauge_rg_20260925_adversarial.py": "2c2811ec0de1aa73cd81fdeb34e5fd87bbb60a52ef6f3468924e8ea29630af4e"
+  },
+  "checks": [
+    {
+      "name": "FT_center",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "FT_x",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "FT_y",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "X_chi",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "X_y",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "B0_center",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "B0_chi",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "B0_y",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "DeltaB_chi",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "DeltaB_y",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "sympy": "1.14.0"
+}

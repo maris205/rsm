@@ -1,0 +1,1715 @@
+{
+  "created_utc": "2026-09-25T14:20:25.079072+00:00",
+  "manifest_sha256": "20af0a4a3622d946fd3abf3191a64f586238c6e20c44d26c6a4847805d8472fa",
+  "audit_script_sha256": "2c122e59fd5b8acf440909b49f92905c3f2d57a76c5c561881ef2dd021ea9fcb",
+  "passed": 341,
+  "total": 341,
+  "checks": [
+    {
+      "name": "hash:README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/code/audit_archive.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/code/plot_results.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/code/run_matching.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/figures/captions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/figures/kernel_shapes_and_degeneracy.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/figures/kernel_shapes_and_degeneracy.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/figures/wilson_budgets_and_rg.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/figures/wilson_budgets_and_rg.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/adversarial_archive_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/independent_archive_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/independent_derive.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/independent_derive_compare.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/independent_format_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/independent_initial_diagnostic.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/main_archive_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/main_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/logs/plot_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/archive_initial_diagnostic.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/archive_pending_check_diagnostic.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/coefficient_budgets.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/csv_format_diagnostic.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/csv_format_verification.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/identifiability.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/independent_budgets.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/independent_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/independent_direct_cw.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/independent_initial_diagnostic.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/independent_kernels.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/independent_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/response_kernels.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/rg_closure.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/eft_matching_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_gauge_rg_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_gauge_rg_20260925_adversarial.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_gauge_rg_20260925_adversarial.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_gauge_rg_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_gauge_rg_20260925_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_gauge_rg_20260925_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_mixed_sector_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_mixed_sector_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_mixed_sector_20260925_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_mixed_sector_20260925_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_operator_audit_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_operator_audit_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/matching_operator_audit_20260925_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/noscale_quantum_sources_20260925_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory_complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/pm_matched_scale_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/manuscript_cn_body_review_20260923.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/repository_portability.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/protected_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/charged_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/00_introduction.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/01_system_anomaly.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/02_source_code.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/03_cosmic_lockstep.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/05_observational_evidence.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/06_predictions_interpretations.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/07_engine_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/08_simulation_case_studies.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/09_conclusion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/acknowledgments.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter00_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter01_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter02_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter03_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter04_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter05_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter06_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter07_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter08_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter09_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/figures/chapter04_cosmic_bridge_cn.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/chapter04_timeline_sources/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/chapter04_inflation_feasibility.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/references.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/figures/log_clock_response.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/figures/micro_macro_evolution.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/figures/micro_macro_convergence.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/figures/background_completion.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/reports/numerical_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/reports/independent_background_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_derivation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_independent_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_sources.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v01/variables_and_claims_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/minimal_dynamics_v01_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/alpha_interface_v01_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/sources_v01_audit.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/reports/recovery_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/figures/captions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:chapters/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/first_reading_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/prior_projects_evidence.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/foundations_first_pass.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/conversion_notes_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/conversion_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:ori_paper/merged_document_v2_with_latex.docx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/minimal_dynamics_v01_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/03_chapter_02_source_code.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/04_chapter_03_cosmic_lockstep.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/05_chapter_04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/07_chapter_06_predictions_interpretations.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/08_chapter_07_engine_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/09_chapter_08_simulation_case_studies.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/micro_macro_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/reports/pm_next_stage_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/charged_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/protected_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/gauge_matching_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/hidden_transfer_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/gauge_leakage_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/noscale_stabilization_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/chapter04_timeline_sources/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/chapter04_inflation_feasibility.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/manuscript_cn_body_review_20260923.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_v01/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v01/variables_and_claims_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/minimal_dynamics_v01_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/alpha_recovery_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/action_completion_v02/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/hidden_transfer_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/hidden_transfer_independent_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/gauge_leakage_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/protected_threshold_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/charged_threshold_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:../noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:../../reports/matching_operator_audit_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:../../reports/matching_gauge_rg_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:../../reports/matching_mixed_sector_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:results/coefficient_budgets.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:materials_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/README.md:figures/wilson_budgets_and_rg.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/independent_results_cn.md:../protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/independent_results_cn.md:../code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/independent_results_cn.md:../results/independent_direct_cw.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/independent_results_cn.md:../results/independent_budgets.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/independent_results_cn.md:../results/independent_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/independent_results_cn.md:../results/independent_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/independent_results_cn.md:../results/independent_initial_diagnostic.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/independent_results_cn.md:../logs/independent_initial_diagnostic.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../../reports/matching_operator_audit_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../../reports/matching_gauge_rg_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../figures/wilson_budgets_and_rg.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../figures/kernel_shapes_and_degeneracy.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../../reports/matching_gauge_rg_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../../reports/matching_mixed_sector_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../code/run_matching.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../../reports/matching_operator_audit_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../../reports/matching_gauge_rg_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../../reports/matching_gauge_rg_20260925_adversarial.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../../../reports/matching_mixed_sector_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../materials_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../results/archive_initial_diagnostic.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../results/archive_pending_check_diagnostic.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/eft_matching_v01/reports/results_cn.md:../results/archive_audit.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_gauge_rg_20260925.md:noscale_quantum_sources_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_gauge_rg_20260925.md:gauge_matching_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_gauge_rg_20260925.md:matching_gauge_rg_20260925_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_gauge_rg_20260925.md:matching_gauge_rg_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_gauge_rg_20260925.md:matching_gauge_rg_20260925_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_gauge_rg_20260925.md:matching_gauge_rg_20260925_adversarial.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_gauge_rg_20260925.md:matching_gauge_rg_20260925_adversarial.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_mixed_sector_20260925.md:matching_mixed_sector_20260925_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_mixed_sector_20260925.md:matching_mixed_sector_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_mixed_sector_20260925.md:matching_mixed_sector_20260925_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_operator_audit_20260925.md:matching_operator_audit_20260925_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_operator_audit_20260925.md:matching_operator_audit_20260925_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/matching_operator_audit_20260925.md:noscale_quantum_sources_20260925_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_input_hash:experiments/eft_matching_v01/code/run_matching.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_input_hash:experiments/eft_matching_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_input_hash:experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_input_hash:experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparisons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_input_hash:experiments/eft_matching_v01/code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_input_hash:experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_input_hash:experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_input_hash:experiments/eft_matching_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_output_hash:coefficient_budgets.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_output_hash:response_kernels.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_output_hash:rg_closure.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "topic_checks:matching_operator_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "topic_script_hash:matching_operator_audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "topic_checks:matching_gauge_rg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "topic_script_hash:matching_gauge_rg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "topic_checks:matching_mixed_sector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "topic_script_hash:matching_mixed_sector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "adversarial_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "adversarial_source_hash:experiments/eft_matching_v01/code/run_matching.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "adversarial_source_hash:experiments/eft_matching_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "adversarial_source_hash:reports/matching_gauge_rg_20260925_adversarial.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rows:coefficient_budgets.csv",
+      "passed": true,
+      "detail": "12"
+    },
+    {
+      "name": "rows:response_kernels.csv",
+      "passed": true,
+      "detail": "3075"
+    },
+    {
+      "name": "rows:rg_closure.csv",
+      "passed": true,
+      "detail": "192"
+    },
+    {
+      "name": "rows:independent_kernels.csv",
+      "passed": true,
+      "detail": "12300"
+    },
+    {
+      "name": "rows:independent_direct_cw.csv",
+      "passed": true,
+      "detail": "1344"
+    },
+    {
+      "name": "initial_failure_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "parent_experiments_and_formal_manuscript_unchanged",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "scope": "Artifact hashes, local links and current check statuses only; no scientific certification."
+}

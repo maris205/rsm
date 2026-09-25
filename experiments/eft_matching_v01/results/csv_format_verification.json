@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "path": "experiments/eft_matching_v01/results/independent_kernels.csv",
+      "sha256": "deb4ae9abc9d7c93c8edc71ce4dfa6f65eea655b28cfea9efa3c99aa30835e03",
+      "passed": true
+    },
+    {
+      "path": "experiments/eft_matching_v01/results/independent_budgets.csv",
+      "sha256": "4b25a4d2e5d7eb61db4b6efbda9bc46a6e16c371fb278197fdd54b836153a237",
+      "passed": true
+    },
+    {
+      "path": "experiments/eft_matching_v01/results/independent_direct_cw.csv",
+      "sha256": "7bdbc6a2bbd330ed6efdd013cdc7cde92fb1041345e3b1395c1df346d674ba83",
+      "passed": true
+    }
+  ],
+  "all_normalized_bytes_identical": true,
+  "independent_checks": [
+    22,
+    22
+  ],
+  "comparison_checks": [
+    261,
+    261
+  ],
+  "code_sha256": "02c98d1ed5aa5fc65b01aeefd337496855f412b518bd305f4bb5636526665cc2"
+}

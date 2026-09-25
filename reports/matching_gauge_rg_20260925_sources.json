@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-09-25T13:59:55.591579+00:00",
+  "scope": "Bounded primary-source reads and project-local derivations, not a systematic review. Cached full papers are ignored build materials.",
+  "sources": [
+    {
+      "id": "1202.1280v3",
+      "url": "https://arxiv.org/html/1202.1280v3",
+      "http_status": 200,
+      "sha256": "7e3194c7bf99b1b1764ded69e5cc878dcd53870af1711bd18d99a7fdf8e90a89",
+      "local_cache": "build/matching_gauge_rg_sources/1202.1280v3.html",
+      "read_scope": "Section 2 after Eq12; Section 3 Eqs23-32; Section 5 no-scale discussion. Appendix A Eq58 inspected only to record convention differences.",
+      "scope_exclusions": "No complete SUGRA loop calculation or realistic electromagnetism/observational interpretation imported."
+    },
+    {
+      "id": "hep-ph_9810442",
+      "url": "https://arxiv.org/html/hep-ph/9810442",
+      "http_status": 200,
+      "sha256": "e46fa0d918482b66a570ceb188b5f34d7188b151a336fb89878b429defc92a8e",
+      "local_cache": "build/matching_gauge_rg_sources/hep-ph_9810442.html",
+      "read_scope": "Section 3.1 Eqs10-15: analytic continuation through a supersymmetric threshold. Source gauge-superfield signs are not transplanted without conversion.",
+      "scope_exclusions": "No complete SUGRA loop calculation or realistic electromagnetism/observational interpretation imported."
+    },
+    {
+      "id": "hep-ph_0111209v2",
+      "url": "https://arxiv.org/html/hep-ph/0111209v2",
+      "http_status": 200,
+      "sha256": "fb7841215f9ad3f7f34c2cdfbd510134c075d54c8e62606f31e2a7371fde7b6a",
+      "local_cache": "build/matching_gauge_rg_sources/hep-ph_0111209v2.html",
+      "read_scope": "Section 3 Eqs3.1-3.13; Section 7 Eqs7.1-7.12, vacuum beta function and RG identity. Section 8.1 Eq8.17-8.22 cross-check context, not reproduced.",
+      "scope_exclusions": "No complete SUGRA loop calculation or realistic electromagnetism/observational interpretation imported."
+    },
+    {
+      "id": "hep-th/9402005v2",
+      "url": "https://arxiv.org/pdf/hep-th/9402005v2",
+      "local_cache": "build/sugra_shift_theory_sources/kaplunovsky_louis_9402005v2.pdf",
+      "sha256": "570933aa5497d6c56b94be5c54b97e3b1211dcdd28743103c9d7d5103f6b24d0",
+      "read_scope": "Reused verified local PDF; Eqs3.27-3.29 in Section3.3; matching and sign of holomorphic mass logarithm; previous stage source record linked."
+    }
+  ],
+  "retrieval_errors": [
+    {
+      "url": "https://arxiv.org/html/hep-th/9402005v2",
+      "tool": "web.open",
+      "result": "Internal Error; prior verified PDF retained instead"
+    }
+  ],
+  "work_log_notes": [
+    "Initial rg search failed due to an unrecognized regex escape; repeated with literal separate patterns.",
+    "hep-ph/9709356v7 CW section was inspected, but report uses the original research paper hep-ph/0111209v2 for CW/RG claims."
+  ],
+  "local_excerpt": {
+    "path": "build/matching_gauge_rg_sources/kl_threshold_excerpt.txt",
+    "sha256": "d92c240ffbc444580fca6cd742cc80beb6614e380b658dba3ab3e6c550779229",
+    "extraction": "pdftotext -f 33 -l 37 -layout; inspected Eqs3.27-3.29 and adjoining prose"
+  }
+}
