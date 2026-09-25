@@ -1,0 +1,2 @@
+# Preserve audited scientific bytes, including csv.writer CRLF output.
+results/*.csv -text whitespace=cr-at-eol

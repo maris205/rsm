@@ -1,0 +1,317 @@
+{
+  "created_utc": "2026-09-25T08:23:07.661301+00:00",
+  "scope": "Specified SUGRA scalar sector plus external FLRW fluids; tree backgrounds and transverse modes; local heavy charged mass threshold proxy and finite CW budget only. No observation fit. Same-loop anomalous gauge matching is not complete.",
+  "parent_git_commit": "6dc43e695530ba612b82e98294d95ea9631cdc67",
+  "skill": "ars-codex:academic-research-suite experiment-agent workflow; user-authorized continuation",
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.5"
+  },
+  "inputs_and_context": [
+    {
+      "path": "experiments/charged_threshold_v01/results/inputs.json",
+      "role": "inherited parameter input",
+      "bytes": 1480,
+      "sha256": "a4093701763cb3c84c2b5fb0edab30c1cef647722a2ccb8fbe28687782309d11"
+    },
+    {
+      "path": "experiments/charged_threshold_v01/results/trajectories.csv",
+      "role": "matched physical velocity and old global reference",
+      "bytes": 6759468,
+      "sha256": "0bb071d22885acedba3e2edae8251477eb035158c81a0fe198e84615daa8d0c9"
+    },
+    {
+      "path": "experiments/protected_threshold_v01/protocol.md",
+      "role": "previous scientific stage, context only",
+      "bytes": 4735,
+      "sha256": "9ad04d29005185634878ea9d718258ad1fcd25780f7d40d83f44f777d62055de"
+    }
+  ],
+  "sources_record": "reports/sugra_shift_theory_20260925_sources.json",
+  "commands": [
+    {
+      "command": "timeout 180 python experiments/sugra_shift_v01/code/run_sugra.py",
+      "log": "results/run_attempt_001.log",
+      "exit_code": 0,
+      "checks_passed": 149,
+      "elapsed_seconds": 36.00069069862366
+    },
+    {
+      "command": "timeout 180s python -u experiments/sugra_shift_v01/code/independent_check.py",
+      "log": "results/independent_run_attempt_001.log",
+      "exit_code": 0,
+      "checks_passed": 435,
+      "elapsed_seconds_approx": 28.14
+    },
+    {
+      "command": "timeout 180s python experiments/sugra_shift_v01/code/check_particle_precision.py",
+      "log": "results/particle_precision_run.log",
+      "exit_code": 0,
+      "checks_passed": 43
+    },
+    {
+      "command": "python reports/sugra_shift_theory_20260925_checks.py",
+      "exit_code": 0,
+      "checks_passed": 23
+    },
+    {
+      "command": "python experiments/sugra_shift_v01/code/plot_results.py",
+      "exit_code": 0,
+      "scope": "read archived CSV and draw only"
+    }
+  ],
+  "anomalies": [
+    {
+      "stage": "particle precision attempt 1",
+      "outcome": "All numerical checks passed; final Markdown write failed because reports directory absent. Directory creation added; rerun passed without changing scientific expressions, samples or thresholds. First log retained.",
+      "log": "results/particle_precision_attempt_001.log"
+    },
+    {
+      "stage": "first plotting invocation",
+      "outcome": "CSV reader attempted to convert blank axis-only threshold fields on nonlinear rows to float. Changed plotting missing-value handling to NaN. No science input/output changed; plot rerun succeeded."
+    },
+    {
+      "stage": "draft report review",
+      "outcome": "Restored missing plus sign in displayed canonical potential; scientific code and symbolic audit were correct. Added complete-gauge-matching scope limitation after primary-source review; no numerical data changed."
+    },
+    {
+      "stage": "source lookup",
+      "outcome": "1808.02279v2 unavailable; read/cache 1808.02279v1 instead."
+    }
+  ],
+  "verification": {
+    "main": 149,
+    "symbolic": 23,
+    "independent_background_and_potential": 435,
+    "particle_precision": 43,
+    "all_pass": true,
+    "csv_rows": {
+      "trajectories": 9225,
+      "linear_modes": 12300
+    },
+    "code_and_recorded_hashes_checked": true,
+    "interpretation": "Internal numerical/algebra verification, not independent physical evidence or external peer review."
+  },
+  "unchanged_manuscript": {
+    "path": "manuscript_cn/paper.pdf",
+    "role": "existing 86-page manuscript; unchanged this stage",
+    "bytes": 1729255,
+    "sha256": "bcd56f85a5077fd7b625e82c37aeb5a6115b817fef9eabec740e3425d02acceb"
+  },
+  "files": [
+    {
+      "path": "experiments/sugra_shift_v01/.gitattributes",
+      "role": "archived artifact",
+      "bytes": 112,
+      "sha256": "367a9f7bb72cb6eca99a13b70a6949286446c7f54417e592ca270bffc6b850ce"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/README.md",
+      "role": "archived artifact",
+      "bytes": 4354,
+      "sha256": "ba1078868913bcbf23716bd8523663d962021e9589418c5a864ba8fc3916ffc5"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/code/check_particle_precision.py",
+      "role": "archived artifact",
+      "bytes": 12615,
+      "sha256": "061bb4b92ef2c04c15dffdc774443c4ac8ba0aa8b7efafbe78a08943fcbede12"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/code/independent_check.py",
+      "role": "archived artifact",
+      "bytes": 14999,
+      "sha256": "7f94b2c18e96e14b0037f0095c397eebbb5bf9ed42d909d694d75cdd57d299af"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/code/plot_results.py",
+      "role": "archived artifact",
+      "bytes": 4380,
+      "sha256": "097bf0e6e9f654eb85feb7c4f99775d1bb3fd0620a03161fc9c42b39400bc897"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/code/run_sugra.py",
+      "role": "archived artifact",
+      "bytes": 14865,
+      "sha256": "6c469edd87de8d32e685c0b669f2aa80712ffd9a696e59f7f4240cba009606b5"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/figures/background_and_threshold.pdf",
+      "role": "archived artifact",
+      "bytes": 23261,
+      "sha256": "c144b2a0d3c21c60197410ba0d4205769394624d1a835e1af6ee6cebe2e15db4"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/figures/background_and_threshold.png",
+      "role": "archived artifact",
+      "bytes": 200687,
+      "sha256": "f131296e0ec9d0230508a4de9e05031edcf7b06d38ff00a972ceb84d2aa94717"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/figures/transverse_modes.pdf",
+      "role": "archived artifact",
+      "bytes": 40982,
+      "sha256": "0600b3d0e06a50f4e785caa6cb40159f0c9876202f43aa5e42574f024af9f81b"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/figures/transverse_modes.png",
+      "role": "archived artifact",
+      "bytes": 445756,
+      "sha256": "85f29f37486e2f463fa68063ca00c7fc34bdfc0e4c00812a348263e11b0b4c47"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/protocol.md",
+      "role": "archived artifact",
+      "bytes": 5272,
+      "sha256": "b3be9118730ec5c42de50e1d2c0cac9fff2a2148b8356cb4316b27e0abc09005"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/reports/independent_methods_cn.md",
+      "role": "archived artifact",
+      "bytes": 3683,
+      "sha256": "722a63b97b4b53b6b5a0c6d51ebc990cffcc6074733be92f2cf164dff3c94d2b"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/reports/independent_results_cn.md",
+      "role": "archived artifact",
+      "bytes": 3011,
+      "sha256": "4b5b5e7c4c7f1e93bec81bd0fe5d784c88e77e1d0d1da949e4fdac42aae73bbf"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/reports/particle_precision_cn.md",
+      "role": "archived artifact",
+      "bytes": 3154,
+      "sha256": "327ffe63549764fbee734abd8a0b4108cb7a1dd545c671d7ad3204a2e2c5f576"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/reports/results_cn.md",
+      "role": "archived artifact",
+      "bytes": 16492,
+      "sha256": "4595fbb9462a69f4ad7543dbdb6b5774e553d13a91afc30955ebd16f6dc9d872"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/independent_checks.json",
+      "role": "archived artifact",
+      "bytes": 130546,
+      "sha256": "37bfbbe53189412e2fef728eb1d584bf272f68f4d0a38a6c88bbca2891e2dab2"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/independent_linear_modes.csv",
+      "role": "archived artifact",
+      "bytes": 1360714,
+      "sha256": "d6e22770135ef2cee71886a9c0ee71afa656831cfa3a3289ff98128d28b1cd1d"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/independent_run_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 811,
+      "sha256": "08bb9a45be9818d676e9ffdf0b6e01dbbae7aec4e24bc2a943ac1b820471c320"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/independent_trajectories.csv",
+      "role": "archived artifact",
+      "bytes": 1225933,
+      "sha256": "ff17c7d77d9607d5cacb5f573777a67a296f1d25f5d06f222bc59bcedd0f9a54"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/inputs.json",
+      "role": "archived artifact",
+      "bytes": 1556,
+      "sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/linear_modes.csv",
+      "role": "archived artifact",
+      "bytes": 3018543,
+      "sha256": "d7155a4a5c9a7706d20529f6a63c13ca122d556318a28c18eda1c5703d04470e"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/particle_precision.json",
+      "role": "archived artifact",
+      "bytes": 117322,
+      "sha256": "456b4f8462c671772924ad59bdbaf6c083350c46c2c3e87ea2b03504a95d164e"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/particle_precision_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 2730,
+      "sha256": "e3c5694c856e2d043b1791932cd5ab5a36e5fe22a158c549a2ea291d1f8d8851"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/particle_precision_run.log",
+      "role": "archived artifact",
+      "bytes": 1732,
+      "sha256": "3c057f3715e95a24a01fc721aa2bb7cd366bb6929cd3d90d02b4d308756ceb99"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/run_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 8663,
+      "sha256": "dcbf5917e1c27a25fc290359a4ceb1fdc952131d862dfdb558840c6247c5efdd"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/summary.json",
+      "role": "archived artifact",
+      "bytes": 31021,
+      "sha256": "f27f81d5484f7d967f5be9af81dd82a082b9c7b355c76e9521eb8d28031423c8"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/trajectories.csv",
+      "role": "archived artifact",
+      "bytes": 6623432,
+      "sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+    },
+    {
+      "path": "reports/sugra_shift_theory_20260925.md",
+      "role": "archived artifact",
+      "bytes": 11929,
+      "sha256": "beac5f6e59b1b2d5420fb7db9704e7be42ed0964967ad8c55bc2997f1388e531"
+    },
+    {
+      "path": "reports/sugra_shift_theory_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 2515,
+      "sha256": "757d94d887a7ac1570a098299bd148866213ca0d853e9cbfc5c1bd92eae77572"
+    },
+    {
+      "path": "reports/sugra_shift_theory_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 4354,
+      "sha256": "61f61bfb05f1ca551eff600b60860d34f60f1f5384be632fd25a71ae09d884cf"
+    },
+    {
+      "path": "reports/sugra_shift_theory_20260925_sources.json",
+      "role": "archived artifact",
+      "bytes": 4101,
+      "sha256": "acc9831ec1cdc96dc5cd14692064eb4f9d3debbe61d47b4d30c5b6906174bab5"
+    },
+    {
+      "path": "README.md",
+      "role": "archived artifact",
+      "bytes": 20235,
+      "sha256": "36712854dde31b41d43724428a87de5f1f64ff3111aa6d0623df03989a610fbb"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "role": "archived artifact",
+      "bytes": 20506,
+      "sha256": "0449add754e3f64f0408b0102e077ba9917afd366a0e2a511ce99b7dd1acec8e"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "role": "archived artifact",
+      "bytes": 21491,
+      "sha256": "4376d40f2be69221e8a8fca63b2efe2939ac92e966a65a3db5d0410411b0d6e1"
+    }
+  ],
+  "notes": [
+    "Manifest hashes exclude this manifest itself. Paths relative to repository root, except command log paths relative to experiment directory.",
+    "Inherited inputs b_em and reference_code_sha256 are old metadata, not this stages charged weights/current code hash.",
+    "Full source caches under ignored build directory; verified bibliography, versions, read scopes and cache hashes are archived.",
+    "AI-assisted derivation, implementation, internal independent implementations and Chinese writing; not external review."
+  ]
+}

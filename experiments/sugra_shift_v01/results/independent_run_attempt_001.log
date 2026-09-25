@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "b3be9118730ec5c42de50e1d2c0cac9fff2a2148b8356cb4316b27e0abc09005",
+  "independent_code_sha256": "7f94b2c18e96e14b0037f0095c397eebbb5bf9ed42d909d694d75cdd57d299af",
+  "inputs_sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+  "primary_trajectories_sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39",
+  "primary_linear_modes_sha256": "d7155a4a5c9a7706d20529f6a63c13ca122d556318a28c18eda1c5703d04470e",
+  "primary_code_sha256": "6c469edd87de8d32e685c0b669f2aa80712ffd9a696e59f7f4240cba009606b5",
+  "method": "Independent cosmic time, physical velocities, direct complex K/W",
+  "error_normalization": "max_abs_difference/max(1,max_abs_primary); dimensionless units",
+  "checks_count": 435,
+  "checks_passed": 435,
+  "all_passed": true
+}

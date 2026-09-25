@@ -1,0 +1,122 @@
+{
+  "scope": "algebra identities, not a test of physical validity",
+  "checks": [
+    {
+      "name": "shift_metric_is_one",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_metric_is_one",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K_difference_is_holomorphic_plus_conjugate",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_K_in_real_coordinates",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_K_in_real_coordinates",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_full_potential_from_DW",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_full_potential_from_DW",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_longitudinal_force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_transverse_gradient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_axis_cross_hessian_zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_axis_transverse_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_axis_transverse_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_direct_quadratic_expansion",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_diagonal_V_plus_m32",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_B_term_sign",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "log_holomorphic_mass_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_charged_B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_charged_gravity_diagonal",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_charged_B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_charged_gravity_diagonal",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_true_Kahler_transform_preserves_G",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_physical_log_mass_squared_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "shift_physical_log_mass_squared_derivative",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "passed": 23,
+  "total": 23
+}

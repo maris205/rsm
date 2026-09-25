@@ -1,0 +1,80 @@
+{
+  "access_date": "2026-09-25",
+  "sources": [
+    {
+      "id": "martin",
+      "url": "https://arxiv.org/html/hep-ph/9709356v7",
+      "resolved_url": "https://arxiv.org/html/hep-ph/9709356v7",
+      "local_cache": "build/sugra_shift_theory_sources/martin.html",
+      "sha256": "078331195f90b6f18771249c9c9887982130da809294040630b9f77cec6271b4",
+      "bytes": 4118855,
+      "title": "A Supersymmetry Primer",
+      "authors": [
+        "Stephen P. Martin"
+      ],
+      "version": "v7",
+      "read_scope": "Section 7.6, equations 7.6.17–7.6.24; Kähler invariant combination, auxiliary fields, F and D potentials; gravitino formula distinguished from zero-vacuum-energy specialization",
+      "claim_scope": "Standard N=1 SUGRA definitions only; not our specific stability claim"
+    },
+    {
+      "id": "brignole_ibanez_munoz",
+      "url": "https://arxiv.org/html/hep-ph/9707209v3",
+      "resolved_url": "https://arxiv.org/html/hep-ph/9707209v3",
+      "local_cache": "build/sugra_shift_theory_sources/brignole_ibanez_munoz.html",
+      "sha256": "6bfc23ecf5d587fed96527eb89e46febf52643bad1e0044c027369a9dd137c4d",
+      "bytes": 414993,
+      "title": "Soft supersymmetry-breaking terms from supergravity and superstring models",
+      "authors": [
+        "A. Brignole",
+        "L. E. Ibanez",
+        "C. Munoz"
+      ],
+      "version": "v3",
+      "read_scope": "Section 2.1, equations 4–14 and field normalization discussion",
+      "claim_scope": "Physical bilinear mass and general soft scalar mass/B structures; our time-dependent coefficients independently expanded, not imported stationary-vacuum conclusions"
+    },
+    {
+      "id": "chiang_murayama",
+      "url": "https://arxiv.org/html/1808.02279v1",
+      "resolved_url": "https://arxiv.org/html/1808.02279v1",
+      "local_cache": "build/sugra_shift_theory_sources/chiang_murayama.html",
+      "sha256": "f1c6840eada30f7e6303adf388c43c9ce289a8103208d6134e326553ac640793",
+      "bytes": 282643,
+      "title": "Building Supergravity Quintessence Model",
+      "authors": [
+        "Chien-I Chiang",
+        "Hitoshi Murayama"
+      ],
+      "version": "v1",
+      "read_scope": "Introduction and section 2; equations 1.3–1.4, 2.1–2.18",
+      "claim_scope": "Prior shift-symmetric Kähler motivation and limits from SUSY breaking; their hidden sector and model-specific naturalness conclusions are not claimed for our model"
+    },
+    {
+      "id": "kaplunovsky_louis",
+      "url": "https://arxiv.org/pdf/hep-th/9402005v2",
+      "resolved_url": "https://arxiv.org/pdf/hep-th/9402005v2",
+      "local_cache": "build/sugra_shift_theory_sources/kaplunovsky_louis_9402005v2.pdf",
+      "sha256": "570933aa5497d6c56b94be5c54b97e3b1211dcdd28743103c9d7d5103f6b24d0",
+      "bytes": 722362,
+      "title": "Field Dependent Gauge Couplings in Locally Supersymmetric Effective Quantum Field Theories",
+      "authors": [
+        "Vadim Kaplunovsky",
+        "Jan Louis"
+      ],
+      "version": "v2",
+      "version_date": "1994-02-02",
+      "journal": "Nuclear Physics B 422 (1994) 57–124",
+      "doi": "10.1016/0550-3213(94)00150-2",
+      "read_scope": "Abstract and introduction; section 3.1 equations 3.4–3.8 (PDF pp.24–26), section 3.2 equations 3.13/3.19 (PDF pp.28–30), section 3.3 equation 3.26 and matching discussion (PDF pp.34–35). Used for scope only; no model-specific anomaly computation performed.",
+      "claim_scope": "Physical versus holomorphic Wilsonian gauge couplings; same-loop super-Weyl/Kähler/Konishi matching cannot be omitted when claiming full SUGRA alpha. Does not establish cancellation or survival of our local threshold sign.",
+      "access_note": "arXiv HTML v2 returned 404; version identity checked on abs page and PDF v2 successfully read and cached."
+    }
+  ],
+  "integrity": {
+    "new_observations": false,
+    "independent_derivation": "reports/sugra_shift_theory_20260925_checks.py",
+    "local_cache_ignored": true,
+    "quotes": "no verbatim passages copied",
+    "scope": "author primary technical sources; equations specialized and checked locally"
+  }
+}
