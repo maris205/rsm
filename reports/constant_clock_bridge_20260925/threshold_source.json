@@ -1,0 +1,33 @@
+{
+  "created_date": "2026-09-25",
+  "scope": "Additional bounded physical-interface candidate found during the requested feasibility study; does not modify the initial source manifest.",
+  "source": {
+    "title": "Fine Structure Constant Variation from a Late Phase Transition",
+    "authors": [
+      "Z. Chacko",
+      "C. Grojean",
+      "M. Perelstein"
+    ],
+    "arxiv_version": "hep-ph/0204142v2",
+    "version_date": "2003-06-26",
+    "journal": "Physics Letters B 565 (2003), 169–175",
+    "doi": "10.1016/S0370-2693(03)00766-4",
+    "url": "https://arxiv.org/pdf/hep-ph/0204142v2",
+    "read_channel": "web PDF extraction; version confirmed on abstract and PDF first page",
+    "read_scope": "Equations (2)–(3) on numbered pp.1–2 / PDF pp.2–3, plus nearby discussion and radiative/energy caveats. Not a full model review.",
+    "used_for": "Dependence of low-energy alpha on moving charged-mass thresholds at fixed UV coupling.",
+    "not_used_for": "No adoption of the source historical observational claim, phase transition model or historical allowed parameter regions."
+  },
+  "claim_intent_manifest": {
+    "manifest_id": "M-2026-09-25-threshold-candidate-01",
+    "claim": "Under a new charged-field mass matching and fixed UV boundary, the one-loop threshold formula transfers an inverse-log-square mass-squared response into a leading inverse-log-square alpha response.",
+    "kind": "conditional_theoretical_derivation",
+    "negative_constraints": [
+      "Charged field, physical mass matching and fixed UV input remain assumptions.",
+      "A one-loop formula is not an all-orders prediction.",
+      "Radiative potential and feedback may change the clock trajectory.",
+      "No claim that the existing real scalar lattice has already derived a charged quantum field.",
+      "No identification of RG energy with cosmic time."
+    ]
+  }
+}

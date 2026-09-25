@@ -1,0 +1,86 @@
+{
+  "scope": "Exact symbolic identities on the stated nonsingular branch; no observational or dynamical convergence test.",
+  "sympy_version": "1.14.0",
+  "domain": "R>Rs>0, b,I,V>0; denominators nonzero; B>0. Some checks also hold on larger domains.",
+  "script_sha256": "61869f5a96b63980f66d0dcee0b57ea82fb5aeceb4d2a1d6ff300d2f11ed3814",
+  "checks": [
+    {
+      "name": "canonical_point_transform",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "kinetic_energy_preserved",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "inverse_log_first_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "inverse_log_second_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "transformed_momentum_equation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "clock_sign_and_volume",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "lattice_clock_energy_exchange",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "rank_one_cross_epoch",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "logarithmic_drift_cross_product",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "alpha_logarithmic_drift",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "EM_derivative_at_fixed_canonical_variables",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "free_R_matter_background_counterexample",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "threshold_linear_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "threshold_quadratic_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "moving_threshold_drift_sign_and_factor",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "passed": true,
+  "n_checks": 15,
+  "n_passed": 15
+}

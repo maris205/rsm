@@ -1,0 +1,67 @@
+{
+  "material_type": "theoretical_feasibility_and_conditional_derivation",
+  "created_date": "2026-09-25",
+  "research_question": "Can the global constant–clock framework of arXiv:2502.00081 be connected to the existing autonomous lattice clock to obtain testable laws for dimensionless constants?",
+  "external_source": {
+    "title": "How to make a Universe",
+    "authors": [
+      "Paolo M. Bassani",
+      "João Magueijo"
+    ],
+    "arxiv_version": "2502.00081v1",
+    "submitted": "2025-01-31",
+    "url": "https://arxiv.org/html/2502.00081v1",
+    "html_sha256": "21fa6628c02c76307c2ce9e1be543a066955a2df0db3c84130a4833482020ab2",
+    "read_scope": "HTML main text sections I–IX; detailed algebra focus II–V. No inference of human reading.",
+    "local_download": "build/constant_clock_bridge/2502.00081v1.html (ignored; retrieve from URL)"
+  },
+  "local_inputs_sha256": {
+    "manuscript_v01/chapters/03_autonomous_dynamics.md": "b740eade9afeef9e1cfa558f6095043f9d85c7670f925d808a650e0f3f374e7d",
+    "draft_v02/action_framework_v02.md": "20f658a0d418354f8f9b554a31654ed600bd5e6a10de6fea173c854e50303e81",
+    "draft_v04/log_clock_bridge_v04.md": "d39b813282f2257a6b6114b9481e062daa84bbf156690de7dcc14d07a3d30ddd"
+  },
+  "claim_intent_manifest": {
+    "manifest_id": "M-2026-09-25-constant-clock-01",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "claim": "The source supplies a conditional global canonical architecture and does not uniquely select the inverse-log-square response.",
+        "kind": "source_bound_theoretical",
+        "locator": "II.1, V, VII"
+      },
+      {
+        "claim_id": "C2",
+        "claim": "A monotone response can be used as a canonical coordinate; the existing clock kinetic term must be retained, so the connection is an extension rather than an exact identification of the source model.",
+        "kind": "analytic_derivation",
+        "locator": "local chapter 3; source II.1"
+      },
+      {
+        "claim_id": "C3",
+        "claim": "A positive gauge kinetic response can connect the clock to alpha, with specified physical couplings, time calibration and feedback assumptions.",
+        "kind": "conditional_model",
+        "locator": "local v0.2 sections 1–4"
+      },
+      {
+        "claim_id": "C4",
+        "claim": "A single common linear response gives rank-one normalized variations and a precise, nonconstant-in-general logarithmic drift ratio.",
+        "kind": "analytic_derivation"
+      },
+      {
+        "claim_id": "C5",
+        "claim": "The bridge does not establish matter creation, a Riemann origin of physical interactions, the observed variation of constants, or a unique exponent p=2.",
+        "kind": "scope_boundary"
+      }
+    ],
+    "negative_constraints": [
+      "Do not identify the source generic alpha with electromagnetic alpha.",
+      "Do not identify canonical clocks, R, model time and cosmic age without an explicit map.",
+      "Do not delete clock kinetic energy or backreaction.",
+      "Do not promote a chosen B(R) into a derivation of electromagnetic coupling from Riemann zeros.",
+      "Do not carry the old tail theorem into a newly coupled electromagnetic model without new conditions."
+    ]
+  },
+  "new_observational_data": false,
+  "new_production_simulation": false,
+  "manuscript_modified": false,
+  "review_scope": "One native shared-context subagent checked canonical algebra and physical interface assumptions; not external peer review."
+}
