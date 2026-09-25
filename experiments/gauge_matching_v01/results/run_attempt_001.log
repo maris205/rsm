@@ -1,0 +1,4 @@
+  File "/root/autodl-tmp/dsc_world/riemann_model/experiments/gauge_matching_v01/code/run_matching.py", line 76
+    np.max(abs(physical-r['delta_alpha'])))/max(float(np.max(abs(physical))), 1e-30), 1e-10)
+                                                                                           ^
+SyntaxError: unmatched ')'

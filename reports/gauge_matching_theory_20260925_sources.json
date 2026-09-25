@@ -1,0 +1,189 @@
+{
+  "created_utc": "2026-09-25T10:38:01.651121+00:00",
+  "scope": "Specialize KL matching to one specified unit-charge vectorlike pair in minimal U(1); no electron or full SM and no observation fitting.",
+  "sources": [
+    {
+      "id": "kaplunovsky_louis_9402005v2",
+      "authors": [
+        "Vadim Kaplunovsky",
+        "Jan Louis"
+      ],
+      "title": "Field Dependent Gauge Couplings in Locally Supersymmetric Effective Quantum Field Theories",
+      "url": "https://arxiv.org/pdf/hep-th/9402005v2",
+      "identity_url": "https://arxiv.org/abs/hep-th/9402005v2",
+      "version": "v2",
+      "version_date": "1994-02-02",
+      "journal": "Nuclear Physics B 422 (1994) 57–124",
+      "doi": "10.1016/0550-3213(94)00150-2",
+      "local_cache": "build/sugra_shift_theory_sources/kaplunovsky_louis_9402005v2.pdf",
+      "content_sha256": "570933aa5497d6c56b94be5c54b97e3b1211dcdd28743103c9d7d5103f6b24d0",
+      "read_scope": [
+        {
+          "section": "2.3",
+          "equations": [
+            "2.20",
+            "2.21",
+            "2.22"
+          ],
+          "printed_pages": [
+            19
+          ]
+        },
+        {
+          "section": "3.1",
+          "equations": [
+            "3.3",
+            "3.4",
+            "3.5",
+            "3.7",
+            "3.8"
+          ],
+          "printed_pages": [
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "section": "3.2",
+          "equations": [
+            "3.9",
+            "3.10",
+            "3.13",
+            "3.18",
+            "3.19"
+          ],
+          "printed_pages": [
+            27,
+            28,
+            29,
+            30
+          ]
+        },
+        {
+          "section": "3.3",
+          "equations": [
+            "3.21",
+            "3.22",
+            "3.23",
+            "3.24",
+            "3.25",
+            "3.26",
+            "3.27",
+            "3.28",
+            "3.29"
+          ],
+          "printed_pages": [
+            32,
+            33,
+            34,
+            35,
+            36
+          ]
+        }
+      ],
+      "read_methods": [
+        "arXiv abstract and PDF via browser",
+        "local pdftotext -layout",
+        "local pdftoppm page 35 image inspection"
+      ],
+      "claim_scope": "Original supersymmetric relations and anomalous transformation signs. Minimal U(1) specialization and small split component threshold are independently derived in linked report.",
+      "not_claimed": [
+        "Full paper read",
+        "Full rolling broken-SUGRA effective action",
+        "Real electromagnetic or SM matching",
+        "Observed variation",
+        "Arbitrary soft-breaking exactness"
+      ],
+      "pdf_preflight": {
+        "path": "build/sugra_shift_theory_sources/kaplunovsky_louis_9402005v2_preflight.json",
+        "verdict": "UNAVAILABLE",
+        "reason": "pypdf not installed; no structural PASS claimed",
+        "manual_page_check": "Printed page 35 verified in rendered page image for equations 3.27 and 3.28"
+      },
+      "access_events": [
+        "web abs/PDF identity and contents successful",
+        "one web PDF screenshot timed out; existing PDF was locally rendered instead"
+      ],
+      "pdf_page_count_from_browser_metadata": 107
+    }
+  ],
+  "local_materials": [
+    {
+      "path": "build/sugra_shift_theory_sources/kaplunovsky_louis_9402005v2.pdf",
+      "bytes": 722362,
+      "sha256": "570933aa5497d6c56b94be5c54b97e3b1211dcdd28743103c9d7d5103f6b24d0",
+      "cache_ignored": true
+    },
+    {
+      "path": "build/sugra_shift_theory_sources/kaplunovsky_louis_9402005v2.txt",
+      "bytes": 265921,
+      "sha256": "878cbba136829cbd1c22ed2310a07dfce4b460825233042814c081671f2e643c",
+      "cache_ignored": true
+    },
+    {
+      "path": "build/sugra_shift_theory_sources/kaplunovsky_louis_9402005v2_preflight.json",
+      "bytes": 494,
+      "sha256": "18d577c7c2c43b2e5688debef63c16fe2b2e3e9bffac77d7af3ec05320ead86f",
+      "cache_ignored": true
+    },
+    {
+      "path": "build/sugra_shift_theory_sources/kl_p35.png",
+      "bytes": 248332,
+      "sha256": "4c2a22476cf6f12f264b2a2220661a2bcf5fcd45ce5d31e19fcbd0ab334f2a45",
+      "cache_ignored": true
+    },
+    {
+      "path": "reports/sugra_shift_theory_20260925.md",
+      "bytes": 11929,
+      "sha256": "beac5f6e59b1b2d5420fb7db9704e7be42ed0964967ad8c55bc2997f1388e531",
+      "cache_ignored": false
+    },
+    {
+      "path": "experiments/sugra_shift_v01/protocol.md",
+      "bytes": 5272,
+      "sha256": "b3be9118730ec5c42de50e1d2c0cac9fff2a2148b8356cb4316b27e0abc09005",
+      "cache_ignored": false
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/inputs.json",
+      "bytes": 1556,
+      "sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+      "cache_ignored": false
+    },
+    {
+      "path": "experiments/sugra_shift_v01/code/run_sugra.py",
+      "bytes": 14865,
+      "sha256": "6c469edd87de8d32e685c0b669f2aa80712ffd9a696e59f7f4240cba009606b5",
+      "cache_ignored": false
+    },
+    {
+      "path": "reports/gauge_matching_theory_20260925.md",
+      "bytes": 11414,
+      "sha256": "534fe053c27ab6d64d0300d788da3a890c2e0195273daa013c88fa25555bc045",
+      "cache_ignored": false
+    },
+    {
+      "path": "reports/gauge_matching_theory_20260925_checks.py",
+      "bytes": 4453,
+      "sha256": "7868b9666469827ac53473fe3bae20cfafdfbbd305bfe826130e82b4a5383f58",
+      "cache_ignored": false
+    },
+    {
+      "path": "reports/gauge_matching_theory_20260925_checks.json",
+      "bytes": 2730,
+      "sha256": "5ca29ca1f95334c27b46398dad958b5c8c30050df1143a5255ddc6e788705e77",
+      "cache_ignored": false
+    }
+  ],
+  "derivation_attribution": "Original U(1) specialization here; not attributed to KL as an observed or cosmological result.",
+  "quotations": "No verbatim prose excerpts.",
+  "verification": {
+    "command": "python reports/gauge_matching_theory_20260925_checks.py",
+    "exit_code": 0,
+    "passed": 22,
+    "total": 22,
+    "kind": "Internal symbolic algebra, not external peer review"
+  },
+  "ai_assistance": "Theory reading, derivation specialization, reporting and code checks performed with AI assistance; no human-read attestation inferred."
+}

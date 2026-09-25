@@ -1,0 +1,121 @@
+{
+  "created_utc": "2026-09-25T10:34:32.970854+00:00",
+  "scope": "Algebra identities of the specified one-loop minimal U(1); no observed alpha, no full SM or SUGRA completion.",
+  "source": "https://arxiv.org/pdf/hep-th/9402005v2",
+  "code_sha256": "7868b9666469827ac53473fe3bae20cfafdfbbd305bfe826130e82b4a5383f58",
+  "sympy_version": "1.14.0",
+  "checks": [
+    {
+      "name": "KL_rearrangement_signs",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "U1_pair_b_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "U1_pair_c_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "component_beta_sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K_and_matter_metric_cancel_in_IR",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "KL_c_jump_equals_nonHiggs_index_sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic_threshold_real_part",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Kahler_physical_mass_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Kahler_UV_g_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Kahler_IR_g_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Konishi_physical_mass_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Konishi_UV_g_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Konishi_IR_g_invariant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixed_physical_UV_leaves_local_threshold",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_holomorphic_f_compensates_only_axis",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical_K_nonharmonic_off_axis",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "split_scalar_determinant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "split_threshold_log_s_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "soft_log_determinant_small_split_series",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "soft_drift_derivative_includes_both_splittings",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "alpha_inverse_conversion_and_today_normalization",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "inverse_square_mass_gives_log_response_derivative",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "passed": 22,
+  "total": 22
+}

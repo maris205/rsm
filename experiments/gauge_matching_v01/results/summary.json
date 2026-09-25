@@ -1,0 +1,310 @@
+{
+  "created_utc": "2026-09-25T10:38:10.220963+00:00",
+  "elapsed_seconds": 0.4845283031463623,
+  "scope": "Specified local one-loop minimal U(1), not a complete visible-sector or quantum gravity prediction",
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "source_hashes": {
+    "experiments/sugra_shift_v01/results/inputs.json": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39",
+    "experiments/gauge_matching_v01/protocol.md": "fe253dbe853b6401c50cdb6b265666474c3214aec4101109af4f743d9b5a68f6",
+    "experiments/gauge_matching_v01/code/run_matching.py": "7a8fadf9eedd579bf17ffa34ac824d37b02a46e4eb9fdf07f742f5bade454413"
+  },
+  "summaries": [
+    {
+      "model": "global",
+      "points": 1025,
+      "holomorphic_uv_zi_ppm": 17.878728961807447,
+      "physical_uv_zi_ppm": 17.878728961807447,
+      "mass_piece_delta_inverse_alpha_zi": -0.0024499856830033427,
+      "anomaly_piece_delta_inverse_alpha_zi": 0.0,
+      "total_holo_delta_inverse_alpha_zi": -0.0024499856830033427,
+      "split_delta_alpha_zi": -5.240708801976477e-95,
+      "max_abs_split_delta_alpha": 5.240708801976477e-95,
+      "holomorphic_uv_today_drift_per_year": -4.844660909972429e-16,
+      "physical_uv_today_drift_per_year": -4.84466090997243e-16,
+      "max_mass_log_taylor_relative_peak_error": 0.007736643278000627,
+      "max_normalized_chi_vs_time_shape_gap": 0.020004268678959547,
+      "max_normalized_matched_vs_chi_shape_gap": 0.0019197371690574672,
+      "max_abs_X": 0.015512807574832215,
+      "max_abs_log_R": 2.742688927260489e-91,
+      "min_one_minus_q": 0.9999821215906814,
+      "max_kahler_wrong_boundary_relative_Y": 0.0,
+      "max_konishi_wrong_boundary_relative_Y": 11.18399407518805
+    },
+    {
+      "model": "canonical",
+      "points": 1025,
+      "holomorphic_uv_zi_ppm": 23.116248628033304,
+      "physical_uv_zi_ppm": -22.023598594445698,
+      "mass_piece_delta_inverse_alpha_zi": 0.003018092306068314,
+      "anomaly_piece_delta_inverse_alpha_zi": -0.006185777306890947,
+      "total_holo_delta_inverse_alpha_zi": -0.0031676850008226327,
+      "split_delta_alpha_zi": 3.5225566301178853e-94,
+      "max_abs_split_delta_alpha": 3.5225566301178853e-94,
+      "holomorphic_uv_today_drift_per_year": -4.479941050731474e-16,
+      "physical_uv_today_drift_per_year": 4.536989123034482e-16,
+      "max_mass_log_taylor_relative_peak_error": 0.010018162226376501,
+      "max_normalized_chi_vs_time_shape_gap": 0.07336255200967418,
+      "max_normalized_matched_vs_chi_shape_gap": 0.002482101314343066,
+      "max_abs_X": 0.020102540203755476,
+      "max_abs_log_R": 1.8265165447402112e-90,
+      "min_one_minus_q": 0.9999768842857205,
+      "max_kahler_wrong_boundary_relative_Y": 1.9527753881097805,
+      "max_konishi_wrong_boundary_relative_Y": 11.23576419461466
+    },
+    {
+      "model": "shift",
+      "points": 1025,
+      "holomorphic_uv_zi_ppm": 17.8779652427866,
+      "physical_uv_zi_ppm": 17.8779652427866,
+      "mass_piece_delta_inverse_alpha_zi": -0.0024498810297463895,
+      "anomaly_piece_delta_inverse_alpha_zi": 0.0,
+      "total_holo_delta_inverse_alpha_zi": -0.0024498810297463895,
+      "split_delta_alpha_zi": 3.458003914872493e-94,
+      "max_abs_split_delta_alpha": 3.458003914872493e-94,
+      "holomorphic_uv_today_drift_per_year": -4.844659825911325e-16,
+      "physical_uv_today_drift_per_year": -4.844659825911325e-16,
+      "max_mass_log_taylor_relative_peak_error": 0.007736311094552786,
+      "max_normalized_chi_vs_time_shape_gap": 0.01999869902523299,
+      "max_normalized_matched_vs_chi_shape_gap": 0.0019196551497867587,
+      "max_abs_X": 0.015512139818708625,
+      "max_abs_log_R": 1.8114753531336215e-90,
+      "min_one_minus_q": 0.9999821223543731,
+      "max_kahler_wrong_boundary_relative_Y": 1.9392791316022917,
+      "max_konishi_wrong_boundary_relative_Y": 11.183986566811095
+    }
+  ],
+  "checks": [
+    {
+      "name": "global_high_to_low_vs_holomorphic",
+      "value": 0.0,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "global_constant_physical_uv_recovery",
+      "value": 3.790126016513736e-16,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "global_inverse_coupling_reconstruction",
+      "value": 1.895063008256868e-16,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "global_positive_R",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "global_positive_scalar_spectrum",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "global_UV_above_pair",
+      "value": 0.01,
+      "limit": 1.0,
+      "passed": true
+    },
+    {
+      "name": "global_IR_coupling_positive",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "global_kahler_physical_mass_invariant",
+      "value": 0.0,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "global_kahler_coupling_invariant",
+      "value": 0.0,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "global_konishi_physical_mass_invariant",
+      "value": 1.3877787807814457e-17,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "global_konishi_coupling_invariant",
+      "value": 9.731832812744379e-16,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "global_konishi_omission_detected",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "canonical_high_to_low_vs_holomorphic",
+      "value": 2.1505431122109685e-16,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical_constant_physical_uv_recovery",
+      "value": 1.1845754754180791e-14,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "canonical_inverse_coupling_reconstruction",
+      "value": 2.931385488654401e-16,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical_positive_R",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "canonical_positive_scalar_spectrum",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "canonical_UV_above_pair",
+      "value": 0.016211190543135474,
+      "limit": 1.0,
+      "passed": true
+    },
+    {
+      "name": "canonical_IR_coupling_positive",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "canonical_kahler_physical_mass_invariant",
+      "value": 0.0,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical_kahler_coupling_invariant",
+      "value": 2.1505431122109685e-16,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical_konishi_physical_mass_invariant",
+      "value": 1.3877787807814457e-17,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical_konishi_coupling_invariant",
+      "value": 1.6129073341582263e-15,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "canonical_kahler_omission_detected",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "canonical_konishi_omission_detected",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "shift_high_to_low_vs_holomorphic",
+      "value": 0.0,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "shift_constant_physical_uv_recovery",
+      "value": 5.685431887251673e-16,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "shift_inverse_coupling_reconstruction",
+      "value": 1.8951439624172245e-16,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "shift_positive_R",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "shift_positive_scalar_spectrum",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "shift_UV_above_pair",
+      "value": 0.01,
+      "limit": 1.0,
+      "passed": true
+    },
+    {
+      "name": "shift_IR_coupling_positive",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "shift_kahler_physical_mass_invariant",
+      "value": 0.0,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "shift_kahler_coupling_invariant",
+      "value": 0.0,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "shift_konishi_physical_mass_invariant",
+      "value": 1.3877787807814457e-17,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "shift_konishi_coupling_invariant",
+      "value": 9.732248534155997e-16,
+      "limit": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "shift_kahler_omission_detected",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    {
+      "name": "shift_konishi_omission_detected",
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    }
+  ],
+  "checks_passed": 38,
+  "check_count": 38
+}

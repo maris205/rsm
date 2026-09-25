@@ -1,0 +1,281 @@
+{
+  "created_utc": "2026-09-25T10:52:06.064493+00:00",
+  "material_passport": {
+    "type": "User-authorized deterministic theory and numerical postprocessing",
+    "data": "Three archived tree backgrounds and charged spectra; no new observations",
+    "new_model_assumption": "Two explicit UV boundary conditions, each normalized at today; minimal U(1) without dynamical light charge",
+    "precision_scope": "Local leading one-loop matching and tiny split contribution, not full broken SUGRA or real electromagnetism",
+    "disclosure": "AI-assisted internal derivation, independent implementations, plotting and writing; no external peer review"
+  },
+  "parent_git_commit": "88455b1f36442bf9002a9ba9d423cfbb1a43395d",
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.5"
+  },
+  "inputs": [
+    {
+      "path": "experiments/sugra_shift_v01/results/inputs.json",
+      "role": "frozen parameters",
+      "bytes": 1556,
+      "sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/trajectories.csv",
+      "role": "unchanged 3 axial backgrounds selected from 9",
+      "bytes": 6623432,
+      "sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/protocol.md",
+      "role": "prior experiment context",
+      "bytes": 5272,
+      "sha256": "b3be9118730ec5c42de50e1d2c0cac9fff2a2148b8356cb4316b27e0abc09005"
+    }
+  ],
+  "source_record": "reports/gauge_matching_theory_20260925_sources.json",
+  "commands": [
+    {
+      "command": "timeout 180 python experiments/gauge_matching_v01/code/run_matching.py",
+      "exit_code": 0,
+      "log": "results/run_attempt_002.log",
+      "seconds": 0.4845283031463623,
+      "passed": 38
+    },
+    {
+      "command": "timeout 180 python experiments/gauge_matching_v01/code/independent_check.py",
+      "exit_code": 0,
+      "log": "results/independent_run_attempt_001.log",
+      "seconds": 6.653851509094238,
+      "passed": 149
+    },
+    {
+      "command": "python reports/gauge_matching_theory_20260925_checks.py",
+      "exit_code": 0,
+      "passed": 22
+    },
+    {
+      "command": "python reports/gauge_matching_independent_20260925_checking.py",
+      "exit_code": 0,
+      "passed": 125
+    },
+    {
+      "command": "python experiments/gauge_matching_v01/code/plot_results.py",
+      "exit_code": 0,
+      "scope": "Plots archived data only; no fitting"
+    }
+  ],
+  "anomalies": [
+    {
+      "stage": "main attempt 1",
+      "log": "results/run_attempt_001.log",
+      "outcome": "SyntaxError unmatched right parenthesis before computation. Corrected syntax and reran same scientific protocol; attempt 2 passed."
+    },
+    {
+      "stage": "theory source retrieval",
+      "outcome": "pypdf-based structural preflight unavailable; direct pdftotext reading and local PDF page image inspection succeeded. One web screenshot timed out. Source versions and actual read scope recorded."
+    },
+    {
+      "stage": "theory report review",
+      "outcome": "Clarified that small relative X permits an inverse-square-difference approximation without requiring xi/chi^2 itself small. No scientific output changed."
+    }
+  ],
+  "verification": {
+    "counts": {
+      "main": 38,
+      "symbolic": 22,
+      "independent_exploratory": 125,
+      "independent_full_curve": 149
+    },
+    "all_pass": true,
+    "total_checks": 334,
+    "curve_points": 3075,
+    "independent_decimal_digits": 180,
+    "main_and_independent_hashes_checked": true,
+    "stage_note": "Analytic and exploratory endpoint work preceded main protocol freeze; no claim of blind preregistration."
+  },
+  "unchanged_manuscript": {
+    "path": "manuscript_cn/paper.pdf",
+    "role": "existing manuscript, unchanged",
+    "bytes": 1729255,
+    "sha256": "bcd56f85a5077fd7b625e82c37aeb5a6115b817fef9eabec740e3425d02acceb"
+  },
+  "files": [
+    {
+      "path": "experiments/gauge_matching_v01/README.md",
+      "role": "archived artifact",
+      "bytes": 3297,
+      "sha256": "e90fa3cbefaed18e8a4d349be35c8cc0e643da22731c9ccf487721a01f4a26af"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/code/independent_check.py",
+      "role": "archived artifact",
+      "bytes": 16419,
+      "sha256": "95b600dd1eb20ccd3c84d3986f37c91e9d5204b5894d4044f4fc1c9023ac355d"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/code/plot_results.py",
+      "role": "archived artifact",
+      "bytes": 3886,
+      "sha256": "44ecdf494b003d65fc6a695ddaf9f2095dbc8196cb2131b150ccaaeb3220cc62"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/code/run_matching.py",
+      "role": "archived artifact",
+      "bytes": 8959,
+      "sha256": "7a8fadf9eedd579bf17ffa34ac824d37b02a46e4eb9fdf07f742f5bade454413"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/figures/matched_gauge_response.pdf",
+      "role": "archived artifact",
+      "bytes": 23588,
+      "sha256": "c632c425220275cf07184359a37fc01bfe4b490e37013bfbd0f04c8b82a6ac48"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/figures/matched_gauge_response.png",
+      "role": "archived artifact",
+      "bytes": 207577,
+      "sha256": "0d919617a4231667ae32198d856163b691bb94ab8dbfef19c84a1870c9614773"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/figures/response_shape_limits.pdf",
+      "role": "archived artifact",
+      "bytes": 25068,
+      "sha256": "46b907f4b0bfce70f04c0d360a1cafec7ca99c65f72b99eb5cf8ab630a266a76"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/figures/response_shape_limits.png",
+      "role": "archived artifact",
+      "bytes": 221950,
+      "sha256": "cc4bfee194e27530659a9a36f32b56e7151c08652f2edebf93e2bb9cadf2de81"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/protocol.md",
+      "role": "archived artifact",
+      "bytes": 4127,
+      "sha256": "fe253dbe853b6401c50cdb6b265666474c3214aec4101109af4f743d9b5a68f6"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/reports/independent_results_cn.md",
+      "role": "archived artifact",
+      "bytes": 2268,
+      "sha256": "fda4368094b74a196264d7c4467a2f92f99103ced4f9d9610a35898469bc4f9b"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/reports/results_cn.md",
+      "role": "archived artifact",
+      "bytes": 12318,
+      "sha256": "f373c5481e803f6ffd0d54fdab68d96fe3a6838fed3f6b989168de28e8940746"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/results/independent_checks.json",
+      "role": "archived artifact",
+      "bytes": 32548,
+      "sha256": "6751fd391c16e3074143fe1d79bb7f7612721a530be458c5f4e1fec819908b11"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/results/independent_curves.csv",
+      "role": "archived artifact",
+      "bytes": 2991873,
+      "sha256": "8e6ab5f33fc9604325971809fd5d6b3f3e154a2bbbbb355a2f07abf52447230d"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/results/independent_run_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 106,
+      "sha256": "75bd40a5eb7a871de6767d32597a91f664026c21f802422bb4387bcef9ed4a93"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/results/matched_curves.csv",
+      "role": "archived artifact",
+      "bytes": 1394632,
+      "sha256": "a0a6717e84b2dc69a41894a2d652a811adfddc302be20cb82ef33601e8fe38c5"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/results/run_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 324,
+      "sha256": "f77b37db1699ba3f8f782a9a45a48c81ae598248bde076bcfb70a66450f389ca"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/results/run_attempt_002.log",
+      "role": "archived artifact",
+      "bytes": 2833,
+      "sha256": "84b44a76faeb5ed1a7e0451855c6140cc08feca2dea8c98a8f4723f9dcea8ca0"
+    },
+    {
+      "path": "experiments/gauge_matching_v01/results/summary.json",
+      "role": "archived artifact",
+      "bytes": 9076,
+      "sha256": "42a4c07ce39137ac409ead3271a982c83815556b9424b1e359fb09b6637c426f"
+    },
+    {
+      "path": "reports/gauge_matching_independent_20260925.md",
+      "role": "archived artifact",
+      "bytes": 8421,
+      "sha256": "9636384064054dad45616e32bb9c0086b7eebd760e08992af450202a67ce0f6c"
+    },
+    {
+      "path": "reports/gauge_matching_independent_20260925_checking.json",
+      "role": "archived artifact",
+      "bytes": 25805,
+      "sha256": "59026827d7a97a3e29e75c8973f897cb09e77adfc904f91f89b59acd91383628"
+    },
+    {
+      "path": "reports/gauge_matching_independent_20260925_checking.py",
+      "role": "archived artifact",
+      "bytes": 9868,
+      "sha256": "071ec7ebfeb5d65a2087ba64de4dc48eacafb781393dc2448591b7c314089033"
+    },
+    {
+      "path": "reports/gauge_matching_theory_20260925.md",
+      "role": "archived artifact",
+      "bytes": 11414,
+      "sha256": "534fe053c27ab6d64d0300d788da3a890c2e0195273daa013c88fa25555bc045"
+    },
+    {
+      "path": "reports/gauge_matching_theory_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 2730,
+      "sha256": "5ca29ca1f95334c27b46398dad958b5c8c30050df1143a5255ddc6e788705e77"
+    },
+    {
+      "path": "reports/gauge_matching_theory_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 4453,
+      "sha256": "7868b9666469827ac53473fe3bae20cfafdfbbd305bfe826130e82b4a5383f58"
+    },
+    {
+      "path": "reports/gauge_matching_theory_20260925_sources.json",
+      "role": "archived artifact",
+      "bytes": 6220,
+      "sha256": "3b4734c8fa605846f2e974a8662af4d2bfd0423aa64b154d35d000e2fc6ffa98"
+    },
+    {
+      "path": "README.md",
+      "role": "archived artifact",
+      "bytes": 21280,
+      "sha256": "d78c47193fbf7c10cc09fe0343df80e406607bb5c031ed62b83c23e45fe7e172"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "role": "archived artifact",
+      "bytes": 22142,
+      "sha256": "fc7e21cc99ed0d0bedb540279333b35ad180699999469238f980adc9caa85a22"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "role": "archived artifact",
+      "bytes": 23849,
+      "sha256": "56766c0dc5717a4aea029b89edb78d77a35b8cd970f94d13ec0a7448a98589f0"
+    }
+  ],
+  "notes": [
+    "File paths are repository-relative; command log paths are experiment-relative.",
+    "Manifest does not hash itself. Cached publisher sources under ignored build are indexed by separate source record.",
+    "Statistics of data discovery/significance not applicable: no data fit, no p-values, no stochastic experiment.",
+    "These checks overlap in purpose and do not represent independent physical experiments."
+  ]
+}
