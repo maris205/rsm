@@ -1,0 +1,109 @@
+{
+  "date_utc": "2026-09-25",
+  "scope": "Foundational theoretical matching: targeted passages read, no novelty or observational claim",
+  "skills_used": [
+    "academic-research-suite, source verification subset; no full systematic review protocol"
+  ],
+  "not_performed": [
+    "full-document human reading attestation",
+    "new observational fit",
+    "full renormalized two-loop calculation",
+    "phenomenological exclusion/viability scan"
+  ],
+  "sources": [
+    {
+      "version": "hep-ph/9709356v7",
+      "authors": "Stephen P. Martin",
+      "title": "A Supersymmetry Primer",
+      "url": "https://arxiv.org/html/hep-ph/9709356v7",
+      "cached_path": "build/protected_threshold_sources/hep-ph_9709356v7.pdf",
+      "sha256": "b1dba94d82b75cc3120d95360d8b81caad838a0a14edfb36951e456f4246e656",
+      "bytes": 1723786,
+      "locators": [
+        "3.2.16–3.2.18",
+        "6.5.13, 6.5.18, 6.5.38",
+        "7.3.5–7.3.6",
+        "7.6.18–7.6.21",
+        "7.7.8–7.7.11"
+      ],
+      "supports": [
+        "F potential and charged messenger spectrum",
+        "DRbar CW convention",
+        "SUSY gauge beta and soft transmission",
+        "supergravity F potential"
+      ],
+      "read_scope": "targeted sections/equations, not whole document",
+      "redistributed_in_git": false
+    },
+    {
+      "version": "hep-th/9605149v1",
+      "authors": "M. T. Grisaru, M. Rocek, R. von Unge",
+      "title": "Effective Kähler Potentials",
+      "url": "https://arxiv.org/pdf/hep-th/9605149v1",
+      "cached_path": "build/protected_threshold_sources/hep-th_9605149v1.pdf",
+      "sha256": "c5afc10de8920eca0d9fc13d43eec761e1e36e98ff5f3385217c2591d9d4e681",
+      "bytes": 123648,
+      "locators": [
+        "Eq.3.5, PDF p5"
+      ],
+      "supports": [
+        "one-loop Kahler determinant and finite scheme dependence"
+      ],
+      "read_scope": "targeted sections/equations, not whole document",
+      "redistributed_in_git": false
+    },
+    {
+      "version": "1205.3492v1",
+      "authors": "R. Flauger, S. Hellerman, C. Schmidt-Colinet, M. Sudano",
+      "title": "The One-Loop Effective Kähler Potential. I: Chiral Multiplets",
+      "url": "https://arxiv.org/pdf/1205.3492v1",
+      "cached_path": "build/protected_threshold_sources/1205.3492v1.pdf",
+      "sha256": "9d028254fc1f5de063583b63ab92b512241db6b9b1dc382e0a3905ed2de69ea5",
+      "bytes": 199641,
+      "locators": [
+        "Eqs.1.1, 4.11"
+      ],
+      "supports": [
+        "one-loop mass-dependent matching in general chiral EFT"
+      ],
+      "read_scope": "targeted sections/equations, not whole document",
+      "redistributed_in_git": false
+    },
+    {
+      "version": "1407.5270v1",
+      "authors": "S. M. Kuzenko, S. J. Tyler",
+      "title": "The one-loop effective potential of the Wess-Zumino model revisited",
+      "url": "https://arxiv.org/pdf/1407.5270v1",
+      "cached_path": "build/protected_threshold_sources/1407.5270.pdf",
+      "sha256": "c72c3fd5615439543374b37afa4f0d91406674a159e31186b48b51b6bdac0734",
+      "bytes": 352261,
+      "locators": [
+        "Eq.3.6, PDF p11 / printed p10",
+        "Eq.5.2a, PDF p21 / printed p20"
+      ],
+      "supports": [
+        "finite +2 Kahler convention",
+        "auxiliary-potential expansion and relation to component calculation"
+      ],
+      "read_scope": "targeted sections/equations, not whole document",
+      "redistributed_in_git": false
+    }
+  ],
+  "local_inputs": [
+    {
+      "path": "reports/charged_threshold_action_audit_20260925.md",
+      "sha256": "9b8fd0749cb0869344a1bf23d266c66cab5208f2e06ddf0a139152fcff05aa92"
+    },
+    {
+      "path": "reports/constant_clock_bridge_20260925/threshold_candidate.md",
+      "sha256": "d819e801e8c8bde9f68afc37fc3036bd76cd66b7ba017511d688194b7f70e8f1"
+    },
+    {
+      "path": "experiments/charged_threshold_v01/protocol.md",
+      "sha256": "20ba5f576de6efff2d4758f0481d7a289e29f5545c4fb989a5c0182ab7d3fdbd"
+    }
+  ],
+  "retrieval_notes": [
+    "Version-suffixed urllib PDF retrieval returned HTTP406; unversioned arxiv PDF requests returned 200 and PDF cover version was checked; cached originals are not redistributed in git."
+  ]
+}

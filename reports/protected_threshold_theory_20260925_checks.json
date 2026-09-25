@@ -1,0 +1,107 @@
+{
+  "scope": "Symbolic checks of chosen model identities; not observations, physical viability, or full perturbation stability",
+  "count": 20,
+  "passed": 20,
+  "checks": [
+    {
+      "name": "cw_first_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cw_second_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cw_fourth_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "unbroken_cw_cancellation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "scalar_eigenvalue_plus",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "scalar_eigenvalue_minus",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pair_beta_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Fterm_cw_to_fourth_order",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "soft_cw_linear_term",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "soft_force_leading_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "vectorlike_cubic_anomaly",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "vectorlike_mixed_gravitational_anomaly",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "kahler_metric_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "kahler_and_cw_same_F_squared_term",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic_mass_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "exponential_superpotential_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "transverse_logmass_curvature",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "transverse_logyukawa_curvature",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "transverse_CW_curvature",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "sugra_transverse_curvature",
+      "passed": true,
+      "residual": "0"
+    }
+  ]
+}

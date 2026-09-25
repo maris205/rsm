@@ -1,0 +1,70 @@
+{
+  "epsilon": 0.0001,
+  "Mpl_eV": 2.435e+27,
+  "hbar_eV_s": 6.582119569e-16,
+  "H_ref_s_inv": 2.1842852410855023e-18,
+  "H_ref_eV": 1.4377226629626768e-33,
+  "F_squared_eV2": 5.9292250000000006e+50,
+  "potential_unit_eV4": 1.2255983520684104e-15,
+  "alpha_reference": 0.0072973525692838015,
+  "b_em": 0.3333333333333333,
+  "omega_m": 0.315,
+  "omega_r": 9.2e-05,
+  "omega_lambda": 0.6848730469548479,
+  "tstar_s": 5.391247e-44,
+  "N_i": -1.6486586255873816,
+  "chi_i": 137.6422999547138,
+  "q_i": 1.4891775770929696,
+  "tau_i": 0.0996965217336752,
+  "W_i": 50.27593469715373,
+  "xi": 18945.402736823406,
+  "reference_code_sha256": "8a4c445593daaefd124ced77efc9f41e65421bb9d6cf2fdb7ea4f5bdeb8f22e4",
+  "protocol_sha256": "9ad04d29005185634878ea9d718258ad1fcd25780f7d40d83f44f777d62055de",
+  "case_definitions": [
+    {
+      "case": "soft_0",
+      "eta_soft": 0.0,
+      "mass_eV": 100000000000.0,
+      "mu_over_mi": 1.0,
+      "kinetic": "canonical_chi"
+    },
+    {
+      "case": "soft_1",
+      "eta_soft": 1.0,
+      "mass_eV": 100000000000.0,
+      "mu_over_mi": 1.0,
+      "kinetic": "canonical_chi"
+    },
+    {
+      "case": "soft_100",
+      "eta_soft": 100.0,
+      "mass_eV": 100000000000.0,
+      "mu_over_mi": 1.0,
+      "kinetic": "canonical_chi"
+    },
+    {
+      "case": "soft_10000",
+      "eta_soft": 10000.0,
+      "mass_eV": 100000000000.0,
+      "mu_over_mi": 1.0,
+      "kinetic": "canonical_chi"
+    },
+    {
+      "case": "soft_1e+06",
+      "eta_soft": 1000000.0,
+      "mass_eV": 100000000000.0,
+      "mu_over_mi": 1.0,
+      "kinetic": "canonical_chi"
+    }
+  ],
+  "protected_mass_eV": 100000000000.0,
+  "eta_soft": [
+    0.0,
+    1.0,
+    100.0,
+    10000.0,
+    1000000.0
+  ],
+  "mu_over_mi": 1.0,
+  "parent_inputs_sha256": "a4093701763cb3c84c2b5fb0edab30c1cef647722a2ccb8fbe28687782309d11"
+}

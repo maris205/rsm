@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-25",
+  "material_passport": {
+    "question": "Can symmetry-related charged masses suppress vacuum feedback while preserving inverse-square-clock alpha response?",
+    "kind": "Conditional theoretical construction; no new observations or data fitting",
+    "primary_source_registry": "reports/protected_threshold_theory_20260925_sources.json",
+    "parent_experiment": "experiments/charged_threshold_v01",
+    "assumptions": [
+      "Locally holomorphic nonpolynomial mass function",
+      "Global N=1 charged vectorlike pair plus gauge multiplet",
+      "Clock F-term retained",
+      "Extra common soft mass treated as an input",
+      "Phenomenological Einstein background; no complete SUGRA or visible-sector matching"
+    ],
+    "not_claimed": [
+      "SUSY follows from Riemann zeros",
+      "A preferred exponent follows from threshold loops",
+      "Observed varying alpha",
+      "Complete perturbative or transverse stability",
+      "Collider or thermal viability"
+    ],
+    "ai_assistance": "Model construction, coding, source verification and internal cross-checking; no external peer review or human read attestation."
+  },
+  "sha256": {
+    "experiments/protected_threshold_v01/protocol.md": "9ad04d29005185634878ea9d718258ad1fcd25780f7d40d83f44f777d62055de",
+    "experiments/protected_threshold_v01/code/run_protected.py": "607620a0e0f5503311ef506325d0ae3f5ff61bdb916daf26976f56cab5217841",
+    "experiments/protected_threshold_v01/code/independent_precision.py": "99a18ac372023b77339f8ebf91951769a1728ce7bd827bd57d8f3edb31e909d8",
+    "experiments/protected_threshold_v01/results/inputs.json": "b066f21b51dc30421229a00dddb6ec154f22e7ddc38cd5fd67926bb9c9a40790",
+    "experiments/charged_threshold_v01/results/inputs.json": "a4093701763cb3c84c2b5fb0edab30c1cef647722a2ccb8fbe28687782309d11",
+    "experiments/charged_threshold_v01/results/trajectories.csv": "0bb071d22885acedba3e2edae8251477eb035158c81a0fe198e84615daa8d0c9"
+  }
+}

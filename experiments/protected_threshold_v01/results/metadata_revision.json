@@ -1,0 +1,6 @@
+{
+  "reason": "Replace inherited eight-case parent metadata with the actual five protected-spectrum case definitions. No equations, parameters, tolerances or initial conditions changed.",
+  "trajectory_sha256_before": "305d25e17d5fbe5f4808899c1a78a8c6e4c41508f24cfcb8e523a3731137a27a",
+  "trajectory_sha256_after": "305d25e17d5fbe5f4808899c1a78a8c6e4c41508f24cfcb8e523a3731137a27a",
+  "trajectory_bytes_unchanged": true
+}

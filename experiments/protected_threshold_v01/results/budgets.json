@@ -1,0 +1,123 @@
+{
+  "records": [
+    {
+      "mass_eV": 1.0,
+      "mu_over_mi": 0.5,
+      "max_F_force_over_tree": 3.9887567783897384e-58,
+      "max_abs_deltaK": 3.9075447474259045e-58,
+      "max_h_over_s": 5.237068767221307e-35,
+      "max_soft_force_per_eta": 0.006996634318784477,
+      "eta_for_force_point1": 14.292586327046026,
+      "msoft_for_force_point1_eV": 1.176046144215383e-06,
+      "min_transverse_coord_mass2_over_H2": -2.4976124412162047e-61,
+      "max_abs_transverse_coord_mass2_over_H2": 2.4976124412162047e-61
+    },
+    {
+      "mass_eV": 1.0,
+      "mu_over_mi": 1.0,
+      "max_F_force_over_tree": 3.1683733655920765e-60,
+      "max_abs_deltaK": 4.0146835627045863e-60,
+      "max_h_over_s": 5.237068767221307e-35,
+      "max_soft_force_per_eta": 7.856454675915888e-05,
+      "eta_for_force_point1": 1272.8387564756392,
+      "msoft_for_force_point1_eV": 1.1098279186670979e-05,
+      "min_transverse_coord_mass2_over_H2": -6.620420684853703e-62,
+      "max_abs_transverse_coord_mass2_over_H2": 6.620420684853703e-62
+    },
+    {
+      "mass_eV": 1.0,
+      "mu_over_mi": 2.0,
+      "max_F_force_over_tree": 3.968278351950271e-58,
+      "max_abs_deltaK": 3.9075447474259045e-58,
+      "max_h_over_s": 5.237068767221307e-35,
+      "max_soft_force_per_eta": 0.007153763412302796,
+      "eta_for_force_point1": 13.978656301104877,
+      "msoft_for_force_point1_eV": 1.1630587789938774e-06,
+      "min_transverse_coord_mass2_over_H2": 5.100154655334809e-62,
+      "max_abs_transverse_coord_mass2_over_H2": 1.1735283042454638e-61
+    },
+    {
+      "mass_eV": 1000000.0,
+      "mu_over_mi": 0.5,
+      "max_F_force_over_tree": 3.988756778389738e-46,
+      "max_abs_deltaK": 3.907544747425905e-46,
+      "max_h_over_s": 5.237068767221307e-41,
+      "max_soft_force_per_eta": 0.006996634318784225,
+      "eta_for_force_point1": 14.292586327046541,
+      "msoft_for_force_point1_eV": 1.1760461442154042e-12,
+      "min_transverse_coord_mass2_over_H2": -2.497612441216205e-49,
+      "max_abs_transverse_coord_mass2_over_H2": 2.497612441216205e-49
+    },
+    {
+      "mass_eV": 1000000.0,
+      "mu_over_mi": 1.0,
+      "max_F_force_over_tree": 3.168373365592077e-48,
+      "max_abs_deltaK": 4.0146835627045865e-48,
+      "max_h_over_s": 5.237068767221307e-41,
+      "max_soft_force_per_eta": 7.856454675940964e-05,
+      "eta_for_force_point1": 1272.8387564715767,
+      "msoft_for_force_point1_eV": 1.1098279186653269e-11,
+      "min_transverse_coord_mass2_over_H2": -6.620420684853704e-50,
+      "max_abs_transverse_coord_mass2_over_H2": 6.620420684853704e-50
+    },
+    {
+      "mass_eV": 1000000.0,
+      "mu_over_mi": 2.0,
+      "max_F_force_over_tree": 3.968278351950272e-46,
+      "max_abs_deltaK": 3.907544747425905e-46,
+      "max_h_over_s": 5.237068767221307e-41,
+      "max_soft_force_per_eta": 0.007153763412303046,
+      "eta_for_force_point1": 13.978656301104389,
+      "msoft_for_force_point1_eV": 1.163058778993857e-12,
+      "min_transverse_coord_mass2_over_H2": 5.100154655334809e-50,
+      "max_abs_transverse_coord_mass2_over_H2": 1.1735283042454642e-49
+    },
+    {
+      "mass_eV": 100000000000.0,
+      "mu_over_mi": 0.5,
+      "max_F_force_over_tree": 3.9887567783897375e-36,
+      "max_abs_deltaK": 3.907544747425904e-36,
+      "max_h_over_s": 5.2370687672213065e-46,
+      "max_soft_force_per_eta": 0.006996634318784225,
+      "eta_for_force_point1": 14.292586327046541,
+      "msoft_for_force_point1_eV": 1.1760461442154043e-17,
+      "min_transverse_coord_mass2_over_H2": -2.497612441216205e-39,
+      "max_abs_transverse_coord_mass2_over_H2": 2.497612441216205e-39
+    },
+    {
+      "mass_eV": 100000000000.0,
+      "mu_over_mi": 1.0,
+      "max_F_force_over_tree": 3.168373365592077e-38,
+      "max_abs_deltaK": 4.014683562704586e-38,
+      "max_h_over_s": 5.2370687672213065e-46,
+      "max_soft_force_per_eta": 7.856454675940965e-05,
+      "eta_for_force_point1": 1272.8387564715765,
+      "msoft_for_force_point1_eV": 1.1098279186653267e-16,
+      "min_transverse_coord_mass2_over_H2": -6.620420684853703e-40,
+      "max_abs_transverse_coord_mass2_over_H2": 6.620420684853703e-40
+    },
+    {
+      "mass_eV": 100000000000.0,
+      "mu_over_mi": 2.0,
+      "max_F_force_over_tree": 3.9682783519502714e-36,
+      "max_abs_deltaK": 3.907544747425904e-36,
+      "max_h_over_s": 5.2370687672213065e-46,
+      "max_soft_force_per_eta": 0.007153763412303046,
+      "eta_for_force_point1": 13.978656301104389,
+      "msoft_for_force_point1_eV": 1.163058778993857e-17,
+      "min_transverse_coord_mass2_over_H2": 5.100154655334808e-40,
+      "max_abs_transverse_coord_mass2_over_H2": 1.1735283042454639e-39
+    }
+  ],
+  "large_soft_example": {
+    "mass_eV": 100000000000.0,
+    "msoft_eV": 1000000000.0,
+    "max_force_over_tree": 8.0919629200245e+48,
+    "scope": "Fixed common soft term, no claim of actual visible-sector transmission"
+  },
+  "minimal_canonical_SUGRA_over_global_range": [
+    2.542902708593472,
+    2.6193919892001074
+  ],
+  "interpretation": "Force<0.1 is a diagnostic on the old tree trajectory; not an experimental bound. Varying mu at fixed finite inputs compares matching choices, not an RG-invariant prediction."
+}

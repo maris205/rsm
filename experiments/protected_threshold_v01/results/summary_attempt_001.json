@@ -1,0 +1,359 @@
+{
+  "run_utc": "2026-09-25T07:39:32.369568+00:00",
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.16.1",
+  "elapsed_seconds": 7.581411123275757,
+  "protocol_sha256": "9ad04d29005185634878ea9d718258ad1fcd25780f7d40d83f44f777d62055de",
+  "code_sha256": "98854db9c19d0abaff7a4221d5385e128870899af6473680fe786d2a1df5f68e",
+  "summaries": [
+    {
+      "case": "soft_0",
+      "eta_soft": 0.0,
+      "complete": true,
+      "status": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "msoft_eV": 0.0,
+      "chi_change": 2.1520400836045663,
+      "q_min": 0.8592986372025606,
+      "clock_reverses": false,
+      "max_energy_residual": 1.5880399058284497e-14,
+      "max_force_ratio": 3.168373365592082e-38,
+      "max_abs_deltaK": 4.014683562704586e-38,
+      "max_d_over_s": 0.0,
+      "max_h_over_s": 5.2370687672213065e-46,
+      "min_A": 1.0,
+      "min_scalar_mass_ratio": 1.0,
+      "max_abs_Omega_chi": 7.416340739726476e-05,
+      "delta_alpha_zi_ppm": 17.878728961807447,
+      "linear_error_over_peak": 0.007718487163318559,
+      "clock_age_shape_error": 0.020004268678957382
+    },
+    {
+      "case": "soft_1",
+      "eta_soft": 1.0,
+      "complete": true,
+      "status": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "msoft_eV": 3.110777509182198e-18,
+      "chi_change": 2.1520318925168165,
+      "q_min": 0.8592781529166644,
+      "clock_reverses": false,
+      "max_energy_residual": 1.5313241949060052e-14,
+      "max_force_ratio": 7.856297912143562e-05,
+      "max_abs_deltaK": 4.014669698297311e-38,
+      "max_d_over_s": 9.827052601882717e-58,
+      "max_h_over_s": 5.2370687672213065e-46,
+      "min_A": 1.0,
+      "min_scalar_mass_ratio": 1.0,
+      "max_abs_Omega_chi": 7.416340739726476e-05,
+      "delta_alpha_zi_ppm": 17.87866196361645,
+      "linear_error_over_peak": 0.007718458091195854,
+      "clock_age_shape_error": 0.020006326165392274
+    },
+    {
+      "case": "soft_100",
+      "eta_soft": 100.0,
+      "complete": true,
+      "status": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "msoft_eV": 3.1107775091821975e-17,
+      "chi_change": 2.1512211323822923,
+      "q_min": 0.8572509846727769,
+      "clock_reverses": false,
+      "max_energy_residual": 1.4746084839835606e-14,
+      "max_force_ratio": 0.007840796217242494,
+      "max_abs_deltaK": 4.013297338097821e-38,
+      "max_d_over_s": 9.826996492240552e-56,
+      "max_h_over_s": 5.2370687672213065e-46,
+      "min_A": 1.0,
+      "min_scalar_mass_ratio": 1.0,
+      "max_abs_Omega_chi": 7.416340739726476e-05,
+      "delta_alpha_zi_ppm": 17.872030392283353,
+      "linear_error_over_peak": 0.0077155804989362305,
+      "clock_age_shape_error": 0.020210048350407406
+    },
+    {
+      "case": "soft_10000",
+      "eta_soft": 10000.0,
+      "complete": true,
+      "status": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "msoft_eV": 3.1107775091821977e-16,
+      "chi_change": 2.071713719821391,
+      "q_min": 0.6622504359888922,
+      "clock_reverses": false,
+      "max_energy_residual": 1.5596820503672276e-14,
+      "max_force_ratio": 0.6455578074437258,
+      "max_abs_deltaK": 3.878229272346689e-38,
+      "max_d_over_s": 9.821492455202248e-54,
+      "max_h_over_s": 5.2370687672213065e-46,
+      "min_A": 1.0,
+      "min_scalar_mass_ratio": 1.0,
+      "max_abs_Omega_chi": 7.416340739726476e-05,
+      "delta_alpha_zi_ppm": 17.22132725628205,
+      "linear_error_over_peak": 0.007433278431030409,
+      "clock_age_shape_error": 0.040939082500491386
+    },
+    {
+      "case": "soft_1e+06",
+      "eta_soft": 1000000.0,
+      "complete": true,
+      "status": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "msoft_eV": 3.110777509182198e-15,
+      "chi_change": 0.6582892699851315,
+      "q_min": -1.0640600949250736,
+      "clock_reverses": true,
+      "max_energy_residual": 1.3611770621386713e-14,
+      "max_force_ratio": 2.2337141715358673,
+      "max_abs_deltaK": 1.6385687094568458e-38,
+      "max_d_over_s": 9.735081534519838e-52,
+      "max_h_over_s": 5.2370687672213065e-46,
+      "min_A": 1.0,
+      "min_scalar_mass_ratio": 1.0,
+      "max_abs_Omega_chi": 0.0008253255375046963,
+      "delta_alpha_zi_ppm": 5.528139097100367,
+      "linear_error_over_peak": 0.0023781523291195924,
+      "clock_age_shape_error": 0.7749117205410252
+    }
+  ],
+  "checks": [
+    {
+      "name": "soft_0_energy",
+      "value": 1.5880399058284497e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_0_convergence_u",
+      "value": 4.333503580114992e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_0_convergence_q",
+      "value": 1.535786910780917e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_0_convergence_E",
+      "value": 1.32332731341765e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_0_convergence_tau",
+      "value": 9.992007221626409e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_0_convergence_rho",
+      "value": 1.2335667125631708e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_0_convergence_delta_alpha",
+      "value": 1.336019420821092e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "parent_tree_u",
+      "value": 2.889002386743324e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "parent_tree_q",
+      "value": 1.4165024905260884e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "parent_tree_E",
+      "value": 1.32332731341765e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "parent_tree_tau",
+      "value": 5.551115123125783e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1_energy",
+      "value": 1.5313241949060052e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1_convergence_u",
+      "value": 6.190742963349384e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1_convergence_q",
+      "value": 2.4751517202876913e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1_convergence_E",
+      "value": 6.61663656708825e-17,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1_convergence_tau",
+      "value": 8.881784197001252e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1_convergence_rho",
+      "value": 5.38799253763224e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1_convergence_delta_alpha",
+      "value": 1.345499777946257e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_100_energy",
+      "value": 1.4746084839835606e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_100_convergence_u",
+      "value": 2.580448397221903e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_100_convergence_q",
+      "value": 1.3568602803986742e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_100_convergence_E",
+      "value": 3.308318283544125e-17,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_100_convergence_tau",
+      "value": 9.992007221626409e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_100_convergence_rho",
+      "value": 1.5738609780978385e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_100_convergence_delta_alpha",
+      "value": 1.3459990372671216e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_10000_energy",
+      "value": 1.5596820503672276e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_10000_convergence_u",
+      "value": 4.072809339641113e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_10000_convergence_q",
+      "value": 1.6103396734401848e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_10000_convergence_E",
+      "value": 1.32332731341765e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_10000_convergence_tau",
+      "value": 6.661338147750939e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_10000_convergence_rho",
+      "value": 1.432071700791727e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_10000_convergence_delta_alpha",
+      "value": 1.396857242419977e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1e+06_energy",
+      "value": 1.3611770621386713e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1e+06_convergence_u",
+      "value": 3.441691376337985e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1e+06_convergence_q",
+      "value": 4.2491347077649687e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1e+06_convergence_E",
+      "value": 3.308318283544125e-17,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1e+06_convergence_tau",
+      "value": 1.9984014443252818e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1e+06_convergence_rho",
+      "value": 1.0067038688733922e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "soft_1e+06_convergence_delta_alpha",
+      "value": 1.2954926501019583e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    }
+  ],
+  "checks_passed": 39,
+  "check_count": 39
+}
