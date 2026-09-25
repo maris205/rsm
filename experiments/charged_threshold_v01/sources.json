@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-25",
+  "scope": "Bounded theoretical model and numerical experiment; no observational fit.",
+  "material_passport": {
+    "initial_model": "Existing cosmic_bridge_v01 scalar+fluid reference; fixed late-time slice at z=4.2.",
+    "new_assumptions": [
+      "Charge-one complex scalar",
+      "Inverse-square clock dependence of mass squared",
+      "Two alternative kinetic completions",
+      "Zero real X occupation and classical electromagnetic source",
+      "Fixed UV input within a trajectory",
+      "MSbar with fixed mu=m_i and initial vacuum constant subtraction"
+    ],
+    "theoretical_sources": [
+      {
+        "arxiv_version": "1412.1837v2",
+        "title": "How to use the Standard Model effective field theory",
+        "url": "https://arxiv.org/pdf/1412.1837v2",
+        "bytes": 1021772,
+        "sha256": "5539ff1a7cbeffddd57983d5da768b2a6ba5f92d1950117418695bfda77c341a",
+        "locators": [
+          "Eq. (2.54), PDF p. 28 / printed p. 26",
+          "Eq. (2.55) and coefficient list, PDF p. 30 / printed p. 28"
+        ],
+        "verified_claims": [
+          "complex scalar determinant factor cs=1",
+          "one-loop Coleman-Weinberg term",
+          "two-derivative mass-insertion coefficient",
+          "b_em=Q^2/3"
+        ],
+        "cached_path": "build/charged_threshold_audit_sources/1412.1837v2.pdf",
+        "redistributed_in_git": false
+      },
+      {
+        "arxiv_version": "1303.0180v2",
+        "title": "A Simple Method for One-Loop Renormalization in Curved Space-Time",
+        "url": "https://arxiv.org/pdf/1303.0180v2",
+        "bytes": 288009,
+        "sha256": "b505731a752df75f307592b0b7a8d4fe172cdf2fb3ad5cbc40e72125f3bbbafb",
+        "locators": [
+          "Eqs. (2.5)-(2.6), PDF p. 4",
+          "Appendix E"
+        ],
+        "verified_claims": [
+          "curved-space scalar and gravity counterterm structure",
+          "finite renormalization conditions must be specified"
+        ],
+        "cached_path": "build/charged_threshold_audit_sources/1303.0180v2.pdf",
+        "redistributed_in_git": false
+      },
+      {
+        "title": "Fine Structure Constant Variation from a Late Phase Transition",
+        "authors": [
+          "Z. Chacko",
+          "C. Grojean",
+          "M. Perelstein"
+        ],
+        "arxiv_version": "hep-ph/0204142v2",
+        "version_date": "2003-06-26",
+        "journal": "Physics Letters B 565 (2003), 169–175",
+        "doi": "10.1016/S0370-2693(03)00766-4",
+        "url": "https://arxiv.org/pdf/hep-ph/0204142v2",
+        "read_channel": "web PDF extraction; version confirmed on abstract and PDF first page",
+        "read_scope": "Equations (2)–(3) on numbered pp.1–2 / PDF pp.2–3, plus nearby discussion and radiative/energy caveats. Not a full model review.",
+        "used_for": "Dependence of low-energy alpha on moving charged-mass thresholds at fixed UV coupling.",
+        "not_used_for": "No adoption of the source historical observational claim, phase transition model or historical allowed parameter regions."
+      },
+      {
+        "url": "https://arxiv.org/html/2502.00081v1",
+        "title": "How to make a Universe",
+        "used_for": "Global canonical constant-clock motivation, not derivation of mass law or local clock action.",
+        "scope_record": "reports/constant_clock_bridge_20260925/source_manifest.json"
+      }
+    ],
+    "human_read_scope": "Not asserted; internal AI-assisted calculations require author review."
+  },
+  "input_hashes": {
+    "experiments/charged_threshold_v01/protocol.md": "20ba5f576de6efff2d4758f0481d7a289e29f5545c4fb989a5c0182ab7d3fdbd",
+    "experiments/cosmic_bridge_v01/code/background.py": "8a4c445593daaefd124ced77efc9f41e65421bb9d6cf2fdb7ea4f5bdeb8f22e4",
+    "experiments/charged_threshold_v01/results/inputs.json": "a4093701763cb3c84c2b5fb0edab30c1cef647722a2ccb8fbe28687782309d11",
+    "experiments/charged_threshold_v01/code/run_threshold.py": "a96966c5d6b344fe83ab59656210681a32c0061399f7446c2cc84531c16c59ab",
+    "experiments/charged_threshold_v01/code/independent_check.py": "dd4a959ee21e03a30d0efbedc0758ddb6465bb7b6d48c00ae7380cbc0198b485"
+  }
+}

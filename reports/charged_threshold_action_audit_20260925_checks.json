@@ -1,0 +1,97 @@
+{
+  "scope": "Independent algebra and dimensional-scale checks, not a cosmological or observational validation",
+  "passed": true,
+  "check_count": 10,
+  "checks": [
+    {
+      "name": "CW first derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW second derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "bubble Feynman parameter integral",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complex scalar kinetic normalization",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "beta e to beta alpha conversion",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "threshold logarithmic derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "scalar continuity and source sign",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "exponential metric preserves R kinetic energy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical potential curvature",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW reference slope with respect to log mass",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/pdf/1412.1837v2",
+      "locators": [
+        "Eq. (2.54), PDF p. 28",
+        "Eq. (2.55) and following coefficient list, PDF p. 30"
+      ]
+    }
+  ],
+  "reference_scales": {
+    "H_eV": 1.4377226629626768e-33,
+    "critical_density_eV4": 3.6767950562052306e-11,
+    "fractional_alpha_change_assumed": 1e-06,
+    "delta_log_mass_linear": 0.002583067727997792
+  },
+  "unsubtracted_loop_scale_examples": [
+    {
+      "mass_eV": 1.0,
+      "delta_U1_eV4": 3.271493495363256e-05,
+      "delta_U1_over_reference_critical_density": 889767.7040339907
+    },
+    {
+      "mass_eV": 1000000.0,
+      "delta_U1_eV4": 3.2714934953632555e+19,
+      "delta_U1_over_reference_critical_density": 8.897677040339906e+29
+    },
+    {
+      "mass_eV": 100000000000.0,
+      "delta_U1_eV4": 3.271493495363256e+39,
+      "delta_U1_over_reference_critical_density": 8.897677040339907e+49
+    }
+  ],
+  "conditional_chi5_xi1_100GeV_FMpl_example": {
+    "potential_first_derivative_eV4": 9.742421504070941e+39,
+    "potential_second_derivative_eV4": -5.845452902442563e+39,
+    "loop_metric_over_tree_metric": 4.2131253172474065e-40,
+    "sqrt_abs_potential_curvature_over_H": 2.1839113163234816e+25,
+    "negative_curvature_not_stable_oscillator_mass": true
+  },
+  "script_sha256": "207417c875e5f4f791f357d49ae907ae073d8cae83d152eefea7da2b8f1c35c9"
+}

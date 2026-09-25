@@ -1,0 +1,9 @@
+chi_probe {"complete": true, "delta_alpha_zi_ppm": 2.979743765275278, "clock_reverses": false, "max_energy_residual": 1.1343142184488927e-15}
+chi_loop_1 {"complete": true, "delta_alpha_zi_ppm": 2.9777792589707004, "clock_reverses": false, "max_energy_residual": 5.671571092244463e-16}
+chi_loop_100 {"complete": true, "delta_alpha_zi_ppm": 2.7858017011285603, "clock_reverses": false, "max_energy_residual": 9.92524941142781e-16}
+chi_loop_10000 {"complete": true, "delta_alpha_zi_ppm": -0.16839237084352834, "clock_reverses": true, "max_energy_residual": 2.6231016301630644e-14}
+R_probe {"complete": true, "delta_alpha_zi_ppm": 1.6416716859855014, "clock_reverses": false, "max_energy_residual": 9.92524941142781e-16}
+R_loop_1 {"complete": true, "delta_alpha_zi_ppm": 1.641410674703111, "clock_reverses": false, "max_energy_residual": 5.671571092244463e-16}
+R_loop_100 {"complete": true, "delta_alpha_zi_ppm": 1.6152306089737907, "clock_reverses": false, "max_energy_residual": 8.507356638366696e-16}
+R_loop_10000 {"complete": true, "delta_alpha_zi_ppm": -0.2758152596741675, "clock_reverses": true, "max_energy_residual": 1.1382843182134639e-12}
+checks 67 / 67 seconds 4.300112247467041

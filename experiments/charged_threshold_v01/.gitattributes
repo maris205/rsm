@@ -1,0 +1,2 @@
+# Python csv.writer emits standard CRLF records; keep their archived bytes/hashes.
+results/*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

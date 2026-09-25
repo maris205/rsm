@@ -1,0 +1,60 @@
+{
+  "date_utc": "2026-09-25",
+  "scope": "Versioned primary-source verification and internal model input identity; not external peer review",
+  "primary_sources": [
+    {
+      "arxiv_version": "1412.1837v2",
+      "title": "How to use the Standard Model effective field theory",
+      "url": "https://arxiv.org/pdf/1412.1837v2",
+      "bytes": 1021772,
+      "sha256": "5539ff1a7cbeffddd57983d5da768b2a6ba5f92d1950117418695bfda77c341a",
+      "locators": [
+        "Eq. (2.54), PDF p. 28 / printed p. 26",
+        "Eq. (2.55) and coefficient list, PDF p. 30 / printed p. 28"
+      ],
+      "verified_claims": [
+        "complex scalar determinant factor cs=1",
+        "one-loop Coleman-Weinberg term",
+        "two-derivative mass-insertion coefficient",
+        "b_em=Q^2/3"
+      ],
+      "cached_path": "build/charged_threshold_audit_sources/1412.1837v2.pdf",
+      "redistributed_in_git": false
+    },
+    {
+      "arxiv_version": "1303.0180v2",
+      "title": "A Simple Method for One-Loop Renormalization in Curved Space-Time",
+      "url": "https://arxiv.org/pdf/1303.0180v2",
+      "bytes": 288009,
+      "sha256": "b505731a752df75f307592b0b7a8d4fe172cdf2fb3ad5cbc40e72125f3bbbafb",
+      "locators": [
+        "Eqs. (2.5)-(2.6), PDF p. 4",
+        "Appendix E"
+      ],
+      "verified_claims": [
+        "curved-space scalar and gravity counterterm structure",
+        "finite renormalization conditions must be specified"
+      ],
+      "cached_path": "build/charged_threshold_audit_sources/1303.0180v2.pdf",
+      "redistributed_in_git": false
+    }
+  ],
+  "local_inputs": [
+    {
+      "path": "reports/constant_clock_bridge_20260925/README.md",
+      "sha256": "93e43829808900093a324773ababe592faf61542bcd4ef49712d4900ee33fb38"
+    },
+    {
+      "path": "reports/constant_clock_bridge_20260925/threshold_candidate.md",
+      "sha256": "d819e801e8c8bde9f68afc37fc3036bd76cd66b7ba017511d688194b7f70e8f1"
+    },
+    {
+      "path": "experiments/charged_threshold_v01/protocol.md",
+      "sha256": "20ba5f576de6efff2d4758f0481d7a289e29f5545c4fb989a5c0182ab7d3fdbd"
+    },
+    {
+      "path": "experiments/charged_threshold_v01/code/run_threshold.py",
+      "sha256": "a96966c5d6b344fe83ab59656210681a32c0061399f7446c2cc84531c16c59ab"
+    }
+  ]
+}

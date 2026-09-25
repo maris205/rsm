@@ -1,0 +1,31 @@
+{
+  "scope": "Unprotected MSbar at fixed mu=m_i, initial constant removed; budgets on tree chi path only.",
+  "rho_crit_ref_eV4": 3.6767950562052306e-11,
+  "records": [
+    {
+      "mass_initial_eV": 1.0,
+      "ell": 2583462178681.454,
+      "max_abs_CW_change_over_rho_crit_ref": 2630867.000209932,
+      "max_loop_force_over_tree": 26367221261.953133,
+      "max_kinetic_loop_fraction": 9.395659048605116e-59,
+      "ppm_budget_over_rho_crit_ref": 889767.7040339907
+    },
+    {
+      "mass_initial_eV": 1000000.0,
+      "ell": 2.5834621786814542e+36,
+      "max_abs_CW_change_over_rho_crit_ref": 2.630867000209932e+30,
+      "max_loop_force_over_tree": 2.6367221261953132e+34,
+      "max_kinetic_loop_fraction": 9.395659048605116e-47,
+      "ppm_budget_over_rho_crit_ref": 8.897677040339907e+29
+    },
+    {
+      "mass_initial_eV": 100000000000.0,
+      "ell": 2.5834621786814545e+56,
+      "max_abs_CW_change_over_rho_crit_ref": 2.6308670002099326e+50,
+      "max_loop_force_over_tree": 2.6367221261953138e+54,
+      "max_kinetic_loop_fraction": 9.395659048605117e-37,
+      "ppm_budget_over_rho_crit_ref": 8.897677040339908e+49
+    }
+  ],
+  "mass_for_1ppm_CW_equals_rho_crit_eV": 0.03255973341979033
+}

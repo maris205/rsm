@@ -1,0 +1,797 @@
+{
+  "run_utc": "2026-09-25T07:04:33.800729+00:00",
+  "elapsed_seconds": 4.300112247467041,
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.16.1",
+  "script_sha256": "a96966c5d6b344fe83ab59656210681a32c0061399f7446c2cc84531c16c59ab",
+  "protocol_sha256": "20ba5f576de6efff2d4758f0481d7a289e29f5545c4fb989a5c0182ab7d3fdbd",
+  "inputs_sha256": "a4093701763cb3c84c2b5fb0edab30c1cef647722a2ccb8fbe28687782309d11",
+  "summaries": [
+    {
+      "case": "chi_probe",
+      "kinetic": "chi",
+      "ell": 0.0,
+      "mass_initial_eV": null,
+      "success": true,
+      "complete": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "rhs_evaluations": 2522,
+      "events": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "chi_change": 2.15204008360456,
+      "q_today_or_last": 0.859298637202551,
+      "q_min": 0.859298637202551,
+      "clock_reverses": false,
+      "H_today_over_Href_or_last": 1.0000000000000173,
+      "age_today_Gyr_or_last": 13.790399059682954,
+      "max_abs_Omega_chi": 7.416340739726476e-05,
+      "max_energy_residual": 1.1343142184488927e-15,
+      "max_friedmann_residual": 4.370563650679253e-16,
+      "min_kinetic_denominator": 0.9999630391690647,
+      "min_A": 1.0,
+      "min_mass_squared_ratio": 0.9847241635367665,
+      "max_loop_force_over_tree": 0.0,
+      "delta_alpha_zi_ppm": 2.979743765275278,
+      "delta_alpha_max_abs_ppm": 2.979743765275278,
+      "threshold_linear_error_over_peak": 0.00773350110140367,
+      "chi_age_shape_error": 0.020004268678957382,
+      "alpha_age_shape_error": 0.018321633317529618,
+      "alpha_drift_today_per_year": -8.074434849954087e-17,
+      "min_gauge_denominator": 0.9999970202651136,
+      "tight_comparison": {
+        "u": 1.4445011933716608e-15,
+        "q": 1.3419497278668206e-15,
+        "E": 0.0,
+        "tau": 6.661338147750939e-16,
+        "rho": 4.253678319183348e-16,
+        "delta_alpha": 1.3502525104155149e-15
+      }
+    },
+    {
+      "case": "chi_loop_1",
+      "kinetic": "chi",
+      "ell": 1.0,
+      "mass_initial_eV": 0.0007887683448493857,
+      "success": true,
+      "complete": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "rhs_evaluations": 2522,
+      "events": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "chi_change": 2.150598991845742,
+      "q_today_or_last": 0.8565668990481585,
+      "q_min": 0.8565668990481585,
+      "clock_reverses": false,
+      "H_today_over_Href_or_last": 1.0000005024695466,
+      "age_today_Gyr_or_last": 13.790396586111516,
+      "max_abs_Omega_chi": 7.416340739726476e-05,
+      "max_energy_residual": 5.671571092244463e-16,
+      "max_friedmann_residual": 3.662391895637963e-16,
+      "min_kinetic_denominator": 0.9999630391690647,
+      "min_A": 1.0,
+      "min_mass_squared_ratio": 0.9847341574005913,
+      "max_loop_force_over_tree": 0.010177099887515155,
+      "delta_alpha_zi_ppm": 2.9777792589707004,
+      "delta_alpha_max_abs_ppm": 2.9777792589707004,
+      "threshold_linear_error_over_peak": 0.007728376313131685,
+      "chi_age_shape_error": 0.02030192570601075,
+      "alpha_age_shape_error": 0.018620765376563375,
+      "alpha_drift_today_per_year": -8.048937238029045e-17,
+      "min_gauge_denominator": 0.9999970222296082,
+      "max_H_over_mass": 1.2233721398992411e-29,
+      "max_mass_adiabatic": 6.617945064044981e-32,
+      "max_kinetic_loop_fraction": 5.845560970469e-65,
+      "tight_comparison": {
+        "u": 8.2598236404626e-16,
+        "q": 1.1928442025482849e-15,
+        "E": 0.0,
+        "tau": 6.661338147750939e-16,
+        "rho": 4.253678319183348e-16,
+        "delta_alpha": 1.2444740935963462e-15
+      }
+    },
+    {
+      "case": "chi_loop_100",
+      "kinetic": "chi",
+      "ell": 100.0,
+      "mass_initial_eV": 0.002494304515965201,
+      "success": true,
+      "complete": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "rhs_evaluations": 2522,
+      "events": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "chi_change": 2.009915336376886,
+      "q_today_or_last": 0.594498402677393,
+      "q_min": 0.594498402677393,
+      "clock_reverses": false,
+      "H_today_over_Href_or_last": 1.0000481412012374,
+      "age_today_Gyr_or_last": 13.790158752496344,
+      "max_abs_Omega_chi": 0.00013122513022729992,
+      "max_energy_residual": 9.92524941142781e-16,
+      "max_friedmann_residual": 4.1078299278620874e-16,
+      "min_kinetic_denominator": 0.9999630391690647,
+      "min_A": 1.0,
+      "min_mass_squared_ratio": 0.985711277913454,
+      "max_loop_force_over_tree": 0.7704526096703344,
+      "delta_alpha_zi_ppm": 2.7858017011285603,
+      "delta_alpha_max_abs_ppm": 2.7858017011285603,
+      "threshold_linear_error_over_peak": 0.0072277336470708805,
+      "chi_age_shape_error": 0.05125750630513731,
+      "alpha_age_shape_error": 0.04974838308017693,
+      "alpha_drift_today_per_year": -5.597959559893202e-17,
+      "min_gauge_denominator": 0.9999972142060596,
+      "max_H_over_mass": 3.868642388075756e-30,
+      "max_mass_adiabatic": 2.0927779832251037e-32,
+      "max_kinetic_loop_fraction": 5.8455609704689996e-64,
+      "tight_comparison": {
+        "u": 6.628476361356397e-16,
+        "q": 1.1928442025482849e-15,
+        "E": 0.0,
+        "tau": 3.3306690738754696e-16,
+        "rho": 4.253678319183348e-16,
+        "delta_alpha": 7.22127224243563e-16
+      }
+    },
+    {
+      "case": "chi_loop_10000",
+      "kinetic": "chi",
+      "ell": 10000.0,
+      "mass_initial_eV": 0.007887683448493858,
+      "success": true,
+      "complete": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "rhs_evaluations": 2522,
+      "events": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "chi_change": -0.11963619844506047,
+      "q_today_or_last": -0.14061986847612365,
+      "q_min": -1.8958583416528676,
+      "clock_reverses": true,
+      "H_today_over_Href_or_last": 1.0007567426119328,
+      "age_today_Gyr_or_last": 13.785894950046538,
+      "max_abs_Omega_chi": 0.0015466691817311953,
+      "max_energy_residual": 2.6231016301630644e-14,
+      "max_friedmann_residual": 4.093911654813518e-16,
+      "min_kinetic_denominator": 0.9999400953524731,
+      "min_A": 1.0,
+      "min_mass_squared_ratio": 0.9979478470113688,
+      "max_loop_force_over_tree": 2.53110350378891,
+      "delta_alpha_zi_ppm": -0.16839237084352834,
+      "delta_alpha_max_abs_ppm": 0.5660319698398798,
+      "threshold_linear_error_over_peak": 0.0014601104205790212,
+      "chi_age_shape_error": 2.598766158936555,
+      "alpha_age_shape_error": 2.602202458061698,
+      "alpha_drift_today_per_year": 1.3665513214748706e-17,
+      "min_gauge_denominator": 0.9999996520651997,
+      "max_H_over_mass": 1.223372139899241e-30,
+      "max_mass_adiabatic": 6.61794506404498e-33,
+      "max_kinetic_loop_fraction": 5.923919795729367e-63,
+      "tight_comparison": {
+        "u": 8.454348332520567e-14,
+        "q": 7.830116700238693e-13,
+        "E": 3.308318283544125e-17,
+        "tau": 8.881784197001252e-16,
+        "rho": 2.5380280637793974e-14,
+        "delta_alpha": 1.9916682684109933e-13
+      }
+    },
+    {
+      "case": "R_probe",
+      "kinetic": "R",
+      "ell": 0.0,
+      "mass_initial_eV": null,
+      "success": true,
+      "complete": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "rhs_evaluations": 2522,
+      "events": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "chi_change": 1.1773554156448913,
+      "q_today_or_last": 0.4037674548341379,
+      "q_min": 0.4037674548341379,
+      "clock_reverses": false,
+      "H_today_over_Href_or_last": 1.0000763726977204,
+      "age_today_Gyr_or_last": 13.789867146851966,
+      "max_abs_Omega_chi": 0.00018767560570290653,
+      "max_energy_residual": 9.92524941142781e-16,
+      "max_friedmann_residual": 3.576265374713341e-16,
+      "min_kinetic_denominator": 0.9999630391690647,
+      "min_A": 1.0,
+      "min_mass_squared_ratio": 0.9915547785580688,
+      "max_loop_force_over_tree": 0.0,
+      "delta_alpha_zi_ppm": 1.6416716859855014,
+      "delta_alpha_max_abs_ppm": 1.6416716859855014,
+      "threshold_linear_error_over_peak": 0.004250907133480772,
+      "chi_age_shape_error": 0.12436381605616342,
+      "alpha_age_shape_error": 0.12330811347455939,
+      "alpha_drift_today_per_year": -3.8480991252398524e-17,
+      "min_gauge_denominator": 0.9999983583310091,
+      "tight_comparison": {
+        "u": 1.1315764227579855e-15,
+        "q": 6.709748639334103e-16,
+        "E": 6.61663656708825e-17,
+        "tau": 8.881784197001252e-16,
+        "rho": 5.671571092244463e-16,
+        "delta_alpha": 9.190494361185244e-16
+      }
+    },
+    {
+      "case": "R_loop_1",
+      "kinetic": "R",
+      "ell": 1.0,
+      "mass_initial_eV": 0.0007887683448493857,
+      "success": true,
+      "complete": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "rhs_evaluations": 2522,
+      "events": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "chi_change": 1.1771666213760947,
+      "q_today_or_last": 0.4035751800641837,
+      "q_min": 0.4035751800641837,
+      "clock_reverses": false,
+      "H_today_over_Href_or_last": 1.0000766651520454,
+      "age_today_Gyr_or_last": 13.78986565566293,
+      "max_abs_Omega_chi": 0.00018826035966354208,
+      "max_energy_residual": 5.671571092244463e-16,
+      "max_friedmann_residual": 3.930539483245861e-16,
+      "min_kinetic_denominator": 0.9999630391690647,
+      "min_A": 1.0,
+      "min_mass_squared_ratio": 0.9915561155865186,
+      "max_loop_force_over_tree": 0.0014833750978432809,
+      "delta_alpha_zi_ppm": 1.641410674703111,
+      "delta_alpha_max_abs_ppm": 1.641410674703111,
+      "threshold_linear_error_over_peak": 0.0042502293652726935,
+      "chi_age_shape_error": 0.12441684149025656,
+      "alpha_age_shape_error": 0.12336129289248254,
+      "alpha_drift_today_per_year": -3.8462782848537303e-17,
+      "min_gauge_denominator": 0.9999983585920196,
+      "max_H_over_mass": 1.2233721398992411e-29,
+      "max_mass_adiabatic": 6.617945064044981e-32,
+      "max_kinetic_loop_fraction": 5.845560970469e-65,
+      "tight_comparison": {
+        "u": 5.658789526298248e-16,
+        "q": 5.9642210127414245e-16,
+        "E": 0.0,
+        "tau": 3.3306690738754696e-16,
+        "rho": 4.253678319183348e-16,
+        "delta_alpha": 8.385643888524113e-16
+      }
+    },
+    {
+      "case": "R_loop_100",
+      "kinetic": "R",
+      "ell": 100.0,
+      "mass_initial_eV": 0.002494304515965201,
+      "success": true,
+      "complete": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "rhs_evaluations": 2522,
+      "events": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "chi_change": 1.1582327166485278,
+      "q_today_or_last": 0.3840669243294921,
+      "q_min": 0.3840669243294921,
+      "clock_reverses": false,
+      "H_today_over_Href_or_last": 1.000105321739104,
+      "age_today_Gyr_or_last": 13.789719257075383,
+      "max_abs_Omega_chi": 0.00024555588855857725,
+      "max_energy_residual": 8.507356638366696e-16,
+      "max_friedmann_residual": 3.726656944084369e-16,
+      "min_kinetic_denominator": 0.9999630391690647,
+      "min_A": 1.0,
+      "min_mass_squared_ratio": 0.9916902319515636,
+      "max_loop_force_over_tree": 0.14288393716712428,
+      "delta_alpha_zi_ppm": 1.6152306089737907,
+      "delta_alpha_max_abs_ppm": 1.6152306089737907,
+      "threshold_linear_error_over_peak": 0.00418225066056459,
+      "chi_age_shape_error": 0.12986029741815597,
+      "alpha_age_shape_error": 0.12881949354807942,
+      "alpha_drift_today_per_year": -3.661462435791017e-17,
+      "min_gauge_denominator": 0.999998384772,
+      "max_H_over_mass": 3.868642388075756e-30,
+      "max_mass_adiabatic": 2.0927779832251037e-32,
+      "max_kinetic_loop_fraction": 5.8455609704689996e-64,
+      "tight_comparison": {
+        "u": 6.709844283162675e-16,
+        "q": 7.455276265926781e-16,
+        "E": 3.308318283544125e-17,
+        "tau": 7.771561172376096e-16,
+        "rho": 7.08946386530558e-16,
+        "delta_alpha": 6.555046556111024e-16
+      }
+    },
+    {
+      "case": "R_loop_10000",
+      "kinetic": "R",
+      "ell": 10000.0,
+      "mass_initial_eV": 0.007887683448493858,
+      "success": true,
+      "complete": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "N_last": 0.0,
+      "rhs_evaluations": 2522,
+      "events": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "chi_change": -0.19584743191566326,
+      "q_today_or_last": -1.4590054485388155,
+      "q_min": -2.4350579186125985,
+      "clock_reverses": true,
+      "H_today_over_Href_or_last": 1.0007586483114836,
+      "age_today_Gyr_or_last": 13.785848050681757,
+      "max_abs_Omega_chi": 0.0015504717973881537,
+      "max_energy_residual": 1.1382843182134639e-12,
+      "max_friedmann_residual": 4.06725706306915e-16,
+      "min_kinetic_denominator": 0.999929729818823,
+      "min_A": 0.46655097081044794,
+      "min_mass_squared_ratio": 0.9980594433481733,
+      "max_loop_force_over_tree": 2.454900092607155,
+      "delta_alpha_zi_ppm": -0.2758152596741675,
+      "delta_alpha_max_abs_ppm": 0.6518100794024843,
+      "threshold_linear_error_over_peak": 0.0016811317225366494,
+      "chi_age_shape_error": 1.636278734728259,
+      "alpha_age_shape_error": 1.638539418817166,
+      "alpha_drift_today_per_year": 1.4194438092023802e-16,
+      "min_gauge_denominator": 0.9999997382488098,
+      "max_H_over_mass": 1.223372139899241e-30,
+      "max_mass_adiabatic": 6.61794506404498e-33,
+      "max_kinetic_loop_fraction": 1.2704207034641006e-62,
+      "tight_comparison": {
+        "u": 3.4874325649525417e-12,
+        "q": 3.3544624996479825e-11,
+        "E": 2.6466546268353e-16,
+        "tau": 4.996003610813204e-16,
+        "rho": 1.1467916748518304e-12,
+        "delta_alpha": 7.024982243191827e-12
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "chi_probe_energy",
+      "value": 1.1343142184488927e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_probe_friedmann",
+      "value": 4.370563650679253e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_probe_convergence_u",
+      "value": 1.4445011933716608e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_probe_convergence_q",
+      "value": 1.3419497278668206e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_probe_convergence_E",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_probe_convergence_tau",
+      "value": 6.661338147750939e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_probe_convergence_rho",
+      "value": 4.253678319183348e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_probe_convergence_delta_alpha",
+      "value": 1.3502525104155149e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_1_energy",
+      "value": 5.671571092244463e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_1_friedmann",
+      "value": 3.662391895637963e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_1_convergence_u",
+      "value": 8.2598236404626e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_1_convergence_q",
+      "value": 1.1928442025482849e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_1_convergence_E",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_1_convergence_tau",
+      "value": 6.661338147750939e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_1_convergence_rho",
+      "value": 4.253678319183348e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_1_convergence_delta_alpha",
+      "value": 1.2444740935963462e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_100_energy",
+      "value": 9.92524941142781e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_100_friedmann",
+      "value": 4.1078299278620874e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_100_convergence_u",
+      "value": 6.628476361356397e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_100_convergence_q",
+      "value": 1.1928442025482849e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_100_convergence_E",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_100_convergence_tau",
+      "value": 3.3306690738754696e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_100_convergence_rho",
+      "value": 4.253678319183348e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_100_convergence_delta_alpha",
+      "value": 7.22127224243563e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_10000_energy",
+      "value": 2.6231016301630644e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_10000_friedmann",
+      "value": 4.093911654813518e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_10000_convergence_u",
+      "value": 8.454348332520567e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_10000_convergence_q",
+      "value": 7.830116700238693e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_10000_convergence_E",
+      "value": 3.308318283544125e-17,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_10000_convergence_tau",
+      "value": 8.881784197001252e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_10000_convergence_rho",
+      "value": 2.5380280637793974e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "chi_loop_10000_convergence_delta_alpha",
+      "value": 1.9916682684109933e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_probe_energy",
+      "value": 9.92524941142781e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_probe_friedmann",
+      "value": 3.576265374713341e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_probe_convergence_u",
+      "value": 1.1315764227579855e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_probe_convergence_q",
+      "value": 6.709748639334103e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_probe_convergence_E",
+      "value": 6.61663656708825e-17,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_probe_convergence_tau",
+      "value": 8.881784197001252e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_probe_convergence_rho",
+      "value": 5.671571092244463e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_probe_convergence_delta_alpha",
+      "value": 9.190494361185244e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_1_energy",
+      "value": 5.671571092244463e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_1_friedmann",
+      "value": 3.930539483245861e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_1_convergence_u",
+      "value": 5.658789526298248e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_1_convergence_q",
+      "value": 5.9642210127414245e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_1_convergence_E",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_1_convergence_tau",
+      "value": 3.3306690738754696e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_1_convergence_rho",
+      "value": 4.253678319183348e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_1_convergence_delta_alpha",
+      "value": 8.385643888524113e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_100_energy",
+      "value": 8.507356638366696e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_100_friedmann",
+      "value": 3.726656944084369e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_100_convergence_u",
+      "value": 6.709844283162675e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_100_convergence_q",
+      "value": 7.455276265926781e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_100_convergence_E",
+      "value": 3.308318283544125e-17,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_100_convergence_tau",
+      "value": 7.771561172376096e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_100_convergence_rho",
+      "value": 7.08946386530558e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_100_convergence_delta_alpha",
+      "value": 6.555046556111024e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_10000_energy",
+      "value": 1.1382843182134639e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_10000_friedmann",
+      "value": 4.06725706306915e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_10000_convergence_u",
+      "value": 3.4874325649525417e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_10000_convergence_q",
+      "value": 3.3544624996479825e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_10000_convergence_E",
+      "value": 2.6466546268353e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_10000_convergence_tau",
+      "value": 4.996003610813204e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_10000_convergence_rho",
+      "value": 1.1467916748518304e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R_loop_10000_convergence_delta_alpha",
+      "value": 7.024982243191827e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "prior_reference_u",
+      "value": 1.4135475963708401e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "prior_reference_E",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "prior_reference_tau",
+      "value": 5.551115123125783e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    }
+  ],
+  "check_pass_count": 67,
+  "check_count": 67,
+  "interpretation": "Implementation checks only; probe and light-mass examples are not viable-particle or observational claims."
+}
