@@ -1,0 +1,1052 @@
+{
+  "created_utc": "2026-09-25T12:31:02.701643+00:00",
+  "scope": "Archive integrity, input immutability, expected rows, source caches, local links; not new scientific tests",
+  "checks_passed": 261,
+  "check_count": 261,
+  "checks": [
+    {
+      "name": "summary.json checks pass",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/protected_threshold_v01/results/budgets.json",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/hidden_transfer_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "summary.json hash experiments/hidden_transfer_v01/code/run_transfer.py",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json checks pass",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/hidden_transfer_v01/code/independent_check.py",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/hidden_transfer_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/hidden_transfer_v01/results/scan.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/hidden_transfer_v01/results/representative_curves.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/hidden_transfer_v01/results/valleys.csv",
+      "passed": true
+    },
+    {
+      "name": "independent_summary.json hash experiments/hidden_transfer_v01/results/summary.json",
+      "passed": true
+    },
+    {
+      "name": "hidden_transfer_theory checks pass",
+      "passed": true
+    },
+    {
+      "name": "hidden_transfer_theory script hash",
+      "passed": true
+    },
+    {
+      "name": "hidden_transfer_independent checks pass",
+      "passed": true
+    },
+    {
+      "name": "hidden_transfer_independent script hash",
+      "passed": true
+    },
+    {
+      "name": "gauge_leakage checks pass",
+      "passed": true
+    },
+    {
+      "name": "scan.csv rows",
+      "passed": true
+    },
+    {
+      "name": "representative_curves.csv rows",
+      "passed": true
+    },
+    {
+      "name": "valleys.csv rows",
+      "passed": true
+    },
+    {
+      "name": "independent_scan.csv rows",
+      "passed": true
+    },
+    {
+      "name": "independent_supertrace.csv rows",
+      "passed": true
+    },
+    {
+      "name": "independent_potential.csv rows",
+      "passed": true
+    },
+    {
+      "name": "independent_valleys.csv rows",
+      "passed": true
+    },
+    {
+      "name": "experiments/sugra_shift_v01/results/inputs.json unchanged from parent",
+      "passed": true
+    },
+    {
+      "name": "experiments/sugra_shift_v01/results/trajectories.csv unchanged from parent",
+      "passed": true
+    },
+    {
+      "name": "experiments/protected_threshold_v01/results/budgets.json unchanged from parent",
+      "passed": true
+    },
+    {
+      "name": "manuscript_cn/paper.pdf unchanged from parent",
+      "passed": true
+    },
+    {
+      "name": "source cache 1411.2605v3",
+      "passed": true
+    },
+    {
+      "name": "source cache 1705.06788v2",
+      "passed": true
+    },
+    {
+      "name": "source cache hep-ph/9707209v3",
+      "passed": true
+    },
+    {
+      "name": "source cache hep-ph/9709356v7",
+      "passed": true
+    },
+    {
+      "name": "source cache martin_vaughn_1994_v4",
+      "passed": true
+    },
+    {
+      "name": "source cache martin_primer_v7",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/protocol.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link figures/hidden_force_and_domain.png",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link figures/hidden_force_and_domain.pdf",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link figures/heavy_valley_and_gauge_channel.png",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link figures/heavy_valley_and_gauge_channel.pdf",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link protocol.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link materials_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link ../../reports/hidden_transfer_theory_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link ../../reports/hidden_transfer_theory_20260925_sources.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link ../../reports/hidden_transfer_independent_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/README.md local link ../../reports/gauge_leakage_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/independent_results_cn.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/independent_results_cn.md local link ../results/independent_summary.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../../sugra_shift_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../../protected_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../materials_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../protocol.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../../../reports/hidden_transfer_theory_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../../../reports/hidden_transfer_independent_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../figures/hidden_force_and_domain.png",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../../../reports/gauge_leakage_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../figures/heavy_valley_and_gauge_channel.png",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../../../reports/hidden_transfer_theory_20260925_sources.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../../../reports/hidden_transfer_independent_20260925_sources.json",
+      "passed": true
+    },
+    {
+      "name": "experiments/hidden_transfer_v01/reports/results_cn.md local link ../../../reports/gauge_leakage_20260925_sources.json",
+      "passed": true
+    },
+    {
+      "name": "README.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/macro_laws_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/cosmic_bridge_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/halo_cooling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/pm_matched_scale_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/manuscript_cn_body_review_20260923.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/repository_portability.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/hidden_transfer_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/gauge_matching_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/sugra_shift_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/protected_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/charged_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/constant_clock_bridge_20260925/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/paper.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/00_introduction.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/01_system_anomaly.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/02_source_code.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/03_cosmic_lockstep.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/05_observational_evidence.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/06_predictions_interpretations.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/07_engine_design.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/08_simulation_case_studies.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/chapters/09_conclusion.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/acknowledgments.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter00_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter01_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter02_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter03_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter04_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter05_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter06_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter07_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter08_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/notes/chapter09_alignment.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/halo_cooling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/pm_matched_scale_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/cosmic_bridge_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/cosmic_bridge_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_cn/figures/chapter04_cosmic_bridge_cn.png",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/chapter04_timeline_sources/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/chapter04_inflation_feasibility.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/macro_laws_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_v01/paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_v01/paper.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link manuscript_v01/references.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link RESEARCH_DIRECTION.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link draft_v05/arithmetic_response_v05.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/arithmetic_residual_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "passed": true
+    },
+    {
+      "name": "README.md local link draft_v04/log_clock_bridge_v04.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/log_clock_coupling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/log_clock_coupling_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/log_clock_coupling_v01/figures/log_clock_response.png",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link draft_v03/micro_macro_bridge_v03.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/micro_macro_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/micro_macro_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/micro_macro_v01/figures/micro_macro_evolution.png",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/micro_macro_v01/figures/micro_macro_convergence.png",
+      "passed": true
+    },
+    {
+      "name": "README.md local link draft_v02/action_framework_v02.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/action_completion_v02/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/action_completion_v02/figures/background_completion.png",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/action_completion_v02/reports/numerical_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/action_completion_v02/reports/independent_background_review.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/action_completion_v02_derivation.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/action_completion_v02_independent_review.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/action_completion_v02_sources.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link draft_v01/minimal_framework_v01.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link draft_v01/variables_and_claims_v01.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/minimal_dynamics_v01_review.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/alpha_interface_v01_review.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/sources_v01_audit.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/alpha_recovery_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/alpha_recovery_v01/reports/recovery_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link experiments/alpha_recovery_v01/figures/captions.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link chapters/README.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/first_reading_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link WORK_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/prior_projects_evidence.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/foundations_first_pass.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/conversion_notes_cn.md",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/conversion_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "README.md local link ori_paper/merged_document_v2_with_latex.docx",
+      "passed": true
+    },
+    {
+      "name": "README.md local link reports/minimal_dynamics_v01_checks.json",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link manuscript_cn/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link manuscript_cn/paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/macro_laws_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link reports/chapter04_timeline_sources/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link reports/chapter04_inflation_feasibility.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link reports/manuscript_cn_body_review_20260923.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link manuscript_v01/paper.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link manuscript_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link draft_v05/arithmetic_response_v05.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link draft_v01/minimal_framework_v01.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link draft_v01/variables_and_claims_v01.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link reports/minimal_dynamics_v01_checks.json",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/alpha_recovery_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link draft_v02/action_framework_v02.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/action_completion_v02/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/micro_macro_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link draft_v03/micro_macro_bridge_v03.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link draft_v04/log_clock_bridge_v04.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/log_clock_coupling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/arithmetic_residual_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/hidden_transfer_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/hidden_transfer_v01/results/summary.json",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link reports/hidden_transfer_theory_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link reports/hidden_transfer_independent_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link reports/gauge_leakage_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/gauge_matching_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/sugra_shift_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/protected_threshold_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/charged_threshold_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link reports/constant_clock_bridge_20260925/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/pm_matched_scale_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link RESEARCH_DIRECTION.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link draft_v05/arithmetic_response_v05.md",
+      "passed": true
+    },
+    {
+      "name": "WORK_PLAN.md local link RESEARCH_DIRECTION.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/hidden_transfer_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link draft_v05/arithmetic_response_v05.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/arithmetic_residual_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link draft_v04/log_clock_bridge_v04.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/log_clock_coupling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link draft_v03/micro_macro_bridge_v03.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/micro_macro_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link chapters/03_chapter_02_source_code.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link chapters/04_chapter_03_cosmic_lockstep.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link chapters/05_chapter_04_mathematical_framework.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link chapters/07_chapter_06_predictions_interpretations.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link chapters/08_chapter_07_engine_design.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link chapters/09_chapter_08_simulation_case_studies.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link draft_v01/minimal_framework_v01.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link draft_v02/action_framework_v02.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/micro_macro_v01/protocol.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link WORK_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/cosmic_bridge_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/halo_cooling_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/halo_cooling_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/halo_cooling_v01/reports/pm_next_stage_design.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/pm_matched_scale_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link reports/constant_clock_bridge_20260925/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/charged_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/protected_threshold_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/sugra_shift_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/gauge_matching_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link reports/gauge_matching_theory_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/hidden_transfer_v01/README.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link reports/hidden_transfer_theory_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_DIRECTION.md local link reports/gauge_leakage_20260925.md",
+      "passed": true
+    },
+    {
+      "name": "reports/hidden_transfer_theory_20260925.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "reports/hidden_transfer_theory_20260925.md local link hidden_transfer_theory_20260925_checks.py",
+      "passed": true
+    },
+    {
+      "name": "reports/hidden_transfer_theory_20260925.md local link hidden_transfer_theory_20260925_checks.json",
+      "passed": true
+    },
+    {
+      "name": "reports/hidden_transfer_theory_20260925.md local link hidden_transfer_theory_20260925_sources.json",
+      "passed": true
+    },
+    {
+      "name": "reports/hidden_transfer_independent_20260925.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "reports/hidden_transfer_independent_20260925.md local link hidden_transfer_independent_20260925_checks.py",
+      "passed": true
+    },
+    {
+      "name": "reports/hidden_transfer_independent_20260925.md local link hidden_transfer_independent_20260925_checks.json",
+      "passed": true
+    },
+    {
+      "name": "reports/gauge_leakage_20260925.md balanced display math",
+      "passed": true
+    },
+    {
+      "name": "reports/gauge_leakage_20260925.md local link gauge_leakage_20260925_checks.json",
+      "passed": true
+    },
+    {
+      "name": "reports/gauge_leakage_20260925.md local link gauge_leakage_20260925_sources.json",
+      "passed": true
+    }
+  ]
+}

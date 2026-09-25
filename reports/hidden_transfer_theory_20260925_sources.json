@@ -1,0 +1,71 @@
+{
+  "scope": "Primary literature identity and bounded reading record; four primary sources",
+  "sources": [
+    {
+      "id": "1411.2605v3",
+      "title": "On sgoldstino-less supergravity models of inflation",
+      "url": "https://arxiv.org/html/1411.2605v3",
+      "authors_from_html": "Gianguido Dall’Agata Affiliation: Dipartimento di Fisica e Astronomia ‘G. Galilei’, Università di Padova and INFN, Sezione di Padova, Via Marzolo 8, I-35131 Padova, Italy Email: gianguido.dallagata@pd.infn.it and Fabio Zwirner Affiliation: Dipartimento di Fisica e Astronomia ‘G. Galilei’, Università di Padova and INFN, Sezione di Padova, Via Marzolo 8, I-35131 Padova, Italy Affiliation: Theory Unit, Physics Department, CERN, CH-1211 Genève 23, Switzerland Email: fabio.zwirner@pd.infn.it",
+      "read_scope": "Sections 2.2, 2.4 and 5; nilpotent F nonzero, scalar prescription, strong coupling scale and special no-scale constructions",
+      "http_status": 200,
+      "sha256": "729420c545e1b2853e4438309563bdbbfb46df3a424d46d553624c6f2d0019c1",
+      "cached_file": "build/hidden_transfer_theory_sources/1411.2605v3.html",
+      "retrieved_utc": "2026-09-25T12:09:47.205909+00:00",
+      "claims_not_imported": "Specific inflation dynamics, phenomenological exclusions and UV completion are not assumed for our model.",
+      "authors_normalized": [
+        "Gianguido Dall’Agata",
+        "Fabio Zwirner"
+      ]
+    },
+    {
+      "id": "1705.06788v2",
+      "title": "Sgoldstino-less inflation and low energy SUSY breaking",
+      "url": "https://arxiv.org/html/1705.06788v2",
+      "authors_from_html": "Riccardo Argurio Affiliation: Physique Théorique et Mathématique and International Solvay Institutes, Université Libre\nde Bruxelles, CP231, B-1050 Brussels, Belgium Email: rargurio@ulb.ac.be, a.a.coone@rug.nl, lucien.heurtier@ulb.ac.be, alberto.mariotti@vub.ac.be Dries Coone Affiliation: Theoretische Natuurkunde and IIHE/ELEM, Vrije Universiteit Brussel, and International Solvay Institutes,\nPleinlaan 2, B-1050 Brussels, Belgium Affiliation: Van Swinderen Institute for Particle Physics and Gravity, University of Groningen, Nijenborgh 4, 9747 AG Groningen, The Netherlands Lucien Heurtier Affiliation: Service de Physique Théorique, Université Libre de Bruxelles, CP225, B-1050 Brussels, Belgium and Alberto Mariotti Affiliation: Theoretische Natuurkunde and IIHE/ELEM, Vrije Universiteit Brussel, and International Solvay Institutes,\nPleinlaan 2, B-1050 Brussels, Belgium",
+      "read_scope": "Section 2, equations 1-6; sgoldstino UV EFT and decoupling hierarchy",
+      "http_status": 200,
+      "sha256": "761d63793f75431d3961167a19b10f6e94632084acd56811b95ff7747eca9d35",
+      "cached_file": "build/hidden_transfer_theory_sources/1705.06788v2.html",
+      "retrieved_utc": "2026-09-25T12:09:49.017740+00:00",
+      "claims_not_imported": "Specific inflation dynamics, phenomenological exclusions and UV completion are not assumed for our model.",
+      "authors_normalized": [
+        "Riccardo Argurio",
+        "Dries Coone",
+        "Lucien Heurtier",
+        "Alberto Mariotti"
+      ]
+    },
+    {
+      "id": "hep-ph/9707209v3",
+      "title": "Soft supersymmetry-breaking terms from supergravity and superstring models",
+      "url": "https://arxiv.org/html/hep-ph/9707209v3",
+      "authors_from_html": "A. BRIGNOLE Address: Theory Division, CERN, CH-1211 Geneva 23, Switzerland L.E. IBÁÑEZ Address: Departamento de Física Teórica,\nUniversidad Autónoma de Madrid Cantoblanco, 28049 Madrid, Spain C. MUÑOZ Note: On leave of absence from Departamento de\nFísica Teórica, Universidad Autónoma de Madrid,\nCantoblanco, 28049 Madrid,\nSpain. Address: Department of Physics,\nKorea Advanced Institute of Science and Technology Taejon 305-701,\nSouth Korea",
+      "read_scope": "Section 2; equations 11,13,14,30-42; hidden transmission, minimal and no-scale contrast",
+      "http_status": 200,
+      "sha256": "6bfc23ecf5d587fed96527eb89e46febf52643bad1e0044c027369a9dd137c4d",
+      "cached_file": "build/hidden_transfer_theory_sources/hep-ph_9707209v3.html",
+      "retrieved_utc": "2026-09-25T12:09:50.990724+00:00",
+      "claims_not_imported": "Specific inflation dynamics, phenomenological exclusions and UV completion are not assumed for our model.",
+      "authors_normalized": [
+        "A. Brignole",
+        "L. E. Ibáñez",
+        "C. Muñoz"
+      ]
+    },
+    {
+      "id": "hep-ph/9709356v7",
+      "title": "A Supersymmetry Primer",
+      "url": "https://arxiv.org/html/hep-ph/9709356v7",
+      "authors_from_html": "",
+      "read_scope": "Sections 7.6 and 7.8; F-term potential and anomaly mediation",
+      "http_status": 200,
+      "sha256": "078331195f90b6f18771249c9c9887982130da809294040630b9f77cec6271b4",
+      "cached_file": "build/hidden_transfer_theory_sources/hep-ph_9709356v7.html",
+      "retrieved_utc": "2026-09-25T12:10:00.923236+00:00",
+      "claims_not_imported": "Specific inflation dynamics, phenomenological exclusions and UV completion are not assumed for our model.",
+      "authors_normalized": [
+        "Stephen P. Martin"
+      ]
+    }
+  ]
+}

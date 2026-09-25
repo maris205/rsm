@@ -1,0 +1,105 @@
+{
+  "run_utc": "2026-09-25T12:08:48.460942+00:00",
+  "elapsed_seconds": 0.26379432901740074,
+  "python": "3.12.3",
+  "mpmath_precision": 90,
+  "scope": "Frozen fixed-scale common-soft gauge channel budget; not full RG-improved potential, no new cosmic ODE or observed limit",
+  "input_sha256": {
+    "experiments/protected_threshold_v01/results/inputs.json": "b066f21b51dc30421229a00dddb6ec154f22e7ddc38cd5fd67926bb9c9a40790",
+    "experiments/protected_threshold_v01/results/budgets.json": "dfa6de2be6042c1a1ba07ed851527a0b4423977d06291960881a06259e864a53",
+    "experiments/protected_threshold_v01/results/trajectories.csv": "305d25e17d5fbe5f4808899c1a78a8c6e4c41508f24cfcb8e523a3731137a27a",
+    "reports/gauge_leakage_20260925_checks.py": "91ed5a998292d18a68aefb851d1bbea06444e7d0bfedd9111454c187b719607e"
+  },
+  "settings": {
+    "q_abs": 1,
+    "alpha": 0.0072973525692838015,
+    "g_squared": 0.09170123688926637,
+    "rg_uv_eV": 10000000000000.0,
+    "rg_ir_eV": 100000000000.0,
+    "CW_mu_eV": 100000000000.0,
+    "scalar_soft_UV_eV2": 0,
+    "fixed_g_and_gaugino": true,
+    "pair_initial_supersymmetric_mass_eV": 100000000000.0
+  },
+  "results": {
+    "kappa_d_over_gaugino_mass2": 0.02139395790240942,
+    "msoft_over_gaugino_mass": 0.14626673546097013,
+    "prior_msoft_force_point1_limit_eV": 1.1098279186653267e-16,
+    "independently_reconstructed_msoft_limit_eV": 1.1098279186653289e-16,
+    "conditional_gaugino_force_point1_limit_eV": 7.587698701058885e-16,
+    "illustrative_gaugino_eV": 1000000000.0,
+    "illustrative_msoft_eV": 146266735.46097013,
+    "illustrative_common_d_eV2": 2.139395790240942e+16,
+    "illustrative_leading_force_over_tree": 1.7369201185040115e+47,
+    "illustrative_exact_common_force_over_tree": 1.7367975489340115e+47,
+    "max_d_over_s": 2.172583825461356e-06,
+    "scalar_force_max_index": 1024,
+    "archived_points": 1025,
+    "generated_b_over_Mlambda_M_leadinglog": -0.02139395790240942
+  },
+  "uncomputed": [
+    "running g and Mlambda",
+    "physical moving decoupling scale",
+    "complete two-loop potential and local counterterms",
+    "induced holomorphic b contribution to total CW force",
+    "full hidden/visible matter embedding and experimental constraints"
+  ],
+  "checks": [
+    {
+      "name": "coefficient_from_alpha_normalization",
+      "value": 3.469446951953614e-18,
+      "tolerance": 1e-16,
+      "passed": true
+    },
+    {
+      "name": "rge_scalar_plus_relative",
+      "value": 4.440892098500626e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "rge_scalar_minus_relative",
+      "value": 4.440892098500626e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "charge_trace_zero",
+      "value": 0.0,
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "old_force_budget_reconstruction_relative",
+      "value": 1.9984014443252818e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "gaugino_limit_maps_to_force_point1",
+      "value": 4.0245584642661925e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "large_case_exact_vs_leading_max_relative",
+      "value": 7.056718883857727e-05,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "name": "large_case_d_over_s_small",
+      "value": 2.172583825461356e-06,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "name": "gaugino_below_pair_threshold",
+      "value": 0.01,
+      "tolerance": 0.1,
+      "passed": true
+    }
+  ],
+  "checks_passed": 9,
+  "check_count": 9
+}

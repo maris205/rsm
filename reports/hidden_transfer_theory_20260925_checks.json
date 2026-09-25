@@ -1,0 +1,155 @@
+{
+  "scope": "specified conditional model: algebra identities only",
+  "python": "3.12.3",
+  "sympy": "1.14.0",
+  "script_sha256": "f6a0fb863653947a359205458fea78f8ec7916c15f0287b9667565cb766e7f1b",
+  "checks": [
+    {
+      "name": "full_F_potential_direct_DW",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_longitudinal_force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_transverse_tadpole",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_longitudinal_hessian",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_mixed_hessian",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_transverse_hessian",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "aligned_longitudinal_force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "aligned_transverse_force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "orthogonal_longitudinal_force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "orthogonal_transverse_force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "opposed_longitudinal_force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "opposed_transverse_force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "zero_Wc_still_has_hidden_Lambda_y_dependence",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cross_gradient_norm_phase_bound_identity",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_action_direct_expansion_with_hidden_F",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "hidden_F_enters_diagonal",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "constant_hidden_F_no_direct_B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "physical_gravitino_mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_axis_diagonal",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_axis_complex_B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_B_modulus_squared",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nilpotent_F_positive_modulus",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_y_asymptotic_quadratic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_y_stationary_shift",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_y_finite_tree_correction",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW_hidden_m2_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW_hidden_force_masssq_derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW_hidden_force_at_initial_scale_is_nonzero",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "passed": 29,
+  "total": 29
+}

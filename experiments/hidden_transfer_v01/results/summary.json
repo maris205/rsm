@@ -1,0 +1,268 @@
+{
+  "created_utc": "2026-09-25T12:13:51.279954+00:00",
+  "elapsed_seconds": 0.7709171772003174,
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.16.1",
+  "source_hashes": {
+    "experiments/sugra_shift_v01/results/inputs.json": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39",
+    "experiments/protected_threshold_v01/results/budgets.json": "dfa6de2be6042c1a1ba07ed851527a0b4423977d06291960881a06259e864a53",
+    "experiments/hidden_transfer_v01/protocol.md": "b15abe83b2cbacf902f8c3ddd3886f7522607a17561ece392525a5fe45863d40",
+    "experiments/hidden_transfer_v01/code/run_transfer.py": "4ef6e6437fbd3990fe051cc01f3b21b9169954b8465c6f5f03abbf9179a14035"
+  },
+  "scan_rows": 474,
+  "representative_rows": 21525,
+  "valley_rows": 9,
+  "limits": {
+    "rho_lambda_eV4": 2.5181378331717977e-11,
+    "VA_marker_floor_eV": 0.0022401127324030413,
+    "mG_for_VA_MI_eV": 2.3710483334276213e-06,
+    "mG_for_VA_10MI_eV": 0.00023710483334276215,
+    "marker_scope": "Order-one power-counting scale, necessary diagnostic only; unknown UV completion.",
+    "phases": [
+      {
+        "phase": "zero",
+        "initial_axis_force_limit_eV": 5.586054991350296e-35,
+        "charged_CW_limit_eV": 1.9939602227739204e-17,
+        "valley_leading_CW_limit_eV": null,
+        "heavy_EFT_marker_over_loop_limit": 118911516205.12823
+      },
+      {
+        "phase": "quadrature",
+        "initial_axis_force_limit_eV": 1.675816497405089e-34,
+        "charged_CW_limit_eV": 1.9939602227739204e-17,
+        "valley_leading_CW_limit_eV": 1.7267770295363632e-17,
+        "heavy_EFT_marker_over_loop_limit": 118911516205.12823
+      },
+      {
+        "phase": "pi",
+        "initial_axis_force_limit_eV": 5.586054991350296e-35,
+        "charged_CW_limit_eV": 1.9939602227739204e-17,
+        "valley_leading_CW_limit_eV": null,
+        "heavy_EFT_marker_over_loop_limit": 118911516205.12823
+      }
+    ],
+    "gauge_kappa": 0.02139395790240942,
+    "gauge_msoft_over_gaugino": 0.14626673546097013,
+    "old_common_msoft_limit_eV": 1.1098279186653267e-16,
+    "gauge_gaugino_limit_from_old_common_eV": 7.587698701058885e-16,
+    "direct_cX1_mG_limit_from_old_common_eV": 9.554418317990843e-15,
+    "no_grid_overlap_of_heavy_marker_and_CW_budget": true
+  },
+  "checks": [
+    {
+      "name": "zero_loop_limit_equation",
+      "value": 6.217248937900877e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "zero_axis_limit_equation",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "zero_scalar_positive",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "zero_small_split_domain",
+      "value": 1.0077262226511268e-08,
+      "tolerance": 0.01,
+      "passed": true
+    },
+    {
+      "name": "zero_large_hidden_CW_limit",
+      "value": 2.782156901189847e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "quadrature_loop_limit_equation",
+      "value": 6.217248937900877e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "quadrature_axis_limit_equation",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "quadrature_scalar_positive",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "quadrature_small_split_domain",
+      "value": 1.0077262226511268e-08,
+      "tolerance": 0.01,
+      "passed": true
+    },
+    {
+      "name": "quadrature_large_hidden_CW_limit",
+      "value": 2.782156901189847e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "pi_loop_limit_equation",
+      "value": 6.217248937900877e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "pi_axis_limit_equation",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "pi_scalar_positive",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "pi_small_split_domain",
+      "value": 1.0077262226511268e-08,
+      "tolerance": 0.01,
+      "passed": true
+    },
+    {
+      "name": "pi_large_hidden_CW_limit",
+      "value": 2.782156901189847e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "valley_0_100_gradient",
+      "value": 1.6019083041507083e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_0_100_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "valley_0_10000_gradient",
+      "value": 1.0747537892672217e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_0_10000_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "valley_0_1e+06_gradient",
+      "value": 8.622571202548958e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_0_1e+06_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "valley_512_100_gradient",
+      "value": 4.6763950221676834e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_512_100_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "valley_512_10000_gradient",
+      "value": 2.6356407360313786e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_512_10000_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "valley_512_1e+06_gradient",
+      "value": 7.505646814269801e-18,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_512_1e+06_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "valley_1024_100_gradient",
+      "value": 6.290107329233767e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_1024_100_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "valley_1024_10000_gradient",
+      "value": 1.1582695794242217e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_1024_10000_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "valley_1024_1e+06_gradient",
+      "value": 3.44784199033742e-17,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "valley_1024_1e+06_positive_curvature",
+      "value": 0.0,
+      "tolerance": 0.5,
+      "passed": true
+    },
+    {
+      "name": "zero_mG_axis_potential_matches_old_with_lambda",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "zero_mG_axis_gradient_matches_old",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "checks_passed": 35,
+  "check_count": 35,
+  "scope": "Frozen-background diagnostic; low-VA heavy loops are formal extrapolations, not a controlled UV calculation."
+}

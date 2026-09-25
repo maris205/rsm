@@ -1,0 +1,37 @@
+{
+  "rho_lambda_eV4": 2.5181378331717977e-11,
+  "VA_marker_floor_eV": 0.0022401127324030413,
+  "mG_for_VA_MI_eV": 2.3710483334276213e-06,
+  "mG_for_VA_10MI_eV": 0.00023710483334276215,
+  "marker_scope": "Order-one power-counting scale, necessary diagnostic only; unknown UV completion.",
+  "phases": [
+    {
+      "phase": "zero",
+      "initial_axis_force_limit_eV": 5.586054991350296e-35,
+      "charged_CW_limit_eV": 1.9939602227739204e-17,
+      "valley_leading_CW_limit_eV": null,
+      "heavy_EFT_marker_over_loop_limit": 118911516205.12823
+    },
+    {
+      "phase": "quadrature",
+      "initial_axis_force_limit_eV": 1.675816497405089e-34,
+      "charged_CW_limit_eV": 1.9939602227739204e-17,
+      "valley_leading_CW_limit_eV": 1.7267770295363632e-17,
+      "heavy_EFT_marker_over_loop_limit": 118911516205.12823
+    },
+    {
+      "phase": "pi",
+      "initial_axis_force_limit_eV": 5.586054991350296e-35,
+      "charged_CW_limit_eV": 1.9939602227739204e-17,
+      "valley_leading_CW_limit_eV": null,
+      "heavy_EFT_marker_over_loop_limit": 118911516205.12823
+    }
+  ],
+  "gauge_kappa": 0.02139395790240942,
+  "gauge_msoft_over_gaugino": 0.14626673546097013,
+  "old_common_msoft_limit_eV": 1.1098279186653267e-16,
+  "gauge_gaugino_limit_from_old_common_eV": 7.587698701058885e-16,
+  "direct_cX1_mG_limit_from_old_common_eV": 9.554418317990843e-15,
+  "no_grid_overlap_of_heavy_marker_and_CW_budget": true
+}
+Checks 35 / 35

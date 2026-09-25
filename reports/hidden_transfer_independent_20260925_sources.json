@@ -1,0 +1,161 @@
+{
+  "recorded_utc": "2026-09-25T12:29:46.791313+00:00",
+  "report": "reports/hidden_transfer_independent_20260925.md",
+  "scope": "Provenance of sources actually used by this independent audit; no new source retrieval for this formatting/provenance update.",
+  "sources": [
+    {
+      "title": "Pure de Sitter Supergravity",
+      "authors": [
+        "Eric A. Bergshoeff",
+        "Daniel Z. Freedman",
+        "Renata Kallosh",
+        "Antoine Van Proeyen"
+      ],
+      "arxiv_id": "1507.08264",
+      "consulted_url": "https://arxiv.org/pdf/1507.08264",
+      "additional_metadata_url_consulted": "https://arxiv.org/abs/1507.08264",
+      "version_verified_in_read": "v6",
+      "version_date": "2016-10-10",
+      "version_evidence": "Tool-extracted PDF title page explicitly displayed arXiv:1507.08264v6 [hep-th] 10 Oct 2016.",
+      "versioned_url_consulted": false,
+      "read_by": "/root/hidden_transfer_independent/nilpotent_cutoff_sources",
+      "access_method": "Remote web PDF open and find; tool-extracted text with printed-page markers and equation numbers.",
+      "actually_inspected": [
+        {
+          "location": "Introduction",
+          "equations": [
+            "(1.1)",
+            "(1.2)",
+            "(1.3)"
+          ],
+          "scope": "Nilpotent construction, restored Planck conventions, dimensions of m and f, and vacuum-energy expression."
+        },
+        {
+          "location": "Section 2",
+          "equations": [
+            "(2.1)–(2.12)"
+          ],
+          "scope": "Returned component action and associated definitions and transformations; vacuum-energy terms inspected."
+        },
+        {
+          "location": "Section 3 opening",
+          "equations": [
+            "(3.1)"
+          ],
+          "scope": "Constrained scalar solution X = chi^2/(2F), requiring F != 0."
+        },
+        {
+          "location": "Appendix A",
+          "equations": [
+            "(A.23)–(A.38)"
+          ],
+          "scope": "Text returned by targeted find; Eq. (A.24), F = -f plus fermionic corrections, specifically checked."
+        }
+      ],
+      "used_in_report": "Baseline nilpotent vacuum potential and nonzero auxiliary-field condition. Added rolling-Z cross terms were derived in this project, not attributed to the source.",
+      "retrieval_date_utc": "2026-09-25",
+      "local_cache_path": null,
+      "local_file_sha256": null,
+      "local_cache_status": "No local PDF was downloaded by the actual reader. No local cache path or hash was available or verified; tool-internal caching is unknown.",
+      "provenance_status": "Actual delegated remote read; report-writing agent did not independently reopen the PDF. No claim of human reading."
+    },
+    {
+      "title": "From Linear SUSY to Constrained Superfields",
+      "authors": [
+        "Zohar Komargodski",
+        "Nathan Seiberg"
+      ],
+      "arxiv_id": "0907.2441",
+      "consulted_url": "https://arxiv.org/pdf/0907.2441",
+      "version_verified_in_read": "v3",
+      "version_date": "2009-09-03",
+      "version_evidence": "Actual delegated reader reports the PDF extraction explicitly displayed arXiv:0907.2441v3 [hep-th] 3 Sep 2009.",
+      "versioned_url_consulted": false,
+      "read_by": "/root/hidden_transfer_independent/nilpotent_cutoff_sources/goldstino_scale",
+      "access_method": "Remote web PDF open and targeted find for section 3.1 and cutoff; tool-extracted text.",
+      "access_anomaly": "A PDF screenshot attempt returned an error and was not inspected. The cited material was read as extracted PDF text.",
+      "actually_inspected": [
+        {
+          "location": "Introduction, printed pp. 1–3",
+          "scope": "Returned text on the below-sqrt(f) regime and constrained-superfield definitions."
+        },
+        {
+          "location": "Section 2.2, printed pp. 6–8",
+          "equations": [
+            "(2.12)–(2.20)"
+          ],
+          "scope": "Goldstino supercurrent, X_NL component solution and nilpotency."
+        },
+        {
+          "location": "Section 3.1, printed pp. 9–12",
+          "equations": [
+            "(3.1)–(3.11)"
+          ],
+          "scope": "Nilpotent action, auxiliary-field elimination, Eq. (3.6) interaction and higher-derivative corrections."
+        },
+        {
+          "location": "Section 3.2, printed pp. 12 and 14",
+          "equations": [
+            "(3.12)"
+          ],
+          "scope": "Subsection model definition and concluding cutoff paragraph; not every intervening derivation inspected."
+        },
+        {
+          "location": "Section 4, printed pp. 14–16",
+          "equations": [
+            "(4.1)–(4.7)"
+          ],
+          "scope": "Hierarchy assumptions, Lambda less than or of order sqrt(f), goldstino couplings and correction discussion."
+        }
+      ],
+      "used_in_report": "Goldstino derivative interaction and parametric order-sqrt(|F|) power-counting scale. The meV value and 100-GeV threshold incompatibility diagnostic are conditional project inferences, not measurements or exact universal cutoff claims.",
+      "retrieval_date_utc": "2026-09-25",
+      "local_cache_path": null,
+      "local_file_sha256": null,
+      "local_cache_status": "No local PDF was downloaded by the actual reader. No local cache path or hash was available or verified; tool-internal caching is unknown.",
+      "provenance_status": "Actual delegated remote read; report-writing agent did not independently reopen the PDF. No claim of human reading."
+    },
+    {
+      "title": "On sgoldstino-less supergravity models of inflation",
+      "authors": [
+        "Gianguido Dall’Agata",
+        "Fabio Zwirner"
+      ],
+      "arxiv_id": "1411.2605",
+      "consulted_url": "https://arxiv.org/pdf/1411.2605",
+      "additional_metadata_url_consulted": "https://arxiv.org/abs/1411.2605",
+      "version_verified_in_read": "v3",
+      "version_date": "2014-12-29",
+      "version_evidence": "Tool-extracted PDF title page explicitly displayed arXiv:1411.2605v3 [hep-th] 29 Dec 2014.",
+      "versioned_url_consulted": false,
+      "read_by": "/root/hidden_transfer_independent/nilpotent_cutoff_sources",
+      "access_method": "Remote web PDF open and find; tool-extracted text with printed-page markers and equation numbers.",
+      "actually_inspected": [
+        {
+          "location": "Introduction",
+          "equations": [
+            "(1.1)–(1.6)"
+          ],
+          "scope": "Returned supergravity potential, auxiliary-field definitions, Planck conventions and Minkowski-vacuum conditions."
+        },
+        {
+          "location": "Sections 2.2–2.3",
+          "equations": [
+            "(2.4)–(2.12)"
+          ],
+          "scope": "Nilpotency, constrained scalar solution, bosonic-potential prescription, canonical rescaling and specified Minkowski model."
+        },
+        {
+          "location": "Section 5, printed pp. 16–17",
+          "scope": "Nilpotent-goldstino range of validity, flat-background high-energy amplitude growth, strong-coupling estimate, full-multiplet qualification and background dependence."
+        }
+      ],
+      "used_in_report": "Validity-range and background/completion qualifications for a nilpotent effective theory; no transplantation of the source inflationary dynamics into this model.",
+      "retrieval_date_utc": "2026-09-25",
+      "local_cache_path": null,
+      "local_file_sha256": null,
+      "local_cache_status": "No local PDF was downloaded by the actual reader. No local cache path or hash was available or verified; tool-internal caching is unknown.",
+      "provenance_status": "Actual delegated remote read; report-writing agent did not independently reopen the PDF. No claim of human reading."
+    }
+  ]
+}

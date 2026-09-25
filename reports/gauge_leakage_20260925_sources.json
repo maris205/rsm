@@ -1,0 +1,50 @@
+{
+  "checked_utc": "2026-09-25T12:09:19.549877+00:00",
+  "sources": [
+    {
+      "id": "martin_vaughn_1994_v4",
+      "title": "Two-Loop Renormalization Group Equations for Soft Supersymmetry-Breaking Couplings",
+      "url": "https://arxiv.org/html/hep-ph/9311340v4",
+      "kind": "author theoretical source",
+      "read_scope": "Section II: equations (2.16), (2.19); gauge contribution to scalar soft RGE and induced bilinear soft parameter. Full HTML acquired; targeted equations inspected.",
+      "sha256": "f90fb4311d6ec2e69bf1b3e6f182820264d58ae82a39494d3995fcb7b45dcf22",
+      "local_cache": "build/gauge_leakage_sources_20260925/martin_vaughn_1994_v4.html",
+      "supports": [
+        "one-loop common scalar soft mass induced by a Majorana gaugino",
+        "bilinear soft term is also generated"
+      ],
+      "does_not_support": [
+        "our numerical force budget",
+        "specific hidden-sector realization",
+        "experimental gaugino exclusion"
+      ]
+    },
+    {
+      "id": "martin_primer_v7",
+      "title": "A Supersymmetry Primer",
+      "url": "https://arxiv.org/html/hep-ph/9709356v7",
+      "kind": "author theoretical source",
+      "read_scope": "Section 6.5: equations (6.5.16), (6.5.18), (6.5.38), (6.5.39), downward-running sign and U(1) charge-trace term. Targeted equations inspected.",
+      "sha256": "078331195f90b6f18771249c9c9887982130da809294040630b9f77cec6271b4",
+      "local_cache": "build/gauge_leakage_sources_20260925/martin_primer_v7.html",
+      "supports": [
+        "one-loop common scalar soft mass induced by a Majorana gaugino",
+        "bilinear soft term is also generated"
+      ],
+      "does_not_support": [
+        "our numerical force budget",
+        "specific hidden-sector realization",
+        "experimental gaugino exclusion"
+      ]
+    }
+  ],
+  "anomalies": [
+    {
+      "action": "Initial legacy v1 HTML fetch",
+      "url": "https://arxiv.org/html/hep-ph/9311340v1",
+      "result": "404; no evidence inferred from inaccessible page; superseded by available v4 HTML. Abs page lists v1/v2 withdrawn and v4 with erratum incorporated."
+    }
+  ],
+  "human_read_attestation": "none",
+  "verification": "Internal AI-assisted source and formula audit; not external peer review"
+}

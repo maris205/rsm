@@ -1,0 +1,144 @@
+{
+  "created_utc": "2026-09-25T12:14:18.847595+00:00",
+  "scope": "independent symbolic and frozen-parent-background budget; no cosmological trajectory integration",
+  "script_sha256": "736b220f3d21b0c8a55e8a15325ad7139a871c5beccd3dbb2f4f20c5bbd4d6ae",
+  "inputs_sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+  "parent_trajectory_sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39",
+  "checks": [
+    {
+      "name": "complete_two_field_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_V",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_Vx",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_Vy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_Vxx",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_Vxy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "axis_Vyy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "aligned_Vx",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "aligned_Vy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quadrature_Vx",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "quadrature_Vy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "anti_aligned_Vx",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "anti_aligned_Vy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_quadrature_rescaled_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_quadrature_stationary",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "heavy_quadrature_effective_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_diagonal_a",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_diagonal_b",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_B_real",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_B_imag",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_hidden_diagonal",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "charged_hidden_holomorphic_B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW_hidden_leading_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CW_hidden_leading_derivative",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "passed": 24,
+  "total": 24,
+  "frozen_axis_budgets": {
+    "aligned_frozen_axis_force_0p1_mG_eV": 5.586054991350297e-35,
+    "quadrature_frozen_axis_force_0p1_mG_eV": 1.6758164974050891e-34,
+    "anti_aligned_frozen_axis_force_0p1_mG_eV": 5.586054991350297e-35,
+    "rho_lambda_eV4": 2.5181378331717977e-11,
+    "nilpotent_sqrtf_floor_eV": 0.0022401127324030413,
+    "sqrtf_at_least_100GeV_order_one_mG_min_eV": 2.3710483334276213e-06,
+    "U_dimless_initial": 50.27593469715373,
+    "U_dimless_final": 0.6795211649093245,
+    "leading_CW_force_ratio_coefficient_per_eV2": 2.515168117468483e+32,
+    "leading_CW_force_0p1_formal_mG_eV": 1.9939602227739136e-17,
+    "leading_CW_force_ratio_at_nominal_100GeV_cutoff": 1.4139948686202574e+21
+  }
+}

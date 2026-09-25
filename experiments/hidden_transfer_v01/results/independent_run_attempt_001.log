@@ -1,0 +1,22 @@
+2015/2015 checks; elapsed 3.139s
+{
+  "max_direct_errors": {
+    "CW_eV4": 3.5066335381494697e-16,
+    "CW_chi_eV4": 6.955392252974617e-16,
+    "s_eV2": 2.097152e-16,
+    "d_eV2": 2.1382117680737566e-16,
+    "B_abs2_eV4": 2.2507047827681627e-16
+  },
+  "precision_repeat_error": 4.31872701401799e-94,
+  "max_KW_error": 3.5987887056961044e-170,
+  "max_valley_errors": {
+    "v": 7.047343781249605e-15,
+    "y": 6.902515918821516e-15,
+    "v_asymptotic": 6.856875030398851e-15,
+    "relative_y_asymptotic_error": 9.384854005034526e-16,
+    "VminusLambda_over_U": 4.441713068094732e-16,
+    "Vx_over_U": 2.961198538368228e-16,
+    "transverse_m2_over_mG2": 2.220599203655207e-16
+  },
+  "max_valley_gradient_residual": 7.104035055471343e-101
+}

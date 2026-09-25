@@ -1,0 +1,392 @@
+{
+  "created_utc": "2026-09-25T12:31:37.212714+00:00",
+  "material_passport": {
+    "type": "User-authorized deterministic theory and numerical consistency study",
+    "data": "1025 archived shift-axis points; no new observations or fitted parameters",
+    "new_model_assumption": "Additive nilpotent X, constant Wc, one constant vacuum-energy condition; optional specified X gauge function",
+    "scope": "Frozen-background local forces, charged finite CW kernel and local heavy-field minima; no new cosmological integration",
+    "disclosure": "AI-assisted derivation, source reading, independent implementations and writing; no external peer review",
+    "protocol_status": "Frozen before full production scan, after analytic and exploratory scale checks; not blind preregistration"
+  },
+  "parent_git_commit": "b6e1514cd902adcb155b4e0e8a50bb2f22ab86f7",
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.5"
+  },
+  "inputs": [
+    {
+      "path": "experiments/sugra_shift_v01/results/inputs.json",
+      "role": "fixed parameters",
+      "bytes": 1556,
+      "sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/trajectories.csv",
+      "role": "unchanged archive; select shift_axis only",
+      "bytes": 6623432,
+      "sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+    },
+    {
+      "path": "experiments/protected_threshold_v01/results/budgets.json",
+      "role": "prior common-soft force budget",
+      "bytes": 5172,
+      "sha256": "dfa6de2be6042c1a1ba07ed851527a0b4423977d06291960881a06259e864a53"
+    },
+    {
+      "path": "experiments/protected_threshold_v01/results/inputs.json",
+      "role": "independent gauge common-soft reference",
+      "bytes": 1826,
+      "sha256": "b066f21b51dc30421229a00dddb6ec154f22e7ddc38cd5fd67926bb9c9a40790"
+    },
+    {
+      "path": "experiments/protected_threshold_v01/results/trajectories.csv",
+      "role": "independent gauge soft_0 reference",
+      "bytes": 5440239,
+      "sha256": "305d25e17d5fbe5f4808899c1a78a8c6e4c41508f24cfcb8e523a3731137a27a"
+    }
+  ],
+  "source_records": [
+    "reports/hidden_transfer_theory_20260925_sources.json",
+    "reports/hidden_transfer_independent_20260925_sources.json",
+    "reports/gauge_leakage_20260925_sources.json"
+  ],
+  "commands": [
+    {
+      "command": "timeout 180 python experiments/hidden_transfer_v01/code/run_transfer.py",
+      "exit_code": 0,
+      "log": "results/run_attempt_001.log",
+      "seconds": 0.7709171772003174,
+      "passed": 35
+    },
+    {
+      "command": "timeout 180 python experiments/hidden_transfer_v01/code/independent_check.py",
+      "exit_code": 0,
+      "log": "results/independent_run_attempt_001.log",
+      "seconds": 3.1386630535125732,
+      "passed": 2015
+    },
+    {
+      "command": "timeout 120 python reports/hidden_transfer_theory_20260925_checks.py",
+      "exit_code": 0,
+      "passed": 29,
+      "result": "reports/hidden_transfer_theory_20260925_checks.json"
+    },
+    {
+      "command": "timeout 120 python reports/hidden_transfer_independent_20260925_checks.py",
+      "exit_code": 0,
+      "passed": 24,
+      "result": "reports/hidden_transfer_independent_20260925_checks.json"
+    },
+    {
+      "command": "timeout 60 python reports/gauge_leakage_20260925_checks.py",
+      "exit_code": 0,
+      "passed": 9,
+      "result": "reports/gauge_leakage_20260925_checks.json"
+    },
+    {
+      "command": "timeout 180 python experiments/hidden_transfer_v01/code/plot_results.py",
+      "exit_code": 0,
+      "log": "results/plot_attempt_002.log",
+      "scope": "Final label-corrected plot render, unchanged scientific CSV inputs"
+    }
+  ],
+  "anomalies": [
+    {
+      "stage": "source retrieval",
+      "outcome": "Martin-Vaughn v1 HTML returned 404; available erratum-incorporated v4 used. Detailed record retained."
+    },
+    {
+      "stage": "independent source retrieval",
+      "outcome": "One remote KS PDF screenshot failed; extracted text was read. Remote-only reading scope and confirmed versions are recorded without fabricated local hashes."
+    },
+    {
+      "stage": "plot review",
+      "outcome": "Initial render displayed misleading all-phase CW label and negative zero z label; final render corrects both. No scientific outputs changed. First render stdout was tool-returned; final render log is archived."
+    },
+    {
+      "stage": "document review",
+      "outcome": "Math delimiters, one missing quad slash, maximum-ratio grouping, heavy-valley hierarchy and local one-loop scope clarified. No model or numerical changes."
+    }
+  ],
+  "verification": {
+    "all_pass": true,
+    "counts": {
+      "main": 35,
+      "theory_symbolic": 29,
+      "independent_symbolic": 24,
+      "independent_numerical": 2015,
+      "gauge_component": 9
+    },
+    "scan_cases": 474,
+    "background_points_per_case": 1025,
+    "representative_rows": 21525,
+    "local_valleys": 9,
+    "direct_supertrace_points": 54,
+    "direct_supertrace_precisions": [
+      180,
+      240
+    ],
+    "max_scan_normalized_error": 1.2873729785622005e-14,
+    "main_and_independent_hashes_checked": true,
+    "interpretation": "Deterministic checks overlap in purpose; counts are not independent physical evidence or confidence levels"
+  },
+  "unchanged_manuscript": {
+    "path": "manuscript_cn/paper.pdf",
+    "role": "86-page manuscript unchanged from parent commit",
+    "bytes": 1729255,
+    "sha256": "bcd56f85a5077fd7b625e82c37aeb5a6115b817fef9eabec740e3425d02acceb"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "role": "archived artifact",
+      "bytes": 22438,
+      "sha256": "33e83c77773724acc259f329e121689ef9f47b6f52c9a72bbf98718cf8a6879e"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "role": "archived artifact",
+      "bytes": 27042,
+      "sha256": "e46cfaaf1c80711a3b9b6b017a93b838da36316f8bb75dddec7b81e09aa5f00b"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "role": "archived artifact",
+      "bytes": 24421,
+      "sha256": "c3181d8a7094a604eb648d0e19c2641ad94f234d1b670d70cba690e4eba13c76"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/README.md",
+      "role": "archived artifact",
+      "bytes": 3917,
+      "sha256": "701a60780d4aa795dcb1180769081769f16c972ad72775c39f8309c08f1af2d9"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/code/independent_check.py",
+      "role": "archived artifact",
+      "bytes": 16369,
+      "sha256": "4ed843603822f97a82f78f7949cf0252d3902dd9a67060bee9d2ee41572cc653"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/code/plot_results.py",
+      "role": "archived artifact",
+      "bytes": 4459,
+      "sha256": "3975d69ad29feaa5621df86b0031b8cd9e92a26332ffd95d472c7eb8d65a6fe5"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/code/run_transfer.py",
+      "role": "archived artifact",
+      "bytes": 11483,
+      "sha256": "4ef6e6437fbd3990fe051cc01f3b21b9169954b8465c6f5f03abbf9179a14035"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/figures/heavy_valley_and_gauge_channel.pdf",
+      "role": "archived artifact",
+      "bytes": 28897,
+      "sha256": "133f6f119339e3b80b2ecedc04013cf3e666b805a3afb0105de263ae19680987"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/figures/heavy_valley_and_gauge_channel.png",
+      "role": "archived artifact",
+      "bytes": 209220,
+      "sha256": "4d9aed73ce34c7c05a6dfa2f46123d451e341eebb340114818d59ecccb3451eb"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/figures/hidden_force_and_domain.pdf",
+      "role": "archived artifact",
+      "bytes": 26598,
+      "sha256": "c8e551a27b4e3df4add9ae2fb419d530fe82720071454de24aef8adf64c1c1e8"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/figures/hidden_force_and_domain.png",
+      "role": "archived artifact",
+      "bytes": 220039,
+      "sha256": "351827d19434811102a48a46c34ebd6488df87dbb781809b706e4f9bdcf26419"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/protocol.md",
+      "role": "archived artifact",
+      "bytes": 4770,
+      "sha256": "b15abe83b2cbacf902f8c3ddd3886f7522607a17561ece392525a5fe45863d40"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "role": "archived artifact",
+      "bytes": 2063,
+      "sha256": "ae94801585200dbd004c44c9180bcac2b770443cb37777866d055d1eab5e7e99"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/reports/results_cn.md",
+      "role": "archived artifact",
+      "bytes": 14422,
+      "sha256": "480f42248efc04571e12277329ffa0912a0909c07f2d696987075de834a6d1a6"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/archive_validation.json",
+      "role": "archived artifact",
+      "bytes": 31636,
+      "sha256": "efd8f48f52ff5b59f0eabbc8edf5fd5f51dc86c705f0e7f1d830822325234fb8"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/independent_potential.csv",
+      "role": "archived artifact",
+      "bytes": 3517,
+      "sha256": "84aab825873d0afde038b82f2316064ce3d4354597d27b7c44558be462898e88"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/independent_run_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 738,
+      "sha256": "0e9b25ae85d71ca0934a4373a7af79fb1c0850f2755dcc7ffa164ad8f98a88c2"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/independent_scan.csv",
+      "role": "archived artifact",
+      "bytes": 121701,
+      "sha256": "39ee046320630e625b300a99200bb3545df1536be072143fb480da976d0a79c9"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/independent_summary.json",
+      "role": "archived artifact",
+      "bytes": 313377,
+      "sha256": "bcf9da39bbff17c54cda2f4cac8e71f52b3dc601b577fa6a5c300e90014732b4"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/independent_supertrace.csv",
+      "role": "archived artifact",
+      "bytes": 5850,
+      "sha256": "13b29c3de4e21690e5218880bd34f5900cde26e6c274cadda539e792fca2f56e"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/independent_valleys.csv",
+      "role": "archived artifact",
+      "bytes": 1470,
+      "sha256": "8ff75e4cca559449fe759067a965595ab47ffac35caabc505f6ec65ba6a87659"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/inputs.json",
+      "role": "archived artifact",
+      "bytes": 5847,
+      "sha256": "746b4842ada581ddb0e1cb0ae0f0cd415f749b80d54573ed76621ab1b501c7a2"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/plot_attempt_002.log",
+      "role": "archived artifact",
+      "bytes": 46,
+      "sha256": "cb74dedd48f59383064cb972585cd1693110c6a1f7e3117a1ca167056113d3ea"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/representative_curves.csv",
+      "role": "archived artifact",
+      "bytes": 4682240,
+      "sha256": "5908399be0a951988303311173053f51d30579e8e241fa20bd5dae64d8981cb4"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/run_attempt_001.log",
+      "role": "archived artifact",
+      "bytes": 1435,
+      "sha256": "43f4bc138acf62f93a8b448e46708bf009b89e33ed8a9e1cc646a6eb6b689c42"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/scan.csv",
+      "role": "archived artifact",
+      "bytes": 142594,
+      "sha256": "dbc050287726858d0c22b6cb64bbf126cd303943912e29b57b4c47fe46032790"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/summary.json",
+      "role": "archived artifact",
+      "bytes": 7281,
+      "sha256": "47d960f4ed412993630deb63ae732dfa9db18d764921d6ce3d8d8ca7884be979"
+    },
+    {
+      "path": "experiments/hidden_transfer_v01/results/valleys.csv",
+      "role": "archived artifact",
+      "bytes": 2558,
+      "sha256": "370935539630da51d33f39a920c60c40c331c3989482fe8972c04af85a9d0c01"
+    },
+    {
+      "path": "reports/gauge_leakage_20260925.md",
+      "role": "archived artifact",
+      "bytes": 7321,
+      "sha256": "3e91845e8ccdc852fceef08abf5d5a64b08d8374b045ffdb2439be9bdc898302"
+    },
+    {
+      "path": "reports/gauge_leakage_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 3569,
+      "sha256": "d2ea3c8b9d2956c9eec8c0de9a240d7a07382e32318b6f9d346e63531ca08302"
+    },
+    {
+      "path": "reports/gauge_leakage_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 6458,
+      "sha256": "91ed5a998292d18a68aefb851d1bbea06444e7d0bfedd9111454c187b719607e"
+    },
+    {
+      "path": "reports/gauge_leakage_20260925_sources.json",
+      "role": "archived artifact",
+      "bytes": 2256,
+      "sha256": "21670d6c61285d2f60be09f30c68b0b6aad21422e5834193d497b5bd780f85cc"
+    },
+    {
+      "path": "reports/hidden_transfer_independent_20260925.md",
+      "role": "archived artifact",
+      "bytes": 9031,
+      "sha256": "9788b06faa025d05b107279d77c984b49e8e6c062bece37e5a8375aa96e7811a"
+    },
+    {
+      "path": "reports/hidden_transfer_independent_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 3420,
+      "sha256": "eb27537a9f64e7fb89a7799cffb8fbcf1c9027088286d6124c8f43f0ea1c445e"
+    },
+    {
+      "path": "reports/hidden_transfer_independent_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 6883,
+      "sha256": "736b220f3d21b0c8a55e8a15325ad7139a871c5beccd3dbb2f4f20c5bbd4d6ae"
+    },
+    {
+      "path": "reports/hidden_transfer_independent_20260925_sources.json",
+      "role": "archived artifact",
+      "bytes": 7751,
+      "sha256": "5ddf809402d1f98c3f2ec2a0c9802c86508ea7ad394f95432a9352d6eaf95cf1"
+    },
+    {
+      "path": "reports/hidden_transfer_theory_20260925.md",
+      "role": "archived artifact",
+      "bytes": 11706,
+      "sha256": "1c5cb7f882256639a9d4bff23d4cdfa7cb0b7bd751959b9fa0667f428ce39695"
+    },
+    {
+      "path": "reports/hidden_transfer_theory_20260925_checks.json",
+      "role": "archived artifact",
+      "bytes": 3215,
+      "sha256": "a59813be042aacb8f41ff3d7de5748ddf1277345c223a7b143da0bb3fef0e6af"
+    },
+    {
+      "path": "reports/hidden_transfer_theory_20260925_checks.py",
+      "role": "archived artifact",
+      "bytes": 5226,
+      "sha256": "f6a0fb863653947a359205458fea78f8ec7916c15f0287b9667565cb766e7f1b"
+    },
+    {
+      "path": "reports/hidden_transfer_theory_20260925_sources.json",
+      "role": "archived artifact",
+      "bytes": 5142,
+      "sha256": "a1c2f76a325e22da8de3fcc8879770ca8ad05115ca7bf87c1dc3e465bc3f5f71"
+    }
+  ],
+  "notes": [
+    "File paths are repository-relative; log paths in commands are experiment-relative. Manifest does not hash itself.",
+    "Primary full-text caches under ignored build are indexed where available by source records, not redistributed as our work.",
+    "Below the VA marker, 100 GeV loop values are formal extrapolations; passing the marker is not proof of a UV completion.",
+    "Budget 0.1 and fixed finite subtraction are declared modeling choices, not experimental exclusions.",
+    "No new background solution or alpha(t) prediction was produced after adding hidden transmission."
+  ]
+}
