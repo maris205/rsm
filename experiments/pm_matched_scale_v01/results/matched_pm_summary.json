@@ -1,0 +1,455 @@
+{
+  "created_utc": "2026-09-25T04:33:01.870324+00:00",
+  "protocol_sha256": "4409835c2fd93047d5df7bcb9675b0771e72fc0bfdfb0dd69e8a89c54cae9bf0",
+  "started_utc": "2026-09-25T03:10:26.336371+00:00",
+  "command_argv": [
+    "riemann_model/experiments/pm_matched_scale_v01/code/run_matched_pm.py",
+    "--parallel",
+    "2",
+    "--fft-workers",
+    "4"
+  ],
+  "code_sha256": {
+    "run_matched_pm.py": "8d234201feb262548d5486fbddefbe832505a34a94b77a632f91df065904f146"
+  },
+  "archived_source_sha256": {
+    "halo_cooling_v01/code/pm_refined.py": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602",
+    "halo_cooling_v01/code/spherical_collapse.py": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47",
+    "halo_cooling_v01/code/run_spherical_pm.py": "4c8f29acc2598935a30b027691ccf3f01ae34b6b80a27aac0f7cf5349fafa28b",
+    "halo_cooling_v01/results/sphere_summary.json": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275",
+    "halo_cooling_v01/results/refined_pm_validation.json": "8f97dd3a305e99ca2fbfd7e7f79c128812b5d57e6d35c690793784de2d7781f6",
+    "cosmic_bridge_v01/code/pm.py": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+    "cosmic_bridge_v01/results/background_summary.json": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307",
+    "cosmic_bridge_v01/results/background_eps0.csv": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0",
+    "cosmic_bridge_v01/results/background_eps1e-4.csv": "2f6fc8ea8e1b24cb87b41129d30005030488da0bb20974625187a8936942ef13"
+  },
+  "input_sha256": {
+    "matched_runner_validation.json": "7c31645317f88d17967921642495a969e65a04e1105452d6c4fc5ad661eebe58"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "runs": {
+    "ref_matched64": {
+      "status": "completed",
+      "event200": {
+        "a": 0.5109537192205208,
+        "z": 0.9571244173064006,
+        "t_Gyr": 6.0185725582217104,
+        "y_median": 0.17099759466767017,
+        "Delta_proxy": 199.99999999999835,
+        "nonhomology_fraction": 0.09239250299352154,
+        "axis_ratio_min_max": 0.9999999999999994,
+        "actual_enclosed_mean_density_ratio": 205.9067076251379,
+        "actual_enclosed_particle_count_at_proxy_radius": 17664,
+        "estimator": "first fixed-label median(r/q)^(-3)=200, temporary partial KDK root"
+      },
+      "turnaround": {
+        "a": 0.33372505328944685,
+        "t_Gyr": 3.274867538775164,
+        "bracket_a": [
+          0.3319627467635659,
+          0.3341185177566997
+        ],
+        "estimator": "linear interpolation of physical radial expansion ratio in ln(a)",
+        "bracket_relative_width": 0.006494014807839843
+      },
+      "ode_event200": {
+        "a": 0.4999999999999683,
+        "N": -0.6931471805600087,
+        "E": 1.7906367583002212,
+        "dlnE": -1.1798177384300288,
+        "Omega_m": 0.785933045946586,
+        "t_Gyr": 5.840746999307794,
+        "y": 0.1709975946676697,
+        "y_N": -1.724798868555325,
+        "Delta": 200.0,
+        "delta": 199.0,
+        "comoving_radius_Mpc_h": 0.42749398666917426,
+        "physical_radius_Mpc_h": 0.21374699333457356,
+        "physical_radial_velocity_km_s": -347.7867095145961,
+        "peculiar_radial_velocity_km_s": -386.0610318387001
+      },
+      "initial_force_diagnostic": {
+        "mean_radial_g": -0.003343633790151004,
+        "median_radial_g": -0.003489527450400826,
+        "fraction_particles_with_inward_g": 1.0,
+        "relative_L2_error_vs_uniform_core": 0.02373163735176387,
+        "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units",
+        "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only",
+        "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"
+      },
+      "initial_force_seconds": 0.46867936477065086,
+      "force_shape_diagnostics": {
+        "initial": {
+          "angular_cubic_Q4": 0.0006800301406866271,
+          "angular_cubic_Q4_difference_from_initial": 0.0,
+          "core_radial_force_L2": 0.2849117582708895,
+          "core_transverse_force_L2": 4.364476635334132e-06,
+          "core_transverse_to_radial_force_L2_ratio": 1.5318696082681355e-05,
+          "scope": "initial/final descriptive diagnostics, not fitted or thresholded"
+        },
+        "final": {
+          "angular_cubic_Q4": -0.08609255450301079,
+          "angular_cubic_Q4_difference_from_initial": -0.08677258464369741,
+          "core_radial_force_L2": 140.4659559039209,
+          "core_transverse_force_L2": 9.11335945489535,
+          "core_transverse_to_radial_force_L2_ratio": 0.06487948909932961,
+          "scope": "initial/final descriptive diagnostics, not fitted or thresholded"
+        }
+      },
+      "diagnostics": {
+        "finite": true,
+        "max_mass_relative_error": 2.220446049250313e-16,
+        "max_total_force_normalized": 3.328369704600648e-15,
+        "max_total_force_absolute": 5.047166214483187e-16,
+        "max_momentum_change_absolute": 4.224594770507602e-17,
+        "max_drift_cells": 0.07436799487266789,
+        "max_actual_dt_over_tdyn": 0.01500686426165129,
+        "max_nonhomology_fraction": 0.09239250299352154,
+        "max_axis_deviation": 9.992007221626409e-16,
+        "max_radius_relative_error_vs_ode_common_pre_event": 0.20262683569510354,
+        "common_pre_event_end_a": 0.4999999999999683,
+        "common_pre_event_samples": 554,
+        "event_relative_error_vs_ode": 0.02190743844110643,
+        "partial_event_root_position_evaluations": 6,
+        "steps": 567,
+        "maximum_step_halvings": 2,
+        "resource_stop_reason": null
+      },
+      "checks": [
+        {
+          "name": "finite",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "event200_present",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "mass",
+          "value": 2.220446049250313e-16,
+          "threshold": 1e-12,
+          "passed": true
+        },
+        {
+          "name": "total_force",
+          "value": 3.328369704600648e-15,
+          "threshold": 1e-11,
+          "passed": true
+        },
+        {
+          "name": "actual_drift_cells",
+          "value": 0.07436799487266789,
+          "threshold": 0.2,
+          "passed": true
+        },
+        {
+          "name": "actual_dt_over_tdyn",
+          "value": 0.01500686426165129,
+          "threshold": 0.05,
+          "passed": true
+        },
+        {
+          "name": "nonhomology",
+          "value": 0.09239250299352154,
+          "threshold": 0.1,
+          "passed": true
+        },
+        {
+          "name": "axis_deviation",
+          "value": 9.992007221626409e-16,
+          "threshold": 0.1,
+          "passed": true
+        },
+        {
+          "name": "resource_limits_not_reached",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "PM_vs_ODE_event",
+          "value": 0.02190743844110643,
+          "threshold": 0.02,
+          "passed": false
+        },
+        {
+          "name": "PM_vs_ODE_radius",
+          "value": 0.20262683569510354,
+          "threshold": 0.03,
+          "passed": false
+        }
+      ],
+      "failures": [
+        {
+          "name": "PM_vs_ODE_event",
+          "value": 0.02190743844110643,
+          "threshold": 0.02,
+          "passed": false
+        },
+        {
+          "name": "PM_vs_ODE_radius",
+          "value": 0.20262683569510354,
+          "threshold": 0.03,
+          "passed": false
+        }
+      ],
+      "wall_seconds": 303.91646453365684,
+      "array_sha256": "45ea2a4d00d8f77fe1b320d018fbb6d28db577f8e31cf776035c473657fc2eca",
+      "state_archives": {
+        "positions": {
+          "file": "pm_ref_matched64_final_positions.npz",
+          "sha256": "bea0b6f851466f799493dab503ecb7d02463be8363c9e7bc1e1812dc51a3fbd9",
+          "bytes": 3294201,
+          "shape": [
+            262144,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "momenta": {
+          "file": "pm_ref_matched64_final_momenta.npz",
+          "sha256": "b61ce16102ab69625c9a90ce3d644ac39c5c1003c9bd1f7c43851bcdf09f4ac5",
+          "bytes": 4085801,
+          "shape": [
+            262144,
+            3
+          ],
+          "dtype": "float64"
+        }
+      },
+      "json_sha256": "78ed9e2426bbbb6d073883a8ba6cb08af31756e35cd3519238ebc77056b8d134"
+    },
+    "ref_matched128": {
+      "status": "completed",
+      "event200": {
+        "a": 0.5015828888584287,
+        "z": 0.993688425607854,
+        "t_Gyr": 5.8664026213455305,
+        "y_median": 0.17099759466703826,
+        "Delta_proxy": 200.00000000221561,
+        "nonhomology_fraction": 0.05398007654326833,
+        "axis_ratio_min_max": 0.9999999999999987,
+        "actual_enclosed_mean_density_ratio": 203.3305424108412,
+        "actual_enclosed_particle_count_at_proxy_radius": 139544,
+        "estimator": "first fixed-label median(r/q)^(-3)=200, temporary partial KDK root"
+      },
+      "turnaround": {
+        "a": 0.32777203385725945,
+        "t_Gyr": 3.1896964360056264,
+        "bracket_a": [
+          0.32769284287803174,
+          0.3287551421092494
+        ],
+        "estimator": "linear interpolation of physical radial expansion ratio in ln(a)",
+        "bracket_relative_width": 0.003241752922913399
+      },
+      "ode_event200": {
+        "a": 0.4999999999999683,
+        "N": -0.6931471805600087,
+        "E": 1.7906367583002212,
+        "dlnE": -1.1798177384300288,
+        "Omega_m": 0.785933045946586,
+        "t_Gyr": 5.840746999307794,
+        "y": 0.1709975946676697,
+        "y_N": -1.724798868555325,
+        "Delta": 200.0,
+        "delta": 199.0,
+        "comoving_radius_Mpc_h": 0.42749398666917426,
+        "physical_radius_Mpc_h": 0.21374699333457356,
+        "physical_radial_velocity_km_s": -347.7867095145961,
+        "peculiar_radial_velocity_km_s": -386.0610318387001
+      },
+      "initial_force_diagnostic": {
+        "mean_radial_g": -0.003353611834452949,
+        "median_radial_g": -0.0034948125152562183,
+        "fraction_particles_with_inward_g": 1.0,
+        "relative_L2_error_vs_uniform_core": 0.022918651218957836,
+        "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units",
+        "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only",
+        "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"
+      },
+      "initial_force_seconds": 5.155341848731041,
+      "force_shape_diagnostics": {
+        "initial": {
+          "angular_cubic_Q4": 0.0004188917409402304,
+          "angular_cubic_Q4_difference_from_initial": 0.0,
+          "core_radial_force_L2": 0.8107504129424706,
+          "core_transverse_force_L2": 0.0022460429564297663,
+          "core_transverse_to_radial_force_L2_ratio": 0.0027703260097989508,
+          "scope": "initial/final descriptive diagnostics, not fitted or thresholded"
+        },
+        "final": {
+          "angular_cubic_Q4": -0.06243546055846283,
+          "angular_cubic_Q4_difference_from_initial": -0.06285435229940306,
+          "core_radial_force_L2": 396.1976807723415,
+          "core_transverse_force_L2": 78.68277832923751,
+          "core_transverse_to_radial_force_L2_ratio": 0.19859474738937022,
+          "scope": "initial/final descriptive diagnostics, not fitted or thresholded"
+        }
+      },
+      "diagnostics": {
+        "finite": true,
+        "max_mass_relative_error": 2.220446049250313e-16,
+        "max_total_force_normalized": 2.799262320850795e-15,
+        "max_total_force_absolute": 5.302357486618408e-16,
+        "max_momentum_change_absolute": 4.153053011774655e-17,
+        "max_drift_cells": 0.07484366809810608,
+        "max_actual_dt_over_tdyn": 0.009516773796918288,
+        "max_nonhomology_fraction": 0.05398007654326833,
+        "max_axis_deviation": 1.7763568394002505e-15,
+        "max_radius_relative_error_vs_ode_common_pre_event": 0.031266242761234464,
+        "common_pre_event_end_a": 0.4999999999999683,
+        "common_pre_event_samples": 726,
+        "event_relative_error_vs_ode": 0.0031657777169209478,
+        "partial_event_root_position_evaluations": 5,
+        "steps": 730,
+        "maximum_step_halvings": 3,
+        "resource_stop_reason": null
+      },
+      "checks": [
+        {
+          "name": "finite",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "event200_present",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "mass",
+          "value": 2.220446049250313e-16,
+          "threshold": 1e-12,
+          "passed": true
+        },
+        {
+          "name": "total_force",
+          "value": 2.799262320850795e-15,
+          "threshold": 1e-11,
+          "passed": true
+        },
+        {
+          "name": "actual_drift_cells",
+          "value": 0.07484366809810608,
+          "threshold": 0.2,
+          "passed": true
+        },
+        {
+          "name": "actual_dt_over_tdyn",
+          "value": 0.009516773796918288,
+          "threshold": 0.05,
+          "passed": true
+        },
+        {
+          "name": "nonhomology",
+          "value": 0.05398007654326833,
+          "threshold": 0.1,
+          "passed": true
+        },
+        {
+          "name": "axis_deviation",
+          "value": 1.7763568394002505e-15,
+          "threshold": 0.1,
+          "passed": true
+        },
+        {
+          "name": "resource_limits_not_reached",
+          "value": true,
+          "threshold": null,
+          "passed": true
+        },
+        {
+          "name": "PM_vs_ODE_event",
+          "value": 0.0031657777169209478,
+          "threshold": 0.02,
+          "passed": true
+        },
+        {
+          "name": "PM_vs_ODE_radius",
+          "value": 0.031266242761234464,
+          "threshold": 0.03,
+          "passed": false
+        }
+      ],
+      "failures": [
+        {
+          "name": "PM_vs_ODE_radius",
+          "value": 0.031266242761234464,
+          "threshold": 0.03,
+          "passed": false
+        }
+      ],
+      "wall_seconds": 4955.402622755617,
+      "array_sha256": "31bafc7501ba6e7172b123ba070199c3e4eb0dfbbea6798be511514a9e2103bd",
+      "state_archives": {
+        "positions": {
+          "file": "pm_ref_matched128_final_positions.npz",
+          "sha256": "fd9c4d96adf7330437da9d5bc7468c6862d8a26d09ced080f7d12fabd7fa0687",
+          "bytes": 31888565,
+          "shape": [
+            2097152,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "momenta": {
+          "file": "pm_ref_matched128_final_momenta.npz",
+          "sha256": "c17321f17662daa7fb383058829a9920802871f376ed51e2154e509d5ef368bb",
+          "bytes": 38474099,
+          "shape": [
+            2097152,
+            3
+          ],
+          "dtype": "float64"
+        }
+      },
+      "json_sha256": "48c63ee98aa91b44bf9bbc77dddcf4a944f4cbadbbec4ac0ad9012f5626c5991"
+    }
+  },
+  "comparisons": {
+    "matched128_event_relative_to_matched64": -0.018339880912086604
+  },
+  "checks": [
+    {
+      "name": "matched128_event_vs_matched64",
+      "value": -0.018339880912086604,
+      "threshold": 0.01,
+      "passed": false
+    },
+    {
+      "name": "both_cases_completed",
+      "value": true,
+      "threshold": null,
+      "passed": true
+    }
+  ],
+  "failures": [
+    {
+      "name": "matched128_event_vs_matched64",
+      "value": -0.018339880912086604,
+      "threshold": 0.01,
+      "passed": false
+    }
+  ],
+  "case_failure_count": 3,
+  "wall_seconds": 4955.53464306891,
+  "concurrent_production_jobs": 2,
+  "fft_workers_per_case": 4,
+  "resource_policy": {
+    "maximum_wall_seconds": 14400,
+    "maximum_steps_per_case": 10000,
+    "enforcement": "checked between accepted steps; terminal archive may add a small bounded overrun"
+  },
+  "scope": "Two matched-scale epsilon=0 sphere diagnostics; no independent phase/time convergence, new clock response, halo structure or gas evolution claim"
+}

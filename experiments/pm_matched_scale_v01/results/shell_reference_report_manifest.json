@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-09-25T03:15:08.722902+00:00",
+  "scope": "Report/log manifest written after numerical execution; no numerical result or source changed",
+  "report_sha256": {
+    "experiments/pm_matched_scale_v01/reports/shell_reference_cn.md": "4a5a4a7d348e4217255080bb5fa074873a3900534b1f9e2cf5bb1e777e48b3e5",
+    "experiments/pm_matched_scale_v01/reports/shell_reference_execution.log": "f01e81a0599588a5347de4ff24a3b492a99a9d60f9432eea6b550fa378f62322"
+  },
+  "numerical_manifest_sha256": "f3c4a63f190b2cb0f4f64af901df20ddbf5366a7349e7f20db50f0307f6208f7"
+}

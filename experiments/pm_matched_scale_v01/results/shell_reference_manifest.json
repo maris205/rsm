@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-25T03:11:40.082801+00:00",
+  "protocol_sha256": "4409835c2fd93047d5df7bcb9675b0771e72fc0bfdfb0dd69e8a89c54cae9bf0",
+  "code_sha256": "c61001a53f8b977b74b8bf19d10ada18d7d2eba7be32b256a8909083cf68e3fa",
+  "input_sha256": {
+    "experiments/halo_cooling_v01/code/pm_refined.py": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602",
+    "experiments/halo_cooling_v01/code/spherical_collapse.py": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47",
+    "experiments/halo_cooling_v01/results/sphere_summary.json": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275",
+    "experiments/halo_cooling_v01/results/sphere_reference.csv": "f96b0572abb16132aa7425143fdc498445bf2ddf45f9d971767d8c26075ee8a1",
+    "experiments/cosmic_bridge_v01/code/pm.py": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+    "experiments/cosmic_bridge_v01/results/background_eps0.csv": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0",
+    "experiments/cosmic_bridge_v01/results/background_summary.json": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307"
+  },
+  "artifact_sha256": {
+    "experiments/pm_matched_scale_v01/results/shell_reference_initial_force128.json": "ec8dd847eaca37d086209000a4275a52af9d46716f2388f036b98a710a4eb29d",
+    "experiments/pm_matched_scale_v01/results/shell_reference_initial_force128.npy": "f9d62814275ae022ab8314e2a0f6623235cd5d6a1e733071bd2e8708e9662a75",
+    "experiments/pm_matched_scale_v01/results/shell_reference_initial_force128_bins.csv": "3a62a1f25b71b0d20fa593fc837bc4b5ba2149904b786a82f5b6cae9612fce5d",
+    "experiments/pm_matched_scale_v01/results/shell_reference_initial_force64.json": "7b8f3044ec79144dc857835435c418c303eb4d9e83ac470dcc528d144469d490",
+    "experiments/pm_matched_scale_v01/results/shell_reference_initial_force64.npy": "1b2809cc6b8a3fb25b79246b9a0858417a404db8309d5578014830a8b4234a32",
+    "experiments/pm_matched_scale_v01/results/shell_reference_initial_force64_bins.csv": "154c5880da4edfd76281e6a02278b12774ff2296ee432f308adf18bb10486185",
+    "experiments/pm_matched_scale_v01/results/shell_reference_initial_profile.csv": "9db3c4cace5e5997cbf5055f93972c9b7fc0ca07c9d92a44ed629fbd49d2afc2",
+    "experiments/pm_matched_scale_v01/results/shell_reference_summary.json": "cd3eab7e63a060815c8f25cb7101bb3f9d5236ad019a5b477389f2e19aa45d79",
+    "experiments/pm_matched_scale_v01/results/shell_reference_trajectories.npz": "ae41cfcbbf96862b59108eefcdae8c8b8236cd3a0c70e288c4be9b7fd9cac860"
+  }
+}

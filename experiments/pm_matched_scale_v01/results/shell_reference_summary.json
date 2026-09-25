@@ -1,0 +1,635 @@
+{
+  "created_utc": "2026-09-25T03:11:26.400173+00:00",
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python experiments/pm_matched_scale_v01/code/shell_reference.py",
+  "argv": [
+    "experiments/pm_matched_scale_v01/code/shell_reference.py"
+  ],
+  "working_directory": "/root/autodl-tmp/dsc_world/riemann_model",
+  "protocol_sha256": "4409835c2fd93047d5df7bcb9675b0771e72fc0bfdfb0dd69e8a89c54cae9bf0",
+  "code_sha256": "c61001a53f8b977b74b8bf19d10ada18d7d2eba7be32b256a8909083cf68e3fa",
+  "input_sha256": {
+    "experiments/halo_cooling_v01/code/pm_refined.py": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602",
+    "experiments/halo_cooling_v01/code/spherical_collapse.py": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47",
+    "experiments/halo_cooling_v01/results/sphere_summary.json": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275",
+    "experiments/halo_cooling_v01/results/sphere_reference.csv": "f96b0572abb16132aa7425143fdc498445bf2ddf45f9d971767d8c26075ee8a1",
+    "experiments/cosmic_bridge_v01/code/pm.py": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+    "experiments/cosmic_bridge_v01/results/background_eps0.csv": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0",
+    "experiments/cosmic_bridge_v01/results/background_summary.json": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307"
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "resources": {
+    "FFT_workers": 4,
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "inputs": {
+    "delta_i": 0.07295182597218097,
+    "a_initial": 0.02,
+    "L_Mpc_h": 10.0,
+    "qL_Mpc_h": 2.5,
+    "qc_Mpc_h": 4.0,
+    "epsilon": 0.0,
+    "mass_integral_tolerance": 1e-09,
+    "core_comparison_tolerance": 1e-06
+  },
+  "checks": [
+    {
+      "name": "frozen_protocol_identity",
+      "passed": true
+    },
+    {
+      "name": "dependency_identity:experiments/halo_cooling_v01/code/pm_refined.py",
+      "passed": true
+    },
+    {
+      "name": "dependency_identity:experiments/halo_cooling_v01/code/spherical_collapse.py",
+      "passed": true
+    },
+    {
+      "name": "dependency_identity:experiments/halo_cooling_v01/results/sphere_summary.json",
+      "passed": true
+    },
+    {
+      "name": "dependency_identity:experiments/halo_cooling_v01/results/sphere_reference.csv",
+      "passed": true
+    },
+    {
+      "name": "dependency_identity:experiments/cosmic_bridge_v01/code/pm.py",
+      "passed": true
+    },
+    {
+      "name": "dependency_identity:experiments/cosmic_bridge_v01/results/background_eps0.csv",
+      "passed": true
+    },
+    {
+      "name": "dependency_identity:experiments/cosmic_bridge_v01/results/background_summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_initial_amplitude",
+      "passed": true
+    },
+    {
+      "name": "independent_initial_mass_integrals",
+      "value": 2.184056814026095e-14,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "initial_Jacobian_positive",
+      "passed": true
+    },
+    {
+      "name": "outer_boundary_mass_compensation",
+      "value": 5.051722693268111e-15,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "outer_boundary_displacement",
+      "value": 0.0,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_independent_initial_position",
+      "value": 1.1102230246251565e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_independent_initial_momentum",
+      "value": 1.3232772218480307e-18,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_initial_Jacobian_positive",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_fixed_core_labels",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_initial_radius_over_q",
+      "value": 2.3314683517128287e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_deposited_mass",
+      "value": 0.0,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_net_force",
+      "value": 2.4838534695033526e-16,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_finite_force",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_independent_initial_position",
+      "value": 1.1102230246251565e-16,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_independent_initial_momentum",
+      "value": 1.872789846379258e-18,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_initial_Jacobian_positive",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_fixed_core_labels",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_initial_radius_over_q",
+      "value": 2.3314683517128287e-15,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_deposited_mass",
+      "value": 0.0,
+      "threshold": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_net_force",
+      "value": 3.0494823789066816e-16,
+      "threshold": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_finite_force",
+      "passed": true
+    },
+    {
+      "name": "physical_shell_solver_success",
+      "passed": true,
+      "message": "A termination event occurred."
+    },
+    {
+      "name": "core200_event_exists",
+      "passed": true
+    },
+    {
+      "name": "no_sampled_shell_crossing_before_endpoint",
+      "passed": true
+    },
+    {
+      "name": "sampled_shell_order_positive",
+      "passed": true,
+      "minimum_gap_physical_box": 0.00012210026465178843
+    },
+    {
+      "name": "core_homology_relative",
+      "value": 1.2168044349891716e-13,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "core_vs_saved_sphere_y",
+      "value": 6.247324879637972e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "core_vs_saved_sphere_y_N",
+      "value": 2.455011749447067e-10,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "core_event_vs_saved_sphere",
+      "value": -1.82576176399607e-12,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "outer_shell_remains_background",
+      "value": 1.1510348230103773e-11,
+      "threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "exactly_two_completed_initial_force_calls",
+      "passed": true
+    },
+    {
+      "name": "archived_inputs_unchanged",
+      "passed": true
+    }
+  ],
+  "initial_force_cases": {
+    "ref_matched64": {
+      "label": "ref_matched64",
+      "nparticle_per_side": 64,
+      "nmesh_per_side": 64,
+      "force_calls": 1,
+      "force_seconds": 0.5087919011712074,
+      "FFT_workers": 4,
+      "preparation_and_diagnostics_seconds": 0.9713877029716969,
+      "timing_scope": "One initial force call, not a production benchmark or full-run estimate",
+      "initial_Q4": 0.0006800301406866271,
+      "initial_Jacobian_min": 0.9320082931905345,
+      "regions": {
+        "fixed_core": {
+          "count": 6928,
+          "reference_L2": 0.29183753842436605,
+          "reference_RMS": 0.003506204267455913,
+          "vector_relative_L2": 0.023731637351767223,
+          "radial_relative_L2": 0.023731632639559977,
+          "transverse_relative_L2": 1.4955158472429376e-05,
+          "mean_radial_actual": -0.003343633790151004,
+          "mean_radial_reference": -0.003424912553147641,
+          "particles_with_inward_force_fraction": 1.0,
+          "classification": "descriptive discretization diagnostics; no added force-accuracy pass threshold"
+        },
+        "transition": {
+          "count": 53064,
+          "reference_L2": 0.8625580087917551,
+          "reference_RMS": 0.003744452448537196,
+          "vector_relative_L2": 0.0269625765333576,
+          "radial_relative_L2": 0.02626077703814619,
+          "transverse_relative_L2": 0.006111638296720497,
+          "mean_radial_actual": -0.0029107808291696053,
+          "mean_radial_reference": -0.00286951287091055,
+          "particles_with_inward_force_fraction": 0.9954771596562642,
+          "classification": "descriptive discretization diagnostics; no added force-accuracy pass threshold"
+        }
+      },
+      "exterior": {
+        "count": 191824,
+        "reference_force": 0.0,
+        "actual_absolute_L2_box": 0.003130979527228646,
+        "actual_RMS_box": 7.1487277270421595e-06,
+        "actual_max_norm_box": 3.555261374240772e-05,
+        "L2_over_core_reference_L2": 0.010728501700407829,
+        "RMS_over_core_reference_RMS": 0.0020388794210866802,
+        "classification": "descriptive; no division by individual zero-force references"
+      },
+      "operator_diagnostics": {
+        "raw_mass": 1.0,
+        "mass_relative_error": 0.0,
+        "density_contrast_mean": -1.0842021724855044e-19,
+        "total_force_absolute": 2.1850206631923034e-19,
+        "total_force_normalized": 2.4838534695033526e-16,
+        "mean_force_magnitude": 0.000879689840813838,
+        "max_force_magnitude": 0.006234346679526456,
+        "real_fft": true,
+        "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+      },
+      "initial_metadata": {
+        "nparticle": 64,
+        "particles": 262144,
+        "box_mpc_h": 10.0,
+        "a_initial": 0.02,
+        "delta_nl_core": 0.07295182597218097,
+        "scale_core": 0.9768021172143073,
+        "core_lagrangian_radius_box": 0.25,
+        "compensation_radius_box": 0.4,
+        "core_label_interval_q_over_qL": [
+          0.25,
+          0.75
+        ],
+        "core_label_count": 6928,
+        "E_reference_initial": 199.87667424689658,
+        "f_reference_initial": 0.9903491493236205,
+        "velocity_core_y_N": -0.021924495763588223,
+        "shift_box": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "center_box": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mass_excess_compensated": true,
+        "mass_compensation_scope": "continuum enclosed map; particle discretization measured separately",
+        "minimum_mapping_jacobian": 0.9320082931905345,
+        "particle_mass_msun_h": 333496236.82022095,
+        "continuum_core_mass_msun_h": 5721889874434.719,
+        "discrete_core_particle_count": 17256,
+        "discrete_core_mass_msun_h": 5754811062569.732,
+        "positions_sha256": "d7b7ba310c6a23e7d5cf4795700d3d6ae1f4d50c58f91f36893affe8b27a78b5",
+        "momenta_sha256": "a78bc679a64371ed081a80a1a0f98d5228fbc4a1a2725bd075b400711eb9fa57",
+        "interpretation": "Prescribed compensated sphere; not observed or random-spectrum initial conditions"
+      },
+      "initial_positions_array_sha256": "d7b7ba310c6a23e7d5cf4795700d3d6ae1f4d50c58f91f36893affe8b27a78b5",
+      "initial_momenta_array_sha256": "a78bc679a64371ed081a80a1a0f98d5228fbc4a1a2725bd075b400711eb9fa57",
+      "force_array_sha256": "92b9303307ffaed57b18f5c8146089bed440fabbd45da8caa76082c12edfcd5d",
+      "force_file_sha256": "1b2809cc6b8a3fb25b79246b9a0858417a404db8309d5578014830a8b4234a32",
+      "process_peak_RSS_KiB": 196968
+    },
+    "ref_matched128": {
+      "label": "ref_matched128",
+      "nparticle_per_side": 128,
+      "nmesh_per_side": 128,
+      "force_calls": 1,
+      "force_seconds": 5.883372690528631,
+      "FFT_workers": 4,
+      "preparation_and_diagnostics_seconds": 10.925272025167942,
+      "timing_scope": "One initial force call, not a production benchmark or full-run estimate",
+      "initial_Q4": 0.0004188917409402304,
+      "initial_Jacobian_min": 0.9320082931905345,
+      "regions": {
+        "fixed_core": {
+          "count": 55680,
+          "reference_L2": 0.827803812988143,
+          "reference_RMS": 0.0035081472109087897,
+          "vector_relative_L2": 0.022918651218960757,
+          "radial_relative_L2": 0.02275747833576414,
+          "transverse_relative_L2": 0.0027132551471612094,
+          "mean_radial_actual": -0.003353611834452949,
+          "mean_radial_reference": -0.003426095177114538,
+          "particles_with_inward_force_fraction": 1.0,
+          "classification": "descriptive discretization diagnostics; no added force-accuracy pass threshold"
+        },
+        "transition": {
+          "count": 424728,
+          "reference_L2": 2.444528186467989,
+          "reference_RMS": 0.003750935558030958,
+          "vector_relative_L2": 0.022500142019177518,
+          "radial_relative_L2": 0.021115601210610214,
+          "transverse_relative_L2": 0.007770957238180661,
+          "mean_radial_actual": -0.002900121008048435,
+          "mean_radial_reference": -0.002877441444952983,
+          "particles_with_inward_force_fraction": 0.9868339266542352,
+          "classification": "descriptive discretization diagnostics; no added force-accuracy pass threshold"
+        }
+      },
+      "exterior": {
+        "count": 1535048,
+        "reference_force": 0.0,
+        "actual_absolute_L2_box": 0.0046392254212261124,
+        "actual_RMS_box": 3.7444194756210383e-06,
+        "actual_max_norm_box": 1.8940374843479794e-05,
+        "L2_over_core_reference_L2": 0.00560425713005572,
+        "RMS_over_core_reference_RMS": 0.0010673495866928122,
+        "classification": "descriptive; no division by individual zero-force references"
+      },
+      "operator_diagnostics": {
+        "raw_mass": 1.0,
+        "mass_relative_error": 0.0,
+        "density_contrast_mean": -1.0842021724855044e-19,
+        "total_force_absolute": 2.6804108762551255e-19,
+        "total_force_normalized": 3.0494823789066816e-16,
+        "mean_force_magnitude": 0.0008789724101360842,
+        "max_force_magnitude": 0.006359754766696698,
+        "real_fft": true,
+        "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+      },
+      "initial_metadata": {
+        "nparticle": 128,
+        "particles": 2097152,
+        "box_mpc_h": 10.0,
+        "a_initial": 0.02,
+        "delta_nl_core": 0.07295182597218097,
+        "scale_core": 0.9768021172143073,
+        "core_lagrangian_radius_box": 0.25,
+        "compensation_radius_box": 0.4,
+        "core_label_interval_q_over_qL": [
+          0.25,
+          0.75
+        ],
+        "core_label_count": 55680,
+        "E_reference_initial": 199.87667424689658,
+        "f_reference_initial": 0.9903491493236205,
+        "velocity_core_y_N": -0.021924495763588223,
+        "shift_box": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "center_box": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "mass_excess_compensated": true,
+        "mass_compensation_scope": "continuum enclosed map; particle discretization measured separately",
+        "minimum_mapping_jacobian": 0.9320082931905345,
+        "particle_mass_msun_h": 41687029.60252762,
+        "continuum_core_mass_msun_h": 5721889874434.719,
+        "discrete_core_particle_count": 137376,
+        "discrete_core_mass_msun_h": 5726797378676.834,
+        "positions_sha256": "e59ce2d302eaa40e3671f73b10775696c80da500bcac3383c34e932a359f1cbf",
+        "momenta_sha256": "741579cba6b7c98e923c3d67f85ee1fafee4d5e4fcf172439682debc081f2b3d",
+        "interpretation": "Prescribed compensated sphere; not observed or random-spectrum initial conditions"
+      },
+      "initial_positions_array_sha256": "e59ce2d302eaa40e3671f73b10775696c80da500bcac3383c34e932a359f1cbf",
+      "initial_momenta_array_sha256": "741579cba6b7c98e923c3d67f85ee1fafee4d5e4fcf172439682debc081f2b3d",
+      "force_array_sha256": "f1c32393b1b4bb7dd8e377740ed433d2eff0cbbf05be3fe1b688d397c6e3eef3",
+      "force_file_sha256": "f9d62814275ae022ab8314e2a0f6623235cd5d6a1e733071bd2e8708e9662a75",
+      "process_peak_RSS_KiB": 930120
+    }
+  },
+  "exceptions": [],
+  "profile": {
+    "sample_count": 526,
+    "maximum_normalized_mass_error": 2.184056814026095e-14,
+    "normalization_maximum_core_excess_box3": 0.0003541234729659651,
+    "outer_integral_box3": 1.7889335846010823e-18,
+    "minimum_initial_Jacobian": 0.9320082931905345,
+    "analytic_Jacobian_lower_bound": 0.9320082931905346,
+    "coordinates": "All q,x and g use box units; I has box-volume units",
+    "force_evaluation": "Closed expression is used for particles only after independent mass quadrature check; no force fitting"
+  },
+  "shells": {
+    "status": "complete",
+    "solver_message": "A termination event occurred.",
+    "method": "Radau",
+    "rtol": 2e-10,
+    "atol": 2e-12,
+    "max_step_N": 0.01,
+    "q_Mpc_h": [
+      0.0625,
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0,
+      1.125,
+      1.25,
+      1.375,
+      1.5,
+      1.625,
+      1.75,
+      1.875,
+      2.0,
+      2.125,
+      2.25,
+      2.375,
+      2.5,
+      2.625,
+      2.75,
+      2.875,
+      3.0,
+      3.125,
+      3.25,
+      3.375,
+      3.5,
+      3.625,
+      3.75,
+      3.875,
+      4.0
+    ],
+    "number_of_shells": 33,
+    "saved_time_count": 513,
+    "pre_endpoint_sample_count": 512,
+    "initial_R_physical_box": [
+      0.00012210026465178843,
+      0.00024420052930357685,
+      0.0004884010586071537,
+      0.0007326015879107306,
+      0.0009768021172143074,
+      0.0012210026465178843,
+      0.0014652031758214611,
+      0.0017094037051250375,
+      0.001953604234428615,
+      0.002197804763732192,
+      0.0024420052930357685,
+      0.0026862058223393456,
+      0.0029304063516429222,
+      0.003174606880946499,
+      0.003418807410250075,
+      0.003663007939553652,
+      0.00390720846885723,
+      0.004151408998160806,
+      0.004395609527464384,
+      0.0046398100567679595,
+      0.004884010586071537,
+      0.005128802579259547,
+      0.005376740332528074,
+      0.0056298512966342406,
+      0.005888958556726451,
+      0.006153740283756093,
+      0.0064228377614622,
+      0.006694045971068092,
+      0.006964634990301528,
+      0.007231841511167682,
+      0.0074935378032537,
+      0.007749041401720463,
+      0.008
+    ],
+    "initial_V_dR_dH0t": [
+      0.023857220411044603,
+      0.047714440822089206,
+      0.09542888164417841,
+      0.1431433224662676,
+      0.19085776328835682,
+      0.23857220411044602,
+      0.2862866449325352,
+      0.3340010857546244,
+      0.38171552657671365,
+      0.42942996739880285,
+      0.47714440822089205,
+      0.5248588490429813,
+      0.5725732898650704,
+      0.6202877306871597,
+      0.6680021715092488,
+      0.715716612331338,
+      0.7634310531534273,
+      0.8111454939755165,
+      0.8588599347976057,
+      0.9065743756196949,
+      0.9542888164417841,
+      1.002227967322501,
+      1.0513633645825515,
+      1.1024729401317652,
+      1.1558886403507636,
+      1.2115156843683257,
+      1.268861143181736,
+      1.3270902904607476,
+      1.3851381534217149,
+      1.4418999742521876,
+      1.496506440590522,
+      1.5486629185952878,
+      1.5990133939751727
+    ],
+    "initial_Jacobian": [
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9320082931905345,
+      0.9388063312004951,
+      0.9567820273994472,
+      0.9819216203029937,
+      1.0099121355743106,
+      1.0363047388128752,
+      1.0567658284573598,
+      1.0675813679680297,
+      1.0664636044111915,
+      1.0535598880765593,
+      1.032417103932097,
+      1.0106178870262046,
+      1.0
+    ],
+    "core200_event_a": 0.4999999999990554,
+    "core200_event_t_Gyr": 5.8407469992930015,
+    "crossing_event_a": null,
+    "endpoint_a": 0.4999999999990554,
+    "minimum_sampled_shell_gap_physical_box": 0.00012210026465178843,
+    "comparison_to_saved_core": {
+      "y": 6.247324879637972e-11,
+      "y_N": 2.455011749447067e-10
+    },
+    "comparison_end_a": 0.4999999999990554,
+    "nfev": 4309,
+    "njev": 4,
+    "wall_seconds": 0.5406676828861237,
+    "scope": "Sampled non-crossing spherical shells; does not establish three-dimensional stability or resolved halos"
+  },
+  "failures": [],
+  "summary": {
+    "checks_total": 40,
+    "checks_passed": 40,
+    "failures": 0,
+    "exceptions": 0
+  },
+  "wall_seconds": 13.512249678373337,
+  "limitations": [
+    "Force comparisons use whole-region L2 norms; exterior zero-reference forces have absolute and core-normalized diagnostics.",
+    "Initial PM force errors are descriptive, not newly fitted acceptance thresholds.",
+    "Isolated and periodically copied continuous compensated spheres agree only while non-overlapping and exactly compensated; finite particles and non-spherical evolution need not.",
+    "No production PM trajectory, cooling, gas, clock response or observational constraint is calculated here."
+  ]
+}

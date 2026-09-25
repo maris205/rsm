@@ -1,0 +1,56 @@
+{"case": "ref_matched64", "status": "started", "nparticle": 64, "nmesh": 64, "initial_force_diagnostic": {"mean_radial_g": -0.003343633790151004, "median_radial_g": -0.003489527450400826, "fraction_particles_with_inward_g": 1.0, "relative_L2_error_vs_uniform_core": 0.02373163735176387, "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units", "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only", "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"}}
+{"case": "ref_matched128", "status": "started", "nparticle": 128, "nmesh": 128, "initial_force_diagnostic": {"mean_radial_g": -0.003353611834452949, "median_radial_g": -0.0034948125152562183, "fraction_particles_with_inward_g": 1.0, "relative_L2_error_vs_uniform_core": 0.022918651218957836, "definition": "g=-grad(psi), laplacian(psi)=delta; radial_g=g dot (x-center)/|x-center|, negative means inward; box units", "reference": "continuum compensated spherical core g_exact=-(delta_i/3)*(x-center); fixed core labels only", "scope": "physical particle/force-grid discretization diagnostic, not an FFT implementation check"}}
+{"case": "ref_matched64", "steps": 25, "a": 0.023513101162029676, "Delta_proxy": 1.0858096070697707, "wall_seconds": 14.281631469726562}
+{"case": "ref_matched64", "steps": 50, "a": 0.027643296312792068, "Delta_proxy": 1.101308780966389, "wall_seconds": 27.25554370507598}
+{"case": "ref_matched64", "steps": 75, "a": 0.03249898113273209, "Delta_proxy": 1.1200049113297208, "wall_seconds": 40.107173565775156}
+{"case": "ref_matched64", "steps": 100, "a": 0.0382075915518412, "Delta_proxy": 1.1426056324210216, "wall_seconds": 52.61477706953883}
+{"case": "ref_matched64", "steps": 125, "a": 0.04491894826579765, "Delta_proxy": 1.1700282731799756, "wall_seconds": 65.50040772929788}
+{"case": "ref_matched64", "steps": 150, "a": 0.05280918873328388, "Delta_proxy": 1.20347532551219, "wall_seconds": 78.65810674801469}
+{"case": "ref_matched64", "steps": 175, "a": 0.06208538984852107, "Delta_proxy": 1.2446366209461195, "wall_seconds": 92.29886217787862}
+{"case": "ref_matched64", "steps": 200, "a": 0.07299100260961636, "Delta_proxy": 1.2961875747455527, "wall_seconds": 105.2111763805151}
+{"case": "ref_matched64", "steps": 225, "a": 0.08581224141389411, "Delta_proxy": 1.3624062165745616, "wall_seconds": 118.23336875811219}
+{"case": "ref_matched64", "steps": 250, "a": 0.10088559566527024, "Delta_proxy": 1.448118356619118, "wall_seconds": 130.49459613487124}
+{"case": "ref_matched64", "steps": 275, "a": 0.1186066608334561, "Delta_proxy": 1.5603103106294502, "wall_seconds": 143.4278047643602}
+{"case": "ref_matched64", "steps": 300, "a": 0.13944052073337979, "Delta_proxy": 1.7106599294201978, "wall_seconds": 156.60995891317725}
+{"case": "ref_matched64", "steps": 325, "a": 0.16393395350450288, "Delta_proxy": 1.918607677017937, "wall_seconds": 169.13118700310588}
+{"case": "ref_matched128", "steps": 25, "a": 0.023513101162029676, "Delta_proxy": 1.0858105212818412, "wall_seconds": 175.65986654534936}
+{"case": "ref_matched64", "steps": 350, "a": 0.1927297816321423, "Delta_proxy": 2.219045960994016, "wall_seconds": 182.6414919756353}
+{"case": "ref_matched64", "steps": 375, "a": 0.2265837426226226, "Delta_proxy": 2.679108137331878, "wall_seconds": 195.90263232588768}
+{"case": "ref_matched64", "steps": 400, "a": 0.2663843230978511, "Delta_proxy": 3.4422173590125054, "wall_seconds": 209.15265787020326}
+{"case": "ref_matched64", "steps": 425, "a": 0.31317607684892873, "Delta_proxy": 4.872859098025281, "wall_seconds": 222.49090843647718}
+{"case": "ref_matched64", "steps": 450, "a": 0.3681870388238222, "Delta_proxy": 8.156723543346013, "wall_seconds": 235.85631884261966}
+{"case": "ref_matched64", "steps": 475, "a": 0.4057293695303924, "Delta_proxy": 12.859985835176099, "wall_seconds": 250.11124031618237}
+{"case": "ref_matched64", "steps": 500, "a": 0.43992273274048016, "Delta_proxy": 22.05820377901721, "wall_seconds": 264.5070917420089}
+{"case": "ref_matched64", "steps": 525, "a": 0.47699778550873384, "Delta_proxy": 51.13815150616871, "wall_seconds": 277.7627630867064}
+{"case": "ref_matched64", "steps": 550, "a": 0.49749548209964234, "Delta_proxy": 103.19435887871575, "wall_seconds": 292.31305380910635}
+{"case": "ref_matched64", "status": "completed", "steps": 567, "event200_a": 0.5109537192205208, "failures": 2, "wall_seconds": 303.91646453365684}
+{"case": "ref_matched128", "steps": 50, "a": 0.027643296312792068, "Delta_proxy": 1.1013174198173095, "wall_seconds": 341.03282430768013}
+{"case": "ref_matched128", "steps": 75, "a": 0.03249898113273209, "Delta_proxy": 1.1200958272602606, "wall_seconds": 503.8965454250574}
+{"case": "ref_matched128", "steps": 100, "a": 0.0382075915518412, "Delta_proxy": 1.1430425812280394, "wall_seconds": 667.3688161559403}
+{"case": "ref_matched128", "steps": 125, "a": 0.04491894826579765, "Delta_proxy": 1.1711693117052633, "wall_seconds": 830.8363864086568}
+{"case": "ref_matched128", "steps": 150, "a": 0.05280918873328388, "Delta_proxy": 1.205836738348266, "wall_seconds": 992.2253504768014}
+{"case": "ref_matched128", "steps": 175, "a": 0.06208538984852107, "Delta_proxy": 1.2488332358579888, "wall_seconds": 1154.7079856991768}
+{"case": "ref_matched128", "steps": 200, "a": 0.07299100260961636, "Delta_proxy": 1.302585776026611, "wall_seconds": 1316.352832954377}
+{"case": "ref_matched128", "steps": 225, "a": 0.08581224141389411, "Delta_proxy": 1.370614330217887, "wall_seconds": 1476.9838513247669}
+{"case": "ref_matched128", "steps": 250, "a": 0.10088559566527024, "Delta_proxy": 1.4582693570598604, "wall_seconds": 1636.822421837598}
+{"case": "ref_matched128", "steps": 275, "a": 0.1186066608334561, "Delta_proxy": 1.5735077896569563, "wall_seconds": 1799.0201242305338}
+{"case": "ref_matched128", "steps": 300, "a": 0.13944052073337979, "Delta_proxy": 1.7286129345130334, "wall_seconds": 1961.4788567125797}
+{"case": "ref_matched128", "steps": 325, "a": 0.16393395350450288, "Delta_proxy": 1.944538152908141, "wall_seconds": 2123.9386100508273}
+{"case": "ref_matched128", "steps": 350, "a": 0.1927297816321423, "Delta_proxy": 2.2581941772450063, "wall_seconds": 2285.297824781388}
+{"case": "ref_matched128", "steps": 375, "a": 0.2265837426226226, "Delta_proxy": 2.741717392843712, "wall_seconds": 2444.6077937446535}
+{"case": "ref_matched128", "steps": 400, "a": 0.25049686464786713, "Delta_proxy": 3.1891110562423406, "wall_seconds": 2610.8750090636313}
+{"case": "ref_matched128", "steps": 425, "a": 0.2716078093295561, "Delta_proxy": 3.6864836720805014, "wall_seconds": 2782.4835594668984}
+{"case": "ref_matched128", "steps": 450, "a": 0.2944979059618287, "Delta_proxy": 4.375853728845215, "wall_seconds": 2952.301503755152}
+{"case": "ref_matched128", "steps": 475, "a": 0.3193170948581572, "Delta_proxy": 5.3770395459029805, "wall_seconds": 3124.1006788164377}
+{"case": "ref_matched128", "steps": 500, "a": 0.3462279527443205, "Delta_proxy": 6.92481649535694, "wall_seconds": 3295.8691148906946}
+{"case": "ref_matched128", "steps": 525, "a": 0.37358866303132654, "Delta_proxy": 9.330492100120559, "wall_seconds": 3468.434195753187}
+{"case": "ref_matched128", "steps": 550, "a": 0.389012599602041, "Delta_proxy": 11.302331436245169, "wall_seconds": 3647.8674606643617}
+{"case": "ref_matched128", "steps": 575, "a": 0.4050733269613387, "Delta_proxy": 14.123878121688032, "wall_seconds": 3830.242986150086}
+{"case": "ref_matched128", "steps": 600, "a": 0.4217971355770623, "Delta_proxy": 18.39609875487228, "wall_seconds": 4008.4802136830986}
+{"case": "ref_matched128", "steps": 625, "a": 0.43921140134214554, "Delta_proxy": 25.36776396514359, "wall_seconds": 4185.886297278106}
+{"case": "ref_matched128", "steps": 650, "a": 0.45734463038734213, "Delta_proxy": 38.05595760074719, "wall_seconds": 4362.83002955094}
+{"case": "ref_matched128", "steps": 675, "a": 0.476226505744089, "Delta_proxy": 65.46507747591131, "wall_seconds": 4539.768771447241}
+{"case": "ref_matched128", "steps": 700, "a": 0.48990576385326506, "Delta_proxy": 110.16329465685267, "wall_seconds": 4721.67831383273}
+{"case": "ref_matched128", "steps": 725, "a": 0.49991657775191634, "Delta_proxy": 181.4378463413889, "wall_seconds": 4905.93898249045}
+{"case": "ref_matched128", "status": "completed", "steps": 730, "event200_a": 0.5015828888584287, "failures": 1, "wall_seconds": 4955.402622755617}
+{"status": "matrix_finished", "completed": 2, "case_failure_count": 3, "comparison_failure_count": 1}

@@ -1,0 +1,3 @@
+{"case": "ref_matched64", "force_seconds": 0.5087919011712074, "core_vector_relative_L2": 0.023731637351767223, "core_transverse_relative_L2": 1.4955158472429376e-05, "transition_vector_relative_L2": 0.0269625765333576}
+{"case": "ref_matched128", "force_seconds": 5.883372690528631, "core_vector_relative_L2": 0.022918651218960757, "core_transverse_relative_L2": 0.0027132551471612094, "transition_vector_relative_L2": 0.022500142019177518}
+{"checks_total": 40, "checks_passed": 40, "failures": 0, "exceptions": 0}

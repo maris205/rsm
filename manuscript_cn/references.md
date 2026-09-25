@@ -247,3 +247,7 @@
 <a id="r62"></a>
 
 **[62]** 本项目研究记录. 受控球形塌缩、分辨率检查与原初气体冷却接口（2026-09-24）。未单独发表的条件数值实验；[协议与复现入口](../experiments/halo_cooling_v01/README.md)、[完整结果与限制](../experiments/halo_cooling_v01/reports/results_cn.md)。采用指定补偿初态和标准原子速率，不构成星系形成或观测验证。
+
+<a id="r63"></a>
+
+**[63]** 本项目研究记录. 匹配粒子与力网格尺度的受控塌缩检验（2026-09-25）。未单独发表的参考背景数值实验；[冻结协议与复现入口](../experiments/pm_matched_scale_v01/README.md)、[两配置完整结果](../experiments/pm_matched_scale_v01/reports/results_cn.md)。保持物理初态及力核不变，比较64/64与128/128配比；仅作离散精度诊断，无新增时钟配对或观测拟合。

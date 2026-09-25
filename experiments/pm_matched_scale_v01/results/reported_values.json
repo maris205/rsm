@@ -1,0 +1,47 @@
+{
+  "protocol_sha256": "4409835c2fd93047d5df7bcb9675b0771e72fc0bfdfb0dd69e8a89c54cae9bf0",
+  "reported_values": {
+    "ref_matched64": {
+      "status": "completed",
+      "a200": 0.5109537192205208,
+      "event_relative_error": 0.02190743844110643,
+      "max_radius_relative_error": 0.20262683569510354,
+      "max_nonhomology": 0.09239250299352154,
+      "final_actual_enclosed_density": 205.9067076251379,
+      "first_sample_exceeding_radius_gate": {
+        "a": 0.3754067577082616,
+        "t_Gyr": 3.8869726403799914,
+        "Delta_proxy": 8.831858470197629,
+        "ODE_Delta": 9.651880981023208,
+        "relative_y_error": 0.03003809188944162
+      }
+    },
+    "ref_matched128": {
+      "status": "completed",
+      "a200": 0.5015828888584287,
+      "event_relative_error": 0.0031657777169209478,
+      "max_radius_relative_error": 0.031266242761234464,
+      "max_nonhomology": 0.05398007654326833,
+      "final_actual_enclosed_density": 203.3305424108412,
+      "first_sample_exceeding_radius_gate": {
+        "a": 0.4991082395328687,
+        "t_Gyr": 5.8262996710482815,
+        "Delta_proxy": 173.38914817149038,
+        "ODE_Delta": 189.6356502008806,
+        "relative_y_error": 0.030305513826415886
+      }
+    }
+  },
+  "pair_fractional_difference": -0.018339880912086604,
+  "ode_endpoint_dln_y_dln_a": -10.086684973010504,
+  "inputs": {
+    "experiments/pm_matched_scale_v01/protocol.md": "4409835c2fd93047d5df7bcb9675b0771e72fc0bfdfb0dd69e8a89c54cae9bf0",
+    "experiments/pm_matched_scale_v01/results/matched_pm_summary.json": "78e2ae17e30a46f96bc35c1c2c5a5ab22973f7b3137cfeb7e76bf0f259f0a88b",
+    "experiments/halo_cooling_v01/results/spherical_pm_summary.json": "b802585684d1e787679263f1ddf9b113b8c72f4a0beec6f9e25824c16c653393",
+    "experiments/halo_cooling_v01/results/sphere_summary.json": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275",
+    "experiments/pm_matched_scale_v01/results/pm_ref_matched64.json": "78ed9e2426bbbb6d073883a8ba6cb08af31756e35cd3519238ebc77056b8d134",
+    "experiments/pm_matched_scale_v01/results/pm_ref_matched128.json": "48c63ee98aa91b44bf9bbc77dddcf4a944f4cbadbbec4ac0ad9012f5626c5991"
+  },
+  "generator_sha256": "8070f337a601a2cfe29f23ef96645977782c5264e043930d53dcc4fdc6aff93b",
+  "report_sha256": "3503bff1ccbf4ddbd872a3ad92ae217ab2167fd04b805e98e46d1c3fceafd7b7"
+}

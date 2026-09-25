@@ -1,0 +1,102 @@
+{
+  "label": "ref_matched128",
+  "nparticle_per_side": 128,
+  "nmesh_per_side": 128,
+  "force_calls": 1,
+  "force_seconds": 5.883372690528631,
+  "FFT_workers": 4,
+  "preparation_and_diagnostics_seconds": 10.925272025167942,
+  "timing_scope": "One initial force call, not a production benchmark or full-run estimate",
+  "initial_Q4": 0.0004188917409402304,
+  "initial_Jacobian_min": 0.9320082931905345,
+  "regions": {
+    "fixed_core": {
+      "count": 55680,
+      "reference_L2": 0.827803812988143,
+      "reference_RMS": 0.0035081472109087897,
+      "vector_relative_L2": 0.022918651218960757,
+      "radial_relative_L2": 0.02275747833576414,
+      "transverse_relative_L2": 0.0027132551471612094,
+      "mean_radial_actual": -0.003353611834452949,
+      "mean_radial_reference": -0.003426095177114538,
+      "particles_with_inward_force_fraction": 1.0,
+      "classification": "descriptive discretization diagnostics; no added force-accuracy pass threshold"
+    },
+    "transition": {
+      "count": 424728,
+      "reference_L2": 2.444528186467989,
+      "reference_RMS": 0.003750935558030958,
+      "vector_relative_L2": 0.022500142019177518,
+      "radial_relative_L2": 0.021115601210610214,
+      "transverse_relative_L2": 0.007770957238180661,
+      "mean_radial_actual": -0.002900121008048435,
+      "mean_radial_reference": -0.002877441444952983,
+      "particles_with_inward_force_fraction": 0.9868339266542352,
+      "classification": "descriptive discretization diagnostics; no added force-accuracy pass threshold"
+    }
+  },
+  "exterior": {
+    "count": 1535048,
+    "reference_force": 0.0,
+    "actual_absolute_L2_box": 0.0046392254212261124,
+    "actual_RMS_box": 3.7444194756210383e-06,
+    "actual_max_norm_box": 1.8940374843479794e-05,
+    "L2_over_core_reference_L2": 0.00560425713005572,
+    "RMS_over_core_reference_RMS": 0.0010673495866928122,
+    "classification": "descriptive; no division by individual zero-force references"
+  },
+  "operator_diagnostics": {
+    "raw_mass": 1.0,
+    "mass_relative_error": 0.0,
+    "density_contrast_mean": -1.0842021724855044e-19,
+    "total_force_absolute": 2.6804108762551255e-19,
+    "total_force_normalized": 3.0494823789066816e-16,
+    "mean_force_magnitude": 0.0008789724101360842,
+    "max_force_magnitude": 0.006359754766696698,
+    "real_fft": true,
+    "imaginary_residual_status": "not observable from irfft; separately checked against full FFT"
+  },
+  "initial_metadata": {
+    "nparticle": 128,
+    "particles": 2097152,
+    "box_mpc_h": 10.0,
+    "a_initial": 0.02,
+    "delta_nl_core": 0.07295182597218097,
+    "scale_core": 0.9768021172143073,
+    "core_lagrangian_radius_box": 0.25,
+    "compensation_radius_box": 0.4,
+    "core_label_interval_q_over_qL": [
+      0.25,
+      0.75
+    ],
+    "core_label_count": 55680,
+    "E_reference_initial": 199.87667424689658,
+    "f_reference_initial": 0.9903491493236205,
+    "velocity_core_y_N": -0.021924495763588223,
+    "shift_box": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "center_box": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "mass_excess_compensated": true,
+    "mass_compensation_scope": "continuum enclosed map; particle discretization measured separately",
+    "minimum_mapping_jacobian": 0.9320082931905345,
+    "particle_mass_msun_h": 41687029.60252762,
+    "continuum_core_mass_msun_h": 5721889874434.719,
+    "discrete_core_particle_count": 137376,
+    "discrete_core_mass_msun_h": 5726797378676.834,
+    "positions_sha256": "e59ce2d302eaa40e3671f73b10775696c80da500bcac3383c34e932a359f1cbf",
+    "momenta_sha256": "741579cba6b7c98e923c3d67f85ee1fafee4d5e4fcf172439682debc081f2b3d",
+    "interpretation": "Prescribed compensated sphere; not observed or random-spectrum initial conditions"
+  },
+  "initial_positions_array_sha256": "e59ce2d302eaa40e3671f73b10775696c80da500bcac3383c34e932a359f1cbf",
+  "initial_momenta_array_sha256": "741579cba6b7c98e923c3d67f85ee1fafee4d5e4fcf172439682debc081f2b3d",
+  "force_array_sha256": "f1c32393b1b4bb7dd8e377740ed433d2eff0cbbf05be3fe1b688d397c6e3eef3",
+  "force_file_sha256": "f9d62814275ae022ab8314e2a0f6623235cd5d6a1e733071bd2e8708e9662a75",
+  "process_peak_RSS_KiB": 930120
+}

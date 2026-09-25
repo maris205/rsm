@@ -1,0 +1,4 @@
+# Preserve bytes used in provenance digests.
+results/** -text
+reports/*.json -text
+results/*.csv whitespace=cr-at-eol

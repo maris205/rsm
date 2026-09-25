@@ -1,0 +1,237 @@
+{
+  "created_utc": "2026-09-25T04:34:47.645823+00:00",
+  "command": "python -B riemann_model/experiments/pm_matched_scale_v01/code/run_matched_pm.py --parallel 2 --fft-workers 4 > riemann_model/experiments/pm_matched_scale_v01/results/matched_pm_run.log 2>&1",
+  "session_id": 19970,
+  "process_exit_code": 1,
+  "exit_interpretation": "Completed exactly two cases; nonzero return represents retained scientific threshold failures, not execution failure",
+  "started_utc": "2026-09-25T03:10:26.336371+00:00",
+  "ended_utc": "2026-09-25T04:33:01.870324+00:00",
+  "matrix_wall_seconds": 4955.53464306891,
+  "concurrent_jobs": 2,
+  "fft_workers_per_case": 4,
+  "cases": {
+    "ref_matched64": {
+      "started_utc": "2026-09-25T03:10:26.336888+00:00",
+      "ended_utc": "2026-09-25T03:15:30.253324+00:00",
+      "wall_seconds": 303.91646453365684,
+      "steps": 567,
+      "process_peak_rss_KiB": 1145612
+    },
+    "ref_matched128": {
+      "started_utc": "2026-09-25T03:10:26.338071+00:00",
+      "ended_utc": "2026-09-25T04:33:01.740670+00:00",
+      "wall_seconds": 4955.402622755617,
+      "steps": 730,
+      "process_peak_rss_KiB": 1163568
+    }
+  },
+  "checks": [
+    {
+      "name": "exact_two_case_set",
+      "passed": true
+    },
+    {
+      "name": "no_execution_or_resource_failure",
+      "passed": true
+    },
+    {
+      "name": "scientific_case_failures_retained",
+      "passed": true
+    },
+    {
+      "name": "scientific_pair_failure_retained",
+      "passed": true
+    },
+    {
+      "name": "frozen_protocol_sha256",
+      "passed": true
+    },
+    {
+      "name": "runner_identity_run_matched_pm.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_halo_cooling_v01/code/pm_refined.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_halo_cooling_v01/code/spherical_collapse.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_halo_cooling_v01/code/run_spherical_pm.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_halo_cooling_v01/results/sphere_summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_halo_cooling_v01/results/refined_pm_validation.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_cosmic_bridge_v01/code/pm.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_cosmic_bridge_v01/results/background_summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_cosmic_bridge_v01/results/background_eps0.csv",
+      "passed": true
+    },
+    {
+      "name": "unchanged_archive_cosmic_bridge_v01/results/background_eps1e-4.csv",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_json_identity",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_aggregate_identity",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_aggregate_size",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_positions_file_identity",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_positions_size",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_positions_float64_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_positions_time_center",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_periodic_positions",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_momenta_file_identity",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_momenta_size",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_momenta_float64_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "ref_matched64_momenta_time_center",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_json_identity",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_aggregate_identity",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_aggregate_size",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_positions_file_identity",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_positions_size",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_positions_float64_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_positions_time_center",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_periodic_positions",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_momenta_file_identity",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_momenta_size",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_momenta_float64_shape_finite",
+      "passed": true
+    },
+    {
+      "name": "ref_matched128_momenta_time_center",
+      "passed": true
+    }
+  ],
+  "integrity_passed": true,
+  "passed_count": 39,
+  "check_count": 39,
+  "files": {
+    "pm_ref_matched64_final_positions.npz": {
+      "sha256": "bea0b6f851466f799493dab503ecb7d02463be8363c9e7bc1e1812dc51a3fbd9",
+      "bytes": 3294201
+    },
+    "pm_ref_matched64_final_momenta.npz": {
+      "sha256": "b61ce16102ab69625c9a90ce3d644ac39c5c1003c9bd1f7c43851bcdf09f4ac5",
+      "bytes": 4085801
+    },
+    "pm_ref_matched64.json": {
+      "sha256": "78ed9e2426bbbb6d073883a8ba6cb08af31756e35cd3519238ebc77056b8d134",
+      "bytes": 1051500
+    },
+    "pm_ref_matched64.npz": {
+      "sha256": "45ea2a4d00d8f77fe1b320d018fbb6d28db577f8e31cf776035c473657fc2eca",
+      "bytes": 119938
+    },
+    "pm_ref_matched128_final_positions.npz": {
+      "sha256": "fd9c4d96adf7330437da9d5bc7468c6862d8a26d09ced080f7d12fabd7fa0687",
+      "bytes": 31888565
+    },
+    "pm_ref_matched128_final_momenta.npz": {
+      "sha256": "c17321f17662daa7fb383058829a9920802871f376ed51e2154e509d5ef368bb",
+      "bytes": 38474099
+    },
+    "pm_ref_matched128.json": {
+      "sha256": "48c63ee98aa91b44bf9bbc77dddcf4a944f4cbadbbec4ac0ad9012f5626c5991",
+      "bytes": 1351927
+    },
+    "pm_ref_matched128.npz": {
+      "sha256": "31bafc7501ba6e7172b123ba070199c3e4eb0dfbbea6798be511514a9e2103bd",
+      "bytes": 117567
+    },
+    "matched_pm_summary.json": {
+      "sha256": "78e2ae17e30a46f96bc35c1c2c5a5ab22973f7b3137cfeb7e76bf0f259f0a88b",
+      "bytes": 16361
+    },
+    "matched_pm_run.log": {
+      "sha256": "1d2a6d96af3988c0d7187cdfb1fddec2dcd86e485c9796ea11ad81348b49a2e8",
+      "bytes": 8585
+    }
+  },
+  "scope": "Post-run identity, finite full-state archive and execution-completeness checks only; independent physical reconstruction is a separate audit",
+  "rss_scope": "resource.getrusage(RUSAGE_SELF).ru_maxrss is the shared process peak, not isolated per-case memory",
+  "scientific_case_failure_count": 3,
+  "scientific_comparison_failure_count": 1,
+  "source_files_modified_during_production": false,
+  "initial_force_accounting": "one independent initial-field diagnostic per case plus one ordinary production initialization per case; no additional runner preflight"
+}

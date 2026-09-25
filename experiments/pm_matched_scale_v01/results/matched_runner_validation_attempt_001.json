@@ -1,0 +1,2035 @@
+{
+  "status": "PASS",
+  "passed": true,
+  "attempt": 1,
+  "created_utc": "2026-09-25T03:10:08.635037+00:00",
+  "protocol_sha256": "4409835c2fd93047d5df7bcb9675b0771e72fc0bfdfb0dd69e8a89c54cae9bf0",
+  "runner_sha256": "8d234201feb262548d5486fbddefbe832505a34a94b77a632f91df065904f146",
+  "checks_passed": 95,
+  "checks_total": 95,
+  "checks": [
+    {
+      "name": "archived_source_hash:halo_cooling_v01/code/pm_refined.py",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "expected_sha256": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602",
+      "actual_sha256": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602"
+    },
+    {
+      "name": "archived_source_hash:halo_cooling_v01/code/spherical_collapse.py",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "expected_sha256": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47",
+      "actual_sha256": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47"
+    },
+    {
+      "name": "archived_source_hash:halo_cooling_v01/code/run_spherical_pm.py",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "expected_sha256": "4c8f29acc2598935a30b027691ccf3f01ae34b6b80a27aac0f7cf5349fafa28b",
+      "actual_sha256": "4c8f29acc2598935a30b027691ccf3f01ae34b6b80a27aac0f7cf5349fafa28b"
+    },
+    {
+      "name": "archived_source_hash:cosmic_bridge_v01/code/pm.py",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "expected_sha256": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982",
+      "actual_sha256": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982"
+    },
+    {
+      "name": "frozen_protocol_matches_runner",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "exact_two_case_matched_matrix",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual_matrix": [
+        [
+          "ref_matched64",
+          "reference",
+          64,
+          64,
+          true,
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          "ref_matched128",
+          "reference",
+          128,
+          128,
+          true,
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "expected_matrix": [
+        [
+          "ref_matched64",
+          "reference",
+          64,
+          64,
+          true,
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          "ref_matched128",
+          "reference",
+          128,
+          128,
+          true,
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "archived_PM_import_identity",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "archived_sphere_import_identity",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "old_canonical_KDK_identity",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:halo_cooling_v01/code/pm_refined.py",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:halo_cooling_v01/code/spherical_collapse.py",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:halo_cooling_v01/code/run_spherical_pm.py",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:halo_cooling_v01/results/sphere_summary.json",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:halo_cooling_v01/results/refined_pm_validation.json",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:cosmic_bridge_v01/code/pm.py",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:cosmic_bridge_v01/results/background_summary.json",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:cosmic_bridge_v01/results/background_eps0.csv",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "runner_dependency:cosmic_bridge_v01/results/background_eps1e-4.csv",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "frozen_constant:EVENT_THRESHOLD",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual": 0.02,
+      "expected": 0.02
+    },
+    {
+      "name": "frozen_constant:RADIUS_THRESHOLD",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual": 0.03,
+      "expected": 0.03
+    },
+    {
+      "name": "frozen_constant:PAIR_EVENT_THRESHOLD",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual": 0.01,
+      "expected": 0.01
+    },
+    {
+      "name": "frozen_constant:SHAPE_THRESHOLD",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual": 0.1,
+      "expected": 0.1
+    },
+    {
+      "name": "frozen_constant:MAX_TOTAL_WALL_SECONDS",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual": 14400,
+      "expected": 14400
+    },
+    {
+      "name": "frozen_constant:MAX_STEPS",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual": 10000,
+      "expected": 10000
+    },
+    {
+      "name": "frozen_constant:MAX_ARCHIVE_BYTES",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual": 100000000,
+      "expected": 100000000
+    },
+    {
+      "name": "both_cases_apply_frozen_case_thresholds",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "actual": {
+        "mass": 1e-12,
+        "total_force": 1e-11,
+        "actual_drift_cells": 0.2,
+        "actual_dt_over_tdyn": 0.05,
+        "nonhomology": 0.1,
+        "axis_deviation": 0.1,
+        "PM_vs_ODE_event": 0.02,
+        "PM_vs_ODE_radius": 0.03
+      },
+      "expected": {
+        "mass": 1e-12,
+        "total_force": 1e-11,
+        "actual_drift_cells": 0.2,
+        "actual_dt_over_tdyn": 0.05,
+        "nonhomology": 0.1,
+        "axis_deviation": 0.1,
+        "PM_vs_ODE_event": 0.02,
+        "PM_vs_ODE_radius": 0.03
+      }
+    },
+    {
+      "name": "no_name_condition_around_ODE_thresholds",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "actual_tdyn_uses_minimum_of_both_endpoints",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "unchanged_calibrated_initial_amplitude",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.07295182597218097
+    },
+    {
+      "name": "independent_initial_mapping:positions",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 5.551115123125783e-17,
+      "inclusive_upper_threshold": 2e-14
+    },
+    {
+      "name": "independent_initial_mapping:momenta",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 7.792703114739563e-19,
+      "inclusive_upper_threshold": 2e-14
+    },
+    {
+      "name": "independent_initial_mapping:q",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 2e-14
+    },
+    {
+      "name": "independent_initial_mapping:q_radius",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 2e-14
+    },
+    {
+      "name": "independent_fixed_core_labels",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "initial_physics_independent_of_force_mesh:positions",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "initial_physics_independent_of_force_mesh:momenta",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "initial_physics_independent_of_force_mesh:q",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "initial_physics_independent_of_force_mesh:q_radius",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "initial_physics_independent_of_force_mesh:core_mask",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "independent_EdS_KDK_positions:a=0.0201",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 5.551115123125783e-17,
+      "inclusive_upper_threshold": 2e-13
+    },
+    {
+      "name": "independent_EdS_KDK_momenta:a=0.0201",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 2.1560468178160837e-16,
+      "inclusive_upper_threshold": 1e-10
+    },
+    {
+      "name": "independent_EdS_KDK_positions:a=0.0202",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 5.551115123125783e-17,
+      "inclusive_upper_threshold": 2e-13
+    },
+    {
+      "name": "independent_EdS_KDK_momenta:a=0.0202",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 1.338262048315174e-16,
+      "inclusive_upper_threshold": 1e-10
+    },
+    {
+      "name": "independent_EdS_KDK_positions:a=0.0203",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 5.551115123125783e-17,
+      "inclusive_upper_threshold": 2e-13
+    },
+    {
+      "name": "independent_EdS_KDK_momenta:a=0.0203",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 6.387725063135929e-16,
+      "inclusive_upper_threshold": 1e-10
+    },
+    {
+      "name": "halfstep_independent_endpoint:ordinary",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12
+    },
+    {
+      "name": "halfstep_independent_halvings:ordinary",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "halfstep_maximum_delta_ln_a:ordinary",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.00647301954037597,
+      "inclusive_upper_threshold": 0.006473019540382501
+    },
+    {
+      "name": "halfstep_drift_bound:ordinary",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.00017037792694998084,
+      "inclusive_upper_threshold": 0.075000000000075
+    },
+    {
+      "name": "halfstep_dynamical_bound:ordinary",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.004764223590933273,
+      "inclusive_upper_threshold": 0.015000000000015001
+    },
+    {
+      "name": "halfstep_independent_endpoint:large_momentum",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12
+    },
+    {
+      "name": "halfstep_independent_halvings:large_momentum",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "halfstep_maximum_delta_ln_a:large_momentum",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.00647301954037597,
+      "inclusive_upper_threshold": 0.006473019540382501
+    },
+    {
+      "name": "halfstep_drift_bound:large_momentum",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.05540487481830872,
+      "inclusive_upper_threshold": 0.075000000000075
+    },
+    {
+      "name": "halfstep_dynamical_bound:large_momentum",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.004764223590933273,
+      "inclusive_upper_threshold": 0.015000000000015001
+    },
+    {
+      "name": "halfstep_independent_endpoint:short_dynamical_time",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12
+    },
+    {
+      "name": "halfstep_independent_halvings:short_dynamical_time",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "halfstep_maximum_delta_ln_a:short_dynamical_time",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0004045637212733886,
+      "inclusive_upper_threshold": 0.006473019540382501
+    },
+    {
+      "name": "halfstep_drift_bound:short_dynamical_time",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 0.075000000000075
+    },
+    {
+      "name": "halfstep_dynamical_bound:short_dynamical_time",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.012797310782003015,
+      "inclusive_upper_threshold": 0.015000000000015001
+    },
+    {
+      "name": "halfstep_test_exercises_reduction",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "partial_event_closed_form_scale_factor",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 1.509903313490213e-14,
+      "inclusive_upper_threshold": 1e-09
+    },
+    {
+      "name": "partial_event_prediction_matches_complete_KDK_position",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 2e-14
+    },
+    {
+      "name": "partial_event_reaches_density_proxy_200",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 1.3322676295501878e-15,
+      "inclusive_upper_threshold": 1e-08
+    },
+    {
+      "name": "partial_event_reports_root_calls",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "unbracketed_event_is_not_fabricated",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "projection_nodal_coordinate:projection_axis_x_box",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "projection_nodal_coordinate:projection_axis_y_box",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "coordinate_correction_preserves_all_density_and_profile_values",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "projected_mass_normalization",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-12
+    },
+    {
+      "name": "missing_event_is_null_and_failed:ref_matched64",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "missing_event_is_null_and_failed:ref_matched128",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "missing_cases_explicitly_fail",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "pair_event_threshold:a=0.503",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "pair_event_threshold:a=0.506",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "missing_scalar_check_fails",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "separate_position_momentum_archives",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_hash:positions",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_bytes:positions",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_shape_dtype_manifest:positions",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_exact_roundtrip:positions",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_event_metadata:positions",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_hash:momenta",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_bytes:momenta",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_shape_dtype_manifest:momenta",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_exact_roundtrip:momenta",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_event_metadata:momenta",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "state_archive_overwrite_rejected_without_changes",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "non_float64_final_state_rejected",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "nonfinite_final_state_rejected",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "missing_events_remain_JSON_null",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "angular_Q4_independent_definition",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 0.0,
+      "inclusive_upper_threshold": 1e-14
+    },
+    {
+      "name": "radial_force_has_zero_transverse_component",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "value": 1.1365894944938756e-16,
+      "inclusive_upper_threshold": 1e-13
+    },
+    {
+      "name": "zero_radial_force_ratio_is_missing_not_NaN_or_zero",
+      "scope": "implementation_consistency",
+      "passed": true
+    },
+    {
+      "name": "archived_directories_unchanged",
+      "scope": "implementation_consistency",
+      "passed": true,
+      "created": [],
+      "removed": [],
+      "modified": []
+    }
+  ],
+  "failures": [],
+  "implementation_failures": [],
+  "detail": {
+    "initial_conditions": {
+      "nparticle": 8,
+      "delta_i": 0.07295182597218097,
+      "reference_background_sha256": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0",
+      "calibration_sha256": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275",
+      "production_particle_grids_constructed": false
+    },
+    "independent_short_KDK": {
+      "nparticle": 8,
+      "nforce": 8,
+      "accepted_steps": 3,
+      "reference": "Closed-form EdS factors plus archived full-complex FFT force",
+      "steps": [
+        {
+          "a": 0.0201,
+          "position_max_abs": 5.551115123125783e-17,
+          "momentum_relative_l2": 2.1560468178160837e-16
+        },
+        {
+          "a": 0.0202,
+          "position_max_abs": 5.551115123125783e-17,
+          "momentum_relative_l2": 1.338262048315174e-16
+        },
+        {
+          "a": 0.0203,
+          "position_max_abs": 5.551115123125783e-17,
+          "momentum_relative_l2": 6.387725063135929e-16
+        }
+      ]
+    },
+    "halfstep_policy": [
+      {
+        "state": "ordinary",
+        "a_right": 0.020129880296156796,
+        "step_halvings": 0,
+        "drift_cells": 0.00017037792694998084,
+        "dt_over_tdyn": 0.004764223590933273
+      },
+      {
+        "state": "large_momentum",
+        "a_right": 0.020129880296156796,
+        "step_halvings": 0,
+        "drift_cells": 0.05540487481830872,
+        "dt_over_tdyn": 0.004764223590933273
+      },
+      {
+        "state": "short_dynamical_time",
+        "a_right": 0.020008092911364257,
+        "step_halvings": 4,
+        "drift_cells": 0.0,
+        "dt_over_tdyn": 0.012797310782003015
+      }
+    ],
+    "event_helper": {
+      "actual_a": 0.02024851842462335,
+      "closed_form_a": 0.020248518424623045,
+      "root_calls": 6,
+      "scope": "Artificial near-threshold drift state, not a collapse simulation"
+    },
+    "terminal_archive": {
+      "temporary_only": true,
+      "particle_count": 512,
+      "manifest": {
+        "positions": {
+          "file": "pm_tiny8_final_positions.npz",
+          "sha256": "64368f8e1135967053e5b455adb97eb63f581faeb727cbd6cbf2a1d64522f38e",
+          "bytes": 2086,
+          "shape": [
+            512,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "momenta": {
+          "file": "pm_tiny8_final_momenta.npz",
+          "sha256": "159d80404b95aaaa58cf6bb824c04da933df6dacc56b839db762cab90b5461d1",
+          "bytes": 1406,
+          "shape": [
+            512,
+            3
+          ],
+          "dtype": "float64"
+        }
+      },
+      "storage": "One float64 positions file and one float64 momenta file"
+    },
+    "scope": {
+      "production_cases_run": 0,
+      "production_initial_force_calls": 0,
+      "largest_force_mesh": 8,
+      "largest_particle_grid": 8,
+      "large_DFT_repeated": false,
+      "scientific_acceptance_inferred": false
+    },
+    "archive_audit": {
+      "files_checked_before": 127,
+      "files_checked_after": 127,
+      "before": {
+        "halo_cooling_v01/.gitattributes": {
+          "bytes": 301,
+          "mtime_ns": 1790265963955224536,
+          "sha256": "57d2d978e5dba9db4e986607ce653da50330080384c491c21f293c705c362a12"
+        },
+        "halo_cooling_v01/README.md": {
+          "bytes": 4704,
+          "mtime_ns": 1790265114461111430,
+          "sha256": "e87acff35c33e9cb37ae1fc709421ffe6128be763911adb88b8129ae2037241e"
+        },
+        "halo_cooling_v01/code/__pycache__/cooling.cpython-312.pyc": {
+          "bytes": 16657,
+          "mtime_ns": 1790254492904353283,
+          "sha256": "7b4bddec44266a07ee75a8b07d60673df89cf21a9af3009b1229a394d9ab8360"
+        },
+        "halo_cooling_v01/code/__pycache__/pm_refined.cpython-312.pyc": {
+          "bytes": 22339,
+          "mtime_ns": 1790254706612626448,
+          "sha256": "1437237de7629a53ff1492080c12c4bb9122502383686d2342ab3fab9d174d64"
+        },
+        "halo_cooling_v01/code/__pycache__/run_spherical_pm.cpython-312.pyc": {
+          "bytes": 30673,
+          "mtime_ns": 1790254935793029296,
+          "sha256": "f5d1cfc3ccf70364fb13db867228cffff95aed383e69be084961bcdd2a081e9e"
+        },
+        "halo_cooling_v01/code/__pycache__/spherical_collapse.cpython-312.pyc": {
+          "bytes": 39158,
+          "mtime_ns": 1790254706992620189,
+          "sha256": "1aa51f2532e32ceb99cdb64cc804bec19373a46f78a047bf6d95f07d64bef185"
+        },
+        "halo_cooling_v01/code/__pycache__/validate_pm_artifacts.cpython-312.pyc": {
+          "bytes": 45930,
+          "mtime_ns": 1790255523908802404,
+          "sha256": "ff798805b642772d7d25243f5f002c338d4002fb60516c56d14108f0d3e28018"
+        },
+        "halo_cooling_v01/code/__pycache__/validate_refined_pm.cpython-312.pyc": {
+          "bytes": 38072,
+          "mtime_ns": 1790254944272902052,
+          "sha256": "539266cb83e4b0fd889f88d51e76ce660a179af2223a1a402344b2be499cc859"
+        },
+        "halo_cooling_v01/code/__pycache__/write_results_report.cpython-312.pyc": {
+          "bytes": 11742,
+          "mtime_ns": 1790258043748399902,
+          "sha256": "86d561bfa9dd143e92ccab146af95a5c87fd26169104b63202861eca4504ca74"
+        },
+        "halo_cooling_v01/code/cooling.py": {
+          "bytes": 11278,
+          "mtime_ns": 1790254454561073488,
+          "sha256": "1fd374c4fa2b146fdd2467fc5057b258531f3c630b2fdd5ff13bdc5233f91475"
+        },
+        "halo_cooling_v01/code/pm_refined.py": {
+          "bytes": 12198,
+          "mtime_ns": 1790254524667769968,
+          "sha256": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602"
+        },
+        "halo_cooling_v01/code/run_cooling.py": {
+          "bytes": 22523,
+          "mtime_ns": 1790254646893624696,
+          "sha256": "8b6533ba863fb2361eb5526ce117a2a90dad6235878331d8ea8f8492cf9b9042"
+        },
+        "halo_cooling_v01/code/run_spherical_pm.py": {
+          "bytes": 20211,
+          "mtime_ns": 1790254947308856582,
+          "sha256": "4c8f29acc2598935a30b027691ccf3f01ae34b6b80a27aac0f7cf5349fafa28b"
+        },
+        "halo_cooling_v01/code/spherical_collapse.py": {
+          "bytes": 25464,
+          "mtime_ns": 1790254420489729225,
+          "sha256": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47"
+        },
+        "halo_cooling_v01/code/validate_physics_independent.py": {
+          "bytes": 23288,
+          "mtime_ns": 1790254968980533299,
+          "sha256": "91e71bde92ec060dcf155a68f8833dcb6ba601c3171fa1ec8f930dc242c46082"
+        },
+        "halo_cooling_v01/code/validate_pm_artifacts.py": {
+          "bytes": 32387,
+          "mtime_ns": 1790256011446469011,
+          "sha256": "3734d34eb02f7c2798dbbbdcd1f62f8d911120d7861c92fc1a8fe96b40717cdb"
+        },
+        "halo_cooling_v01/code/validate_refined_pm.py": {
+          "bytes": 30157,
+          "mtime_ns": 1790254912621378847,
+          "sha256": "592c3464a49884b9b3b83b1da3c8be680461f53ec50dcd0b14f0a6d334823798"
+        },
+        "halo_cooling_v01/code/verify_sphere_profile.py": {
+          "bytes": 13234,
+          "mtime_ns": 1790255026979678690,
+          "sha256": "166aa3f1f7b0e988a7e4dff7c5a85883b96b339544139f649099736d61c3cb35"
+        },
+        "halo_cooling_v01/code/write_results_report.py": {
+          "bytes": 9883,
+          "mtime_ns": 1790265114457111440,
+          "sha256": "6b90c88f131dd889d4bfcc8cc214439d6f717499d008574479745aaa93e709d8"
+        },
+        "halo_cooling_v01/figures/plot_inputs.json": {
+          "bytes": 68804,
+          "mtime_ns": 1790265258612609332,
+          "sha256": "4529dfbba4cc1398ddfcf92aad6cd8586cc6f2421c926d201a6afed37fd76ce5"
+        },
+        "halo_cooling_v01/protocol.md": {
+          "bytes": 7448,
+          "mtime_ns": 1790254366766795914,
+          "sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2"
+        },
+        "halo_cooling_v01/protocol.sha256": {
+          "bytes": 78,
+          "mtime_ns": 1790254366930792592,
+          "sha256": "3d25f97511dd0b15d11fe52c2ac5dd9df049146eecc6db1c70df7248d26f41c5"
+        },
+        "halo_cooling_v01/reports/cooling_validation.json": {
+          "bytes": 251293,
+          "mtime_ns": 1790254649633578237,
+          "sha256": "df257a383ad32d12c2338e70ec8214ae59baa37d72e7af1d2cab7e37a16af56b"
+        },
+        "halo_cooling_v01/reports/cooling_validation_attempt_001.json": {
+          "bytes": 248263,
+          "mtime_ns": 1790254495256309690,
+          "sha256": "66ac747673337124659e57d5d21789d780ca88a3d1927b0aca479e94b0f0f837"
+        },
+        "halo_cooling_v01/reports/cooling_validation_attempt_002.json": {
+          "bytes": 251293,
+          "mtime_ns": 1790254649617578508,
+          "sha256": "df257a383ad32d12c2338e70ec8214ae59baa37d72e7af1d2cab7e37a16af56b"
+        },
+        "halo_cooling_v01/reports/physics_independent_review.md": {
+          "bytes": 7113,
+          "mtime_ns": 1790254991984192554,
+          "sha256": "e379fc1e2b4c99608d4f75c94caba6e3eb8ef5d639a5cac5e4c0f14d01829380"
+        },
+        "halo_cooling_v01/reports/pm_artifact_review.md": {
+          "bytes": 2268,
+          "mtime_ns": 1790264915425177148,
+          "sha256": "4f435cc6d5e0bd93ef8ebfd4ff164a1d1b567fb36361073a83ecb67053903528"
+        },
+        "halo_cooling_v01/reports/pm_next_stage_design.md": {
+          "bytes": 3715,
+          "mtime_ns": 1790265039805233850,
+          "sha256": "71ab1e64e72252c9a04245d793eec6b954e34fd546edb59b1e300b7442b71dd5"
+        },
+        "halo_cooling_v01/reports/refined_pm_validation_cn.md": {
+          "bytes": 16885,
+          "mtime_ns": 1790254944792894260,
+          "sha256": "ab2026d550882e0d34255d43d6bfc4949547691da32a3ad17f6a8c3e28a29da2"
+        },
+        "halo_cooling_v01/reports/results_cn.md": {
+          "bytes": 7606,
+          "mtime_ns": 1790265114677110927,
+          "sha256": "78216c42d9d11ce1b3715ff4efb33d766df03c65590988649f22c54d956bbfcb"
+        },
+        "halo_cooling_v01/reports/sphere_results_cn.md": {
+          "bytes": 6524,
+          "mtime_ns": 1790255027183675711,
+          "sha256": "6b7f7fed28c595c52cc3764d894ab6f8b9dd97664e65a50a931032c362ffb37a"
+        },
+        "halo_cooling_v01/results/cooling_curve.csv": {
+          "bytes": 170756,
+          "mtime_ns": 1790254649661577761,
+          "sha256": "fa6d511ca322372f8a18314a78b52287cafa40db1a068c4c7b0c33654aea7655"
+        },
+        "halo_cooling_v01/results/cooling_events.json": {
+          "bytes": 8290,
+          "mtime_ns": 1790254649729576610,
+          "sha256": "f1d8a63854ca3662fa82e110235b0ba89e1396cb603d8e48792b5351b61fd460"
+        },
+        "halo_cooling_v01/results/cooling_grid.csv": {
+          "bytes": 462537,
+          "mtime_ns": 1790254649729576610,
+          "sha256": "8eda53b1b2450ccb80e8f5e2414290538c3455ce36a5d1a245e4bf0c89a697bc"
+        },
+        "halo_cooling_v01/results/cooling_summary.json": {
+          "bytes": 4762,
+          "mtime_ns": 1790254649729576610,
+          "sha256": "510c309d32bde5e7cac7d2e5cccdd30879a1f490f38801b3eb0ebe7e71e75af1"
+        },
+        "halo_cooling_v01/results/physics_independent_validation.json": {
+          "bytes": 44264,
+          "mtime_ns": 1790254970632508748,
+          "sha256": "7eca3b33e2243383b705d1af63455c627909d2cc6ae7eb1e45673bf9c8f9d0a7"
+        },
+        "halo_cooling_v01/results/pm_artifact_validation.json": {
+          "bytes": 195740,
+          "mtime_ns": 1790264915421177141,
+          "sha256": "6efd00c080e3858fba4caa7983b66eac036266b204bfea33e6267a8133780b1a"
+        },
+        "halo_cooling_v01/results/pm_clock_main.json": {
+          "bytes": 1643868,
+          "mtime_ns": 1790264694500013370,
+          "sha256": "c11aafda5f2cb93b09874d8bfd893d0d7d9c5fa16639f9b224d65cb2d915f220"
+        },
+        "halo_cooling_v01/results/pm_clock_main.npz": {
+          "bytes": 134861,
+          "mtime_ns": 1790264693924008122,
+          "sha256": "c961b690c124cceee5e866ea809eb9a0ebe1fb81027bd67209c7cf62511d65d2"
+        },
+        "halo_cooling_v01/results/pm_clock_main_final_state.npz": {
+          "bytes": 7590685,
+          "mtime_ns": 1790264694388012351,
+          "sha256": "cc9a7e8f184b7d6f2a86a9a00279b5b73b04f07793f86bbfdcb8f9da37bd86da"
+        },
+        "halo_cooling_v01/results/pm_clock_main_progress.json": {
+          "bytes": 133,
+          "mtime_ns": 1790264694500013370,
+          "sha256": "afe1659b4b15351501662bbd2487d11725bb65e3e2c50ed9595f990939c77b40"
+        },
+        "halo_cooling_v01/results/pm_preflight.json": {
+          "bytes": 2239,
+          "mtime_ns": 1790254811070945696,
+          "sha256": "01b59c5f39501c0aa1c1fe1411cb2446baac3a088fd1c71940b518fab624e5d0"
+        },
+        "halo_cooling_v01/results/pm_ref_force128.json": {
+          "bytes": 826112,
+          "mtime_ns": 1790255366410915559,
+          "sha256": "ce70ce1caccd31eaf8e567fa95c0fb8c71f1535b65c2823b8d6ad27e4940389f"
+        },
+        "halo_cooling_v01/results/pm_ref_force128.npz": {
+          "bytes": 112193,
+          "mtime_ns": 1790255366354916318,
+          "sha256": "8ae3533b96d82515d18676fb843b9e2e69942800df281c44e97fa71251ec72e4"
+        },
+        "halo_cooling_v01/results/pm_ref_force128_progress.json": {
+          "bytes": 135,
+          "mtime_ns": 1790255366410915559,
+          "sha256": "87f2ed8916e9a0fd93a383b54c3bab4ef4a36b95f3800b7a840160faf4e3a370"
+        },
+        "halo_cooling_v01/results/pm_ref_halfstep.json": {
+          "bytes": 3276731,
+          "mtime_ns": 1790260238876322303,
+          "sha256": "80db896f8abc0615fce68378727f63e780120a62f0855533ff4c7c621ea2fc7b"
+        },
+        "halo_cooling_v01/results/pm_ref_halfstep.npz": {
+          "bytes": 181297,
+          "mtime_ns": 1790260238700344156,
+          "sha256": "f5187842c0257b11974e30fd4fd9d59ee4cf6c6f8ea6c32a1d223678a6dff326"
+        },
+        "halo_cooling_v01/results/pm_ref_halfstep_progress.json": {
+          "bytes": 134,
+          "mtime_ns": 1790260238880321806,
+          "sha256": "edd43c91469891037166e5ae03e3e169ea2b248517dc7e97799349f73f66c342"
+        },
+        "halo_cooling_v01/results/pm_ref_main.json": {
+          "bytes": 1642432,
+          "mtime_ns": 1790257547243538041,
+          "sha256": "9ae22c2acb3f724ed59228a53439a37c21af7488cf9daacee6d16f46604564bd"
+        },
+        "halo_cooling_v01/results/pm_ref_main.npz": {
+          "bytes": 134927,
+          "mtime_ns": 1790257546659546584,
+          "sha256": "cf0e60311ddac9d2c05cb99233b5c71711b95dc71e3912f5cb6e386d0bc7894f"
+        },
+        "halo_cooling_v01/results/pm_ref_main_final_state.npz": {
+          "bytes": 7598726,
+          "mtime_ns": 1790257547131539680,
+          "sha256": "e969a55ab79591bef775523f058d95f64ae20ae9328951938ed101d2e5f87170"
+        },
+        "halo_cooling_v01/results/pm_ref_main_progress.json": {
+          "bytes": 130,
+          "mtime_ns": 1790257547247537983,
+          "sha256": "580f910aa0e3b39f0a0eec698593a9e200fdab75f56e18c5ca3b67dc95a3378d"
+        },
+        "halo_cooling_v01/results/pm_ref_particles128.json": {
+          "bytes": 1259788,
+          "mtime_ns": 1790264827032897950,
+          "sha256": "25d069fb31637c081bbb20c1c1ef683c4bfad87f2bad95f32db7c2b2d4b9de6f"
+        },
+        "halo_cooling_v01/results/pm_ref_particles128.npz": {
+          "bytes": 123463,
+          "mtime_ns": 1790264826960897629,
+          "sha256": "dcf9876305d48112c55d0f16f3509bb301b4ccf83cfab6f8811b593c1610cf6b"
+        },
+        "halo_cooling_v01/results/pm_ref_particles128_progress.json": {
+          "bytes": 138,
+          "mtime_ns": 1790264827032897950,
+          "sha256": "6a14d93d2ad257f4e97e97dc15b8bd3e29a021ad9d059c572a0b592d5e4f60e9"
+        },
+        "halo_cooling_v01/results/pm_ref_shift.json": {
+          "bytes": 1515496,
+          "mtime_ns": 1790262341494054685,
+          "sha256": "3edbaf93041c848561a6d4116ec28d7a67a8097ebe494fa6ffe8c00005b98379"
+        },
+        "halo_cooling_v01/results/pm_ref_shift.npz": {
+          "bytes": 181719,
+          "mtime_ns": 1790262341366051953,
+          "sha256": "586a95986f63c67af5018a8ee44c7be3f110cfa9e7731ea7ac2a721096ecb751"
+        },
+        "halo_cooling_v01/results/pm_ref_shift_progress.json": {
+          "bytes": 132,
+          "mtime_ns": 1790262341494054685,
+          "sha256": "92bd3b77b48df3e5d2c502f7c3705577f275fb30d19a55fc2330429d3669a370"
+        },
+        "halo_cooling_v01/results/refined_pm_validation.json": {
+          "bytes": 70044,
+          "mtime_ns": 1790254944792894260,
+          "sha256": "8f97dd3a305e99ca2fbfd7e7f79c128812b5d57e6d35c690793784de2d7781f6"
+        },
+        "halo_cooling_v01/results/refined_pm_validation_attempt_001.json": {
+          "bytes": 63995,
+          "mtime_ns": 1790254708484595626,
+          "sha256": "cfcc318f8ade4a34e4599fdd14adf5f738205e4cc4977a6a7c86a3f414a08324"
+        },
+        "halo_cooling_v01/results/sphere_clock.csv": {
+          "bytes": 1082530,
+          "mtime_ns": 1790254428657570617,
+          "sha256": "d167a2120c81799dbd5fa105b525354c0111bde73837160bd30a3b49618d8d32"
+        },
+        "halo_cooling_v01/results/sphere_profile_check.json": {
+          "bytes": 31151,
+          "mtime_ns": 1790255040259485056,
+          "sha256": "c045d12a996953d42eaba7bd63fc38531035eefaf19fe12d6375d96e41a8574a"
+        },
+        "halo_cooling_v01/results/sphere_profile_check_previous_fc9979bfec06.json": {
+          "bytes": 31079,
+          "mtime_ns": 1790255040255485114,
+          "sha256": "fc9979bfec06327f6b44176422bb3c9fc68731ca9035d1990136543d0ca49819"
+        },
+        "halo_cooling_v01/results/sphere_reference.csv": {
+          "bytes": 1086897,
+          "mtime_ns": 1790254426477612860,
+          "sha256": "f96b0572abb16132aa7425143fdc498445bf2ddf45f9d971767d8c26075ee8a1"
+        },
+        "halo_cooling_v01/results/sphere_summary.json": {
+          "bytes": 41038,
+          "mtime_ns": 1790254429225559621,
+          "sha256": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275"
+        },
+        "halo_cooling_v01/results/spherical_pm_run.log": {
+          "bytes": 33748,
+          "mtime_ns": 1790264827152898482,
+          "sha256": "c375eb65c1845e4c3e575fb1a67d7b81b3c9b390b4633a1f443a7d8ec4177ed8"
+        },
+        "halo_cooling_v01/results/spherical_pm_summary.json": {
+          "bytes": 30825,
+          "mtime_ns": 1790264827152898482,
+          "sha256": "b802585684d1e787679263f1ddf9b113b8c72f4a0beec6f9e25824c16c653393"
+        },
+        "halo_cooling_v01/sources/GRACKLE_LICENSE": {
+          "bytes": 4491,
+          "mtime_ns": 1790254051834075621,
+          "sha256": "a085c6b50d804f73ee99e5ede3dd4390a49a0ff261d1c7cc145d6c029e6f80bb"
+        },
+        "halo_cooling_v01/sources/__pycache__/grackle_primordial_equilibrium.cpython-312.pyc": {
+          "bytes": 14068,
+          "mtime_ns": 1790254493264346606,
+          "sha256": "fc1d4de31d497deaf2758725aab799e0e587ab18d684e736fd2c0b8ba4b988b0"
+        },
+        "halo_cooling_v01/sources/grackle_primordial_equilibrium.py": {
+          "bytes": 8698,
+          "mtime_ns": 1790254051078083445,
+          "sha256": "dc45688c6a6eab60af5ebb86323c7d36b7db3e5347af43b65b4766332abde37e"
+        },
+        "halo_cooling_v01/sources/grackle_source_metadata.json": {
+          "bytes": 4981,
+          "mtime_ns": 1790254051834075621,
+          "sha256": "4ea9a85413930ff810248f172e999f7248e57a97dd7a812ac9866e424aa19efe"
+        },
+        "cosmic_bridge_v01/.gitattributes": {
+          "bytes": 385,
+          "mtime_ns": 1790252257181034548,
+          "sha256": "038ab7d64c4eea7bcef9b62f99f6eecfc6091d11a31664c6b2ab785ce1a3d034"
+        },
+        "cosmic_bridge_v01/README.md": {
+          "bytes": 6291,
+          "mtime_ns": 1790252086914528948,
+          "sha256": "ef659e1220c5dbd52c954da90bafe3bfd11e4585e0e22f62a1afae7d7de0706c"
+        },
+        "cosmic_bridge_v01/REFERENCE_SPECTRUM_INPUT.md": {
+          "bytes": 3576,
+          "mtime_ns": 1790250928744378452,
+          "sha256": "83604462ea19c2579d1efc942bad627f727b95b1211a50fe93f2f0800254881e"
+        },
+        "cosmic_bridge_v01/code/__pycache__/background.cpython-312.pyc": {
+          "bytes": 44924,
+          "mtime_ns": 1790254493312345717,
+          "sha256": "bae8ec248d2fcb7e591ac6233574ddd851d840cdf8f873aba55c2d5786a5aadd"
+        },
+        "cosmic_bridge_v01/code/__pycache__/pm.cpython-312.pyc": {
+          "bytes": 35824,
+          "mtime_ns": 1790251255221519908,
+          "sha256": "c47a419ec3932b8762499bd2177e715e4e54ca2ce57ce0c8d24a1d4a139b8db7"
+        },
+        "cosmic_bridge_v01/code/__pycache__/run_clustering.cpython-312.pyc": {
+          "bytes": 13039,
+          "mtime_ns": 1790251324181209058,
+          "sha256": "8cd0f19df0c47e64f68b0fa572855cad1d0708c8abf6d154a5ad71b300f7d639"
+        },
+        "cosmic_bridge_v01/code/audit_saved_clustering.py": {
+          "bytes": 17863,
+          "mtime_ns": 1790251884954341685,
+          "sha256": "a05d36bcd0882116ea89b4104ad817c0e786ae8feb04e31353b7cf5f7ec0c6d8"
+        },
+        "cosmic_bridge_v01/code/background.py": {
+          "bytes": 29597,
+          "mtime_ns": 1790250970104246661,
+          "sha256": "8a4c445593daaefd124ced77efc9f41e65421bb9d6cf2fdb7ea4f5bdeb8f22e4"
+        },
+        "cosmic_bridge_v01/code/independent_bridge_check.py": {
+          "bytes": 6516,
+          "mtime_ns": 1790251099559780703,
+          "sha256": "5bc73a68d4c120a870ba2f8c2c4c7685724a57a8e375e40bb2b5da5ffe768a4e"
+        },
+        "cosmic_bridge_v01/code/independent_pm_checks.py": {
+          "bytes": 8430,
+          "mtime_ns": 1790251281517402916,
+          "sha256": "b69db6b6cb50604ea23a623070de9db36b89e7966b250ba8066ca7ce42dfaa31"
+        },
+        "cosmic_bridge_v01/code/make_reference_spectrum.py": {
+          "bytes": 12909,
+          "mtime_ns": 1790250928744378452,
+          "sha256": "a38c04abe89f140395af962c26bc2f4bf21e997f63409579aeeb0927357d54d7"
+        },
+        "cosmic_bridge_v01/code/pm.py": {
+          "bytes": 21321,
+          "mtime_ns": 1790251254897521339,
+          "sha256": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982"
+        },
+        "cosmic_bridge_v01/code/run_clustering.py": {
+          "bytes": 8154,
+          "mtime_ns": 1790251324129209297,
+          "sha256": "cb808e77c948b400c9eaf6b523dcd9524c58777b730fa39bc48cd3de0c5f7468"
+        },
+        "cosmic_bridge_v01/code/validate_pm.py": {
+          "bytes": 13655,
+          "mtime_ns": 1790251254897521339,
+          "sha256": "8c164d1d27f746678c3fa7df110ed30e3e12ce19421a1fdab9b50f94e16d5b95"
+        },
+        "cosmic_bridge_v01/figures/matter_power_diagnostics.pdf": {
+          "bytes": 41219,
+          "mtime_ns": 1790251992433749107,
+          "sha256": "3c1c127544690f9e71eb4ee1b2f0187adeb914fad6b3f6aeeccbd508091e721e"
+        },
+        "cosmic_bridge_v01/figures/matter_power_diagnostics.png": {
+          "bytes": 342399,
+          "mtime_ns": 1790251992821746953,
+          "sha256": "a3ddcca259d7f84e2227b7b876ea760fdea001c53834abe0c80ab6d9bbbad3dc"
+        },
+        "cosmic_bridge_v01/figures/plot_inputs.json": {
+          "bytes": 9592,
+          "mtime_ns": 1790251992865746709,
+          "sha256": "46b02e035d03184332ad7f363e70a1d28651f98109bacd4e20e755918b929e47"
+        },
+        "cosmic_bridge_v01/inputs/camb_parameters.txt": {
+          "bytes": 3908,
+          "mtime_ns": 1790250950244311077,
+          "sha256": "d9bafd4f7492cf91be12acfaffcc87119695fd50f600f33f17320ddf6afe076b"
+        },
+        "cosmic_bridge_v01/inputs/reference_linear_spectrum.csv": {
+          "bytes": 147573,
+          "mtime_ns": 1790250950244311077,
+          "sha256": "a41eb6b0edbb1380b97b013a7edb05fe48ae4111e8b5ee4d94b868b6dc4bdf45"
+        },
+        "cosmic_bridge_v01/inputs/reference_linear_spectrum.npz": {
+          "bytes": 48977,
+          "mtime_ns": 1790250950236311104,
+          "sha256": "e2f66b8f4c4ea7cf682ac31a3ea9f2578cadc5fefc7b3cb8cf5d9d34494d2ef2"
+        },
+        "cosmic_bridge_v01/inputs/reference_spectrum_metadata.json": {
+          "bytes": 7125,
+          "mtime_ns": 1790250950244311077,
+          "sha256": "dcd7b753dea4b52a18158d18adb8bc321e4a2628ec27075f8f2c9ee940e487dc"
+        },
+        "cosmic_bridge_v01/protocol.md": {
+          "bytes": 5433,
+          "mtime_ns": 1790250723248876066,
+          "sha256": "74a2cab351d53f98169b885542d23d18b4d425c6fd6b75b91b49f5c53422e2e1"
+        },
+        "cosmic_bridge_v01/reports/clustering_independent_audit.json": {
+          "bytes": 66259,
+          "mtime_ns": 1790251886818331486,
+          "sha256": "957972b7eeefd5563897be475e895876fcc7e4dd8b7b92dfdf826e882931e72c"
+        },
+        "cosmic_bridge_v01/reports/execution_notes.md": {
+          "bytes": 2512,
+          "mtime_ns": 1790252288912141067,
+          "sha256": "0f1ab07dba7d827ea486061313487f80db9000f17dee815d73bca7ea4bc6fab8"
+        },
+        "cosmic_bridge_v01/reports/independent_bridge_checks.json": {
+          "bytes": 5439,
+          "mtime_ns": 1790251102391769702,
+          "sha256": "6d9fab0345436fd39885deaae760e70696ef92514df143572d2c574e441f8fa8"
+        },
+        "cosmic_bridge_v01/reports/independent_pm_checks.json": {
+          "bytes": 11394,
+          "mtime_ns": 1790251287629375447,
+          "sha256": "415689163f2351679af38201f8b3479723f4ba19eea31c350e490f9a9f58100f"
+        },
+        "cosmic_bridge_v01/reports/independent_review.md": {
+          "bytes": 11274,
+          "mtime_ns": 1790252006205629746,
+          "sha256": "01b894b8308270217c6490105a23855db65ad3b0b6e7a386899d6bd5964a2cd5"
+        },
+        "cosmic_bridge_v01/reports/pm_validation_cn.md": {
+          "bytes": 4047,
+          "mtime_ns": 1790251295773338683,
+          "sha256": "f09736064515f5eb217e753e005032320e9025216d22dcd52538ca70f344dc26"
+        },
+        "cosmic_bridge_v01/reports/results_cn.md": {
+          "bytes": 15016,
+          "mtime_ns": 1790252086918528802,
+          "sha256": "2882e75f7a37d27cfffa8904e6c4dd10a8b1856afd642241a0b2b5982bcf0d23"
+        },
+        "cosmic_bridge_v01/requirements.txt": {
+          "bytes": 146,
+          "mtime_ns": 1790251524496242421,
+          "sha256": "b459e02b3478924108bc34d2eddd96eed6b01cab6263b137b291991c9e3488a9"
+        },
+        "cosmic_bridge_v01/results/background_eps0.csv": {
+          "bytes": 994355,
+          "mtime_ns": 1790250996636157470,
+          "sha256": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0"
+        },
+        "cosmic_bridge_v01/results/background_eps1e-2.csv": {
+          "bytes": 1298262,
+          "mtime_ns": 1790250996876156648,
+          "sha256": "57e49cbb049ebb66ca4e515869e660bbfe6b81b4f3a8748d564fb625b6498821"
+        },
+        "cosmic_bridge_v01/results/background_eps1e-4.csv": {
+          "bytes": 1309997,
+          "mtime_ns": 1790250996764157031,
+          "sha256": "2f6fc8ea8e1b24cb87b41129d30005030488da0bb20974625187a8936942ef13"
+        },
+        "cosmic_bridge_v01/results/background_grid.csv": {
+          "bytes": 6926320,
+          "mtime_ns": 1790250996520157867,
+          "sha256": "c627587b606411f2d182eab47ee1c7523dcf314267264fe5c795833ccd860dc1"
+        },
+        "cosmic_bridge_v01/results/background_summary.json": {
+          "bytes": 51495,
+          "mtime_ns": 1790250996880156634,
+          "sha256": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307"
+        },
+        "cosmic_bridge_v01/results/clock_n32_s256.json": {
+          "bytes": 182642,
+          "mtime_ns": 1790251500676361586,
+          "sha256": "980e18b3aac17c147e507a1ddc5468434b296f5defa6288d28796ae1e818b174"
+        },
+        "cosmic_bridge_v01/results/clock_n32_s256.npz": {
+          "bytes": 623443,
+          "mtime_ns": 1790251500668361625,
+          "sha256": "92785887cd4cfd793b3914e0b467f291e2bbef2c7643b55a83b8fa4f1f01207e"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s128.json": {
+          "bytes": 93472,
+          "mtime_ns": 1790251416560773837,
+          "sha256": "6e1dd6767d14a77ad020d1f153fef1510e0ac3474304e022d396b698c05af1ce"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s128.npz": {
+          "bytes": 4859591,
+          "mtime_ns": 1790251416540773933,
+          "sha256": "ec8658ff4befef974ab36a2a785d5b16f56fbdc23850b2abd3eb826e808d7b6e"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s256.json": {
+          "bytes": 182186,
+          "mtime_ns": 1790251489700416152,
+          "sha256": "c09aa88ea3d984ce8d57ae85d950784317ebb60b7c06edb668ec9932f1fa979e"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s256.npz": {
+          "bytes": 4859570,
+          "mtime_ns": 1790251489684416231,
+          "sha256": "77fe543174823aff9a7bd276579bab43d2e15401a1a5f9b01bbf7c876892264b"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s512.json": {
+          "bytes": 359682,
+          "mtime_ns": 1790251684679417701,
+          "sha256": "8bc76b9b992db6ba837234d9a96c3083ed8349fe137f9451c080c52ce3b4812d"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s512.npz": {
+          "bytes": 4859584,
+          "mtime_ns": 1790251684655417828,
+          "sha256": "d376c57859efe9f94697d627df65f828fb904018540b2da655f86ff056945516"
+        },
+        "cosmic_bridge_v01/results/clustering_summary.json": {
+          "bytes": 23933,
+          "mtime_ns": 1790251684711417533,
+          "sha256": "2445b60dbf7fc98176caff87bca82ae83e5f23f56092ea2aba067b0a8a9333c1"
+        },
+        "cosmic_bridge_v01/results/initial_modes.npz": {
+          "bytes": 58474,
+          "mtime_ns": 1790251339409138717,
+          "sha256": "1ed87046b6858eda55fdebe689583f103cd78c3274b81c5e923f12ba5951a4d7"
+        },
+        "cosmic_bridge_v01/results/pm_validation.json": {
+          "bytes": 14484,
+          "mtime_ns": 1790251295773338683,
+          "sha256": "235d97d8d053621d26846c08e4a620027bd3b716ca400a440ed31e87fbfc7d3a"
+        },
+        "cosmic_bridge_v01/results/pm_validation_attempt_001.json": {
+          "bytes": 13884,
+          "mtime_ns": 1790251184467437804,
+          "sha256": "fd65891821964edb6e6d5ac56e4f74e020ec3cf86430aad8b11e1a6f4c388b52"
+        },
+        "cosmic_bridge_v01/results/pm_validation_attempt_002.json": {
+          "bytes": 14484,
+          "mtime_ns": 1790251295773338683,
+          "sha256": "235d97d8d053621d26846c08e4a620027bd3b716ca400a440ed31e87fbfc7d3a"
+        },
+        "cosmic_bridge_v01/results/reference_n32_s256.json": {
+          "bytes": 183232,
+          "mtime_ns": 1790251500044364734,
+          "sha256": "4ec3d10c29093b8dfb6ab97b1dbb65f3309d227c6594d59b845ada78a9df65cf"
+        },
+        "cosmic_bridge_v01/results/reference_n32_s256.npz": {
+          "bytes": 623527,
+          "mtime_ns": 1790251500032364793,
+          "sha256": "f28dd062bb2c92cd5cab455911bbb836fd1b2597171c14f6695c4208822bd9a8"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s128.json": {
+          "bytes": 93611,
+          "mtime_ns": 1790251416280775184,
+          "sha256": "0d1bf434918df19d88717b38dba6abb05b77b84b2e95ae6e3431f40c7ae9a8c2"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s128.npz": {
+          "bytes": 4859444,
+          "mtime_ns": 1790251416268775242,
+          "sha256": "7492e8079c8858563130090a1689541256604098230f941a68f2c36bec788f6f"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s256.json": {
+          "bytes": 181863,
+          "mtime_ns": 1790251490204413651,
+          "sha256": "590285a9d4a27577eb61a73d17d12cf2f8161191ebe2154e5e54fbce199d267f"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s256.npz": {
+          "bytes": 4859662,
+          "mtime_ns": 1790251490184413751,
+          "sha256": "a477e27fe8a1d4c4ab7cb981359c2374668d6c6ff5b2281873a7688c61c131d3"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s512.json": {
+          "bytes": 360129,
+          "mtime_ns": 1790251683283425045,
+          "sha256": "513e261c7f1fd640f3abf1f10d59ccda0bd6f8f8d0f4f7c3f89b881bd769e3e3"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s512.npz": {
+          "bytes": 4859529,
+          "mtime_ns": 1790251683259425171,
+          "sha256": "71872291ebb8dbbab3de80f555b9586ad43f1a359f74666b24941c4c1ef0633d"
+        }
+      },
+      "after": {
+        "halo_cooling_v01/.gitattributes": {
+          "bytes": 301,
+          "mtime_ns": 1790265963955224536,
+          "sha256": "57d2d978e5dba9db4e986607ce653da50330080384c491c21f293c705c362a12"
+        },
+        "halo_cooling_v01/README.md": {
+          "bytes": 4704,
+          "mtime_ns": 1790265114461111430,
+          "sha256": "e87acff35c33e9cb37ae1fc709421ffe6128be763911adb88b8129ae2037241e"
+        },
+        "halo_cooling_v01/code/__pycache__/cooling.cpython-312.pyc": {
+          "bytes": 16657,
+          "mtime_ns": 1790254492904353283,
+          "sha256": "7b4bddec44266a07ee75a8b07d60673df89cf21a9af3009b1229a394d9ab8360"
+        },
+        "halo_cooling_v01/code/__pycache__/pm_refined.cpython-312.pyc": {
+          "bytes": 22339,
+          "mtime_ns": 1790254706612626448,
+          "sha256": "1437237de7629a53ff1492080c12c4bb9122502383686d2342ab3fab9d174d64"
+        },
+        "halo_cooling_v01/code/__pycache__/run_spherical_pm.cpython-312.pyc": {
+          "bytes": 30673,
+          "mtime_ns": 1790254935793029296,
+          "sha256": "f5d1cfc3ccf70364fb13db867228cffff95aed383e69be084961bcdd2a081e9e"
+        },
+        "halo_cooling_v01/code/__pycache__/spherical_collapse.cpython-312.pyc": {
+          "bytes": 39158,
+          "mtime_ns": 1790254706992620189,
+          "sha256": "1aa51f2532e32ceb99cdb64cc804bec19373a46f78a047bf6d95f07d64bef185"
+        },
+        "halo_cooling_v01/code/__pycache__/validate_pm_artifacts.cpython-312.pyc": {
+          "bytes": 45930,
+          "mtime_ns": 1790255523908802404,
+          "sha256": "ff798805b642772d7d25243f5f002c338d4002fb60516c56d14108f0d3e28018"
+        },
+        "halo_cooling_v01/code/__pycache__/validate_refined_pm.cpython-312.pyc": {
+          "bytes": 38072,
+          "mtime_ns": 1790254944272902052,
+          "sha256": "539266cb83e4b0fd889f88d51e76ce660a179af2223a1a402344b2be499cc859"
+        },
+        "halo_cooling_v01/code/__pycache__/write_results_report.cpython-312.pyc": {
+          "bytes": 11742,
+          "mtime_ns": 1790258043748399902,
+          "sha256": "86d561bfa9dd143e92ccab146af95a5c87fd26169104b63202861eca4504ca74"
+        },
+        "halo_cooling_v01/code/cooling.py": {
+          "bytes": 11278,
+          "mtime_ns": 1790254454561073488,
+          "sha256": "1fd374c4fa2b146fdd2467fc5057b258531f3c630b2fdd5ff13bdc5233f91475"
+        },
+        "halo_cooling_v01/code/pm_refined.py": {
+          "bytes": 12198,
+          "mtime_ns": 1790254524667769968,
+          "sha256": "f8e5bcbc32d726a0345282e228458894ac3b5e75baf0051f65cdbfb05a268602"
+        },
+        "halo_cooling_v01/code/run_cooling.py": {
+          "bytes": 22523,
+          "mtime_ns": 1790254646893624696,
+          "sha256": "8b6533ba863fb2361eb5526ce117a2a90dad6235878331d8ea8f8492cf9b9042"
+        },
+        "halo_cooling_v01/code/run_spherical_pm.py": {
+          "bytes": 20211,
+          "mtime_ns": 1790254947308856582,
+          "sha256": "4c8f29acc2598935a30b027691ccf3f01ae34b6b80a27aac0f7cf5349fafa28b"
+        },
+        "halo_cooling_v01/code/spherical_collapse.py": {
+          "bytes": 25464,
+          "mtime_ns": 1790254420489729225,
+          "sha256": "4e0afba9b783575ec02ad60ec2f6acfaf87da8a0824f6a978b115e89ba522e47"
+        },
+        "halo_cooling_v01/code/validate_physics_independent.py": {
+          "bytes": 23288,
+          "mtime_ns": 1790254968980533299,
+          "sha256": "91e71bde92ec060dcf155a68f8833dcb6ba601c3171fa1ec8f930dc242c46082"
+        },
+        "halo_cooling_v01/code/validate_pm_artifacts.py": {
+          "bytes": 32387,
+          "mtime_ns": 1790256011446469011,
+          "sha256": "3734d34eb02f7c2798dbbbdcd1f62f8d911120d7861c92fc1a8fe96b40717cdb"
+        },
+        "halo_cooling_v01/code/validate_refined_pm.py": {
+          "bytes": 30157,
+          "mtime_ns": 1790254912621378847,
+          "sha256": "592c3464a49884b9b3b83b1da3c8be680461f53ec50dcd0b14f0a6d334823798"
+        },
+        "halo_cooling_v01/code/verify_sphere_profile.py": {
+          "bytes": 13234,
+          "mtime_ns": 1790255026979678690,
+          "sha256": "166aa3f1f7b0e988a7e4dff7c5a85883b96b339544139f649099736d61c3cb35"
+        },
+        "halo_cooling_v01/code/write_results_report.py": {
+          "bytes": 9883,
+          "mtime_ns": 1790265114457111440,
+          "sha256": "6b90c88f131dd889d4bfcc8cc214439d6f717499d008574479745aaa93e709d8"
+        },
+        "halo_cooling_v01/figures/plot_inputs.json": {
+          "bytes": 68804,
+          "mtime_ns": 1790265258612609332,
+          "sha256": "4529dfbba4cc1398ddfcf92aad6cd8586cc6f2421c926d201a6afed37fd76ce5"
+        },
+        "halo_cooling_v01/protocol.md": {
+          "bytes": 7448,
+          "mtime_ns": 1790254366766795914,
+          "sha256": "f3a0cc5abf21a4374439db756cbf8c4a3103bcabfa2bee6f9bd1921b28e608f2"
+        },
+        "halo_cooling_v01/protocol.sha256": {
+          "bytes": 78,
+          "mtime_ns": 1790254366930792592,
+          "sha256": "3d25f97511dd0b15d11fe52c2ac5dd9df049146eecc6db1c70df7248d26f41c5"
+        },
+        "halo_cooling_v01/reports/cooling_validation.json": {
+          "bytes": 251293,
+          "mtime_ns": 1790254649633578237,
+          "sha256": "df257a383ad32d12c2338e70ec8214ae59baa37d72e7af1d2cab7e37a16af56b"
+        },
+        "halo_cooling_v01/reports/cooling_validation_attempt_001.json": {
+          "bytes": 248263,
+          "mtime_ns": 1790254495256309690,
+          "sha256": "66ac747673337124659e57d5d21789d780ca88a3d1927b0aca479e94b0f0f837"
+        },
+        "halo_cooling_v01/reports/cooling_validation_attempt_002.json": {
+          "bytes": 251293,
+          "mtime_ns": 1790254649617578508,
+          "sha256": "df257a383ad32d12c2338e70ec8214ae59baa37d72e7af1d2cab7e37a16af56b"
+        },
+        "halo_cooling_v01/reports/physics_independent_review.md": {
+          "bytes": 7113,
+          "mtime_ns": 1790254991984192554,
+          "sha256": "e379fc1e2b4c99608d4f75c94caba6e3eb8ef5d639a5cac5e4c0f14d01829380"
+        },
+        "halo_cooling_v01/reports/pm_artifact_review.md": {
+          "bytes": 2268,
+          "mtime_ns": 1790264915425177148,
+          "sha256": "4f435cc6d5e0bd93ef8ebfd4ff164a1d1b567fb36361073a83ecb67053903528"
+        },
+        "halo_cooling_v01/reports/pm_next_stage_design.md": {
+          "bytes": 3715,
+          "mtime_ns": 1790265039805233850,
+          "sha256": "71ab1e64e72252c9a04245d793eec6b954e34fd546edb59b1e300b7442b71dd5"
+        },
+        "halo_cooling_v01/reports/refined_pm_validation_cn.md": {
+          "bytes": 16885,
+          "mtime_ns": 1790254944792894260,
+          "sha256": "ab2026d550882e0d34255d43d6bfc4949547691da32a3ad17f6a8c3e28a29da2"
+        },
+        "halo_cooling_v01/reports/results_cn.md": {
+          "bytes": 7606,
+          "mtime_ns": 1790265114677110927,
+          "sha256": "78216c42d9d11ce1b3715ff4efb33d766df03c65590988649f22c54d956bbfcb"
+        },
+        "halo_cooling_v01/reports/sphere_results_cn.md": {
+          "bytes": 6524,
+          "mtime_ns": 1790255027183675711,
+          "sha256": "6b7f7fed28c595c52cc3764d894ab6f8b9dd97664e65a50a931032c362ffb37a"
+        },
+        "halo_cooling_v01/results/cooling_curve.csv": {
+          "bytes": 170756,
+          "mtime_ns": 1790254649661577761,
+          "sha256": "fa6d511ca322372f8a18314a78b52287cafa40db1a068c4c7b0c33654aea7655"
+        },
+        "halo_cooling_v01/results/cooling_events.json": {
+          "bytes": 8290,
+          "mtime_ns": 1790254649729576610,
+          "sha256": "f1d8a63854ca3662fa82e110235b0ba89e1396cb603d8e48792b5351b61fd460"
+        },
+        "halo_cooling_v01/results/cooling_grid.csv": {
+          "bytes": 462537,
+          "mtime_ns": 1790254649729576610,
+          "sha256": "8eda53b1b2450ccb80e8f5e2414290538c3455ce36a5d1a245e4bf0c89a697bc"
+        },
+        "halo_cooling_v01/results/cooling_summary.json": {
+          "bytes": 4762,
+          "mtime_ns": 1790254649729576610,
+          "sha256": "510c309d32bde5e7cac7d2e5cccdd30879a1f490f38801b3eb0ebe7e71e75af1"
+        },
+        "halo_cooling_v01/results/physics_independent_validation.json": {
+          "bytes": 44264,
+          "mtime_ns": 1790254970632508748,
+          "sha256": "7eca3b33e2243383b705d1af63455c627909d2cc6ae7eb1e45673bf9c8f9d0a7"
+        },
+        "halo_cooling_v01/results/pm_artifact_validation.json": {
+          "bytes": 195740,
+          "mtime_ns": 1790264915421177141,
+          "sha256": "6efd00c080e3858fba4caa7983b66eac036266b204bfea33e6267a8133780b1a"
+        },
+        "halo_cooling_v01/results/pm_clock_main.json": {
+          "bytes": 1643868,
+          "mtime_ns": 1790264694500013370,
+          "sha256": "c11aafda5f2cb93b09874d8bfd893d0d7d9c5fa16639f9b224d65cb2d915f220"
+        },
+        "halo_cooling_v01/results/pm_clock_main.npz": {
+          "bytes": 134861,
+          "mtime_ns": 1790264693924008122,
+          "sha256": "c961b690c124cceee5e866ea809eb9a0ebe1fb81027bd67209c7cf62511d65d2"
+        },
+        "halo_cooling_v01/results/pm_clock_main_final_state.npz": {
+          "bytes": 7590685,
+          "mtime_ns": 1790264694388012351,
+          "sha256": "cc9a7e8f184b7d6f2a86a9a00279b5b73b04f07793f86bbfdcb8f9da37bd86da"
+        },
+        "halo_cooling_v01/results/pm_clock_main_progress.json": {
+          "bytes": 133,
+          "mtime_ns": 1790264694500013370,
+          "sha256": "afe1659b4b15351501662bbd2487d11725bb65e3e2c50ed9595f990939c77b40"
+        },
+        "halo_cooling_v01/results/pm_preflight.json": {
+          "bytes": 2239,
+          "mtime_ns": 1790254811070945696,
+          "sha256": "01b59c5f39501c0aa1c1fe1411cb2446baac3a088fd1c71940b518fab624e5d0"
+        },
+        "halo_cooling_v01/results/pm_ref_force128.json": {
+          "bytes": 826112,
+          "mtime_ns": 1790255366410915559,
+          "sha256": "ce70ce1caccd31eaf8e567fa95c0fb8c71f1535b65c2823b8d6ad27e4940389f"
+        },
+        "halo_cooling_v01/results/pm_ref_force128.npz": {
+          "bytes": 112193,
+          "mtime_ns": 1790255366354916318,
+          "sha256": "8ae3533b96d82515d18676fb843b9e2e69942800df281c44e97fa71251ec72e4"
+        },
+        "halo_cooling_v01/results/pm_ref_force128_progress.json": {
+          "bytes": 135,
+          "mtime_ns": 1790255366410915559,
+          "sha256": "87f2ed8916e9a0fd93a383b54c3bab4ef4a36b95f3800b7a840160faf4e3a370"
+        },
+        "halo_cooling_v01/results/pm_ref_halfstep.json": {
+          "bytes": 3276731,
+          "mtime_ns": 1790260238876322303,
+          "sha256": "80db896f8abc0615fce68378727f63e780120a62f0855533ff4c7c621ea2fc7b"
+        },
+        "halo_cooling_v01/results/pm_ref_halfstep.npz": {
+          "bytes": 181297,
+          "mtime_ns": 1790260238700344156,
+          "sha256": "f5187842c0257b11974e30fd4fd9d59ee4cf6c6f8ea6c32a1d223678a6dff326"
+        },
+        "halo_cooling_v01/results/pm_ref_halfstep_progress.json": {
+          "bytes": 134,
+          "mtime_ns": 1790260238880321806,
+          "sha256": "edd43c91469891037166e5ae03e3e169ea2b248517dc7e97799349f73f66c342"
+        },
+        "halo_cooling_v01/results/pm_ref_main.json": {
+          "bytes": 1642432,
+          "mtime_ns": 1790257547243538041,
+          "sha256": "9ae22c2acb3f724ed59228a53439a37c21af7488cf9daacee6d16f46604564bd"
+        },
+        "halo_cooling_v01/results/pm_ref_main.npz": {
+          "bytes": 134927,
+          "mtime_ns": 1790257546659546584,
+          "sha256": "cf0e60311ddac9d2c05cb99233b5c71711b95dc71e3912f5cb6e386d0bc7894f"
+        },
+        "halo_cooling_v01/results/pm_ref_main_final_state.npz": {
+          "bytes": 7598726,
+          "mtime_ns": 1790257547131539680,
+          "sha256": "e969a55ab79591bef775523f058d95f64ae20ae9328951938ed101d2e5f87170"
+        },
+        "halo_cooling_v01/results/pm_ref_main_progress.json": {
+          "bytes": 130,
+          "mtime_ns": 1790257547247537983,
+          "sha256": "580f910aa0e3b39f0a0eec698593a9e200fdab75f56e18c5ca3b67dc95a3378d"
+        },
+        "halo_cooling_v01/results/pm_ref_particles128.json": {
+          "bytes": 1259788,
+          "mtime_ns": 1790264827032897950,
+          "sha256": "25d069fb31637c081bbb20c1c1ef683c4bfad87f2bad95f32db7c2b2d4b9de6f"
+        },
+        "halo_cooling_v01/results/pm_ref_particles128.npz": {
+          "bytes": 123463,
+          "mtime_ns": 1790264826960897629,
+          "sha256": "dcf9876305d48112c55d0f16f3509bb301b4ccf83cfab6f8811b593c1610cf6b"
+        },
+        "halo_cooling_v01/results/pm_ref_particles128_progress.json": {
+          "bytes": 138,
+          "mtime_ns": 1790264827032897950,
+          "sha256": "6a14d93d2ad257f4e97e97dc15b8bd3e29a021ad9d059c572a0b592d5e4f60e9"
+        },
+        "halo_cooling_v01/results/pm_ref_shift.json": {
+          "bytes": 1515496,
+          "mtime_ns": 1790262341494054685,
+          "sha256": "3edbaf93041c848561a6d4116ec28d7a67a8097ebe494fa6ffe8c00005b98379"
+        },
+        "halo_cooling_v01/results/pm_ref_shift.npz": {
+          "bytes": 181719,
+          "mtime_ns": 1790262341366051953,
+          "sha256": "586a95986f63c67af5018a8ee44c7be3f110cfa9e7731ea7ac2a721096ecb751"
+        },
+        "halo_cooling_v01/results/pm_ref_shift_progress.json": {
+          "bytes": 132,
+          "mtime_ns": 1790262341494054685,
+          "sha256": "92bd3b77b48df3e5d2c502f7c3705577f275fb30d19a55fc2330429d3669a370"
+        },
+        "halo_cooling_v01/results/refined_pm_validation.json": {
+          "bytes": 70044,
+          "mtime_ns": 1790254944792894260,
+          "sha256": "8f97dd3a305e99ca2fbfd7e7f79c128812b5d57e6d35c690793784de2d7781f6"
+        },
+        "halo_cooling_v01/results/refined_pm_validation_attempt_001.json": {
+          "bytes": 63995,
+          "mtime_ns": 1790254708484595626,
+          "sha256": "cfcc318f8ade4a34e4599fdd14adf5f738205e4cc4977a6a7c86a3f414a08324"
+        },
+        "halo_cooling_v01/results/sphere_clock.csv": {
+          "bytes": 1082530,
+          "mtime_ns": 1790254428657570617,
+          "sha256": "d167a2120c81799dbd5fa105b525354c0111bde73837160bd30a3b49618d8d32"
+        },
+        "halo_cooling_v01/results/sphere_profile_check.json": {
+          "bytes": 31151,
+          "mtime_ns": 1790255040259485056,
+          "sha256": "c045d12a996953d42eaba7bd63fc38531035eefaf19fe12d6375d96e41a8574a"
+        },
+        "halo_cooling_v01/results/sphere_profile_check_previous_fc9979bfec06.json": {
+          "bytes": 31079,
+          "mtime_ns": 1790255040255485114,
+          "sha256": "fc9979bfec06327f6b44176422bb3c9fc68731ca9035d1990136543d0ca49819"
+        },
+        "halo_cooling_v01/results/sphere_reference.csv": {
+          "bytes": 1086897,
+          "mtime_ns": 1790254426477612860,
+          "sha256": "f96b0572abb16132aa7425143fdc498445bf2ddf45f9d971767d8c26075ee8a1"
+        },
+        "halo_cooling_v01/results/sphere_summary.json": {
+          "bytes": 41038,
+          "mtime_ns": 1790254429225559621,
+          "sha256": "eff75c2d2a7144effad867560d54fafc0a3bec3e344f493031e236639b5bc275"
+        },
+        "halo_cooling_v01/results/spherical_pm_run.log": {
+          "bytes": 33748,
+          "mtime_ns": 1790264827152898482,
+          "sha256": "c375eb65c1845e4c3e575fb1a67d7b81b3c9b390b4633a1f443a7d8ec4177ed8"
+        },
+        "halo_cooling_v01/results/spherical_pm_summary.json": {
+          "bytes": 30825,
+          "mtime_ns": 1790264827152898482,
+          "sha256": "b802585684d1e787679263f1ddf9b113b8c72f4a0beec6f9e25824c16c653393"
+        },
+        "halo_cooling_v01/sources/GRACKLE_LICENSE": {
+          "bytes": 4491,
+          "mtime_ns": 1790254051834075621,
+          "sha256": "a085c6b50d804f73ee99e5ede3dd4390a49a0ff261d1c7cc145d6c029e6f80bb"
+        },
+        "halo_cooling_v01/sources/__pycache__/grackle_primordial_equilibrium.cpython-312.pyc": {
+          "bytes": 14068,
+          "mtime_ns": 1790254493264346606,
+          "sha256": "fc1d4de31d497deaf2758725aab799e0e587ab18d684e736fd2c0b8ba4b988b0"
+        },
+        "halo_cooling_v01/sources/grackle_primordial_equilibrium.py": {
+          "bytes": 8698,
+          "mtime_ns": 1790254051078083445,
+          "sha256": "dc45688c6a6eab60af5ebb86323c7d36b7db3e5347af43b65b4766332abde37e"
+        },
+        "halo_cooling_v01/sources/grackle_source_metadata.json": {
+          "bytes": 4981,
+          "mtime_ns": 1790254051834075621,
+          "sha256": "4ea9a85413930ff810248f172e999f7248e57a97dd7a812ac9866e424aa19efe"
+        },
+        "cosmic_bridge_v01/.gitattributes": {
+          "bytes": 385,
+          "mtime_ns": 1790252257181034548,
+          "sha256": "038ab7d64c4eea7bcef9b62f99f6eecfc6091d11a31664c6b2ab785ce1a3d034"
+        },
+        "cosmic_bridge_v01/README.md": {
+          "bytes": 6291,
+          "mtime_ns": 1790252086914528948,
+          "sha256": "ef659e1220c5dbd52c954da90bafe3bfd11e4585e0e22f62a1afae7d7de0706c"
+        },
+        "cosmic_bridge_v01/REFERENCE_SPECTRUM_INPUT.md": {
+          "bytes": 3576,
+          "mtime_ns": 1790250928744378452,
+          "sha256": "83604462ea19c2579d1efc942bad627f727b95b1211a50fe93f2f0800254881e"
+        },
+        "cosmic_bridge_v01/code/__pycache__/background.cpython-312.pyc": {
+          "bytes": 44924,
+          "mtime_ns": 1790254493312345717,
+          "sha256": "bae8ec248d2fcb7e591ac6233574ddd851d840cdf8f873aba55c2d5786a5aadd"
+        },
+        "cosmic_bridge_v01/code/__pycache__/pm.cpython-312.pyc": {
+          "bytes": 35824,
+          "mtime_ns": 1790251255221519908,
+          "sha256": "c47a419ec3932b8762499bd2177e715e4e54ca2ce57ce0c8d24a1d4a139b8db7"
+        },
+        "cosmic_bridge_v01/code/__pycache__/run_clustering.cpython-312.pyc": {
+          "bytes": 13039,
+          "mtime_ns": 1790251324181209058,
+          "sha256": "8cd0f19df0c47e64f68b0fa572855cad1d0708c8abf6d154a5ad71b300f7d639"
+        },
+        "cosmic_bridge_v01/code/audit_saved_clustering.py": {
+          "bytes": 17863,
+          "mtime_ns": 1790251884954341685,
+          "sha256": "a05d36bcd0882116ea89b4104ad817c0e786ae8feb04e31353b7cf5f7ec0c6d8"
+        },
+        "cosmic_bridge_v01/code/background.py": {
+          "bytes": 29597,
+          "mtime_ns": 1790250970104246661,
+          "sha256": "8a4c445593daaefd124ced77efc9f41e65421bb9d6cf2fdb7ea4f5bdeb8f22e4"
+        },
+        "cosmic_bridge_v01/code/independent_bridge_check.py": {
+          "bytes": 6516,
+          "mtime_ns": 1790251099559780703,
+          "sha256": "5bc73a68d4c120a870ba2f8c2c4c7685724a57a8e375e40bb2b5da5ffe768a4e"
+        },
+        "cosmic_bridge_v01/code/independent_pm_checks.py": {
+          "bytes": 8430,
+          "mtime_ns": 1790251281517402916,
+          "sha256": "b69db6b6cb50604ea23a623070de9db36b89e7966b250ba8066ca7ce42dfaa31"
+        },
+        "cosmic_bridge_v01/code/make_reference_spectrum.py": {
+          "bytes": 12909,
+          "mtime_ns": 1790250928744378452,
+          "sha256": "a38c04abe89f140395af962c26bc2f4bf21e997f63409579aeeb0927357d54d7"
+        },
+        "cosmic_bridge_v01/code/pm.py": {
+          "bytes": 21321,
+          "mtime_ns": 1790251254897521339,
+          "sha256": "1b2607ac0b7ba35c5df9ceb7375910ba75b7bed65a1edec79c0583f067a5d982"
+        },
+        "cosmic_bridge_v01/code/run_clustering.py": {
+          "bytes": 8154,
+          "mtime_ns": 1790251324129209297,
+          "sha256": "cb808e77c948b400c9eaf6b523dcd9524c58777b730fa39bc48cd3de0c5f7468"
+        },
+        "cosmic_bridge_v01/code/validate_pm.py": {
+          "bytes": 13655,
+          "mtime_ns": 1790251254897521339,
+          "sha256": "8c164d1d27f746678c3fa7df110ed30e3e12ce19421a1fdab9b50f94e16d5b95"
+        },
+        "cosmic_bridge_v01/figures/matter_power_diagnostics.pdf": {
+          "bytes": 41219,
+          "mtime_ns": 1790251992433749107,
+          "sha256": "3c1c127544690f9e71eb4ee1b2f0187adeb914fad6b3f6aeeccbd508091e721e"
+        },
+        "cosmic_bridge_v01/figures/matter_power_diagnostics.png": {
+          "bytes": 342399,
+          "mtime_ns": 1790251992821746953,
+          "sha256": "a3ddcca259d7f84e2227b7b876ea760fdea001c53834abe0c80ab6d9bbbad3dc"
+        },
+        "cosmic_bridge_v01/figures/plot_inputs.json": {
+          "bytes": 9592,
+          "mtime_ns": 1790251992865746709,
+          "sha256": "46b02e035d03184332ad7f363e70a1d28651f98109bacd4e20e755918b929e47"
+        },
+        "cosmic_bridge_v01/inputs/camb_parameters.txt": {
+          "bytes": 3908,
+          "mtime_ns": 1790250950244311077,
+          "sha256": "d9bafd4f7492cf91be12acfaffcc87119695fd50f600f33f17320ddf6afe076b"
+        },
+        "cosmic_bridge_v01/inputs/reference_linear_spectrum.csv": {
+          "bytes": 147573,
+          "mtime_ns": 1790250950244311077,
+          "sha256": "a41eb6b0edbb1380b97b013a7edb05fe48ae4111e8b5ee4d94b868b6dc4bdf45"
+        },
+        "cosmic_bridge_v01/inputs/reference_linear_spectrum.npz": {
+          "bytes": 48977,
+          "mtime_ns": 1790250950236311104,
+          "sha256": "e2f66b8f4c4ea7cf682ac31a3ea9f2578cadc5fefc7b3cb8cf5d9d34494d2ef2"
+        },
+        "cosmic_bridge_v01/inputs/reference_spectrum_metadata.json": {
+          "bytes": 7125,
+          "mtime_ns": 1790250950244311077,
+          "sha256": "dcd7b753dea4b52a18158d18adb8bc321e4a2628ec27075f8f2c9ee940e487dc"
+        },
+        "cosmic_bridge_v01/protocol.md": {
+          "bytes": 5433,
+          "mtime_ns": 1790250723248876066,
+          "sha256": "74a2cab351d53f98169b885542d23d18b4d425c6fd6b75b91b49f5c53422e2e1"
+        },
+        "cosmic_bridge_v01/reports/clustering_independent_audit.json": {
+          "bytes": 66259,
+          "mtime_ns": 1790251886818331486,
+          "sha256": "957972b7eeefd5563897be475e895876fcc7e4dd8b7b92dfdf826e882931e72c"
+        },
+        "cosmic_bridge_v01/reports/execution_notes.md": {
+          "bytes": 2512,
+          "mtime_ns": 1790252288912141067,
+          "sha256": "0f1ab07dba7d827ea486061313487f80db9000f17dee815d73bca7ea4bc6fab8"
+        },
+        "cosmic_bridge_v01/reports/independent_bridge_checks.json": {
+          "bytes": 5439,
+          "mtime_ns": 1790251102391769702,
+          "sha256": "6d9fab0345436fd39885deaae760e70696ef92514df143572d2c574e441f8fa8"
+        },
+        "cosmic_bridge_v01/reports/independent_pm_checks.json": {
+          "bytes": 11394,
+          "mtime_ns": 1790251287629375447,
+          "sha256": "415689163f2351679af38201f8b3479723f4ba19eea31c350e490f9a9f58100f"
+        },
+        "cosmic_bridge_v01/reports/independent_review.md": {
+          "bytes": 11274,
+          "mtime_ns": 1790252006205629746,
+          "sha256": "01b894b8308270217c6490105a23855db65ad3b0b6e7a386899d6bd5964a2cd5"
+        },
+        "cosmic_bridge_v01/reports/pm_validation_cn.md": {
+          "bytes": 4047,
+          "mtime_ns": 1790251295773338683,
+          "sha256": "f09736064515f5eb217e753e005032320e9025216d22dcd52538ca70f344dc26"
+        },
+        "cosmic_bridge_v01/reports/results_cn.md": {
+          "bytes": 15016,
+          "mtime_ns": 1790252086918528802,
+          "sha256": "2882e75f7a37d27cfffa8904e6c4dd10a8b1856afd642241a0b2b5982bcf0d23"
+        },
+        "cosmic_bridge_v01/requirements.txt": {
+          "bytes": 146,
+          "mtime_ns": 1790251524496242421,
+          "sha256": "b459e02b3478924108bc34d2eddd96eed6b01cab6263b137b291991c9e3488a9"
+        },
+        "cosmic_bridge_v01/results/background_eps0.csv": {
+          "bytes": 994355,
+          "mtime_ns": 1790250996636157470,
+          "sha256": "1efdc1e2ef28dccd06cf9d0d0aa83396ab4db2a6a7dc9bc51b48b7ef6a1091a0"
+        },
+        "cosmic_bridge_v01/results/background_eps1e-2.csv": {
+          "bytes": 1298262,
+          "mtime_ns": 1790250996876156648,
+          "sha256": "57e49cbb049ebb66ca4e515869e660bbfe6b81b4f3a8748d564fb625b6498821"
+        },
+        "cosmic_bridge_v01/results/background_eps1e-4.csv": {
+          "bytes": 1309997,
+          "mtime_ns": 1790250996764157031,
+          "sha256": "2f6fc8ea8e1b24cb87b41129d30005030488da0bb20974625187a8936942ef13"
+        },
+        "cosmic_bridge_v01/results/background_grid.csv": {
+          "bytes": 6926320,
+          "mtime_ns": 1790250996520157867,
+          "sha256": "c627587b606411f2d182eab47ee1c7523dcf314267264fe5c795833ccd860dc1"
+        },
+        "cosmic_bridge_v01/results/background_summary.json": {
+          "bytes": 51495,
+          "mtime_ns": 1790250996880156634,
+          "sha256": "2bd9d4d15cb60432543bdb485816767e335bda4b47783cfbaa06b4c34a808307"
+        },
+        "cosmic_bridge_v01/results/clock_n32_s256.json": {
+          "bytes": 182642,
+          "mtime_ns": 1790251500676361586,
+          "sha256": "980e18b3aac17c147e507a1ddc5468434b296f5defa6288d28796ae1e818b174"
+        },
+        "cosmic_bridge_v01/results/clock_n32_s256.npz": {
+          "bytes": 623443,
+          "mtime_ns": 1790251500668361625,
+          "sha256": "92785887cd4cfd793b3914e0b467f291e2bbef2c7643b55a83b8fa4f1f01207e"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s128.json": {
+          "bytes": 93472,
+          "mtime_ns": 1790251416560773837,
+          "sha256": "6e1dd6767d14a77ad020d1f153fef1510e0ac3474304e022d396b698c05af1ce"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s128.npz": {
+          "bytes": 4859591,
+          "mtime_ns": 1790251416540773933,
+          "sha256": "ec8658ff4befef974ab36a2a785d5b16f56fbdc23850b2abd3eb826e808d7b6e"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s256.json": {
+          "bytes": 182186,
+          "mtime_ns": 1790251489700416152,
+          "sha256": "c09aa88ea3d984ce8d57ae85d950784317ebb60b7c06edb668ec9932f1fa979e"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s256.npz": {
+          "bytes": 4859570,
+          "mtime_ns": 1790251489684416231,
+          "sha256": "77fe543174823aff9a7bd276579bab43d2e15401a1a5f9b01bbf7c876892264b"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s512.json": {
+          "bytes": 359682,
+          "mtime_ns": 1790251684679417701,
+          "sha256": "8bc76b9b992db6ba837234d9a96c3083ed8349fe137f9451c080c52ce3b4812d"
+        },
+        "cosmic_bridge_v01/results/clock_n64_s512.npz": {
+          "bytes": 4859584,
+          "mtime_ns": 1790251684655417828,
+          "sha256": "d376c57859efe9f94697d627df65f828fb904018540b2da655f86ff056945516"
+        },
+        "cosmic_bridge_v01/results/clustering_summary.json": {
+          "bytes": 23933,
+          "mtime_ns": 1790251684711417533,
+          "sha256": "2445b60dbf7fc98176caff87bca82ae83e5f23f56092ea2aba067b0a8a9333c1"
+        },
+        "cosmic_bridge_v01/results/initial_modes.npz": {
+          "bytes": 58474,
+          "mtime_ns": 1790251339409138717,
+          "sha256": "1ed87046b6858eda55fdebe689583f103cd78c3274b81c5e923f12ba5951a4d7"
+        },
+        "cosmic_bridge_v01/results/pm_validation.json": {
+          "bytes": 14484,
+          "mtime_ns": 1790251295773338683,
+          "sha256": "235d97d8d053621d26846c08e4a620027bd3b716ca400a440ed31e87fbfc7d3a"
+        },
+        "cosmic_bridge_v01/results/pm_validation_attempt_001.json": {
+          "bytes": 13884,
+          "mtime_ns": 1790251184467437804,
+          "sha256": "fd65891821964edb6e6d5ac56e4f74e020ec3cf86430aad8b11e1a6f4c388b52"
+        },
+        "cosmic_bridge_v01/results/pm_validation_attempt_002.json": {
+          "bytes": 14484,
+          "mtime_ns": 1790251295773338683,
+          "sha256": "235d97d8d053621d26846c08e4a620027bd3b716ca400a440ed31e87fbfc7d3a"
+        },
+        "cosmic_bridge_v01/results/reference_n32_s256.json": {
+          "bytes": 183232,
+          "mtime_ns": 1790251500044364734,
+          "sha256": "4ec3d10c29093b8dfb6ab97b1dbb65f3309d227c6594d59b845ada78a9df65cf"
+        },
+        "cosmic_bridge_v01/results/reference_n32_s256.npz": {
+          "bytes": 623527,
+          "mtime_ns": 1790251500032364793,
+          "sha256": "f28dd062bb2c92cd5cab455911bbb836fd1b2597171c14f6695c4208822bd9a8"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s128.json": {
+          "bytes": 93611,
+          "mtime_ns": 1790251416280775184,
+          "sha256": "0d1bf434918df19d88717b38dba6abb05b77b84b2e95ae6e3431f40c7ae9a8c2"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s128.npz": {
+          "bytes": 4859444,
+          "mtime_ns": 1790251416268775242,
+          "sha256": "7492e8079c8858563130090a1689541256604098230f941a68f2c36bec788f6f"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s256.json": {
+          "bytes": 181863,
+          "mtime_ns": 1790251490204413651,
+          "sha256": "590285a9d4a27577eb61a73d17d12cf2f8161191ebe2154e5e54fbce199d267f"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s256.npz": {
+          "bytes": 4859662,
+          "mtime_ns": 1790251490184413751,
+          "sha256": "a477e27fe8a1d4c4ab7cb981359c2374668d6c6ff5b2281873a7688c61c131d3"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s512.json": {
+          "bytes": 360129,
+          "mtime_ns": 1790251683283425045,
+          "sha256": "513e261c7f1fd640f3abf1f10d59ccda0bd6f8f8d0f4f7c3f89b881bd769e3e3"
+        },
+        "cosmic_bridge_v01/results/reference_n64_s512.npz": {
+          "bytes": 4859529,
+          "mtime_ns": 1790251683259425171,
+          "sha256": "71872291ebb8dbbab3de80f555b9586ad43f1a359f74666b24941c4c1ef0633d"
+        }
+      },
+      "differences": {
+        "created": [],
+        "removed": [],
+        "modified": []
+      },
+      "bytecode_writes_disabled": true
+    }
+  },
+  "code_sha256": {
+    "validate_matched_runner.py": "0f3bb28a5817caa2743948e3a400372f471cad52f688a7f716c2e6301a672e7d",
+    "run_matched_pm.py": "8d234201feb262548d5486fbddefbe832505a34a94b77a632f91df065904f146"
+  },
+  "previous_attempts": [],
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "wall_seconds": 0.8744998164474964,
+  "scope": "Small runner/operator/archive consistency only; not production or physical convergence"
+}
