@@ -1,0 +1,22 @@
+Main 376/376
+{
+  "n": 127,
+  "Lambda_eV": 2000000000000.0,
+  "mG_eV": 1e-15,
+  "mX_eV": 4.2175437164302165,
+  "log_mX2_over_Lambda2": -53.76983079123977,
+  "cL_hat_at_Lambda": -2.2528963381250873,
+  "cL_hat_at_mX": -4.976907788133404,
+  "force_hat_at_fixed_Lambda": -5.027568379954573,
+  "force_hat_at_mX_with_chainrule": -5.027568379954572,
+  "wrong_force_hat_with_reset": -2.3035569299462564,
+  "wrong_force_hat_no_chainrule": -5.052898675865157,
+  "max_tree_force_ratio": 8.954500419269619e-06,
+  "max_selected_loop_force_ratio": 1.1054105432379225e-05,
+  "max_selected_total_force_ratio": 2.0008605851648844e-05,
+  "selected_loop_over_new_tree": 1.2344748355353659,
+  "low_scalar_log_parameter": 3.6340372776770016e-23,
+  "low_goldstino_log_parameter": 6.0567287961283365e-24,
+  "leading_S2_scope": "old 1e-6 control is an expansion, not the archived exact spectrum"
+}
+Selected 10% mG: 1.7438846940814334e-14

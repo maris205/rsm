@@ -1,0 +1,241 @@
+{
+  "created_utc": "2026-09-26T05:57:24.861313+00:00",
+  "checks_passed": 18,
+  "check_count": 20,
+  "checks": [
+    {
+      "name": "analytic_modes_precision_n128",
+      "passed": true,
+      "relative_error": "5.1031479790816e-100",
+      "precisions": [
+        100,
+        150
+      ],
+      "tolerance": "1e-80"
+    },
+    {
+      "name": "analytic_modes_precision_n127",
+      "passed": true,
+      "relative_error": "1.67370149936479e-100",
+      "precisions": [
+        100,
+        150
+      ],
+      "tolerance": "1e-80"
+    },
+    {
+      "name": "RG_path_invariance_high_precision",
+      "passed": true,
+      "max_relative_error": "2.857468478205687455539458870763352398629774987056996653037814608069081589766845489188620054650430074e-101",
+      "routes": 60,
+      "tolerance": "1e-80"
+    },
+    {
+      "name": "fixed_scale_source_derivative",
+      "passed": false,
+      "max_relative_error": "2.007496893053623698285950266170102155322514763651020283384438851711067737281318098638552129405054685e-68",
+      "points": 10,
+      "tolerance": "1e-80"
+    },
+    {
+      "name": "field_scale_total_derivative",
+      "passed": false,
+      "max_relative_error": "2.007496893053623698285950266170102155322514763651020283384438851711067737281318098638552129405054685e-68",
+      "points": 10,
+      "tolerance": "1e-80"
+    },
+    {
+      "name": "reset_control_changes_physics",
+      "passed": true,
+      "min_force_coefficient_difference": 0.4838446409287188
+    },
+    {
+      "name": "low_energy_scalar_and_Goldstino_couplings",
+      "passed": true,
+      "scalar_quartic": "96S/Lambda^4",
+      "Goldstino_yukawa_squared": "16S/Lambda^4"
+    },
+    {
+      "name": "main_chain_coefficients",
+      "passed": true,
+      "max_relative_error": 1.4099832412739488e-14,
+      "fields": 20
+    },
+    {
+      "name": "table_scale_audit.csv",
+      "passed": true,
+      "rows": 350,
+      "numeric_and_bool_cells": 2100,
+      "max_relative_error": 1.0,
+      "failures": [],
+      "tolerance": "3e-11 relative, 2e-14 absolute for dimensionless *_hat / ell coefficients only"
+    },
+    {
+      "name": "main_reported_path_errors_small",
+      "passed": true
+    },
+    {
+      "name": "table_benchmarks.csv",
+      "passed": true,
+      "rows": 10,
+      "numeric_and_bool_cells": 140,
+      "max_relative_error": 7.561910219502976e-16,
+      "failures": [],
+      "tolerance": "3e-11 relative, 2e-14 absolute for dimensionless *_hat / ell coefficients only"
+    },
+    {
+      "name": "table_mass_scan.csv",
+      "passed": true,
+      "rows": 65,
+      "numeric_and_bool_cells": 520,
+      "max_relative_error": 6.920814437612556e-16,
+      "failures": [],
+      "tolerance": "3e-11 relative, 2e-14 absolute for dimensionless *_hat / ell coefficients only"
+    },
+    {
+      "name": "table_clock_profiles.csv",
+      "passed": true,
+      "rows": 2050,
+      "numeric_and_bool_cells": 12300,
+      "max_relative_error": 9.603874713807216e-16,
+      "failures": [],
+      "tolerance": "3e-11 relative, 2e-14 absolute for dimensionless *_hat / ell coefficients only"
+    },
+    {
+      "name": "table_scale_curve.csv",
+      "passed": true,
+      "rows": 141,
+      "numeric_and_bool_cells": 423,
+      "max_relative_error": 7.022480099533477e-15,
+      "failures": [],
+      "tolerance": "3e-11 relative, 2e-14 absolute for dimensionless *_hat / ell coefficients only"
+    },
+    {
+      "name": "all_declared_output_row_counts",
+      "passed": true
+    },
+    {
+      "name": "quadrature_y_factor_one_third",
+      "passed": true,
+      "scope": "Local prescribed auxiliary-field gradient only; not a new rolling trajectory."
+    },
+    {
+      "name": "conditional_mass_limit",
+      "passed": true,
+      "independent_mG_eV": 1.743884694081319e-14,
+      "main_mG_eV": 1.7438846940814334e-14,
+      "tolerance": "3e-11 relative"
+    },
+    {
+      "name": "finite_input_maximum_at_last_coordinate",
+      "passed": true
+    },
+    {
+      "name": "high_precision_mass_limit",
+      "passed": true,
+      "mG_eV": "0.0000000000000174388469408132233197688300624443570849929585439493626359462672473408624833093816198716444",
+      "tolerance": "3e-11 relative for float comparison"
+    },
+    {
+      "name": "primary_interpretation",
+      "passed": true,
+      "detail": "Loop/new-tree >1 is not the low-energy successive-loop parameter; unknown high-scale terms remain open."
+    }
+  ],
+  "source_hashes": {
+    "experiments/mediator_chain_v01/results/inputs.json": "2f583e8f759309ae9824f4551ae42c3edb6070cbe16dd9aaeda2ff7caddd6093",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39",
+    "experiments/threshold_rg_v01/protocol.md": "b15c33c72c89cf0c093f26d76d6d3193ae72dea903ac299d0f83edc95cc83af1",
+    "experiments/threshold_rg_v01/code/independent_check.py": "0c00750d6c6903b60836c105d423eeb87c318661fdb22756650ccd241ad4c404",
+    "experiments/threshold_rg_v01/results/inputs.json": "1da11be8fe0b52dd61321d9d5953fa0fad8a1526100ee1139635e3936705097b",
+    "experiments/threshold_rg_v01/results/summary.json": "6efff7f2c1d85bf9c9aeee15ea1f5a80bde07e1a949bceb8e547d72a03120ac0",
+    "experiments/threshold_rg_v01/results/scale_audit.csv": "3dfd94ba93b8ebad063093b7af85f02b52cc60f731079fe4669a4089b392b546",
+    "experiments/threshold_rg_v01/results/benchmarks.csv": "1459852ebe8f9e2a615b2ddd7d3858f74af146589bcae11e27127cfa1f183983",
+    "experiments/threshold_rg_v01/results/mass_scan.csv": "fa91d70a454079afcc9e585c3528f5a7901a0c702e8d40664e8a0635531b7313",
+    "experiments/threshold_rg_v01/results/clock_profiles.csv": "f2081446a59aa2a95e4240cde323cfdc2cd800c193dd34d2d5cfaf3b5008a94b",
+    "experiments/threshold_rg_v01/results/scale_curve.csv": "1b3ffdb11622bc6dad1f6f6bdde1352ea3a83bd57fed55c12fc1b4a7f5bad40a"
+  },
+  "main_source_read_or_imported": false,
+  "high_precision_chain_coefficients": {
+    "128": {
+      "G00": "0.111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110400611638526492311232606512",
+      "h2": "0.0138888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888660862964406262792802881319051",
+      "a_hat": "2.24999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999633475525202113430480175680491",
+      "k_hat": "0.0506605918211688857219397316048638194521793873361232744228045159470865604811177205956046369628109188068111222140928597908403643004930425395346684424151",
+      "h_hat": "-0.00289633812508743176803462666518454559049434251534362888668524717168995919125185384256926861708609883547804420497769315955406945090536662794892590179565",
+      "LH_at_Lambda": "-0.000941093382926940505748716200330595663771990225751136564699083527597385525939811444371798341859737204836527518346547016184631422503039507554595449207473",
+      "tau": "2.26176837952281386100585739546457345655888468119987988996029849526507173768041495185550002333266037343815137710549543612927844198677152885511292089754e-61",
+      "min_mass_over_Lambda": "0.666814915260862710481545297173203315109999860734171933397528870627637780989871301110290875711542708684654213278403270355775722560060410573554022070881",
+      "max_mass_over_Lambda": "1.33325919873364110418951751568550985799477307048908675779656372874171266409070935757223787583338303064837434585832897395571686902571859485862614832505",
+      "endpoint_weight_sum": "0.111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110400611638526492311232606512"
+    },
+    "127": {
+      "G00": "0.111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111104716615857849541912204569717",
+      "h2": "0.0138888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888886852641806678407947112087113837",
+      "a_hat": "2.2499999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999672717743259473022957715261706",
+      "k_hat": "0.0506605918211688857219397316048638194521793873361232744228045159470865604811177205956046369628109188068111222140928597908403643004930425395346684424151",
+      "h_hat": "-0.00289633812508743176803462666518454559049434251534362888668524717168995919125185384256926861708609883547804420497769315955006007523306661000968661978939",
+      "LH_at_Lambda": "-0.000941093382926940505748716200330595663771990225751136564699083527597385525939811444371798341859737204836527518346547016183232390044584398778066164133399",
+      "tau": "6.78530513856844158301757218639372036967665404359963966988089548579521521304124485556650006999798112031445413131648630838822582337381915166906757180447e-61",
+      "min_mass_over_Lambda": "0.66681724031424704736326963533801001986163847867182075917040865622839777094971962821666637483957689063413804395375726923445231909388485664464664644758",
+      "max_mass_over_Lambda": "1.33325803588124452921261773005355422886179160251773867739920902956572799771554491932481616427288535422314759736945924924739272309198395222036233524905",
+      "endpoint_weight_sum": "0.111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111104716615857849541912204569717"
+    }
+  },
+  "conditional_mass_limit_eV": 1.743884694081319e-14,
+  "primary": {
+    "mX_eV": 4.2175437164302165,
+    "log_mX2_over_Lambda2": -53.76983079123977,
+    "cL_hat_at_Lambda": -2.2528963381250873,
+    "cL_hat_at_mX": -4.976907788133404,
+    "force_hat_at_fixed_Lambda": -5.027568379954573,
+    "force_hat_at_mX_with_chainrule": -5.027568379954572,
+    "wrong_force_hat_with_reset": -2.3035569299462564,
+    "wrong_force_hat_no_chainrule": -5.052898675865157,
+    "max_tree_force_ratio": 8.95450041926962e-06,
+    "max_selected_loop_force_ratio": 1.1054105432379227e-05,
+    "max_selected_total_force_ratio": 2.000860585164885e-05,
+    "selected_loop_over_new_tree": 1.2344748355353656,
+    "low_scalar_log_parameter": 3.634037277677001e-23,
+    "low_goldstino_log_parameter": 6.056728796128335e-24
+  },
+  "table_comparisons": {
+    "scale_audit.csv": {
+      "rows": 350,
+      "numeric_and_bool_cells": 2100,
+      "max_relative_error": 1.0,
+      "failures": []
+    },
+    "benchmarks.csv": {
+      "rows": 10,
+      "numeric_and_bool_cells": 140,
+      "max_relative_error": 7.561910219502976e-16,
+      "failures": []
+    },
+    "mass_scan.csv": {
+      "rows": 65,
+      "numeric_and_bool_cells": 520,
+      "max_relative_error": 6.920814437612556e-16,
+      "failures": []
+    },
+    "clock_profiles.csv": {
+      "rows": 2050,
+      "numeric_and_bool_cells": 12300,
+      "max_relative_error": 9.603874713807216e-16,
+      "failures": []
+    },
+    "scale_curve.csv": {
+      "rows": 141,
+      "numeric_and_bool_cells": 423,
+      "max_relative_error": 7.022480099533477e-15,
+      "failures": []
+    }
+  },
+  "scope": [
+    "Independent implementation of declared Gaussian one-loop leading S^2 sector only.",
+    "Does not independently establish the parent full-supergravity Sy formula; adopts its archived protocol and checks implementation of factor 1/3.",
+    "No higher loops, all-sector UV completion, cosmic trajectory, observational inference or Riemann origin established."
+  ],
+  "failure_policy": "Failures remain in this JSON; tolerance changes require preserving previous outputs.",
+  "grouped_check_policy": "All CSV rows and declared numerical fields are compared; one pass per table rather than a pass per cell."
+}

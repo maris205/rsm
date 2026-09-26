@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-26",
+  "scope": "Bounded primary-source protection audit; new endpoint-bypass and charge-Gram formulas are own derivations, not external measured results.",
+  "sources": [
+    {
+      "id": "hep-th/0104005",
+      "version": "v1",
+      "title": "(De)Constructing Dimensions",
+      "url": "https://arxiv.org/html/hep-th/0104005v1",
+      "read_scope_this_turn": "Sections 2, 3 and 6, with equations 2.1–2.11 and 6.1; no full-read claim",
+      "supported_claim": "Specified representations and renormalizability can implement a local mass sector; SUSY link-Higgs completion examples exist.",
+      "full_paper_read_claimed": false,
+      "cache": "build/chain_locality_sources/hep-th_0104005v1.html",
+      "sha256": "cf91fe1d0214761965111b9c593bf239bdf0b4f3b0ae7e602fa3372a93311fec",
+      "bytes": 126058
+    },
+    {
+      "id": "hep-th/0109082",
+      "version": "v1",
+      "title": "Twisted supersymmetry and the topology of theory space",
+      "url": "https://arxiv.org/html/hep-th/0109082v1",
+      "read_scope_this_turn": "Section VI gravity discussion around equations 26–27; no full-read claim",
+      "supported_claim": "Naive four-dimensional supergravity can connect sites nonlocally in that specific construction; its numerical estimates are not transplanted.",
+      "full_paper_read_claimed": false,
+      "cache": "build/chain_locality_sources/hep-th_0109082v1.html",
+      "sha256": "ee0a4f4ccc25f72ce1d19af8177287648a1ff173fbe98022a20f03854744939c",
+      "bytes": 2319661
+    },
+    {
+      "id": "hep-th/0001121",
+      "version": "v2",
+      "title": "One-loop Kahler potential in non-renormalizable theories",
+      "url": "https://arxiv.org/html/hep-th/0001121v2",
+      "read_scope_this_turn": "Sections 1–2, equation 1 and general lagrangian/constraints in equations 2–5; no full-read claim",
+      "supported_claim": "Superpotential nonrenormalization does not protect general Kahler D terms; gauge-invariant K is otherwise arbitrary.",
+      "full_paper_read_claimed": false,
+      "cache": "build/chain_locality_sources/hep-th_0001121v2.html",
+      "sha256": "6d3a6c580664310eacd9078f52fe47615002a61f5f70ae772a99a937357be097",
+      "bytes": 469907
+    }
+  ],
+  "own_derivations": [
+    "Endpoint current leakage and complete self coupling",
+    "Exact mass-bypass endpoint inverse and SPD interval",
+    "Required factor-two and leading-restoration parameter bounds",
+    "Vectorlike U(1) link-Higgs charge Gram realization and minimal flat-direction count",
+    "Conditional limitation of a symmetry under which both neutral currents are invariant"
+  ],
+  "not_computed": [
+    "Radiative generation of any bypass",
+    "Numerical loop floor",
+    "Full Higgs radial and uneaten multiplet spectrum",
+    "Full matching to existing neutral bulk modulus",
+    "Full supergravity or quantum gravity corrections"
+  ],
+  "review_disclosure": "AI selected-section review and a same-model-family internal agent logic audit. Not external peer review. No author read attestation."
+}

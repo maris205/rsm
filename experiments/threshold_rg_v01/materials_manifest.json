@@ -1,0 +1,247 @@
+{
+  "created_utc": "2026-09-26T06:02:43.810060+00:00",
+  "stage": "threshold_rg_v01",
+  "baseline_git_commit": "702102bd86859a106bd5ca31b04e95ac02491d47",
+  "material_type": "Selected one-loop leading-source Gaussian matching, low-energy power counting and prescribed deformations.",
+  "input": "Archived chain spectra, fixed finite boundary, old auxiliary-source clock coordinates.",
+  "output": "Threshold/RG scale identities, selected force budgets, light-loop parameters and bypass sensitivity.",
+  "authorship": "AI-assisted project-internal independent derivations and implementations; no external peer review.",
+  "source_read_records": [
+    "reports/threshold_rg_derivation_20260926.md",
+    "reports/threshold_power_counting_20260926_checks.json",
+    "reports/chain_locality_breaking_20260926_sources.json"
+  ],
+  "exclusions": [
+    "all-order interacting resummation",
+    "all UV finite matching or full supergravity determinant",
+    "a computed nonzero bypass or universal quantum floor",
+    "complete Higgs stabilization or protected endpoint isolation",
+    "complete new vacuum and cosmic trajectory",
+    "observational inference",
+    "Riemann derivation of inverse-log exponent or real interactions"
+  ],
+  "failures_and_limits": [
+    "Initial RG derivative implementation93/105 retained; dimensionless differentiation fixes numerical conditioning without tolerance relaxation.",
+    "Independent comparison initial18/20 retained; derivative working precision raised without changing1e-80 tolerance.",
+    "Historical old-scale approximation failure remains in its immutable archive; current leadingS2 values are explicitly expansions.",
+    "A loop/new-tree ratio aboveone remains; actual light-sector repeated-loop parameters are separately computed.",
+    "Ordinary spectrum positivity does not protect the tiny endpoint cross coefficient; a minimal Higgs mass origin leaves one flat chiral mode."
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 34352,
+      "sha256": "72439325adb3b27f75ae52f4498b5fb528e38e7c91f03365940157dd088a3528"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "bytes": 50864,
+      "sha256": "a7ac6d1caea0e563ad264fb98d5ea482dd9321c287ec5d8bf76159a733720a4f"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "bytes": 46256,
+      "sha256": "59750450ccd744ddd85168bd29663e1f4eba5ba23e69bf904a171504dfb69f7d"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/results/inputs.json",
+      "bytes": 5693,
+      "sha256": "2f583e8f759309ae9824f4551ae42c3edb6070cbe16dd9aaeda2ff7caddd6093"
+    },
+    {
+      "path": "experiments/persistent_restoration_v01/results/inputs.json",
+      "bytes": 4147,
+      "sha256": "bfa667461a8eec70d6262e73698ee0c9f95083d9c5a7d34c2229c965b9671174"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/trajectories.csv",
+      "bytes": 6623432,
+      "sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/README.md",
+      "bytes": 2526,
+      "sha256": "d4f5922b5ceda2afdafe3f1ef81b770fafcb98e281dcf14d26f06cb1e76ffa5e"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/code/audit_archive.py",
+      "bytes": 7987,
+      "sha256": "01f8e8c8a9a85d9d4ec1e8817768c9346df21b2ad545d2c18295ae8918cd1ca1"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/code/independent_check.py",
+      "bytes": 14600,
+      "sha256": "74d10cef04788fb41efe723c48120720bb3a9e3d6195d24f8395a422a5a5c585"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/code/independent_initial_check.py",
+      "bytes": 14419,
+      "sha256": "0c00750d6c6903b60836c105d423eeb87c318661fdb22756650ccd241ad4c404"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/code/plot_results.py",
+      "bytes": 3092,
+      "sha256": "779b3b1ee561909b4759a9de2dd69d7cbf854b0d2aba733389419b35130cb5a7"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/code/run_thresholds.py",
+      "bytes": 10290,
+      "sha256": "e5ae5ec0ea148043a909ccacae6fec174ce99915757b6b2f708f19ed646e717f"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/figures/threshold_running_and_force.pdf",
+      "bytes": 40713,
+      "sha256": "040f7061786f21cb6ee99e6acade359ac9835caa4737e5b5d607e5d7646b5d6a"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/figures/threshold_running_and_force.png",
+      "bytes": 227749,
+      "sha256": "3ec094d9bc8d5a0d29f5df1b43f22a639fbd7c5b50b7d38e0907f6edc5e8fc24"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/logs/independent_check.log",
+      "bytes": 461,
+      "sha256": "d45641c6bc03278031b75b62124b4e91f8aeffa363326ca046930a94912fc604"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/logs/independent_initial_check.log",
+      "bytes": 536,
+      "sha256": "3a23031100ba5c402ad960314a6d9c7e17bb6c96d58dbc81700b92874d485a7f"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/logs/main_run.log",
+      "bytes": 913,
+      "sha256": "4d41c88d8d6e75a655a6ad10ace439eaf9d7ce4cbfcf0a8fcb44e0e6494233da"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/logs/plot_run.log",
+      "bytes": 40,
+      "sha256": "97fd192678913de5f7934baf96d021fa022c20adc6c79c8a1337ef74a0e2db9f"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/protocol.md",
+      "bytes": 4181,
+      "sha256": "b15c33c72c89cf0c093f26d76d6d3193ae72dea903ac299d0f83edc95cc83af1"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/reports/independent_results_cn.md",
+      "bytes": 5797,
+      "sha256": "99424ef00c4b7a7c0151f07549629d90a69a36d9de5a1e39bda42d726a9cc8ea"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/reports/results_cn.md",
+      "bytes": 9127,
+      "sha256": "bad1185bd3e21d3561083f673b5d93eaf0883092e0a769ac973bbd3854a85ee9"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/benchmarks.csv",
+      "bytes": 4129,
+      "sha256": "1459852ebe8f9e2a615b2ddd7d3858f74af146589bcae11e27127cfa1f183983"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/clock_profiles.csv",
+      "bytes": 285451,
+      "sha256": "f2081446a59aa2a95e4240cde323cfdc2cd800c193dd34d2d5cfaf3b5008a94b"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/independent_comparison.json",
+      "bytes": 12567,
+      "sha256": "c58c3cf8e3c7838bda8d47079e42476a449356dd34d0f9534ca9a9aaca784581"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/independent_failure_2026-09-26T055724.861313_0000.json",
+      "bytes": 11716,
+      "sha256": "5eb0d223ae1cd71ba3fe273cd089c1a6b897ec801ee17dfedff3c57c5ac4a463"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/inputs.json",
+      "bytes": 3239,
+      "sha256": "1da11be8fe0b52dd61321d9d5953fa0fad8a1526100ee1139635e3936705097b"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/mass_scan.csv",
+      "bytes": 11458,
+      "sha256": "fa91d70a454079afcc9e585c3528f5a7901a0c702e8d40664e8a0635531b7313"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/scale_audit.csv",
+      "bytes": 67819,
+      "sha256": "3dfd94ba93b8ebad063093b7af85f02b52cc60f731079fe4669a4089b392b546"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/scale_curve.csv",
+      "bytes": 11132,
+      "sha256": "1b3ffdb11622bc6dad1f6f6bdde1352ea3a83bd57fed55c12fc1b4a7f5bad40a"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/summary.json",
+      "bytes": 45294,
+      "sha256": "6efff7f2c1d85bf9c9aeee15ea1f5a80bde07e1a949bceb8e547d72a03120ac0"
+    },
+    {
+      "path": "reports/chain_locality_breaking_20260926.md",
+      "bytes": 11064,
+      "sha256": "3ecf79b2cb1bc02a85af077a654e7cd942ebd09b6693bcd8c3d30bbb2023c1bf"
+    },
+    {
+      "path": "reports/chain_locality_breaking_20260926_checks.json",
+      "bytes": 25112,
+      "sha256": "155cb0f2ccbfe3b5c9d3e6abe0424c6b79074477b68410cc8d74fafba056aa7f"
+    },
+    {
+      "path": "reports/chain_locality_breaking_20260926_checks.py",
+      "bytes": 9438,
+      "sha256": "f81367ded5d9795a6c654d022e5ce294febf4ddad6728c434e0e671abaff81ed"
+    },
+    {
+      "path": "reports/chain_locality_breaking_20260926_sources.json",
+      "bytes": 3038,
+      "sha256": "9a640551165722192cc8625379b62a7a2b8869417237097ba6d39483d894b865"
+    },
+    {
+      "path": "reports/mediator_auxiliary_response_20260926_checks.json",
+      "bytes": 96378,
+      "sha256": "c38e88766aaf7117d1483fb469880d377cc406d18668f87f63b9e126833ffc47"
+    },
+    {
+      "path": "reports/threshold_power_counting_20260926.md",
+      "bytes": 11546,
+      "sha256": "894959fb9f82ca4a8c7e0e4da41c24dbfa3002c6049be1a0249b4b7a8524d458"
+    },
+    {
+      "path": "reports/threshold_power_counting_20260926_checks.json",
+      "bytes": 12383,
+      "sha256": "a4bab0240668cbfb7209186b74d581366b67a3e1c44d33a59dc38702009266aa"
+    },
+    {
+      "path": "reports/threshold_power_counting_20260926_checks.py",
+      "bytes": 7657,
+      "sha256": "54378cad2eb2a1f131e333b9e385a1d9e4433f72bf3846309e13aca73c8bd43f"
+    },
+    {
+      "path": "reports/threshold_rg_derivation_20260926.md",
+      "bytes": 11169,
+      "sha256": "19a9efaa7a15d139cfa640614784da176f1b75e7709f7fd897b68f66cb61b6ce"
+    },
+    {
+      "path": "reports/threshold_rg_derivation_20260926_checks.json",
+      "bytes": 21515,
+      "sha256": "eb2e091d998964d2f7fe58fad9469912d04e21957225a15068b99653b1905e9c"
+    },
+    {
+      "path": "reports/threshold_rg_derivation_20260926_checks.py",
+      "bytes": 10249,
+      "sha256": "700759d4a3a4c7ff365cbd788ebaffdea23ede47ddb2eed0f7fe1dd69902cd5d"
+    },
+    {
+      "path": "reports/threshold_rg_derivation_20260926_initial_checks.json",
+      "bytes": 23165,
+      "sha256": "9d314e9068556ca5cc3d7586cff9593298dadd6f80c294bcdef85b96bea1a432"
+    }
+  ],
+  "not_archived": [
+    "manifest/audit self-reference",
+    "ignored source fulltexts in build/",
+    "Python caches"
+  ]
+}

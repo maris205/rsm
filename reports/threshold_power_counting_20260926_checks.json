@@ -1,0 +1,439 @@
+{
+  "scope": "Independent origin-canonical low-EFT derivation and scalar-only two-loop diagnostic; not full SUSY or heavy matching.",
+  "precision_digits": [
+    90,
+    140
+  ],
+  "input_sha256": "2f583e8f759309ae9824f4551ae42c3edb6070cbe16dd9aaeda2ff7caddd6093",
+  "script_sha256": "54378cad2eb2a1f131e333b9e385a1d9e4433f72bf3846309e13aca73c8bd43f",
+  "input_path": "experiments/mediator_chain_v01/results/inputs.json",
+  "source_strength_convention": "clock-off S=3 P mg\u00b2; Lambda=2 TeV, mg=1e-15 eV, q=3, n=127",
+  "results": {
+    "S_eV4": "17787675000000000000000000.0",
+    "f_abs_eV2": "4217543716430.21620973933184156679921350573079302827682931589",
+    "sqrt_f_eV": "2053665.92132951756047344713641630987626438766151838651991136",
+    "mX_eV": "4.21754371643021620973933184156679921350573079302827682931589",
+    "mX2_eV2": "17.787675",
+    "mX2_over_Lambda2": "4.44691875e-24",
+    "ell": "-53.7698307912397711173176223175712873703243660569480172157165",
+    "lambda_O2": "1.0672605e-22",
+    "y_abs_squared": "1.7787675e-23",
+    "epsilon_derivative": "2.81604419569565706041876348554545637398139057385648926677706e-26",
+    "epsilon_scalar": "6.75850606966957694500503236530909529755533737725557424026494e-25",
+    "epsilon_goldstino": "1.12641767827826282416750539421818254959255622954259570671082e-25",
+    "scalar_log_parameter": "3.63403727767700104165197909572337920357240679866836236322577e-23",
+    "goldstino_log_parameter": "6.05672879612833506941996515953896533928734466444727060537629e-24",
+    "VA_parameter_at_mX": "1.12641767827826282416750539421818254959255622954259570671082e-25",
+    "V1_X_eV4": "-55.3702880624961636540379192480836259169657921993607339142959",
+    "V2_potential_diagram_eV4": "1.35403813340027118534933203386269130221963001159559065677215e-21",
+    "V2_derivative_diagram_eV4": "6.77019066700135592674666016931345651109815005797795328386073e-22",
+    "V2_scalar_diagrams_eV4": "2.03105720010040677802399805079403695332944501739338598515822e-21",
+    "V2scalar_over_V1X": "-3.66813551305343184188285570236214524197807000155764968480024e-23",
+    "dV2scalar_dS_over_dV1X_dS": "-5.48484844686384944720299380541161428184638688488882141603999e-23",
+    "h1": "0.111111111111111111111111111111111111111111111111111111111111",
+    "h2": "0.0138888888888888888888888888888888888888888888888888888888889",
+    "c8_tree": "-2.25",
+    "c8_low_mu": "-4.97401145000831646380764890725244995280714074861263008476433",
+    "CW_X_force_over_tree_force": "1.23318757414643793312426161726991723211525339375500149297206",
+    "m_heavy_min_eV": "1333634480628.49409472653927067602003972327695734364151834082",
+    "m_heavy_max_eV": "2666516071762.48905842523546010710845772358320503547735479842",
+    "gX_loop_proxy": "0.0126651479552922214304849329012159548630448468340308186057011",
+    "max_endpoint_weight": "0.015625"
+  },
+  "checks": [
+    {
+      "name": "Kahler metric",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complex scalar mass",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "origin quartic real radial potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "connection-generated Yukawa",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "four-fermion curvature",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "zero-momentum four-Goldstino cancellation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical radial derivative through quartic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "radial inverse through cubic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "normal-coordinate quartic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "dimension-eight beta cancellation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "one-loop force",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "potential Wick coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "derivative Wick coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "projected derivative Wick coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "coordinate-invariant scalar diagram sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "90: two-loop scalar equivalent formula",
+      "passed": true,
+      "relative_error": "6.14187119799e-91",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "90: CW source derivative",
+      "passed": true,
+      "relative_error": "3.64447375005e-76",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "90: scalar two-loop source derivative",
+      "passed": true,
+      "relative_error": "2.9906282923e-76",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "90: endpoint completeness",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "90: inverse endpoint",
+      "passed": true,
+      "relative_error": "1.38068253711e-91",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "90: fixed-scale/running-coefficient potential identity",
+      "passed": true,
+      "relative_error": "3.14609119051e-91",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "90: source-dependent mu total derivative",
+      "passed": true,
+      "relative_error": "6.23856824466e-76",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "90: metric at |X|/Lambda=0.001",
+      "passed": true,
+      "metric": "0.999996"
+    },
+    {
+      "name": "90: metric at |X|/Lambda=0.01",
+      "passed": true,
+      "metric": "0.9996"
+    },
+    {
+      "name": "90: metric at |X|/Lambda=0.1",
+      "passed": true,
+      "metric": "0.96"
+    },
+    {
+      "name": "90: metric at |X|/Lambda=0.4",
+      "passed": true,
+      "metric": "0.36"
+    },
+    {
+      "name": "140: two-loop scalar equivalent formula",
+      "passed": true,
+      "relative_error": "2.18877021226e-141",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "140: CW source derivative",
+      "passed": true,
+      "relative_error": "3.43967928852e-126",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "140: scalar two-loop source derivative",
+      "passed": true,
+      "relative_error": "5.45974145823e-128",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "140: endpoint completeness",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "140: inverse endpoint",
+      "passed": true,
+      "relative_error": "1.47609582442e-141",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "140: fixed-scale/running-coefficient potential identity",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "140: source-dependent mu total derivative",
+      "passed": true,
+      "relative_error": "2.82030900395e-127",
+      "tolerance": "1e-65"
+    },
+    {
+      "name": "140: metric at |X|/Lambda=0.001",
+      "passed": true,
+      "metric": "0.999996"
+    },
+    {
+      "name": "140: metric at |X|/Lambda=0.01",
+      "passed": true,
+      "metric": "0.9996"
+    },
+    {
+      "name": "140: metric at |X|/Lambda=0.1",
+      "passed": true,
+      "metric": "0.96"
+    },
+    {
+      "name": "140: metric at |X|/Lambda=0.4",
+      "passed": true,
+      "metric": "0.36"
+    },
+    {
+      "name": "90/140 precision: S_eV4",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: f_abs_eV2",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: sqrt_f_eV",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: mX_eV",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: mX2_eV2",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: mX2_over_Lambda2",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: ell",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: lambda_O2",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: y_abs_squared",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: epsilon_derivative",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: epsilon_scalar",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: epsilon_goldstino",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: scalar_log_parameter",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: goldstino_log_parameter",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: VA_parameter_at_mX",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: V1_X_eV4",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: V2_potential_diagram_eV4",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: V2_derivative_diagram_eV4",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: V2_scalar_diagrams_eV4",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: V2scalar_over_V1X",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: dV2scalar_dS_over_dV1X_dS",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: h1",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: h2",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: c8_tree",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: c8_low_mu",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: CW_X_force_over_tree_force",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: m_heavy_min_eV",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: m_heavy_max_eV",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: gX_loop_proxy",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    },
+    {
+      "name": "90/140 precision: max_endpoint_weight",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-55"
+    }
+  ],
+  "passed": 67,
+  "total": 67,
+  "failure_history": [],
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/pdf/0907.2441",
+      "read_scope": "sections 3.1-3.2, eqs 3.2-3.9 and 3.12-3.23; browser PDF extraction; no local page anchors",
+      "use": "quartic Kahler sgoldstino example and low-energy nonlinear Goldstino matching only"
+    },
+    {
+      "url": "https://arxiv.org/html/hep-ph/0111209",
+      "read_scope": "sections 1, 2.1-2.3 and 4, especially eqs 2.17-2.18 and 4.3,4.13",
+      "use": "renormalized scalar tadpole convention and potential-only figure-eight normalization only"
+    }
+  ]
+}

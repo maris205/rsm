@@ -1,0 +1,1115 @@
+{
+  "scope": "Prescribed endpoint mass/current deformations; no computed radiative generation or universal loop floor",
+  "precision_decimal_digits": 180,
+  "check_count": 249,
+  "passed": 249,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "symbolic_mass_endpoint_00",
+      "passed": true
+    },
+    {
+      "name": "symbolic_mass_endpoint_01",
+      "passed": true
+    },
+    {
+      "name": "symbolic_mass_endpoint_10",
+      "passed": true
+    },
+    {
+      "name": "symbolic_mass_endpoint_11",
+      "passed": true
+    },
+    {
+      "name": "symbolic_current_cross",
+      "passed": true
+    },
+    {
+      "name": "symbolic_current_self",
+      "passed": true
+    },
+    {
+      "name": "symbolic_current_determinant",
+      "passed": true
+    },
+    {
+      "name": "symbolic_combined_cross",
+      "passed": true
+    },
+    {
+      "name": "symbolic_combined_self",
+      "passed": true
+    },
+    {
+      "name": "symbolic_updated_determinant",
+      "passed": true
+    },
+    {
+      "name": "neutral_link_W_field_redefinition",
+      "passed": true
+    },
+    {
+      "name": "mass_factor_two_lower",
+      "passed": true
+    },
+    {
+      "name": "mass_factor_two_upper",
+      "passed": true
+    },
+    {
+      "name": "mass_factor_two_zero",
+      "passed": true
+    },
+    {
+      "name": "current_factor_two_lower",
+      "passed": true
+    },
+    {
+      "name": "current_factor_two_upper",
+      "passed": true
+    },
+    {
+      "name": "current_factor_two_zero",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q2_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q2_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q2_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q2_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q2_n2",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n2_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q2_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q2_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q2_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q2_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q2_n3",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n3_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q2_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q2_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q2_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q2_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q2_n5",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n5_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q2_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q2_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q2_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q2_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q2_n8",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q2_n8_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q3_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q3_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q3_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q3_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q3_n2",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n2_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q3_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q3_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q3_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q3_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q3_n3",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n3_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q3_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q3_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q3_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q3_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q3_n5",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n5_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q3_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q3_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q3_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q3_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q3_n8",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q3_n8_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q5_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q5_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q5_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q5_n2",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q5_n2",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n2_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q5_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q5_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q5_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q5_n3",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q5_n3",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n3_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q5_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q5_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q5_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q5_n5",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q5_n5",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n5_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_endpoint",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_gram_q5_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_charge_rank_q5_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_one_uneaten_chiral_q5_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_linear_q5_n8",
+      "passed": true
+    },
+    {
+      "name": "higgs_vectorlike_cubic_q5_n8",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r-1_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r-1_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r-1_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r-1_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r1/2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r1/2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r1/2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r1/2_SPD",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r2_self",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r2_cross",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r2_determinant_lemma",
+      "passed": true
+    },
+    {
+      "name": "direct_q5_n8_r2_SPD",
+      "passed": true
+    },
+    {
+      "name": "full127_r0.0_self",
+      "passed": true
+    },
+    {
+      "name": "full127_r0.0_cross",
+      "passed": true
+    },
+    {
+      "name": "full127_r0.0_residual",
+      "passed": true
+    },
+    {
+      "name": "full127_r0.5_self",
+      "passed": true
+    },
+    {
+      "name": "full127_r0.5_cross",
+      "passed": true
+    },
+    {
+      "name": "full127_r0.5_residual",
+      "passed": true
+    },
+    {
+      "name": "full127_r2.0_self",
+      "passed": true
+    },
+    {
+      "name": "full127_r2.0_cross",
+      "passed": true
+    },
+    {
+      "name": "full127_r2.0_residual",
+      "passed": true
+    },
+    {
+      "name": "representative_rH_above_two",
+      "passed": true
+    },
+    {
+      "name": "factor_two_lower_not_enough_for_restoration",
+      "passed": true
+    },
+    {
+      "name": "fixed_Lambda_restoration_boundary",
+      "passed": true
+    },
+    {
+      "name": "fixed_M_restoration_boundary",
+      "passed": true
+    },
+    {
+      "name": "fixed_M_and_fixed_Lambda_equal_through_110_relative_digits",
+      "passed": true
+    },
+    {
+      "name": "epsilon_zero_cross_keeps_positive_self",
+      "passed": true
+    },
+    {
+      "name": "mass_sign_flip_does_not_destroy_SPD",
+      "passed": true
+    }
+  ],
+  "representative": {
+    "q": 3,
+    "n": 127,
+    "Lambda_eV": "2e12",
+    "f": "0.11111111111111111111111111111111111111111111111111111111111111111",
+    "tau": "6.7853051385684415830175721863937203696766540435996396698808954858e-61",
+    "r_H": "2.3196419543827350021468768670983240679553401013980215109539312195",
+    "tau_critical_leading_restoration": "5.8503038589626091518843119435742524629723393010923820013507216839e-61",
+    "epsilon_factor_two_lower": "-3.3926525692842207915087860931968601848383270217998198349404477429e-61",
+    "epsilon_factor_two_upper": "6.7853051385684415830175721863937203696766540435996396698808954858e-61",
+    "delta_factor_two_lower": "-6.1067746247115974247158149677543483327089886392396757028928059372e-60",
+    "delta_factor_two_upper": "3.0533873123557987123579074838771741663544943196198378514464029686e-60",
+    "delta_SPD_lower": "-8.9999999999999999999999999999999999999999999999999999999999938932",
+    "delta_SPD_upper": "9.0000000000000000000000000000000000000000000000000000000000061068",
+    "epsilon_restoration_lower_strict": "-9.3500127960583243113326024281946790670431474250725766853017380193e-62",
+    "delta_restoration_upper_fixed_Lambda_strict": "8.4150115164524918801993421853752111603388326825653190167715642173e-61",
+    "delta_restoration_upper_fixed_M_strict": "8.4150115164524918801993421853752111603388326825653190167715642173e-61",
+    "relative_negative_tau_margin": "0.13779797083718157974076412107038830442053630407237936323847977336"
+  },
+  "examples": [
+    {
+      "type": "current_leakage",
+      "epsilon": "-1.0e-50",
+      "tau_eff": "-9.999999999321469486143155841698242781360627963032334595640036033e-51",
+      "tau_ratio": "-14737730721.17322896440109107676564833209776449034480138637120125",
+      "zeta_minus_one": "9.999999998642938972286311683396485562721255926064669191280072066e-101"
+    },
+    {
+      "type": "current_leakage",
+      "epsilon": "-6.7853051385684415830175721863937203696766540435996396698808954858e-61",
+      "tau_eff": "0.0",
+      "tau_ratio": "0.0",
+      "zeta_minus_one": "-4.6040365823483298232127098034549932442505663879501562630648097939e-121"
+    },
+    {
+      "type": "current_leakage",
+      "epsilon": "-3.3926525692842207915087860931968601848383270217998198349404477429e-61",
+      "tau_eff": "3.3926525692842207915087860931968601848383270217998198349404477429e-61",
+      "tau_ratio": "0.5",
+      "zeta_minus_one": "-3.4530274367612473674095323525912449331879247909626171972986073454e-121"
+    },
+    {
+      "type": "current_leakage",
+      "epsilon": "0.0",
+      "tau_eff": "6.7853051385684415830175721863937203696766540435996396698808954858e-61",
+      "tau_ratio": "1.0",
+      "zeta_minus_one": "0.0"
+    },
+    {
+      "type": "current_leakage",
+      "epsilon": "6.7853051385684415830175721863937203696766540435996396698808954858e-61",
+      "tau_eff": "1.3570610277136883166035144372787440739353308087199279339761790972e-60",
+      "tau_ratio": "2.0",
+      "zeta_minus_one": "1.3812109747044989469638129410364979732751699163850468789194429382e-120"
+    },
+    {
+      "type": "current_leakage",
+      "epsilon": "1.0e-50",
+      "tau_eff": "1.0000000000678530513856844158301757218639372036967665404359963967e-50",
+      "tau_ratio": "14737730723.17322896440109107676564833209776449034480138637120125",
+      "zeta_minus_one": "1.0000000001357061027713688316603514437278744073935330808719927934e-100"
+    },
+    {
+      "type": "mass_bypass",
+      "delta": "-6.1067746247115974247158149677543483327089886392396757028928059372e-60",
+      "tau_normalized": "1.3570610277136883166035144372787440739353308087199279339761790972e-60",
+      "tau_ratio": "2.0",
+      "D_minus_one": "-1.3812109747044989469638129410364979732751699163850468789194429586e-120",
+      "is_SPD": true
+    },
+    {
+      "type": "mass_bypass",
+      "delta": "3.0533873123557987123579074838771741663544943196198378514464029686e-60",
+      "tau_normalized": "3.3926525692842207915087860931968601848383270217998198349404477429e-61",
+      "tau_ratio": "0.5",
+      "D_minus_one": "3.4530274367612473674095323525912449331879247909626171972986079991e-121",
+      "is_SPD": true
+    },
+    {
+      "type": "mass_bypass",
+      "delta": "6.1067746247115974247158149677543483327089886392396757028928059372e-60",
+      "tau_normalized": "0.0",
+      "tau_ratio": "0.0",
+      "D_minus_one": "4.6040365823483298232127098034549932442505663879501562630648082556e-121",
+      "is_SPD": true
+    },
+    {
+      "type": "mass_bypass",
+      "delta": "1.2213549249423194849431629935508696665417977278479351405785611874e-59",
+      "tau_normalized": "-6.7853051385684415830175721863937203696766540435996396698808954858e-61",
+      "tau_ratio": "-1.0",
+      "D_minus_one": "0.0",
+      "is_SPD": true
+    },
+    {
+      "type": "mass_bypass",
+      "delta": "1.0e-50",
+      "tau_normalized": "-1.1111111104325805972542669528093538924717390741434457067511471441e-51",
+      "tau_ratio": "-1637525634.79702544048901011964062759245530716559386682070791125",
+      "D_minus_one": "-1.2345678997267223148860253272306629709248522635286447804346479746e-102",
+      "is_SPD": true
+    }
+  ],
+  "input_hashes": {
+    "experiments/mediator_chain_v01/protocol.md": "ed3954d5266f3f7ce342f2ecda1614472db15ef953095264c307d082c16e70e0",
+    "reports/mediator_chain_sources_20260926.md": "baee2e363cbd63aaec7025e481954166f9d64b71caedb845a455ea77e50b0373",
+    "reports/mediator_chain_algebra_20260926.md": "9d58325dd00d6fc85ccb44692b20bcbd20dbb0fc88f30d042fa08cb8722ff1c4"
+  },
+  "script_sha256": "f81367ded5d9795a6c654d022e5ce294febf4ddad6728c434e0e671abaff81ed",
+  "interpretation": "Exact algebra and high precision matrix checks only; no statistical or observational claim."
+}
