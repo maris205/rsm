@@ -1,0 +1,7 @@
+precision 180 points 36
+precision 240 points 36
+checks 490 / 490
+compared scan.csv 4802
+compared representatives.csv 54
+compared sigma_sensitivity.csv 50
+comparison 21 / 21 max 2.3588887403365986e-14

@@ -1,0 +1,692 @@
+{
+  "created_utc": "2026-09-26T02:59:46.792531+00:00",
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.16.1",
+  "checks": [
+    {
+      "name": "grid_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "representative_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sigma_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "both_outcomes_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000.0_1000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1.0_1000000000.0_1000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000.0_1000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000.0_1000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1.0_1000000000.0_1000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000.0_1000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1.0_1000000000.0_1000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000.0_1000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000.0_1000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000.0_1000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000000.0_1000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1.0_1000000000000.0_1000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000000.0_1000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000000.0_1000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1.0_1000000000000.0_1000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000000.0_1000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1.0_1000000000000.0_1000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000000.0_1000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1.0_1000000000000.0_1000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1.0_1000000000000.0_1000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_1000000000000.0_100000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-06_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_1000000000000.0_100000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-06_1000000000000.0_100000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_1000000000000.0_100000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-06_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_1000000000000.0_100000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_1000000000000.0_100000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-05_1000000000000.0_100000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-05_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-05_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-05_1000000000000.0_100000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-05_1000000000000.0_100000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-05_1000000000000.0_100000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-05_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-05_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-05_1000000000000.0_100000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-05_1000000000000.0_100000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_0.0001_1000000000000.0_100000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_0.0001_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_0.0001_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_0.0001_1000000000000.0_100000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_0.0001_1000000000000.0_100000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_0.0001_1000000000000.0_100000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_0.0001_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_0.0001_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_0.0001_1000000000000.0_100000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_0.0001_1000000000000.0_100000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_10000000000000.0_100000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-06_10000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_10000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_10000000000000.0_100000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-06_10000000000000.0_100000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_10000000000000.0_100000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero_contact_1e-06_10000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_10000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "aligned_B_interference_1e-06_10000000000000.0_100000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_mass_normalization_1e-06_10000000000000.0_100000000000000.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_interval_example_passes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "generic_phase_example_passes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "future_failure_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_one_eV_examples_fail_joint_conditions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higher_sigma_perturbative_control",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "checks_passed": 117,
+  "check_count": 117,
+  "grid_rows": 4802,
+  "representative_rows": 54,
+  "sample_aligned": {
+    "mG_eV": 1e-06,
+    "M_vector_eV": 1000000000000.0,
+    "mKK_eV": 100000000000000.0,
+    "sigma": 1.0,
+    "phase": "zero",
+    "Lambda_eV": 1000000000000.0,
+    "A_5d": 4.335970987269697e-31,
+    "c_Q": 5.203165184723636e-30,
+    "beta_Q": -2.601582592361818e-30,
+    "min_my2_eV2": 9.983433908532248e-39,
+    "max_my2_eV2": 7.394068262319982e-37,
+    "min_my2_over_Href2": 4.8298062588299757e+27,
+    "clockoff_my2_leading_eV2": -1.0406330369447272e-41,
+    "RSS_c_2loop_force_ratio": 4.223354530332043e-11,
+    "contact_d_1loop_force_ratio": 0.0002533045986560874,
+    "contact_Btree_1loop_force_ratio": 0.0,
+    "contact_B5d_2loop_force_ratio": 0.0,
+    "quadratic_valley_force_ratio": 0.0,
+    "quadratic_valley_energy_over_U": 0.0,
+    "valley_metric_boundary_fraction": 0.0,
+    "selected_feedback_sum_ratio": 0.0002533045990246427,
+    "known_axis_feedback_without_valley": 0.0002533045990246427,
+    "charged_over_vector": 0.1,
+    "vector_over_KK": 0.01,
+    "KK_over_M5": 1.7433475691889013e-09,
+    "max_hierarchy_ratio": 0.1,
+    "FTcanonical_over_vector2": 0.004217543716430215,
+    "max_auxiliary_over_vector2": 0.004217543716430215,
+    "max_coupling_loop_parameter": 0.012665147955292222,
+    "local_positive_curvature": true,
+    "hierarchy_pass": true,
+    "auxiliary_pass": true,
+    "perturbative_coupling_pass": true,
+    "necessary_conditions_pass": true,
+    "Ucrit_leading_eV4": 8.671941974539394e-19,
+    "chi_critical_leading": 143.22790161522147,
+    "chi_gap_after_last": 3.4336549478670406
+  },
+  "sample_quadrature": {
+    "mG_eV": 1e-06,
+    "M_vector_eV": 1000000000000.0,
+    "mKK_eV": 100000000000000.0,
+    "sigma": 1.0,
+    "phase": "quadrature",
+    "Lambda_eV": 1000000000000.0,
+    "A_5d": 4.335970987269697e-31,
+    "c_Q": 5.203165184723636e-30,
+    "beta_Q": -2.601582592361818e-30,
+    "min_my2_eV2": 9.983433908532248e-39,
+    "max_my2_eV2": 7.394068262319982e-37,
+    "min_my2_over_Href2": 4.8298062588299757e+27,
+    "clockoff_my2_leading_eV2": -1.0406330369447272e-41,
+    "RSS_c_2loop_force_ratio": 4.223354530332043e-11,
+    "contact_d_1loop_force_ratio": 0.0002533046097238577,
+    "contact_Btree_1loop_force_ratio": 6.486026284518071e-33,
+    "contact_B5d_2loop_force_ratio": 1.191944434348003e-08,
+    "quadratic_valley_force_ratio": 7.066639731845574e-37,
+    "quadratic_valley_energy_over_U": 6.7794629051389165e-34,
+    "valley_metric_boundary_fraction": 2.6050968398258756e-17,
+    "selected_feedback_sum_ratio": 0.0002533052691022434,
+    "known_axis_feedback_without_valley": 0.0002533052691022434,
+    "charged_over_vector": 0.1,
+    "vector_over_KK": 0.01,
+    "KK_over_M5": 1.7433475691889013e-09,
+    "max_hierarchy_ratio": 0.1,
+    "FTcanonical_over_vector2": 0.004217543716430215,
+    "max_auxiliary_over_vector2": 0.004217543716430215,
+    "max_coupling_loop_parameter": 0.012665147955292222,
+    "local_positive_curvature": true,
+    "hierarchy_pass": true,
+    "auxiliary_pass": true,
+    "perturbative_coupling_pass": true,
+    "necessary_conditions_pass": true,
+    "Ucrit_leading_eV4": 8.671941974539394e-19,
+    "chi_critical_leading": 143.22790161522147,
+    "chi_gap_after_last": 3.4336549478670406
+  },
+  "pass_counts": {
+    "zero": 482,
+    "quadrature": 482
+  },
+  "source_hashes": {
+    "experiments/clock_stabilization_v01/code/run_stabilization.py": "e25eb94b382a0d82ae667049ab15cc171831ffca842ade2c4dc1032d917ac5e8",
+    "experiments/clock_stabilization_v01/protocol.md": "8b1230e0560d677a406244b62544dfa5e1a73039234daa04da9842ad04a2a9c7",
+    "experiments/sugra_shift_v01/results/inputs.json": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+  },
+  "scope": [
+    "specified local slices and quadratic valley only",
+    "selected CW sectors with fixed finite boundary",
+    "heavy auxiliary hierarchy is a conservative diagnostic",
+    "quartic protection disappears as U approaches zero",
+    "no derivation of physical Riemann interactions or inverse-log exponent"
+  ]
+}

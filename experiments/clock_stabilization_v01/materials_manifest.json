@@ -1,0 +1,293 @@
+{
+  "created_utc": "2026-09-26T03:07:51.419723+00:00",
+  "stage": "clock_stabilization_v01",
+  "baseline_git_commit": "64d06629a7179e6fed8c5ce7a2af0ea8e17d77ce",
+  "material_type": "Conditional local EFT derivation and deterministic computation; no new observations.",
+  "input": "Archived K/W and clock coordinates, primary source conventions, declared shared-current mediator.",
+  "output": "Finite-interval curvature, selected contact feedback, hierarchy and local valley diagnostics.",
+  "scope_exclusions": [
+    "complete heavy mediator spectrum and loop matching",
+    "full 5D embedding",
+    "global or rolling cosmic stability",
+    "stable U=0 vacuum",
+    "observational alpha fit",
+    "Riemann derivation of interactions or inverse-log exponent"
+  ],
+  "authorship": "AI-assisted project-internal separate code paths; no external peer review.",
+  "source_read_records": [
+    "reports/clock_stabilizer_sources_20260926_sources.json"
+  ],
+  "failures_and_changes": [
+    "initial 100/160-digit 346/418 run retained; precision raised without relaxing tolerances",
+    "initial 20/21 comparison retained; analytic valley cancellation corrected",
+    "signed beta convention corrected; historical absolute budgets unchanged",
+    "original 1 eV failure and future U=0 instability retained"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 27844,
+      "sha256": "15d7d3612b5e3c989efa6d26d410c5d416247ba7f95e2a75c820d716bea7d8f3"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "bytes": 39715,
+      "sha256": "f345f6e93ef3429541ecafb5293bf642646ab51fbb8a078507b5fe98d2ffac9a"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "bytes": 35052,
+      "sha256": "56781c9f369fff8e736113e1cc784926f631ea96eec7ba513651c3f52577ecce"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/README.md",
+      "bytes": 2270,
+      "sha256": "db242c48e0f671087cad5331795825c4ca350909e050f4f6a8e2539b90ef083b"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/code/audit_archive.py",
+      "bytes": 7839,
+      "sha256": "06de0fae4d7bc83a7fdebebea391cab4c07d4b4f3bdf8af098602e749f67446b"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/code/independent_check.py",
+      "bytes": 22858,
+      "sha256": "16de3fa133d16cdbacce5fc13369e4a452bf687d666b3f59c45aaba0ce17ca6e"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/code/plot_results.py",
+      "bytes": 4304,
+      "sha256": "529e77e862a07353e9b9ec3934dc0786682a85f3b7543d7d31b822133248d138"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/code/run_stabilization.py",
+      "bytes": 13085,
+      "sha256": "e25eb94b382a0d82ae667049ab15cc171831ffca842ade2c4dc1032d917ac5e8"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/figures/captions.md",
+      "bytes": 789,
+      "sha256": "8d5d62a762c072958f76c9581170f16c098d3eaf608aa2443301e6582e038eff"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/figures/finite_interval_stabilization.pdf",
+      "bytes": 71024,
+      "sha256": "377cb63da83103845e4e0b4faf86c06f03cbe31de91c683b5d0954455c427e98"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/figures/finite_interval_stabilization.png",
+      "bytes": 250501,
+      "sha256": "a527723a24b486f6d4aa3c8b68cfa7693ba8d2fc7877b0ad8c657bdd677e6211"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/independent_archive_run.log",
+      "bytes": 200,
+      "sha256": "aba6fc7209a109dd779419df43d5f6c46e4b0559d7034c70a79b462859bd55bd"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/independent_final_run.log",
+      "bytes": 200,
+      "sha256": "aba6fc7209a109dd779419df43d5f6c46e4b0559d7034c70a79b462859bd55bd"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/independent_initial_comparison.log",
+      "bytes": 131,
+      "sha256": "d0a94eb791e470d2126d74ddab4588a138ba851295db84d4cdb0fe17746027b7"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/independent_initial_run.log",
+      "bytes": 65,
+      "sha256": "337496165615c04b0f57cd5e2634321ebd6f7fb34086eb3bdd8797077953f5a9"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/independent_precision_run.log",
+      "bytes": 65,
+      "sha256": "989bf574664341779bf7f9a18db0071295bcae5e99b121306b7ad07fef0127b2"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/main_refined_run.log",
+      "bytes": 2969,
+      "sha256": "dfe988a7c1134b88ec2cb1b6846f33e697d15f76620c372dfec5e3330cb08632"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/main_run.log",
+      "bytes": 2969,
+      "sha256": "c12d2a9efc91666b8675e376e0c7975685fa1f411c8650e0dfe7d94b56b14550"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/main_signed_correction_run.log",
+      "bytes": 2969,
+      "sha256": "c12d2a9efc91666b8675e376e0c7975685fa1f411c8650e0dfe7d94b56b14550"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/logs/plot_run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/protocol.md",
+      "bytes": 6837,
+      "sha256": "8b1230e0560d677a406244b62544dfa5e1a73039234daa04da9842ad04a2a9c7"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/reports/independent_results_cn.md",
+      "bytes": 8803,
+      "sha256": "927b85340c526492d621b45234133fb98c59beb8e52f9f05699322214f47529b"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/reports/results_cn.md",
+      "bytes": 10260,
+      "sha256": "d38c62ef8f1f6c95256c9526970ca1a4a3ff103442d40b169344550186a670d7"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/conditional_frontiers.csv",
+      "bytes": 12575,
+      "sha256": "4ea13fb2c69a5385a6bc0fa455fee14f654f415bb5afeac6d2bef90db96aa091"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/independent_comparison.json",
+      "bytes": 5691,
+      "sha256": "c258d198a15cdcccefd8d26649c6ae96567a9aca9fea0f997384bfe8c730b8c1"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/independent_high_precision.csv",
+      "bytes": 97182,
+      "sha256": "bced7338830ad0d4229324e5a7b29cd4f9e35c9f77b4c53526c9e9141051f9be"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/independent_initial_comparison.json",
+      "bytes": 7110,
+      "sha256": "69fed588f64d11e50522bf93f51f519aa2824ff0b471cab24ae17fee5abdceb2"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/independent_initial_high_precision.csv",
+      "bytes": 94269,
+      "sha256": "fdc9f594a60941f306912cd62c74fbbae9569e2a54592684e6baf8651119fb94"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/independent_initial_representatives.csv",
+      "bytes": 45813,
+      "sha256": "d255c2385d3e1512f581a46a5103e18df36bca03859f3f12790deb1381c4fa6e"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/independent_initial_summary.json",
+      "bytes": 70442,
+      "sha256": "af35dfe4c1596a40f58b36a3e23a1e8c349c60b4db7f14c5aa64d9c8a4a49b09"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/independent_representatives.csv",
+      "bytes": 49520,
+      "sha256": "1bd87b7cae43aafcbfe96ce9e04aea4762812ead6418fa161c8839bb8b48d7e6"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/independent_summary.json",
+      "bytes": 94538,
+      "sha256": "f6c1b52d472c763efb199f1b6ea62192c967f9ba93a6fefd478cbd7bc09e5572"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/initial_signed_convention_summary.json",
+      "bytes": 20693,
+      "sha256": "5865b7155bae07c070509b4a39a0be08a574869f65a02175610c84b784ef20dd"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/inputs.json",
+      "bytes": 4790,
+      "sha256": "1a5409d65d2fe10530d50c1071a4694499e7e1bed327fbaaf8f6762782bb72c6"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/pre_valley_cancellation_summary.json",
+      "bytes": 20693,
+      "sha256": "79a6ae806bc21dce62d14069c526e4354d900237224176f0686ec31ef9493c3c"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/representatives.csv",
+      "bytes": 28722,
+      "sha256": "0cf046618b7f57b4444236afb4e3dab2e79e18b2871689172ac00e577e0c3401"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/scan.csv",
+      "bytes": 2891542,
+      "sha256": "892a9ac48c1f8017f13a444b364addef51f08912aa3469d7ec443f1e5e5e8ce6"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/sigma_sensitivity.csv",
+      "bytes": 28898,
+      "sha256": "abd8a11128313f6c599487e24d55e09f9c009d78696199c3be781b634bf46784"
+    },
+    {
+      "path": "experiments/clock_stabilization_v01/results/summary.json",
+      "bytes": 20693,
+      "sha256": "1edb6542b0caf6d60210e05d58e73cbe77bcb2ad438963c5eed55b14ac2c501b"
+    },
+    {
+      "path": "experiments/sequestering_test_v01/results/inputs.json",
+      "bytes": 6241,
+      "sha256": "b8e64481a02d792e1115be91fc519fc944e5465d7acf5867f18218917514de77"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/inputs.json",
+      "bytes": 1556,
+      "sha256": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/trajectories.csv",
+      "bytes": 6623432,
+      "sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+    },
+    {
+      "path": "reports/clock_quartic_geometry_20260926.md",
+      "bytes": 10199,
+      "sha256": "55ddc51add2d062e6f5a8ceb95664cf160b10cd654447b67dcb404d53ac7546e"
+    },
+    {
+      "path": "reports/clock_quartic_geometry_20260926_checks.json",
+      "bytes": 136200,
+      "sha256": "8e09197454ecafe8bb34aaf2fa3d3a260d63ea34d56b67086572f472574e09f6"
+    },
+    {
+      "path": "reports/clock_quartic_geometry_20260926_checks.py",
+      "bytes": 12129,
+      "sha256": "f3298edeeea1d9ce1a3d66514c53cfdaafec9548f8ffd8c09e7d547130a697ad"
+    },
+    {
+      "path": "reports/clock_quartic_geometry_20260926_review.json",
+      "bytes": 17343,
+      "sha256": "3cdde0aa306ff2506ccf5da4e8585f6dfd9d418382a174e3e0a3bddd10b054ec"
+    },
+    {
+      "path": "reports/clock_quartic_geometry_20260926_review.md",
+      "bytes": 6775,
+      "sha256": "edea34cc681ab2c677d3c3dcdcf00417dbbd4e3cfe5f85547e59cf9e4ad0723c"
+    },
+    {
+      "path": "reports/clock_quartic_geometry_20260926_review.py",
+      "bytes": 8007,
+      "sha256": "8024ee1b132044fbb6eea49051e939bd772c6589601903aa6c09d3e229adac78"
+    },
+    {
+      "path": "reports/clock_stabilizer_sources_20260926.md",
+      "bytes": 8826,
+      "sha256": "309dcfac60424775a7510109230a79be904e9562b5c726cdba5c9bb9c4a10bba"
+    },
+    {
+      "path": "reports/clock_stabilizer_sources_20260926_checks.json",
+      "bytes": 3025,
+      "sha256": "3d7270ec688c415bedced50eb30275ba076cf215fb98cd485b47566fa4f1454f"
+    },
+    {
+      "path": "reports/clock_stabilizer_sources_20260926_checks.py",
+      "bytes": 3753,
+      "sha256": "5a1fe39431742fe44048ee3abb33538ab3037455b5acfd7d19cc2cf757bac024"
+    },
+    {
+      "path": "reports/clock_stabilizer_sources_20260926_sources.json",
+      "bytes": 4370,
+      "sha256": "8c0da5a986b8cd93c31d2730944536ebad46ee2cb1c1752450037f359aeb3ab5"
+    }
+  ],
+  "excluded": [
+    "this manifest and its audit to avoid self-reference",
+    "ignored source fulltexts in build/",
+    "Python caches"
+  ]
+}

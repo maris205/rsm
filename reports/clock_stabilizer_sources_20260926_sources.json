@@ -1,0 +1,94 @@
+{
+  "retrieved_utc": "2026-09-26T02:52:43.767602+00:00",
+  "scope": "Bounded primary-source audit, not systematic review, full UV completion or external peer review",
+  "sources": [
+    {
+      "id": "1406.0252",
+      "url": "https://arxiv.org/html/1406.0252",
+      "version": "v2",
+      "status": 200,
+      "cache": "build/clock_stabilizer_sources/1406.0252.html",
+      "bytes": 221602,
+      "sha256": "2fda760df375ccdae39a9381958dc34fb980f555663c63d5e294aaf1981454ec",
+      "read_scope": "HTML section 2, especially Eqs. 9, 25, 27 and nearby stability discussion",
+      "permitted_claim": "Shift-symmetric quartic stabilization motivation; not this model or a coefficient prediction",
+      "full_paper_read_claimed": false
+    },
+    {
+      "id": "1606.02817",
+      "url": "https://arxiv.org/html/1606.02817",
+      "version": "v3",
+      "status": 200,
+      "cache": "build/clock_stabilizer_sources/1606.02817.html",
+      "bytes": 259836,
+      "sha256": "f6bec97108c41945c158ba0ecd848e9b104784e1f7d4d3b6d38041194c18f22d",
+      "read_scope": "HTML introduction, section 2 Eqs. 1-6 and section 5 concluding scope",
+      "permitted_claim": "Imaginary-component quartic, SUSY-breaking dependence and limits of tree-level symmetry",
+      "full_paper_read_claimed": false
+    },
+    {
+      "id": "0904.0370",
+      "url": "https://arxiv.org/html/0904.0370",
+      "version": "v2",
+      "status": 200,
+      "cache": "build/clock_stabilizer_sources/0904.0370.html",
+      "bytes": 368223,
+      "sha256": "0033835c15644586ec7bcdc5c59513c951c2fc165653b14409f8ac0f8afc5453",
+      "read_scope": "HTML sections 4-6, Eqs. 4.2-4.8 and 5.1-5.3; internal second agent independently checked these sections",
+      "permitted_claim": "Heavy-vector superfield matching and sufficient derivative/auxiliary/mass hierarchy",
+      "full_paper_read_claimed": false
+    },
+    {
+      "id": "1009.0668",
+      "url": "https://arxiv.org/html/1009.0668",
+      "version": "v2",
+      "status": 200,
+      "cache": "build/clock_stabilizer_sources/1009.0668.html",
+      "bytes": 451048,
+      "sha256": "ad86fb7d0323231e95a753b27bc36d061c03f4307c10521288a9411f5eba70e2",
+      "read_scope": "HTML section 3.2-3.3 Eqs. 3.38, 3.41-3.43 and section 4 Eqs. 4.1-4.4; internal second agent independently checked the stated formula scope",
+      "permitted_claim": "Curvature matching, average sGoldstino vs general scalar sign and mixed soft masses",
+      "full_paper_read_claimed": false
+    },
+    {
+      "id": "hep-ph/0406167",
+      "url": "https://arxiv.org/html/hep-ph/0406167",
+      "version": "v2",
+      "status": 200,
+      "cache": "build/clock_stabilizer_sources/hep-ph_0406167.html",
+      "bytes": 198708,
+      "sha256": "84e5f448d4aa6e4d0496ebc2144912bf1bf77d946be01876f9db2cdb8b654d6c",
+      "read_scope": "HTML Eqs. 1-6 and 12 with surrounding text; no phenomenological results imported",
+      "permitted_claim": "Gauge-invariant Stueckelberg and physical vector/scalar mass convention only",
+      "full_paper_read_claimed": false
+    }
+  ],
+  "retrieval_errors": [],
+  "own_derivations": [
+    "Neutral real-current coupling to invariant massive Stueckelberg superfield",
+    "Current-square matching and same-boundary cross contact",
+    "Reference canonical normalization and declared scale conversion",
+    "Conservative radion F hierarchy examples"
+  ],
+  "not_imported": [
+    "No claim that cited inflation model equals our slow clock",
+    "No claim positivity of average sGoldstino guarantees our transverse direction",
+    "No assumption same-boundary gQ or hidden-current couplings vanish",
+    "No physical mediator mass identified before kinetic normalization",
+    "No claim old five-dimensional coefficient remains complete after new boundary sector"
+  ],
+  "consulted_but_not_relied_on": [
+    {
+      "id": "1408.6524",
+      "url": "https://arxiv.org/html/1408.6524",
+      "scope": "HTML overview/search for cutoff; not used as premise"
+    },
+    {
+      "id": "hep-th/0211166",
+      "url": "https://arxiv.org/html/hep-th/0211166",
+      "scope": "HTML section 3 Stueckelberg mass conventions as cross-reference; final normalization uses hep-ph/0406167"
+    }
+  ],
+  "prior_context_manifest": "reports/protection_5d_20260925_sources.json",
+  "human_read_status": "No user read attestation; machine/AI selected-section reading only"
+}

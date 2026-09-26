@@ -1,0 +1,5112 @@
+{
+  "scope": "Independent exact local K/W and charged-spectrum jets of an explicitly added 4D quartic clock operator; no UV completion, complete loop matching or cosmic trajectory",
+  "precision_decimal_digits": 100,
+  "check_count": 843,
+  "passed": 843,
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_axis_V",
+      "error": "1.91235775319338e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_axis_FT",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_FT_unchanged_jet1",
+      "error": "4.55318393889304e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_FZ_unchanged_jet1",
+      "error": "2.50206808582211e-212",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_B_unchanged_jet1",
+      "error": "2.30786253017717e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_additional_physical_mass",
+      "error": "7.94618328925375e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_FZ_second_jet",
+      "error": "1.99740360042961e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_charged_diagonal_second_jet",
+      "error": "8.87622175669087e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_charged_B_second_jet",
+      "error": "1.31587764416312e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_determinant_frac0.01",
+      "error": "2.52710517811896e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_determinant_frac0.1",
+      "error": "9.89439545181699e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_determinant_frac0.15",
+      "error": "2.96786271749677e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_axis_V",
+      "error": "1.91235775319338e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_axis_FT",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_FT_unchanged_jet1",
+      "error": "6.9718316863441e-215",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_FZ_unchanged_jet1",
+      "error": "3.82986208926083e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_B_unchanged_jet1",
+      "error": "3.53257460687741e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_additional_physical_mass",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_FZ_second_jet",
+      "error": "8.1529822887906e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_charged_diagonal_second_jet",
+      "error": "7.24617486001461e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_determinant_frac0.01",
+      "error": "5.05300785598415e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_determinant_frac0.1",
+      "error": "2.96192096262292e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_determinant_frac0.15",
+      "error": "1.97263195127645e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.0_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_axis_V",
+      "error": "1.91235775319338e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_axis_FT",
+      "error": "1.23548778245604e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_FZ_unchanged_jet1",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_B_unchanged_jet1",
+      "error": "1.01517673492626e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_additional_physical_mass",
+      "error": "7.94618328925375e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_FZ_second_jet",
+      "error": "1.99740360042961e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_FT_second_jet",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_charged_diagonal_second_jet",
+      "error": "8.87622175669087e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_charged_B_second_jet",
+      "error": "1.31587764416312e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_determinant_frac0.01",
+      "error": "2.52710517811896e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_determinant_frac0.1",
+      "error": "9.89439545181699e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_determinant_frac0.15",
+      "error": "2.96786271749677e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_axis_V",
+      "error": "1.91235775319338e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_axis_FT",
+      "error": "1.23548778245604e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_FZ_unchanged_jet1",
+      "error": "5.20548135205548e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_B_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_additional_physical_mass",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_FZ_second_jet",
+      "error": "8.1529822887906e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_FT_second_jet",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_charged_diagonal_second_jet",
+      "error": "7.24617486001461e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_charged_B_second_jet",
+      "error": "5.31490183886983e-110",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_determinant_frac0.01",
+      "error": "5.05300785598415e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_determinant_frac0.1",
+      "error": "2.96192096262292e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_determinant_frac0.15",
+      "error": "1.97263195127645e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase1.5708_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_axis_V",
+      "error": "9.8750896905432e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_axis_FT",
+      "error": "1.38134309082917e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_FZ_unchanged_jet1",
+      "error": "2.56265758803487e-212",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_B_unchanged_jet1",
+      "error": "1.29942622070561e-113",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_additional_physical_mass",
+      "error": "7.94618328925375e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_FZ_second_jet",
+      "error": "1.99740360042961e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_charged_diagonal_second_jet",
+      "error": "8.87622175669087e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_charged_B_second_jet",
+      "error": "1.31587764416312e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_determinant_frac0.01",
+      "error": "2.52710517811896e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_determinant_frac0.1",
+      "error": "9.89439545181699e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_determinant_frac0.15",
+      "error": "2.96786271749677e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_axis_V",
+      "error": "9.8750896905432e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_axis_FT",
+      "error": "1.38134309082917e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_FZ_unchanged_jet1",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_B_unchanged_jet1",
+      "error": "1.29942622070561e-113",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_additional_physical_mass",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_FZ_second_jet",
+      "error": "8.1529822887906e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_charged_diagonal_second_jet",
+      "error": "7.24617486001461e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_determinant_frac0.01",
+      "error": "5.05300785598415e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_determinant_frac0.1",
+      "error": "2.96192096262292e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_determinant_frac0.15",
+      "error": "1.97263195127645e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.0_phase0.37_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_axis_V",
+      "error": "1.24536050378575e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_axis_FT",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_FT_unchanged_jet1",
+      "error": "4.57457547621661e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_FZ_unchanged_jet1",
+      "error": "1.10146172982192e-212",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_B_unchanged_jet1",
+      "error": "9.76550413816471e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_additional_physical_mass",
+      "error": "7.94618328925375e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_FZ_second_jet",
+      "error": "1.99740360042961e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_charged_diagonal_second_jet",
+      "error": "8.87622175669087e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_charged_B_second_jet",
+      "error": "1.31587764416312e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_determinant_frac0.01",
+      "error": "3.38530476037156e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_determinant_frac0.1",
+      "error": "1.98817965437836e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_determinant_frac0.15",
+      "error": "1.98788938083175e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_axis_V",
+      "error": "1.24536050378575e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_axis_FT",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_FT_unchanged_jet1",
+      "error": "7.00455107135814e-215",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_FZ_unchanged_jet1",
+      "error": "1.68569138453464e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_B_unchanged_jet1",
+      "error": "1.49446853369327e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_additional_physical_mass",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_FZ_second_jet",
+      "error": "8.1529822887906e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_charged_diagonal_second_jet",
+      "error": "7.24617486001461e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_determinant_frac0.01",
+      "error": "4.2306258215502e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_determinant_frac0.1",
+      "error": "2.97586746557227e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_determinant_frac0.15",
+      "error": "9.91009309916094e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.0_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_axis_V",
+      "error": "1.76493673393807e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_axis_FT",
+      "error": "1.22971017990231e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_V_unchanged_jet1",
+      "error": "1.24744917187739e-111",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_FZ_unchanged_jet1",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_B_unchanged_jet1",
+      "error": "2.03035346985252e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_d_unchanged_jet1",
+      "error": "4.87284832764605e-112",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_additional_physical_mass",
+      "error": "7.94618328925375e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_FZ_second_jet",
+      "error": "1.99740360042961e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_charged_diagonal_second_jet",
+      "error": "8.87622175669087e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_charged_B_second_jet",
+      "error": "1.31587764416312e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_determinant_frac0.01",
+      "error": "3.38530476037156e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_determinant_frac0.1",
+      "error": "1.98817965437836e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_determinant_frac0.15",
+      "error": "1.98788938083175e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_axis_V",
+      "error": "1.76493673393807e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_axis_FT",
+      "error": "1.22971017990231e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_FZ_unchanged_jet1",
+      "error": "5.20551534622173e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_B_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_additional_physical_mass",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_FZ_second_jet",
+      "error": "8.1529822887906e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_charged_diagonal_second_jet",
+      "error": "7.24617486001461e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_determinant_frac0.01",
+      "error": "4.2306258215502e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_determinant_frac0.1",
+      "error": "2.97586746557227e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_determinant_frac0.15",
+      "error": "9.91009309916094e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase1.5708_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_axis_V",
+      "error": "1.85459659324029e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_axis_FT",
+      "error": "1.37488341434957e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_V_unchanged_jet1",
+      "error": "1.24744917187739e-111",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_FZ_unchanged_jet1",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_B_unchanged_jet1",
+      "error": "2.59885244141122e-113",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_d_unchanged_jet1",
+      "error": "4.87284832764605e-112",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_additional_physical_mass",
+      "error": "7.94618328925375e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_FZ_second_jet",
+      "error": "1.99740360042961e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_charged_diagonal_second_jet",
+      "error": "8.87622175669087e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_charged_B_second_jet",
+      "error": "1.31587764416312e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_determinant_frac0.01",
+      "error": "3.38530476037156e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_determinant_frac0.1",
+      "error": "1.98817965437836e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_determinant_frac0.15",
+      "error": "1.98788938083175e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_axis_V",
+      "error": "1.85459659324029e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_axis_FT",
+      "error": "1.37488341434957e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_axis_FZ",
+      "error": "9.06229411306025e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_FZ_unchanged_jet1",
+      "error": "1.92421995055778e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_B_unchanged_jet1",
+      "error": "2.59885244141122e-113",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_additional_physical_mass",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_FZ_second_jet",
+      "error": "8.1529822887906e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_charged_diagonal_second_jet",
+      "error": "7.24617486001461e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_charged_B_second_jet",
+      "error": "3.12641284639401e-112",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_determinant_frac0.01",
+      "error": "4.2306258215502e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_determinant_frac0.1",
+      "error": "2.97586746557227e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_determinant_frac0.15",
+      "error": "9.91009309916094e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.001_q0.004_phase0.37_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_axis_V",
+      "error": "1.90940129803456e-96",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_axis_FT",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_FT_unchanged_jet1",
+      "error": "4.53947649956518e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_FZ_unchanged_jet1",
+      "error": "3.402845503071e-212",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_B_unchanged_jet1",
+      "error": "3.17626900261607e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_additional_physical_mass",
+      "error": "1.58633192155632e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_FZ_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_charged_diagonal_second_jet",
+      "error": "8.86810626443871e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_determinant_frac0.01",
+      "error": "2.52941816150937e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_determinant_frac0.1",
+      "error": "2.97103526441979e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_determinant_frac0.15",
+      "error": "2.9705526334669e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_axis_V",
+      "error": "1.90940129803456e-96",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_axis_FT",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_FT_unchanged_jet1",
+      "error": "6.9508509118627e-215",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_FZ_unchanged_jet1",
+      "error": "5.21129435448395e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_B_unchanged_jet1",
+      "error": "4.86432439812856e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_additional_physical_mass",
+      "error": "1.29501479398656e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_FZ_second_jet",
+      "error": "8.14552805134472e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_charged_diagonal_second_jet",
+      "error": "1.44790994255805e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_determinant_frac0.01",
+      "error": "2.52881828187147e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_determinant_frac0.1",
+      "error": "2.96463303915939e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_determinant_frac0.15",
+      "error": "3.94864868678721e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.0_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_axis_V",
+      "error": "7.76451277746953e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_axis_FT",
+      "error": "1.23548778245604e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_V_unchanged_jet1",
+      "error": "1.24963596566831e-111",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_FZ_unchanged_jet1",
+      "error": "3.40271859151701e-212",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_B_unchanged_jet1",
+      "error": "1.01517673492626e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_d_unchanged_jet1",
+      "error": "4.90053320841869e-112",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_additional_physical_mass",
+      "error": "1.58633192155632e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_FZ_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_FT_second_jet",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_charged_diagonal_second_jet",
+      "error": "8.86810626443871e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_charged_B_second_jet",
+      "error": "8.17642488202945e-111",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_determinant_frac0.01",
+      "error": "2.52941816150937e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_determinant_frac0.1",
+      "error": "2.97103526441979e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_determinant_frac0.15",
+      "error": "2.9705526334669e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_axis_V",
+      "error": "7.76451277746953e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_axis_FT",
+      "error": "1.23548778245604e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_FZ_unchanged_jet1",
+      "error": "5.21021787255275e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_B_unchanged_jet1",
+      "error": "1.01517673492626e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_additional_physical_mass",
+      "error": "1.29501479398656e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_FZ_second_jet",
+      "error": "8.14552805134472e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_FT_second_jet",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_charged_diagonal_second_jet",
+      "error": "1.44790994255805e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_charged_B_second_jet",
+      "error": "9.51491666396657e-117",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_determinant_frac0.01",
+      "error": "2.52881828187147e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_determinant_frac0.1",
+      "error": "2.96463303915939e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_determinant_frac0.15",
+      "error": "3.94864868678721e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase1.5708_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_axis_V",
+      "error": "7.76451277746953e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_axis_FT",
+      "error": "1.38134309082917e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_FZ_unchanged_jet1",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_B_unchanged_jet1",
+      "error": "1.01517673492626e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_additional_physical_mass",
+      "error": "1.58633192155632e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_FZ_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_charged_diagonal_second_jet",
+      "error": "8.86810626443871e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_determinant_frac0.01",
+      "error": "2.52941816150937e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_determinant_frac0.1",
+      "error": "2.97103526441979e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_determinant_frac0.15",
+      "error": "2.9705526334669e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_axis_V",
+      "error": "7.76451277746953e-95",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_axis_FT",
+      "error": "1.38134309082917e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_FZ_unchanged_jet1",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_B_unchanged_jet1",
+      "error": "1.01517673492626e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_additional_physical_mass",
+      "error": "1.29501479398656e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_FZ_second_jet",
+      "error": "8.14552805134472e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_charged_diagonal_second_jet",
+      "error": "1.44790994255805e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_charged_B_second_jet",
+      "error": "2.37872916599164e-117",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_determinant_frac0.01",
+      "error": "2.52881828187147e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_determinant_frac0.1",
+      "error": "2.96463303915939e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_determinant_frac0.15",
+      "error": "3.94864868678721e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.0_phase0.37_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_axis_V",
+      "error": "2.68782837220574e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_axis_FT",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_FT_unchanged_jet1",
+      "error": "4.56080606835654e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_FZ_unchanged_jet1",
+      "error": "2.00639291549105e-212",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_B_unchanged_jet1",
+      "error": "1.84650716187865e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_additional_physical_mass",
+      "error": "1.58633192155632e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_FZ_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_charged_diagonal_second_jet",
+      "error": "8.86810626443871e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_determinant_frac0.01",
+      "error": "2.54130242203266e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_determinant_frac0.1",
+      "error": "2.98499887015779e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_determinant_frac0.15",
+      "error": "3.97938199311698e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_axis_V",
+      "error": "2.68782837220574e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_axis_FT",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_FT_unchanged_jet1",
+      "error": "6.98348177040213e-215",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_FZ_unchanged_jet1",
+      "error": "3.07287999524248e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_B_unchanged_jet1",
+      "error": "2.82803134714433e-214",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_additional_physical_mass",
+      "error": "1.29501479398656e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_FZ_second_jet",
+      "error": "8.14552805134472e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_charged_diagonal_second_jet",
+      "error": "1.44790994255805e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_charged_B_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_determinant_frac0.01",
+      "error": "2.54070072808347e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_determinant_frac0.1",
+      "error": "3.97145634524612e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_determinant_frac0.15",
+      "error": "1.98371838653114e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.0_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_axis_V",
+      "error": "1.30802415254782e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_axis_FT",
+      "error": "1.22971017990231e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_V_unchanged_jet1",
+      "error": "1.24744917187739e-111",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_FZ_unchanged_jet1",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_B_unchanged_jet1",
+      "error": "1.01517673492626e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_d_unchanged_jet1",
+      "error": "4.90533398316369e-112",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_additional_physical_mass",
+      "error": "1.58633192155632e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_FZ_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_charged_diagonal_second_jet",
+      "error": "8.86810626443871e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_charged_B_second_jet",
+      "error": "4.77402040242597e-113",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_determinant_frac0.01",
+      "error": "2.54130242203266e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_determinant_frac0.1",
+      "error": "2.98499887015779e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_determinant_frac0.15",
+      "error": "3.97938199311698e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_axis_V",
+      "error": "1.30802415254782e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_axis_FT",
+      "error": "1.22971017990231e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_FZ_unchanged_jet1",
+      "error": "5.210251866719e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_B_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_additional_physical_mass",
+      "error": "1.29501479398656e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_FZ_second_jet",
+      "error": "8.14552805134472e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_FT_second_jet",
+      "error": "8.12141387941008e-115",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_charged_diagonal_second_jet",
+      "error": "1.44790994255805e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_charged_B_second_jet",
+      "error": "5.31593065662481e-110",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_determinant_frac0.01",
+      "error": "2.54070072808347e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_determinant_frac0.1",
+      "error": "3.97145634524612e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_determinant_frac0.15",
+      "error": "1.98371838653114e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase1.5708_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_axis_V",
+      "error": "1.40662637377889e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_axis_FT",
+      "error": "1.37488341434957e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_FZ_unchanged_jet1",
+      "error": "2.1008003808571e-212",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_B_unchanged_jet1",
+      "error": "6.49713110352806e-114",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_additional_physical_mass",
+      "error": "1.58633192155632e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_FZ_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_charged_diagonal_second_jet",
+      "error": "8.86810626443871e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_charged_B_second_jet",
+      "error": "1.19350510060649e-113",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_determinant_frac0.01",
+      "error": "2.54130242203266e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_determinant_frac0.1",
+      "error": "2.98499887015779e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_determinant_frac0.15",
+      "error": "3.97938199311698e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.09_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_axis_V",
+      "error": "1.40662637377889e-99",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_axis_FT",
+      "error": "1.37488341434957e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_axis_FZ",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_FT_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_FT_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_FZ_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_FZ_unchanged_jet1",
+      "error": "3.21539487154433e-213",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_B_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_B_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_d_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_d_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_additional_physical_mass",
+      "error": "1.29501479398656e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_FZ_second_jet",
+      "error": "8.14552805134472e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_FT_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_charged_diagonal_second_jet",
+      "error": "1.44790994255805e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_charged_B_second_jet",
+      "error": "7.79461973112142e-113",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_charged_mass_second_jet",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_determinant_frac0.01",
+      "error": "2.54070072808347e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_metric_positive_frac0.01",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_determinant_frac0.1",
+      "error": "3.97145634524612e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_metric_positive_frac0.1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_determinant_frac0.15",
+      "error": "1.98371838653114e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "A0.00000001_q0.004_phase0.37_L0.23_metric_positive_frac0.15",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.01_determinant",
+      "error": "1.96444880646576e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.01_sign",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.1_determinant",
+      "error": "2.30145389982618e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.1_sign",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.16_determinant",
+      "error": "4.73901665376994e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.16_sign",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.17_determinant",
+      "error": "4.30713692311255e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.17_sign",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.2_determinant",
+      "error": "6.88663618020816e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "uniform_frac0.2_sign",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.00000001_stationarity",
+      "error": "2.49010376515684e-111",
+      "tolerance": "1e-65",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.00000001_positive_metric",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.00000001_positive_local_curvature",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.000000003_stationarity",
+      "error": "2.94006459422301e-111",
+      "tolerance": "1e-65",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.000000003_positive_metric",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.000000003_positive_local_curvature",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.000000001_stationarity",
+      "error": "1.11584225850935e-111",
+      "tolerance": "1e-65",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.000000001_positive_metric",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "valley_U0.000000001_positive_local_curvature",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_FZ_first_jet",
+      "error": "1.73697847873614e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_d_axis",
+      "error": "7.27075770966718e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_d_y_mixed_cancellation",
+      "error": "7.5312828349156e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_B_y",
+      "error": "8.88290460012412e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig-1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_FZ_first_jet",
+      "error": "1.73697847873614e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_d_axis",
+      "error": "7.27075770966718e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_d_y_mixed_cancellation",
+      "error": "7.5312828349156e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_B_y",
+      "error": "8.88290460012412e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase1.5708_sig1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_FZ_first_jet",
+      "error": "8.75632766777394e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_d_axis",
+      "error": "7.27075770966718e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_d_y_mixed_cancellation",
+      "error": "2.08267738851514e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_B_y",
+      "error": "8.88290460012412e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig-1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_FZ_first_jet",
+      "error": "8.75632766777394e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_d_axis",
+      "error": "7.27075770966718e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_d_y_mixed_cancellation",
+      "error": "2.08267738851514e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_B_y",
+      "error": "8.88290460012412e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.0_phase0.37_sig1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_FZ_first_jet",
+      "error": "1.42286328286027e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_d_axis",
+      "error": "7.27075770966718e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_d_y_mixed_cancellation",
+      "error": "2.53393583221235e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_B_y",
+      "error": "8.88290460012412e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig-1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_FZ_first_jet",
+      "error": "1.42286328286027e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_d_axis",
+      "error": "7.27075770966718e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_d_y_mixed_cancellation",
+      "error": "2.53393583221235e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_B_y",
+      "error": "8.88290460012412e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase1.5708_sig1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_FZ_first_jet",
+      "error": "2.33206871736008e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_d_axis",
+      "error": "7.27075770966718e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_d_y_mixed_cancellation",
+      "error": "2.33575561976004e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_B_y",
+      "error": "8.88290460012412e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig-1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_FZ_first_jet",
+      "error": "2.33206871736008e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_d_axis",
+      "error": "7.27075770966718e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_d_y_mixed_cancellation",
+      "error": "2.33575561976004e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_B_y",
+      "error": "8.88290460012412e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.001_q0.004_phase0.37_sig1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_FZ_first_jet",
+      "error": "3.45383014482364e-107",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_d_axis",
+      "error": "1.18974894116724e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_d_y_mixed_cancellation",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_B_y",
+      "error": "8.85856946828457e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig-1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_FZ_first_jet",
+      "error": "3.45383014482364e-107",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_d_axis",
+      "error": "1.18974894116724e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_d_y_mixed_cancellation",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_B_y",
+      "error": "8.85856946828457e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase1.5708_sig1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_FZ_first_jet",
+      "error": "9.05404192438379e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_d_axis",
+      "error": "1.18974894116724e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_d_y_mixed_cancellation",
+      "error": "7.92301863320182e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_B_y",
+      "error": "8.85856946828457e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig-1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_FZ_first_jet",
+      "error": "9.05404192438379e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_d_axis",
+      "error": "1.18974894116724e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_d_y_mixed_cancellation",
+      "error": "7.92301863320182e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_B_y",
+      "error": "8.85856946828457e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.0_phase0.37_sig1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_FZ_first_jet",
+      "error": "7.71024039880505e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_d_axis",
+      "error": "2.97437235291809e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_d_y_mixed_cancellation",
+      "error": "9.66385356276351e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_B_y",
+      "error": "8.85856946828457e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig-1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_FZ_first_jet",
+      "error": "7.71024039880505e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_d_axis",
+      "error": "2.97437235291809e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_d_y_mixed_cancellation",
+      "error": "9.66385356276351e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_B_y",
+      "error": "8.85856946828457e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase1.5708_sig1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_FZ_first_jet",
+      "error": "1.05281183386439e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_d_axis",
+      "error": "2.97437235291809e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_d_y_mixed_cancellation",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_B_y",
+      "error": "8.85856946828457e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig-1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_FZ_first_jet",
+      "error": "1.05281183386439e-101",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_d_axis",
+      "error": "2.97437235291809e-100",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_d_y_mixed_cancellation",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_d_chi",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_B_axis",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_B_y",
+      "error": "8.85856946828457e-102",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_s_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_s_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_V_unchanged_jet0",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_V_unchanged_jet1",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    },
+    {
+      "name": "contact_A0.00000001_q0.004_phase0.37_sig1_matter_metric_positive",
+      "error": "0.0",
+      "tolerance": "1e-70",
+      "passed": true
+    }
+  ],
+  "generic_phase_valleys": [
+    {
+      "U": "1.0e-8",
+      "J": "-2.54555895668200426780036169996e-10",
+      "H": "0.000299784138741126977519670242177",
+      "y_quadratic": "0.000000849130633585712953202661231543",
+      "y_exact": "0.000000849130633569381143226283238344",
+      "delta_V_exact": "-1.08075604874425429149936174314e-16",
+      "delta_V_quadratic": "-1.08075604485858835884786228135e-16",
+      "constant_leading": "-1.08e-16",
+      "relative_to_leading": "0.000700045133568788425334947353603",
+      "metric_fraction": "0.00000000180255708216484657614047495772"
+    },
+    {
+      "U": "3.0e-9",
+      "J": "-1.39426006203404973816715387238e-10",
+      "H": "0.0000897840454022776140874904887815",
+      "y_quadratic": "0.00000155290403299056580173491803727",
+      "y_exact": "0.00000155290403266978972372253736293",
+      "delta_V_exact": "-1.08257604962594955764920895992e-16",
+      "delta_V_quadratic": "-1.08257603668517614793202628739e-16",
+      "constant_leading": "-1.08e-16",
+      "relative_to_leading": "0.00238523113513847930482311103813",
+      "metric_fraction": "0.00000000602877733670523837392601728582"
+    },
+    {
+      "U": "1.0e-9",
+      "J": "-8.04976422135702933677965741086e-11",
+      "H": "0.0000297840187340349388211534163829",
+      "y_quadratic": "0.00000270271258329500162260473221163",
+      "y_exact": "0.00000270271257825517018395060661649",
+      "delta_V_exact": "-1.08780999139519250888332068939e-16",
+      "delta_V_quadratic": "-1.08780995268097670154501835994e-16",
+      "constant_leading": "-1.08e-16",
+      "relative_to_leading": "0.00723147351406713785492656424724",
+      "metric_fraction": "0.0000000182616382016467735386321707225"
+    }
+  ],
+  "code_sha256": "f3298edeeea1d9ce1a3d66514c53cfdaafec9548f8ffd8c09e7d547130a697ad",
+  "input_read_scope": [
+    "experiments/sequestering_test_v01/protocol.md",
+    "reports/protection_power_correction_20260925.md"
+  ],
+  "external_sources": "No new external scientific claim used: full K/W identities derived explicitly from the declared local model.",
+  "execution_notes": "Initial quartic-only run passed 667/667 checks; scope then extended to shared-current contact jets. Dimensionless amplified values intentionally expose corrections. Same fixed tolerances for all checks; no observational statistics."
+}

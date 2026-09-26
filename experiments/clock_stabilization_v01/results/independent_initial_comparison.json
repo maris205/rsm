@@ -1,0 +1,244 @@
+{
+  "status": "fail",
+  "checks_passed": 20,
+  "checks_total": 21,
+  "checks": [
+    {
+      "name": "A_5d",
+      "max_normalized_error": 2.0198740784344993e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "min_my2_eV2",
+      "max_normalized_error": 2.5990402178443523e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "max_my2_eV2",
+      "max_normalized_error": 3.6225727034017654e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "clockoff_my2_leading_eV2",
+      "max_normalized_error": 2.599040801833744e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "RSS_c_2loop_force_ratio",
+      "max_normalized_error": 2.370985605671658e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "contact_d_1loop_force_ratio",
+      "max_normalized_error": 6.353211211415306e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "contact_Btree_1loop_force_ratio",
+      "max_normalized_error": 1.2007793946829969e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "contact_B5d_2loop_force_ratio",
+      "max_normalized_error": 1.1826308992967014e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "quadratic_valley_force_ratio",
+      "max_normalized_error": 1.1324311536815588,
+      "tolerance": 1e-11,
+      "passed": false
+    },
+    {
+      "name": "quadratic_valley_energy_over_U",
+      "max_normalized_error": 1.0582198790718798e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "valley_metric_boundary_fraction",
+      "max_normalized_error": 9.703738009889534e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "selected_feedback_sum_ratio",
+      "max_normalized_error": 2.065696938384695e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "known_axis_feedback_without_valley",
+      "max_normalized_error": 2.1184074036687497e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "max_hierarchy_ratio",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "FTcanonical_over_vector2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "max_coupling_loop_parameter",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "Ucrit_leading_eV4",
+      "max_normalized_error": 3.928113491458837e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "chi_critical_leading",
+      "max_normalized_error": 2.186486542460779e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "frontier_curvature",
+      "max_normalized_error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "frontier_auxiliary",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "classification_and_missing_value_agreement",
+      "differences": 0,
+      "passed": true
+    }
+  ],
+  "row_counts": {
+    "scan.csv": 4802,
+    "representatives.csv": 54,
+    "sigma_sensitivity.csv": 50,
+    "conditional_frontiers.csv": 147
+  },
+  "worst": {
+    "A_5d": {
+      "file": "scan.csv",
+      "row": 0,
+      "expected": 4.3359709872696975e-31,
+      "got": 4.335970987269697e-31
+    },
+    "clockoff_my2_leading_eV2": {
+      "file": "scan.csv",
+      "row": 3822,
+      "expected": -3.2907706051634874e-34,
+      "got": -3.2907706051634866e-34
+    },
+    "RSS_c_2loop_force_ratio": {
+      "file": "scan.csv",
+      "row": 2254,
+      "expected": 1.3355419682240255e-11,
+      "got": 1.3355419682239938e-11
+    },
+    "contact_d_1loop_force_ratio": {
+      "file": "scan.csv",
+      "row": 4468,
+      "expected": 0.5242497003548378,
+      "got": 0.5242497003548374
+    },
+    "selected_feedback_sum_ratio": {
+      "file": "representatives.csv",
+      "row": 19,
+      "expected": 4.2233545303321305e-11,
+      "got": 4.223354530332043e-11
+    },
+    "known_axis_feedback_without_valley": {
+      "file": "representatives.csv",
+      "row": 37,
+      "expected": 4.2233545303321336e-07,
+      "got": 4.223354530332044e-07
+    },
+    "Ucrit_leading_eV4": {
+      "file": "scan.csv",
+      "row": 3829,
+      "expected": 2.056441517544634e-12,
+      "got": 2.056441517544633e-12
+    },
+    "contact_Btree_1loop_force_ratio": {
+      "file": "scan.csv",
+      "row": 2700,
+      "expected": 2.735134605327181e-32,
+      "got": 2.735134605327148e-32
+    },
+    "contact_B5d_2loop_force_ratio": {
+      "file": "scan.csv",
+      "row": 766,
+      "expected": 8.938322291636273e-15,
+      "got": 8.938322291636167e-15
+    },
+    "quadratic_valley_force_ratio": {
+      "file": "scan.csv",
+      "row": 151,
+      "expected": 7.05193077124759e-63,
+      "got": 1.5037756870213983e-62
+    },
+    "quadratic_valley_energy_over_U": {
+      "file": "scan.csv",
+      "row": 2910,
+      "expected": 2.3173561195233028e-30,
+      "got": 2.3173561195233003e-30
+    },
+    "valley_metric_boundary_fraction": {
+      "file": "scan.csv",
+      "row": 3192,
+      "expected": 3.2517815481705983e-15,
+      "got": 3.251781548170595e-15
+    },
+    "chi_critical_leading": {
+      "file": "scan.csv",
+      "row": 4152,
+      "expected": 129.9880373305057,
+      "got": 129.98803733050573
+    },
+    "min_my2_eV2": {
+      "file": "scan.csv",
+      "row": 3870,
+      "expected": -3.2907705951696473e-34,
+      "got": -3.2907705951696464e-34
+    },
+    "max_my2_eV2": {
+      "file": "scan.csv",
+      "row": 2885,
+      "expected": -2.9789609436170985e-39,
+      "got": -2.978960943617097e-39
+    }
+  },
+  "differences": [],
+  "hashes": {
+    "experiments/clock_stabilization_v01/results/scan.csv": "d964d5d1a7ddfdbc783d506c857d32e918938699f334ea5c531e2763b65bb7ed",
+    "experiments/clock_stabilization_v01/results/representatives.csv": "f3458aa37f9ba78306adae07dcf6933e9c6548d02a373c28c6d584fa396afc96",
+    "experiments/clock_stabilization_v01/results/sigma_sensitivity.csv": "2d3626ae9f24f3ae03d90fc72874eac620c7c03f2913bd47db857e973b5bdc3a",
+    "experiments/clock_stabilization_v01/results/conditional_frontiers.csv": "4ea13fb2c69a5385a6bc0fa455fee14f654f415bb5afeac6d2bef90db96aa091",
+    "experiments/clock_stabilization_v01/code/independent_check.py": "fc2771d62acf0cd91f6f3cb75af2b5723ea38471ac8ef5a37e9511f46aead37a",
+    "experiments/clock_stabilization_v01/protocol.md": "8a659130b0ca7d8217ac544fafa49e4820c8a687842c9e8baf9742cbb109b502",
+    "experiments/sequestering_test_v01/results/inputs.json": "b8e64481a02d792e1115be91fc519fc944e5465d7acf5867f18218917514de77",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+  },
+  "maximum_normalized_error": 1.1324311536815588,
+  "scope": "Internal independent local implementation; no main code read, import or execution.",
+  "utc": "2026-09-26T02:58:45.884392+00:00"
+}

@@ -1,0 +1,196 @@
+{
+  "status": "pass",
+  "checks_passed": 21,
+  "checks_total": 21,
+  "checks": [
+    {
+      "name": "A_5d",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "min_my2_eV2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "max_my2_eV2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "clockoff_my2_leading_eV2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "RSS_c_2loop_force_ratio",
+      "max_normalized_error": 2.3588887403365986e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "contact_d_1loop_force_ratio",
+      "max_normalized_error": 4.407258400860353e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "contact_Btree_1loop_force_ratio",
+      "max_normalized_error": 1.2007793946829969e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "contact_B5d_2loop_force_ratio",
+      "max_normalized_error": 1.1721783990221908e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "quadratic_valley_force_ratio",
+      "max_normalized_error": 8.777344276571818e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "quadratic_valley_energy_over_U",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "valley_metric_boundary_fraction",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "selected_feedback_sum_ratio",
+      "max_normalized_error": 2.050395479581846e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "known_axis_feedback_without_valley",
+      "max_normalized_error": 2.1116326600993597e-14,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "max_hierarchy_ratio",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "FTcanonical_over_vector2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "max_coupling_loop_parameter",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "Ucrit_leading_eV4",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "chi_critical_leading",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "frontier_curvature",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "frontier_auxiliary",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "classification_and_missing_value_agreement",
+      "differences": 0,
+      "passed": true
+    }
+  ],
+  "row_counts": {
+    "scan.csv": 4802,
+    "representatives.csv": 54,
+    "sigma_sensitivity.csv": 50,
+    "conditional_frontiers.csv": 147
+  },
+  "worst": {
+    "RSS_c_2loop_force_ratio": {
+      "file": "scan.csv",
+      "row": 2254,
+      "expected": 1.3355419682240253e-11,
+      "got": 1.3355419682239938e-11
+    },
+    "contact_d_1loop_force_ratio": {
+      "file": "scan.csv",
+      "row": 781,
+      "expected": 4.5044635225829363e-08,
+      "got": 4.5044635225829343e-08
+    },
+    "selected_feedback_sum_ratio": {
+      "file": "representatives.csv",
+      "row": 19,
+      "expected": 4.22335453033213e-11,
+      "got": 4.223354530332043e-11
+    },
+    "known_axis_feedback_without_valley": {
+      "file": "scan.csv",
+      "row": 3429,
+      "expected": 4.251946567483528e-06,
+      "got": 4.251946567483438e-06
+    },
+    "contact_Btree_1loop_force_ratio": {
+      "file": "scan.csv",
+      "row": 2700,
+      "expected": 2.735134605327181e-32,
+      "got": 2.735134605327148e-32
+    },
+    "contact_B5d_2loop_force_ratio": {
+      "file": "scan.csv",
+      "row": 570,
+      "expected": 2.826545690222642e-15,
+      "got": 2.8265456902226088e-15
+    },
+    "quadratic_valley_force_ratio": {
+      "file": "scan.csv",
+      "row": 1843,
+      "expected": 2.230277494782439e-39,
+      "got": 2.230277494782441e-39
+    }
+  },
+  "differences": [],
+  "hashes": {
+    "experiments/clock_stabilization_v01/results/scan.csv": "892a9ac48c1f8017f13a444b364addef51f08912aa3469d7ec443f1e5e5e8ce6",
+    "experiments/clock_stabilization_v01/results/representatives.csv": "0cf046618b7f57b4444236afb4e3dab2e79e18b2871689172ac00e577e0c3401",
+    "experiments/clock_stabilization_v01/results/sigma_sensitivity.csv": "abd8a11128313f6c599487e24d55e09f9c009d78696199c3be781b634bf46784",
+    "experiments/clock_stabilization_v01/results/conditional_frontiers.csv": "4ea13fb2c69a5385a6bc0fa455fee14f654f415bb5afeac6d2bef90db96aa091",
+    "experiments/clock_stabilization_v01/code/independent_check.py": "16de3fa133d16cdbacce5fc13369e4a452bf687d666b3f59c45aaba0ce17ca6e",
+    "experiments/clock_stabilization_v01/protocol.md": "8b1230e0560d677a406244b62544dfa5e1a73039234daa04da9842ad04a2a9c7",
+    "experiments/sequestering_test_v01/results/inputs.json": "b8e64481a02d792e1115be91fc519fc944e5465d7acf5867f18218917514de77",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+  },
+  "maximum_normalized_error": 2.3588887403365986e-14,
+  "scope": "Internal independent local implementation; no main code read, import or execution.",
+  "utc": "2026-09-26T03:04:01.583070+00:00"
+}

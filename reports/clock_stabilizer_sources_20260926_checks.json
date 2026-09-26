@@ -1,0 +1,135 @@
+{
+  "scope": "Independent algebra and reference conventions; not full heavy-multiplet spectrum, loop calculation or UV completion",
+  "passed": 25,
+  "total": 25,
+  "checks": [
+    {
+      "name": "vector_stationarity",
+      "passed": true
+    },
+    {
+      "name": "negative_current_square",
+      "passed": true
+    },
+    {
+      "name": "clock_quartic",
+      "passed": true
+    },
+    {
+      "name": "mixed_contact",
+      "passed": true
+    },
+    {
+      "name": "matter_quartic",
+      "passed": true
+    },
+    {
+      "name": "Lambda_equals_M_at_gsqrt2",
+      "passed": true
+    },
+    {
+      "name": "general_positive_weight",
+      "passed": true
+    },
+    {
+      "name": "k_y_normalization",
+      "passed": true
+    },
+    {
+      "name": "local_clock_metric",
+      "passed": true
+    },
+    {
+      "name": "quartic_y_jet_0_zero_on_axis",
+      "passed": true
+    },
+    {
+      "name": "quartic_y_jet_1_zero_on_axis",
+      "passed": true
+    },
+    {
+      "name": "quartic_y_jet_2_zero_on_axis",
+      "passed": true
+    },
+    {
+      "name": "quartic_y_jet_3_zero_on_axis",
+      "passed": true
+    },
+    {
+      "name": "mixed_metric_curvature",
+      "passed": true
+    },
+    {
+      "name": "mixed_soft_sign",
+      "passed": true
+    },
+    {
+      "name": "Stueckelberg_gauge_invariance",
+      "passed": true
+    },
+    {
+      "name": "canonical_Stueckelberg_metric",
+      "passed": true
+    },
+    {
+      "name": "physical_vector_mass",
+      "passed": true
+    },
+    {
+      "name": "Kors_Nath_redefinition",
+      "passed": true
+    },
+    {
+      "name": "one_eV_fails_sufficient_hierarchy",
+      "passed": true
+    },
+    {
+      "name": "new_examples_pass_sufficient_hierarchy",
+      "passed": true
+    },
+    {
+      "name": "charged_over_mediator_is_0p1",
+      "passed": true
+    },
+    {
+      "name": "mediator_over_KK_is_0p01",
+      "passed": true
+    },
+    {
+      "name": "local_metric_positive_small_patch",
+      "passed": true
+    },
+    {
+      "name": "quartic_truncation_not_global_metric",
+      "passed": true
+    }
+  ],
+  "benchmarks": [
+    {
+      "mG_eV": "1",
+      "F_T_can_over_MV2": "4217.54371643021620973933184156679921350573079302827682931589",
+      "under_declared_0p1": false
+    },
+    {
+      "mG_eV": "1e-5",
+      "F_T_can_over_MV2": "0.0421754371643021620973933184156679921350573079302827682931589",
+      "under_declared_0p1": true
+    },
+    {
+      "mG_eV": "1e-6",
+      "F_T_can_over_MV2": "0.00421754371643021620973933184156679921350573079302827682931589",
+      "under_declared_0p1": true
+    },
+    {
+      "mG_eV": "1e-18",
+      "F_T_can_over_MV2": "0.00000000000000421754371643021620973933184156679921350573079302827682931589",
+      "under_declared_0p1": true
+    }
+  ],
+  "mG_upper_eV_for_F_ratio_0p1": "0.0000237104833342762120948315720945362404783409343437423768385463",
+  "versions": {
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "script_sha256": "5a1fe39431742fe44048ee3abb33538ab3037455b5acfd7d19cc2cf757bac024"
+}
