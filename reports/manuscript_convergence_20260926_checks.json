@@ -1,0 +1,316 @@
+{
+  "date": "2026-09-26",
+  "baseline_commit": "a46828286a50fd491204d68589aaa6b458c96103",
+  "scope": "existing conditional micro-to-macro manuscript convergence; no new scientific computation",
+  "baseline_pdf_sha256": {
+    "manuscript_cn/paper.pdf": "bcd56f85a5077fd7b625e82c37aeb5a6115b817fef9eabec740e3425d02acceb",
+    "manuscript_cn/front_matter.pdf": "59ac701fa6a3d0023d80682cfbc5f347d513c16d0c0e4e84b6f129f9499bebe2"
+  },
+  "full": {
+    "pages": 86,
+    "checks": {
+      "completed_chapters": [
+        "00_introduction",
+        "01_system_anomaly",
+        "02_source_code",
+        "03_cosmic_lockstep",
+        "04_mathematical_framework",
+        "05_observational_evidence",
+        "06_predictions_interpretations",
+        "07_engine_design",
+        "08_simulation_case_studies",
+        "09_conclusion"
+      ],
+      "manuscript_status": "中文完整初稿",
+      "back_matter": [
+        "acknowledgments"
+      ],
+      "section_order_valid": true,
+      "equation_tags": 114,
+      "missing_equation_tags": [],
+      "missing_headings": [],
+      "reference_anchors": 63,
+      "missing_reference_anchors": [],
+      "unresolved_reference_anchors": [],
+      "toc_entries": 65,
+      "clickable_links": 432,
+      "bad_links": [],
+      "vector_figure_xobjects": 28,
+      "embedded_figure_count": 19,
+      "vector_figure_count": 19,
+      "front_matter_figure_pages": [
+        2,
+        3
+      ],
+      "embedded_figures": [
+        {
+          "path": "manuscript_cn/figures/rsm_architecture_cn.pdf",
+          "page": 2,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/rsm_reasoning_cn.pdf",
+          "page": 3,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter02_arithmetic_encoding_cn.pdf",
+          "page": 18,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter02_parameter_landmarks_cn.pdf",
+          "page": 19,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter02_physical_bridge_cn.pdf",
+          "page": 22,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter03_update_and_readout_cn.pdf",
+          "page": 26,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter04_micro_macro_bridge_cn.pdf",
+          "page": 32,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter04_wave_spectrum_cn.pdf",
+          "page": 36,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter04_timeline_cn.pdf",
+          "page": 39,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter04_cosmic_bridge_cn.pdf",
+          "page": 42,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter04_halo_cooling_cn.pdf",
+          "page": 45,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter04_matched_pm_cn.pdf",
+          "page": 47,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter05_alpha_constraints_cn.pdf",
+          "page": 51,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter05_response_extrapolation_cn.pdf",
+          "page": 53,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter05_future_conditions_cn.pdf",
+          "page": 53,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter05_hubble_comparison_cn.pdf",
+          "page": 55,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter07_engine_pipeline_cn.pdf",
+          "page": 68,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter08_recovery_cn.pdf",
+          "page": 72,
+          "vector": true,
+          "verified": true
+        },
+        {
+          "path": "manuscript_cn/figures/chapter08_arithmetic_cn.pdf",
+          "page": 76,
+          "vector": true,
+          "verified": true
+        }
+      ],
+      "missing_figures": [],
+      "no_invented_author": true
+    },
+    "inputs_sha256": {
+      "manuscript_cn/abstract.md": "96a45837a25362b47bfd4018f02d23f0a16981731533c13855ad4188fb51ebac",
+      "manuscript_cn/figures/captions.md": "0c256ad2a51703104eee5f42afbefc5feeabf65aec60712309f369206e008cb6",
+      "manuscript_cn/chapters/00_introduction.md": "be1cf4f1b735a3af1516a55edeee21eee4c5fea0d13f4d21323fa921e97f180c",
+      "manuscript_cn/chapters/01_system_anomaly.md": "29aa5ea83d5d758c37fd20a8d99230ad465d79492ae327d8f85dd86b0776e996",
+      "manuscript_cn/chapters/02_source_code.md": "8923f02ef782d15418161ec102bd7bd192cf83f74d131e1a0e4f3b69495141aa",
+      "manuscript_cn/chapters/03_cosmic_lockstep.md": "0de7ad9a0771359dd9cce0023dbbf737d6eb0624d62af57ca2d6c46a8c085cd9",
+      "manuscript_cn/chapters/04_mathematical_framework.md": "78174104e368e7b12f763a07a488adf1d7fbf3896d6b67ea531fdd19626d89c8",
+      "manuscript_cn/chapters/05_observational_evidence.md": "9f4e94512bc4d2eb4b801d33345816a10e1f8b4d006939c26caabedc2035cd07",
+      "manuscript_cn/chapters/06_predictions_interpretations.md": "19190bf8aefc19062ee404039f77f821be23996e4be4281fa41c7eb38c73d883",
+      "manuscript_cn/chapters/07_engine_design.md": "c98f2fc99aaef251e768da656128646772a9e3e7a67a29927d277bff6e2283fa",
+      "manuscript_cn/chapters/08_simulation_case_studies.md": "8aee4a79cdd443274bec71739de712a285e9844131ad012040e59a8ac9ba997f",
+      "manuscript_cn/chapters/09_conclusion.md": "394a5b60c94f9086ea2bffb0cc3515b70cac14fc0bef5b568694b8bf864ac3a3",
+      "manuscript_cn/references.md": "36a419d9c0e696076dc770a72eafdefd3de69d6fcf2d9df4ba464d102f3d3c6f",
+      "manuscript_cn/acknowledgments.md": "582a83401fd6909fd31bf5abcb271feadc597e4a7e063fb1ae557cd9a239d20d",
+      "manuscript_cn/figures/rsm_architecture_cn.png": "1ec4411bd026d7001fb1266c113b737259d739fba7610438b3a548a63d41cbd1",
+      "manuscript_cn/figures/rsm_architecture_cn.pdf": "ef2e32b32481276e4817bda90b01fef16d12ecb078c74c38f805edb97fa3c2f3",
+      "manuscript_cn/figures/rsm_reasoning_cn.png": "2bdb446a60f10c53306a11b73534da2b620ac1861761472f42395e018e176789",
+      "manuscript_cn/figures/rsm_reasoning_cn.pdf": "d7779e0cd06d21fd085c5ec981c5b4d58cd579202c4dee0c7c5d98119cfb63ba",
+      "manuscript_cn/figures/chapter02_arithmetic_encoding_cn.png": "0a369a2b4cd3fcad1d649b7081096d044d83692397aae0bdc84854f6b5fd07f4",
+      "manuscript_cn/figures/chapter02_arithmetic_encoding_cn.pdf": "fb7a9e6e3aaff46de4f4fb49bbf35d3e5d6c45acb31e5898496c210e0024be72",
+      "manuscript_cn/figures/chapter02_parameter_landmarks_cn.png": "af71b440303782f85e0bd00406fee70c068dd8f1d1e2892620417e926dc5ab94",
+      "manuscript_cn/figures/chapter02_parameter_landmarks_cn.pdf": "abce1b5b327b3f4757bd6361c1e3d2ec2a2b1726fad0129251d967142a99ff78",
+      "manuscript_cn/figures/chapter02_physical_bridge_cn.png": "9e46fe97df70c1faf58b9cd00231930f5efaf0298ae36c3d409765e7de25ae7e",
+      "manuscript_cn/figures/chapter02_physical_bridge_cn.pdf": "26a2abc47055e8804f5e9da3835bde305ac4f71c0e56533b42149a38c0a77402",
+      "manuscript_cn/figures/chapter03_update_and_readout_cn.png": "5b91b9f1fc692946413c7882d7ceb438508a72c9610285edebd5d0ca1574101b",
+      "manuscript_cn/figures/chapter03_update_and_readout_cn.pdf": "089d102ac08b6f59a5228637fa2e8eada086197fd5307fc5ddc65c4d7b3fd4d3",
+      "manuscript_cn/figures/chapter04_micro_macro_bridge_cn.png": "09097bdd54a44c2e4770b305041006f8f63deea18e18ff6951b88a456efa627f",
+      "manuscript_cn/figures/chapter04_micro_macro_bridge_cn.pdf": "11ce7a1dbd58e685809fab8018f0692dc59deef2cea88e908440feee13bf4542",
+      "manuscript_cn/figures/chapter04_wave_spectrum_cn.png": "fe87f5dcfdfecd57a460c1e084d58f8a28c7d722f3d8c7bfe5ca99c54faa9b50",
+      "manuscript_cn/figures/chapter04_wave_spectrum_cn.pdf": "b7e391d7f43edc56f27a647d7d8d05089938ac0786cdcd41ae6a950337e8fa2f",
+      "manuscript_cn/figures/chapter04_timeline_cn.png": "ef067f1b5edd7eec68c2d173266ba4457797bf0a88b5dd0baf7a0071c1eab8ba",
+      "manuscript_cn/figures/chapter04_timeline_cn.pdf": "a82b5542b65f00db7cddf299cf272e35a951ac3a33ad301ca018f3cb22b0cfbc",
+      "manuscript_cn/figures/chapter04_cosmic_bridge_cn.png": "7ad7092280d85cd50c057e20060f0e53472391897ee7e7c29960ec5966ad9277",
+      "manuscript_cn/figures/chapter04_cosmic_bridge_cn.pdf": "ebc41c425b25275d7c02591afa680e99c0dd04f0cd76ed790df254d859b39410",
+      "manuscript_cn/figures/chapter04_halo_cooling_cn.png": "414006c9aab728f2d8fa551a0eea7addd0847412ed447e3b7f6327dfb8ed3ad0",
+      "manuscript_cn/figures/chapter04_halo_cooling_cn.pdf": "b4fd9d01fc75cd0e047b93c3b41d6a612cf54bd82e549f53ff91acadd2a22be1",
+      "manuscript_cn/figures/chapter04_matched_pm_cn.png": "4ff60475967b04b3950f94484078ad375a6a8f3cfc0187624ceedbfbe472f735",
+      "manuscript_cn/figures/chapter04_matched_pm_cn.pdf": "5de5f84f24e387ebe9fd9c47e965fe546fe027f97110f26a8fecb5f8ae88a203",
+      "manuscript_cn/figures/chapter05_alpha_constraints_cn.png": "2c17255903cc96504f491af0eaf60c5e0f4bb2620814ab2595b182cb0b32d63b",
+      "manuscript_cn/figures/chapter05_alpha_constraints_cn.pdf": "40893970b5a926949161a3905ff8a12f249da516cf9c425c4c9a2c12948e3e1a",
+      "manuscript_cn/figures/chapter05_response_extrapolation_cn.png": "1790a3f82112a611a64d6475eb40ebedd563a531178f694be533404999cb3176",
+      "manuscript_cn/figures/chapter05_response_extrapolation_cn.pdf": "ff06bf26731b99b149e593d3cf8bfb960e7c9abea04e18af51f8664814c46ba6",
+      "manuscript_cn/figures/chapter05_future_conditions_cn.png": "9818d373b4cc5d6f239e220b537ca9d28a48f3744db89ea047298f341a54b628",
+      "manuscript_cn/figures/chapter05_future_conditions_cn.pdf": "111e4a51b629c7471e05d72adb7cf5b7695455a704beb94b889d925b9c39be07",
+      "manuscript_cn/figures/chapter05_hubble_comparison_cn.png": "777e245e799d73fad3bd535adb125470d7630b486337af68e0909264cbd260fb",
+      "manuscript_cn/figures/chapter05_hubble_comparison_cn.pdf": "14fc49d21e9a681dbdf70a2adce28b9577bc6e3eb3bbb0efc3cfb8a53e1c75ab",
+      "manuscript_cn/figures/chapter07_engine_pipeline_cn.png": "ecee11ae679818bd6fec4a3b2b8e22688ef745f9f230d249dc8913943f14cf30",
+      "manuscript_cn/figures/chapter07_engine_pipeline_cn.pdf": "f5d59f63b38db98676899e860b4065b99c45f500bd0533d9d29fcb53839ce490",
+      "manuscript_cn/figures/chapter08_recovery_cn.png": "0404306bdc22ce203cd3e1afd867d9955ed25707eb3fcef9da98098769597127",
+      "manuscript_cn/figures/chapter08_recovery_cn.pdf": "686dfacd1c51debbee9880af0a7012be47cf915477867b4ac7da8eaec900f6ce",
+      "manuscript_cn/figures/chapter08_arithmetic_cn.png": "14c0923d8632d5d3058a3ff84deb5f7347574cc70f6b066b7a821d500e88fd9b",
+      "manuscript_cn/figures/chapter08_arithmetic_cn.pdf": "062406fd9b867783bfb2802be512899311d08bc2611724950833e2507352f54b"
+    },
+    "source_sha256": "42e59df2c65c19c9676cfefebd82e8db266ef9413a46bddb3face740fb463753",
+    "renderer_sha256": "17ac40ea133ebd53817c23496e7250545740418b29e0b29d087bde0054e4a6ff",
+    "template_sha256": "499e593c548ef0ae42728912141a9a22b543624c5a735e41b5d9f1ef5dbe2339",
+    "output_sha256": "2456471fbcf63561aa692208862959f635ddc618619b40ee4cb126fcdc7e8de7",
+    "typesetting_issues": [],
+    "new_scientific_computation": false
+  },
+  "front": {
+    "pages": 3,
+    "typesetting_issues": [],
+    "inputs_sha256": {
+      "manuscript_cn/abstract.md": "96a45837a25362b47bfd4018f02d23f0a16981731533c13855ad4188fb51ebac",
+      "manuscript_cn/figures/captions.md": "0c256ad2a51703104eee5f42afbefc5feeabf65aec60712309f369206e008cb6",
+      "manuscript_cn/figures/rsm_architecture_cn.pdf": "ef2e32b32481276e4817bda90b01fef16d12ecb078c74c38f805edb97fa3c2f3",
+      "manuscript_cn/figures/rsm_reasoning_cn.pdf": "d7779e0cd06d21fd085c5ec981c5b4d58cd579202c4dee0c7c5d98119cfb63ba"
+    },
+    "template_sha256": "499e593c548ef0ae42728912141a9a22b543624c5a735e41b5d9f1ef5dbe2339",
+    "renderer_sha256": "b83a45d83cde53d723c4239eaffb9356cd37e419a12d75ff6fa2f2d200809973",
+    "pdf_sha256": "c2177893cd6eee0e14910bfc85410caa96b51ce6b8defa116e145710752360d0",
+    "new_scientific_computation": false
+  },
+  "source_checks": {
+    "h1_h2_h3_preserved": 161,
+    "all_headings_preserved": true,
+    "equation_tags": 114,
+    "all_tags_unique": true,
+    "chapter04_prior_display_blocks_preserved": 43,
+    "chapter04_current_display_blocks": 44,
+    "chapter04_figure_references_unchanged": 6,
+    "science_or_figure_changes": []
+  },
+  "initial_full_build": {
+    "pdf_sha256": "f8dc6cac126454ed9062f692ab604fd47a74ce9339b7646b490c0d5717cd2aba",
+    "automated_build_passed": true,
+    "visual_defect": "new 3-row table split pages32-33, leading allowbreak lowered right-aligned math cells",
+    "remedy": "extend existing renderer regex from raggedright to raggedright|raggedleft|centering",
+    "final_table_page": 32
+  },
+  "pdf_read_preflight": {
+    "schema": "pdf_read_preflight/1",
+    "verdict": "UNAVAILABLE",
+    "file": "manuscript_cn/paper.pdf",
+    "sha256": "2456471fbcf63561aa692208862959f635ddc618619b40ee4cb126fcdc7e8de7",
+    "declared_page_count": null,
+    "enumerated_page_count": null,
+    "reader_page_count": null,
+    "warnings": [
+      "pypdf-not-installed: preflight cannot parse the document"
+    ],
+    "generated_at": "2026-09-26T14:07:56.046523+00:00",
+    "tool": "pdf_read_preflight/1.0.0"
+  },
+  "independent_internal_review": {
+    "type": "AI-assisted independent source/evidence and PDF consistency review, not external peer review",
+    "scientific_defects_found": [],
+    "evidence_checked": [
+      "full-feedback spatial/time CSV",
+      "preserved fixed-coefficient precision failure JSON",
+      "conditional general-s tail proof 24a-24e",
+      "fixed reference11 source version e3569ba"
+    ],
+    "final_pdf_audit_completed": true,
+    "actual_h3_headings_found": 97,
+    "new_hamiltonian_page": 29,
+    "three_row_convergence_table_page": 32,
+    "nine_row_conclusion_table_page": 80,
+    "abstract_bodies_equal": true
+  },
+  "visual_sample_pages": [
+    1,
+    4,
+    5,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    39,
+    42,
+    45,
+    47,
+    78,
+    79,
+    80,
+    81,
+    85,
+    86
+  ],
+  "visual_review_scope": "rendered-page samples; all six chapter04 figures, new Hamiltonian/table, conclusion/table9.1, reference endpoints and acknowledgments; not exhaustive page-by-page review",
+  "external_literature_search": false,
+  "new_simulation": false,
+  "new_observational_fit": false,
+  "local_markdown_file_links": {
+    "checked": 529,
+    "missing": []
+  }
+}

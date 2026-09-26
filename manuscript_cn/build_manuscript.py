@@ -359,7 +359,7 @@ def main() -> None:
     tex = re.sub(r"(\\\))\\allowbreak\{\}(?=[。，、；：？！）》」』])", r"\1\\nobreak{}", tex)
     # A leading break penalty would become the first vertical item in a
     # top-aligned table minipage and lower an otherwise single-line math cell.
-    tex = re.sub(r"(\\raggedright\s*)\\allowbreak\{\}", r"\1", tex)
+    tex = re.sub(r"(\\(?:raggedright|raggedleft|centering)\s*)\\allowbreak\{\}", r"\1", tex)
     tex_path.write_text(tex)
     command = compiler()
     for pass_number in range(1, 4):
