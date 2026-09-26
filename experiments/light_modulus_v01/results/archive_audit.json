@@ -1,0 +1,531 @@
+{
+  "created_utc": "2026-09-26T12:24:33.266025+00:00",
+  "manifest_sha256": "487efe7a953dac087b0c71b27078b2c778a869cbeb3582ed64f34a5599e75014",
+  "audit_script_sha256": "55dc094ba75126af24b0df811bb7566bf736a410e1bb0f54c66fe605200dd901",
+  "baseline_git_commit": "fbfae9851ce0c38452d18d2ec8d70b1d840e6c6d",
+  "passed": 99,
+  "total": 99,
+  "checks": [
+    {
+      "name": "baseline_record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:README.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:WORK_PLAN.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:experiments/light_modulus_v01/README.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/code/audit_archive.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/code/plot_results.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/code/run_light_modulus.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/figures/light_modulus_diagnostics.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/figures/light_modulus_diagnostics.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/logs/main_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:experiments/light_modulus_v01/protocol.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:experiments/light_modulus_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/results/endpoint_scaling.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/results/local_transient.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/results/mode_profile.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/results/physical_valley.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/results/source_stress.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/light_modulus_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:experiments/threshold_rg_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_geometry_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:reports/light_modulus_geometry_20260926.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:reports/light_modulus_geometry_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_geometry_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_geometry_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_output_comparison_20260926.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_output_comparison_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:reports/light_modulus_output_comparison_20260926.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:reports/light_modulus_output_comparison_20260926.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_response_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:reports/light_modulus_response_20260926.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:reports/light_modulus_response_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_response_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_stationarity_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_links:reports/light_modulus_stationarity_20260926.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identity:reports/light_modulus_stationarity_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_stationarity_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_stationarity_20260926_initial_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "identity:reports/light_modulus_stationarity_20260926_initial_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory_complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_source:experiments/threshold_rg_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_source:experiments/light_modulus_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_source:experiments/light_modulus_v01/code/run_light_modulus.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_log_completion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_stationary_failure_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nonstationary_hessian_scope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "geometry_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "geometry_code_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "geometry_input:higgs_phase_operators_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "geometry_input:higgs_local_currents_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_code_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_input:higgs_finite_auxiliary_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_input:higgs_extra_gauge_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "response_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "response_code_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_initial_failure_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_initial_code_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_thresholds_and_step_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_amplitude_solver_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationarity_sample_metrics_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "table:endpoint_scaling.csv",
+      "passed": true,
+      "detail": {
+        "rows": 24,
+        "columns": 9,
+        "finite_numeric_or_explicit_undefined_cells": true
+      }
+    },
+    {
+      "name": "row_count_record:endpoint_scaling.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "table:mode_profile.csv",
+      "passed": true,
+      "detail": {
+        "rows": 128,
+        "columns": 4,
+        "finite_numeric_or_explicit_undefined_cells": true
+      }
+    },
+    {
+      "name": "row_count_record:mode_profile.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "table:physical_valley.csv",
+      "passed": true,
+      "detail": {
+        "rows": 101,
+        "columns": 13,
+        "finite_numeric_or_explicit_undefined_cells": true
+      }
+    },
+    {
+      "name": "row_count_record:physical_valley.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "table:source_stress.csv",
+      "passed": true,
+      "detail": {
+        "rows": 305,
+        "columns": 7,
+        "finite_numeric_or_explicit_undefined_cells": true
+      }
+    },
+    {
+      "name": "row_count_record:source_stress.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "table:local_transient.csv",
+      "passed": true,
+      "detail": {
+        "rows": 201,
+        "columns": 7,
+        "finite_numeric_or_explicit_undefined_cells": true
+      }
+    },
+    {
+      "name": "row_count_record:local_transient.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "table_total_coverage",
+      "passed": true,
+      "detail": {
+        "rows": 759,
+        "cells": 5583,
+        "numeric_cells": 5522,
+        "explicit_undefined_cells": 61
+      }
+    },
+    {
+      "name": "independent_comparison_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_full_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_code_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/threshold_rg_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/light_modulus_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/light_modulus_v01/code/run_light_modulus.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/light_modulus_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/light_modulus_v01/results/endpoint_scaling.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/light_modulus_v01/results/local_transient.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/light_modulus_v01/results/mode_profile.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/light_modulus_v01/results/physical_valley.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_input:experiments/light_modulus_v01/results/source_stress.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_scope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure:png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure:pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_scope_accurate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "transient_scope_restricted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rigid_branch_scope_recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "historical_files_and_manuscript_unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "untracked_files_within_authorized_stage",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "scope": "Archive identity, source scope, completeness and retained checks; not physical or empirical validation."
+}

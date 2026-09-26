@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-26",
+  "source_type": "primary_research",
+  "title": "Globally and locally supersymmetric effective theories for light fields",
+  "authors": [
+    "Leonardo Brizi",
+    "Marta Gomez-Reino",
+    "Claudio A. Scrucca"
+  ],
+  "arxiv": "0904.0370v2",
+  "url": "https://arxiv.org/abs/0904.0370v2",
+  "doi": "10.1016/j.nuclphysb.2009.05.015",
+  "read_scope": "Abstract only, arXiv landing page. No full-paper-read claim.",
+  "supports": "Algebraic elimination of heavy chiral and vector multiplets by superpotential and Kahler stationarity respectively applies at leading order with small derivatives, fermions and auxiliary fields relative to the heavy scale.",
+  "does_not_support": "The chain-specific null vector, complete nonlinear quotient metric, endpoint couplings, numerical benchmark or cosmological interpretation; those are independently derived here.",
+  "fetched_page_sha256": "9c5881e07cfd186a7b0ea685ab7646e9c93172b02d3143e436385ddf28d11c59",
+  "fetched_page_bytes": 44455,
+  "access_method": "Web abstract inspected; separate urllib landing-page fetch hashed for provenance.",
+  "human_read_attestation": false,
+  "review_scope": "Internal AI-assisted derivation and separate factor audit; no external peer review."
+}

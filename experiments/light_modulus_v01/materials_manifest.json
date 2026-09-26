@@ -1,0 +1,209 @@
+{
+  "created_utc": "2026-09-26T12:24:33.186202+00:00",
+  "stage": "light_modulus_v01",
+  "baseline_git_commit": "fbfae9851ce0c38452d18d2ec8d70b1d840e6c6d",
+  "material_type": "Conditional theoretical derivation and deterministic numerical consistency audit.",
+  "question": "Does retaining the original Higgs light modulus preserve a finite controlled stationary background?",
+  "input": "Original rank-n gauge chain, canonical paired Higgs fields, local endpoint norm currents and declared finite hidden source.",
+  "output": "Quotient geometry, physical light-endpoint couplings, conditional finite-F heavy valley, stationary obstruction, local Hessian and bounded local transient.",
+  "authorship": "AI-assisted internal derivations and independent implementations; no external peer review or new observations.",
+  "source_read_record": "reports/light_modulus_geometry_20260926_sources.json",
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.5"
+  },
+  "limitations": [
+    "The no-finite-interior-stationary-point result applies only on the stated rigid X=Za=0, no-clock-superpotential, positive-metric branch with nonzero Higgs pairs.",
+    "The algebraic large-field continuation can meet kinetic or EFT boundaries; it is not an established physical infinite runaway.",
+    "Zero-source quotient geometry and leading local Hessians do not replace all-order finite-F geometry or vacuum particle masses.",
+    "The fixed-source homogeneous Minkowski local transient is not cosmic time, an observational forecast, or a SUGRA lifetime.",
+    "No complete SUGRA embedding, new light-modulus stabilization, quantum correction, or other-X/Za-branch exclusion.",
+    "No derivation of 1/ln²t driving or real physical interactions from Riemann structure."
+  ],
+  "retained_failures": [
+    "Initial stationarity audit 1423/1435: 12 second-order finite-difference truncation errors; original code and JSON retained.",
+    "Fourth-order centered difference fixed the numerical check with the same step, samples and tolerances.",
+    "Absence of a finite internal stationary point is a retained physical failure, not a failed implementation test."
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 38878,
+      "sha256": "31ecbd988a340c48dde385bafda2155c9a4fc47ab473ef180cb41fa0b3cbd8f0"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "bytes": 59272,
+      "sha256": "fa560c9ae1c055a27bc195596483f6774bd2c56d4d5821478f45e6421dee9395"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "bytes": 53499,
+      "sha256": "c6a8d6a34ad53156751f50918a53a0dcbc936623fd4b5260f0a17287ed40b225"
+    },
+    {
+      "path": "experiments/light_modulus_v01/README.md",
+      "bytes": 2473,
+      "sha256": "554e91b3634c556d900311c41b422c9a12ebdb8fcef477d875c1260dd00a95d6"
+    },
+    {
+      "path": "experiments/light_modulus_v01/code/audit_archive.py",
+      "bytes": 14083,
+      "sha256": "55dc094ba75126af24b0df811bb7566bf736a410e1bb0f54c66fe605200dd901"
+    },
+    {
+      "path": "experiments/light_modulus_v01/code/plot_results.py",
+      "bytes": 3339,
+      "sha256": "cab4b81f589773ff6efd8a089d85bfce07e9360fbd330e21672793b25751ea46"
+    },
+    {
+      "path": "experiments/light_modulus_v01/code/run_light_modulus.py",
+      "bytes": 9602,
+      "sha256": "d60758c70fd3684505834f261219ecfc9c06fe1d5294495abedf7b3ac0b2b666"
+    },
+    {
+      "path": "experiments/light_modulus_v01/figures/light_modulus_diagnostics.pdf",
+      "bytes": 29899,
+      "sha256": "6dbc14cce50f2cad3f3ef6801061610a7c9c07a82012d72b8dab71595896683f"
+    },
+    {
+      "path": "experiments/light_modulus_v01/figures/light_modulus_diagnostics.png",
+      "bytes": 276153,
+      "sha256": "a1469f9df3310aafd1e5b64c5a0aeb9c26d34d33adf4c08d3fb97a19303ea3d0"
+    },
+    {
+      "path": "experiments/light_modulus_v01/logs/main_run.log",
+      "bytes": 1971,
+      "sha256": "d7f066d4264f509f27297ca960ffee70a5d89baa3e4ed09554a7f9d6530f8682"
+    },
+    {
+      "path": "experiments/light_modulus_v01/protocol.md",
+      "bytes": 3137,
+      "sha256": "f1df681c577b48cdec028e0f2bcc67830f5e643f445926a0715f9228aafdcd4f"
+    },
+    {
+      "path": "experiments/light_modulus_v01/reports/results_cn.md",
+      "bytes": 10231,
+      "sha256": "4fe280151272a2b5b557a2b4e3f85c17a2722aa637c1ac5064af1f5cf95ff321"
+    },
+    {
+      "path": "experiments/light_modulus_v01/results/endpoint_scaling.csv",
+      "bytes": 10304,
+      "sha256": "1477421a20a5cbab7d1db05a5fed303d6865ad3dbaf891b73e59eeba96964424"
+    },
+    {
+      "path": "experiments/light_modulus_v01/results/local_transient.csv",
+      "bytes": 26192,
+      "sha256": "fa14411a7d5fb3be6b83f96a351a1fdc9cd084b6b769195a213a63dc2097ed5b"
+    },
+    {
+      "path": "experiments/light_modulus_v01/results/mode_profile.csv",
+      "bytes": 22081,
+      "sha256": "a3d65fced55871f48e7adb469cd43c43b7c91f1e116baa7a2aac7e9101c5197c"
+    },
+    {
+      "path": "experiments/light_modulus_v01/results/physical_valley.csv",
+      "bytes": 71492,
+      "sha256": "9a56676894fffb5c374fccee9c285f6105f2cc254ac5dbdf6d4cc452f24c2c76"
+    },
+    {
+      "path": "experiments/light_modulus_v01/results/source_stress.csv",
+      "bytes": 87011,
+      "sha256": "57d271bd27f2fe35223e2022e29fd6ae41f8ee3294a5d7002f50cf97b50c81fe"
+    },
+    {
+      "path": "experiments/light_modulus_v01/results/summary.json",
+      "bytes": 53334,
+      "sha256": "ed68af4ab0e568ecdd58f982cc3acc21ca5049cc5f9213d24c19c4353dc55de1"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/inputs.json",
+      "bytes": 3239,
+      "sha256": "1da11be8fe0b52dd61321d9d5953fa0fad8a1526100ee1139635e3936705097b"
+    },
+    {
+      "path": "reports/light_modulus_geometry_20260926.md",
+      "bytes": 9049,
+      "sha256": "2c00b8ece98df1339218b9abf41a9e646acf02ed1a54f82457a827efe7658941"
+    },
+    {
+      "path": "reports/light_modulus_geometry_20260926_checks.json",
+      "bytes": 54847,
+      "sha256": "2dbb6059b777295a51354eceb2ba09e7fe8e58c9143a20d486a4592beb4d64e3"
+    },
+    {
+      "path": "reports/light_modulus_geometry_20260926_checks.py",
+      "bytes": 9036,
+      "sha256": "4108e0849e74e866b59b4c52d6f3cc4466315fd83bf2e48201bff48ecbd474dd"
+    },
+    {
+      "path": "reports/light_modulus_geometry_20260926_sources.json",
+      "bytes": 1249,
+      "sha256": "ac5609ac409e206a0dcfc27ad69a045f967a5b3032b32b27a123d3ccfff730af"
+    },
+    {
+      "path": "reports/light_modulus_output_comparison_20260926.json",
+      "bytes": 5253,
+      "sha256": "4d7de2a37e43600118c038e721e96a4a4487237f0ceb7e27dba481f8f60bc4f3"
+    },
+    {
+      "path": "reports/light_modulus_output_comparison_20260926.md",
+      "bytes": 4111,
+      "sha256": "cfd4cd6bd1fc70229343b2962afeb2810d8efe48071ea9c7f06292d5ecaa5470"
+    },
+    {
+      "path": "reports/light_modulus_output_comparison_20260926.py",
+      "bytes": 12180,
+      "sha256": "00a59699aa2f21bd9d1f6dccaf12ad257e35df188dd5ccde81b8b81f33e388a0"
+    },
+    {
+      "path": "reports/light_modulus_response_20260926.md",
+      "bytes": 9713,
+      "sha256": "d0e622abb8ad12adb4dac4176ff3d10c1f92b04f70c555e6cf50e9244c00f00a"
+    },
+    {
+      "path": "reports/light_modulus_response_20260926_checks.json",
+      "bytes": 10964,
+      "sha256": "1a3bb9db27149f2ed028f6c16be7e033331599e68f14675ca7345236c5e5d943"
+    },
+    {
+      "path": "reports/light_modulus_response_20260926_checks.py",
+      "bytes": 7312,
+      "sha256": "52059b516d4aae3ec82fe7296c6b6b418964a44a7a82cdbe6c763100c3a42613"
+    },
+    {
+      "path": "reports/light_modulus_stationarity_20260926.md",
+      "bytes": 10410,
+      "sha256": "f0c3ff28a13a69037312821c4fc4d6f017c62d86cd438f180217a0935b6dca80"
+    },
+    {
+      "path": "reports/light_modulus_stationarity_20260926_checks.json",
+      "bytes": 329253,
+      "sha256": "cd0937c4eb22a81aefb3f8ae686d9f448a6252d5559082f56142034478990632"
+    },
+    {
+      "path": "reports/light_modulus_stationarity_20260926_checks.py",
+      "bytes": 10829,
+      "sha256": "cadb02dadc702b968069d839a68dab2c7c055054b26e54deae081bc9be409093"
+    },
+    {
+      "path": "reports/light_modulus_stationarity_20260926_initial_checks.json",
+      "bytes": 330943,
+      "sha256": "ea882784b79b727ad364862c794d7ae5888aac071c93da4763f3a497aefa6f99"
+    },
+    {
+      "path": "reports/light_modulus_stationarity_20260926_initial_checks.py",
+      "bytes": 10580,
+      "sha256": "ab51535be0fedbd754eb633d6100c60bf6f0d0fa36401079cd5af76c1314a80d"
+    }
+  ],
+  "exclusions": [
+    "manifest/audit self-reference",
+    "Python caches",
+    "ignored fetched-page caches"
+  ]
+}

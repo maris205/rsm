@@ -1,0 +1,490 @@
+{
+  "scope": "Own analytic derivation and independent implementation, same model family; no external empirical data or external review.",
+  "versions": {
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "precision_decimal_digits": 100,
+  "numeric_comparison_tolerance": "1e-75 * max(1, abs(a), abs(b))",
+  "script_sha256": "52059b516d4aae3ec82fe7296c6b6b418964a44a7a82cdbe6c763100c3a42613",
+  "passed": 110,
+  "total": 110,
+  "checks": [
+    {
+      "name": "q2_n1: null direction",
+      "passed": true
+    },
+    {
+      "name": "q2_n1: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n1: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n1: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q2_n1: self matching",
+      "passed": true
+    },
+    {
+      "name": "q2_n1: current product",
+      "passed": true
+    },
+    {
+      "name": "q2_n1: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q2_n1: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q3_n1: null direction",
+      "passed": true
+    },
+    {
+      "name": "q3_n1: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n1: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n1: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q3_n1: self matching",
+      "passed": true
+    },
+    {
+      "name": "q3_n1: current product",
+      "passed": true
+    },
+    {
+      "name": "q3_n1: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q3_n1: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q5_n1: null direction",
+      "passed": true
+    },
+    {
+      "name": "q5_n1: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n1: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n1: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q5_n1: self matching",
+      "passed": true
+    },
+    {
+      "name": "q5_n1: current product",
+      "passed": true
+    },
+    {
+      "name": "q5_n1: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q5_n1: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q2_n2: null direction",
+      "passed": true
+    },
+    {
+      "name": "q2_n2: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n2: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n2: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q2_n2: self matching",
+      "passed": true
+    },
+    {
+      "name": "q2_n2: current product",
+      "passed": true
+    },
+    {
+      "name": "q2_n2: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q2_n2: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q3_n2: null direction",
+      "passed": true
+    },
+    {
+      "name": "q3_n2: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n2: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n2: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q3_n2: self matching",
+      "passed": true
+    },
+    {
+      "name": "q3_n2: current product",
+      "passed": true
+    },
+    {
+      "name": "q3_n2: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q3_n2: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q5_n2: null direction",
+      "passed": true
+    },
+    {
+      "name": "q5_n2: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n2: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n2: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q5_n2: self matching",
+      "passed": true
+    },
+    {
+      "name": "q5_n2: current product",
+      "passed": true
+    },
+    {
+      "name": "q5_n2: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q5_n2: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q2_n3: null direction",
+      "passed": true
+    },
+    {
+      "name": "q2_n3: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n3: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n3: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q2_n3: self matching",
+      "passed": true
+    },
+    {
+      "name": "q2_n3: current product",
+      "passed": true
+    },
+    {
+      "name": "q2_n3: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q2_n3: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q3_n3: null direction",
+      "passed": true
+    },
+    {
+      "name": "q3_n3: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n3: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n3: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q3_n3: self matching",
+      "passed": true
+    },
+    {
+      "name": "q3_n3: current product",
+      "passed": true
+    },
+    {
+      "name": "q3_n3: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q3_n3: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q5_n3: null direction",
+      "passed": true
+    },
+    {
+      "name": "q5_n3: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n3: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n3: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q5_n3: self matching",
+      "passed": true
+    },
+    {
+      "name": "q5_n3: current product",
+      "passed": true
+    },
+    {
+      "name": "q5_n3: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q5_n3: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q2_n5: null direction",
+      "passed": true
+    },
+    {
+      "name": "q2_n5: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n5: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n5: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q2_n5: self matching",
+      "passed": true
+    },
+    {
+      "name": "q2_n5: current product",
+      "passed": true
+    },
+    {
+      "name": "q2_n5: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q2_n5: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q3_n5: null direction",
+      "passed": true
+    },
+    {
+      "name": "q3_n5: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n5: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n5: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q3_n5: self matching",
+      "passed": true
+    },
+    {
+      "name": "q3_n5: current product",
+      "passed": true
+    },
+    {
+      "name": "q3_n5: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q3_n5: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "q5_n5: null direction",
+      "passed": true
+    },
+    {
+      "name": "q5_n5: exact projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n5: projector rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n5: cross matching",
+      "passed": true
+    },
+    {
+      "name": "q5_n5: self matching",
+      "passed": true
+    },
+    {
+      "name": "q5_n5: current product",
+      "passed": true
+    },
+    {
+      "name": "q5_n5: hidden current unsuppressed",
+      "passed": true
+    },
+    {
+      "name": "q5_n5: retained-coordinate completion",
+      "passed": true
+    },
+    {
+      "name": "hidden Schur mass includes light mixing",
+      "passed": true
+    },
+    {
+      "name": "nonzero light gradient",
+      "passed": true
+    },
+    {
+      "name": "ordinary clock Hessian",
+      "passed": true
+    },
+    {
+      "name": "covariant clock Hessian",
+      "passed": true
+    },
+    {
+      "name": "coordinate ordinary Hessian can vanish",
+      "passed": true
+    },
+    {
+      "name": "benchmark quartic normalization",
+      "passed": true
+    },
+    {
+      "name": "benchmark product identity",
+      "passed": true
+    },
+    {
+      "name": "benchmark betaX squared",
+      "passed": true
+    },
+    {
+      "name": "benchmark light gradient not tiny-overlap suppressed",
+      "passed": true
+    },
+    {
+      "name": "benchmark origin nonstationary",
+      "passed": true
+    },
+    {
+      "name": "D-flat metric canonical at origin",
+      "passed": true
+    },
+    {
+      "name": "target energy conservation",
+      "passed": true
+    },
+    {
+      "name": "target hidden metric positive",
+      "passed": true
+    },
+    {
+      "name": "energy integral positive finite",
+      "passed": true
+    }
+  ],
+  "benchmark": {
+    "q": 3,
+    "n": 127,
+    "Lambda_eV": "2000000000000.0",
+    "g": "1.0",
+    "m_gravitino_eV": "1.0e-15",
+    "S_eV4": "17787675000000000000000000.0",
+    "v_eV": "333333333333.333333333333333333333333333333333",
+    "u_left": "2.39896763795083577592918536348139271689575716e-61",
+    "u_right": "-0.942809041582063365867792482806465385713114584",
+    "tau": "6.78530513856844158301757218639372036967665404e-61",
+    "c_I_eV_minus2": "1.5e-24",
+    "c_X_eV_minus2": "4.5e-24",
+    "beta_I_eV_minus1": "2.39896763795083577592918536348139271689575716e-73",
+    "beta_X_eV_minus1": "-0.00000000000282842712474619009760337744841939615713934375",
+    "beta_X_times_Lambda": "-5.6568542494923801952067548968387923142786875",
+    "dV_dsigma_eV3": "50311142456169.6869443871569548134825394435764",
+    "ordinary_clock_Hessian_eV2": "1.20694802580685404135202093340610919976688177e-59",
+    "covariant_clock_Hessian_eV2": "6.03474012903427020676010466703054599883440886e-60",
+    "local_hidden_Hessian_eV2": "88.938375",
+    "sqrt_local_hidden_Hessian_eV_NOT_vacuum_mass": "9.43071444801506011541151124847014305237816435",
+    "local_saxion_Hessian_eV2": "284.6028",
+    "source_over_v4": "1.440801675e-21"
+  },
+  "conditional_transient": {
+    "scope": "Fixed-source homogeneous Minkowski D-flat truncation, initially at rest; not a cosmological solution or SUGRA lifetime.",
+    "b": "0.942809041582063365867792482806465385713114584",
+    "relative_hidden_metric_change": "0.1",
+    "r_target": "0.106066017177982128660126654315727355892725391",
+    "dimensionless_time_energy_quadrature": "0.481912635619280372022095631807934575149913369",
+    "time_unit_seconds": "5.20217454483292746935284581474937688107259282e-17",
+    "target_time_seconds": "2.50699364585196629896772300574768103553028154e-17",
+    "B_target": "0.995533103709677522611050689234710826233250018",
+    "dimensionless_rprime_target": "0.427356980644649745892731937659855299101417476"
+  }
+}

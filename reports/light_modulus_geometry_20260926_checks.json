@@ -1,0 +1,2294 @@
+{
+  "stage": "light_modulus_v01_independent_geometry",
+  "date": "2026-09-26",
+  "baseline_commit": "fbfae9851ce0c38452d18d2ec8d70b1d840e6c6d",
+  "scope": "Rigid classical canonical K, exact product constraint and D-flat quotient; leading two-derivative/auxiliary expansion. No finite-F heavy relaxation, supergravity, loop matching, cosmological time, or observational inference.",
+  "implementation_independent": true,
+  "environment": {
+    "python": "3.12.3",
+    "mpmath": "1.3.0",
+    "sympy": "1.14.0"
+  },
+  "source_hashes": {
+    "higgs_phase_operators_20260926.md": "43b4b1588355df0f05a0c6e162a84fab58669102be4a8f747004de0416b8177b",
+    "higgs_local_currents_20260926.md": "dae3202c809797c3640e3c6c155610c08234ab1a2d54459f2e67875f4924ccb7"
+  },
+  "script_sha256": "4108e0849e74e866b59b4c52d6f3cc4466315fd83bf2e48201bff48ecbd474dd",
+  "checks_total": 507,
+  "checks_passed": 507,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "name": "exact_q2_n1_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n1_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n2_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n4_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q2_n6_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n1_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n2_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n4_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q3_n6_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n1_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n2_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n4_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_primitive",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_one_complex_modulus",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_projector",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_heavy_light_completeness",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_opposite_endpoint_residues",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_right_weights_ratio",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_weighted_source_kernel",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_source_kernel_has_one_null",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_global_gravity_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_global_gauge_squared_anomaly",
+      "passed": true
+    },
+    {
+      "name": "exact_q5_n6_global_cubed_anomaly",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-100_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_-1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_0.1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_10_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q2_n1_v0.7_zoverv2_100_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "canonical_q2_n1_radial",
+      "passed": true
+    },
+    {
+      "name": "canonical_q2_n1_angle",
+      "passed": true
+    },
+    {
+      "name": "canonical_q2_n1_complex",
+      "passed": true
+    },
+    {
+      "name": "phase_q2_n1_a0_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q2_n1_a0_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q2_n1_a1_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q2_n1_a1_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-100_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_-1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_0.1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_10_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n2_v1.0_zoverv2_100_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "canonical_q3_n2_radial",
+      "passed": true
+    },
+    {
+      "name": "canonical_q3_n2_angle",
+      "passed": true
+    },
+    {
+      "name": "canonical_q3_n2_complex",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n2_a0_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n2_a0_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n2_a1_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n2_a1_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n2_a2_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n2_a2_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-100_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_-1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_0.1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_10_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q3_n4_v2.3_zoverv2_100_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "canonical_q3_n4_radial",
+      "passed": true
+    },
+    {
+      "name": "canonical_q3_n4_angle",
+      "passed": true
+    },
+    {
+      "name": "canonical_q3_n4_complex",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a0_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a0_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a1_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a1_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a2_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a2_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a3_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a3_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a4_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q3_n4_a4_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-100_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_-1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_0.1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_1_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_10_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_products",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_Dflat",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_difference_coordinate",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_component_radial_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_holomorphic_R_derivative",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_Kahler_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_positive_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_gauge_projected_angular_metric",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_horizontal_velocity",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_complex_radial_agreement",
+      "passed": true
+    },
+    {
+      "name": "metric_q5_n8_v1.3_zoverv2_100_complex_angular_agreement",
+      "passed": true
+    },
+    {
+      "name": "canonical_q5_n8_radial",
+      "passed": true
+    },
+    {
+      "name": "canonical_q5_n8_angle",
+      "passed": true
+    },
+    {
+      "name": "canonical_q5_n8_complex",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a0_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a0_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a1_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a1_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a2_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a2_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a3_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a3_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a4_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a4_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a5_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a5_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a6_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a6_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a7_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a7_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a8_product_invariant",
+      "passed": true
+    },
+    {
+      "name": "phase_q5_n8_a8_norm_invariant",
+      "passed": true
+    },
+    {
+      "name": "benchmark_nonzero_u0",
+      "passed": true
+    },
+    {
+      "name": "benchmark_site_normalization",
+      "passed": true
+    },
+    {
+      "name": "benchmark_right_un_suppressed",
+      "passed": true
+    },
+    {
+      "name": "benchmark_right_light_heavy_ratio",
+      "passed": true
+    },
+    {
+      "name": "benchmark_equal_source_light_ratio",
+      "passed": true
+    }
+  ],
+  "benchmark": {
+    "q": 3,
+    "n": 127,
+    "W_exact": "17376056547143091595617473348707662889277356351066142248950603053754509078720804492625221144263701190226458192568612429440",
+    "u0": "2.3989676379508357759291853634813927168957571604647248767879148586e-61",
+    "un": "-0.94280904158206336586779248280646538571311458358463204878445315866",
+    "left_over_right_light_coupling_equal_c": "-2.5444894269631655936315895698976451386287452663498648762053358072e-61",
+    "left_over_right_light_coupling_cX_eq_qcI": "-8.4816314232105519787719652329921504620958175544995495873511193572e-62",
+    "tau_local_equal_c": "2.2617683795228138610058573954645734565588846811998798899602984953e-61",
+    "tau_old_site_cX_eq_qcI": "6.7853051385684415830175721863937203696766540435996396698808954858e-61",
+    "right_light_to_heavy_squared_weight": "8.0",
+    "left_light_squared_weight": "5.7550457279354122790158872543187415553132079849376953288310122424e-122",
+    "right_light_squared_weight": "0.88888888888888888888888888888888888888888888888888888888888888889",
+    "phase_f_over_v": "4.7979352759016715518583707269627854337915143209294497535758297172e-61",
+    "phase_period_note": "For primitive w and integer gauge charges, theta period is 2pi/sqrt(W); a=2v theta at the origin. This alone is not a scattering cutoff."
+  },
+  "numeric_examples": [
+    {
+      "q": 2,
+      "n": 1,
+      "v": "0.7",
+      "z_over_v2": "-100",
+      "h_v2": "0.013409707196285620590807622031832436",
+      "K_CbarC": "37.286421894319655072462789265779493"
+    },
+    {
+      "q": 2,
+      "n": 1,
+      "v": "0.7",
+      "z_over_v2": "-1",
+      "h_v2": "0.46273837896496406024008498549121144",
+      "K_CbarC": "1.0805241638231549830294940813667345"
+    },
+    {
+      "q": 2,
+      "n": 1,
+      "v": "0.7",
+      "z_over_v2": "0",
+      "h_v2": "0.5",
+      "K_CbarC": "1.0"
+    },
+    {
+      "q": 2,
+      "n": 1,
+      "v": "0.7",
+      "z_over_v2": "0.1",
+      "h_v2": "0.49957560837284231397997941716616382",
+      "K_CbarC": "1.0008495042993391199982666972686772"
+    },
+    {
+      "q": 2,
+      "n": 1,
+      "v": "0.7",
+      "z_over_v2": "1",
+      "h_v2": "0.46273837896496406024008498549121144",
+      "K_CbarC": "1.0805241638231549830294940813667345"
+    },
+    {
+      "q": 2,
+      "n": 1,
+      "v": "0.7",
+      "z_over_v2": "10",
+      "h_v2": "0.12811198514078325414306039541134597",
+      "K_CbarC": "3.9028354720328946730646778053765656"
+    },
+    {
+      "q": 2,
+      "n": 1,
+      "v": "0.7",
+      "z_over_v2": "100",
+      "h_v2": "0.013409707196285620590807622031832436",
+      "K_CbarC": "37.286421894319655072462789265779493"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "v": "1.0",
+      "z_over_v2": "-100",
+      "h_v2": "0.013600670112889417923533670483198791",
+      "K_CbarC": "36.762894464012305480050063092148379"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "v": "1.0",
+      "z_over_v2": "-1",
+      "h_v2": "0.4568543753092552089198459804831501",
+      "K_CbarC": "1.0944406511627223177501584261473716"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "v": "1.0",
+      "z_over_v2": "0",
+      "h_v2": "0.5",
+      "K_CbarC": "1.0"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "v": "1.0",
+      "z_over_v2": "0.1",
+      "h_v2": "0.49949945242063963162320834090291058",
+      "K_CbarC": "1.0010020983545320207760529968453633"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "v": "1.0",
+      "z_over_v2": "1",
+      "h_v2": "0.4568543753092552089198459804831501",
+      "K_CbarC": "1.0944406511627223177501584261473716"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "v": "1.0",
+      "z_over_v2": "10",
+      "h_v2": "0.12369796661135018254964394030272306",
+      "K_CbarC": "4.0421036311046473249171714751863518"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "v": "1.0",
+      "z_over_v2": "100",
+      "h_v2": "0.013600670112889417923533670483198791",
+      "K_CbarC": "36.762894464012305480050063092148379"
+    },
+    {
+      "q": 3,
+      "n": 4,
+      "v": "2.3",
+      "z_over_v2": "-100",
+      "h_v2": "0.01395297599006762004299324658110377",
+      "K_CbarC": "35.83464920716006044528167551171303"
+    },
+    {
+      "q": 3,
+      "n": 4,
+      "v": "2.3",
+      "z_over_v2": "-1",
+      "h_v2": "0.45696311800997746592296498528240545",
+      "K_CbarC": "1.0941802090668570198491439978023781"
+    },
+    {
+      "q": 3,
+      "n": 4,
+      "v": "2.3",
+      "z_over_v2": "0",
+      "h_v2": "0.5",
+      "K_CbarC": "1.0"
+    },
+    {
+      "q": 3,
+      "n": 4,
+      "v": "2.3",
+      "z_over_v2": "0.1",
+      "h_v2": "0.49950080576078796813054625182166641",
+      "K_CbarC": "1.0009993862541456981871823905248061"
+    },
+    {
+      "q": 3,
+      "n": 4,
+      "v": "2.3",
+      "z_over_v2": "1",
+      "h_v2": "0.45696311800997746592296498528240545",
+      "K_CbarC": "1.0941802090668570198491439978023781"
+    },
+    {
+      "q": 3,
+      "n": 4,
+      "v": "2.3",
+      "z_over_v2": "10",
+      "h_v2": "0.12427190344851985160564090746066628",
+      "K_CbarC": "4.0234355966642698248476038486532306"
+    },
+    {
+      "q": 3,
+      "n": 4,
+      "v": "2.3",
+      "z_over_v2": "100",
+      "h_v2": "0.01395297599006762004299324658110377",
+      "K_CbarC": "35.83464920716006044528167551171303"
+    },
+    {
+      "q": 5,
+      "n": 8,
+      "v": "1.3",
+      "z_over_v2": "-100",
+      "h_v2": "0.012124351964381595242934506556756179",
+      "K_CbarC": "41.239317488380302898353592660387759"
+    },
+    {
+      "q": 5,
+      "n": 8,
+      "v": "1.3",
+      "z_over_v2": "-1",
+      "h_v2": "0.45096107550217750724664429048668442",
+      "K_CbarC": "1.1087431425056234233070229622093153"
+    },
+    {
+      "q": 5,
+      "n": 8,
+      "v": "1.3",
+      "z_over_v2": "0",
+      "h_v2": "0.5",
+      "K_CbarC": "1.0"
+    },
+    {
+      "q": 5,
+      "n": 8,
+      "v": "1.3",
+      "z_over_v2": "0.1",
+      "h_v2": "0.49942411172017593523447745816412171",
+      "K_CbarC": "1.0011531046785877474890221294389919"
+    },
+    {
+      "q": 5,
+      "n": 8,
+      "v": "1.3",
+      "z_over_v2": "1",
+      "h_v2": "0.45096107550217750724664429048668442",
+      "K_CbarC": "1.1087431425056234233070229622093153"
+    },
+    {
+      "q": 5,
+      "n": 8,
+      "v": "1.3",
+      "z_over_v2": "10",
+      "h_v2": "0.11049992803564720678193487008161413",
+      "K_CbarC": "4.5248898247128298287487456736732391"
+    },
+    {
+      "q": 5,
+      "n": 8,
+      "v": "1.3",
+      "z_over_v2": "100",
+      "h_v2": "0.012124351964381595242934506556756179",
+      "K_CbarC": "41.239317488380302898353592660387759"
+    }
+  ],
+  "initial_failures": [],
+  "verification_limit": "These are internal algebra/implementation checks, not empirical support or external peer review."
+}

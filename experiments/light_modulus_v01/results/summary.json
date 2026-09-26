@@ -1,0 +1,2807 @@
+{
+  "scope": "Conditional rigid light-modulus geometry and finite-F stationary obstruction; no new cosmic solution.",
+  "source_hashes": {
+    "experiments/threshold_rg_v01/results/inputs.json": "1da11be8fe0b52dd61321d9d5953fa0fad8a1526100ee1139635e3936705097b",
+    "experiments/light_modulus_v01/protocol.md": "f1df681c577b48cdec028e0f2bcc67830f5e643f445926a0715f9228aafdcd4f",
+    "experiments/light_modulus_v01/code/run_light_modulus.py": "d60758c70fd3684505834f261219ecfc9c06fe1d5294495abedf7b3ac0b2b666"
+  },
+  "precision_digits": 110,
+  "benchmark": {
+    "q": 3,
+    "n": 127,
+    "g": "1.0",
+    "Lambda_eV": "2000000000000.0",
+    "v_eV": "333333333333.333333333333333333333333333333333333333333333333",
+    "mg_eV": "0.000000000000001",
+    "S_eV4": "17787675000000000000000000.0",
+    "cI_eVminus2": "1.5e-24",
+    "cX_eVminus2": "4.5e-24",
+    "u_left": "2.39896763795083577592918536348139271689575716046472487678791e-61",
+    "u_right": "-0.942809041582063365867792482806465385713114583584632048784453",
+    "betaI_eVminus1": "2.39896763795083577592918536348139271689575716046472487678791e-73",
+    "betaX_eVminus1": "-0.00000000000282842712474619009760337744841939615713934375075389614635336",
+    "tau": "6.7853051385684415830175721863937203696766540435996396698809e-61",
+    "h": "0.0138888888888888888888888888888888888888888888888888888888889",
+    "kappa": "5.00278359375e-24",
+    "b": "0.942809041582063365867792482806465385713114583584632048784453",
+    "leading_sigma_force_at_origin_eV3": "50311142456169.686944387156954813482539443576351691309635086",
+    "leading_sigma_Hessian_eV2": "284.6028",
+    "leading_clock_partial_Hessian_eV2": "1.20694802580685404135202093340610919976688177214986220564949e-59",
+    "leading_clock_covariant_Hessian_eV2": "6.03474012903427020676010466703054599883440886074931102824743e-60",
+    "leading_X_partial_Hessian_eV2": "88.938375",
+    "hessian_scope": "Leading local entries at a nonstationary origin; not vacuum particle masses or full rolling stability.",
+    "transient_time_unit_seconds": 5.2021745448329274e-17,
+    "transient_event_s": 0.48191263561928055,
+    "transient_energy_quadrature_s": 0.48191263561928044,
+    "transient_event_seconds": 2.5069936458519673e-17,
+    "transient_event_r": 0.10606601717798214,
+    "max_transient_energy_error": 2.220446049250313e-16,
+    "max_finiteF_force_relative_error": "1.00055671874999999999998248050941987408447265662562665733619e-23",
+    "max_finiteF_kinetic_relative_error": "3.5403790111623009264810767336213453210616823069545979239026e-25"
+  },
+  "row_counts": {
+    "endpoint_scaling": 24,
+    "mode_profile": 128,
+    "physical_valley": 101,
+    "source_stress": 305,
+    "local_transient": 201
+  },
+  "check_count": 549,
+  "checks_passed": 549,
+  "checks": [
+    {
+      "name": "normalized_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "heavy_source_orthogonal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_pseudoinverse_diagonal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_product_cross_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_2_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_2_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_2_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_2_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_2_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_2_127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_2_128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_3_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_3_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_3_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_3_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_3_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_3_127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_3_128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_5_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_5_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_5_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_5_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_5_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_5_127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "endpoint_tau_5_128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rational_projector_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_source_no_stationarity_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rational_projector_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_source_no_stationarity_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rational_projector_2_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_source_no_stationarity_2_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rational_projector_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_source_no_stationarity_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rational_projector_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_source_no_stationarity_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rational_projector_3_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_source_no_stationarity_3_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_37",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_37",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_48",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_48",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_57",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_57",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_61",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_61",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_62",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_62",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_63",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_63",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_66",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_66",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_67",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_67",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_68",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_68",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_69",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_69",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_70",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_70",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_71",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_71",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_72",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_72",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_73",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_73",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_74",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_74",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_76",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_76",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_77",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_77",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_78",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_78",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_79",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_79",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_81",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_81",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_82",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_82",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_83",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_83",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_84",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_84",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_86",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_86",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_87",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_87",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_88",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_88",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_89",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_89",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_90",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_90",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_91",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_91",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_92",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_92",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_93",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_93",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_94",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_94",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_96",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_96",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_97",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_97",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_98",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_98",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_monotonic_100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_heavy_shift_100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_37",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_48",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_57",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0_60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_37",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_48",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_57",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-6_60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_37",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_48",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_57",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1e-3_60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_37",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_48",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_57",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_0.1_60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_37",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_48",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_57",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stress_root_1_60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "transient_energy_quadrature",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "transient_energy_conservation",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    }
+  ],
+  "retained_physical_failure": "No finite interior stationary point for S>0,cX!=0 on specified X=Za=0 branch.",
+  "exclusions": [
+    "all field branches",
+    "SUGRA stabilization",
+    "loop effects",
+    "large-field UV completion",
+    "cosmic lifetime prediction",
+    "Riemann derivation of physical interactions or inverse-log exponent"
+  ]
+}

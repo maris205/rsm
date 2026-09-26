@@ -1,0 +1,162 @@
+{
+  "scope": "Internal independent implementation after reading protocol/schema/main code; same-model-family review, not blind or external peer review.",
+  "independent_methods": [
+    "closed geometric null mode",
+    "hyperbolic Green-function derivative for H^-2 and (QQ^T)^+",
+    "Cardano cubic branch",
+    "dimensionless Higgs-current kinetic reconstruction",
+    "energy quadrature plus scalar inversion for every transient row, no ODE integration"
+  ],
+  "versions": {
+    "python": "3.12.3",
+    "mpmath": "1.3.0",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "precision_decimal_digits": 200,
+  "tolerances": {
+    "analytic_numeric": "2e-54 * max(abs(expected),1e-200); exact-zero absolute 1e-90",
+    "transient": "5e-12 * abs(expected); exact-zero absolute 1e-13",
+    "undefined": "exact string comparison"
+  },
+  "input_hashes": {
+    "experiments/threshold_rg_v01/results/inputs.json": "1da11be8fe0b52dd61321d9d5953fa0fad8a1526100ee1139635e3936705097b",
+    "experiments/light_modulus_v01/protocol.md": "f1df681c577b48cdec028e0f2bcc67830f5e643f445926a0715f9228aafdcd4f",
+    "experiments/light_modulus_v01/code/run_light_modulus.py": "d60758c70fd3684505834f261219ecfc9c06fe1d5294495abedf7b3ac0b2b666",
+    "experiments/light_modulus_v01/results/summary.json": "ed68af4ab0e568ecdd58f982cc3acc21ca5049cc5f9213d24c19c4353dc55de1",
+    "experiments/light_modulus_v01/results/endpoint_scaling.csv": "1477421a20a5cbab7d1db05a5fed303d6865ad3dbaf891b73e59eeba96964424",
+    "experiments/light_modulus_v01/results/local_transient.csv": "fa14411a7d5fb3be6b83f96a351a1fdc9cd084b6b769195a213a63dc2097ed5b",
+    "experiments/light_modulus_v01/results/mode_profile.csv": "a3d65fced55871f48e7adb469cd43c43b7c91f1e116baa7a2aac7e9101c5197c",
+    "experiments/light_modulus_v01/results/physical_valley.csv": "9a56676894fffb5c374fccee9c285f6105f2cc254ac5dbdf6d4cc452f24c2c76",
+    "experiments/light_modulus_v01/results/source_stress.csv": "57d271bd27f2fe35223e2022e29fd6ae41f8ee3294a5d7002f50cf97b50c81fe"
+  },
+  "script_sha256": "00a59699aa2f21bd9d1f6dccaf12ad257e35df188dd5ccde81b8b81f33e388a0",
+  "csv_rows_compared": 759,
+  "csv_cells_compared": 5583,
+  "csv_numeric_cells": 5522,
+  "csv_text_cells": 61,
+  "summary_numeric_cells_compared": 30,
+  "passed": 12,
+  "total": 12,
+  "checks": [
+    {
+      "name": "closed Green derivative is orthogonal to null mode",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all cells: endpoint_scaling.csv",
+      "passed": true,
+      "detail": {
+        "rows": 24,
+        "cells_compared": 216,
+        "numeric_cells": 216,
+        "text_cells": 0,
+        "failures": [],
+        "max_residual_over_tolerance": "2.26171855533e-6",
+        "worst_cell": [
+          12,
+          "betaI_times_Lambda"
+        ]
+      }
+    },
+    {
+      "name": "all cells: mode_profile.csv",
+      "passed": true,
+      "detail": {
+        "rows": 128,
+        "cells_compared": 512,
+        "numeric_cells": 512,
+        "text_cells": 0,
+        "failures": [],
+        "max_residual_over_tolerance": "2.3488113026e-6",
+        "worst_cell": [
+          104,
+          "u"
+        ]
+      }
+    },
+    {
+      "name": "all cells: physical_valley.csv",
+      "passed": true,
+      "detail": {
+        "rows": 101,
+        "cells_compared": 1313,
+        "numeric_cells": 1313,
+        "text_cells": 0,
+        "failures": [],
+        "max_residual_over_tolerance": "2.42659869675e-6",
+        "worst_cell": [
+          4,
+          "kahler_metric_C"
+        ]
+      }
+    },
+    {
+      "name": "all cells: source_stress.csv",
+      "passed": true,
+      "detail": {
+        "rows": 305,
+        "cells_compared": 2135,
+        "numeric_cells": 2074,
+        "text_cells": 61,
+        "failures": [],
+        "max_residual_over_tolerance": "2.30552401079e-6",
+        "worst_cell": [
+          227,
+          "t"
+        ]
+      }
+    },
+    {
+      "name": "all cells: local_transient.csv",
+      "passed": true,
+      "detail": {
+        "rows": 201,
+        "cells_compared": 1407,
+        "numeric_cells": 1407,
+        "text_cells": 0,
+        "failures": [],
+        "max_residual_over_tolerance": "0.0112293486104",
+        "worst_cell": [
+          7,
+          "hidden_metric_change"
+        ]
+      }
+    },
+    {
+      "name": "all numeric summary benchmark values",
+      "passed": true,
+      "detail": {
+        "cells_compared": 30,
+        "failures": []
+      }
+    },
+    {
+      "name": "summary benchmark numeric schema complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "summary row counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main check record aggregation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "summary source hashes current",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scope statements retain nonstationarity and cosmology exclusion",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "event_seconds_independent": "0.000000000000000025069936458519666526006467210435109487759274367676503766531093598649512712419784586201086197402790436042303599762194686432650897737504938521493760881209183963565166330941943422129782166806881149604398"
+}
