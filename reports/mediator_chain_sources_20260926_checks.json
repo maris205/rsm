@@ -1,0 +1,185 @@
+{
+  "scope": "Own exact algebra and illustrative hierarchy bookkeeping only; no all-order protection or full mediator matching computed",
+  "precision_digits": 100,
+  "passed": 38,
+  "total": 38,
+  "failures": [],
+  "checks": [
+    {
+      "name": "n2_determinant",
+      "passed": true
+    },
+    {
+      "name": "n2_endpoint_self",
+      "passed": true
+    },
+    {
+      "name": "n2_endpoint_cross",
+      "passed": true
+    },
+    {
+      "name": "n2_reflection",
+      "passed": true
+    },
+    {
+      "name": "n2_local_square_decomposition",
+      "passed": true
+    },
+    {
+      "name": "n2_unpinned_zero_mode",
+      "passed": true
+    },
+    {
+      "name": "n3_determinant",
+      "passed": true
+    },
+    {
+      "name": "n3_endpoint_self",
+      "passed": true
+    },
+    {
+      "name": "n3_endpoint_cross",
+      "passed": true
+    },
+    {
+      "name": "n3_reflection",
+      "passed": true
+    },
+    {
+      "name": "n3_local_square_decomposition",
+      "passed": true
+    },
+    {
+      "name": "n3_unpinned_zero_mode",
+      "passed": true
+    },
+    {
+      "name": "n4_determinant",
+      "passed": true
+    },
+    {
+      "name": "n4_endpoint_self",
+      "passed": true
+    },
+    {
+      "name": "n4_endpoint_cross",
+      "passed": true
+    },
+    {
+      "name": "n4_reflection",
+      "passed": true
+    },
+    {
+      "name": "n4_local_square_decomposition",
+      "passed": true
+    },
+    {
+      "name": "n4_unpinned_zero_mode",
+      "passed": true
+    },
+    {
+      "name": "n5_determinant",
+      "passed": true
+    },
+    {
+      "name": "n5_endpoint_self",
+      "passed": true
+    },
+    {
+      "name": "n5_endpoint_cross",
+      "passed": true
+    },
+    {
+      "name": "n5_reflection",
+      "passed": true
+    },
+    {
+      "name": "n5_local_square_decomposition",
+      "passed": true
+    },
+    {
+      "name": "n5_unpinned_zero_mode",
+      "passed": true
+    },
+    {
+      "name": "complete_square_retains_self",
+      "passed": true
+    },
+    {
+      "name": "bypass_has_mixed_nonholomorphic_curvature",
+      "passed": true
+    },
+    {
+      "name": "q2_target_bracket",
+      "passed": true
+    },
+    {
+      "name": "q2_order_one_endpoint_ratio",
+      "passed": true
+    },
+    {
+      "name": "q2_positive_spectral_gap",
+      "passed": true
+    },
+    {
+      "name": "q2_self_exceeds_rank_one",
+      "passed": true
+    },
+    {
+      "name": "q3_target_bracket",
+      "passed": true
+    },
+    {
+      "name": "q3_order_one_endpoint_ratio",
+      "passed": true
+    },
+    {
+      "name": "q3_positive_spectral_gap",
+      "passed": true
+    },
+    {
+      "name": "q3_self_exceeds_rank_one",
+      "passed": true
+    },
+    {
+      "name": "q4_target_bracket",
+      "passed": true
+    },
+    {
+      "name": "q4_order_one_endpoint_ratio",
+      "passed": true
+    },
+    {
+      "name": "q4_positive_spectral_gap",
+      "passed": true
+    },
+    {
+      "name": "q4_self_exceeds_rank_one",
+      "passed": true
+    }
+  ],
+  "target_tau": "2.9251519294813043e-61",
+  "illustrative_cases": [
+    {
+      "q": 2,
+      "n": 202,
+      "tau_equal_endpoint_couplings": "2.3336307291979281401790240201675466e-61",
+      "target_gX_over_g0": "1.2534767788589597255011344715021758",
+      "uniform_q_plus_one_percent_tau_ratio": "0.13622191526539636905697051686009221"
+    },
+    {
+      "q": 3,
+      "n": 128,
+      "tau_equal_endpoint_couplings": "2.2617683795228138610058573954645735e-61",
+      "target_gX_over_g0": "1.2933030437442275083860181301506955",
+      "uniform_q_plus_one_percent_tau_ratio": "0.28330476498159797686074626670903893"
+    },
+    {
+      "q": 4,
+      "n": 102,
+      "tau_equal_endpoint_couplings": "1.4585192057487050876118900126047166e-61",
+      "target_gX_over_g0": "2.0055628461743355608018151544034812",
+      "uniform_q_plus_one_percent_tau_ratio": "0.36653154827711084250103793477638629"
+    }
+  ]
+}

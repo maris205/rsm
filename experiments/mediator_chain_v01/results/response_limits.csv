@@ -1,0 +1,7 @@
+q,n,Lambda_eV,mG_static_10percent_eV,mG_once_rematched_10percent_eV,MQ_over_min_mass,interpretation
+2.0,202,1000000000000.0,8.38206094121594e-15,1.0560735021339626e-14,0.19995211791936685,Selected static force only; not a fully matched cosmological bound.
+3.0,128,1000000000000.0,8.870461570498505e-15,1.1176081254954586e-14,0.14996665148211225,Selected static force only; not a fully matched cosmological bound.
+5.0,88,1000000000000.0,9.100965552883455e-15,1.1466498074445984e-14,0.12497567359773779,Selected static force only; not a fully matched cosmological bound.
+2.0,200,2000000000000.0,2.112147004267917e-14,2.6611384711495524e-14,0.09997558033584385,Selected static force only; not a fully matched cosmological bound.
+3.0,127,2000000000000.0,2.2352162509909175e-14,2.8161960056905555e-14,0.07498306428975472,Selected static force only; not a fully matched cosmological bound.
+5.0,87,2000000000000.0,2.293299614889197e-14,2.889376458514713e-14,0.06248755890433997,Selected static force only; not a fully matched cosmological bound.

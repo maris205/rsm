@@ -1,0 +1,879 @@
+{
+  "created_utc": "2026-09-26T05:02:10.260154+00:00",
+  "numpy": "2.4.4",
+  "scipy": "1.16.1",
+  "checks_passed": 124,
+  "check_count": 124,
+  "checks": [
+    {
+      "name": "inverse_2.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_2.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_2.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_2.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_2.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_2.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_2.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_2.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_2.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_2.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_2.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_2.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_2.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_2.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_2.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_3.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_3.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_3.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_3.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_3.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_3.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_3.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_3.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_3.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_3.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_3.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_3.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_3.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_3.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_3.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_5.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_5.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_5.0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_5.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_5.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_5.0_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_5.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_5.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_5.0_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_5.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_5.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_5.0_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inverse_5.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spectrum_5.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "self_response_5.0_12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_1000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_1000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_1000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_1000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_1000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_1000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_1000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_1000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_1000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_1000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_1000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_1000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_1000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_1000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_1000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_1000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_1000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_1000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_1000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_1000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_1000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_1000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_1000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_1000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_1000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_1000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_1000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_1000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_1000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_1000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_1000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_1000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_1000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_1000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_1000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_1000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_2000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_2000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_2000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_2000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_2000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_2000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_2000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_2000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_2000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_2000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_2.0_2000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_2.0_2000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_2000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_2000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_2000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_2000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_2000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_2000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_2000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_2000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_2000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_2000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_3.0_2000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_3.0_2000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_2000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_2000000000000.0_1e-06_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_2000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_2000000000000.0_1e-06_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_2000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_2000000000000.0_1e-14_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_2000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_2000000000000.0_1e-14_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_2000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_2000000000000.0_1e-15_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cubic_5.0_2000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_5.0_2000000000000.0_1e-15_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matching_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scan_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "representative_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_scale_response_failure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "oneTeV_gap_failure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "twoTeV_low_mass_selected_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rematch_branch_finite_bound",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "representatives": [
+    {
+      "q": 3.0,
+      "n": 128,
+      "Lambda_eV": 1000000000000.0,
+      "G00": 0.1111111111111111,
+      "tau": 2.2617683795227874e-61,
+      "zeta": 1.0,
+      "h2": 0.013888888888888885,
+      "M_eV": 333333333333.3333,
+      "min_mass_eV": 666814915260.8627,
+      "max_mass_eV": 1333259198733.6409,
+      "condition_H": 3.9977770126127363,
+      "mG_eV": 1e-06,
+      "phase": "zero",
+      "rH": 3.0928559391769443,
+      "hidden_self_mass_leading_eV": 8435087432.860433,
+      "clockoff_my2_leading_eV2": 5.6863099746439265e-42,
+      "max_x": 8.003172683279093e-05,
+      "max_static_force_ratio": 1.4323761329527826e+23,
+      "max_once_rematched_force_ratio": 7.162453773639633e+22,
+      "alpha_delta": 4.00206671602916e-05,
+      "max_abs_static_dVchi_eV4": 2052186426.3646264,
+      "max_abs_static_dVy_eV4": 0.0,
+      "FX_over_min_mass2": 0.009485254366048902,
+      "MQ_over_min_mass": 0.14996665148211225,
+      "max_mass_over_KK": 0.013332591987336408,
+      "gap_conditions_pass": false,
+      "static_response_and_gap_conditions_pass": false,
+      "once_rematched_response_and_gap_conditions_pass": false
+    },
+    {
+      "q": 3.0,
+      "n": 128,
+      "Lambda_eV": 1000000000000.0,
+      "G00": 0.1111111111111111,
+      "tau": 2.2617683795227874e-61,
+      "zeta": 1.0,
+      "h2": 0.013888888888888885,
+      "M_eV": 333333333333.3333,
+      "min_mass_eV": 666814915260.8627,
+      "max_mass_eV": 1333259198733.6409,
+      "condition_H": 3.9977770126127363,
+      "mG_eV": 1e-14,
+      "phase": "zero",
+      "rH": 3.0928559391769443,
+      "hidden_self_mass_leading_eV": 84.35087432860433,
+      "clockoff_my2_leading_eV2": 5.686310031270507e-58,
+      "max_x": 8.00445375e-21,
+      "max_static_force_ratio": 0.1432720067083139,
+      "max_once_rematched_force_ratio": 0.07163600335415689,
+      "alpha_delta": 4.002226875000004e-21,
+      "max_abs_static_dVchi_eV4": 2.0526791858693703e-15,
+      "max_abs_static_dVy_eV4": 0.0,
+      "FX_over_min_mass2": 9.485254366048903e-11,
+      "MQ_over_min_mass": 0.14996665148211225,
+      "max_mass_over_KK": 0.013332591987336408,
+      "gap_conditions_pass": false,
+      "static_response_and_gap_conditions_pass": false,
+      "once_rematched_response_and_gap_conditions_pass": false
+    },
+    {
+      "q": 3.0,
+      "n": 128,
+      "Lambda_eV": 1000000000000.0,
+      "G00": 0.1111111111111111,
+      "tau": 2.2617683795227874e-61,
+      "zeta": 1.0,
+      "h2": 0.013888888888888885,
+      "M_eV": 333333333333.3333,
+      "min_mass_eV": 666814915260.8627,
+      "max_mass_eV": 1333259198733.6409,
+      "condition_H": 3.9977770126127363,
+      "mG_eV": 1e-15,
+      "phase": "zero",
+      "rH": 3.0928559391769443,
+      "hidden_self_mass_leading_eV": 8.435087432860433,
+      "clockoff_my2_leading_eV2": 5.686315637301547e-60,
+      "max_x": 8.00445375e-23,
+      "max_static_force_ratio": 0.0001432720067083139,
+      "max_once_rematched_force_ratio": 7.163600335415706e-05,
+      "alpha_delta": 4.002226874999995e-23,
+      "max_abs_static_dVchi_eV4": 2.0526791858693705e-18,
+      "max_abs_static_dVy_eV4": 0.0,
+      "FX_over_min_mass2": 9.485254366048903e-12,
+      "MQ_over_min_mass": 0.14996665148211225,
+      "max_mass_over_KK": 0.013332591987336408,
+      "gap_conditions_pass": false,
+      "static_response_and_gap_conditions_pass": false,
+      "once_rematched_response_and_gap_conditions_pass": false
+    },
+    {
+      "q": 3.0,
+      "n": 127,
+      "Lambda_eV": 2000000000000.0,
+      "G00": 0.1111111111111111,
+      "tau": 6.785305138568346e-61,
+      "zeta": 1.0,
+      "h2": 0.013888888888888885,
+      "M_eV": 666666666666.6666,
+      "min_mass_eV": 1333634480628.494,
+      "max_mass_eV": 2666516071762.489,
+      "condition_H": 3.9977421602502115,
+      "mG_eV": 1e-06,
+      "phase": "zero",
+      "rH": 2.319641954382703,
+      "hidden_self_mass_leading_eV": 4217543716.4302163,
+      "clockoff_my2_leading_eV2": 1.6631498886210988e-42,
+      "max_x": 5.002733538939071e-06,
+      "max_static_force_ratio": 8.954366029675537e+21,
+      "max_once_rematched_force_ratio": 4.4772054128233194e+21,
+      "alpha_delta": 2.5013855399610305e-06,
+      "max_abs_static_dVchi_eV4": 128290523.69728644,
+      "max_abs_static_dVy_eV4": 0.0,
+      "FX_over_min_mass2": 0.0023712970549839363,
+      "MQ_over_min_mass": 0.07498306428975472,
+      "max_mass_over_KK": 0.026665160717624887,
+      "gap_conditions_pass": true,
+      "static_response_and_gap_conditions_pass": false,
+      "once_rematched_response_and_gap_conditions_pass": false
+    },
+    {
+      "q": 3.0,
+      "n": 127,
+      "Lambda_eV": 2000000000000.0,
+      "G00": 0.1111111111111111,
+      "tau": 6.785305138568346e-61,
+      "zeta": 1.0,
+      "h2": 0.013888888888888885,
+      "M_eV": 666666666666.6666,
+      "min_mass_eV": 1333634480628.494,
+      "max_mass_eV": 2666516071762.489,
+      "condition_H": 3.9977421602502115,
+      "mG_eV": 1e-14,
+      "phase": "zero",
+      "rH": 2.319641954382703,
+      "hidden_self_mass_leading_eV": 42.17543716430217,
+      "clockoff_my2_leading_eV2": 1.6631499452476763e-58,
+      "max_x": 5.00278359375e-22,
+      "max_static_force_ratio": 0.008954500419269618,
+      "max_once_rematched_force_ratio": 0.004477250209634807,
+      "alpha_delta": 2.5013917968750014e-22,
+      "max_abs_static_dVchi_eV4": 1.2829244911683564e-16,
+      "max_abs_static_dVy_eV4": 0.0,
+      "FX_over_min_mass2": 2.3712970549839367e-11,
+      "MQ_over_min_mass": 0.07498306428975472,
+      "max_mass_over_KK": 0.026665160717624887,
+      "gap_conditions_pass": true,
+      "static_response_and_gap_conditions_pass": true,
+      "once_rematched_response_and_gap_conditions_pass": true
+    },
+    {
+      "q": 3.0,
+      "n": 127,
+      "Lambda_eV": 2000000000000.0,
+      "G00": 0.1111111111111111,
+      "tau": 6.785305138568346e-61,
+      "zeta": 1.0,
+      "h2": 0.013888888888888885,
+      "M_eV": 666666666666.6666,
+      "min_mass_eV": 1333634480628.494,
+      "max_mass_eV": 2666516071762.489,
+      "condition_H": 3.9977421602502115,
+      "mG_eV": 1e-15,
+      "phase": "zero",
+      "rH": 2.319641954382703,
+      "hidden_self_mass_leading_eV": 4.2175437164302165,
+      "clockoff_my2_leading_eV2": 1.6631555512787192e-60,
+      "max_x": 5.00278359375e-24,
+      "max_static_force_ratio": 8.954500419269619e-06,
+      "max_once_rematched_force_ratio": 4.477250209634817e-06,
+      "alpha_delta": 2.501391796874996e-24,
+      "max_abs_static_dVchi_eV4": 1.2829244911683566e-19,
+      "max_abs_static_dVy_eV4": 0.0,
+      "FX_over_min_mass2": 2.371297054983937e-12,
+      "MQ_over_min_mass": 0.07498306428975472,
+      "max_mass_over_KK": 0.026665160717624887,
+      "gap_conditions_pass": true,
+      "static_response_and_gap_conditions_pass": true,
+      "once_rematched_response_and_gap_conditions_pass": true
+    }
+  ],
+  "limits": [
+    {
+      "q": 2.0,
+      "n": 202,
+      "Lambda_eV": 1000000000000.0,
+      "mG_static_10percent_eV": 8.38206094121594e-15,
+      "mG_once_rematched_10percent_eV": 1.0560735021339626e-14,
+      "MQ_over_min_mass": 0.19995211791936685,
+      "interpretation": "Selected static force only; not a fully matched cosmological bound."
+    },
+    {
+      "q": 3.0,
+      "n": 128,
+      "Lambda_eV": 1000000000000.0,
+      "mG_static_10percent_eV": 8.870461570498505e-15,
+      "mG_once_rematched_10percent_eV": 1.1176081254954586e-14,
+      "MQ_over_min_mass": 0.14996665148211225,
+      "interpretation": "Selected static force only; not a fully matched cosmological bound."
+    },
+    {
+      "q": 5.0,
+      "n": 88,
+      "Lambda_eV": 1000000000000.0,
+      "mG_static_10percent_eV": 9.100965552883455e-15,
+      "mG_once_rematched_10percent_eV": 1.1466498074445984e-14,
+      "MQ_over_min_mass": 0.12497567359773779,
+      "interpretation": "Selected static force only; not a fully matched cosmological bound."
+    },
+    {
+      "q": 2.0,
+      "n": 200,
+      "Lambda_eV": 2000000000000.0,
+      "mG_static_10percent_eV": 2.112147004267917e-14,
+      "mG_once_rematched_10percent_eV": 2.6611384711495524e-14,
+      "MQ_over_min_mass": 0.09997558033584385,
+      "interpretation": "Selected static force only; not a fully matched cosmological bound."
+    },
+    {
+      "q": 3.0,
+      "n": 127,
+      "Lambda_eV": 2000000000000.0,
+      "mG_static_10percent_eV": 2.2352162509909175e-14,
+      "mG_once_rematched_10percent_eV": 2.8161960056905555e-14,
+      "MQ_over_min_mass": 0.07498306428975472,
+      "interpretation": "Selected static force only; not a fully matched cosmological bound."
+    },
+    {
+      "q": 5.0,
+      "n": 87,
+      "Lambda_eV": 2000000000000.0,
+      "mG_static_10percent_eV": 2.293299614889197e-14,
+      "mG_once_rematched_10percent_eV": 2.889376458514713e-14,
+      "MQ_over_min_mass": 0.06248755890433997,
+      "interpretation": "Selected static force only; not a fully matched cosmological bound."
+    }
+  ],
+  "source_hashes": {
+    "experiments/mediator_chain_v01/code/run_chain.py": "9ba793ec339865effcc63525b7d07ef18512924486450330ce2067591354dc34",
+    "experiments/mediator_chain_v01/protocol.md": "ed3954d5266f3f7ce342f2ecda1614472db15ef953095264c307d082c16e70e0",
+    "experiments/persistent_restoration_v01/results/inputs.json": "bfa667461a8eec70d6262e73698ee0c9f95083d9c5a7d34c2229c965b9671174",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+  },
+  "scope": [
+    "Only declared endpoint matching, local static response and selected gap conditions.",
+    "One-time leading vacuum rematch is not full radial recentering or complete matching.",
+    "Rigid Gaussian spectrum and full SUGRA response are separate independently scoped reports.",
+    "No Riemann origin, observational fit, locality protection, or full cosmic trajectory established."
+  ]
+}

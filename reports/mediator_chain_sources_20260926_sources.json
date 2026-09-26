@@ -1,0 +1,104 @@
+{
+  "created_utc": "2026-09-26T04:50:19.936544+00:00",
+  "scope": "Bounded primary-source and own-algebra audit of a gapped nearest-neighbor Stueckelberg chain; not a systematic review, UV completion, all-order protection proof or full loop matching",
+  "sources": [
+    {
+      "id": "1610.07962",
+      "version": "v1",
+      "title": "A Clockwork Theory",
+      "authors": "Gian F. Giudice; Matthew McCullough",
+      "url": "https://arxiv.org/html/1610.07962v1",
+      "read_scope_this_turn": "Introduction; §2.2 Eqs. (2.13)–(2.17); §2.4 Eqs. (2.32)–(2.34)",
+      "permitted_claim": "Standard clockwork has a surviving zero mode and endpoint-suppressed overlap; not our gapped inverse-kernel model.",
+      "full_paper_read_claimed": false,
+      "retrieval_method": "Primary arXiv HTML opened and selected sections read with web tool; auxiliary full HTML cache for reproducibility",
+      "cache": "build/mediator_chain_sources/1610.07962v1.html",
+      "sha256": "f7969c90775340b2b7d0f1a72eeeb3c0853bc992057dd8514b74e70241f018ab",
+      "bytes": 667862
+    },
+    {
+      "id": "hep-th/0104005",
+      "version": "v1",
+      "title": "(De)Constructing Dimensions",
+      "authors": "Nima Arkani-Hamed; Andrew G. Cohen; Howard Georgi",
+      "url": "https://arxiv.org/html/hep-th/0104005v1",
+      "read_scope_this_turn": "§2 matter representations and Eqs. (2.1)–(2.11); §3 locality discussion after Eq. (3.2)",
+      "permitted_claim": "Concrete deconstruction derives local interactions from specified matter content, gauge invariance and renormalizability; not a theorem protecting an arbitrary Abelian EFT.",
+      "full_paper_read_claimed": false,
+      "retrieval_method": "Primary arXiv HTML opened and selected sections read with web tool; auxiliary full HTML cache for reproducibility",
+      "cache": "build/mediator_chain_sources/hep-th_0104005v1.html",
+      "sha256": "cf91fe1d0214761965111b9c593bf239bdf0b4f3b0ae7e602fa3372a93311fec",
+      "bytes": 126058
+    },
+    {
+      "id": "hep-th/0109082",
+      "version": "v1",
+      "title": "Twisted supersymmetry and the topology of theory space",
+      "authors": "Nima Arkani-Hamed; Andrew G. Cohen; Howard Georgi",
+      "url": "https://arxiv.org/html/hep-th/0109082v1",
+      "read_scope_this_turn": "§2 Eq. (4) and following graph/loop reasoning; §3 Eq. (15) and locality discussion; §6 gravity paragraph around Eqs. (26)–(27)",
+      "permitted_claim": "Collective high-loop protection requires the specified local symmetry construction; ordinary 4D supergravity can bypass theory-space locality in that model. Its numerical scales are not transferred here.",
+      "full_paper_read_claimed": false,
+      "retrieval_method": "Primary arXiv HTML opened and selected sections read with web tool; auxiliary full HTML cache for reproducibility",
+      "cache": "build/mediator_chain_sources/hep-th_0109082v1.html",
+      "sha256": "ee0a4f4ccc25f72ce1d19af8177287648a1ff173fbe98022a20f03854744939c",
+      "bytes": 2319661
+    },
+    {
+      "id": "1109.2901",
+      "version": "v2",
+      "title": "R-parity Conservation via the Stueckelberg Mechanism: LHC and Dark Matter Signals",
+      "authors": "Daniel Feldman; Pavel Fileviez Perez; Pran Nath",
+      "url": "https://arxiv.org/html/1109.2901v2",
+      "read_scope_this_turn": "§2 Eq. (8) and nearby kinetic-mixing assumption; §3 Eqs. (9)–(11)",
+      "permitted_claim": "Multiple Abelian mass and kinetic mixing and supersymmetric Stueckelberg invariant combinations are allowed; gauge invariance alone does not force a sparse chain.",
+      "full_paper_read_claimed": false,
+      "retrieval_method": "Primary arXiv HTML opened and selected sections read with web tool; auxiliary full HTML cache for reproducibility",
+      "cache": "build/mediator_chain_sources/1109.2901v2.html",
+      "sha256": "800c3a140acd172adbda93d04ce328c7d23f8f624e27b1ec011fd30dea542de3",
+      "bytes": 561470
+    },
+    {
+      "id": "hep-th/0001121",
+      "version": "v2",
+      "title": "One-loop Kahler potential in non-renormalizable theories",
+      "authors": "Andrea Brignole",
+      "url": "https://arxiv.org/html/hep-th/0001121v2",
+      "read_scope_this_turn": "§1 nonrenormalization distinction and Eq. (1); §2 Eqs. (2)–(5) and permitted arbitrary gauge-invariant K",
+      "permitted_claim": "N=1 superpotential nonrenormalization does not protect general Kahler D-terms; no loop coefficient for the present chain has been calculated from this paper.",
+      "full_paper_read_claimed": false,
+      "retrieval_method": "Primary arXiv HTML opened and selected sections read with web tool; auxiliary full HTML cache for reproducibility",
+      "cache": "build/mediator_chain_sources/hep-th_0001121v2.html",
+      "sha256": "6d3a6c580664310eacd9078f52fe47615002a61f5f70ae772a99a937357be097",
+      "bytes": 469907
+    }
+  ],
+  "own_derivations": [
+    "Positive tridiagonal matrix as boundary-pinned local squares; no surviving zero mode",
+    "Determinant recurrence and endpoint inverse ratio",
+    "Exact Gaussian exchange includes both endpoint self currents",
+    "Gauge-invariant neutral-current bypass and non-nearest mass operators are allowed",
+    "An exactly Gaussian constant-kernel sector has a background-independent determinant",
+    "Order-one endpoint ratio trades a 61-order hierarchy for 102–202 explicitly assumed sites at q=2–4",
+    "A physical bulk modulus cannot be declared a localized hidden endpoint without further construction"
+  ],
+  "unknowns_preserved": [
+    "Actual mediator/link spectrum and anomaly-free field content",
+    "Microscopic protection of texture zeros and endpoint-only modulus coupling",
+    "Full heavy supermultiplet, dynamical-matter and gravity threshold matching",
+    "All-order stability and finite independent Kahler contacts",
+    "Cosmological rolling solution and asymptotic slow-clock slope",
+    "Derivation of inverse-log-squared law from Riemann dynamics"
+  ],
+  "human_read_status": "No author full-read attestation. AI-assisted selected-section review and independent same-family internal logic check only.",
+  "retrieval_errors_this_turn": [
+    {
+      "url": "https://arxiv.org/html/1610.07962v3",
+      "error": "404 for nonexistent version; corrected to linked v1"
+    },
+    {
+      "url": "https://arxiv.org/html/hep-th/0001121v3",
+      "error": "404 for nonexistent version; corrected to linked v2"
+    }
+  ]
+}

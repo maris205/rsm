@@ -1,0 +1,4074 @@
+{
+  "status": "complete",
+  "scope": "Independent local GLOBAL SUSY calculation; inherited auxiliary jets are external response probes, not a complete SUGRA potential.",
+  "execution_history": [
+    {
+      "attempt": 1,
+      "outcome": "implementation error before any physical calculation",
+      "detail": "mp.matrix(n,n,lambda) produced a zero matrix; replaced by explicit nested-list construction. No threshold or scientific condition changed."
+    },
+    {
+      "attempt": 2,
+      "outcome": "509/509 original exact checks passed"
+    },
+    {
+      "attempt": 3,
+      "outcome": "510/511, added two asymptotic accuracy tests; one retained 0.247784 percent versus 0.2 percent failure"
+    },
+    {
+      "attempt": 4,
+      "outcome": "Additional bounded smaller-splitting convergence checks; see final counts below"
+    }
+  ],
+  "arithmetic_digits": 100,
+  "input_sha256": "bfa667461a8eec70d6262e73698ee0c9f95083d9c5a7d34c2229c965b9671174",
+  "script_sha256": "a412a19262e70886a328334fc7e76d20849daa366df85221c3beaa4cf33a3106",
+  "model": {
+    "J": "S+Sbar+sqrt(2) M V",
+    "D_potential": "M^2 j^T H^2 j / 4",
+    "q": 3,
+    "n": 128,
+    "gX": "sqrt(2)",
+    "Lambda_eV": "1e12",
+    "M_eV": "333333333333.33333333333333333333333",
+    "endpoint_Hinv": "0.11111111111111111111111111111111111",
+    "endpoint_Hinv2": "0.013888888888888888888888888888888889",
+    "tau_exchange": "2.2617683795228138610058573954645735e-61"
+  },
+  "reference_response": [
+    {
+      "point": "old_first",
+      "phase": "aligned",
+      "chi": "137.6422999547138",
+      "U_eV4": "6.161810271353063e-14",
+      "rw": "7.2084219014133832370079158070515703e-31",
+      "S_eV4": "1.7787674999999999999999999999974356e+43",
+      "S_chi_eV4": "25644213209044.660334068955760620723",
+      "S_y_inherited_eV4": "0.0",
+      "t": "0.000080031726832790926262127027380033335",
+      "delta_tree_dV_dS": "-0.000080025322268059462866387155048485759",
+      "delta_tree_Vchi_eV4": "-2052186426.3646262740621178637116955",
+      "delta_tree_Vy_inherited_eV4": "0.0",
+      "axial_force_ratio": "16652463610454445448699.862331760921",
+      "transverse_force_ratio_inherited": "0.0",
+      "gradient_force_ratio_inherited": "16652463610454445448699.862331760921",
+      "delta_V_eV4": "-7.1178916873689714554917027934411647e+38",
+      "C_eV2": "320101289072237851465.54862019394303",
+      "mX_eV": "8434074922.2324693348839071704823024",
+      "selected_rigid_gaussian_axial_force_ratio": "3975487784144442008904.4098336376055",
+      "selected_rigid_gaussian_transverse_force_ratio_inherited": "0.0"
+    },
+    {
+      "point": "old_first",
+      "phase": "quadrature",
+      "chi": "137.6422999547138",
+      "U_eV4": "6.161810271353063e-14",
+      "rw": "7.2084219014133832370079158070515703e-31",
+      "S_eV4": "1.7787675e+43",
+      "S_chi_eV4": "-1.8485430814059190870608467115940684e-17",
+      "S_y_inherited_eV4": "8548071069681.5534446896519202130694",
+      "t": "0.000080031726832790926262127027380148697",
+      "delta_tree_dV_dS": "-0.000080025322268059462866387155048601102",
+      "delta_tree_Vchi_eV4": "1.4793025581590035313503714706506705e-21",
+      "delta_tree_Vy_inherited_eV4": "-684062142.12154209135403928790537756",
+      "axial_force_ratio": "0.000000012003798340208920644666404299770702",
+      "transverse_force_ratio_inherited": "5550821203484815149566.6207772656423",
+      "gradient_force_ratio_inherited": "5550821203484815149566.6207772656423",
+      "delta_V_eV4": "-7.1178916873689714554917027934616866e+38",
+      "C_eV2": "320101289072237851465.54862019440441",
+      "mX_eV": "8434074922.2324693348839071704883806",
+      "selected_rigid_gaussian_axial_force_ratio": "0.000000002865699321202815633330604076772859",
+      "selected_rigid_gaussian_transverse_force_ratio_inherited": "1325162594714814002968.1366112134904"
+    },
+    {
+      "point": "old_last",
+      "phase": "aligned",
+      "chi": "139.79424666735443",
+      "U_eV4": "8.3282001990848613794355673719983698e-16",
+      "rw": "8.3803395379561958960285754884687885e-32",
+      "S_eV4": "1.7787674999999999999999999999997019e+43",
+      "S_chi_eV4": "2981335121816.2995366978018300367313",
+      "S_y_inherited_eV4": "0.0",
+      "t": "0.000080031726832790926262127027380135286",
+      "delta_tree_dV_dS": "-0.000080025322268059462866387155048587693",
+      "delta_tree_Vchi_eV4": "-238582303.91243368665146457921579909",
+      "delta_tree_Vy_inherited_eV4": "0.0",
+      "axial_force_ratio": "143237613295277256315392.6774529009",
+      "transverse_force_ratio_inherited": "0.0",
+      "gradient_force_ratio_inherited": "143237613295277256315392.6774529009",
+      "delta_V_eV4": "-7.1178916873689714554917027934593008e+38",
+      "C_eV2": "320101289072237851465.54862019435077",
+      "mX_eV": "8434074922.2324693348839071704876739",
+      "selected_rigid_gaussian_axial_force_ratio": "34195503752843225996603.431346714345",
+      "selected_rigid_gaussian_transverse_force_ratio_inherited": "0.0"
+    },
+    {
+      "point": "old_last",
+      "phase": "quadrature",
+      "chi": "139.79424666735443",
+      "U_eV4": "8.3282001990848613794355673719983698e-16",
+      "rw": "8.3803395379561958960285754884687885e-32",
+      "S_eV4": "1.7787675e+43",
+      "S_chi_eV4": "-2.4984600597254586666589969887542063e-19",
+      "S_y_inherited_eV4": "993778373938.76651223260061001232705",
+      "t": "0.000080031726832790926262127027380148697",
+      "delta_tree_dV_dS": "-0.000080025322268059462866387155048601102",
+      "delta_tree_Vchi_eV4": "1.9994007145340492300020491925803193e-23",
+      "delta_tree_Vy_inherited_eV4": "-79527434.637477895550488193071953021",
+      "axial_force_ratio": "0.000000012003798340208920644666404299770702",
+      "transverse_force_ratio_inherited": "47745871098425752105130.892484312303",
+      "gradient_force_ratio_inherited": "47745871098425752105130.892484312303",
+      "delta_V_eV4": "-7.1178916873689714554917027934616866e+38",
+      "C_eV2": "320101289072237851465.54862019440441",
+      "mX_eV": "8434074922.2324693348839071704883806",
+      "selected_rigid_gaussian_axial_force_ratio": "0.000000002865699321202815633330604076772859",
+      "selected_rigid_gaussian_transverse_force_ratio_inherited": "11398501250947741998867.810448905737"
+    }
+  ],
+  "gaussian_spectrum": [
+    {
+      "n": 128,
+      "quadrature_order": 16,
+      "mG_eV": 1e-06,
+      "fixed_mu_eV": 1000000000000.0,
+      "t": 8.003172683279086e-05,
+      "C_eV2": 3.2010128907223826e+20,
+      "V1_heavy_eV4": -9.144561028248912e+35,
+      "V1_X_eV4": -1.7705154780030366e+38,
+      "V1_total_eV4": -1.7796600390312857e+38,
+      "dV1_heavy_dS": -1.0270955956292012e-07,
+      "dV1_X_dS": -1.900195258178918e-05,
+      "dV1_total_dS": -1.9104662141352102e-05,
+      "loop_to_finiteF_tree_slope_ratio": 0.2387327110955899,
+      "vector_min_mass_eV": 666814915260.8619,
+      "vector_max_mass_eV": 1333259198733.64,
+      "real_heavy_min_mass_eV": 666814917465.1125,
+      "dirac_min_mass_eV": 666814915812.1843,
+      "X_real_mass_eV": 8434074922.23247
+    },
+    {
+      "n": 128,
+      "quadrature_order": 32,
+      "mG_eV": 1e-06,
+      "fixed_mu_eV": 1000000000000.0,
+      "t": 8.003172683279086e-05,
+      "C_eV2": 3.2010128907223826e+20,
+      "V1_heavy_eV4": -9.144561028036788e+35,
+      "V1_X_eV4": -1.7705154780030366e+38,
+      "V1_total_eV4": -1.7796600390310734e+38,
+      "dV1_heavy_dS": -1.0270955956292012e-07,
+      "dV1_X_dS": -1.900195258178918e-05,
+      "dV1_total_dS": -1.9104662141352102e-05,
+      "loop_to_finiteF_tree_slope_ratio": 0.2387327110955899,
+      "vector_min_mass_eV": 666814915260.8619,
+      "vector_max_mass_eV": 1333259198733.64,
+      "real_heavy_min_mass_eV": 666814917465.1125,
+      "dirac_min_mass_eV": 666814915812.1843,
+      "X_real_mass_eV": 8434074922.23247
+    },
+    {
+      "n": 96,
+      "quadrature_order": 32,
+      "mG_eV": 1e-06,
+      "fixed_mu_eV": 1000000000000.0,
+      "t": 8.003172683279083e-05,
+      "C_eV2": 3.201012890722361e+20,
+      "V1_heavy_eV4": -9.144561027660023e+35,
+      "V1_X_eV4": -1.7705154780030355e+38,
+      "V1_total_eV4": -1.7796600390306956e+38,
+      "dV1_heavy_dS": -1.027095595476278e-07,
+      "dV1_X_dS": -1.9001952581789168e-05,
+      "dV1_total_dS": -1.9104662141336795e-05,
+      "loop_to_finiteF_tree_slope_ratio": 0.2387327110953987,
+      "vector_min_mass_eV": 666928830596.4667,
+      "vector_max_mass_eV": 1333202219148.1172,
+      "real_heavy_min_mass_eV": 666928835777.6384,
+      "dirac_min_mass_eV": 666928831892.3661,
+      "X_real_mass_eV": 8434074922.232469
+    }
+  ],
+  "small_splitting_benchmarks": [
+    {
+      "n": 128,
+      "Lambda_eV": "1000000000000.0",
+      "mG_eV": "0.000001",
+      "M_eV": "333333333333.33333333333333333333333",
+      "tau_exchange": "2.2617683795228138610058573954645735e-61",
+      "t": "0.000080031726832790926262127027380148697",
+      "C_eV2": "320101289072237851465.54862019440441",
+      "X_mass_eV": "8434074922.2324693348839071704883806",
+      "X_log_m2_over_mu2": "-9.5509504806805625689759453304369443",
+      "heavy_C2_divided_difference_coefficient": "-0.0009410933829268807934709251128424512",
+      "heavy_rank_one_shift_to_min_mass2": "0.0003199589728465871004589429662584427",
+      "V1_heavy_C2_eV4": "-9.1596545944708499038652099639775278e+35",
+      "V1_X_eV4": "-1.7705154780030363313929785844843817e+38",
+      "dV1_heavy_C2_dS": "-0.00000010296405722991459858936185149312554",
+      "dV1_X_dS": "-0.000019001952581789178539401106866942505",
+      "dV1_total_dS": "-0.000019104916639019093137990468718435631",
+      "loop_to_finiteF_tree_slope_ratio": "0.23873589130979914515754806784225696",
+      "delta_tree_dV_dS": "-0.000080025322268059462866387155048601102",
+      "force_response": [
+        {
+          "point": "old_first",
+          "aligned_tree_force_ratio": "16652463610454445448699.862331784923",
+          "quadrature_transverse_tree_force_ratio": "5550821203484815149566.6207772656423",
+          "aligned_selected_rigid_loop_force_ratio": "3975540742545837940392.2201534529621",
+          "quadrature_transverse_selected_rigid_loop_force_ratio": "1325180247515279313464.073384485276"
+        },
+        {
+          "point": "old_last",
+          "aligned_tree_force_ratio": "143237613295277256315392.6774529249",
+          "quadrature_transverse_tree_force_ratio": "47745871098425752105130.892484312303",
+          "aligned_selected_rigid_loop_force_ratio": "34195959279136352031774.983628061447",
+          "quadrature_transverse_selected_rigid_loop_force_ratio": "11398653093045450677258.327876021438"
+        }
+      ],
+      "scope": "Leading C\u00b2 heavy trace plus unexpanded light-X Gaussian; fixed mu=Lambda; full SUGRA spectrum not supplied."
+    },
+    {
+      "n": 127,
+      "Lambda_eV": "2000000000000.0",
+      "mG_eV": "1.0e-15",
+      "M_eV": "666666666666.66666666666666666666667",
+      "tau_exchange": "6.7853051385684415830175721863937204e-61",
+      "t": "5.0027835937499999999999499443126282e-24",
+      "C_eV2": "80.044537499999999999998798663503077",
+      "X_mass_eV": "4.2175437164302162097393001923790335",
+      "X_log_m2_over_mu2": "-53.769830791239771117317637325922069",
+      "heavy_C2_divided_difference_coefficient": "-0.00094109338292695235081430915613509569",
+      "heavy_rank_one_shift_to_min_mass2": "2.0002097988073944538814913926948441e-23",
+      "V1_heavy_C2_eV4": "-0.057275336577726369125748753155515293",
+      "V1_X_eV4": "-55.370288062496163654036272250301065",
+      "dV1_heavy_C2_dS": "-6.4398901573956539149436779733352245e-27",
+      "dV1_X_dS": "-6.1693705639561613518364396132953777e-24",
+      "dV1_total_dS": "-6.1758104541135570057513832912687129e-24",
+      "loop_to_finiteF_tree_slope_ratio": "1.2344748355353656967787916280979682",
+      "delta_tree_dV_dS": "-5.0027835937499999999999249164689423e-24",
+      "force_response": [
+        {
+          "point": "old_first",
+          "aligned_tree_force_ratio": "0.0000010410288816687641422289321938251384",
+          "quadrature_transverse_tree_force_ratio": "0.00000034700962722292138074322753712140028",
+          "aligned_selected_rigid_loop_force_ratio": "0.0000012851239574856132917334217363145349",
+          "quadrature_transverse_selected_rigid_loop_force_ratio": "0.00000042837465249520443057811603596088396"
+        },
+        {
+          "point": "old_last",
+          "aligned_tree_force_ratio": "0.0000089545004192695576985726223303351352",
+          "quadrature_transverse_tree_force_ratio": "0.0000029848334730898525661911242492913992",
+          "aligned_selected_rigid_loop_force_ratio": "0.000011054105432379150416736646215993149",
+          "quadrature_transverse_selected_rigid_loop_force_ratio": "0.0000036847018107930501389125241958537554"
+        }
+      ],
+      "scope": "Leading C\u00b2 heavy trace plus unexpanded light-X Gaussian; fixed mu=Lambda; full SUGRA spectrum not supplied."
+    }
+  ],
+  "asymptotic_convergence_benchmark": {
+    "exact": {
+      "n": 128,
+      "quadrature_order": 32,
+      "mG_eV": 1e-07,
+      "fixed_mu_eV": 1000000000000.0,
+      "t": 8.004440935779923e-07,
+      "C_eV2": 3.2017738114710395e+18,
+      "V1_heavy_eV4": -9.16385886208138e+31,
+      "V1_X_eV4": -2.5094821530571964e+34,
+      "V1_total_eV4": -2.5186460119192776e+34,
+      "dV1_heavy_dS": -1.030349550193073e-09,
+      "dV1_X_dS": -2.73147704580175e-07,
+      "dV1_total_dS": -2.741780541303681e-07,
+      "loop_to_finiteF_tree_slope_ratio": 0.3425326962798773,
+      "vector_min_mass_eV": 666814915260.8619,
+      "vector_max_mass_eV": 1333259198733.64,
+      "real_heavy_min_mass_eV": 666814915282.9241,
+      "dirac_min_mass_eV": 666814915266.3777,
+      "X_real_mass_eV": 843507730.5146692
+    },
+    "C2": {
+      "n": 128,
+      "Lambda_eV": "1000000000000.0",
+      "mG_eV": "0.0000001",
+      "M_eV": "333333333333.33333333333333333333333",
+      "tau_exchange": "2.2617683795228138610058573954645735e-61",
+      "t": "0.0000008004440935779932590764580603381086",
+      "C_eV2": "3201773811471036671.6152077427811425",
+      "X_mass_eV": "843507730.51466940853223677200997996",
+      "X_log_m2_over_mu2": "-14.155882982426578603733044768519555",
+      "heavy_C2_divided_difference_coefficient": "-0.0009410933829268807934709251128424512",
+      "heavy_rank_one_shift_to_min_mass2": "0.0000032003503109110837670061037282961065",
+      "V1_heavy_C2_eV4": "-91640098406821471829118564400700.696",
+      "V1_X_eV4": "-25094821530571989063848242668833703.0",
+      "dV1_heavy_C2_dS": "-0.0000000010303750023431773942837240316883125",
+      "dV1_X_dS": "-0.0000002731477045801751389441767153190367",
+      "dV1_total_dS": "-0.00000027417807958251831633846043935072501",
+      "loop_to_finiteF_tree_slope_ratio": "0.3425327280774387560886223980234019",
+      "delta_tree_dV_dS": "-0.00000080044345286775916790380193569528563",
+      "force_response": [
+        {
+          "point": "old_first",
+          "aligned_tree_force_ratio": "16656422109064118394.355060501186054",
+          "quadrature_transverse_tree_force_ratio": "5552140703021372798.1183535004353735",
+          "aligned_selected_rigid_loop_force_ratio": "5705369705027098609.5463723965671514",
+          "quadrature_transverse_selected_rigid_loop_force_ratio": "1901789901675699536.5154574655360927"
+        },
+        {
+          "point": "old_last",
+          "aligned_tree_force_ratio": "143271662665169063721.8850913863001",
+          "quadrature_transverse_tree_force_ratio": "47757220888389687907.295030462140056",
+          "aligned_selected_rigid_loop_force_ratio": "49075233468890889317.40254879357337",
+          "quadrature_transverse_selected_rigid_loop_force_ratio": "16358411156296963105.800849597871499"
+        }
+      ],
+      "scope": "Leading C\u00b2 heavy trace plus unexpanded light-X Gaussian; fixed mu=Lambda; full SUGRA spectrum not supplied."
+    }
+  },
+  "derivation_cases": [
+    {
+      "n": 1,
+      "q": "1.01",
+      "S": "0.000001",
+      "t": "0.0000000612624298437669622193572925511"
+    },
+    {
+      "n": 1,
+      "q": "1.01",
+      "S": "0.1",
+      "t": "0.00605275041260104400840892728415"
+    },
+    {
+      "n": 1,
+      "q": "1.01",
+      "S": "1",
+      "t": "0.055037474775297210011352557903"
+    },
+    {
+      "n": 1,
+      "q": "2",
+      "S": "0.000001",
+      "t": "0.00000000999999980000000699999970000001"
+    },
+    {
+      "n": 1,
+      "q": "2",
+      "S": "0.1",
+      "t": "0.000998006970142275854801488318315"
+    },
+    {
+      "n": 1,
+      "q": "2",
+      "S": "1",
+      "t": "0.00980671360874184880397930223237"
+    },
+    {
+      "n": 1,
+      "q": "3",
+      "S": "0.000001",
+      "t": "0.00000000249999998750000010937499882813"
+    },
+    {
+      "n": 1,
+      "q": "3",
+      "S": "0.1",
+      "t": "0.000249875109257951970939372436533"
+    },
+    {
+      "n": 1,
+      "q": "3",
+      "S": "1",
+      "t": "0.00248760821691444302090876790733"
+    },
+    {
+      "n": 2,
+      "q": "1.01",
+      "S": "0.000001",
+      "t": "0.000000136127032222563127450216589665"
+    },
+    {
+      "n": 2,
+      "q": "1.01",
+      "S": "0.1",
+      "t": "0.0132587853187990900999334822973"
+    },
+    {
+      "n": 2,
+      "q": "1.01",
+      "S": "1",
+      "t": "0.110403501904683246496189506709"
+    },
+    {
+      "n": 2,
+      "q": "2",
+      "S": "0.000001",
+      "t": "0.0000000164399087565109499069765211058"
+    },
+    {
+      "n": 2,
+      "q": "2",
+      "S": "0.1",
+      "t": "0.00163861640248677372701242869163"
+    },
+    {
+      "n": 2,
+      "q": "2",
+      "S": "1",
+      "t": "0.0159284377529121546188114489546"
+    },
+    {
+      "n": 2,
+      "q": "3",
+      "S": "0.000001",
+      "t": "0.00000000329066535692050947144793461909"
+    },
+    {
+      "n": 2,
+      "q": "3",
+      "S": "0.1",
+      "t": "0.00032885021736415247533059824299"
+    },
+    {
+      "n": 2,
+      "q": "3",
+      "S": "1",
+      "t": "0.00326925438819776973530965313169"
+    },
+    {
+      "n": 4,
+      "q": "1.01",
+      "S": "0.000001",
+      "t": "0.000000293960571649177921682141132419"
+    },
+    {
+      "n": 4,
+      "q": "1.01",
+      "S": "0.1",
+      "t": "0.0278259610332357500666716011548"
+    },
+    {
+      "n": 4,
+      "q": "1.01",
+      "S": "1",
+      "t": "0.203091595945415671997361507847"
+    },
+    {
+      "n": 4,
+      "q": "2",
+      "S": "0.000001",
+      "t": "0.0000000203236118019319729498713687432"
+    },
+    {
+      "n": 4,
+      "q": "2",
+      "S": "0.1",
+      "t": "0.00202415853384445238484448219419"
+    },
+    {
+      "n": 4,
+      "q": "2",
+      "S": "1",
+      "t": "0.0195516079763631904812018766987"
+    },
+    {
+      "n": 4,
+      "q": "3",
+      "S": "0.000001",
+      "t": "0.00000000346810588161362515071186372065"
+    },
+    {
+      "n": 4,
+      "q": "3",
+      "S": "0.1",
+      "t": "0.00034657032695695449512611348485"
+    },
+    {
+      "n": 4,
+      "q": "3",
+      "S": "1",
+      "t": "0.00344433811379998502942421782459"
+    },
+    {
+      "n": 8,
+      "q": "1.01",
+      "S": "0.000001",
+      "t": "0.000000616449502457306594903232072812"
+    },
+    {
+      "n": 8,
+      "q": "1.01",
+      "S": "0.1",
+      "t": "0.0553485452011267992715160855296"
+    },
+    {
+      "n": 8,
+      "q": "1.01",
+      "S": "1",
+      "t": "0.342191424884590696243917917159"
+    },
+    {
+      "n": 8,
+      "q": "2",
+      "S": "0.000001",
+      "t": "0.0000000208294382642508356373264434701"
+    },
+    {
+      "n": 8,
+      "q": "2",
+      "S": "0.1",
+      "t": "0.00207432930356753328102753401945"
+    },
+    {
+      "n": 8,
+      "q": "2",
+      "S": "1",
+      "t": "0.0200198282667999513141287318444"
+    },
+    {
+      "n": 8,
+      "q": "3",
+      "S": "0.000001",
+      "t": "0.00000000347222099714630729885002723748"
+    },
+    {
+      "n": 8,
+      "q": "3",
+      "S": "0.1",
+      "t": "0.000346981268349566529514185051949"
+    },
+    {
+      "n": 8,
+      "q": "3",
+      "S": "1",
+      "t": "0.00344839712931887315851190646954"
+    }
+  ],
+  "checks": [
+    {
+      "name": "n1_q1.01_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.33340390035e-100"
+      }
+    },
+    {
+      "name": "n1_q1.01_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.33340390035e-100"
+      }
+    },
+    {
+      "name": "n1_q1.01_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.32157917117e-100"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.81273574401e-108"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.8951920631e-105"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.14298739128e-100"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.82903657312e-101"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q1.01_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.36386495213e-104"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.14298739128e-100"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.4647944972e-103"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.4287342391e-101"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.41027598348e-101"
+      }
+    },
+    {
+      "name": "n1_q1.01_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q1.01_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.31581369911e-103"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.57183559776e-102"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.78648763574e-101"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.13568320061e-101"
+      }
+    },
+    {
+      "name": "n1_q1.01_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q1.01_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.57532371846e-103"
+      }
+    },
+    {
+      "name": "n1_q2_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.57532371846e-103"
+      }
+    },
+    {
+      "name": "n1_q2_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.66454437067e-110"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.57194956513e-100"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.40636787201e-108"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.81273574401e-108"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.28597477113e-101"
+      }
+    },
+    {
+      "name": "n1_q2_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q2_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.19939841586e-105"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.28597478256e-100"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.07155067933e-101"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.99692522399e-101"
+      }
+    },
+    {
+      "name": "n1_q2_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q2_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.20811492141e-104"
+      }
+    },
+    {
+      "name": "n1_q2_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n1_q2_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.28597478256e-100"
+      }
+    },
+    {
+      "name": "n1_q2_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q2_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.4287342391e-101"
+      }
+    },
+    {
+      "name": "n1_q2_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.2749283267e-101"
+      }
+    },
+    {
+      "name": "n1_q2_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q2_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.78766185923e-103"
+      }
+    },
+    {
+      "name": "n1_q3_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.78766185923e-103"
+      }
+    },
+    {
+      "name": "n1_q3_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.7002509889e-110"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.3625471488e-107"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.51591968002e-109"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.0219103616e-107"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.71493694927e-101"
+      }
+    },
+    {
+      "name": "n1_q3_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q3_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.65051346978e-105"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.1161986243e-103"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.14284464274e-101"
+      }
+    },
+    {
+      "name": "n1_q3_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q3_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.8508553057e-104"
+      }
+    },
+    {
+      "name": "n1_q3_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n1_q3_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n1_q3_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n1_q3_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.14310135865e-101"
+      }
+    },
+    {
+      "name": "n1_q3_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.14157102392e-101"
+      }
+    },
+    {
+      "name": "n1_q3_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n1_q3_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q1.01_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.02201936537e-100"
+      }
+    },
+    {
+      "name": "n2_q1.01_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.70577943267e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.14298739128e-100"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.00672436111e-107"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.28159646867e-108"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.3625471488e-107"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.61642827037e-100"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.37148968224e-104"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.41444822452e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.8860555485e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q1.01_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.25144289223e-103"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.1709535769e-104"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.27789875217e-100"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.77402155644e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.4061764614e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.76963721267e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q1.01_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.47268017059e-102"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.76698602402e-103"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.71448108692e-100"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.57183559776e-102"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.42127172137e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.12587935943e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.87651383565e-101"
+      }
+    },
+    {
+      "name": "n2_q1.01_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q1.01_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.54589571729e-104"
+      }
+    },
+    {
+      "name": "n2_q2_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.12775362757e-103"
+      }
+    },
+    {
+      "name": "n2_q2_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.56331504358e-107"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.43383530589e-110"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.43884978914e-103"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.85746845836e-101"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.1641956416e-102"
+      }
+    },
+    {
+      "name": "n2_q2_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q2_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.06954621682e-103"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.27623431101e-104"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.08214135186e-101"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.2323972486e-103"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.39331438011e-100"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.14219825989e-100"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.97947489708e-101"
+      }
+    },
+    {
+      "name": "n2_q2_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q2_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.53386973639e-101"
+      }
+    },
+    {
+      "name": "n2_q2_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.54314851542e-104"
+      }
+    },
+    {
+      "name": "n2_q2_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n2_q2_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.3563288715e-100"
+      }
+    },
+    {
+      "name": "n2_q2_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q2_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.18077299069e-101"
+      }
+    },
+    {
+      "name": "n2_q2_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.46236045211e-102"
+      }
+    },
+    {
+      "name": "n2_q2_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.07711351249e-101"
+      }
+    },
+    {
+      "name": "n2_q2_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q2_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q3_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.07259711554e-103"
+      }
+    },
+    {
+      "name": "n2_q3_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.10595287319e-103"
+      }
+    },
+    {
+      "name": "n2_q3_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.71443152229e-108"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.38617545339e-110"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.3625471488e-107"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.22888698661e-100"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.02429481911e-104"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.71493694912e-101"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.79221069892e-102"
+      }
+    },
+    {
+      "name": "n2_q3_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q3_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.44168449065e-103"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.33047854723e-105"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.15517547453e-100"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.41482596126e-100"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.0815777715e-101"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q3_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q3_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q3_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.17200855551e-102"
+      }
+    },
+    {
+      "name": "n2_q3_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.33708504596e-104"
+      }
+    },
+    {
+      "name": "n2_q3_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.4287342391e-101"
+      }
+    },
+    {
+      "name": "n2_q3_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n2_q3_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.667392513e-100"
+      }
+    },
+    {
+      "name": "n2_q3_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n2_q3_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.69018265224e-101"
+      }
+    },
+    {
+      "name": "n2_q3_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.70773334744e-101"
+      }
+    },
+    {
+      "name": "n2_q3_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.27339235737e-101"
+      }
+    },
+    {
+      "name": "n2_q3_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n2_q3_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.06178394136e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.59699427176e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.72057845108e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.3471051258e-107"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.04072938822e-108"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.74648187537e-99"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.1345576117e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.66611610828e-100"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.16472677295e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.56388762298e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q1.01_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.68116244046e-102"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.94651246725e-103"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.74425433165e-99"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.68160526749e-100"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.74761622597e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.04268697881e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.56370055999e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q1.01_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.79333796298e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.19884974177e-103"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.74879082851e-99"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.2897475307e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.21452136454e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.21182780238e-100"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.53560026064e-101"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.81348028615e-102"
+      }
+    },
+    {
+      "name": "n4_q1.01_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q1.01_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.3660364764e-103"
+      }
+    },
+    {
+      "name": "n4_q2_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.00283470152e-104"
+      }
+    },
+    {
+      "name": "n4_q2_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.60328196384e-107"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.95594491863e-109"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.3625471488e-107"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.64728084223e-99"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.10127478188e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.47977002717e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.0366844587e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.58216376921e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.55113140938e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q2_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.13356736022e-102"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.03928283775e-104"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.48728172641e-99"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.57522081579e-100"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.61904977377e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.83037248341e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.0995921264e-100"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.52652246797e-100"
+      }
+    },
+    {
+      "name": "n4_q2_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q2_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.29035650755e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.43123009951e-103"
+      }
+    },
+    {
+      "name": "n4_q2_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.14310135865e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.39335492841e-99"
+      }
+    },
+    {
+      "name": "n4_q2_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q2_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.48747621338e-100"
+      }
+    },
+    {
+      "name": "n4_q2_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.69214146105e-100"
+      }
+    },
+    {
+      "name": "n4_q2_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.83954603184e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.46467606761e-100"
+      }
+    },
+    {
+      "name": "n4_q2_S1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.16234094398e-101"
+      }
+    },
+    {
+      "name": "n4_q2_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q2_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.1336392278e-103"
+      }
+    },
+    {
+      "name": "n4_q3_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.50469048116e-105"
+      }
+    },
+    {
+      "name": "n4_q3_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.81945109038e-108"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.36980303333e-111"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.3625471488e-107"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.90925446092e-99"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.51591968002e-109"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.7421147309e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.44232428641e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.40314473096e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.15580743307e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q3_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.71817787776e-103"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.90184952893e-105"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.81557157566e-99"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.00545462978e-100"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.99891569814e-100"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.80609841143e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.64181548018e-102"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.84734954844e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q3_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.28402442316e-103"
+      }
+    },
+    {
+      "name": "n4_q3_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.60034771319e-104"
+      }
+    },
+    {
+      "name": "n4_q3_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n4_q3_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.0261647227e-99"
+      }
+    },
+    {
+      "name": "n4_q3_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n4_q3_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.85291504326e-100"
+      }
+    },
+    {
+      "name": "n4_q3_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.65919763203e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.20659681005e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.89171505896e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.07766465617e-101"
+      }
+    },
+    {
+      "name": "n4_q3_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n4_q3_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q1.01_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.72073414673e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.16777981261e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.31767966707e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.1333967896e-106"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.84435360062e-108"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.3625471488e-107"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.39159566557e-99"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.0438207232e-107"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.54228724437e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.32192107329e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.77819894101e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.48668969367e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.70285251035e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.08471673136e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.52184309111e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.60438562439e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q1.01_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.00415847747e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.65082160438e-103"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.43160931598e-99"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.18805900779e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.46456656245e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.5140891946e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.56549927219e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.08427276709e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.65706985861e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.20136249321e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.45850600592e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q1.01_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.4046621301e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.45631423722e-102"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.38553360912e-99"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.74124611443e-102"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.92890519016e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.39849721184e-102"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.12194092798e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.52400063873e-102"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.41965278869e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.88424932293e-101"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.28106379444e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.09380141895e-100"
+      }
+    },
+    {
+      "name": "n8_q1.01_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q1.01_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q2_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.37148968224e-104"
+      }
+    },
+    {
+      "name": "n8_q2_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.49880186368e-106"
+      }
+    },
+    {
+      "name": "n8_q2_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.78727555208e-107"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.15490721929e-109"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.08341759614e-99"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.40636787201e-108"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.77776764408e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.45319109001e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.11855363501e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.71493694318e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.12381744687e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.03215298763e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.71493695398e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.08681916079e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.30496328615e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q2_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.1134617264e-103"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.07122867845e-104"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.10013576685e-99"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.2323972486e-103"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.45396505457e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.83345607601e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.844564822e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.90454087721e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.78710769943e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.60558344707e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.44915513034e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.25201685565e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.17446200939e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q2_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q2_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.22242860857e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.11227704329e-103"
+      }
+    },
+    {
+      "name": "n8_q2_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n8_q2_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n8_q2_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.02767378975e-99"
+      }
+    },
+    {
+      "name": "n8_q2_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.78591779888e-102"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.68311121399e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "4.13573531692e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.47188322729e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.98834650952e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.5041744334e-100"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.71263151925e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.41712623329e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S1_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.13437528766e-101"
+      }
+    },
+    {
+      "name": "n8_q2_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q2_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q3_endpoint_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.28755376063e-103"
+      }
+    },
+    {
+      "name": "n8_q3_cross_inverse",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.11203405762e-107"
+      }
+    },
+    {
+      "name": "n8_q3_h2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.1161986243e-103"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.98868732355e-108"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.41289252437e-110"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.3625471488e-107"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.23799666202e-98"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.51591968002e-109"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.20789213652e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.04816891109e-100"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.17277144886e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.06134543431e-100"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.93147204275e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.44919255924e-100"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.79221070109e-102"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "9.39681975902e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.11627578067e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.000001_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q3_S0.000001_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.72991942379e-102"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.2072447167e-105"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.26574827641e-98"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.1161986243e-103"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.48543529984e-100"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.01343423013e-100"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.34529382798e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "6.53107915407e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.40346996598e-100"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.03511469083e-100"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.2752614438e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.04757688336e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.77074683617e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S0.1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q3_S0.1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q3_S1_stationary_vector",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.10938246121e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S1_shift",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.18174885155e-104"
+      }
+    },
+    {
+      "name": "n8_q3_S1_potential",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.14367119551e-102"
+      }
+    },
+    {
+      "name": "n8_q3_S1_envelope",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q3_S1_real_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.25464625349e-98"
+      }
+    },
+    {
+      "name": "n8_q3_S1_x_scalar_hessian",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.92958899439e-103"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_massless_goldstino",
+      "passed": true,
+      "detail": {
+        "normalized_error": "1.4953085737e-100"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_dirac_0",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.61998136102e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_dirac_1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.11436069396e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_dirac_2",
+      "passed": true,
+      "detail": {
+        "normalized_error": "8.97684120877e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_dirac_3",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.10200220271e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_dirac_4",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_dirac_5",
+      "passed": true,
+      "detail": {
+        "normalized_error": "3.51645427697e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_dirac_6",
+      "passed": true,
+      "detail": {
+        "normalized_error": "7.83026452204e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S1_fermion_dirac_7",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.84709520218e-101"
+      }
+    },
+    {
+      "name": "n8_q3_S1_spectrum_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "n8_q3_S1_heavy_linear_supertrace",
+      "passed": true,
+      "detail": {
+        "normalized_error": "0.0"
+      }
+    },
+    {
+      "name": "F4_asymptotics_1e-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F4_asymptotics_1e-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F4_asymptotics_1e-16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_convergence_V1_heavy_eV4_n128_Q32",
+      "passed": true,
+      "detail": {
+        "relative_error": 2.3196777831913096e-11
+      }
+    },
+    {
+      "name": "gaussian_convergence_V1_heavy_eV4_n96_Q32",
+      "passed": true,
+      "detail": {
+        "relative_error": 6.439782040956743e-11
+      }
+    },
+    {
+      "name": "gaussian_convergence_V1_X_eV4_n128_Q32",
+      "passed": true,
+      "detail": {
+        "relative_error": 0.0
+      }
+    },
+    {
+      "name": "gaussian_convergence_V1_X_eV4_n96_Q32",
+      "passed": true,
+      "detail": {
+        "relative_error": 6.661338147750939e-16
+      }
+    },
+    {
+      "name": "gaussian_convergence_dV1_heavy_dS_n128_Q32",
+      "passed": true,
+      "detail": {
+        "relative_error": 0.0
+      }
+    },
+    {
+      "name": "gaussian_convergence_dV1_heavy_dS_n96_Q32",
+      "passed": true,
+      "detail": {
+        "relative_error": 1.4888901223031326e-10
+      }
+    },
+    {
+      "name": "gaussian_convergence_dV1_X_dS_n128_Q32",
+      "passed": true,
+      "detail": {
+        "relative_error": 0.0
+      }
+    },
+    {
+      "name": "gaussian_convergence_dV1_X_dS_n96_Q32",
+      "passed": true,
+      "detail": {
+        "relative_error": 6.661338147750939e-16
+      }
+    },
+    {
+      "name": "C2_asymptotic_at_resolved_splitting_V1_heavy_C2_eV4",
+      "passed": true,
+      "detail": {
+        "relative_error": 0.0016505512279689771,
+        "meaning": "Small-C expansion error, not solver tolerance."
+      }
+    },
+    {
+      "name": "C2_asymptotic_at_resolved_splitting_dV1_heavy_C2_dS",
+      "passed": false,
+      "detail": {
+        "relative_error": 0.0024778381688861373,
+        "meaning": "Small-C expansion error, not solver tolerance."
+      }
+    },
+    {
+      "name": "C2_asymptotic_smaller_splitting_V1_heavy_C2_eV4",
+      "passed": true,
+      "detail": {
+        "relative_error": 1.647543933613882e-05,
+        "meaning": "Same 0.2 percent target at mG=1e-7 eV; original failure retained."
+      }
+    },
+    {
+      "name": "C2_asymptotic_smaller_splitting_dV1_heavy_C2_dS",
+      "passed": true,
+      "detail": {
+        "relative_error": 2.4702442098067934e-05,
+        "meaning": "Same 0.2 percent target at mG=1e-7 eV; original failure retained."
+      }
+    },
+    {
+      "name": "gaussian_highprecision_derivative_S0.0001",
+      "passed": true,
+      "detail": {
+        "normalized_error": "2.37357416505e-103"
+      }
+    },
+    {
+      "name": "gaussian_highprecision_derivative_S0.01",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.92435500299e-103"
+      }
+    },
+    {
+      "name": "gaussian_highprecision_derivative_S0.1",
+      "passed": true,
+      "detail": {
+        "normalized_error": "5.05777501636e-103"
+      }
+    }
+  ],
+  "passed": 512,
+  "total": 513,
+  "failures": [
+    {
+      "name": "C2_asymptotic_at_resolved_splitting_dV1_heavy_C2_dS",
+      "passed": false,
+      "detail": {
+        "relative_error": 0.0024778381688861373,
+        "meaning": "Small-C expansion error, not solver tolerance."
+      }
+    }
+  ]
+}

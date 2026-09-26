@@ -1,0 +1,240 @@
+{
+  "created_utc": "2026-09-26T05:09:03.878044+00:00",
+  "stage": "mediator_chain_v01",
+  "baseline_git_commit": "06188a0eaf90b7db1c65faf125da680fb1e3d5d7",
+  "material_type": "Conditional local EFT chain, static response and selected spectra; no observations.",
+  "input": "Prior physical parameters and clock coordinates; declared gapped nearest-neighbor mediator action.",
+  "output": "Endpoint matching, complete self terms, scoped finite-F response and Gaussian spectrum.",
+  "authorship": "AI-assisted internal separate implementations; no external peer review.",
+  "exclusions": [
+    "proof of protected locality or bulk-modulus endpoint isolation",
+    "complete UV theory or full supergravity Gaussian determinant",
+    "threshold/RG resummation",
+    "complete common vacuum rematching",
+    "global or rolling cosmic stability",
+    "Riemann origin of interactions or inverse-log law"
+  ],
+  "source_read_records": [
+    "reports/mediator_chain_sources_20260926_sources.json"
+  ],
+  "retained_failures": [
+    "The previous 1 TeV/1e-6 eV example fails finite-F response and charged-mass gap conditions.",
+    "The one-loop/tree selected ratio exceeds one at the low-scale fixed-mu control; full loop ordering is not established.",
+    "Old-scale heavy C^2 slope approximation: 0.247784 percent exceeds declared 0.2 percent accuracy; exact spectrum is used there.",
+    "Algebra initial 975/978 at180 digits retained;220 digits pass unchanged tolerances.",
+    "Supergravity initial31/43 implementation failure retained; explicit mpmath endpoint index fixes negative-index error.",
+    "Auxiliary first pre-calculation matrix-constructor error recorded in execution_history."
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 32083,
+      "sha256": "f4a1e7c70fed9b24983dbbc560a459bd2187c4c1a0187da3df1f476ca8fdce95"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "bytes": 47047,
+      "sha256": "1d25269b2bf24bfe10de524b07b4c596525e871bb3248dc518c2cbfeaa78b283"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "bytes": 42662,
+      "sha256": "037aaf8fb39be381eaf1089e0d656646caedf9f19e73b5f16f950b035ac9b206"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/README.md",
+      "bytes": 3059,
+      "sha256": "daa994565c82c6279e517da477bdbb93b277e157a7e0665295307cae1d2541f9"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/code/audit_archive.py",
+      "bytes": 8413,
+      "sha256": "09919fa1093dc22945b85b3c3ad7dc8aeefdedd23ad0b0c66495b6ac75bb2710"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/code/independent_compare.py",
+      "bytes": 12566,
+      "sha256": "e166a35dea02cbd336bc1469458aaebf5af0a781055eddab602b1d983ffc0c8e"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/code/plot_results.py",
+      "bytes": 3152,
+      "sha256": "bd628b38b491fdfcf273d12be4c9ff9cb0130f751a25b68b29930f4eb5500ab1"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/code/run_chain.py",
+      "bytes": 10330,
+      "sha256": "9ba793ec339865effcc63525b7d07ef18512924486450330ce2067591354dc34"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/figures/chain_matching_and_response.pdf",
+      "bytes": 37969,
+      "sha256": "b87e20e17dbddc44aa119e7b1383909649810866bab3243d60832888b70ed9a4"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/figures/chain_matching_and_response.png",
+      "bytes": 306843,
+      "sha256": "d1f335800ec3f5880e5dbe69c2342b7919bc70a4a8c107cc5412e76f87cf538d"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/logs/main_run.log",
+      "bytes": 1873,
+      "sha256": "cbc82cf55a1d95899d3b4c71f5ac4d454cca1b1e4f398ede93a3710360ee1f3d"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/logs/plot_run.log",
+      "bytes": 49,
+      "sha256": "aec0886588cd4d26dda6760052d3c255021daf1bb3a60c83f38a9f0df358f0b4"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/protocol.md",
+      "bytes": 5164,
+      "sha256": "ed3954d5266f3f7ce342f2ecda1614472db15ef953095264c307d082c16e70e0"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/reports/independent_comparison_cn.md",
+      "bytes": 5003,
+      "sha256": "301d05e9308760f0f3a6c18de270f968720c3b57df84fbfb821a90f3cf44b0fd"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/reports/results_cn.md",
+      "bytes": 9869,
+      "sha256": "fc048e9a2a4815cc63a22c8b5f8b5e7f84c4c7bb45504d734805ced5664c232d"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/results/chain_matching.csv",
+      "bytes": 135608,
+      "sha256": "65a2953b0b36f3f5fbeb77db1f7083a95713f1d32b186949897e8bcc8c7245cc"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/results/independent_comparison.json",
+      "bytes": 16580,
+      "sha256": "383ac7f2b24ed99a60c3ab1c85eb8fa1981df692a1c3159be4076ff67a8ec241"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/results/inputs.json",
+      "bytes": 5693,
+      "sha256": "2f583e8f759309ae9824f4551ae42c3edb6070cbe16dd9aaeda2ff7caddd6093"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/results/representatives.csv",
+      "bytes": 15722,
+      "sha256": "74b18a634f1c9de7d74d8445dfa5b99808d485bd27912c6f2bfa0477726adf24"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/results/response_limits.csv",
+      "bytes": 1039,
+      "sha256": "5a9497939f938b563212893bffe6ad36e8ce20613f738913c7f1a2c401b3ac36"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/results/response_scan.csv",
+      "bytes": 166840,
+      "sha256": "c56c1279d639f6def413931c774fcac1e85d5a5ad20767ef7cf60a25dc912d21"
+    },
+    {
+      "path": "experiments/mediator_chain_v01/results/summary.json",
+      "bytes": 22652,
+      "sha256": "3641185e8306cf9e6560ee95e85dcbc73ec5adadf4734673b7e95ee064fb3a2c"
+    },
+    {
+      "path": "experiments/persistent_restoration_v01/results/inputs.json",
+      "bytes": 4147,
+      "sha256": "bfa667461a8eec70d6262e73698ee0c9f95083d9c5a7d34c2229c965b9671174"
+    },
+    {
+      "path": "experiments/sugra_shift_v01/results/trajectories.csv",
+      "bytes": 6623432,
+      "sha256": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+    },
+    {
+      "path": "reports/mediator_auxiliary_response_20260926.md",
+      "bytes": 13912,
+      "sha256": "a610132d09522614458973f215771fd1f220abbbd9ed4a717d738f283a6f792d"
+    },
+    {
+      "path": "reports/mediator_auxiliary_response_20260926_checks.json",
+      "bytes": 96378,
+      "sha256": "c38e88766aaf7117d1483fb469880d377cc406d18668f87f63b9e126833ffc47"
+    },
+    {
+      "path": "reports/mediator_auxiliary_response_20260926_checks.py",
+      "bytes": 14966,
+      "sha256": "a412a19262e70886a328334fc7e76d20849daa366df85221c3beaa4cf33a3106"
+    },
+    {
+      "path": "reports/mediator_chain_algebra_20260926.md",
+      "bytes": 11703,
+      "sha256": "9d58325dd00d6fc85ccb44692b20bcbd20dbb0fc88f30d042fa08cb8722ff1c4"
+    },
+    {
+      "path": "reports/mediator_chain_algebra_20260926_checks.json",
+      "bytes": 153851,
+      "sha256": "f92bfb7e94d278740637587fb26c3bc14fc7ff6bb26b18fd7fc41d4ac70d9a17"
+    },
+    {
+      "path": "reports/mediator_chain_algebra_20260926_checks.py",
+      "bytes": 11303,
+      "sha256": "229961dbcc90aad5945a9dd33fc7f8bfbd58dc5520a1cade18dbd76cad6028e5"
+    },
+    {
+      "path": "reports/mediator_chain_algebra_20260926_initial_checks.json",
+      "bytes": 154350,
+      "sha256": "c2b2d0b7138cd28e6d2d793bf8073a08ac4794659dbd1dcb89d43c6ac067af92"
+    },
+    {
+      "path": "reports/mediator_chain_algebra_20260926_initial_checks.py",
+      "bytes": 11303,
+      "sha256": "4d6878e5642bf16d00594608ce3dbfdb895599950580ac622728085fbd01374f"
+    },
+    {
+      "path": "reports/mediator_chain_sources_20260926.md",
+      "bytes": 9946,
+      "sha256": "baee2e363cbd63aaec7025e481954166f9d64b71caedb845a455ea77e50b0373"
+    },
+    {
+      "path": "reports/mediator_chain_sources_20260926_checks.json",
+      "bytes": 3900,
+      "sha256": "161c997a207e8cd5d13374eb0ebd213924e0f31424449fd300b82ae163e89018"
+    },
+    {
+      "path": "reports/mediator_chain_sources_20260926_checks.py",
+      "bytes": 3130,
+      "sha256": "721a5f23ba2d1f1523def3b2b733dfb1159211aaed748bd7154694056a520996"
+    },
+    {
+      "path": "reports/mediator_chain_sources_20260926_sources.json",
+      "bytes": 6432,
+      "sha256": "f0613884de892fd11bce0c8ea5e2c364d881fe5508d8bf5c7b5cdad41639805e"
+    },
+    {
+      "path": "reports/mediator_sugra_response_20260926.md",
+      "bytes": 9339,
+      "sha256": "550fb3b313dae8647b54221305e105ee4c873b242c44b18ddf4540cfec649707"
+    },
+    {
+      "path": "reports/mediator_sugra_response_20260926_150_checks.json",
+      "bytes": 77570,
+      "sha256": "97a989c4c68fb659571124de0a3fb2a5c9837d68e6a51cfc9126be91d8b5b4de"
+    },
+    {
+      "path": "reports/mediator_sugra_response_20260926_checks.json",
+      "bytes": 131370,
+      "sha256": "f38f9c85cabbbbffc7f229625f4888716fd0e815940bc47b2ab3dc1be4e80ee9"
+    },
+    {
+      "path": "reports/mediator_sugra_response_20260926_checks.py",
+      "bytes": 12177,
+      "sha256": "1e096ee7ea82b2dbd28dd9093b0c884b807f38ca26281d05ac28eb793138a96a"
+    },
+    {
+      "path": "reports/mediator_sugra_response_20260926_initial_checks.json",
+      "bytes": 19558,
+      "sha256": "6504ad0589072d06b04d46d59be328a9de75b7de1487bbb8326a3989671e013a"
+    }
+  ],
+  "not_archived": [
+    "manifest and audit excluded from their own inventory",
+    "ignored source fulltexts in build/",
+    "Python caches"
+  ]
+}
