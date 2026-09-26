@@ -1,0 +1,1274 @@
+{
+  "status": "pass",
+  "passed": 227,
+  "total": 227,
+  "scope": "Own tree-level rigid-SUSY polynomial local Higgs-current matching; not full SUGRA, loop matching, or observations.",
+  "precision": {
+    "exact": "sympy rational",
+    "finite_resolvents_digits": 100,
+    "large_direct_solve_digits": 180
+  },
+  "tolerances_changed_after_run": false,
+  "previous_failed_runs": [],
+  "python": "3.12.3",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "script_sha256": "f205d5ae0b6f131d9affba8a86be8f776a0be3afe06143396f2a16b6be7700e4",
+  "input_sha256": {
+    "reports/chain_locality_breaking_20260926.md": "3ecf79b2cb1bc02a85af077a654e7cd942ebd09b6693bcd8c3d30bbb2023c1bf",
+    "experiments/threshold_rg_v01/protocol.md": "b15c33c72c89cf0c093f26d76d6d3193ae72dea903ac299d0f83edc95cc83af1"
+  },
+  "benchmark": {
+    "n": 127,
+    "q": "3",
+    "eta": "1",
+    "digits": 180,
+    "W": "1.73760565471430915956174733487076628892773564e+121",
+    "before_gauging_P0n": "2.26176837952281386100585739546457345655888468e-61",
+    "before_gauging_P00": "1.0",
+    "before_gauging_Pnn": "0.111111111111111111111111111111111111111111111",
+    "tau_equal_local_couplings": "2.26176837952281386100585739546457345655888468e-61",
+    "tau_right_coupling_times_q": "6.78530513856844158301757218639372036967665404e-61",
+    "after_gauging_cross_exact": "0",
+    "after_gauging_endpoint_derivative_coefficient": "2.54448942696316559363158956989764513862874527e-61",
+    "derivative_to_old_contact_ratio_over_s": "1.125",
+    "dimensionless_s_illustration": "1e-90",
+    "derivative_cross_at_illustration": "2.54448942696316559363158956989764513862874527e-151",
+    "illustration_is_observational_bound": false
+  },
+  "finite_resolvents": [
+    {
+      "n": 2,
+      "eta": "1.0",
+      "s": "1e-20",
+      "exact_cross": "1.11111111111111111109602194787379972565175361e-21",
+      "leading_cross": "1.11111111111111111111111111111111111111111111e-21",
+      "relative_error": "1.3580246913580246913e-20"
+    },
+    {
+      "n": 2,
+      "eta": "1.0",
+      "s": "1e-40",
+      "exact_cross": "1.11111111111111111111111111111111111111096022e-41",
+      "leading_cross": "1.11111111111111111111111111111111111111111111e-41",
+      "relative_error": "1.3580246913580246914e-40"
+    },
+    {
+      "n": 2,
+      "eta": "0.1",
+      "s": "1e-20",
+      "exact_cross": "1.11111111111111110986021947873799725792128707e-19",
+      "leading_cross": "1.11111111111111111111111111111111111111111111e-19",
+      "relative_error": "1.1258024691358024679e-18"
+    },
+    {
+      "n": 2,
+      "eta": "0.1",
+      "s": "1e-40",
+      "exact_cross": "1.11111111111111111111111111111111111109860219e-39",
+      "leading_cross": "1.11111111111111111111111111111111111111111111e-39",
+      "relative_error": "1.1258024691358024691e-38"
+    },
+    {
+      "n": 5,
+      "eta": "1.0",
+      "s": "1e-20",
+      "exact_cross": "4.11522633744855967071051962355042094843969532e-23",
+      "leading_cross": "4.11522633744855967078189300411522633744855967e-23",
+      "relative_error": "1.7343731477247709529e-20"
+    },
+    {
+      "n": 5,
+      "eta": "1.0",
+      "s": "1e-40",
+      "exact_cross": "4.11522633744855967078189300411522633744784594e-43",
+      "leading_cross": "4.11522633744855967078189300411522633744855967e-43",
+      "relative_error": "1.7343731477247709529e-40"
+    },
+    {
+      "n": 5,
+      "eta": "0.1",
+      "s": "1e-20",
+      "exact_cross": "4.11522633744855966612719491456736043206288489e-21",
+      "leading_cross": "4.11522633744855967078189300411522633744855967e-21",
+      "relative_error": "1.131091635760131415e-18"
+    },
+    {
+      "n": 5,
+      "eta": "0.1",
+      "s": "1e-40",
+      "exact_cross": "4.11522633744855967078189300411522633740201269e-41",
+      "leading_cross": "4.11522633744855967078189300411522633744855967e-41",
+      "relative_error": "1.1310916357601314163e-38"
+    },
+    {
+      "n": 9,
+      "eta": "1.0",
+      "s": "1e-20",
+      "exact_cross": "5.08052634252908601319746100697466422765208204e-25",
+      "leading_cross": "5.08052634252908601331097901742620535487476503e-25",
+      "relative_error": "2.2343749997176840071e-20"
+    },
+    {
+      "n": 9,
+      "eta": "1.0",
+      "s": "1e-40",
+      "exact_cross": "5.08052634252908601331097901742620535487362985e-45",
+      "leading_cross": "5.08052634252908601331097901742620535487476503e-45",
+      "relative_error": "2.2343749997176840072e-40"
+    },
+    {
+      "n": 9,
+      "eta": "0.1",
+      "s": "1e-20",
+      "exact_cross": "5.08052634252908600753902479460571834416143669e-23",
+      "leading_cross": "5.08052634252908601331097901742620535487476503e-23",
+      "relative_error": "1.1360937496777564583e-18"
+    },
+    {
+      "n": 9,
+      "eta": "0.1",
+      "s": "1e-40",
+      "exact_cross": "5.08052634252908601331097901742620535481704548e-43",
+      "leading_cross": "5.08052634252908601331097901742620535487476503e-43",
+      "relative_error": "1.1360937496777564596e-38"
+    }
+  ],
+  "checks": [
+    {
+      "name": "n1_q3_null_vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_projector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_idempotent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_self_ratio",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_cross_normalization",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_rescaled_right_tau",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_rescaled_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_eta1_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_eta1_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_eta1_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_eta1/3_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_eta1/3_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1/3_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_eta1/3_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1/3_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1/3_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1/3_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q3_eta1/3_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q3_eta1/3_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_null_vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_projector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_idempotent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_self_ratio",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_cross_normalization",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_rescaled_right_tau",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_rescaled_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_eta1_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_eta1_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_eta1_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_eta1/3_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_eta1/3_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1/3_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_eta1/3_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1/3_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1/3_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1/3_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n1_q5/3_eta1/3_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n1_q5/3_eta1/3_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_null_vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_projector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_idempotent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_self_ratio",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_cross_normalization",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_rescaled_right_tau",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_rescaled_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_eta1_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_eta1_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_eta1_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_eta1/3_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_eta1/3_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1/3_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_eta1/3_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1/3_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1/3_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1/3_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q3_eta1/3_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q3_eta1/3_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_null_vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_projector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_idempotent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_self_ratio",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_cross_normalization",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_rescaled_right_tau",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_rescaled_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_eta1_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_eta1_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_eta1_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_eta1/3_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_eta1/3_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1/3_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_eta1/3_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1/3_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1/3_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1/3_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n2_q5/3_eta1/3_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n2_q5/3_eta1/3_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_null_vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_projector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_idempotent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_self_ratio",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_cross_normalization",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_rescaled_right_tau",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_rescaled_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_eta1_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_eta1_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_eta1_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_eta1/3_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_eta1/3_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1/3_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_eta1/3_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1/3_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1/3_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1/3_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q3_eta1/3_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q3_eta1/3_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_null_vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_projector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_idempotent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_self_ratio",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_cross_normalization",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_rescaled_right_tau",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_rescaled_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_eta1_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_eta1_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_eta1_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_eta1/3_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_eta1/3_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1/3_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_eta1/3_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1/3_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1/3_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1/3_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n3_q5/3_eta1/3_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n3_q5/3_eta1/3_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_null_vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_projector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_idempotent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_self_ratio",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_cross_normalization",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_rescaled_right_tau",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_rescaled_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_eta1_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_eta1_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_eta1_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_eta1/3_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_eta1/3_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1/3_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_eta1/3_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1/3_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1/3_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1/3_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q3_eta1/3_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q3_eta1/3_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_null_vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_projector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_idempotent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_self_ratio",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_cross_normalization",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_rescaled_right_tau",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_rescaled_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_eta1_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_eta1_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_eta1_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_eta1/3_square_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_eta1/3_determinant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1/3_derivative_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_eta1/3_derivative_end",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1/3_site_end_cross",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1/3_site_left_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1/3_site_right_self",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "n5_q5/3_eta1/3_finite_momentum_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "n5_q5/3_eta1/3_finite_end_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quotient_stationary",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "quotient_value",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "quotient_second_jet",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "quotient_no_cross_exact",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "mp_n2_eta1.0_s1e-20_leading",
+      "passed": true,
+      "detail": "1.3580246913580246913e-20"
+    },
+    {
+      "name": "mp_n2_eta1.0_s1e-40_leading",
+      "passed": true,
+      "detail": "1.3580246913580246914e-40"
+    },
+    {
+      "name": "mp_n2_eta0.1_s1e-20_leading",
+      "passed": true,
+      "detail": "1.1258024691358024679e-18"
+    },
+    {
+      "name": "mp_n2_eta0.1_s1e-40_leading",
+      "passed": true,
+      "detail": "1.1258024691358024691e-38"
+    },
+    {
+      "name": "mp_n5_eta1.0_s1e-20_leading",
+      "passed": true,
+      "detail": "1.7343731477247709529e-20"
+    },
+    {
+      "name": "mp_n5_eta1.0_s1e-40_leading",
+      "passed": true,
+      "detail": "1.7343731477247709529e-40"
+    },
+    {
+      "name": "mp_n5_eta0.1_s1e-20_leading",
+      "passed": true,
+      "detail": "1.131091635760131415e-18"
+    },
+    {
+      "name": "mp_n5_eta0.1_s1e-40_leading",
+      "passed": true,
+      "detail": "1.1310916357601314163e-38"
+    },
+    {
+      "name": "mp_n9_eta1.0_s1e-20_leading",
+      "passed": true,
+      "detail": "2.2343749997176840071e-20"
+    },
+    {
+      "name": "mp_n9_eta1.0_s1e-40_leading",
+      "passed": true,
+      "detail": "2.2343749997176840072e-40"
+    },
+    {
+      "name": "mp_n9_eta0.1_s1e-20_leading",
+      "passed": true,
+      "detail": "1.1360937496777564583e-18"
+    },
+    {
+      "name": "mp_n9_eta0.1_s1e-40_leading",
+      "passed": true,
+      "detail": "1.1360937496777564596e-38"
+    },
+    {
+      "name": "n127_direct_square_endpoint_cross",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "n127_direct_square_endpoint_self",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "n127_local_tau_normalization",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

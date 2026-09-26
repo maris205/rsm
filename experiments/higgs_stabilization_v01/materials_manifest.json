@@ -1,0 +1,275 @@
+{
+  "created_utc": "2026-09-26T07:18:57.016408+00:00",
+  "stage": "higgs_stabilization_v01",
+  "baseline_git_commit": "0fe84705869a46277fa4c538f54e06e111428636",
+  "material_type": "Conditional theoretical derivation and deterministic numerical audit.",
+  "question": "Can either of two specified Higgs stabilizations preserve the actual local endpoint restoration channel?",
+  "input": "Prior chain charges; canonical paired Higgs fields; stated polynomial or extra-gauge extensions and local sources.",
+  "output": "Minimum operator degree, free multiplet masses, current matching, finite-momentum kernel and restricted finite-F stationarity.",
+  "authorship": "AI-assisted internal derivations and independent implementations; no external peer review.",
+  "source_read_record": "reports/higgs_phase_operators_20260926_sources.json",
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.5"
+  },
+  "limitations": [
+    "No universal no-go for all Higgs or UV completions.",
+    "The all-heavy free spectrum is at F=D=0; full broken-SUSY Hessian and SUGRA remain open.",
+    "Finite-F zero clock response is confined to W=fX, X=Za=0 and no clock F on a smooth rigid branch.",
+    "Hidden self-response persists; the prior threshold force budget is not inherited.",
+    "No observed constant variation, new cosmic trajectory, or derivation of 1/ln²t from Riemann structure."
+  ],
+  "retained_failures": [
+    "Main NumPy-bool JSON serialization failure, original code and log.",
+    "Independent syntax failure plus initial3262/4087 output comparison caused by exact-vs-float log-grid inputs.",
+    "Phase-operator initial265/266 SymPy variable-assumption comparison failure.",
+    "Extra-gauge initial634/635 expanded-vs-factored structural comparison failure.",
+    "Physical gap failures and zero local cross contact are results, not repaired tests."
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 36655,
+      "sha256": "25b6ec0956478c318d4cb98609f3a24f531d41aaa7bd4c796ded5d7d6d8a3724"
+    },
+    {
+      "path": "RESEARCH_DIRECTION.md",
+      "bytes": 55472,
+      "sha256": "ed514c450de919f9a801ca69168708dc1036d88e6a1cac900b3d14d0a810a9c8"
+    },
+    {
+      "path": "WORK_PLAN.md",
+      "bytes": 50107,
+      "sha256": "5d2877e75465af73c3425ad5ca29d9bfdfa6d9271bcd0e7a3e6fdf0d40f08f5c"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/README.md",
+      "bytes": 1941,
+      "sha256": "0ee312aa619fe2bdb1ec45bbd2785d2a65c7aafc31623e4a9be39fc79fb2de14"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/code/audit_archive.py",
+      "bytes": 8811,
+      "sha256": "d76d67ac822f969aa2990fb9dcacbcfa60d0d0196d9a91a3fc43d2d5fec49f20"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/code/independent_check.py",
+      "bytes": 11822,
+      "sha256": "3853c53b142023eb877f4e07794bb74bbe4ef1b64c7bbe00ced0033cb337d536"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/code/independent_initial_grid_check.py.txt",
+      "bytes": 10665,
+      "sha256": "eb0b7d55cd17fcbd737ab754969afb627eb107a43861cf95371fd15aa9a4b97e"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/code/independent_initial_syntax_failure.py.txt",
+      "bytes": 10666,
+      "sha256": "d5316e9d3c343514d1989a7c0f6196c4ad2fb7147dd42619ca10f2173fbd2a7f"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/code/plot_results.py",
+      "bytes": 4156,
+      "sha256": "8aa67602cbe0d66bdeca66d9cf54dd4f89830040e1ec639488bfe56007d9fbe4"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/code/run_stabilization.py",
+      "bytes": 7453,
+      "sha256": "74e5bb06b033175694c7e89ef21776872bf6055f36961bc97309e0f5df098d9e"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/code/run_stabilization_initial.py",
+      "bytes": 7447,
+      "sha256": "27d3791278569947aa0840be3c08c443dff263431ff34415b915a475a3ce13ca"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.pdf",
+      "bytes": 35480,
+      "sha256": "ab20cecdb379e0a472e1733b68516a943ac12e8eb69e0c61343d5efcd47d5998"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.png",
+      "bytes": 295443,
+      "sha256": "f56a6d1a2099fa0bf680a9ae13f9e3018517ec5d95deb5e68f2de8f04da0ef27"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/logs/independent_check.log",
+      "bytes": 138,
+      "sha256": "c35fbdf4a5dad1155c3160c026de936539837e74fa9e0bc650eb6daeb88a9d30"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/logs/independent_initial_comparison_failure.log",
+      "bytes": 6136,
+      "sha256": "4d8c941fde7f73b719278462e4deddbb81f62b00fb34109fff44d42f48223926"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/logs/independent_initial_syntax_failure.log",
+      "bytes": 279,
+      "sha256": "52a033d8c3d46264d11ff10f502f98b7454d94b8e3bfb43ddf9a8a393388a26a"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/logs/main_initial_failure.log",
+      "bytes": 1897,
+      "sha256": "9e264e61136a7306bb9711f19ddb6161be11977fa8878084df39a73192378f2f"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/logs/main_run.log",
+      "bytes": 3346,
+      "sha256": "fb41bf146fc39ef600f770284f0ab6c0466f72541d3aa5bd230c28c80785b9a5"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/logs/plot_run.log",
+      "bytes": 45,
+      "sha256": "322bdc2bf41ad44a9f764de256bad527c491ad7ea301789450645e954366e13d"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/protocol.md",
+      "bytes": 3009,
+      "sha256": "816bc1cd9dd555755fe1ef863581e077304c1937804f4279af62e4a0b7114ee1"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/reports/independent_results_cn.md",
+      "bytes": 6085,
+      "sha256": "0440b63cfabbee5131aad24064caf126fdab0270222e1169c83c5e573caa2a77"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/reports/results_cn.md",
+      "bytes": 13750,
+      "sha256": "ab4a1cca16ed8a6cfacc71a44f4756b1ad7130d6a067634dea5585dec38d9917"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/results/gauge_scan.csv",
+      "bytes": 15676,
+      "sha256": "fc6592eefa986686cd4b7693f4a59a614922ba804102c9aa4f108db711987393"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/results/independent_comparison.json",
+      "bytes": 35432,
+      "sha256": "bfab491e1bb6d60f1cb8d305ba3ad6a643119fca0336879ee9051eab96b863ac"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/results/independent_failure_20260926T071405952237Z.json",
+      "bytes": 461552,
+      "sha256": "e63c7d238b3682a8c16cc199392111d59b8e9b3973e46370713502018b2c6cbe"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/results/momentum_profile.csv",
+      "bytes": 138552,
+      "sha256": "64269e155155088d77fe202ec0840a944f0478d69abab7ce995f79f69d964185"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/results/phase_lifting.csv",
+      "bytes": 19073,
+      "sha256": "8a6c5dc9ac3c1cfa33b66078296cc066f786d5ba20872b284e7c796cd67ce851"
+    },
+    {
+      "path": "experiments/higgs_stabilization_v01/results/summary.json",
+      "bytes": 27271,
+      "sha256": "71271c1f324ca67d5d5bea115dd2d2be4c1c6af82a6e77d06dde336a9680459b"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/protocol.md",
+      "bytes": 4181,
+      "sha256": "b15c33c72c89cf0c093f26d76d6d3193ae72dea903ac299d0f83edc95cc83af1"
+    },
+    {
+      "path": "experiments/threshold_rg_v01/results/inputs.json",
+      "bytes": 3239,
+      "sha256": "1da11be8fe0b52dd61321d9d5953fa0fad8a1526100ee1139635e3936705097b"
+    },
+    {
+      "path": "reports/chain_locality_breaking_20260926.md",
+      "bytes": 11064,
+      "sha256": "3ecf79b2cb1bc02a85af077a654e7cd942ebd09b6693bcd8c3d30bbb2023c1bf"
+    },
+    {
+      "path": "reports/higgs_extra_gauge_20260926.md",
+      "bytes": 10360,
+      "sha256": "a629795663cbd0baa453821558b7265381bb22278baba9899a6cded47cacbcd8"
+    },
+    {
+      "path": "reports/higgs_extra_gauge_20260926_checks.json",
+      "bytes": 66105,
+      "sha256": "7c04ef7e2602a05c7f6751003a85743b6367738058c499d13308c5d2c983269d"
+    },
+    {
+      "path": "reports/higgs_extra_gauge_20260926_checks.py",
+      "bytes": 13890,
+      "sha256": "94488aab031141b1bd062d210c33dcf0f9e2e6ea5dee04f9613983e434a4df06"
+    },
+    {
+      "path": "reports/higgs_extra_gauge_20260926_initial_checks.json",
+      "bytes": 68661,
+      "sha256": "de767743d5adffdc8527d8bb2658cc7eed7e4632827a55415b283ea480fd790f"
+    },
+    {
+      "path": "reports/higgs_finite_auxiliary_20260926.md",
+      "bytes": 8133,
+      "sha256": "662a7530b488d5e740cab8bdf4f559a74e9d56a61f26d9015a3bf078be2e99dd"
+    },
+    {
+      "path": "reports/higgs_finite_auxiliary_20260926_checks.json",
+      "bytes": 140875,
+      "sha256": "721c9c539bee7e4d8cc8ddb9fcf91d0718f987b16075eaa13c65b6347c3a1c87"
+    },
+    {
+      "path": "reports/higgs_finite_auxiliary_20260926_checks.py",
+      "bytes": 8234,
+      "sha256": "248c4e5a2cd9403a7e1c5015e3445b8f773cf5d3e26c3a8d6af031d6be9f9fa8"
+    },
+    {
+      "path": "reports/higgs_local_currents_20260926.md",
+      "bytes": 11382,
+      "sha256": "dae3202c809797c3640e3c6c155610c08234ab1a2d54459f2e67875f4924ccb7"
+    },
+    {
+      "path": "reports/higgs_local_currents_20260926_checks.json",
+      "bytes": 27739,
+      "sha256": "7a7d1b9ab1fbcbfd355499fff587e2c7e3cdf9e919ba13cd39f3ae7ce4c0b669"
+    },
+    {
+      "path": "reports/higgs_local_currents_20260926_checks.py",
+      "bytes": 6325,
+      "sha256": "f205d5ae0b6f131d9affba8a86be8f776a0be3afe06143396f2a16b6be7700e4"
+    },
+    {
+      "path": "reports/higgs_phase_operators_20260926.md",
+      "bytes": 11448,
+      "sha256": "43b4b1588355df0f05a0c6e162a84fab58669102be4a8f747004de0416b8177b"
+    },
+    {
+      "path": "reports/higgs_phase_operators_20260926_checks.json",
+      "bytes": 30860,
+      "sha256": "5aa79a35cd557a22c46521f0abe65df47f81a6d073524d2da4b388a39349e4da"
+    },
+    {
+      "path": "reports/higgs_phase_operators_20260926_checks.py",
+      "bytes": 8504,
+      "sha256": "ccc54b909300368c806054867d7ec29dc979ca7de6794e5dcd1acc5730f483b6"
+    },
+    {
+      "path": "reports/higgs_phase_operators_20260926_initial_checks.json",
+      "bytes": 30167,
+      "sha256": "92e0b5ec05fe9f96ec7edf26c90d5b58081b37b4068b492eb0597cbe48a1ad1b"
+    },
+    {
+      "path": "reports/higgs_phase_operators_20260926_initial_checks.py",
+      "bytes": 8130,
+      "sha256": "fdad072f8e843f5a15d84de2433293af659990e76e64704cd3a2a1be1dd4e411"
+    },
+    {
+      "path": "reports/higgs_phase_operators_20260926_sources.json",
+      "bytes": 3797,
+      "sha256": "0cf39c2b359c295277b0816145a3fb19709e4b71937c4fdd15718391154facca"
+    }
+  ],
+  "exclusions": [
+    "manifest/audit self-reference",
+    "ignored source caches in build/",
+    "Python caches"
+  ]
+}

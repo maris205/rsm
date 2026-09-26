@@ -1,0 +1,230 @@
+#!/usr/bin/env python3
+"""Independent CSV audit. Does not read or import run_stabilization.py."""
+import os
+os.environ['OPENBLAS_NUM_THREADS'] = '1'
+from pathlib import Path
+import csv
+import hashlib
+import json
+import platform
+import sys
+from datetime import datetime, timezone
+import numpy as np
+import mpmath as mp
+
+BASE = Path(__file__).resolve().parents[1]
+ROOT = BASE.parents[1]
+mp.mp.dps = 180
+GROUPS = {}
+FAILURES = []
+CSV_CELLS = {}
+ROW_COUNTS = {}
+
+def digest(p):
+    return hashlib.sha256(p.read_bytes()).hexdigest()
+
+def compare(group, observed, expected, rtol='1e-58', atol='0', label='', exact=False):
+    g = GROUPS.setdefault(group, {'count':0,'passed':0,'max_scaled_error':'0',
+                                 'rtol':str(rtol),'atol':str(atol),'exact':exact,
+                                 'worst_label':''})
+    g['count'] += 1
+    if exact:
+        ok = str(observed) == str(expected)
+        scaled = mp.mpf(0 if ok else 1)
+    else:
+        ob, ex = mp.mpf(str(observed)),mp.mpf(str(expected))
+        delta = abs(ob-ex)
+        denom = max(abs(ex),mp.mpf('1e-300'))
+        scaled = delta/denom
+        ok = bool(delta <= mp.mpf(rtol)*abs(ex)+mp.mpf(atol))
+    if scaled > mp.mpf(g['max_scaled_error']):
+        g['max_scaled_error'],g['worst_label'] = mp.nstr(scaled,30),str(label)
+    g['passed'] += int(ok)
+    if not ok:
+        FAILURES.append({'group':group,'label':str(label),'observed':str(observed),
+                         'expected':str(expected),'scaled_error':mp.nstr(scaled,40),
+                         'rtol':str(rtol),'atol':str(atol),'exact':exact})
+    return ok
+
+def read_csv(stem):
+    with (BASE/'results'/f'{stem}.csv').open(newline='') as f:
+        rows = list(csv.DictReader(f))
+    ROW_COUNTS[stem]=len(rows)
+    CSV_CELLS[stem]=sum(len(r) for r in rows)
+    return rows
+
+def cell(stem, index, row, key, val, rtol='1e-58', atol='0', exact=False):
+    compare(stem+'.'+key,row[key],val,rtol,atol,f'row {index}',exact)
+
+phase = read_csv('phase_lifting')
+expected_phase = [(q,n,r) for q in (2,3,5)
+                  for n in (2,4,8,16,32,64,127,128,160)
+                  for r in ('0.1','0.5','0.9','0.99')]
+compare('grid.phase_rows',len(phase),len(expected_phase),exact=True)
+for i,(row,(q,n,r)) in enumerate(zip(phase,expected_phase)):
+    D=sum(q**a for a in range(n+1))
+    W=sum(q**(2*a) for a in range(n+1))
+    logmu=mp.log10(mp.mpf(W)/2)/2+(D-2)*mp.log10(mp.mpf(r))
+    for key,val in [('q',q),('n',n),('degree_exact',D)]:
+        cell('phase_lifting',i,row,key,val,exact=True)
+    cell('phase_lifting',i,row,'v_over_cutoff',r)
+    cell('phase_lifting',i,row,'log10_degree',mp.log10(D))
+    cell('phase_lifting',i,row,'log10_mu_over_v',logmu,atol='1e-58')
+
+q,n=3,127
+Lambda=mp.mpf('2e12')
+M=Lambda/q
+probe=mp.mpf('1e11')
+abstract_tau=mp.mpf(q)**(1-n)
+abstract_zeta=mp.mpf(q*q)*(1-mp.mpf(q)**(-2*n))/(q*q-1)
+
+def dense_spectrum(eta):
+    # Independent dense singular values of Q, not eigenvalues of main H.
+    Q=np.zeros((n+1,n+1))
+    Q[0,0]=q
+    for a in range(1,n):
+        Q[a,a-1],Q[a,a]=1,-q
+    Q[n,n-1],Q[n,n]=1,float(eta)
+    singular=np.linalg.svd(Q,compute_uv=False)
+    return float(M)*singular[-1],float(M)*singular[0]
+
+gauge=read_csv('gauge_scan')
+compare('grid.gauge_rows',len(gauge),59,exact=True)
+gap_records=[]
+for i,row in enumerate(gauge):
+    eta=mp.mpf('0.1')+i*mp.mpf('0.05')
+    low,high=dense_spectrum(eta)
+    radial1=M/mp.sqrt(2)
+    radial3=3*radial1
+    gap=min(mp.mpf(str(low)),radial3)
+    expected={'q':q,'n':n,'eta':eta,'M_eV':M,'Lambda_eV':Lambda,
+              'lightest_vector_eV':low,'heaviest_vector_eV':high,
+              'radial_mass_lambda_over_g_1_eV':radial1,
+              'radial_mass_lambda_over_g_3_eV':radial3,
+              'all_heavy_gap_lambda_over_g_3_eV':gap,
+              'probe_over_gap_lambda_over_g_3':probe/gap,
+              'gap_criterion_lambda_over_g_3':bool(probe/gap<=mp.mpf('0.1')),
+              'abstract_tau':abstract_tau,'physical_local_tau':0,
+              'physical_local_zeta':q*q,'abstract_zeta':abstract_zeta,
+              'physical_source_h2':eta**-2}
+    for key,val in expected.items():
+        if key in ('q','n','gap_criterion_lambda_over_g_3','physical_local_tau','physical_local_zeta'):
+            cell('gauge_scan',i,row,key,val,exact=True)
+        elif key in ('abstract_tau','abstract_zeta'):
+            cell('gauge_scan',i,row,key,val)
+        else:
+            cell('gauge_scan',i,row,key,val,rtol='2e-12')
+    gap_records.append({'eta':str(eta),'dense_svd_lightest_vector_eV':str(low),
+                        'dense_svd_heaviest_vector_eV':str(high),
+                        'all_heavy_gap_eV':mp.nstr(gap,40),
+                        'ratio':mp.nstr(probe/gap,40),
+                        'passes':expected['gap_criterion_lambda_over_g_3']})
+
+def thomas_link_resolvent(eta,s):
+    # L=Q Q^T is tridiagonal in link space; this solves (L+sI)x=e_right.
+    # Its first off-diagonal has the opposite sign to the remainder.
+    d=[mp.mpf(q*q)+s]+[mp.mpf(q*q+1)+s]*(n-1)+[1+eta*eta+s]
+    off=[mp.mpf(q)]+[-mp.mpf(q)]*(n-1)
+    rhs=[mp.mpf(0)]*n+[mp.mpf(1)]
+    for a in range(1,n+1):
+        t=off[a-1]/d[a-1]
+        d[a]-=t*off[a-1]
+        rhs[a]-=t*rhs[a-1]
+    x=[mp.mpf(0)]*(n+1)
+    x[n]=rhs[n]/d[n]
+    for a in range(n-1,-1,-1):
+        x[a]=(rhs[a]-off[a]*x[a+1])/d[a]
+    return -s*x[0]/q
+
+momentum=read_csv('momentum_profile')
+compare('grid.momentum_rows',len(momentum),393,exact=True)
+momentum_max=[]
+for i,row in enumerate(momentum):
+    ei,si=divmod(i,131)
+    eta=(mp.mpf('0.5'),mp.mpf(1),mp.mpf(2))[ei]
+    s=mp.power(10,-12+mp.mpf(si)/10)
+    cross=thomas_link_resolvent(eta,s)
+    expected={'eta':eta,'s':s,'p_over_M':mp.sqrt(s),'local_cross':cross,
+              'local_tau':q*q*cross,'ratio_to_abstract_static':q*q*cross/abstract_tau}
+    for key,val in expected.items():
+        cell('momentum_profile',i,row,key,val)
+    momentum_max.append(expected['ratio_to_abstract_static'])
+
+# Numerical algorithm controls independent of the CSV: direct dense inversion
+# at small n is safe and checks the signs used in the link-space Thomas solve.
+for small_n in (2,5):
+    nn=n
+    n=small_n
+    for eta in (mp.mpf('0.5'),mp.mpf(2)):
+        s=mp.mpf('0.125')
+        Q=mp.zeros(n+1)
+        Q[0,0]=q
+        for a in range(1,n):Q[a,a-1],Q[a,a]=1,-q
+        Q[n,n-1],Q[n,n]=1,eta
+        H=Q.T*Q
+        aa=mp.matrix([1]+[0]*n)
+        bb=mp.matrix([0]*(n-1)+[1,eta])
+        direct=(aa.T*(H+s*mp.eye(n+1))**-1*bb)[0]
+        compare('algorithm.thomas_direct',thomas_link_resolvent(eta,s),direct,
+                rtol='1e-150',label=f'n{n} eta{eta}')
+    n=nn
+
+summary=json.loads((BASE/'results'/'summary.json').read_text())
+b=summary['benchmark']
+D=sum(q**a for a in range(n+1))
+W=sum(q**(2*a) for a in range(n+1))
+logpref=mp.log(mp.mpf(W)/2)/2
+tauold=(q-mp.mpf(1)/q)/(mp.mpf(q)**n-mp.mpf(q)**-n)
+bench_expect={'q':q,'n':n,'Lambda_eV':Lambda,'M_eV':M,'original_tau':tauold,
+              'abstract_tau_after_gauging':abstract_tau,
+              'abstract_enhancement':abstract_tau/tauold,
+              'physical_local_tau':0,'physical_local_zeta':q*q,
+              'abstract_zeta':abstract_zeta,'degree_exact':D,
+              'degree_scientific':D,
+              'log10_mu_over_v_at_ratio_0p9':mp.log10(mp.mpf(W)/2)/2+(D-2)*mp.log10(mp.mpf('0.9')),
+              'one_minus_ratio_for_leading_mu_equal_v':-mp.expm1(-logpref/(D-2)),
+              'shared_left_row_coefficient_for_old_site_source':mp.mpf(q)**-n,
+              'radial_mass_lambda_over_g_3_eV':3*M/mp.sqrt(2)}
+for key,val in bench_expect.items():
+    compare('summary.'+key,b[key],val,exact=key in ('q','n','physical_local_tau','physical_local_zeta','degree_exact'))
+for key,val in ROW_COUNTS.items():compare('summary.row_counts.'+key,summary['row_counts'][key],val,exact=True)
+compare('summary.check_count_consistency',summary['checks_passed'],summary['check_count'],exact=True)
+for bm in b['eta_benchmarks']:
+    i=round((float(bm['eta'])-0.1)/0.05)
+    for key,ob in bm.items():
+        compare('summary.eta_benchmark.'+key,ob,gauge[i][key],exact=True)
+
+paths=[BASE/'protocol.md',BASE/'results'/'phase_lifting.csv',
+       BASE/'results'/'gauge_scan.csv',BASE/'results'/'momentum_profile.csv',
+       BASE/'results'/'summary.json',
+       ROOT/'reports'/'higgs_local_currents_20260926.md',
+       ROOT/'reports'/'higgs_local_currents_20260926_checks.json']
+total=sum(g['count'] for g in GROUPS.values())
+passed=sum(g['passed'] for g in GROUPS.values())
+result={'status':'pass' if not FAILURES else 'fail','checks_total':total,'checks_passed':passed,
+        'row_counts':ROW_COUNTS,'rows_total':sum(ROW_COUNTS.values()),
+        'csv_cells':CSV_CELLS,'csv_cells_total':sum(CSV_CELLS.values()),
+        'comparison_group_count':len(GROUPS),'comparison_groups':GROUPS,
+        'failures':FAILURES,'independence':'No main code read or import; dense Q singular values and link-space Thomas solve independently reconstruct the supplied output schemas.',
+        'precision':{'phase_and_momentum_digits':180,'spectrum':'numpy dense SVD float64'},
+        'tolerances':{'CSV_high_precision_relative':'1e-58','phase_log_absolute':'1e-58',
+                      'spectrum_and_double_outputs_relative':'2e-12','direct_resolvent_relative':'1e-150'},
+        'python':platform.python_version(),'numpy':np.__version__,'mpmath':mp.__version__,
+        'input_hashes':{str(p.relative_to(ROOT)):digest(p) for p in paths},
+        'script_sha256':digest(Path(__file__)),
+        'main_implementation_not_read':True,
+        'dense_svd_gap_records':gap_records,
+        'selected_results':{'eta_values_passing_gap':[x['eta'] for x in gap_records if x['passes']],
+                            'largest_sampled_momentum_to_abstract_ratio':mp.nstr(max(momentum_max),45)},
+        'failure_history_files':[str(p.relative_to(BASE)) for p in sorted((BASE/'results').glob('independent_failure_*.json'))],
+        'scope':'Deterministic leading-EFT checks, not full broken-SUSY/SUGRA matching and not observations.'}
+if FAILURES:
+    stamp=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
+    fp=BASE/'results'/f'independent_failure_{stamp}.json'
+    fp.write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
+    result['failure_history_files'].append(str(fp.relative_to(BASE)))
+(BASE/'results'/'independent_comparison.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
+print(json.dumps({k:result[k] for k in ('status','checks_total','checks_passed','rows_total','csv_cells_total','comparison_group_count')},ensure_ascii=False))
+if FAILURES:
+    print(json.dumps(FAILURES[:12],indent=2,ensure_ascii=False))
+    sys.exit(1)

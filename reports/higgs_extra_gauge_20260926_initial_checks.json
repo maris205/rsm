@@ -1,0 +1,3182 @@
+{
+  "scope": "Independent canonical rigid supersymmetric F=D=0 tree completion; no full SUGRA, finite-F spectrum, or loop threshold claim.",
+  "date": "2026-09-26",
+  "total": 635,
+  "passed": 634,
+  "failed": [
+    {
+      "name": "canonical_W_quadratic_radial_singlet_mass",
+      "passed": false
+    }
+  ],
+  "method": "Exact rational matrices; 180-digit full augmented tridiagonal solves; independent dense/tridiagonal spectra; complete quadratic canonical multiplet spectrum.",
+  "inputs": {
+    "q": 3,
+    "n_old": 127,
+    "Lambda_eV": "2e12",
+    "M_eV": "666666666666.666666666666666666666666666666667",
+    "f": "0.111111111111111111111111111111111111111111111",
+    "old_tau": "6.78530513856844158301757218639372036967665404e-61",
+    "new_abstract_tau": "7.6334682808894967808947687096929354158862358e-61",
+    "fixed_original_Lambda_left_multiplier": "1.0",
+    "fixed_original_Lambda_cross_multiplier": "1.125",
+    "fixed_original_Lambda_right_multiplier": "1.125",
+    "normalized_new_right_multiplier": "1.125",
+    "eta_values": [
+      "0.5",
+      "1",
+      "2"
+    ],
+    "lambda_over_g_for_radial_example": 1
+  },
+  "small_exact_cases": [
+    {
+      "q": 2,
+      "n": 2,
+      "eta": "1/2"
+    },
+    {
+      "q": 2,
+      "n": 2,
+      "eta": "1"
+    },
+    {
+      "q": 2,
+      "n": 2,
+      "eta": "2"
+    },
+    {
+      "q": 2,
+      "n": 3,
+      "eta": "1/2"
+    },
+    {
+      "q": 2,
+      "n": 3,
+      "eta": "1"
+    },
+    {
+      "q": 2,
+      "n": 3,
+      "eta": "2"
+    },
+    {
+      "q": 2,
+      "n": 5,
+      "eta": "1/2"
+    },
+    {
+      "q": 2,
+      "n": 5,
+      "eta": "1"
+    },
+    {
+      "q": 2,
+      "n": 5,
+      "eta": "2"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "eta": "1/2"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "eta": "1"
+    },
+    {
+      "q": 3,
+      "n": 2,
+      "eta": "2"
+    },
+    {
+      "q": 3,
+      "n": 3,
+      "eta": "1/2"
+    },
+    {
+      "q": 3,
+      "n": 3,
+      "eta": "1"
+    },
+    {
+      "q": 3,
+      "n": 3,
+      "eta": "2"
+    },
+    {
+      "q": 3,
+      "n": 5,
+      "eta": "1/2"
+    },
+    {
+      "q": 3,
+      "n": 5,
+      "eta": "1"
+    },
+    {
+      "q": 3,
+      "n": 5,
+      "eta": "2"
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "eta": "1/2"
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "eta": "1"
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "eta": "2"
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "eta": "1/2"
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "eta": "1"
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "eta": "2"
+    },
+    {
+      "q": 5,
+      "n": 5,
+      "eta": "1/2"
+    },
+    {
+      "q": 5,
+      "n": 5,
+      "eta": "1"
+    },
+    {
+      "q": 5,
+      "n": 5,
+      "eta": "2"
+    }
+  ],
+  "spectra": [
+    {
+      "eta": "0.5",
+      "site_count_old": 127,
+      "gauge_count_new": 128,
+      "lambda_min_180digits": "0.2214285714285714285714285714285714285714285714285714285714285714285714285714285714285714285714285714285714285714285714306548193990591940013941833920315258531353",
+      "lambda_max": 15.998193062352481,
+      "analytic_lower_bound": "0.2095077724951005826112721534383365134351",
+      "weyl_upper_bound": "16.4981929121772253206945938979970331811",
+      "mass_min_eV": "313707982704.7734096254317486535006305905",
+      "mass_max_eV": 2666516084277.8003,
+      "chiral_mass_at_lambda_over_g_1_eV": "471404520791.0316829338962414032326928566",
+      "all_dimensionless_eigenvalues": [
+        0.22142857142857142,
+        4.001807701421798,
+        4.007229712269767,
+        4.016262753024019,
+        4.028901360256879,
+        4.045137890282117,
+        4.064962524246367,
+        4.088363274645963,
+        4.115325993248771,
+        4.14583438039762,
+        4.17986999566973,
+        4.217412269865106,
+        4.258438518296297,
+        4.30292395535194,
+        4.35084171030721,
+        4.402162844355518,
+        4.456856368837284,
+        4.514889264643485,
+        4.576226502773495,
+        4.640831066028704,
+        4.708663971825151,
+        4.77968429611002,
+        4.853849198368241,
+        4.931113947706485,
+        5.011431950002652,
+        5.094754776109446,
+        5.1810321911007495,
+        5.2702121845495284,
+        5.362241001825572,
+        5.45706317640089,
+        5.554621563149869,
+        5.654857372630414,
+        5.757710206331382,
+        5.86311809287055,
+        5.971017525126351,
+        6.081343498285418,
+        6.194029548787022,
+        6.309007794144321,
+        6.426208973621348,
+        6.545562489743651,
+        6.666996450619594,
+        6.790437713048383,
+        6.915811926390083,
+        7.043043577172124,
+        7.172056034406024,
+        7.302771595587445,
+        7.43511153335204,
+        7.5689961427590315,
+        7.704344789173896,
+        7.841075956721081,
+        7.979107297277272,
+        8.118355679975283,
+        8.258737241188339,
+        8.400167434964157,
+        8.542561083877981,
+        8.685832430273413,
+        8.829895187859695,
+        8.97466259363388,
+        9.120047460096082,
+        9.265962227725966,
+        9.412319017688366,
+        9.559029684735851,
+        9.706005870276021,
+        9.853159055571142,
+        10.000400615037744,
+        10.147641869613707,
+        10.29479414016048,
+        10.441768800867804,
+        10.588477332628713,
+        10.734831376352263,
+        10.88074278618171,
+        11.0261236825859,
+        11.170886505291655,
+        11.314944066025138,
+        11.458209601030259,
+        11.600596823332337,
+        11.742019974715447,
+        11.882393877381974,
+        12.021633985263193,
+        12.159656434949873,
+        12.296378096212115,
+        12.431716622077943,
+        12.565590498440425,
+        12.697919093163328,
+        12.828622704655752,
+        12.957622609886371,
+        13.084841111808352,
+        13.210201586166331,
+        13.33362852765724,
+        13.455047595417115,
+        13.574385657806506,
+        13.691570836467427,
+        13.80653254962538,
+        13.91920155461024,
+        14.029509989570467,
+        14.137391414355482,
+        14.242780850541507,
+        14.345614820576866,
+        14.445831386023038,
+        14.543370184868518,
+        14.638172467892943,
+        14.730181134059602,
+        14.819340764915005,
+        14.905597657974774,
+        14.988899859075755,
+        15.069197193674864,
+        15.146441297075807,
+        15.220585643565467,
+        15.291585574442404,
+        15.359398324920587,
+        15.423983049892168,
+        15.485300848533747,
+        15.543314787741329,
+        15.597989924379885,
+        15.649293326334012,
+        15.697194092347182,
+        15.741663370637454,
+        15.782674376278553,
+        15.820202407335813,
+        15.854224859747248,
+        15.88472124094082,
+        15.911673182179662,
+        15.93506444962789,
+        15.95488095413023,
+        15.971110759699698,
+        15.983744090708106,
+        15.99277333777515,
+        15.998193062352481
+      ],
+      "old_current_cross": "8.48163142321055197877196523299215046209581755e-62",
+      "old_current_self_left": "0.111111111111111111111111111111111111111111111",
+      "old_current_self_right": "0.125",
+      "physical_right_cross": "0.0",
+      "physical_right_self": "1.0",
+      "direct_solve_max_residual": "9.03719949414e-182",
+      "semi_infinite_lambda_formula": "0.221428571428571428571428571428571428571428571",
+      "finite_chain_lambda_difference": "2.0833908276306225728227548206029544e-120"
+    },
+    {
+      "eta": "1",
+      "site_count_old": 127,
+      "gauge_count_new": 128,
+      "lambda_min_180digits": "0.8750000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000671752658489027449423415814422455661657675050788946",
+      "lambda_max": 15.998193553705866,
+      "analytic_lower_bound": "0.7901234567901234567901234567901234567901",
+      "weyl_upper_bound": "16.9981929121772253206945938979970331811",
+      "mass_min_eV": "623609564462.3235642639581220527582169593",
+      "mass_max_eV": 2666516125226.2275,
+      "chiral_mass_at_lambda_over_g_1_eV": "471404520791.0316829338962414032326928566",
+      "all_dimensionless_eigenvalues": [
+        0.8750000000000001,
+        4.001809912827051,
+        4.007238538545829,
+        4.01628253994239,
+        4.028936358557248,
+        4.04519221998409,
+        4.065040141196545,
+        4.088467939816882,
+        4.1154612452231305,
+        4.146003511378354,
+        4.18007603125808,
+        4.217657952749113,
+        4.258726295895004,
+        4.303255971369562,
+        4.351219800069527,
+        4.4025885337297925,
+        4.457330876478694,
+        4.51541350726585,
+        4.576801103110213,
+        4.641456363130472,
+        4.709340033333432,
+        4.780410932147822,
+        4.854625976701116,
+        4.931940209845048,
+        5.012306827941709,
+        5.095677209426404,
+        5.182000944166004,
+        5.271225863632552,
+        5.363298071911576,
+        5.458161977563167,
+        5.555760326351692,
+        5.656034234857042,
+        5.758923224977137,
+        5.864365259327723,
+        5.972296777541909,
+        6.082652733468131,
+        6.195366633261715,
+        6.3103705743617216,
+        6.427595285341622,
+        6.54697016661933,
+        6.668423332009466,
+        6.791881651098263,
+        6.917270792419411,
+        7.0445152674071485,
+        7.173538475101344,
+        7.304262747577757,
+        7.436609396075481,
+        7.570498757792522,
+        7.70585024331949,
+        7.842582384680688,
+        7.980612883951256,
+        8.119858662418403,
+        8.260235910254478,
+        8.401660136669138,
+        8.544046220507706,
+        8.687308461262486,
+        8.83136063046371,
+        8.976116023416665,
+        9.12148751125132,
+        9.267387593250948,
+        9.413728449425973,
+        9.560421993299393,
+        9.707379924870116,
+        9.854513783720542,
+        10.00173500223481,
+        10.148954958894151,
+        10.296085031615924,
+        10.443036651102883,
+        10.58972135416951,
+        10.736050837012165,
+        10.881937008390075,
+        11.02729204268426,
+        11.1720284328017,
+        11.316059042892107,
+        11.45929716084503,
+        11.601656550535031,
+        11.743051503782972,
+        11.883396892001707,
+        12.022608217494625,
+        12.160601664375816,
+        12.297294149080852,
+        12.432603370437471,
+        12.566447859265839,
+        12.698747027478115,
+        12.829421216647763,
+        12.958391746019034,
+        13.085580959927604,
+        13.210912274603707,
+        13.334310224329379,
+        13.455700506921993,
+        13.575010028516584,
+        13.692166947619862,
+        13.807100718409405,
+        13.919742133251836,
+        14.030023364414347,
+        14.137878004944442,
+        14.243241108693168,
+        14.346049229457805,
+        14.44624045922033,
+        14.543754465458665,
+        14.638532527508199,
+        14.730517571951669,
+        14.81965420701611,
+        14.90588875595612,
+        14.98916928940335,
+        15.06944565666273,
+        15.146669515936587,
+        15.220794363458431,
+        15.29177556151894,
+        15.359570365367137,
+        15.424137948970708,
+        15.485439429619854,
+        15.54343789135988,
+        15.598098407238476,
+        15.64938806035418,
+        15.697275963693498,
+        15.74173327874459,
+        15.782733232876456,
+        15.820251135473036,
+        15.85426439281262,
+        15.884752521683541,
+        15.911697161727954,
+        15.935082086506359,
+        15.954893213276069,
+        15.971118611477866,
+        15.983748509925665,
+        15.992775302694861,
+        15.998193553705866
+      ],
+      "old_current_cross": "8.48163142321055197877196523299215046209581755e-62",
+      "old_current_self_left": "0.111111111111111111111111111111111111111111111",
+      "old_current_self_right": "0.125",
+      "physical_right_cross": "0.0",
+      "physical_right_self": "1.0",
+      "direct_solve_max_residual": "9.03719949414e-182",
+      "semi_infinite_lambda_formula": "0.875",
+      "finite_chain_lambda_difference": "6.7175265848902744942341581442245566e-110"
+    },
+    {
+      "eta": "2",
+      "site_count_old": 127,
+      "gauge_count_new": 128,
+      "lambda_min_180digits": "3.200000000000000000000000000000000000000000000000000000001831376113481450554261249583055906595837373267096028094262896201895953367647119929758168742479223768879",
+      "lambda_max": 15.99819643640484,
+      "analytic_lower_bound": "2.810468765894564822926256955433115413867",
+      "weyl_upper_bound": "17.9981929121772253206945938979970331811",
+      "mass_min_eV": "1192569587999.887838084892623323347325568",
+      "mass_max_eV": 2666516365464.6934,
+      "chiral_mass_at_lambda_over_g_1_eV": "471404520791.0316829338962414032326928566",
+      "all_dimensionless_eigenvalues": [
+        3.2000000000000006,
+        4.001835616744948,
+        4.0073408700919915,
+        4.016510993415696,
+        4.0293381202493945,
+        4.045811393745515,
+        4.0659171063162916,
+        4.089638858366661,
+        4.116957724805868,
+        4.147852419091346,
+        4.1822994465386785,
+        4.220273241071995,
+        4.261746282071778,
+        4.3066891901866615,
+        4.355070802728117,
+        4.406858230498045,
+        4.462016898635318,
+        4.520510574389366,
+        4.582301384739457,
+        4.647349826579857,
+        4.715614771871148,
+        4.7870534697847065,
+        4.861621547488221,
+        4.93927301086542,
+        5.019960246149292,
+        5.103634023181777,
+        5.190243500794303,
+        5.279736234629367,
+        5.372058187588039,
+        5.467153742985768,
+        5.5649657204233405,
+        5.6654353943257725,
+        5.768502515064583,
+        5.874105332554601,
+        5.982180622201695,
+        6.092663713070243,
+        6.2054885181367805,
+        6.320587566497413,
+        6.437892037400231,
+        6.557331795979152,
+        6.678835430571743,
+        6.802330291510145,
+        6.927742531280954,
+        7.054997145956474,
+        7.184018017806164,
+        7.31472795900301,
+        7.447048756345227,
+        7.580901216918754,
+        7.716205214630765,
+        7.852879737548646,
+        7.990842935982755,
+        8.13001217125472,
+        8.270304065096125,
+        8.41163454962519,
+        8.553918917851469,
+        8.697071874660807,
+        8.841007588234609,
+        8.985639741859316,
+        9.130881586083303,
+        9.276645991179874,
+        9.422845499876061,
+        9.569392380308066,
+        9.716198679164984,
+        9.863176274983303,
+        10.010236931555365,
+        10.15729235141556,
+        10.304254229368684,
+        10.451034306025242,
+        10.597544421309099,
+        10.74369656790315,
+        10.889402944599183,
+        11.034576009518396,
+        11.17912853316936,
+        11.322973651310607,
+        11.466024917585266,
+        11.608196355895481,
+        11.749402512484695,
+        11.889558507696101,
+        12.028580087375914,
+        12.166383673890424,
+        12.302886416726,
+        12.438006242641686,
+        12.571661905344214,
+        12.703773034655612,
+        12.834260185144,
+        12.963044884188426,
+        13.090049679448995,
+        13.215198185713943,
+        13.338415131095624,
+        13.459626402547864,
+        13.57875909067749,
+        13.695741533823282,
+        13.81050336137607,
+        13.92297553631408,
+        14.03309039692822,
+        14.140781697712363,
+        14.245984649394217,
+        14.348635958082976,
+        14.4486738635103,
+        14.546038176341884,
+        14.640670314537285,
+        14.732513338736371,
+        14.821511986651199,
+        14.907612706442883,
+        14.99076368906342,
+        15.070914899543244,
+        15.1480181072058,
+        15.22202691479107,
+        15.292896786470688,
+        15.36058507473789,
+        15.425051046156227,
+        15.486255905951678,
+        15.544162821433439,
+        15.59873694422943,
+        15.649945431323154,
+        15.697757464879441,
+        15.742144270847117,
+        15.783079136327544,
+        15.820537425698628,
+        15.854496595484628,
+        15.884936207962923,
+        15.91183794349953,
+        15.935185611606084,
+        15.954965160711577,
+        15.97116468664306,
+        15.983774439810238,
+        15.99278683108964,
+        15.99819643640484
+      ],
+      "old_current_cross": "8.48163142321055197877196523299215046209581755e-62",
+      "old_current_self_left": "0.111111111111111111111111111111111111111111111",
+      "old_current_self_right": "0.125",
+      "physical_right_cross": "0.0",
+      "physical_right_self": "1.0",
+      "direct_solve_max_residual": "9.03719949414e-182",
+      "semi_infinite_lambda_formula": "3.2",
+      "finite_chain_lambda_difference": "1.8313761134814505542612495830559066e-57"
+    }
+  ],
+  "checks": [
+    {
+      "name": "q2_n2_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n2_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n3_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q2_n5_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n2_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n3_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q3_n5_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n2_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n3_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1/2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta1_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_augmented_gram",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_rank",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_gram_determinant",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_all_gauges_broken",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_F_D_quotient_no_modulus",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_complete_schur_inverse",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_old00",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_old0e",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_oldee",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_old0extra",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_normalized_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_source_projector",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_right_complete_response",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_physical_endpoint_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_right_self_one",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_false_omit_extra_changes_cross",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_linear_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_all_cubic_mixed_anomalies",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_Fflat_products",
+      "passed": true
+    },
+    {
+      "name": "q5_n5_eta2_Dflat_equal_pairs",
+      "passed": true
+    },
+    {
+      "name": "canonical_W_quadratic_radial_singlet_mass",
+      "passed": false
+    },
+    {
+      "name": "canonical_chiral_mass_squared",
+      "passed": true
+    },
+    {
+      "name": "canonical_moment_map_real_difference",
+      "passed": true
+    },
+    {
+      "name": "canonical_phase_goldstone",
+      "passed": true
+    },
+    {
+      "name": "canonical_vector_M_equals_2gv",
+      "passed": true
+    },
+    {
+      "name": "full_canonical_fermion_n2_eta0.5",
+      "passed": true
+    },
+    {
+      "name": "full_canonical_real_Higgs_n2_eta0.5",
+      "passed": true
+    },
+    {
+      "name": "physical_degree_balance_n2_eta0.5",
+      "passed": true
+    },
+    {
+      "name": "full_canonical_fermion_n3_eta1.0",
+      "passed": true
+    },
+    {
+      "name": "full_canonical_real_Higgs_n3_eta1.0",
+      "passed": true
+    },
+    {
+      "name": "physical_degree_balance_n3_eta1.0",
+      "passed": true
+    },
+    {
+      "name": "full_canonical_fermion_n5_eta2.0",
+      "passed": true
+    },
+    {
+      "name": "full_canonical_real_Higgs_n5_eta2.0",
+      "passed": true
+    },
+    {
+      "name": "physical_degree_balance_n5_eta2.0",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_00_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_0e_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_0extra_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_ee_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_physical_cross_zero_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_physical_response_old_sites_zero",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_physical_response_extra",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_residual_left",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_residual_right",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_residual_complete_right",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_spectrum_independent_dense",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_eigenvector_residual",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_all_massive",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_rigorous_lower_bound",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_weyl_upper_bound",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_high_precision_spectral_root",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_lowest_eigenvalue_double_vs_mp",
+      "passed": true
+    },
+    {
+      "name": "full128_eta0.5_surface_mode_finite_correction",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_00_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_0e_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_0extra_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_ee_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_physical_cross_zero_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_physical_response_old_sites_zero",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_physical_response_extra",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_residual_left",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_residual_right",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_residual_complete_right",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_spectrum_independent_dense",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_eigenvector_residual",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_all_massive",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_rigorous_lower_bound",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_weyl_upper_bound",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_high_precision_spectral_root",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_lowest_eigenvalue_double_vs_mp",
+      "passed": true
+    },
+    {
+      "name": "full128_eta1_surface_mode_finite_correction",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_00_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_0e_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_0extra_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_ee_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_physical_cross_zero_180digits",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_physical_response_old_sites_zero",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_physical_response_extra",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_residual_left",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_residual_right",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_residual_complete_right",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_spectrum_independent_dense",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_eigenvector_residual",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_all_massive",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_rigorous_lower_bound",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_weyl_upper_bound",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_high_precision_spectral_root",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_lowest_eigenvalue_double_vs_mp",
+      "passed": true
+    },
+    {
+      "name": "full128_eta2_surface_mode_finite_correction",
+      "passed": true
+    }
+  ],
+  "input_hashes": {
+    "reports/chain_locality_breaking_20260926.md": "3ecf79b2cb1bc02a85af077a654e7cd942ebd09b6693bcd8c3d30bbb2023c1bf",
+    "experiments/threshold_rg_v01/results/inputs.json": "1da11be8fe0b52dd61321d9d5953fa0fad8a1526100ee1139635e3936705097b"
+  },
+  "code_sha256": "701510a321f34d676ac1e7f33f44d3be6bfff00a88775b44f404305bbc494266",
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "mpmath": "1.3.0",
+    "sympy": "1.14.0"
+  },
+  "initial_failures": [],
+  "limitations": [
+    "No generic lower bound on a radiatively generated shortcut.",
+    "The complete local right Higgs current has exact zero cross at p=0 in this square full-rank construction.",
+    "Abstract old-site source matching is not a demonstrated neutral-bulk-modulus gauge-invariant completion.",
+    "Equal canonical vevs, no FI term, global supersymmetry, F=D=0, and tree level are explicit assumptions."
+  ]
+}

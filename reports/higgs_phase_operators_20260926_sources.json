@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-26",
+  "scope": "Bounded primary-source operator/stabilization audit with independent original algebra",
+  "sources": [
+    {
+      "id": "hep-th/0104005v1",
+      "title": "(De)Constructing Dimensions",
+      "authors": "N. Arkani-Hamed, A. G. Cohen, H. Georgi",
+      "url": "https://arxiv.org/html/hep-th/0104005v1",
+      "read_scope_this_turn": "Sections 2–3 and 6; equations 2.1–2.11 and 6.1",
+      "supported_claim": "Specified link representations yield nearest-neighbor vector masses; supersymmetric product constraints pair radial fields with singlets. No protection of this project's neutral bulk current follows.",
+      "cache": "build/higgs_phase_sources/deconstruction.html",
+      "sha256": "cf91fe1d0214761965111b9c593bf239bdf0b4f3b0ae7e602fa3372a93311fec",
+      "bytes": 126058,
+      "full_paper_read_claimed": false,
+      "human_read_attestation": false
+    },
+    {
+      "id": "1610.07962v1",
+      "title": "A Clockwork Theory",
+      "authors": "G. F. Giudice, M. McCullough",
+      "url": "https://arxiv.org/pdf/1610.07962",
+      "read_scope_this_turn": "Introduction, Section 2.1 and beginning of Section 2.2 through equation 2.10 (PDF pages 2–8)",
+      "supported_claim": "Standard clockwork separates a protected zero mode and gears and suppresses its endpoint coupling. Our previous full-rank vector chain and the present accidental Higgs phase are distinct objects.",
+      "cache": "build/higgs_phase_sources/clockwork.pdf",
+      "sha256": "84c6abf89a5dd74167bcb9a060122d5f7543e06a43d1f7c4de9dc32ecaaccb9e",
+      "bytes": 876390,
+      "full_paper_read_claimed": false,
+      "human_read_attestation": false
+    },
+    {
+      "id": "1804.01112; DOI 10.1140/epjc/s10052-018-6528-z",
+      "title": "Axions in a highly protected gauge symmetry model",
+      "authors": "Q. Bonnefoy, E. Dudas, S. Pokorski",
+      "url": "https://link.springer.com/article/10.1140/epjc/s10052-018-6528-z",
+      "read_scope_this_turn": "Introduction and Sections 2.1–2.3, equations 2.1–2.7; additional displayed Section 3 equations not relied upon",
+      "supported_claim": "An abelian quiver can leave an accidental Goldstone mode; the first phase-breaking invariant has exponentially large degree and suppresses its mass for field amplitudes below the cutoff. This is not a proof of the supersymmetric paired-field mass factors derived here.",
+      "cache": "build/higgs_phase_sources/axion_quality.html",
+      "sha256": "15323c8df0c4b39457179d61d738e6c8e61bb73f04f61f111bb0b1001d9d5a3a",
+      "bytes": 590619,
+      "full_paper_read_claimed": false,
+      "human_read_attestation": false
+    }
+  ],
+  "own_derivations": [
+    "Primitive integer-kernel classification and minimum holomorphic degree for the prior exact charge matrix",
+    "Canonical paired-field lifting mass including finite product-radial mixing",
+    "Large-degree numerical suppression at q=3,n=127",
+    "Condition for legitimate additional endpoint U(1) and distinction from neutral-current protection"
+  ],
+  "not_computed": [
+    "A universal quantum-gravity symmetry-breaking coefficient",
+    "Nonperturbative UV completions or all new-field constructions",
+    "Full supergravity vacuum or microscopic endpoint-current matching",
+    "A new observed time dependence or derivation of 1/ln^2(t)"
+  ],
+  "source_access_note": "The publisher page's preprint link resolved to an unrelated record (0902.3070); it was not used. Correct 1804.01112 metadata was checked directly on arXiv. arXiv HTML request for 1610.07962v3 failed; the accessible PDF identified itself as v1 and was read within the stated scope.",
+  "review_disclosure": "AI selected-section review and same-model-family independent algebra check, not external peer review; no author read declaration"
+}

@@ -1,0 +1,5245 @@
+{
+  "scope": "Rigid W=fX branch, X=Z_a=0, W_clock=0, positive Kahler metric. No full-SUGRA or general higher-superderivative null result.",
+  "status": "PASS",
+  "total_checks": 678,
+  "passed_checks": 678,
+  "numerical_stationary_points": 108,
+  "max_stationarity_residual": 5.757451512665288e-15,
+  "max_fixed_source_energy_span": 8.881784197001252e-16,
+  "minimum_clock_metric_schur": 0.6650149870497556,
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.16.1",
+  "sympy": "1.14.0",
+  "script_sha256": "248c4e5a2cd9403a7e1c5015e3445b8f773cf5d3e26c3a8d6af031d6be9f9fa8",
+  "checks": [
+    {
+      "name": "gaussian_n1_eta1/2_overlap",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n1_eta1/2_F_denominator",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n1_eta1/2_D_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_n1_eta1/2_hidden_susceptibility",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n1_eta2_overlap",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n1_eta2_F_denominator",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n1_eta2_D_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_n1_eta2_hidden_susceptibility",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n2_eta1/2_overlap",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n2_eta1/2_F_denominator",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n2_eta1/2_D_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_n2_eta1/2_hidden_susceptibility",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n2_eta2_overlap",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n2_eta2_F_denominator",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n2_eta2_D_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_n2_eta2_hidden_susceptibility",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n3_eta1/2_overlap",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n3_eta1/2_F_denominator",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n3_eta1/2_D_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_n3_eta1/2_hidden_susceptibility",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n3_eta2_overlap",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n3_eta2_F_denominator",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n3_eta2_D_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_n3_eta2_hidden_susceptibility",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n4_eta1/2_overlap",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n4_eta1/2_F_denominator",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n4_eta1/2_D_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_n4_eta1/2_hidden_susceptibility",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n4_eta2_overlap",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n4_eta2_F_denominator",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "gaussian_n4_eta2_D_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gaussian_n4_eta2_hidden_susceptibility",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_X_metric_column_0",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_X_metric_column_1",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_X_metric_column_2",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_X_metric_column_3",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_X_metric_column_4",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_X_metric_column_5",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_X_metric_column_6",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_X_metric_column_7",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_6_0",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_6_1",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_6_2",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_6_3",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_6_4",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_6_5",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_6_6",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_6_7",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_7_0",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_7_1",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_7_2",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_7_3",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_7_4",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_7_5",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_7_6",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_Z_metric_7_7",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_W_derivative_0",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_W_derivative_1",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_W_derivative_2",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_W_derivative_3",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_W_derivative_4",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_W_derivative_5",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_W_derivative_6",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "canonical_W_derivative_7",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 3.7400940819703276e-17
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": 3.740094081970328e-18
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.9983907388251851
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.6020852139652106e-18
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7764525920739155e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": 2.3800837811671556e-18
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.9959906696165858
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 2.6020852139652106e-18
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 6.798810909902849e-17
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": 6.802078899597919e-18
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.974369714411222
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -8.673617379884035e-19
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 4.059651195663847e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": -4.1023158283530687e-17
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.8760789656920936
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 5.204170427930421e-18
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7984884776897e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": 5.487922281225505e-17
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.9468415797581518
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 5.487911495854479e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": -5.489379387073605e-17
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.944419397870659
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 5.486843639180214e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": -5.503504377947167e-17
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.9225063295245194
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 4.3687138512507423e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": 4.4712638376907455e-17
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.8208208277486676
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 2.7047953532579176e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": -1.4452722893434857e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183268,
+        "clock_schur": 0.8101109587292608
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.220446049250313e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.9319966808985134e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": 1.4465153332830554e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.807450435259737
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 4.094269734518475e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": 4.131044628714707e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183268,
+        "clock_schur": 0.7831433841254606
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.3322676295501878e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 5.757451512665288e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": 6.066035227372513e-16
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.6650149870497556
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    },
+    {
+      "name": "nonlinear_n1_eta0.5_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 6.938926179439727e-18
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": -3.4000597701416105e-19
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9995933265463294
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -8.673617379884035e-19
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7763885853696716e-15
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": -3.400073483882908e-19
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9971932995723221
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.0842021724855044e-18
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.7761563459667054e-15
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": -1.9724693071175277e-17
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9755748910713398
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 2.0298100646179894e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": -2.0505226986042507e-17
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.8773437163311419
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.168404344971009e-19
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 4.900784420347904e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": -4.900784420347904e-17
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.9824674751627391
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7763568394002503e-15
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.9800648025690333
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.9583917064521426
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.859227456796244
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.581417665239831e-15
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": 5.562329750502666e-17
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.9147294510900665
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 6.67478293128982e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": 6.677592919867134e-17
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.9122738003207659
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.0542784434932208e-15
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": -4.46935536239661e-17
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.8900012973858304
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 6.642795741423028e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": 6.850464294651224e-17
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.7853853435005091
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta1.0_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 3.4694479661073576e-18
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": -1.2750217962542362e-19
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.9998980527443161
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.6263032587282567e-19
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 2.210033360094316e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": -2.21004332680402e-18
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.9974980330273149
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.0842021724855044e-19
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.5977076805622069e-16
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": -1.5983551683542627e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.9758802387982166
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.0842021724855044e-19
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.7763477404524312e-15
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": -3.588138247183612e-18
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.8776640169052656
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.6263032587282567e-19
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.76415430417793e-15
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": 4.080373855311599e-18
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.9951150815039806
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.0408340855860843e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7804243511410237e-15
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": -2.3122729473176222e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.9927147872412448
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -6.938893903907228e-18
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 3.332903638909423e-16
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": -1.4968019864978834e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.9710859038591912
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.3877787807814457e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.8726283271010761
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -3.469446951953614e-18
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.82479253891772e-15
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": -2.1827094159738706e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350126,
+        "clock_schur": 0.9686518525699972
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.8807671445686494e-15
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": -6.549164649246501e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.9662438489037946
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.7755575615628914e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 9.1239626945886e-16
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": 4.373121713546533e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.9444978284120024
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 9.1239626945886e-16
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": 4.4219981543687754e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.8444484127473602
+      }
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n1_eta2.0_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 2.550045802706603e-18
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": -2.550045802706603e-19
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.999463579608395
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 8.673617379884035e-19
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.77656621113567e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": 5.100115484653459e-19
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.997063549121694
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -8.673617379884035e-19
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.7767546456975478e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": 2.0404995103795424e-18
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.9754448752649185
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.1275702593849246e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.7764196509208762e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": 3.417650551676458e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.8772073163543458
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.734723475976807e-18
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7320935628213504e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": -7.623599131663366e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.9822805265860506
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.0975844562451007e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": 2.7229604216176674e-18
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.9798778008733738
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.220446049250313e-16
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 8.780675649960807e-16
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": 8.177011808382205e-18
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.9582038893549553
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 6.501823193578349e-16
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": 6.596708957181714e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.8590284498685286
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.545597344718811e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.9367036529097535
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.7763568394002505e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 9.635148595623239e-16
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": -1.1019030229448298e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.934272506613458
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.7763568394002505e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.159198008539108e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": 1.1052269470504971e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.9122603977127681
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.143899282171936e-15
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": 2.2492665093859898e-17
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.8097160730315407
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "name": "nonlinear_n2_eta0.5_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 6.80011954028322e-18
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": -1.9125327420911468e-19
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9998644421821098
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.168404344971009e-19
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7763780033798645e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": -1.3600269251324316e-18
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9974644217330217
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.168404344971009e-19
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.7762796379057244e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": -2.2785101905262298e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9758465603670787
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.7763780033798645e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": 2.6313236682646803e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.8776286920428165
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.168404344971009e-19
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7788406561318985e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": 1.7002104450190088e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.9941558250542464
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.3877787807814457e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7668189831507219e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": -3.4005270454183192e-18
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.9917554344227245
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.790955598965855e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": -1.3608380991207625e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.970123954812635
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 3.789385278916708e-16
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": -3.833281846864242e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.8716162613505907
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 2.060364819566951e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": 3.817666998487482e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.9715764836966889
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7763568394002503e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": 4.363675276975565e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.9691698459610669
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 5.271392217466104e-16
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": 2.731320496275974e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.9474414020559785
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 2.224931900201066e-15
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": 8.83275436227764e-17
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.847589202130087
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "nonlinear_n2_eta1.0_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7347239830536788e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": 3.7188134650456033e-20
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.9999660175814387
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.0842021724855044e-19
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 2.2950345769166812e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": 2.295044147048176e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.9975659992930331
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 6.883740339778561e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": 6.886506641082191e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.975948340356608
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -5.421010862427522e-20
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.7507102731685166e-16
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": -1.7684093145857915e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.8777354456122441
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7765367703015607e-15
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": 4.420112039461676e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.9983716938346602
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 6.938893903907228e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.1109678796364743e-16
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": 1.3600482665178385e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.995971623782711
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 6.938893903907228e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.776633656171497e-15
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": 6.802086688657647e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.9743506266736105
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.0408340855860843e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.7796786406552153e-15
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": 8.204672497811404e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.8760589272712326
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -3.469446951953614e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7760015543340523e-15
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": -1.3604871897126167e-18
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.9895506175233324
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.7755575615628914e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.8189910473440132e-15
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": -1.0884487758786087e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.9871495721425194
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 4.5619813472943e-16
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": -1.3614704089547475e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.9655038974695624
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.7755575615628914e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.8445715721102708e-15
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": -4.9353642734089766e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.8667476443048548
+      }
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.7755575615628914e-17
+    },
+    {
+      "name": "nonlinear_n2_eta2.0_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.3600244281101884e-17
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": 8.500145126649387e-20
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.9999403977342661
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 4.336808689942018e-18
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7763294814934887e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": -8.500164660140667e-20
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.9975403789154774
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.734723475976807e-18
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.7764196509208762e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": -1.3688012321951058e-17
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.9759226690528013
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.734723475976807e-18
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.7762730907060824e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": -5.057512373064457e-17
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0072416752866666,
+        "clock_schur": 0.877708520452323
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 5.204170427930421e-18
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 4.3903378249804034e-16
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": 2.7200793591852923e-18
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.9980311696206723
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.0975844562451007e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": 2.7201115761492625e-18
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.2392128910883171,
+        "clock_schur": 0.9956310835713386
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 2.1951689124902017e-16
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": 2.7208914241530364e-18
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.9740093289488935
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 2.3904132946064785e-16
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": -5.4702706039803335e-18
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.239212891088317,
+        "clock_schur": 0.8757005932944902
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 9.635148595623239e-16
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.9929670725455282
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.7763568394002505e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 9.635148595623239e-16
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.9905665433448224
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.7763568394002505e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.9270297191246473e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": -1.0887872458794475e-17
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183268,
+        "clock_schur": 0.9689316738576091
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -1.3322676295501878e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 3.854059438249295e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": 3.2868084833257717e-17
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.8545006857183273,
+        "clock_schur": 0.8703610803964724
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    },
+    {
+      "name": "nonlinear_n4_eta0.5_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 6.938926179439727e-18
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9999849380202345
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -6.505213034913027e-19
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7763569354220095e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": -1.2750244018201851e-19
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9975849201172
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 4.336808689942018e-19
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.7763487335633975e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": -2.1530940143183134e-17
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.9759672987332172
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 4.336808689942018e-19
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.7763394754654326e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": -4.634577244651718e-17
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.001830030541518,
+        "clock_schur": 0.8777553297086187
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.168404344971009e-19
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 1.734723475976807e-18
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7763568394002503e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.9993506472282496
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7763347610293021e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": -1.3600321330032323e-18
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.996950613478533
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.1197801313174226e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": -2.0405118885047084e-18
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.9753317068025025
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.3877787807814457e-17
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.7811257675250146e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": 2.4607792511478987e-17
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.078896361767674,
+        "clock_schur": 0.8770885825620994
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.3877787807814457e-17
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 2.6356961087330512e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": 5.4402623793922634e-18
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947001,
+        "clock_schur": 0.9968418315218543
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -3.3306690738754696e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.7763568394002503e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": -5.44035916461983e-18
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.9944416759530457
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.4923488592335495e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.9728171526213336
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 2.060364819566951e-15
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": 7.660813587887645e-17
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.3837174700947004,
+        "clock_schur": 0.8744483496231061
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta1.0_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7347239830536788e-18
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.0_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.9999962241757154
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.0842021724855044e-19
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.776356911614122e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.01_clock_force",
+      "passed": true,
+      "detail": -5.896987521728163e-19
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.9975962065000002
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.0842021724855044e-19
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.7763575976459018e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.1_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.1_clock_force",
+      "passed": true,
+      "detail": -2.509639013633116e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.9759786074932341
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -5.421010862427522e-20
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.776357056041865e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.5_clock_force",
+      "passed": true,
+      "detail": -1.2889213980603431e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.0004587626505776,
+        "clock_schur": 0.8777671905601047
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.01_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.7804243511410237e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.0_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.99981907709274
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -6.938893903907228e-18
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.01_stationarity",
+      "passed": true,
+      "detail": 1.776689019525747e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.01_left_pair_product",
+      "passed": true,
+      "detail": -1.1102230246251565e-16
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.01_clock_force",
+      "passed": true,
+      "detail": -1.0200204709807039e-18
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.9974190556286636
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -6.938893903907228e-18
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.7763568394002503e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.1_clock_force",
+      "passed": true,
+      "detail": -1.0882461908222132e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.9758011034041574
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -3.469446951953614e-18
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.5_stationarity",
+      "passed": true,
+      "detail": 2.5710916719514692e-16
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.5_clock_force",
+      "passed": true,
+      "detail": 2.5971803536805794e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.021982133232087,
+        "clock_schur": 0.8775810117335094
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 1.0408340855860843e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S0.5_finite_k_energy_flat",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.0_stationarity",
+      "passed": true,
+      "detail": 1.3685944041882901e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.0_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.0_clock_force",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.0_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350126,
+        "clock_schur": 0.9988389575025924
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.0_auxiliary_branch_equation",
+      "passed": true,
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.01_stationarity",
+      "passed": true,
+      "detail": 4.5619813472943e-16
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.01_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.01_clock_force",
+      "passed": true,
+      "detail": -1.3600395496793659e-18
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.01_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.9964389065712432
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.01_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.7755575615628914e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.1_stationarity",
+      "passed": true,
+      "detail": 1.8104642057552604e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.1_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.1_clock_force",
+      "passed": true,
+      "detail": 8.162280047246777e-18
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.1_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.9748189234044793
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.1_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.7755575615628914e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.5_stationarity",
+      "passed": true,
+      "detail": 1.8445715721102708e-15
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.5_left_pair_product",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.5_clock_force",
+      "passed": true,
+      "detail": -4.101837947060105e-18
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.5_metric_positive",
+      "passed": true,
+      "detail": {
+        "hidden_block": 1.1410666634350124,
+        "clock_schur": 0.8765504836787789
+      }
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_k0.5_auxiliary_branch_equation",
+      "passed": true,
+      "detail": -2.7755575615628914e-17
+    },
+    {
+      "name": "nonlinear_n4_eta2.0_S4.0_finite_k_energy_flat",
+      "passed": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "name": "higgs_scaling_derivative",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "higgs_scaling_product_invariant",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h-0.9_target-2.0",
+      "passed": true,
+      "detail": -8.881784197001252e-16
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h-0.9_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h-0.9_target3.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h-0.1_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h-0.1_target0.0",
+      "passed": true,
+      "detail": -6.938893903907228e-18
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h-0.1_target3.0",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.0_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.0_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.0_target3.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.1_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.1_target0.0",
+      "passed": true,
+      "detail": 6.938893903907228e-18
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.1_target3.0",
+      "passed": true,
+      "detail": -4.440892098500626e-16
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.9_target-2.0",
+      "passed": true,
+      "detail": -3.552713678800501e-15
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.9_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p0.3_h0.9_target3.0",
+      "passed": true,
+      "detail": 2.6645352591003757e-15
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h-0.9_target-2.0",
+      "passed": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h-0.9_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h-0.9_target3.0",
+      "passed": true,
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h-0.1_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h-0.1_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h-0.1_target3.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.0_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.0_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.0_target3.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.1_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.1_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.1_target3.0",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.9_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.9_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p1.0_h0.9_target3.0",
+      "passed": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h-0.9_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h-0.9_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h-0.9_target3.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h-0.1_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h-0.1_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h-0.1_target3.0",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.0_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.0_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.0_target3.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.1_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.1_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.1_target3.0",
+      "passed": true,
+      "detail": -4.440892098500626e-16
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.9_target-2.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.9_target0.0",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "exact_nonlinear_map_p2.0_h0.9_target3.0",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    }
+  ],
+  "stationary_results": [
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009963793495195699,
+      "gradient_max": 3.7400940819703276e-17,
+      "dV_dk": 3.740094081970328e-18,
+      "clock_metric_schur": 0.9983907388251851,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.00804630587407409,
+      "right_difference": 0.024138917622222273,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009963793495195699,
+      "gradient_max": 1.7764525920739155e-15,
+      "dV_dk": 2.3800837811671556e-18,
+      "clock_metric_schur": 0.9959906696165858,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.012046378431032683,
+      "right_difference": 0.02413891762222229,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009963793495195699,
+      "gradient_max": 6.798810909902849e-17,
+      "dV_dk": 6.802078899597919e-18,
+      "clock_metric_schur": 0.974369714411222,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.04805785199335429,
+      "right_difference": 0.024138917622222276,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009963793495195699,
+      "gradient_max": 4.059651195663847e-16,
+      "dV_dk": -4.1023158283530687e-17,
+      "clock_metric_schur": 0.8760789656920936,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.20913678789776904,
+      "right_difference": 0.024138917622222297,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.44242522214293345,
+      "gradient_max": 1.7984884776897e-15,
+      "dV_dk": 5.487922281225505e-17,
+      "clock_metric_schur": 0.9468415797581518,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.26579210120924096,
+      "right_difference": 0.7973763036277229,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.4424252221429335,
+      "gradient_max": 5.487911495854479e-16,
+      "dV_dk": -5.489379387073605e-17,
+      "clock_metric_schur": 0.944419397870659,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.2698283407132607,
+      "right_difference": 0.7973763036277232,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.4424252221429335,
+      "gradient_max": 5.486843639180214e-16,
+      "dV_dk": -5.503504377947167e-17,
+      "clock_metric_schur": 0.9225063295245194,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.30625835470435087,
+      "right_difference": 0.7973763036277232,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.44242522214293345,
+      "gradient_max": 4.3687138512507423e-16,
+      "dV_dk": 4.4712638376907455e-17,
+      "clock_metric_schur": 0.8208208277486676,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.4712694701204575,
+      "right_difference": 0.797376303627723,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 2.653837030815006,
+      "gradient_max": 2.7047953532579176e-15,
+      "dV_dk": -1.4452722893434857e-16,
+      "clock_metric_schur": 0.8101109587292608,
+      "hidden_metric": 1.8545006857183268,
+      "left_difference": -0.9494452063536964,
+      "right_difference": 2.848335619061089,
+      "n_function_evaluations": 10
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 2.6538370308150063,
+      "gradient_max": 1.9319966808985134e-15,
+      "dV_dk": 1.4465153332830554e-16,
+      "clock_metric_schur": 0.807450435259737,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -0.9538768566366624,
+      "right_difference": 2.848335619061091,
+      "n_function_evaluations": 10
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 2.653837030815006,
+      "gradient_max": 4.094269734518475e-15,
+      "dV_dk": 4.131044628714707e-16,
+      "clock_metric_schur": 0.7831433841254606,
+      "hidden_metric": 1.8545006857183268,
+      "left_difference": -0.9941140444101922,
+      "right_difference": 2.84833561906109,
+      "n_function_evaluations": 10
+    },
+    {
+      "n": 1,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 2.6538370308150063,
+      "gradient_max": 5.757451512665288e-15,
+      "dV_dk": 6.066035227372513e-16,
+      "clock_metric_schur": 0.6650149870497556,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -1.1817495770136555,
+      "right_difference": 2.848335619061091,
+      "n_function_evaluations": 8
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009990849877824526,
+      "gradient_max": 6.938926179439727e-18,
+      "dV_dk": -3.4000597701416105e-19,
+      "clock_metric_schur": 0.9995933265463294,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.0020333672683532523,
+      "right_difference": 0.006100101805059757,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009990849877824526,
+      "gradient_max": 1.7763885853696716e-15,
+      "dV_dk": -3.400073483882908e-19,
+      "clock_metric_schur": 0.9971932995723221,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.006033385469181953,
+      "right_difference": 0.006100101805059756,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009990849877824526,
+      "gradient_max": 1.7761563459667054e-15,
+      "dV_dk": -1.9724693071175277e-17,
+      "clock_metric_schur": 0.9755748910713398,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.042042204026846684,
+      "right_difference": 0.0061001018050597594,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009990849877824526,
+      "gradient_max": 2.0298100646179894e-16,
+      "dV_dk": -2.0505226986042507e-17,
+      "clock_metric_schur": 0.8773437163311419,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.20306157431812413,
+      "right_difference": 0.006100101805059759,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.4803813850309925,
+      "gradient_max": 4.900784420347904e-16,
+      "dV_dk": -4.900784420347904e-17,
+      "clock_metric_schur": 0.9824674751627391,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.08766262418630436,
+      "right_difference": 0.262987872558913,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.4803813850309925,
+      "gradient_max": 1.7763568394002503e-15,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9800648025690333,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.09166682338539998,
+      "right_difference": 0.262987872558913,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.4803813850309925,
+      "gradient_max": 0.0,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9583917064521426,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.1277441339570724,
+      "right_difference": 0.262987872558913,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.4803813850309925,
+      "gradient_max": 0.0,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.859227456796244,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.2897506103758143,
+      "right_difference": 0.262987872558913,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 3.2915810726163652,
+      "gradient_max": 1.581417665239831e-15,
+      "dV_dk": 5.562329750502666e-17,
+      "clock_metric_schur": 0.9147294510900665,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.42635274454966704,
+      "right_difference": 1.2790582336490013,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 3.2915810726163652,
+      "gradient_max": 6.67478293128982e-16,
+      "dV_dk": 6.677592919867134e-17,
+      "clock_metric_schur": 0.9122738003207659,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.4304443370647208,
+      "right_difference": 1.279058233649001,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 3.2915810726163652,
+      "gradient_max": 1.0542784434932208e-15,
+      "dV_dk": -4.46935536239661e-17,
+      "clock_metric_schur": 0.8900012973858304,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.46743067749798484,
+      "right_difference": 1.2790582336490013,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 1,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 3.2915810726163652,
+      "gradient_max": 6.642795741423028e-16,
+      "dV_dk": 6.850464294651224e-17,
+      "clock_metric_schur": 0.7853853435005091,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.6362285843095727,
+      "right_difference": 1.279058233649001,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009997706187229434,
+      "gradient_max": 3.4694479661073576e-18,
+      "dV_dk": -1.2750217962542362e-19,
+      "clock_metric_schur": 0.9998980527443161,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.0005097362784195739,
+      "right_difference": 0.0015292088352587213,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009997706187229434,
+      "gradient_max": 2.210033360094316e-17,
+      "dV_dk": -2.21004332680402e-18,
+      "clock_metric_schur": 0.9974980330273149,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.004509746447313158,
+      "right_difference": 0.0015292088352587211,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009997706187229434,
+      "gradient_max": 1.5977076805622069e-16,
+      "dV_dk": -1.5983551683542627e-17,
+      "clock_metric_schur": 0.9758802387982166,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.04051794395525691,
+      "right_difference": 0.0015292088352587211,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009997706187229434,
+      "gradient_max": 1.7763477404524312e-15,
+      "dV_dk": -3.588138247183612e-18,
+      "clock_metric_schur": 0.8776640169052656,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.20152245477600486,
+      "right_difference": 0.0015292088352587213,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.76415430417793e-15,
+      "dV_dk": 4.080373855311599e-18,
+      "clock_metric_schur": 0.9951150815039806,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.024424592480096714,
+      "right_difference": 0.07327377744029015,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.7804243511410237e-15,
+      "dV_dk": -2.3122729473176222e-17,
+      "clock_metric_schur": 0.9927147872412448,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.02842499644990935,
+      "right_difference": 0.07327377744029011,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.49450700920338087,
+      "gradient_max": 3.332903638909423e-16,
+      "dV_dk": -1.4968019864978834e-17,
+      "clock_metric_schur": 0.9710859038591912,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.0644453531102372,
+      "right_difference": 0.07327377744029016,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.49450700920338087,
+      "gradient_max": 0.0,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.8726283271010761,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.22569400857470656,
+      "right_difference": 0.07327377744029012,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 3.722178696874716,
+      "gradient_max": 1.82479253891772e-15,
+      "dV_dk": -2.1827094159738706e-17,
+      "clock_metric_schur": 0.9686518525699972,
+      "hidden_metric": 1.1410666634350126,
+      "left_difference": -0.1567407371500139,
+      "right_difference": 0.47022221145004167,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 3.722178696874717,
+      "gradient_max": 1.8807671445686494e-15,
+      "dV_dk": -6.549164649246501e-17,
+      "clock_metric_schur": 0.9662438489037946,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.16075363721449482,
+      "right_difference": 0.4702222114500416,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 3.722178696874717,
+      "gradient_max": 9.1239626945886e-16,
+      "dV_dk": 4.373121713546533e-17,
+      "clock_metric_schur": 0.9444978284120024,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.19693418474098115,
+      "right_difference": 0.4702222114500415,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 1,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 3.722178696874717,
+      "gradient_max": 9.1239626945886e-16,
+      "dV_dk": 4.4219981543687754e-17,
+      "clock_metric_schur": 0.8444484127473602,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.3599540967443836,
+      "right_difference": 0.4702222114500415,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009963793495195699,
+      "gradient_max": 2.550045802706603e-18,
+      "dV_dk": -2.550045802706603e-19,
+      "clock_metric_schur": 0.999463579608395,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.0026821019580246983,
+      "right_difference": 0.024138917622222283,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009963793495195699,
+      "gradient_max": 1.77656621113567e-15,
+      "dV_dk": 5.100115484653459e-19,
+      "clock_metric_schur": 0.997063549121694,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.006682124283354865,
+      "right_difference": 0.024138917622222276,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009963793495195699,
+      "gradient_max": 1.7767546456975478e-15,
+      "dV_dk": 2.0404995103795424e-18,
+      "clock_metric_schur": 0.9754448752649185,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.04269121361884642,
+      "right_difference": 0.024138917622222245,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009963793495195699,
+      "gradient_max": 1.7764196509208762e-15,
+      "dV_dk": 3.417650551676458e-17,
+      "clock_metric_schur": 0.8772073163543458,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.2037169395222718,
+      "right_difference": 0.024138917622222287,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.4424252221429335,
+      "gradient_max": 1.7320935628213504e-15,
+      "dV_dk": -7.623599131663366e-17,
+      "clock_metric_schur": 0.9822805265860506,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.08859736706974702,
+      "right_difference": 0.7973763036277229,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.44242522214293345,
+      "gradient_max": 1.0975844562451007e-15,
+      "dV_dk": 2.7229604216176674e-18,
+      "clock_metric_schur": 0.9798778008733738,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.09260165230734432,
+      "right_difference": 0.7973763036277227,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.4424252221429335,
+      "gradient_max": 8.780675649960807e-16,
+      "dV_dk": 8.177011808382205e-18,
+      "clock_metric_schur": 0.9582038893549553,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.1286800743712265,
+      "right_difference": 0.7973763036277233,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.4424252221429335,
+      "gradient_max": 6.501823193578349e-16,
+      "dV_dk": 6.596708957181714e-17,
+      "clock_metric_schur": 0.8590284498685286,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.290698972521687,
+      "right_difference": 0.797376303627723,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 2.6538370308150063,
+      "gradient_max": 1.545597344718811e-15,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9367036529097535,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -0.31648173545123237,
+      "right_difference": 2.8483356190610913,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 2.653837030815006,
+      "gradient_max": 9.635148595623239e-16,
+      "dV_dk": -1.1019030229448298e-17,
+      "clock_metric_schur": 0.934272506613458,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -0.32053278038472854,
+      "right_difference": 2.8483356190610913,
+      "n_function_evaluations": 10
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 2.6538370308150063,
+      "gradient_max": 1.159198008539108e-15,
+      "dV_dk": 1.1052269470504971e-17,
+      "clock_metric_schur": 0.9122603977127681,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -0.35711438579324417,
+      "right_difference": 2.848335619061091,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 2,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 2.653837030815006,
+      "gradient_max": 1.143899282171936e-15,
+      "dV_dk": 2.2492665093859898e-17,
+      "clock_metric_schur": 0.8097160730315407,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -0.5232122622579196,
+      "right_difference": 2.8483356190610905,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009990849877824526,
+      "gradient_max": 6.80011954028322e-18,
+      "dV_dk": -1.9125327420911468e-19,
+      "clock_metric_schur": 0.9998644421821098,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.0006777890894510845,
+      "right_difference": 0.006100101805059759,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009990849877824526,
+      "gradient_max": 1.7763780033798645e-15,
+      "dV_dk": -1.3600269251324316e-18,
+      "clock_metric_schur": 0.9974644217330217,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.004677800030342684,
+      "right_difference": 0.006100101805059759,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009990849877824526,
+      "gradient_max": 1.7762796379057244e-15,
+      "dV_dk": -2.2785101905262298e-17,
+      "clock_metric_schur": 0.9758465603670787,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.04068606501274587,
+      "right_difference": 0.0061001018050597594,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009990849877824526,
+      "gradient_max": 1.7763780033798645e-15,
+      "dV_dk": 2.6313236682646803e-17,
+      "clock_metric_schur": 0.8776286920428165,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.20169221015513641,
+      "right_difference": 0.006100101805059759,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.4803813850309925,
+      "gradient_max": 1.7788406561318985e-15,
+      "dV_dk": 1.7002104450190088e-17,
+      "clock_metric_schur": 0.9941558250542464,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.029220874728768106,
+      "right_difference": 0.26298787255891304,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.4803813850309925,
+      "gradient_max": 1.7668189831507219e-15,
+      "dV_dk": -3.4005270454183192e-18,
+      "clock_metric_schur": 0.9917554344227245,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.033221426522298675,
+      "right_difference": 0.26298787255891287,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.4803813850309925,
+      "gradient_max": 1.790955598965855e-15,
+      "dV_dk": -1.3608380991207625e-17,
+      "clock_metric_schur": 0.970123954812635,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.06924484178909035,
+      "right_difference": 0.262987872558913,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.4803813850309925,
+      "gradient_max": 3.789385278916708e-16,
+      "dV_dk": -3.833281846864242e-17,
+      "clock_metric_schur": 0.8716162613505907,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.23054526769837616,
+      "right_difference": 0.262987872558913,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 3.2915810726163652,
+      "gradient_max": 2.060364819566951e-15,
+      "dV_dk": 3.817666998487482e-17,
+      "clock_metric_schur": 0.9715764836966889,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.14211758151655565,
+      "right_difference": 1.2790582336490008,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 3.2915810726163652,
+      "gradient_max": 1.7763568394002503e-15,
+      "dV_dk": 4.363675276975565e-17,
+      "clock_metric_schur": 0.9691698459610669,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.14612824403723992,
+      "right_difference": 1.2790582336490008,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 3.2915810726163652,
+      "gradient_max": 5.271392217466104e-16,
+      "dV_dk": 2.731320496275974e-17,
+      "clock_metric_schur": 0.9474414020559785,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.1822833740692345,
+      "right_difference": 1.2790582336490013,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 2,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 3.2915810726163652,
+      "gradient_max": 2.224931900201066e-15,
+      "dV_dk": 8.83275436227764e-17,
+      "clock_metric_schur": 0.847589202130087,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.345072628733947,
+      "right_difference": 1.2790582336490013,
+      "n_function_evaluations": 8
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009997706187229434,
+      "gradient_max": 1.7347239830536788e-18,
+      "dV_dk": 3.7188134650456033e-20,
+      "clock_metric_schur": 0.9999660175814387,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.00016991209280652457,
+      "right_difference": 0.0015292088352587211,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009997706187229434,
+      "gradient_max": 2.2950345769166812e-17,
+      "dV_dk": 2.295044147048176e-18,
+      "clock_metric_schur": 0.9975659992930331,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.00416992078691676,
+      "right_difference": 0.001529208835258721,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009997706187229434,
+      "gradient_max": 6.883740339778561e-17,
+      "dV_dk": 6.886506641082191e-18,
+      "clock_metric_schur": 0.975948340356608,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.040177982630078,
+      "right_difference": 0.0015292088352587207,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009997706187229434,
+      "gradient_max": 1.7507102731685166e-16,
+      "dV_dk": -1.7684093145857915e-17,
+      "clock_metric_schur": 0.8777354456122441,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.2011791921611309,
+      "right_difference": 0.001529208835258721,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.7765367703015607e-15,
+      "dV_dk": 4.420112039461676e-18,
+      "clock_metric_schur": 0.9983716938346602,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.008141530826698903,
+      "right_difference": 0.07327377744029014,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.1109678796364743e-16,
+      "dV_dk": 1.3600482665178385e-18,
+      "clock_metric_schur": 0.995971623782711,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.012141604535300131,
+      "right_difference": 0.07327377744029014,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.776633656171497e-15,
+      "dV_dk": 6.802086688657647e-18,
+      "clock_metric_schur": 0.9743506266736105,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.04815312276319574,
+      "right_difference": 0.07327377744029015,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.7796786406552153e-15,
+      "dV_dk": 8.204672497811404e-17,
+      "clock_metric_schur": 0.8760589272712326,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.20923301384079626,
+      "right_difference": 0.07327377744029012,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 3.722178696874717,
+      "gradient_max": 1.7760015543340523e-15,
+      "dV_dk": -1.3604871897126167e-18,
+      "clock_metric_schur": 0.9895506175233324,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.05224691238333796,
+      "right_difference": 0.4702222114500416,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 3.722178696874717,
+      "gradient_max": 1.8189910473440132e-15,
+      "dV_dk": -1.0884487758786087e-17,
+      "clock_metric_schur": 0.9871495721425194,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.05624849401718185,
+      "right_difference": 0.47022221145004156,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 3.722178696874717,
+      "gradient_max": 4.5619813472943e-16,
+      "dV_dk": -1.3614704089547475e-17,
+      "clock_metric_schur": 0.9655038974695624,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.09228947647440447,
+      "right_difference": 0.4702222114500416,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 2,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 3.722178696874717,
+      "gradient_max": 1.8445715721102708e-15,
+      "dV_dk": -4.9353642734089766e-17,
+      "clock_metric_schur": 0.8667476443048548,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.2538514901852639,
+      "right_difference": 0.4702222114500416,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009963793495195699,
+      "gradient_max": 1.3600244281101884e-17,
+      "dV_dk": 8.500145126649387e-20,
+      "clock_metric_schur": 0.9999403977342661,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.0002980113286694111,
+      "right_difference": 0.024138917622222294,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009963793495195699,
+      "gradient_max": 1.7763294814934887e-15,
+      "dV_dk": -8.500164660140667e-20,
+      "clock_metric_schur": 0.9975403789154774,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.004298020565149136,
+      "right_difference": 0.024138917622222287,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009963793495195699,
+      "gradient_max": 1.7764196509208762e-15,
+      "dV_dk": -1.3688012321951058e-17,
+      "clock_metric_schur": 0.9759226690528013,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.04030613342602239,
+      "right_difference": 0.024138917622222287,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009963793495195699,
+      "gradient_max": 1.7762730907060824e-15,
+      "dV_dk": -5.057512373064457e-17,
+      "clock_metric_schur": 0.877708520452323,
+      "hidden_metric": 1.0072416752866666,
+      "left_difference": -0.20130858684994699,
+      "right_difference": 0.024138917622222297,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.4424252221429335,
+      "gradient_max": 4.3903378249804034e-16,
+      "dV_dk": 2.7200793591852923e-18,
+      "clock_metric_schur": 0.9980311696206723,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.009844151896638556,
+      "right_difference": 0.797376303627723,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.4424252221429335,
+      "gradient_max": 1.0975844562451007e-15,
+      "dV_dk": 2.7201115761492625e-18,
+      "clock_metric_schur": 0.9956310835713386,
+      "hidden_metric": 1.2392128910883171,
+      "left_difference": -0.013844247727088189,
+      "right_difference": 0.7973763036277234,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.4424252221429335,
+      "gradient_max": 2.1951689124902017e-16,
+      "dV_dk": 2.7208914241530364e-18,
+      "clock_metric_schur": 0.9740093289488935,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.0498565783584547,
+      "right_difference": 0.7973763036277229,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.44242522214293345,
+      "gradient_max": 2.3904132946064785e-16,
+      "dV_dk": -5.4702706039803335e-18,
+      "clock_metric_schur": 0.8757005932944902,
+      "hidden_metric": 1.239212891088317,
+      "left_difference": -0.21095361029420273,
+      "right_difference": 0.7973763036277232,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 2.653837030815006,
+      "gradient_max": 9.635148595623239e-16,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9929670725455282,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -0.035164637272359155,
+      "right_difference": 2.8483356190610913,
+      "n_function_evaluations": 10
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 2.653837030815006,
+      "gradient_max": 9.635148595623239e-16,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9905665433448224,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -0.03916540416328559,
+      "right_difference": 2.8483356190610913,
+      "n_function_evaluations": 10
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 2.6538370308150063,
+      "gradient_max": 1.9270297191246473e-15,
+      "dV_dk": -1.0887872458794475e-17,
+      "clock_metric_schur": 0.9689316738576091,
+      "hidden_metric": 1.8545006857183268,
+      "left_difference": -0.07519289714850957,
+      "right_difference": 2.84833561906109,
+      "n_function_evaluations": 10
+    },
+    {
+      "n": 4,
+      "eta": 0.5,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 2.653837030815006,
+      "gradient_max": 3.854059438249295e-15,
+      "dV_dk": 3.2868084833257717e-17,
+      "clock_metric_schur": 0.8703610803964724,
+      "hidden_metric": 1.8545006857183273,
+      "left_difference": -0.23655877959540855,
+      "right_difference": 2.848335619061091,
+      "n_function_evaluations": 10
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009990849877824526,
+      "gradient_max": 6.938926179439727e-18,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9999849380202345,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -7.530989882789824e-05,
+      "right_difference": 0.006100101805059758,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009990849877824528,
+      "gradient_max": 1.7763569354220095e-15,
+      "dV_dk": -1.2750244018201851e-19,
+      "clock_metric_schur": 0.9975849201172,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.004075318202928505,
+      "right_difference": 0.006100101805059761,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009990849877824528,
+      "gradient_max": 1.7763487335633975e-15,
+      "dV_dk": -2.1530940143183134e-17,
+      "clock_metric_schur": 0.9759672987332172,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.04008334246401705,
+      "right_difference": 0.006100101805059761,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009990849877824526,
+      "gradient_max": 1.7763394754654326e-15,
+      "dV_dk": -4.634577244651718e-17,
+      "clock_metric_schur": 0.8777553297086187,
+      "hidden_metric": 1.001830030541518,
+      "left_difference": -0.20108363380066235,
+      "right_difference": 0.006100101805059759,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.4803813850309925,
+      "gradient_max": 1.7763568394002503e-15,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9993506472282496,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.003246763858752012,
+      "right_difference": 0.262987872558913,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.4803813850309925,
+      "gradient_max": 1.7763347610293021e-15,
+      "dV_dk": -1.3600321330032323e-18,
+      "clock_metric_schur": 0.996950613478533,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.007246790116649326,
+      "right_difference": 0.262987872558913,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.4803813850309925,
+      "gradient_max": 1.1197801313174226e-16,
+      "dV_dk": -2.0405118885047084e-18,
+      "clock_metric_schur": 0.9753317068025025,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.04325611822376915,
+      "right_difference": 0.26298787255891304,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.4803813850309925,
+      "gradient_max": 1.7811257675250146e-15,
+      "dV_dk": 2.4607792511478987e-17,
+      "clock_metric_schur": 0.8770885825620994,
+      "hidden_metric": 1.078896361767674,
+      "left_difference": -0.20428739004488763,
+      "right_difference": 0.26298787255891304,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 3.2915810726163652,
+      "gradient_max": 2.6356961087330512e-15,
+      "dV_dk": 5.4402623793922634e-18,
+      "clock_metric_schur": 0.9968418315218543,
+      "hidden_metric": 1.3837174700947001,
+      "left_difference": -0.015790842390728404,
+      "right_difference": 1.2790582336490006,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 3.2915810726163652,
+      "gradient_max": 1.7763568394002503e-15,
+      "dV_dk": -5.44035916461983e-18,
+      "clock_metric_schur": 0.9944416759530457,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.019791038228531437,
+      "right_difference": 1.279058233649001,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 3.2915810726163652,
+      "gradient_max": 1.4923488592335495e-15,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9728171526213336,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.055806411138525386,
+      "right_difference": 1.279058233649001,
+      "n_function_evaluations": 9
+    },
+    {
+      "n": 4,
+      "eta": 1.0,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 3.2915810726163652,
+      "gradient_max": 2.060364819566951e-15,
+      "dV_dk": 7.660813587887645e-17,
+      "clock_metric_schur": 0.8744483496231061,
+      "hidden_metric": 1.3837174700947004,
+      "left_difference": -0.21696423725816646,
+      "right_difference": 1.2790582336490008,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.0,
+      "energy": 0.009997706187229434,
+      "gradient_max": 1.7347239830536788e-18,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9999962241757154,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -1.8879121422947174e-05,
+      "right_difference": 0.0015292088352587211,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.01,
+      "energy": 0.009997706187229434,
+      "gradient_max": 1.776356911614122e-15,
+      "dV_dk": -5.896987521728163e-19,
+      "clock_metric_schur": 0.9975962065000002,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.0040188871971419465,
+      "right_difference": 0.0015292088352587211,
+      "n_function_evaluations": 4
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.1,
+      "energy": 0.009997706187229434,
+      "gradient_max": 1.7763575976459018e-15,
+      "dV_dk": -2.509639013633116e-17,
+      "clock_metric_schur": 0.9759786074932341,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.04002688907867685,
+      "right_difference": 0.0015292088352587207,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 0.01,
+      "k": 0.5,
+      "energy": 0.009997706187229434,
+      "gradient_max": 1.776357056041865e-15,
+      "dV_dk": -1.2889213980603431e-17,
+      "clock_metric_schur": 0.8777671905601047,
+      "hidden_metric": 1.0004587626505776,
+      "left_difference": -0.20102663288050743,
+      "right_difference": 0.001529208835258721,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.0,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.7804243511410237e-15,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.99981907709274,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.0009046145362998782,
+      "right_difference": 0.07327377744029011,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.01,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.776689019525747e-15,
+      "dV_dk": -1.0200204709807039e-18,
+      "clock_metric_schur": 0.9974190556286636,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.004904626563962661,
+      "right_difference": 0.07327377744029011,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.1,
+      "energy": 0.49450700920338087,
+      "gradient_max": 1.7763568394002503e-15,
+      "dV_dk": -1.0882461908222132e-17,
+      "clock_metric_schur": 0.9758011034041574,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.04091298302180423,
+      "right_difference": 0.07327377744029012,
+      "n_function_evaluations": 5
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 0.5,
+      "k": 0.5,
+      "energy": 0.49450700920338087,
+      "gradient_max": 2.5710916719514692e-16,
+      "dV_dk": 2.5971803536805794e-17,
+      "clock_metric_schur": 0.8775810117335094,
+      "hidden_metric": 1.021982133232087,
+      "left_difference": -0.20192133587765035,
+      "right_difference": 0.07327377744029015,
+      "n_function_evaluations": 6
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.0,
+      "energy": 3.722178696874716,
+      "gradient_max": 1.3685944041882901e-15,
+      "dV_dk": 0.0,
+      "clock_metric_schur": 0.9988389575025924,
+      "hidden_metric": 1.1410666634350126,
+      "left_difference": -0.00580521248703755,
+      "right_difference": 0.47022221145004167,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.01,
+      "energy": 3.722178696874717,
+      "gradient_max": 4.5619813472943e-16,
+      "dV_dk": -1.3600395496793659e-18,
+      "clock_metric_schur": 0.9964389065712432,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.009805260558316006,
+      "right_difference": 0.4702222114500416,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.1,
+      "energy": 3.722178696874717,
+      "gradient_max": 1.8104642057552604e-15,
+      "dV_dk": 8.162280047246777e-18,
+      "clock_metric_schur": 0.9748189234044793,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.04581570650529521,
+      "right_difference": 0.4702222114500416,
+      "n_function_evaluations": 7
+    },
+    {
+      "n": 4,
+      "eta": 2.0,
+      "S": 4.0,
+      "k": 0.5,
+      "energy": 3.722178696874717,
+      "gradient_max": 1.8445715721102708e-15,
+      "dV_dk": -4.101837947060105e-18,
+      "clock_metric_schur": 0.8765504836787789,
+      "hidden_metric": 1.1410666634350124,
+      "left_difference": -0.20687226935685035,
+      "right_difference": 0.4702222114500416,
+      "n_function_evaluations": 7
+    }
+  ]
+}

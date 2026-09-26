@@ -1,0 +1,1327 @@
+{
+  "scope": "Deterministic conditional Higgs spectrum/current matching; no full SUGRA or observational fit.",
+  "input_hashes": {
+    "experiments/threshold_rg_v01/results/inputs.json": "1da11be8fe0b52dd61321d9d5953fa0fad8a1526100ee1139635e3936705097b",
+    "experiments/higgs_stabilization_v01/protocol.md": "816bc1cd9dd555755fe1ef863581e077304c1937804f4279af62e4a0b7114ee1",
+    "experiments/higgs_stabilization_v01/code/run_stabilization.py": "74e5bb06b033175694c7e89ef21776872bf6055f36961bc97309e0f5df098d9e"
+  },
+  "precision": 120,
+  "benchmark": {
+    "q": 3,
+    "n": 127,
+    "Lambda_eV": "2000000000000.0",
+    "M_eV": "666666666666.66666666666666666666666666666666666666666666666666667",
+    "original_tau": "6.7853051385684415830175721863937203696766540435996396698808954858e-61",
+    "abstract_tau_after_gauging": "7.6334682808894967808947687096929354158862357990495946286160074215e-61",
+    "abstract_enhancement": "1.125",
+    "physical_local_tau": "0",
+    "physical_local_zeta": 9,
+    "abstract_zeta": "1.125",
+    "degree_exact": "5895092288869291585760436430706259332839105796137920554548480",
+    "degree_scientific": "5895092288869291585760436430706259332839105796137920554548480.0",
+    "log10_mu_over_v_at_ratio_0p9": "-269744629762245329407502334789638596599752419305590254858482.37672",
+    "one_minus_ratio_for_leading_mu_equal_v": "2.3618981987999433262368922120520128753003310822289541673676514944e-59",
+    "shared_left_row_coefficient_for_old_site_source": "2.5444894269631655936315895698976451386287452663498648762053358072e-61",
+    "radial_mass_lambda_over_g_3_eV": "1414213562373.095048801688724209698078569671875376948073176679738",
+    "eta_benchmarks": [
+      {
+        "q": 3,
+        "n": 127,
+        "eta": 0.5,
+        "M_eV": 666666666666.6666,
+        "Lambda_eV": 2000000000000.0,
+        "lightest_vector_eV": 313707982704.7734,
+        "heaviest_vector_eV": 2666516084277.8,
+        "radial_mass_lambda_over_g_1_eV": 471404520791.0316,
+        "radial_mass_lambda_over_g_3_eV": 1414213562373.0947,
+        "all_heavy_gap_lambda_over_g_3_eV": 313707982704.7734,
+        "probe_over_gap_lambda_over_g_3": 0.31876778887743107,
+        "gap_criterion_lambda_over_g_3": false,
+        "abstract_tau": "7.6334682808894967808947687096929354158862357990495946286160074215e-61",
+        "physical_local_tau": "0",
+        "physical_local_zeta": 9,
+        "abstract_zeta": "1.125",
+        "physical_source_h2": 4.0
+      },
+      {
+        "q": 3,
+        "n": 127,
+        "eta": 1.0,
+        "M_eV": 666666666666.6666,
+        "Lambda_eV": 2000000000000.0,
+        "lightest_vector_eV": 623609564462.3235,
+        "heaviest_vector_eV": 2666516125226.227,
+        "radial_mass_lambda_over_g_1_eV": 471404520791.0316,
+        "radial_mass_lambda_over_g_3_eV": 1414213562373.0947,
+        "all_heavy_gap_lambda_over_g_3_eV": 623609564462.3235,
+        "probe_over_gap_lambda_over_g_3": 0.16035674514745465,
+        "gap_criterion_lambda_over_g_3": false,
+        "abstract_tau": "7.6334682808894967808947687096929354158862357990495946286160074215e-61",
+        "physical_local_tau": "0",
+        "physical_local_zeta": 9,
+        "abstract_zeta": "1.125",
+        "physical_source_h2": 1.0
+      },
+      {
+        "q": 3,
+        "n": 127,
+        "eta": 2.0,
+        "M_eV": 666666666666.6666,
+        "Lambda_eV": 2000000000000.0,
+        "lightest_vector_eV": 1192569587999.8877,
+        "heaviest_vector_eV": 2666516365464.693,
+        "radial_mass_lambda_over_g_1_eV": 471404520791.0316,
+        "radial_mass_lambda_over_g_3_eV": 1414213562373.0947,
+        "all_heavy_gap_lambda_over_g_3_eV": 1192569587999.8877,
+        "probe_over_gap_lambda_over_g_3": 0.08385254915624213,
+        "gap_criterion_lambda_over_g_3": true,
+        "abstract_tau": "7.6334682808894967808947687096929354158862357990495946286160074215e-61",
+        "physical_local_tau": "0",
+        "physical_local_zeta": 9,
+        "abstract_zeta": "1.125",
+        "physical_source_h2": 0.25
+      }
+    ]
+  },
+  "row_counts": {
+    "phase_lifting": 108,
+    "gauge_scan": 59,
+    "momentum_profile": 393
+  },
+  "check_count": 245,
+  "checks_passed": 245,
+  "checks": [
+    {
+      "name": "degree_sum_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_2_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_2_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_2_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_2_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_2_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_2_127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_2_128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_2_160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_3_160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_128",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "degree_sum_5_160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_null_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_projector_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_null_2_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_projector_2_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_null_2_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_projector_2_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_2_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_2_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_2_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_2_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_2_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_2_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_2_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_2_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_null_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_projector_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_2_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_2_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_2_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_null_3_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_projector_3_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_3_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_3_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_3_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_null_3_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old_projector_3_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_5_1/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_5_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "full_row_kernel_3_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_cross_3_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local_self_3_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "site_cross_3_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_h2_3_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_source_3_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinant_3_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "momentum_resolvent_3_5_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_0.95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_1.95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.55",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_2.95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_spectrum_eta_3.0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "small_s_limit_eta_0.5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "small_s_limit_eta_1.0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "small_s_limit_eta_2.0",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "physical_limitations": [
+    "Original-field controlled polynomial lift is exceedingly weak.",
+    "Extra gauge route removes flat chiral but also the leading local endpoint cross contact.",
+    "A nonzero abstract site cross uses a distributed Higgs source with explicitly tiny shared overlap.",
+    "F=D=0 heavy spectrum is not the full broken-SUSY or SUGRA spectrum.",
+    "p=0 alone does not eliminate higher-superderivative auxiliary-field effects."
+  ]
+}

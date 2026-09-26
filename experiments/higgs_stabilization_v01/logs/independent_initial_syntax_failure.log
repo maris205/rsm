@@ -1,0 +1,4 @@
+  File "/root/autodl-tmp/dsc_world/riemann_model/experiments/higgs_stabilization_v01/code/independent_check.py", line 64
+    for i,(row,(q,n,r)) in enumerate(zip(phase,expected_phase))):
+                                                               ^
+SyntaxError: unmatched ')'

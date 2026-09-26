@@ -1,0 +1,2380 @@
+{
+  "created_utc": "2026-09-26T07:18:57.083646+00:00",
+  "manifest_sha256": "0ad2172c7f8854d661385c5843fda877437ba0695103b82f0a6f6f93d6229b08",
+  "audit_script_sha256": "d76d67ac822f969aa2990fb9dcacbcfa60d0d0196d9a91a3fc43d2d5fec49f20",
+  "passed": 474,
+  "total": 474,
+  "checks": [
+    {
+      "name": "baseline_record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/higgs_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/higgs_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/threshold_rg_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/threshold_rg_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/mediator_chain_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/mediator_chain_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/pm_matched_scale_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/manuscript_cn_body_review_20260923.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/repository_portability.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/higgs_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/higgs_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/threshold_rg_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/threshold_rg_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/mediator_chain_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/mediator_chain_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/clock_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sequestering_test_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sequestering_test_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/protected_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/charged_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/00_introduction.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/01_system_anomaly.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/02_source_code.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/03_cosmic_lockstep.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/05_observational_evidence.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/06_predictions_interpretations.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/07_engine_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/08_simulation_case_studies.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/09_conclusion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/acknowledgments.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter00_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter01_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter02_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter03_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter04_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter05_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter06_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter07_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter08_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter09_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/figures/chapter04_cosmic_bridge_cn.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/chapter04_timeline_sources/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/chapter04_inflation_feasibility.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/references.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/figures/log_clock_response.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/figures/micro_macro_evolution.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/figures/micro_macro_convergence.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/figures/background_completion.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/reports/numerical_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/reports/independent_background_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_derivation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_independent_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_sources.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v01/variables_and_claims_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/minimal_dynamics_v01_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/alpha_interface_v01_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/sources_v01_audit.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/reports/recovery_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/figures/captions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:chapters/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/first_reading_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/prior_projects_evidence.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/foundations_first_pass.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/conversion_notes_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/conversion_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:ori_paper/merged_document_v2_with_latex.docx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/minimal_dynamics_v01_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/higgs_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/threshold_rg_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/mediator_chain_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sequestering_test_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/03_chapter_02_source_code.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/04_chapter_03_cosmic_lockstep.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/05_chapter_04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/07_chapter_06_predictions_interpretations.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/08_chapter_07_engine_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/09_chapter_08_simulation_case_studies.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/micro_macro_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/reports/pm_next_stage_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/charged_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/protected_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/gauge_matching_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/hidden_transfer_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/gauge_leakage_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/noscale_stabilization_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sequestering_test_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sequestering_test_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/clock_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/mediator_chain_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/mediator_chain_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/threshold_rg_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/threshold_rg_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/higgs_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/higgs_finite_auxiliary_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/higgs_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/higgs_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/threshold_rg_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/mediator_chain_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/chapter04_timeline_sources/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/chapter04_inflation_feasibility.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/manuscript_cn_body_review_20260923.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_v01/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v01/variables_and_claims_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/minimal_dynamics_v01_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/alpha_recovery_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/action_completion_v02/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/higgs_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/higgs_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/threshold_rg_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/threshold_rg_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/mediator_chain_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/mediator_chain_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sequestering_test_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sequestering_test_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sequestering_test_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/hidden_transfer_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/hidden_transfer_independent_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/gauge_leakage_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/protected_threshold_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/charged_threshold_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:figures/stabilization_tradeoff.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:figures/stabilization_tradeoff.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:materials_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:results/archive_audit.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:../../reports/higgs_phase_operators_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:../../reports/higgs_extra_gauge_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:../../reports/higgs_local_currents_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/README.md:../../reports/higgs_finite_auxiliary_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/code/audit_archive.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/code/audit_archive.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/code/independent_initial_grid_check.py.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/code/independent_initial_grid_check.py.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/code/independent_initial_syntax_failure.py.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/code/independent_initial_syntax_failure.py.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/code/plot_results.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/code/plot_results.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/code/run_stabilization.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/code/run_stabilization.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/code/run_stabilization_initial.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/code/run_stabilization_initial.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/figures/stabilization_tradeoff.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/logs/independent_check.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/logs/independent_check.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/logs/independent_initial_comparison_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/logs/independent_initial_comparison_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/logs/independent_initial_syntax_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/logs/independent_initial_syntax_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/logs/main_initial_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/logs/main_initial_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/logs/main_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/logs/main_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/logs/plot_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/logs/plot_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../../../reports/higgs_local_currents_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../results/independent_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../logs/independent_check.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../code/independent_initial_syntax_failure.py.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../logs/independent_initial_syntax_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../results/independent_failure_20260926T071405952237Z.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../logs/independent_initial_comparison_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/independent_results_cn.md:../code/independent_initial_grid_check.py.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../../threshold_rg_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../materials_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../figures/stabilization_tradeoff.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../figures/stabilization_tradeoff.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../../../reports/higgs_phase_operators_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../../../reports/higgs_phase_operators_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../../../reports/higgs_extra_gauge_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../../../reports/higgs_local_currents_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../../../reports/higgs_finite_auxiliary_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../logs/main_initial_failure.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/higgs_stabilization_v01/reports/results_cn.md:../code/run_stabilization_initial.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/results/gauge_scan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/results/gauge_scan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/results/independent_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/results/independent_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/results/independent_failure_20260926T071405952237Z.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/results/independent_failure_20260926T071405952237Z.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/results/momentum_profile.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/results/momentum_profile.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/results/phase_lifting.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/results/phase_lifting.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/higgs_stabilization_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/higgs_stabilization_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/threshold_rg_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/threshold_rg_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/threshold_rg_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:experiments/threshold_rg_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/chain_locality_breaking_20260926.md:chain_locality_breaking_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/chain_locality_breaking_20260926.md:chain_locality_breaking_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/chain_locality_breaking_20260926.md:chain_locality_breaking_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_extra_gauge_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_extra_gauge_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_extra_gauge_20260926.md:chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_extra_gauge_20260926.md:../experiments/threshold_rg_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_extra_gauge_20260926.md:higgs_extra_gauge_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_extra_gauge_20260926.md:higgs_extra_gauge_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_extra_gauge_20260926.md:higgs_extra_gauge_20260926_initial_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_extra_gauge_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_extra_gauge_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_extra_gauge_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_extra_gauge_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_extra_gauge_20260926_initial_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_extra_gauge_20260926_initial_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_finite_auxiliary_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_finite_auxiliary_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_finite_auxiliary_20260926.md:higgs_finite_auxiliary_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_finite_auxiliary_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_finite_auxiliary_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_finite_auxiliary_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_finite_auxiliary_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_local_currents_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_local_currents_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_local_currents_20260926.md:chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_local_currents_20260926.md:higgs_local_currents_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_local_currents_20260926.md:higgs_local_currents_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_local_currents_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_local_currents_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_local_currents_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_local_currents_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_phase_operators_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_phase_operators_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:../experiments/threshold_rg_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:../experiments/threshold_rg_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:higgs_phase_operators_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:higgs_phase_operators_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:higgs_phase_operators_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:higgs_phase_operators_20260926_initial_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/higgs_phase_operators_20260926.md:higgs_phase_operators_20260926_initial_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_phase_operators_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_phase_operators_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_phase_operators_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_phase_operators_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_phase_operators_20260926_initial_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_phase_operators_20260926_initial_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_phase_operators_20260926_initial_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_phase_operators_20260926_initial_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/higgs_phase_operators_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "size:reports/higgs_phase_operators_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory_complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_input:experiments/threshold_rg_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_input:experiments/higgs_stabilization_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_input:experiments/higgs_stabilization_v01/code/run_stabilization.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_phase_operators_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_phase_operators_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_phase_operators_code_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_phase_operators_inputs:reports/chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_phase_operators_inputs:experiments/threshold_rg_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_extra_gauge_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_extra_gauge_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_extra_gauge_code_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_extra_gauge_inputs:reports/chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_extra_gauge_inputs:experiments/threshold_rg_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_local_currents_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_local_currents_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_local_currents_code_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_local_currents_inputs:reports/chain_locality_breaking_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_local_currents_inputs:experiments/threshold_rg_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_finite_auxiliary_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_finite_auxiliary_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "higgs_finite_auxiliary_code_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_no_main_import",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_code_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_inputs:experiments/higgs_stabilization_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_inputs:experiments/higgs_stabilization_v01/results/phase_lifting.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_inputs:experiments/higgs_stabilization_v01/results/gauge_scan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_inputs:experiments/higgs_stabilization_v01/results/momentum_profile.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_inputs:experiments/higgs_stabilization_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_inputs:reports/higgs_local_currents_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_inputs:reports/higgs_local_currents_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_initial_retained:results/independent_failure_20260926T071405952237Z.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_initial_code_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_grid_tolerance_unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "phase_initial_failure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "phase_initial_source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gauge_initial_failure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_serialization_failure_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "main_original_source_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "row_count:phase_lifting.csv",
+      "passed": true,
+      "detail": "108"
+    },
+    {
+      "name": "LF:phase_lifting.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "row_count:gauge_scan.csv",
+      "passed": true,
+      "detail": "59"
+    },
+    {
+      "name": "LF:gauge_scan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "row_count:momentum_profile.csv",
+      "passed": true,
+      "detail": "393"
+    },
+    {
+      "name": "LF:momentum_profile.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure:png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure:pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "historical_files_and_manuscript_unchanged",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "scope": "Archive identity, completeness and retained checks; not physical validation."
+}

@@ -1,0 +1,1311 @@
+{
+  "date": "2026-09-26",
+  "scope": "Original charged fields, local rigid supersymmetry, declared polynomial lifting operator; no observation or full SUGRA completion",
+  "normalization": "Phi=tildePhi=v; canonical Y; equal lambda for exact radial-mixing eigenvalues",
+  "precision_digits": [
+    140,
+    200
+  ],
+  "check_count": 271,
+  "passed": 271,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "q=2,n=1: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=1: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=1: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: added endpoint 1 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=1: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=2: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=2: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: added endpoint 2 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=2: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=3: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=3: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: added endpoint 3 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=3: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=5: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=5: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: added endpoint 5 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=5: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=8: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=8: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: added endpoint 8 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=8: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=12: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=2,n=12: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: added endpoint 12 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=2,n=12: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=1: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=1: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: added endpoint 1 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=1: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=2: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=2: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: added endpoint 2 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=2: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=3: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=3: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: added endpoint 3 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=3: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=5: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=5: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: added endpoint 5 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=5: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=8: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=8: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: added endpoint 8 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=8: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=12: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=3,n=12: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: added endpoint 12 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=3,n=12: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=1: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=1: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: added endpoint 1 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=1: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=2: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=2: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: added endpoint 2 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=2: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=3: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=3: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: added endpoint 3 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=3: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=5: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=5: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: added endpoint 5 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=5: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=8: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=8: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: added endpoint 8 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=8: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: charge rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: primitive integer kernel",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: charge Gram",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: degree sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=12: norm sum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "q=5,n=12: l=-3 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: l=-1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: l=1 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: l=2 attainable L1 lower bound",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: added endpoint 0 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: added endpoint 12 gives full rank",
+      "passed": true
+    },
+    {
+      "name": "q=5,n=12: vectorlike phase anomalies",
+      "passed": true
+    },
+    {
+      "name": "brute q=2,n=1: only +/- primitive at degree <=D",
+      "passed": true,
+      "first_nonzero_degree": 3,
+      "solutions": [
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -2
+        ]
+      ]
+    },
+    {
+      "name": "brute q=3,n=1: only +/- primitive at degree <=D",
+      "passed": true,
+      "first_nonzero_degree": 4,
+      "solutions": [
+        [
+          -1,
+          3
+        ],
+        [
+          1,
+          -3
+        ]
+      ]
+    },
+    {
+      "name": "brute q=2,n=2: only +/- primitive at degree <=D",
+      "passed": true,
+      "first_nonzero_degree": 7,
+      "solutions": [
+        [
+          -1,
+          2,
+          4
+        ],
+        [
+          1,
+          -2,
+          -4
+        ]
+      ]
+    },
+    {
+      "name": "brute q=3,n=2: only +/- primitive at degree <=D",
+      "passed": true,
+      "first_nonzero_degree": 13,
+      "solutions": [
+        [
+          -1,
+          3,
+          9
+        ],
+        [
+          1,
+          -3,
+          -9
+        ]
+      ]
+    },
+    {
+      "name": "canonical q=2,n=1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "common soft phase q=2,n=1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "common soft real mass q=2,n=1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic mass q=2,n=1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cubic derivative relative to mass q=2,n=1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "radial/phase mixing norms q=2,n=1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical q=3,n=2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "common soft phase q=3,n=2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "common soft real mass q=3,n=2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic mass q=3,n=2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cubic derivative relative to mass q=3,n=2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "radial/phase mixing norms q=3,n=2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "canonical q=3,n=5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "common soft phase q=3,n=5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "common soft real mass q=3,n=5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "holomorphic mass q=3,n=5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cubic derivative relative to mass q=3,n=5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "radial/phase mixing norms q=3,n=5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete local chiral characteristic polynomial",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "equal-lambda light mass expansion",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "stable eigenvalue equivalent",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "140: order-v formal lift is strongly coupled",
+      "passed": true
+    },
+    {
+      "name": "140: suppression for all fixed ratios",
+      "passed": true
+    },
+    {
+      "name": "140: near-cutoff precision",
+      "passed": true
+    },
+    {
+      "name": "140: full local mass ratio=1e-20",
+      "passed": true,
+      "relative_error": "9.63967946041e-141",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "140: light eigenvalue bounds ratio=1e-20",
+      "passed": true
+    },
+    {
+      "name": "140: full local mass ratio=1e-5",
+      "passed": true,
+      "relative_error": "1.98570863647e-140",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "140: light eigenvalue bounds ratio=1e-5",
+      "passed": true
+    },
+    {
+      "name": "140: full local mass ratio=0.1",
+      "passed": true,
+      "relative_error": "1.05612810072e-139",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "140: light eigenvalue bounds ratio=0.1",
+      "passed": true
+    },
+    {
+      "name": "140: full local mass ratio=1",
+      "passed": true,
+      "relative_error": "0.0",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "140: light eigenvalue bounds ratio=1",
+      "passed": true
+    },
+    {
+      "name": "140: full local mass ratio=10",
+      "passed": true,
+      "relative_error": "9.20761513478e-141",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "140: light eigenvalue bounds ratio=10",
+      "passed": true
+    },
+    {
+      "name": "200: order-v formal lift is strongly coupled",
+      "passed": true
+    },
+    {
+      "name": "200: suppression for all fixed ratios",
+      "passed": true
+    },
+    {
+      "name": "200: near-cutoff precision",
+      "passed": true
+    },
+    {
+      "name": "200: full local mass ratio=1e-20",
+      "passed": true,
+      "relative_error": "1.4996968139e-201",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "200: light eigenvalue bounds ratio=1e-20",
+      "passed": true
+    },
+    {
+      "name": "200: full local mass ratio=1e-5",
+      "passed": true,
+      "relative_error": "1.04560036157e-200",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "200: light eigenvalue bounds ratio=1e-5",
+      "passed": true
+    },
+    {
+      "name": "200: full local mass ratio=0.1",
+      "passed": true,
+      "relative_error": "1.54642383674e-200",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "200: light eigenvalue bounds ratio=0.1",
+      "passed": true
+    },
+    {
+      "name": "200: full local mass ratio=1",
+      "passed": true,
+      "relative_error": "1.06882888313e-201",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "200: light eigenvalue bounds ratio=1",
+      "passed": true
+    },
+    {
+      "name": "200: full local mass ratio=10",
+      "passed": true,
+      "relative_error": "8.18558995092e-202",
+      "tolerance": "1e-75"
+    },
+    {
+      "name": "200: light eigenvalue bounds ratio=10",
+      "passed": true
+    },
+    {
+      "name": "cross precision log suppression 0.5",
+      "passed": true,
+      "relative_error": "0.0"
+    },
+    {
+      "name": "cross precision log suppression 0.9",
+      "passed": true,
+      "relative_error": "0.0"
+    },
+    {
+      "name": "cross precision log suppression 0.99",
+      "passed": true,
+      "relative_error": "0.0"
+    },
+    {
+      "name": "cross precision log suppression 0.9999999999",
+      "passed": true,
+      "relative_error": "0.0"
+    }
+  ],
+  "numerical": [
+    {
+      "dps": 140,
+      "q": 3,
+      "n": 127,
+      "D": "5895092288869291585760436430706259332839105796137920554548480",
+      "S": "17376056547143091595617473348707662889277356351066142248950603053754509078720804492625221144263701190226458192568612429440",
+      "norm_w": "4168459733180001775560521254710501316772218125414507211197593.83831979815799195500697857253",
+      "cubic_yukawa_if_leading_mass_equals_v": "2947546144434645792880218215353129666419552898068960277274240.25",
+      "log10_mass_over_v": {
+        "0.5": "-1774599606157091825573734185971786807959807377109353288857721.82172133687085458972683755808",
+        "0.9": "-269744629762245329407502334789638596599752419305590254858482.376723050975584019474185281779",
+        "0.99": "-25730930670398518992436822637565088119767653569417503734614.6684076908641496814626731473156",
+        "0.9999999999": "-256020605149435425274561140568628478440810735423904.643606925350154306828919655208468387941"
+      },
+      "one_minus_v_over_cutoff_for_leading_mass_equal_v": "2.36189819879994332623689221205201287530033108222895416736765149437781379648049144815414763e-59",
+      "local_spectrum_tests": [
+        {
+          "mu_over_heavy": "1e-20",
+          "light_mass_squared_over_heavy_squared": "9.999999999999999999999999999999999999999e-41"
+        },
+        {
+          "mu_over_heavy": "1e-5",
+          "light_mass_squared_over_heavy_squared": "0.0000000000999999999900000000000000000000999999999999999999980000000000000000000499999999999999999986"
+        },
+        {
+          "mu_over_heavy": "0.1",
+          "light_mass_squared_over_heavy_squared": "0.00990000999800049986004198680428857048603209876520622632652913105289704379607022529221929427"
+        },
+        {
+          "mu_over_heavy": "1",
+          "light_mass_squared_over_heavy_squared": "0.381966011250105151795413165634361882279690820194237137864551377294739537181097550292792796"
+        },
+        {
+          "mu_over_heavy": "10",
+          "light_mass_squared_over_heavy_squared": "0.498750007812402345275852203869809806546657841042577184039988011899438105221335389171296175"
+        }
+      ]
+    },
+    {
+      "dps": 200,
+      "q": 3,
+      "n": 127,
+      "D": "5895092288869291585760436430706259332839105796137920554548480",
+      "S": "17376056547143091595617473348707662889277356351066142248950603053754509078720804492625221144263701190226458192568612429440",
+      "norm_w": "4168459733180001775560521254710501316772218125414507211197593.83831979815799195500697857253",
+      "cubic_yukawa_if_leading_mass_equals_v": "2947546144434645792880218215353129666419552898068960277274240.25",
+      "log10_mass_over_v": {
+        "0.5": "-1774599606157091825573734185971786807959807377109353288857721.82172133687085458972683755808",
+        "0.9": "-269744629762245329407502334789638596599752419305590254858482.376723050975584019474185281779",
+        "0.99": "-25730930670398518992436822637565088119767653569417503734614.6684076908641496814626731473156",
+        "0.9999999999": "-256020605149435425274561140568628478440810735423904.643606925350154306828919655208468387941"
+      },
+      "one_minus_v_over_cutoff_for_leading_mass_equal_v": "2.36189819879994332623689221205201287530033108222895416736765149437781379648049144815414763e-59",
+      "local_spectrum_tests": [
+        {
+          "mu_over_heavy": "1e-20",
+          "light_mass_squared_over_heavy_squared": "9.999999999999999999999999999999999999999e-41"
+        },
+        {
+          "mu_over_heavy": "1e-5",
+          "light_mass_squared_over_heavy_squared": "0.0000000000999999999900000000000000000000999999999999999999980000000000000000000499999999999999999986"
+        },
+        {
+          "mu_over_heavy": "0.1",
+          "light_mass_squared_over_heavy_squared": "0.00990000999800049986004198680428857048603209876520622632652913105289704379607022529221929427"
+        },
+        {
+          "mu_over_heavy": "1",
+          "light_mass_squared_over_heavy_squared": "0.381966011250105151795413165634361882279690820194237137864551377294739537181097550292792796"
+        },
+        {
+          "mu_over_heavy": "10",
+          "light_mass_squared_over_heavy_squared": "0.498750007812402345275852203869809806546657841042577184039988011899438105221335389171296175"
+        }
+      ]
+    }
+  ],
+  "input_hashes": {
+    "reports/chain_locality_breaking_20260926.md": "3ecf79b2cb1bc02a85af077a654e7cd942ebd09b6693bcd8c3d30bbb2023c1bf",
+    "experiments/threshold_rg_v01/protocol.md": "b15c33c72c89cf0c093f26d76d6d3193ae72dea903ac299d0f83edc95cc83af1"
+  },
+  "code_sha256": "ccc54b909300368c806054867d7ec29dc979ca7de6794e5dcd1acc5730f483b6",
+  "review_disclosure": "AI-assisted algebra and internal independent-agent audit, not external peer review; no human-read attestation"
+}
