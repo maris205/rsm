@@ -1,0 +1,22 @@
+derive 991 / 1012
+FAIL {'name': '100:1e-12:0:quadrature:0:source_potential_derivative', 'error': '2.80880568021474827018552008654697e-63', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-12:2:quadrature:0:source_potential_derivative', 'error': '2.80880568021474827018552008654697e-63', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-12:2:quadrature:0:persist_potential_derivative', 'error': '2.2632113901144926377705742379849187e-63', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-12:4:quadrature:0:source_potential_derivative', 'error': '2.80880568021474827018552008654697e-63', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-12:4:quadrature:0:persist_potential_derivative', 'error': '2.2632113901144926377705742379849187e-63', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-12:100:quadrature:0:source_potential_derivative', 'error': '2.80880568021474827018552008654697e-63', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-12:100:quadrature:0:persist_potential_derivative', 'error': '1.3166868239569965981735982277014504e-64', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-6:0:quadrature:0:source_potential_derivative', 'error': '1.9910778487769147131876500184331321e-51', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-6:2:quadrature:0:source_potential_derivative', 'error': '1.9910778487769147131876500184331321e-51', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-6:2:quadrature:0:persist_potential_derivative', 'error': '1.5199294083080026415954838565315202e-51', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-6:4:quadrature:0:source_potential_derivative', 'error': '1.9910778487769147131876500184331321e-51', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-6:4:quadrature:0:persist_potential_derivative', 'error': '1.5199294083080026415954838565315202e-51', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-6:100:quadrature:0:source_potential_derivative', 'error': '1.9910778487769147131876500184331321e-51', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-6:100:quadrature:0:persist_potential_derivative', 'error': '1.1132690785459838018762029211062335e-51', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-3:0:quadrature:0:source_potential_derivative', 'error': '9.2242198539233727245349612542503242e-45', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-3:2:quadrature:0:source_potential_derivative', 'error': '9.2242198539233727245349612542503242e-45', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-3:2:quadrature:0:persist_potential_derivative', 'error': '4.7022189986054232114031487083280535e-46', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-3:4:quadrature:0:source_potential_derivative', 'error': '9.2242198539233727245349612542503242e-45', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-3:4:quadrature:0:persist_potential_derivative', 'error': '4.7022189986054232114031487083280535e-46', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-3:100:quadrature:0:source_potential_derivative', 'error': '9.2242198539233727245349612542503242e-45', 'tolerance': '1.0e-70', 'passed': False}
+FAIL {'name': '100:1e-3:100:quadrature:0:persist_potential_derivative', 'error': '2.2005528427730910109712698780426598e-46', 'tolerance': '1.0e-70', 'passed': False}

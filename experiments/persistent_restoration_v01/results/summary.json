@@ -1,0 +1,674 @@
+{
+  "created_utc": "2026-09-26T03:52:58.150144+00:00",
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.16.1",
+  "checks": [
+    {
+      "name": "grid_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "representative_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "future_limits_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "both_grid_outcomes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sample_persistent_local_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sample_generic_phase_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_-4.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_-4.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_0.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_persistence_0.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_4.0_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_2.3062884944017734e+30_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_2.3062884944017734e+30_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_2.3062884944017734e+30_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_2.3062884944017734e+30_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_2.3062884944017734e+30_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_2.3062884944017734e+30_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_2.3062884944017734e+30_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_1.3674503398219356e+61_-1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_1.3674503398219356e+61_-1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_1.3674503398219356e+61_-1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_0.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_0.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_0.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_1.3674503398219356e+61_1.0_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_1.3674503398219356e+61_1.0_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contact_to_source_ratio_1.3674503398219356e+61_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "large_coupling_feedback_failure_1.3674503398219356e+61_1.0_pi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sample_future_radiative_failure",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "checks_passed": 91,
+  "check_count": 91,
+  "sample_aligned": {
+    "mG_eV": 1e-06,
+    "rH": 4.0,
+    "sigma": 1.0,
+    "phase": "zero",
+    "M_vector_eV": 1000000000000.0,
+    "mKK_eV": 100000000000000.0,
+    "tau": 2.9251519294813043e-61,
+    "A": 4.335970987269697e-31,
+    "source_c": 5.203165184723636e-30,
+    "persistent_soft_coefficient": 1.0406330369447272e-29,
+    "formal_net_c": -5.203165184723636e-30,
+    "min_my2_eV2": 1.0004246569271143e-38,
+    "min_transverse_schur_eV2": 1.0004246569271143e-38,
+    "clockoff_my2_leading_eV2": 1.0406330369447272e-41,
+    "max_radial_mass_eV": 6.928203230275509e-06,
+    "source_CW_force_ratio": 4.223354530332043e-11,
+    "persistent_CW_force_ratio": 8.446709060664087e-11,
+    "clock_contact_CW_force_ratio": 0.0002533045986560874,
+    "contact_Btree_force_ratio": 0.0,
+    "contact_B5d_force_ratio": 0.0,
+    "selected_signed_axis_ratio": 0.0002533045990246427,
+    "selected_signed_chi_ratio": 0.0002533045990246427,
+    "selected_axis_moduli_sum": 0.00025330459976175327,
+    "selected_feedback_sum_ratio": 0.00025330459976175327,
+    "quadratic_valley_force_ratio": 0.0,
+    "max_valley_energy_over_U": 0.0,
+    "valley_boundary_fraction": 0.0,
+    "FT_over_MV2": 0.004217543716430215,
+    "max_hierarchy_ratio": 0.1,
+    "max_coupling_loop_parameter": 0.012665147955292222,
+    "max_soft_over_charged_mass2": 1.23241408592246e-59,
+    "finite_interval_local_pass": true,
+    "clockoff_local_pass": true,
+    "hierarchy_pass": true,
+    "auxiliary_pass": true,
+    "perturbative_pass": true,
+    "stated_conditions_pass": true,
+    "leading_cancellation_branch": false
+  },
+  "sample_quadrature": {
+    "mG_eV": 1e-06,
+    "rH": 4.0,
+    "sigma": 1.0,
+    "phase": "quadrature",
+    "M_vector_eV": 1000000000000.0,
+    "mKK_eV": 100000000000000.0,
+    "tau": 2.9251519294813043e-61,
+    "A": 4.335970987269697e-31,
+    "source_c": 5.203165184723636e-30,
+    "persistent_soft_coefficient": 1.0406330369447272e-29,
+    "formal_net_c": -5.203165184723636e-30,
+    "min_my2_eV2": 1.0004246569271143e-38,
+    "min_transverse_schur_eV2": 1.0004246569271143e-38,
+    "clockoff_my2_leading_eV2": 1.0406330369447272e-41,
+    "max_radial_mass_eV": 6.928203230275509e-06,
+    "source_CW_force_ratio": 4.223354530332043e-11,
+    "persistent_CW_force_ratio": 8.446709060664087e-11,
+    "clock_contact_CW_force_ratio": 0.00025330464315462264,
+    "contact_Btree_force_ratio": 6.486026284518071e-33,
+    "contact_B5d_force_ratio": 1.191944434348003e-08,
+    "selected_signed_axis_ratio": 0.0002533046438586553,
+    "selected_signed_chi_ratio": 0.0002533045990246427,
+    "selected_axis_moduli_sum": 0.0002533053163810169,
+    "selected_feedback_sum_ratio": 0.0002533053163810169,
+    "quadratic_valley_force_ratio": 7.03726768717437e-37,
+    "max_valley_energy_over_U": 6.765359028304255e-34,
+    "valley_boundary_fraction": 2.5996772416238674e-17,
+    "FT_over_MV2": 0.004217543716430215,
+    "max_hierarchy_ratio": 0.1,
+    "max_coupling_loop_parameter": 0.012665147955292222,
+    "max_soft_over_charged_mass2": 1.23241408592246e-59,
+    "finite_interval_local_pass": true,
+    "clockoff_local_pass": true,
+    "hierarchy_pass": true,
+    "auxiliary_pass": true,
+    "perturbative_pass": true,
+    "stated_conditions_pass": true,
+    "leading_cancellation_branch": false
+  },
+  "future_limits": [
+    {
+      "mG_eV": 1e-06,
+      "rH": 0,
+      "sigma": 1,
+      "phase": "zero",
+      "chi_start": 139.79424666735443,
+      "chi_search_end": 219.79424666735443,
+      "chi_local_mass_failure": 143.22790161522147,
+      "chi_moduli_budget_10percent": null,
+      "chi_signed_chi_budget_10percent": null,
+      "chi_first_stated_failure": 143.22790161522147,
+      "ordering_note": "Only positive-curvature interval searched for feedback roots.",
+      "interpretation": "Fixed-parameter coordinate extrapolation only; selected matching, no cosmic time prediction."
+    },
+    {
+      "mG_eV": 1e-06,
+      "rH": 0,
+      "sigma": 1,
+      "phase": "quadrature",
+      "chi_start": 139.79424666735443,
+      "chi_search_end": 219.79424666735443,
+      "chi_local_mass_failure": 143.22790161522147,
+      "chi_moduli_budget_10percent": null,
+      "chi_signed_chi_budget_10percent": null,
+      "chi_first_stated_failure": 143.22790161522147,
+      "ordering_note": "curvature_or_feedback_within_chi_1e-9",
+      "interpretation": "Fixed-parameter coordinate extrapolation only; selected matching, no cosmic time prediction."
+    },
+    {
+      "mG_eV": 1e-06,
+      "rH": 2,
+      "sigma": 1,
+      "phase": "zero",
+      "chi_start": 139.79424666735443,
+      "chi_search_end": 219.79424666735443,
+      "chi_local_mass_failure": null,
+      "chi_moduli_budget_10percent": 149.5199316279013,
+      "chi_signed_chi_budget_10percent": 184.2834351518592,
+      "chi_first_stated_failure": 149.5199316279013,
+      "ordering_note": "Only positive-curvature interval searched for feedback roots.",
+      "interpretation": "Fixed-parameter coordinate extrapolation only; selected matching, no cosmic time prediction."
+    },
+    {
+      "mG_eV": 1e-06,
+      "rH": 2,
+      "sigma": 1,
+      "phase": "quadrature",
+      "chi_start": 139.79424666735443,
+      "chi_search_end": 219.79424666735443,
+      "chi_local_mass_failure": null,
+      "chi_moduli_budget_10percent": 149.45251992111213,
+      "chi_signed_chi_budget_10percent": 184.2834351518592,
+      "chi_first_stated_failure": 149.45251992111213,
+      "ordering_note": "Only positive-curvature interval searched for feedback roots.",
+      "interpretation": "Fixed-parameter coordinate extrapolation only; selected matching, no cosmic time prediction."
+    },
+    {
+      "mG_eV": 1e-06,
+      "rH": 4,
+      "sigma": 1,
+      "phase": "zero",
+      "chi_start": 139.79424666735443,
+      "chi_search_end": 219.79424666735443,
+      "chi_local_mass_failure": null,
+      "chi_moduli_budget_10percent": 149.32290781684185,
+      "chi_signed_chi_budget_10percent": 149.85704655143567,
+      "chi_first_stated_failure": 149.32290781684185,
+      "ordering_note": "Only positive-curvature interval searched for feedback roots.",
+      "interpretation": "Fixed-parameter coordinate extrapolation only; selected matching, no cosmic time prediction."
+    },
+    {
+      "mG_eV": 1e-06,
+      "rH": 4,
+      "sigma": 1,
+      "phase": "quadrature",
+      "chi_start": 139.79424666735443,
+      "chi_search_end": 219.79424666735443,
+      "chi_local_mass_failure": null,
+      "chi_moduli_budget_10percent": 149.26785163568854,
+      "chi_signed_chi_budget_10percent": 149.85704655143567,
+      "chi_first_stated_failure": 149.26785163568854,
+      "ordering_note": "Only positive-curvature interval searched for feedback roots.",
+      "interpretation": "Fixed-parameter coordinate extrapolation only; selected matching, no cosmic time prediction."
+    },
+    {
+      "mG_eV": 1e-06,
+      "rH": 1000000.0,
+      "sigma": 1,
+      "phase": "zero",
+      "chi_start": 139.79424666735443,
+      "chi_search_end": 219.79424666735443,
+      "chi_local_mass_failure": null,
+      "chi_moduli_budget_10percent": 143.57112513879622,
+      "chi_signed_chi_budget_10percent": 143.57112700733535,
+      "chi_first_stated_failure": 143.57112513879622,
+      "ordering_note": "Only positive-curvature interval searched for feedback roots.",
+      "interpretation": "Fixed-parameter coordinate extrapolation only; selected matching, no cosmic time prediction."
+    },
+    {
+      "mG_eV": 1e-06,
+      "rH": 1000000.0,
+      "sigma": 1,
+      "phase": "quadrature",
+      "chi_start": 139.79424666735443,
+      "chi_search_end": 219.79424666735443,
+      "chi_local_mass_failure": null,
+      "chi_moduli_budget_10percent": 143.57110792112297,
+      "chi_signed_chi_budget_10percent": 143.57112700733535,
+      "chi_first_stated_failure": 143.57110792112297,
+      "ordering_note": "Only positive-curvature interval searched for feedback roots.",
+      "interpretation": "Fixed-parameter coordinate extrapolation only; selected matching, no cosmic time prediction."
+    }
+  ],
+  "grid_pass_counts": {
+    "zero": 1300,
+    "quadrature": 1300
+  },
+  "source_hashes": {
+    "experiments/persistent_restoration_v01/code/run_restoration.py": "fbf753dba00539f8d0b5048e8c832bfa404945d9ba16af7da11948012fe037db",
+    "experiments/persistent_restoration_v01/protocol.md": "2a969b762c1ae7867ba27198b749c967440129c15593e51cb560f28bee0ffa07",
+    "experiments/sugra_shift_v01/results/inputs.json": "3873a793e9ae7a2bdb6ac9eba939754c09f10935e1bb508148ac58a739ea1281",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+  },
+  "scope": [
+    "The tiny positive tau is an unfixed input, not a derived naturalness result.",
+    "Persistent transverse restoration does not remove the selected quantum clock slope.",
+    "Only declared local conditions and finite matching sectors; no physical time extrapolation."
+  ]
+}

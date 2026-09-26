@@ -1,0 +1,2350 @@
+{
+  "created_utc": "2026-09-26T04:05:15.995512+00:00",
+  "manifest_sha256": "3b6394f7fcabeecc762d71dc350da46918deb04448329c89f487eddc1fc8e833",
+  "audit_script_sha256": "6120456a38ecc0eee5a10a5f3c0a6546f3b04006ca4d03f7fc89df08de3ac449",
+  "passed": 468,
+  "total": 468,
+  "checks": [
+    {
+      "name": "hash:README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/pm_matched_scale_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/manuscript_cn_body_review_20260923.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/repository_portability.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/clock_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sequestering_test_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sequestering_test_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/protected_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/charged_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/00_introduction.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/01_system_anomaly.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/02_source_code.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/03_cosmic_lockstep.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/05_observational_evidence.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/06_predictions_interpretations.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/07_engine_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/08_simulation_case_studies.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/chapters/09_conclusion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/acknowledgments.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter00_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter01_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter02_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter03_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter04_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter05_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter06_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter07_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter08_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/notes/chapter09_alignment.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/cosmic_bridge_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_cn/figures/chapter04_cosmic_bridge_cn.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/chapter04_timeline_sources/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/chapter04_inflation_feasibility.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:manuscript_v01/references.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/figures/arithmetic_primary_comparison.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/arithmetic_residual_v01/figures/arithmetic_response_and_controls.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/figures/log_clock_response.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/figures/micro_macro_evolution.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/micro_macro_v01/figures/micro_macro_convergence.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/figures/background_completion.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/reports/numerical_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/action_completion_v02/reports/independent_background_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_derivation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_independent_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/action_completion_v02_sources.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:draft_v01/variables_and_claims_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/minimal_dynamics_v01_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/alpha_interface_v01_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/sources_v01_audit.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/reports/recovery_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:experiments/alpha_recovery_v01/figures/captions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:chapters/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/first_reading_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/prior_projects_evidence.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/foundations_first_pass.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/conversion_notes_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/conversion_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:ori_paper/merged_document_v2_with_latex.docx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:README.md:reports/minimal_dynamics_v01_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sequestering_test_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/log_clock_coupling_v01/reports/arithmetic_bridge_status.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/arithmetic_residual_v01/reports/source_inventory.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/03_chapter_02_source_code.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/04_chapter_03_cosmic_lockstep.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/05_chapter_04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/07_chapter_06_predictions_interpretations.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/08_chapter_07_engine_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:chapters/09_chapter_08_simulation_case_studies.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/micro_macro_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/cosmic_bridge_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/halo_cooling_v01/reports/pm_next_stage_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/charged_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/protected_threshold_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/gauge_matching_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/hidden_transfer_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/gauge_leakage_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:reports/noscale_stabilization_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sequestering_test_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/sequestering_test_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/clock_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:RESEARCH_DIRECTION.md:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:WORK_PLAN.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/paper.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_cn/chapters/04_mathematical_framework.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/macro_laws_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/chapter04_timeline_sources/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/chapter04_inflation_feasibility.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/manuscript_cn_body_review_20260923.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_v01/paper.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:manuscript_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v01/minimal_framework_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v01/variables_and_claims_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/minimal_dynamics_v01_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/alpha_recovery_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v02/action_framework_v02.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/action_completion_v02/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/micro_macro_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v03/micro_macro_bridge_v03.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v04/log_clock_bridge_v04.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/log_clock_coupling_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/arithmetic_residual_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sequestering_test_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sequestering_test_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sequestering_test_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/eft_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/noscale_protection_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/hidden_transfer_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/hidden_transfer_theory_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/hidden_transfer_independent_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/gauge_leakage_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/gauge_matching_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/protected_threshold_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/sugra_shift_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/charged_threshold_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:reports/constant_clock_bridge_20260925/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/pm_matched_scale_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/pm_matched_scale_v01/reports/gas_interface_next_design.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:draft_v05/arithmetic_response_v05.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:experiments/clock_stabilization_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:WORK_PLAN.md:RESEARCH_DIRECTION.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/clock_stabilization_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/clock_stabilization_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:figures/persistent_window.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:figures/persistent_future_limit.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:../../reports/persistent_current_geometry_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:../../reports/persistent_charged_loop_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:../../reports/persistent_current_sources_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:../../reports/persistent_current_geometry_20260926_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:materials_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/README.md:results/archive_audit.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/code/audit_archive.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/code/audit_archive.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/code/plot_results.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/code/plot_results.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/code/run_restoration.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/code/run_restoration.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/figures/persistent_future_limit.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/figures/persistent_future_limit.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/figures/persistent_future_limit.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/figures/persistent_future_limit.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/figures/persistent_window.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/figures/persistent_window.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/figures/persistent_window.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/figures/persistent_window.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/logs/independent_final_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/logs/independent_final_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/logs/independent_first_comparison.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/logs/independent_first_comparison.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/logs/independent_initial_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/logs/independent_initial_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/logs/independent_precision_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/logs/independent_precision_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/logs/independent_refined_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/logs/independent_refined_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/logs/main_refined_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/logs/main_refined_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/logs/main_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/logs/main_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/logs/plot_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/logs/plot_run.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/reports/independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/independent_results_cn.md:../protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/independent_results_cn.md:../results/independent_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/independent_results_cn.md:../code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/independent_results_cn.md:../results/independent_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/independent_results_cn.md:../results/independent_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/independent_results_cn.md:../results/independent_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/independent_results_cn.md:../results/independent_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/reports/results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/results_cn.md:../protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/results_cn.md:../figures/persistent_window.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/results_cn.md:../figures/persistent_future_limit.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/results_cn.md:independent_results_cn.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/results_cn.md:../../../reports/persistent_current_geometry_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/results_cn.md:../../../reports/persistent_charged_loop_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/results_cn.md:../../../reports/persistent_current_sources_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:experiments/persistent_restoration_v01/reports/results_cn.md:../../../reports/persistent_current_geometry_20260926_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/future_curves.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/future_curves.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/future_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/future_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_initial_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_initial_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_initial_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_initial_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_initial_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_initial_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_initial_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_initial_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_intermediate_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_intermediate_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_intermediate_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_intermediate_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_intermediate_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_intermediate_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_intermediate_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_intermediate_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/independent_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/independent_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/initial_future_domain_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/initial_future_domain_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/initial_future_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/initial_future_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/scan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/scan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/persistent_restoration_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/persistent_restoration_v01/results/summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/sequestering_test_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/sequestering_test_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_charged_loop_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_charged_loop_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_charged_loop_20260926.md:../experiments/clock_stabilization_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_charged_loop_20260926.md:../experiments/clock_stabilization_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_charged_loop_20260926.md:persistent_charged_loop_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_charged_loop_20260926.md:persistent_charged_loop_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_charged_loop_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_charged_loop_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_charged_loop_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_charged_loop_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_geometry_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_geometry_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_geometry_20260926.md:../experiments/clock_stabilization_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_geometry_20260926.md:clock_quartic_geometry_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_geometry_20260926.md:persistent_current_geometry_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_geometry_20260926.md:persistent_current_geometry_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_geometry_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_geometry_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_geometry_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_geometry_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_geometry_20260926_review.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_geometry_20260926_review.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_geometry_20260926_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_geometry_20260926_review.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_geometry_20260926_review.md:../experiments/persistent_restoration_v01/code/run_restoration.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_geometry_20260926_review.md:../experiments/persistent_restoration_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_geometry_20260926_review.md:persistent_current_geometry_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_geometry_20260926_review.md:persistent_current_geometry_20260926_review.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_sources_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_sources_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_sources_20260926.md:clock_stabilizer_sources_20260926.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_sources_20260926.md:protection_symmetry_20260925.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_sources_20260926.md:persistent_current_sources_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_sources_20260926.md:persistent_current_sources_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link:reports/persistent_current_sources_20260926.md:persistent_current_sources_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_sources_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_sources_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_sources_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_sources_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hash:reports/persistent_current_sources_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bytes:reports/persistent_current_sources_20260926_sources.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory_complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline_record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_individual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_hash:experiments/persistent_restoration_v01/code/run_restoration.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_hash:experiments/persistent_restoration_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_hash:experiments/sugra_shift_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_hash:experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_summary_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_summary_individual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_summary_hash:experiments/persistent_restoration_v01/code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_summary_hash:experiments/persistent_restoration_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_summary_hash:experiments/sequestering_test_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_summary_hash:experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_individual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_hash:experiments/persistent_restoration_v01/results/scan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_hash:experiments/persistent_restoration_v01/results/representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_hash:experiments/persistent_restoration_v01/results/future_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_hash:experiments/persistent_restoration_v01/code/independent_check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_hash:experiments/persistent_restoration_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_hash:experiments/sequestering_test_v01/results/inputs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_comparison_hash:experiments/sugra_shift_v01/results/trajectories.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_precisions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_high_precision_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_output_classification_or_missing_value_differences",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_current_geometry_20260926_checks_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_current_geometry_20260926_checks_individual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_current_geometry_20260926_checks_script_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_charged_loop_20260926_checks_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_charged_loop_20260926_checks_individual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_charged_loop_20260926_checks_script_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_charged_loop_20260926_checks_input_hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_current_sources_20260926_checks_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent_current_sources_20260926_checks_individual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "implementation_review_read_hash:experiments/persistent_restoration_v01/code/run_restoration.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "implementation_review_read_hash:experiments/persistent_restoration_v01/protocol.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "implementation_review_read_hash:reports/persistent_current_geometry_20260926_checks.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "implementation_review_read_hash:reports/persistent_current_geometry_20260926_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "review_keeps_original_checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "review_no_earlier_field_distance_failure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rows:scan.csv",
+      "passed": true,
+      "detail": "3922"
+    },
+    {
+      "name": "rows:representatives.csv",
+      "passed": true,
+      "detail": "54"
+    },
+    {
+      "name": "rows:future_limits.csv",
+      "passed": true,
+      "detail": "8"
+    },
+    {
+      "name": "rows:future_curves.csv",
+      "passed": true,
+      "detail": "2404"
+    },
+    {
+      "name": "rows:independent_high_precision.csv",
+      "passed": true,
+      "detail": "144"
+    },
+    {
+      "name": "rows:independent_representatives.csv",
+      "passed": true,
+      "detail": "108"
+    },
+    {
+      "name": "rows:independent_future.csv",
+      "passed": true,
+      "detail": "24"
+    },
+    {
+      "name": "LF:independent_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:independent_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:independent_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:independent_initial_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:independent_initial_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:independent_initial_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:independent_intermediate_high_precision.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:independent_intermediate_representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:independent_intermediate_future.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:scan.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:representatives.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:future_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:future_curves.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LF:initial_future_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "failure_preserved:independent_initial_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "failure_preserved:independent_intermediate_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "initial_main_version_preserved:initial_future_domain_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "initial_main_version_preserved:initial_future_limits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure:persistent_window.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure:persistent_window.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure:persistent_future_limit.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure:persistent_future_limit.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "historical_experiments_and_manuscript_unchanged",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "scope": "Material consistency, local links and recorded verification only; no scientific certification."
+}

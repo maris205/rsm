@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-09-26T03:41:26.784182+00:00",
+  "scope": "Bounded primary-source and own-algebra audit; no systematic review, complete loop matching, external peer review or naturalness proof",
+  "sources": [
+    {
+      "id": "1009.0668",
+      "url": "https://arxiv.org/html/1009.0668",
+      "version": "v2",
+      "cache": "build/clock_stabilizer_sources/1009.0668.html",
+      "sha256": "ad86fb7d0323231e95a753b27bc36d061c03f4307c10521288a9411f5eba70e2",
+      "bytes": 451048,
+      "cached_sha256_verified_this_turn": true,
+      "prior_source_manifest": "reports/clock_stabilizer_sources_20260926_sources.json",
+      "read_scope_this_turn": "§3.2–3.3, Eqs. 3.33, 3.38, 3.41–3.43; §4 Eqs. 4.1–4.4 and text distinguishing average sGoldstino positivity from general scalar/soft mass signs",
+      "permitted_claim": "General heavy-vector curvature matching and visible-hidden soft correlation, not the numerical tau or sigma of this model",
+      "browsed_primary_html_again": true,
+      "full_paper_read_claimed": false
+    },
+    {
+      "id": "0904.0370",
+      "url": "https://arxiv.org/html/0904.0370",
+      "version": "v2",
+      "cache": "build/clock_stabilizer_sources/0904.0370.html",
+      "sha256": "0033835c15644586ec7bcdc5c59513c951c2fc165653b14409f8ac0f8afc5453",
+      "bytes": 368223,
+      "cached_sha256_verified_this_turn": true,
+      "prior_source_manifest": "reports/clock_stabilizer_sources_20260926_sources.json",
+      "read_scope_this_turn": "§4 Eqs. 4.5–4.8; §5 Eqs. 5.1–5.3; §6 sufficient low-energy, auxiliary and gravitino hierarchy",
+      "permitted_claim": "Approximate heavy-superfield elimination and physical validity requirements; no computed full spectrum here",
+      "browsed_primary_html_again": true,
+      "full_paper_read_claimed": false
+    },
+    {
+      "id": "hep-th/0305184",
+      "url": "https://arxiv.org/html/hep-th/0305184",
+      "version": "v1",
+      "cache": "build/protection_5d_sources/hep-th_0305184.html",
+      "sha256": "00a929809370632faf3ff20cfc51807458375bc55dc9b290bcbf9ebbb37daf87",
+      "bytes": 1053096,
+      "cached_sha256_verified_this_turn": true,
+      "prior_source_manifest": "reports/protection_5d_20260925_sources.json",
+      "read_scope_this_turn": "§2.1–2.2 Eqs. 2.1–2.4, reference to finite coefficient carried over from prior verified derivation; §3 text before Eq. 3.7 on radion zero mode versus local 5D field and boundary action",
+      "permitted_claim": "5D locality, permitted perturbative radion dependence, remaining local counterterms; no arbitrary positive persistent tau from known finite loop",
+      "browsed_primary_html_again": true,
+      "full_paper_read_claimed": false
+    },
+    {
+      "id": "hep-th_0105137",
+      "url": "https://arxiv.org/html/hep-th/0105137",
+      "cache": "build/protection_symmetry_sources/hep-th_0105137.html",
+      "sha256": "57fb4cc4578cf61f5104712162bb2ee9d8784cbe79edd6b320da81322b45225f",
+      "bytes": 210409,
+      "cached_sha256_verified_this_turn": true,
+      "prior_source_manifest": "reports/protection_symmetry_20260925_sources.json",
+      "read_scope_this_turn": "§2 Eqs. 2.1–2.10 and discussion of conformal suppression and conserved-current exception",
+      "permitted_claim": "Conformal sequestering as a distinct additional model, not an inherited suppression factor",
+      "browsed_primary_html_again": true,
+      "full_paper_read_claimed": false
+    }
+  ],
+  "internal_prior_derivations": [
+    {
+      "path": "reports/protection_symmetry_20260925.md",
+      "scope": "Explicit ordinary/Heisenberg symmetry tests already archived; no claims of all possible UV symmetries"
+    },
+    {
+      "path": "reports/protection_5d_20260925.md",
+      "scope": "RSS coefficient normalization and conditional extension to shift-clock K; no double counting"
+    },
+    {
+      "path": "reports/clock_stabilizer_sources_20260926.md",
+      "scope": "Canonical Stueckelberg field/mass convention and two-current parent matching"
+    }
+  ],
+  "own_derivations": [
+    "Single-current rank-one matrix and all cross/self terms",
+    "Canonical local mass increments, holomorphic Hessian and hidden-modulus mixed quartic",
+    "Bookkeeping representation of existing negative RSS mass; not a new Wilson coefficient",
+    "Existing symmetry candidates fail to fix sigma or the independent tree/loop ratio tau/A",
+    "Conditional algebraic threshold-tail versus exponential clock-force asymptotics"
+  ],
+  "unknowns_preserved": [
+    "Origin, sign and magnitude of new tau and sigma",
+    "Full heavy multiplet spectrum and loop matching",
+    "Finite local counterterms and mixed sectors",
+    "Full rolling-background and late-time cosmological solution",
+    "Riemann structure to real interactions and inverse-log squared exponent"
+  ],
+  "human_read_status": "No author full-read attestation. AI-assisted bounded selected-section reading and internal algebraic review only.",
+  "retrieval_errors_this_turn": []
+}

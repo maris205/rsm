@@ -1,0 +1,267 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "tau",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "A",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "source_c",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "persistent_soft_coefficient",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "formal_net_c",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "min_my2_eV2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "min_transverse_schur_eV2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "clockoff_my2_leading_eV2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "max_radial_mass_eV",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "source_CW_force_ratio",
+      "max_normalized_error": 1.14760941021373e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "persistent_CW_force_ratio",
+      "max_normalized_error": 1.1616267537729067e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "clock_contact_CW_force_ratio",
+      "max_normalized_error": 4.280230908707383e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "contact_Btree_force_ratio",
+      "max_normalized_error": 1.1716262392983057e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "contact_B5d_force_ratio",
+      "max_normalized_error": 1.1436369053290147e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "selected_signed_axis_ratio",
+      "max_normalized_error": 1.163365091891362e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "selected_signed_chi_ratio",
+      "max_normalized_error": 1.163365091891362e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "selected_axis_moduli_sum",
+      "max_normalized_error": 1.1552733645791497e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "selected_feedback_sum_ratio",
+      "max_normalized_error": 1.1552733645791497e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "quadratic_valley_force_ratio",
+      "max_normalized_error": 1.0441572770400017e-15,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "max_valley_energy_over_U",
+      "max_normalized_error": 2.556381455352409e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "valley_boundary_fraction",
+      "max_normalized_error": 6.096216349756144e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "FT_over_MV2",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "max_hierarchy_ratio",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "max_coupling_loop_parameter",
+      "max_normalized_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "max_soft_over_charged_mass2",
+      "max_normalized_error": 1.445431428804449e-15,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "first_future_failure_chi",
+      "maximum_absolute_error": 5.968558980384842e-13,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "classification_and_missing_value_agreement",
+      "difference_count": 0,
+      "passed": true
+    }
+  ],
+  "checks_passed": 27,
+  "checks_total": 27,
+  "row_counts": {
+    "scan.csv": 3922,
+    "representatives.csv": 54,
+    "future_limits.csv": 8
+  },
+  "maximum_normalized_error": 1.1716262392983057e-14,
+  "maximum_future_chi_error": 5.968558980384842e-13,
+  "differences": [],
+  "worst": {
+    "source_CW_force_ratio": {
+      "file": "scan.csv",
+      "row": 2544,
+      "expected": 4.223354530332092e-11,
+      "got": 4.223354530332043e-11
+    },
+    "persistent_CW_force_ratio": {
+      "file": "scan.csv",
+      "row": 1817,
+      "expected": 3.755152201292083e-12,
+      "got": 3.755152201292039e-12
+    },
+    "clock_contact_CW_force_ratio": {
+      "file": "scan.csv",
+      "row": 0,
+      "expected": 0.0002533045986560875,
+      "got": 0.0002533045986560874
+    },
+    "selected_signed_axis_ratio": {
+      "file": "scan.csv",
+      "row": 2590,
+      "expected": 0.6680242708453061,
+      "got": 0.6680242708452984
+    },
+    "selected_signed_chi_ratio": {
+      "file": "scan.csv",
+      "row": 2590,
+      "expected": 0.6680242708453061,
+      "got": 0.6680242708452984
+    },
+    "selected_axis_moduli_sum": {
+      "file": "scan.csv",
+      "row": 2588,
+      "expected": 0.21142101333437308,
+      "got": 0.21142101333437063
+    },
+    "selected_feedback_sum_ratio": {
+      "file": "scan.csv",
+      "row": 2588,
+      "expected": 0.21142101333437308,
+      "got": 0.21142101333437063
+    },
+    "max_soft_over_charged_mass2": {
+      "file": "scan.csv",
+      "row": 3715,
+      "expected": 1.8354595916870294e-59,
+      "got": 1.835459591687032e-59
+    },
+    "contact_Btree_force_ratio": {
+      "file": "scan.csv",
+      "row": 2915,
+      "expected": 1.1533966994729873e-33,
+      "got": 1.1533966994729737e-33
+    },
+    "contact_B5d_force_ratio": {
+      "file": "scan.csv",
+      "row": 477,
+      "expected": 1.1919444343480164e-13,
+      "got": 1.1919444343480027e-13
+    },
+    "quadratic_valley_force_ratio": {
+      "file": "scan.csv",
+      "row": 1977,
+      "expected": 3.5152594766703463e-40,
+      "got": 3.51525947667035e-40
+    },
+    "max_valley_energy_over_U": {
+      "file": "scan.csv",
+      "row": 1789,
+      "expected": 1.276277539554241e-39,
+      "got": 1.2762775395542407e-39
+    },
+    "valley_boundary_fraction": {
+      "file": "scan.csv",
+      "row": 597,
+      "expected": 4.627766273561372e-22,
+      "got": 4.627766273561369e-22
+    }
+  },
+  "hashes": {
+    "experiments/persistent_restoration_v01/results/scan.csv": "faee96866090d5f293dd9dc71525a0edf1f43558d871e3eba457821c886e0af8",
+    "experiments/persistent_restoration_v01/results/representatives.csv": "f532f074216053a717f9a38712566d266952cf13ddc427dfb03f21394aed09e3",
+    "experiments/persistent_restoration_v01/results/future_limits.csv": "0f7736275c209266bcab789140ec572cb886c01af979baa8ce4be0e76998cc49",
+    "experiments/persistent_restoration_v01/code/independent_check.py": "4f60482ffadafceb62bcb7db4252ea84b11c9d3423791c9d62d556266307ef4a",
+    "experiments/persistent_restoration_v01/protocol.md": "2a969b762c1ae7867ba27198b749c967440129c15593e51cb560f28bee0ffa07",
+    "experiments/sequestering_test_v01/results/inputs.json": "b8e64481a02d792e1115be91fc519fc944e5465d7acf5867f18218917514de77",
+    "experiments/sugra_shift_v01/results/trajectories.csv": "fc54e4251dd4b487cc36bd25bf32c71dea66f17e43f1d3d7b8067b9105d2ff39"
+  },
+  "scope": "Independent formulas; main outputs read solely for comparison, no main source read or imported.",
+  "utc": "2026-09-26T03:57:14.479581+00:00"
+}

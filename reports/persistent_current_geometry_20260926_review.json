@@ -1,0 +1,42 @@
+{
+  "scope": "Bounded adversarial implementation review, not whole-output recomputation",
+  "review_date": "2026-09-26",
+  "read_sha256": {
+    "experiments/persistent_restoration_v01/code/run_restoration.py": "fbf753dba00539f8d0b5048e8c832bfa404945d9ba16af7da11948012fe037db",
+    "experiments/persistent_restoration_v01/protocol.md": "2a969b762c1ae7867ba27198b749c967440129c15593e51cb560f28bee0ffa07",
+    "reports/persistent_current_geometry_20260926_checks.py": "26c144c2724f7e0d2331fb03b6884b986d8705f1e43a91394e3e5b2d3b4a6e81",
+    "reports/persistent_current_geometry_20260926_checks.json": "05351b6205c5a55ed4c4823ca836bf87c3a604d40809720867b5b2d3cc4b61e6"
+  },
+  "findings": {
+    "leading_mass_soft_and_mixing": "consistent with declared frozen local model",
+    "frozen_soft_y_split": "consistent at declared near-center order",
+    "formal_second_order_residual": "not physical matching; exact reference normalization changes -21A^2 to -57A^2 in source soft coefficient",
+    "known_omitted_vacuum_soft": "2rho/(3P) exceeds formal A^2 residual at representative point; signed far tail is selected-sector only",
+    "future_domain": "positive-curvature search and unresolved boundary note appropriate"
+  },
+  "checks": {
+    "symbolic_effective_c_coefficients": [
+      12,
+      -57
+    ],
+    "symbolic_source_mass_coefficients": [
+      -24,
+      132
+    ],
+    "future_rH_values": [
+      0,
+      2,
+      4,
+      1000000.0
+    ],
+    "future_phases": [
+      "zero",
+      "quadrature"
+    ],
+    "additional_field_fraction_roots_before_valid_search_stop": 0,
+    "original_scientific_check_count": 559,
+    "original_scientific_passed": 559
+  },
+  "changes_to_main_or_original_checks": false,
+  "external_sources": "No additional external scientific claim; explicit model algebra and local implementation review."
+}

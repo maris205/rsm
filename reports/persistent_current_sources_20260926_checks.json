@@ -1,0 +1,254 @@
+{
+  "scope": "Own local current-square algebra; no naturalness proof, complete spectrum or full loop matching",
+  "symbolic_engine": "sympy 1.14.0",
+  "passed": 47,
+  "total": 47,
+  "checks": [
+    {
+      "name": "hidden_metric_jet",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "mass_chi",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "mass_y",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "mass_xr",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "mass_xi",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "mass_qr",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "mass_qi",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "clock_Hermitian",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "clock_holomorphic",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "charged_clock_correlation",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "hidden_clock_correlation",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "rank_one_minor_0_1",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "rank_one_minor_0_2",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "rank_one_minor_1_2",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "rank_one_cross_relation",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "rank_one_det",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "nonzero_eigenvalue_trace",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "matrix_current_square",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_0_z",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_0_zb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_0_x",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_0_xb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_0_q",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_0_qb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_1_z",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_1_zb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_1_x",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_1_xb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_1_q",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_1_qb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_2_z",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_2_zb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_2_x",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_2_xb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_2_q",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_2_qb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_3_z",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_3_zb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_3_x",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_3_xb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_3_q",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "lower_jet_3_qb",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "radion_mixed_quartic",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "radion_full_quartic_mass_real",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "radion_full_quartic_mass_imag",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "RSS_bookkeeping_sign",
+      "passed": true,
+      "remainder": "0"
+    },
+    {
+      "name": "leading_positive_tau_threshold",
+      "passed": true,
+      "remainder": "0"
+    }
+  ],
+  "illustrative_numbers": {
+    "Mp_eV": 2.435e+27,
+    "Lambda_eV": 1000000000000.0,
+    "mKK_eV": 100000000000000.0,
+    "C5": 0.0002570894757699417,
+    "A": 4.335970987269697e-31,
+    "tau_leading_stability_threshold_ignoring_rho": 1.4625759647406522e-61,
+    "tau_RSS_mass_reparameterization_not_new_match": -1.4625759647406522e-61,
+    "FX_over_MV2_at_mG_1e_minus_6_eV": 0.004217543716430215
+  },
+  "independent_review": "A separate internal agent independently derived masses, rank-one identities, holomorphic Hessian and local SUGRA scope without importing this script."
+}
