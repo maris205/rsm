@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-26",
+  "baseline_git_commit": "ed48d04505da8f0d1c9dc0e08d674df97f36053f",
+  "material_type": "Synthesis of already archived conditional theoretical and deterministic numerical results; no new experiments.",
+  "question": "Which macroscopic effective laws follow from the declared autonomous nonlinear lattice and clock, and what is enough to close this manuscript version?",
+  "author_direction": "User explicitly asked to converge on deriving some macroscopic physics from microscopic dynamics.",
+  "source_policy": "Local primary project materials only; no new external citation, novelty search or human-read attestation.",
+  "authorship": "AI-assisted synthesis and separate shared-context same-family reviewers; not external peer review.",
+  "review_scope": "Core equations, assumption scopes and quoted archive results; no venue-readiness certification.",
+  "checks_this_turn": {
+    "all_spatial_rows_checked": 3,
+    "empirical_spatial_orders": [
+      2.0000867880784594,
+      2.0000248675760397
+    ],
+    "historical_precision_failure_retained": true,
+    "historical_experiments_and_86page_manuscript_unchanged": true
+  },
+  "claims": [
+    {
+      "claim": "Long-wave field and finite-spacing dispersion",
+      "support": "Core Eqs3-5, original micro_macro and log_clock derivations/results",
+      "limit": "Operator consistency plus specified finite-window convergence; not a general PDE theorem."
+    },
+    {
+      "claim": "Region energy and reciprocal clock exchange",
+      "support": "Core Eqs6-8, macro_laws algebra and log_clock numerical energy accounting",
+      "limit": "Exact continuous-time lattice equations; finite-step integrator not exactly energy conserving."
+    },
+    {
+      "claim": "Continuum momentum conservation",
+      "support": "Core Eq9, original chapter4.12d and macro_laws symbolic result",
+      "limit": "Spatially uniform clock and continuum translation; not identical finite-lattice momentum."
+    },
+    {
+      "claim": "Preserved inverse-log-square tail",
+      "support": "Core Eqs10-11, derivation_and_limits Eq24a-e",
+      "limit": "Fixed finite positive-energy lattice; chosen exponent not dynamically selected."
+    },
+    {
+      "claim": "Optional radiationlike pressure",
+      "support": "macro_laws conservation report and chapter4.12e",
+      "limit": "Separate 3D massless linear isotropic phase-averaged limit; not the positive-mass theorem branch."
+    }
+  ],
+  "files": [
+    {
+      "path": "draft_v04/log_clock_bridge_v04.md",
+      "sha256": "d39b813282f2257a6b6114b9481e062daa84bbf156690de7dcc14d07a3d30ddd",
+      "read_scope": "Model definition, conditional theorem and numerical example; full text."
+    },
+    {
+      "path": "experiments/log_clock_coupling_v01/reports/derivation_and_limits.md",
+      "sha256": "fdfa3742e536ac01c433273026b0948bde5eab0a5fea464755eef41ad6b55bc3",
+      "read_scope": "Sections1-4, weak-feedback conclusion, late-time proof Eq24a-e and continuum Eq25-26."
+    },
+    {
+      "path": "experiments/log_clock_coupling_v01/reports/results_cn.md",
+      "sha256": "4a2da6e922f7cd518443b3e97f6c0c971e07ef314c67444a3e75f9dc792ec3ef",
+      "read_scope": "Full result report: normalization, feedback, energy, convergence and limits."
+    },
+    {
+      "path": "experiments/log_clock_coupling_v01/results/comparison_summary.json",
+      "sha256": "3632a84064e36ad84dfd611383a53f868e501745615ebedbf1ca1a713af68cd1",
+      "read_scope": "Archived comparison values and scope, read by collaborating reviewer; no numerical rerun."
+    },
+    {
+      "path": "experiments/log_clock_coupling_v01/results/comparison_spatial.csv",
+      "sha256": "3a56254ab56320ec094092be2f0849acb3778dc45dac6c64c6b3f4a9cbbb9e65",
+      "read_scope": "All3 rows checked against quoted table; empirical orders recomputed."
+    },
+    {
+      "path": "experiments/log_clock_coupling_v01/results/comparison_time.csv",
+      "sha256": "98225505235935637c59063ec1bf2a31395b48a111cb2633ed9e7e09a8a61a92",
+      "read_scope": "All4 rows checked against quoted final error and order."
+    },
+    {
+      "path": "experiments/log_clock_coupling_v01/figures/log_clock_field_bridge.png",
+      "sha256": "f6e563f15f62f4429cd137a306dfe1b70984413a6a8b9aa6f70a61170fa4d5f6",
+      "read_scope": "Reused unchanged; visually inspected this turn."
+    },
+    {
+      "path": "experiments/micro_macro_v01/reports/results_cn.md",
+      "sha256": "b4dd18dae7e9b89c8943a3cc70c3cb607a39ac0cad63901b9a8dc74a8b7333c4",
+      "read_scope": "Full report including nonlinear convergence and retained precision failure."
+    },
+    {
+      "path": "experiments/micro_macro_v01/results/reference_precision_audit.json",
+      "sha256": "e72478afae67e365316b5eb6f62ea9ffb99c3ec8a0e592a179e119dde1c64a47",
+      "read_scope": "Archived all_checks_passed=false and precision diagnostics; no rerun."
+    },
+    {
+      "path": "experiments/macro_laws_v01/README.md",
+      "sha256": "f3146f75bc8fdc8d1f8c07dae559d3f575893ea7996c5ca0b3debeea1efdc6f9",
+      "read_scope": "Full result and model-separation summary."
+    },
+    {
+      "path": "experiments/macro_laws_v01/reports/conservation_checks_cn.md",
+      "sha256": "8ac4d30a9f7fd42efa2c703c25ff8855c15dc27dd8ca7dd345284842927ce6b9",
+      "read_scope": "Local/region energy, momentum, isotropic stress and counterexample, read by collaborating reviewer."
+    },
+    {
+      "path": "experiments/macro_laws_v01/results/conservation_checks.json",
+      "sha256": "89c82ae6be2c6c581af4d6f1a0836d623f2ffa3884e6114a284219d99c157608",
+      "read_scope": "Archived algebraic and finite-state results, read by collaborating reviewer."
+    },
+    {
+      "path": "manuscript_cn/chapters/04_mathematical_framework.md",
+      "sha256": "8bea8651f18acf8a11b71ad83c084cbd9da0af92333a3b054bdc3d45571bb92d",
+      "read_scope": "Sections4.1 and4.2 through dispersion and conservation/pressure formulas."
+    },
+    {
+      "path": "draft_v05/arithmetic_response_v05.md",
+      "sha256": "d1c0c7f756a63447144162a4f6f409bcb51dbdc737a28bb22daf414ccaa8eacf",
+      "read_scope": "Full arithmetic-input report including non-detection and matching limitations."
+    },
+    {
+      "path": "experiments/light_modulus_v01/reports/results_cn.md",
+      "sha256": "4fe280151272a2b5b557a2b4e3f85c17a2722aa637c1ac5064af1f5cf95ff321",
+      "read_scope": "Prior turn completed/verified result; used only as separate interface restriction."
+    }
+  ],
+  "core_artifact": {
+    "path": "reports/micro_macro_core_20260926.md",
+    "sha256": "3fd46819b4cb1dea0058cc9eeb1081a39d48de0a56a7f5f8c4b3b3470542cad3"
+  },
+  "next_bounded_delivery": "Align existing chapter4/abstract/conclusion with core, preserve chapter design, then one consistency review and export."
+}
